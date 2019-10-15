@@ -91,13 +91,13 @@ Link no valor empenhado, valor liquidado e valor pago. Os demais níveis deverã
 
 Campo Razão Social do Credor: Nesse campo deverá ser exibido o nome do favorecido e CPF descaracterizado conforme regra mencionada acima.
 
-![Empenho da Despesa](empenho_despesa.png)
+![Empenho da Despesa](static/empenho_despesa.png)
 
 *- Liquidação e Pagamento*
 
 Campo CNPJ/CPF e Descrição do Favorecido: Deverá ser exibido o nome do favorecido e CPF descaracterizado conforme regra mencionada acima.
 
-![Liquidação e Pagamento](liquidacao_pagamento.png)
+![Liquidação e Pagamento](static/liquidacao_pagamento.png)
 
 
 
@@ -239,10 +239,10 @@ Link no número do empenhado.
 
 Campo Razão Social do Credor: Deverá ser exibido o nome do favorecido e CPF descaracterizado conforme regra mencionada acima.
 
-![Empenho da Despesa](empenho_despesa.png)
+![Empenho da Despesa](static/empenho_despesa.png)
 
 *Liquidação e Pagamento*:
 
 Campo CNPJ/CPF e Descrição do Favorecido: Deverá ser exibido o nome do favorecido e CPF descaracterizado conforme regra mencionada acima.
 
-![Liquidação e Pagamento](liquidacao_pagamento.png)
+![Liquidação e Pagamento](static/liquidacao_pagamento.png)
