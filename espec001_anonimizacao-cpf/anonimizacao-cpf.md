@@ -46,8 +46,6 @@ Dúvidas???
 Grupo 3 / Elemento: OUTROS SERVICOS DE TERCEIROS - PESSOA FISICA / Item de despesa: Estagiários????
 Grupo 3 / Elemento 13: Obrigações Patronais / Item: INSS – Demais Despesas
 
-
-
 #### Consulta por Órgão
 
 * 1º nível (Filtro Órgão) - Não haverá alteração
@@ -58,11 +56,11 @@ Grupo 3 / Elemento 13: Obrigações Patronais / Item: INSS – Demais Despesas
 
 Ao clicar no ___Elemento de despesa___ listados no item 5, o Portal exibirá um gráfico treemap e uma tabela. O cidadão poderá navegar pelos níveis de detalhamento tanto no gráfico quanto na tabela.
 
-  ###### Dados da tabela:
+###### Dados da tabela:
 |Favorecido| CNPJ/CPF | Item de despesa | Valor Empenhado |Valor Liquidado| Valor Pago|
 |---------|--------|---------------|-----------|----------|---------|
 
-  ##### Regras para anonimização:
+##### Regras para anonimização:
 
  __Campo Favorecido__ Exibir apenas as iniciais do nome do favorecido.
 
@@ -78,10 +76,7 @@ Ao clicar no ___Elemento de despesa___ listados no item 5, o Portal exibirá um 
 |---------:|:--------:|:---------------:|:-----------:|:----------:|:---------|
 |C.G.C|** .659.616-**|Auxílio Reclusão| 10.000,00|10.000,00|10.000,00|
 
-
-___OBSERVAÇÃO: Os dados só serão ocultados quando se tratar de favorecido pessoal física.___
-
-* 5º nível (Formulário de Detalhamento): Os campos listados abaixo do formulário de detalhamento deverão seguir as regras descritas acima.
+* 5º nível (Formulário de Detalhamento): Os campos do formulário de detalhamento deverão seguir as regras descritas acima.
 
 ___Empenho da despesa:___
 
@@ -132,7 +127,6 @@ O Portal da Transparência irá listar o resultado da consulta em um gráfico tr
 * 3º nível (Filtro Item de despesa) - Não haverá alteração
 * 4º nível* (Filtro Órgão) - Não haverá alteração
 * 5º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.__.
-
 
 #### Consulta por Favorecido CPF/CNPJ
 
