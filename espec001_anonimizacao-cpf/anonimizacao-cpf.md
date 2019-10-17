@@ -3,14 +3,16 @@
 ## Contextualização
 
 A exigência de a administração pública divulgar informações consta na Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal- LRF) que foi  complementada pelo Decreto Federal n° 7.185/2010, que regulamentou os padrões mínimos de qualidade da informação e reforçou o entendimento da divulgação dos dados em sentido amplo:
-````
-“Art.7º Sem prejuízo dos direitos e garantias individuais constitucionalmente estabelecidos, o SISTEMA deverá gerar, para disponibilização em meio eletrônico que possibilite amplo acesso público, pelo menos, as seguintes informações relativas aos atos praticados pelas unidades gestoras no decorrer da execução orçamentária e financeira:
-I - quanto à despesa:
-...
-d) a pessoa física ou jurídica beneficiária do pagamento, inclusive nos desembolsos de operações independentes da execução orçamentária, exceto no caso de folha de pagamento de pessoal e de benefícios previdenciários.”
-````
 
-Nesse sentido, atualmente, o Portal da Transparência divulga nas consultas de Despesa e Restos a pagar informações completas (Nome e CPF) de todos os credores que recebem benefícios previdenciários do Estado, contrariando o Decreto em questão.
+> _“Art.7º Sem prejuízo dos direitos e garantias individuais constitucionalmente estabelecidos, o SISTEMA deverá gerar, para disponibilização em meio eletrônico que possibilite amplo acesso público, pelo menos, as seguintes informações relativas aos atos praticados pelas unidades gestoras no decorrer da execução orçamentária e financeira:_
+>
+> _I - quanto à despesa:_
+>
+>_[...]_
+>
+> _d) a pessoa física ou jurídica beneficiária do pagamento, inclusive nos desembolsos de operações independentes da execução orçamentária, exceto no caso de folha de pagamento de pessoal e de benefícios previdenciários.”_
+
+Nesse sentido, atualmente, o Portal da Transparência divulga nas consultas de Despesa e Restos a pagar informações completas (nome e CPF) de todos os credores que recebem benefícios previdenciários do Estado, contrariando o Decreto em questão.
 
 Entretanto, sua divulgação tem sido objeto de questionamentos pela sociedade. Assim, com a finalidade de atender plenamente o que determina a legislação a Diretoria Central de Transparência Ativa (DTA), unidade responsável pela gestão do Portal da Transparência, propõe a alteração da forma de exibição do dados nessas consultas.
 
@@ -18,173 +20,141 @@ Destaca-se ainda que as demais consultas, como por exemplo, convênios e remuner
 
 ## Especificação da Consulta Despesa
 
-1 - Todas as páginas da consulta deverão exibir ícones com links para compartilhar consultas no facebook e twitter.
+1. Todas as páginas da consulta deverão exibir ícones com links para compartilhar consultas no facebook e twitter.
 
-2-  Todas as páginas deverá apresentar a possibilidade de fazer download da planilha completa em csv, exportar para pdf e imprimir conforme padrão já adotado em outras consultas do Portal. Exibir cabeçalho e legenda da tabela e “migalhas” conforme padrão.
+2. Todas as páginas deverá apresentar a possibilidade de fazer download da planilha completa em csv, exportar para pdf e imprimir conforme padrão já adotado em outras consultas do Portal. Exibir cabeçalho e legenda da tabela e “migalhas” conforme padrão.
 
-3- Quando o usuário realizar o download dos dados, esses deverão ser exibidos anonimizados conforme o especificado. No entanto, a base deverá conter a informação completa.
+3. Quando o usuário realizar o download dos dados, esses deverão ser exibidos anonimizados conforme o especificado. No entanto, a base deverá conter a informação completa.
 
-4- Todos dos gráficos deverão apresentar legenda conforme o já adotado em outras consultas.
+4. Todos dos gráficos deverão apresentar legenda conforme o já adotado em outras consultas.
 
-5- A anonimização será aplicada apenas nos credores pessoas físicas que receberem valores na classificação dos elementos de despesa listados abaixo.
+5. A anonimização será aplicada apenas nos credores pessoas físicas que receberem valores na classificação dos elementos de despesa listados abaixo.
 
-*Elementos de despesa:*
+###### Elementos de despesa:
 
-|Código | Descrição|
-|-------:|:--------|
+|Código|Descrição|
+|-------|:--------|
 |01| aposentadorias do rpps, reserva remunerada e reformas dos militares|
 |03| pensões do RPPS e do militar|
 |05| Outros benefícios previdenciários do servidor militares
 |59| Pensões especiais
 |31.2|premiacoes culturais, artisticas, cientificas, desportivas e outras / prêmios lotéricos|
 
-````
 Dúvidas???
 
 Grupo 3 / Elemento: OUTROS SERVICOS DE TERCEIROS - PESSOA FISICA / Item de despesa: Estagiários????
 Grupo 3 / Elemento 13: Obrigações Patronais / Item: INSS – Demais Despesas
-````
 
 
-**Consulta por "Órgão"**
 
-•	**1º nível** (Órgão) >>  **2º nível** (função) >> **3º nível** (Elemento de Despesa)   
+#### Consulta por Órgão
 
-``Sem alterações
-``
+* 1º nível (Filtro Órgão) - Não haverá alteração
 
-•	**4º nível** (Favorecido)
+* 2º nível (Filtro Função) - Não haverá alteração
+* 3º nível (Filtro Elemento de Despesa) - Não haverá alteração
+* 4º nível (Filtro Favorecido):
 
-Ao clicar no [Elemento de despesa] listados no item 5, o Portal exibirá um gráfico treemap e uma tabela. O cidadão poderá navegar pelos níveis de detalhamento tanto no gráfico quanto na tabela.
+Ao clicar no ___Elemento de despesa___ listados no item 5, o Portal exibirá um gráfico treemap e uma tabela. O cidadão poderá navegar pelos níveis de detalhamento tanto no gráfico quanto na tabela.
 
-Dados da tabela: Favorecido, CNPJ/CPF, Item de Despesa, Valor Empenhado, Valor Liquidado, Valor Pago
-
-````
-Observações
-- Campo Favorecido: Deverá ser exibido apenas as iniciais do nome do favorecido.
-
-      Exemplo:
-      Nome do Favorecido: Cassio Gustavo de Castro
-            ==>> O Portal deverá exibir: C.G.C
-
-- Campo CPF: Deverá ocultar os 3 dos três primeiros e dos dois últimos dígitos verificadores.
-
-      Exemplo:
-      CPF do Favorecido:028.659.616.48
-            ==>> O Portal deverá exibir: ***.659.616.**
-
-
-obs: Os dados só serão ocultados quando se tratar de favorecido pessoal física.
-
-````
-
+  ###### Dados da tabela:
 |Favorecido| CNPJ/CPF | Item de despesa | Valor Empenhado |Valor Liquidado| Valor Pago|
+|---------|--------|---------------|-----------|----------|---------|
+
+  ##### Regras para anonimização:
+
+ __Campo Favorecido__ Exibir apenas as iniciais do nome do favorecido.
+
+ __Campo CPF:__ Ocultar os 3 dos três primeiros e dos dois últimos dígitos verificadores.
+
+  _Exemplo:_
+
+  ___Favorecido:___ Cassio Gustavo de Castro - CPF: 028.659.616.48
+
+  O Portal deverá exibir da seguinte forma:
+
+  |Favorecido| CNPJ/CPF | Item de despesa | Valor Empenhado |Valor Liquidado| Valor Pago|
 |---------:|:--------:|:---------------:|:-----------:|:----------:|:---------|
 |C.G.C|** .659.616-**|Auxílio Reclusão| 10.000,00|10.000,00|10.000,00|
 
 
-Link no valor empenhado, valor liquidado e valor pago. Os demais níveis deverão seguir o padrão já adotado.
+___OBSERVAÇÃO: Os dados só serão ocultados quando se tratar de favorecido pessoal física.___
 
-**Formulário de detalhamento**
+* 5º nível (Formulário de Detalhamento): Os campos listados abaixo do formulário de detalhamento deverão seguir as regras descritas acima.
 
-*- Empenho da despesa*
+___Empenho da despesa:___
 
-Campo Razão Social do Credor: Nesse campo deverá ser exibido o nome do favorecido e CPF descaracterizado conforme regra mencionada acima.
+_Campo Razão Social do Credor:_ Nesse campo deverá ser exibido o nome do favorecido e CPF descaracterizado conforme regra mencionada acima.
 
-![Empenho da Despesa](empenho_despesa.png)
+  ![Empenho da Despesa](static/empenho_despesa.png)
 
-*- Liquidação e Pagamento*
+  ___Liquidação e Pagamento___
 
-Campo CNPJ/CPF e Descrição do Favorecido: Deverá ser exibido o nome do favorecido e CPF descaracterizado conforme regra mencionada acima.
+  _Campo CNPJ/CPF e Descrição do Favorecido:_ Deverá ser exibido o nome do favorecido e CPF descaracterizado conforme regra mencionada acima.
 
-![Liquidação e Pagamento](liquidacao_pagamento.png)
-
-
-
-**Consulta por “Função”**
-
-•**1º nível** (Função) >> **2º nível** (Subfunção) >> **3º nível** (Órgão) >> **4º nível** (Programa) >> **5º nível** (Ação) >> **6º nível** (Elemento de despesa)
-
-``Sem alterações
-``
-
-•	**7º nível** (Favorecido)
-
-``Mesmas alterações aplicadas no nível favorecido da consulta por órgão.
-``
+  ![Liquidação e Pagamento](static/liquidacao_pagamento.png)
 
 
+#### Consulta por Função
 
-**Consulta por “Programa”**
+* 1º nível (Filtro Função) - Não haverá alteração
 
-•	**1º nível** (programa) >> **2º nível** (órgão) >> **3º nível** (ação) >> **4º nível**(Elemento de despesa)
+* 2º nível (Filtro Subfunção) - Não haverá alteração
+* 3º nível (Filtro Órgão) - Não haverá alteração
+* 4º nível (Filtro Programa) - Não haverá alteração
+* 5º nível (Filtro Ação) - Não haverá alteração
+* 6º nível (Filtro Elemento de despesa): Não haverá alteração
+* 7º nível (Filtro Favorecido): __Mesmas alterações aplicadas no 4º nível (Filtro Favorecido) da consulta por órgão.__
+* 8º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.__.
 
-``Sem alterações
-``
 
-•	**5º nível** (Favorecido)
+#### Consulta por Programa
+* 1º nível (Filtro Programa) - Não haverá alteração
 
-``Mesmas alterações aplicadas no nível favorecido da consulta por órgão.
-``
+* 2º nível (Filtro Órgão) - Não haverá alteração
+* 3º nível (Filtro Ação) - Não haverá alteração
+* 4º nível (Filtro Elemento de despesa)- Não haverá alteração
+* 5º nível (Filtro Favorecido) - __Mesmas alterações aplicadas no 4º nível (Filtro Favorecido) da consulta por órgão.__
+* 6º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.__.
 
-**Consulta por “Favorecido Nome”**
+
+#### Consulta por Favorecido Nome
 
 O portal exibirá a opção para escolher o período da consulta – formato aaaa.
 
-O portal exibirá a opção de escolher tipo da consulta e, ao selecionar o tipo “Favorecido por nome”, permitirá que o cidadão escreva o nome do favorecido e retornará todos os resultados que se encaixem no termo informado do filtro.
+O portal exibirá a opção de escolher tipo da consulta e, ao selecionar o tipo ___Favorecido por nome___, permitirá que o cidadão escreva o nome do favorecido e retornará todos os resultados que se encaixem no termo informado do filtro.
 
-*Obs*: O Portal deverá exibir os favorecidos que apresentem a anonimização deverão ser exibidos na consulta, contudo a sua exibição deverá seguir as regras estabelecidas.
+___OBSERVAÇÃO___: O Portal deverá exibir os favorecidos que apresentem a anonimização, contudo a sua exibição deverá seguir as regras estabelecidas.
 
 O Portal da Transparência irá listar o resultado da consulta em um gráfico treemap e em tabela.  O cidadão poderá navegar pelos níveis de detalhamento tanto no gráfico quanto na tabela.
 
-Link no nome do favorecido que irá para o próximo nível.
+* 1º nível (Filtro Favorecido) - __Mesmas alterações aplicadas no 4º nível (Filtro Favorecido) da consulta por órgão.__
+
+* 2º nível (Filtro Elemento de despesa) - Não haverá alteração
+* 3º nível (Filtro Item de despesa) - Não haverá alteração
+* 4º nível* (Filtro Órgão) - Não haverá alteração
+* 5º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.__.
 
 
-•	**1 º nível** (Favorecido)
-
-``Mesmas alterações aplicadas no nível favorecido da consulta por órgão.
-``
-
-•	**2º nível** (Elemento de despesa) >> **3º nível** (Item de despesa) >> **4º nível** (Órgão)
-
-``Sem alterações
-``
-
-•	**Formulário de Detalhamento**
-
-``Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.
-``
-
-**Consulta por “Favorecido CPF/CNPJ”**
+#### Consulta por Favorecido CPF/CNPJ
 
 O portal exibirá a opção para escolher o período da consulta – formato aaaa.
-O portal exibirá a opção de escolher tipo da consulta e, ao selecionar o tipo “Favorecido por CPF/CNPJ”, permitirá que o cidadão escreva o número do CPF ou CNPJ do favorecido e retornará todos os resultados que se encaixem no termo informado do filtro.
+O portal exibirá a opção de escolher tipo da consulta e, ao selecionar o tipo ___Favorecido por CPF/CNPJ___, permitirá que o cidadão escreva o número do CPF ou CNPJ do favorecido e retornará todos os resultados que se encaixem no termo informado do filtro.
 
-*Obs*: Os favorecidos que apresentarem o CPF anonimizado deverão ser exibidos no resultado da busca, contudo a sua exibição seguirá as regras estabelecidas.
+___OBSERVAÇÃO___: Os favorecidos que apresentarem o CPF anonimizado deverão ser exibidos no resultado da busca, contudo a sua exibição seguirá as regras estabelecidas.
 
 O Portal da Transparência irá listar o resultado da consulta em um gráfico treemap e em tabela.  O cidadão poderá navegar pelos níveis de detalhamento tanto no gráfico quanto na tabela.
 
+* 1º nível (Filtro Favorecido) - __Mesmas alterações aplicadas no 4º nível (Filtro Favorecido) da consulta por órgão.__
 
-Link no nome do favorecido que irá para o próximo nível.
+* 2º nível (Filtro Elemento de despesa) - Não haverá alteração
+* 3º nível (Filtro Item de despesa) - Não haverá alteração
+* 4º nível (Filtro Órgão) -Não haverá alteração
+* 5º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.__.
 
-**1 º nível** (Favorecido)
+#### Pesquisa Avançada
 
-``Mesmas alterações aplicadas no nível favorecido da consulta por órgão.
-``
-
-•	**2º nível** (Elemento de despesa) >> **3º nível** (Item de despesa) >> **4º nível** (Órgão)
-
-``Sem alterações
-``
-
-•	**Formulário de Detalhamento**
-
-``Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.
-``
-
-**Pesquisa Avançada**
-
-Quando o cidadão selecionar o campo “ Exibir favorecidos” o Portal deverá retornar a lista dos favorecidos que correspondem aos elementos da despesa especificação na alínea com o nome e CPF anonimizados conforme o estabelecido.
+Quando o cidadão selecionar o campo ___Exibir favorecidos___” o Portal deverá retornar a lista dos favorecidos que correspondem aos elementos da despesa especificados na alínea com o nome e CPF anonimizados conforme o estabelecido.
 
 ## Especificação da consulta Restos a pagar
 
@@ -194,55 +164,38 @@ Todos os gráficos da consulta irão buscar a o valor pago no ano conforme o já
 
 Todos dos gráficos deverão apresentar legenda conforme o já adotado em outras consultas.
 
-**Consulta por “Órgão”**
+#### Consulta por Órgão
 
-•	**1º nível** (Órgão) >> **2º nível** (Elemento de Despesa) >> **3º nível** (Item de Despesa)
+* 1º nível (Filtro Órgão) - Não haverá alteração
 
-``Sem alterações
-``
+* 2º nível (Filtro Elemento de despesa) - Não haverá alteração
+* 3º nível (Filtro Item de despesa) - Não haverá alteração
+* 4º nível (Filtro Favorecido):
 
-•	**4º nível** (Favorecido)
+Ao clicar no ___Item de despesa___ listados no irem 5 o Portal exibirá uma tabela.
 
-Ao clicar no [Item de despesa] listados no número 4 o Portal exibirá uma tabela.
+  ###### Dados da tabela:
+|Favorecido| CNPJ/CPF | Número do empenho | valor inscrito processado |valor inscrito não processado| valor pago no ano| valor a pagar|
+|---------|--------|---------|-----------|----------|---------|--------|
 
-Dados da tabela: Favorecido, CNPJ/CPF, Número do empenho, valor inscrito processado, valor inscrito não processado, valor pago no ano, valor a pagar.
+  ##### Regras para anonimização:
 
-````
-Observações
-- Campo Favorecido: Deverá ser exibido apenas as iniciais do nome do favorecido.
+__Campo Favorecido__ Exibir apenas as iniciais do nome do favorecido.
 
-      Exemplo:
-      Nome do Favorecido: Cassio Gustavo de Castro
-            ==>> O Portal deverá exibir: C.G.C
+__Campo CPF:__ Ocultar os 3 dos três primeiros e dos dois últimos dígitos verificadores.
 
-- Campo CPF: Deverá ocultar os 3 dos três primeiros e dos dois últimos dígitos verificadores.
+_Exemplo:_
 
-      Exemplo:
-      CPF do Favorecido:028.659.616.48
-            ==>> O Portal deverá exibir: ***.659.616.**
+___Favorecido:___ Cassio Gustavo de Castro - CPF: 028.659.616.48
 
-
-obs: Os dados só serão ocultados quando se tratar de favorecido pessoal física.
-
-``````
-
-|Favorecido| CNPJ/CPF | Número do empenho | Valor Inscrito Processado |Valor Inscrito Não Processado| Valor pago no ano| Valor a Pagar|
-|---------:|:--------:|:---------------:|:-----------:|:----------:|:--------:|:-------|
-|C.G.C|** .659.616-**|316| 10.000,00|0,00|10.000,00|0,00|
+  O Portal deverá exibir da seguinte forma:
 
 
-Link no número do empenhado.
+  |Favorecido| CNPJ/CPF | Número do empenho | valor inscrito processado |valor inscrito não processado| valor pago no ano| valor a pagar|
+  |---------|--------|---------|-----------|----------|---------|--------|
+  |C.G.C|** .659.616-**|316| 10.000,00|0,00|10.000,00|0,00|
 
-•	**Formulário de detalhamento**
 
-*Empenho da Despesa*:
+* 5º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.__.
 
-Campo Razão Social do Credor: Deverá ser exibido o nome do favorecido e CPF descaracterizado conforme regra mencionada acima.
-
-![Empenho da Despesa](empenho_despesa.png)
-
-*Liquidação e Pagamento*:
-
-Campo CNPJ/CPF e Descrição do Favorecido: Deverá ser exibido o nome do favorecido e CPF descaracterizado conforme regra mencionada acima.
-
-![Liquidação e Pagamento](liquidacao_pagamento.png)
+----FIM----
