@@ -87,14 +87,13 @@ ___Empenho da despesa:___
 
 _Campo Razão Social do Credor:_ Nesse campo deverá ser exibido o nome do favorecido e CPF descaracterizado conforme regra mencionada acima.
 
-  ![Empenho da Despesa](static/empenho_despesa.png)
+![Empenho da Despesa](static/empenho_despesa.png)
 
   ___Liquidação e Pagamento___
 
   _Campo CNPJ/CPF e Descrição do Favorecido:_ Deverá ser exibido o nome do favorecido e CPF descaracterizado conforme regra mencionada acima.
 
-  ![Liquidação e Pagamento](static/liquidacao_pagamento.png)
-
+![Liquidação e Pagamento](static/liquidacao_pagamento.png)
 
 #### Consulta por Função
 
@@ -108,7 +107,6 @@ _Campo Razão Social do Credor:_ Nesse campo deverá ser exibido o nome do favor
 * 7º nível (Filtro Favorecido): __Mesmas alterações aplicadas no 4º nível (Filtro Favorecido) da consulta por órgão.__
 * 8º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.__.
 
-
 #### Consulta por Programa
 * 1º nível (Filtro Programa) - Não haverá alteração
 
@@ -117,7 +115,6 @@ _Campo Razão Social do Credor:_ Nesse campo deverá ser exibido o nome do favor
 * 4º nível (Filtro Elemento de despesa)- Não haverá alteração
 * 5º nível (Filtro Favorecido) - __Mesmas alterações aplicadas no 4º nível (Filtro Favorecido) da consulta por órgão.__
 * 6º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.__.
-
 
 #### Consulta por Favorecido Nome
 
@@ -190,7 +187,6 @@ _Exemplo:_
 ___Favorecido:___ Cassio Gustavo de Castro - CPF: 028.659.616.48
 
   O Portal deverá exibir da seguinte forma:
-
 
   |Favorecido| CNPJ/CPF | Número do empenho | valor inscrito processado |valor inscrito não processado| valor pago no ano| valor a pagar|
   |---------|--------|---------|-----------|----------|---------|--------|
