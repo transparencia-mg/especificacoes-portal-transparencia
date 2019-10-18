@@ -1,7 +1,12 @@
+---
+titulo: "Anonimização dos CPFs"
+pull_request: [espec001](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/1)
+---
 
-# Anonimização dos CPFs
+# Visão geral da intervenção
 
-## Contextualização
+
+# Motivação / contexto da intervenção
 
 A exigência de a administração pública divulgar informações consta na Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal- LRF) que foi  complementada pelo Decreto Federal n° 7.185/2010, que regulamentou os padrões mínimos de qualidade da informação e reforçou o entendimento da divulgação dos dados em sentido amplo:
 
@@ -19,13 +24,13 @@ Entretanto, sua divulgação tem sido objeto de questionamentos pela sociedade. 
 
 Destaca-se ainda que as demais consultas, como por exemplo, convênios e remuneração não sofrerão alterações, uma vez que, o entendimento corrente é o de que a divulgação de informações completas e íntegras possibilita a qualquer cidadão conhecer, questionar e atuar como fiscal da aplicação dos recursos públicos, para o exercício do controle social – pois está possibilitado o cruzamento de dados dos beneficiários de políticas públicas.
 
-## Especificação da Consulta Despesa
+# Especificação
+
+## Consulta Despesa
 
 1. Quando o usuário realizar o download dos dados, esses deverão ser exibidos anonimizados conforme o especificado. No entanto, a base deverá conter a informação completa.
 
 2. A anonimização será aplicada apenas nos credores pessoas físicas que receberem valores na classificação dos elementos de despesa listados abaixo.
-
-###### Elementos de despesa:
 
 |Código|Descrição|
 |-------|:--------|
@@ -35,12 +40,9 @@ Destaca-se ainda que as demais consultas, como por exemplo, convênios e remuner
 |59| Pensões especiais
 |31.2|premiacoes culturais, artisticas, cientificas, desportivas e outras / prêmios lotéricos|
 
-Dúvidas???
 
-Grupo 3 / Elemento: OUTROS SERVICOS DE TERCEIROS - PESSOA FISICA / Item de despesa: Estagiários????
-Grupo 3 / Elemento 13: Obrigações Patronais / Item: INSS – Demais Despesas
 
-#### Consulta por Órgão
+### Consulta por Órgão
 
 * 1º nível (Filtro Órgão) - Não haverá alteração
 
@@ -48,17 +50,16 @@ Grupo 3 / Elemento 13: Obrigações Patronais / Item: INSS – Demais Despesas
 * 3º nível (Filtro Elemento de Despesa) - Não haverá alteração
 * 4º nível (Filtro Favorecido):
 
-Ao clicar no ___Elemento de despesa___ listados no item 5, o Portal exibirá um gráfico treemap e uma tabela. O cidadão poderá navegar pelos níveis de detalhamento tanto no gráfico quanto na tabela.
+Ao clicar no ___Elemento de despesa___ listados no item 5, o Portal exibirá um gráfico treemap e uma tabela. O cidadão poderá navegar pelos níveis de detalhamento tanto no gráfico quanto na tabela. Dados da tabela:
 
-###### Dados da tabela:
 |Favorecido| CNPJ/CPF | Item de despesa | Valor Empenhado |Valor Liquidado| Valor Pago|
 |---------|--------|---------------|-----------|----------|---------|
 
-##### Regras para anonimização:
+As regras para anonimização são:
 
- __Campo Favorecido__ Exibir apenas as iniciais do nome do favorecido.
+ * __Campo Favorecido:__ Exibir apenas as iniciais do nome do favorecido.
 
- __Campo CPF:__ Ocultar os 3 dos três primeiros e dos dois últimos dígitos verificadores.
+ * __Campo CPF:__ Ocultar os 3 dos três primeiros e dos dois últimos dígitos verificadores.
 
   _Exemplo:_
 
@@ -66,9 +67,10 @@ Ao clicar no ___Elemento de despesa___ listados no item 5, o Portal exibirá um 
 
   O Portal deverá exibir da seguinte forma:
 
-  |Favorecido| CNPJ/CPF | Item de despesa | Valor Empenhado |Valor Liquidado| Valor Pago|
+|Favorecido| CNPJ/CPF | Item de despesa | Valor Empenhado |Valor Liquidado| Valor Pago|
 |---------:|:--------:|:---------------:|:-----------:|:----------:|:---------|
-|C.G.C|** .659.616-**|Auxílio Reclusão| 10.000,00|10.000,00|10.000,00|
+|C.G.C     |** .659.616-**|Auxílio Reclusão| 10.000,00|10.000,00|10.000,00|
+
 
 * 5º nível (Formulário de Detalhamento): Os campos do formulário de detalhamento deverão seguir as regras descritas acima.
 
@@ -78,16 +80,15 @@ _Campo Razão Social do Credor:_ Nesse campo deverá ser exibido o nome do favor
 
 ![Empenho da Despesa](static/empenho_despesa.png)
 
-  ___Liquidação e Pagamento___
+___Liquidação e Pagamento___
 
-  _Campo CNPJ/CPF e Descrição do Favorecido:_ Deverá ser exibido o nome do favorecido e CPF descaracterizado conforme regra mencionada acima.
+_Campo CNPJ/CPF e Descrição do Favorecido:_ Deverá ser exibido o nome do favorecido e CPF descaracterizado conforme regra mencionada acima.
 
 ![Liquidação e Pagamento](static/liquidacao_pagamento.png)
 
-#### Consulta por Função
+### Consulta por Função
 
 * 1º nível (Filtro Função) - Não haverá alteração
-
 * 2º nível (Filtro Subfunção) - Não haverá alteração
 * 3º nível (Filtro Órgão) - Não haverá alteração
 * 4º nível (Filtro Programa) - Não haverá alteração
@@ -96,16 +97,16 @@ _Campo Razão Social do Credor:_ Nesse campo deverá ser exibido o nome do favor
 * 7º nível (Filtro Favorecido): __Mesmas alterações aplicadas no 4º nível (Filtro Favorecido) da consulta por órgão.__
 * 8º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.__.
 
-#### Consulta por Programa
-* 1º nível (Filtro Programa) - Não haverá alteração
+### Consulta por Programa
 
+* 1º nível (Filtro Programa) - Não haverá alteração
 * 2º nível (Filtro Órgão) - Não haverá alteração
 * 3º nível (Filtro Ação) - Não haverá alteração
 * 4º nível (Filtro Elemento de despesa)- Não haverá alteração
 * 5º nível (Filtro Favorecido) - __Mesmas alterações aplicadas no 4º nível (Filtro Favorecido) da consulta por órgão.__
 * 6º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.__.
 
-#### Consulta por Favorecido Nome
+### Consulta por Favorecido Nome
 
 O portal exibirá a opção para escolher o período da consulta – formato aaaa.
 
@@ -122,7 +123,7 @@ O Portal da Transparência irá listar o resultado da consulta em um gráfico tr
 * 4º nível* (Filtro Órgão) - Não haverá alteração
 * 5º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.__.
 
-#### Consulta por Favorecido CPF/CNPJ
+### Consulta por Favorecido CPF/CNPJ
 
 O portal exibirá a opção para escolher o período da consulta – formato aaaa.
 O portal exibirá a opção de escolher tipo da consulta e, ao selecionar o tipo ___Favorecido por CPF/CNPJ___, permitirá que o cidadão escreva o número do CPF ou CNPJ do favorecido e retornará todos os resultados que se encaixem no termo informado do filtro.
@@ -138,7 +139,7 @@ O Portal da Transparência irá listar o resultado da consulta em um gráfico tr
 * 4º nível (Filtro Órgão) -Não haverá alteração
 * 5º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.__.
 
-#### Pesquisa Avançada
+### Pesquisa Avançada
 
 Quando o cidadão selecionar o campo ___Exibir favorecidos___” o Portal deverá retornar a lista dos favorecidos que correspondem aos elementos da despesa especificados na alínea com o nome e CPF anonimizados conforme o estabelecido.
 
@@ -150,37 +151,42 @@ Todos os gráficos da consulta irão buscar a o valor pago no ano conforme o já
 
 Todos dos gráficos deverão apresentar legenda conforme o já adotado em outras consultas.
 
-#### Consulta por Órgão
+### Consulta por Órgão
 
 * 1º nível (Filtro Órgão) - Não haverá alteração
-
 * 2º nível (Filtro Elemento de despesa) - Não haverá alteração
 * 3º nível (Filtro Item de despesa) - Não haverá alteração
 * 4º nível (Filtro Favorecido):
 
-Ao clicar no ___Item de despesa___ listados no irem 5 o Portal exibirá uma tabela.
+Ao clicar no ___Item de despesa___ listados no irem 5 o Portal exibirá uma tabela. Dados da tabela:
 
-  ###### Dados da tabela:
 |Favorecido| CNPJ/CPF | Número do empenho | valor inscrito processado |valor inscrito não processado| valor pago no ano| valor a pagar|
 |---------|--------|---------|-----------|----------|---------|--------|
 
-  ##### Regras para anonimização:
+Regras para anonimização:
 
-__Campo Favorecido__ Exibir apenas as iniciais do nome do favorecido.
+* __Campo Favorecido:__ Exibir apenas as iniciais do nome do favorecido.
 
-__Campo CPF:__ Ocultar os 3 dos três primeiros e dos dois últimos dígitos verificadores.
+* __Campo CPF:__ Ocultar os 3 dos três primeiros e dos dois últimos dígitos verificadores.
 
 _Exemplo:_
 
 ___Favorecido:___ Cassio Gustavo de Castro - CPF: 028.659.616.48
 
-  O Portal deverá exibir da seguinte forma:
+O Portal deverá exibir da seguinte forma:
 
-  |Favorecido| CNPJ/CPF | Número do empenho | valor inscrito processado |valor inscrito não processado| valor pago no ano| valor a pagar|
-  |---------|--------|---------|-----------|----------|---------|--------|
-  |C.G.C|** .659.616-**|316| 10.000,00|0,00|10.000,00|0,00|
+|Favorecido| CNPJ/CPF | Número do empenho | valor inscrito processado |valor inscrito não processado| valor pago no ano| valor a pagar|
+|---------|--------|---------|-----------|----------|---------|--------|
+|C.G.C|** .659.616-**|316| 10.000,00|0,00|10.000,00|0,00|
 
 
 * 5º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.__.
+
+# Dúvidas / Pendências
+
+Dúvidas???
+
+Grupo 3 / Elemento: OUTROS SERVICOS DE TERCEIROS - PESSOA FISICA / Item de despesa: Estagiários????
+Grupo 3 / Elemento 13: Obrigações Patronais / Item: INSS – Demais Despesas
 
 ----FIM----
