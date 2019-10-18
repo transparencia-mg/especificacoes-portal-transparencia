@@ -21,15 +21,9 @@ Destaca-se ainda que as demais consultas, como por exemplo, convênios e remuner
 
 ## Especificação da Consulta Despesa
 
-1. Todas as páginas da consulta deverão exibir ícones com links para compartilhar consultas no facebook e twitter.
+1. Quando o usuário realizar o download dos dados, esses deverão ser exibidos anonimizados conforme o especificado. No entanto, a base deverá conter a informação completa.
 
-2. Todas as páginas deverá apresentar a possibilidade de fazer download da planilha completa em csv, exportar para pdf e imprimir conforme padrão já adotado em outras consultas do Portal. Exibir cabeçalho e legenda da tabela e “migalhas” conforme padrão.
-
-3. Quando o usuário realizar o download dos dados, esses deverão ser exibidos anonimizados conforme o especificado. No entanto, a base deverá conter a informação completa.
-
-4. Todos dos gráficos deverão apresentar legenda conforme o já adotado em outras consultas.
-
-5. A anonimização será aplicada apenas nos credores pessoas físicas que receberem valores na classificação dos elementos de despesa listados abaixo.
+2. A anonimização será aplicada apenas nos credores pessoas físicas que receberem valores na classificação dos elementos de despesa listados abaixo.
 
 ###### Elementos de despesa:
 
