@@ -5,6 +5,15 @@ pull_request: [espec001](https://github.com/transparencia-mg/especificacoes-port
 
 # Visão geral da intervenção
 
+A especificação tem objetivo de anonimizar os nomes e CPFs dos credores pessoas físicas das consultas de Despesa e Restos a Pagar disponível no Portal da Transparência. 
+
+As alterações serão aplicadas no nível favorecido, formulário de detalhamento e pesquisa avançada dos credores que receberem valores na classificação orçamentária referente aos elementos de despesa destacados na _tabela 1_.
+
+#### Regra da Anonimização:
+
+1. Exibir apenas das iniciais do nome do Favorecido; e
+2. Ocultar os três primeiros dígitos e os dois últimos dígitos verificadores dos CPFs.
+
 
 # Motivação / contexto da intervenção
 
@@ -18,7 +27,7 @@ A exigência de a administração pública divulgar informações consta na Lei 
 >
 > _d) a pessoa física ou jurídica beneficiária do pagamento, inclusive nos desembolsos de operações independentes da execução orçamentária, exceto no caso de folha de pagamento de pessoal e de benefícios previdenciários.”_
 
-Nesse sentido, atualmente, o Portal da Transparência divulga nas consultas de Despesa e Restos a Pagar informações completas (nome e CPF) de **todos os credores** que recebem benefícios previdenciários do Estado, contrariando o Decreto Federal em questão.
+Nesse sentido, atualmente, o Portal da Transparência divulga nas consultas de Despesa e Restos a Pagar informações completas (nome e CPF) de __todos os credores__ que recebem benefícios previdenciários do Estado, contrariando o Decreto Federal em questão.
 
 Além disso, sua divulgação tem sido objeto de questionamentos pela sociedade. 
 
@@ -45,10 +54,10 @@ Destaca-se ainda que as demais consultas, como por exemplo, convênios e remuner
 
 ### Consulta por Órgão
 
-* 1º nível (Filtro Órgão) - Não haverá alteração
-* 2º nível (Filtro Função) - Não haverá alteração
-* 3º nível (Filtro Elemento de Despesa) - Não haverá alteração
-* 4º nível (Filtro Favorecido):
+* 1º nível (Órgão) - Não haverá alteração
+* 2º nível (Função) - Não haverá alteração
+* 3º nível (Elemento de Despesa) - Não haverá alteração
+* 4º nível (Favorecido):
 
 Ao clicar no ___Elemento de despesa___ listados no item 5, o Portal exibirá um gráfico treemap e uma tabela. O cidadão poderá navegar pelos níveis de detalhamento tanto no gráfico quanto na tabela. Dados da tabela:
 
@@ -68,7 +77,7 @@ As regras para anonimização são:
   O Portal deverá exibir da seguinte forma:
 
 |Favorecido| CNPJ/CPF | Item de despesa | Valor Empenhado |Valor Liquidado| Valor Pago|
-|---------:|:--------:|:---------------:|:-----------:|:----------:|:---------|
+|---------:|:------------:|:---------------:|:-----------:|:----------:|:---------|
 |C.G.C     |***.659.616-**|Auxílio Reclusão| 10.000,00|10.000,00|10.000,00|
 
 
@@ -89,23 +98,23 @@ _Campo CNPJ/CPF e Descrição do Favorecido:_ Deverá ser exibido o nome do favo
 
 ### Consulta por Função
 
-* 1º nível (Filtro Função) - Não haverá alteração
-* 2º nível (Filtro Subfunção) - Não haverá alteração
-* 3º nível (Filtro Órgão) - Não haverá alteração
-* 4º nível (Filtro Programa) - Não haverá alteração
-* 5º nível (Filtro Ação) - Não haverá alteração
-* 6º nível (Filtro Elemento de despesa): Não haverá alteração
-* 7º nível (Filtro Favorecido): __Mesmas alterações aplicadas no 4º nível (Filtro Favorecido) da consulta por órgão.__
+* 1º nível (Função) - Não haverá alteração
+* 2º nível (Subfunção) - Não haverá alteração
+* 3º nível (Órgão) - Não haverá alteração
+* 4º nível (Programa) - Não haverá alteração
+* 5º nível (Ação) - Não haverá alteração
+* 6º nível (Elemento de despesa): Não haverá alteração
+* 7º nível (Favorecido): __Mesmas alterações aplicadas no 4º nível (Filtro Favorecido) da consulta por órgão.__
 * 8º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.__.
 
 
 ### Consulta por Programa
 
-* 1º nível (Filtro Programa) - Não haverá alteração
-* 2º nível (Filtro Órgão) - Não haverá alteração
-* 3º nível (Filtro Ação) - Não haverá alteração
-* 4º nível (Filtro Elemento de despesa)- Não haverá alteração
-* 5º nível (Filtro Favorecido) - __Mesmas alterações aplicadas no 4º nível (Filtro Favorecido) da consulta por órgão.__
+* 1º nível (Programa) - Não haverá alteração
+* 2º nível (Órgão) - Não haverá alteração
+* 3º nível (Ação) - Não haverá alteração
+* 4º nível (Elemento de despesa)- Não haverá alteração
+* 5º nível (Favorecido) - __Mesmas alterações aplicadas no 4º nível (Filtro Favorecido) da consulta por órgão.__
 * 6º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.__.
 
 
@@ -119,10 +128,10 @@ ___OBSERVAÇÃO___: O Portal deverá exibir os favorecidos que apresentem a anon
 
 O Portal da Transparência irá listar o resultado da consulta em um gráfico treemap e em tabela.  O cidadão poderá navegar pelos níveis de detalhamento tanto no gráfico quanto na tabela.
 
-* 1º nível (Filtro Favorecido) - __Mesmas alterações aplicadas no 4º nível (Filtro Favorecido) da consulta por órgão.__
-* 2º nível (Filtro Elemento de despesa) - Não haverá alteração
-* 3º nível (Filtro Item de despesa) - Não haverá alteração
-* 4º nível* (Filtro Órgão) - Não haverá alteração
+* 1º nível (Favorecido) - __Mesmas alterações aplicadas no 4º nível (Filtro Favorecido) da consulta por órgão.__
+* 2º nível (Elemento de despesa) - Não haverá alteração
+* 3º nível (Item de despesa) - Não haverá alteração
+* 4º nível (Órgão) - Não haverá alteração
 * 5º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.__.
 
 
@@ -135,16 +144,16 @@ ___OBSERVAÇÃO___: Os favorecidos que apresentarem o CPF anonimizado deverão s
 
 O Portal da Transparência irá listar o resultado da consulta em um gráfico treemap e em tabela.  O cidadão poderá navegar pelos níveis de detalhamento tanto no gráfico quanto na tabela.
 
-* 1º nível (Filtro Favorecido) - __Mesmas alterações aplicadas no 4º nível (Filtro Favorecido) da consulta por órgão.__
-* 2º nível (Filtro Elemento de despesa) - Não haverá alteração
-* 3º nível (Filtro Item de despesa) - Não haverá alteração
-* 4º nível (Filtro Órgão) -Não haverá alteração
-* 5º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.__.
+* 1º nível (Favorecido) - __Mesmas alterações aplicadas no 4º nível (Filtro Favorecido) da consulta por órgão.__
+* 2º nível (Elemento de despesa) - Não haverá alteração
+* 3º nível (Item de despesa) - Não haverá alteração
+* 4º nível (Órgão) -Não haverá alteração
+* 5º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão__.
 
 
 ### Pesquisa Avançada
 
-Quando o cidadão selecionar o campo ___Exibir favorecidos___” o Portal deverá retornar a lista dos favorecidos que correspondem aos elementos da despesa especificados na alínea com o nome e CPF anonimizados (***.123.456-**) conforme o estabelecido.
+Quando o cidadão selecionar o campo ___Exibir favorecidos___ o Portal deverá retornar a lista dos favorecidos que correspondem aos elementos da despesa especificados na alínea com o nome e CPF anonimizados (*****.123.456-**) conforme o estabelecido.
 
 
 ## Especificação da consulta Restos a pagar
@@ -160,17 +169,17 @@ Todos os gráficos deverão apresentar legenda conforme o já adotado em outras 
 
 ### Consulta por Órgão
 
-* 1º nível (Filtro Órgão) - Não haverá alteração
-* 2º nível (Filtro Elemento de despesa) - Não haverá alteração
-* 3º nível (Filtro Item de despesa) - Não haverá alteração
-* 4º nível (Filtro Favorecido):
+* 1º nível (Órgão) - Não haverá alteração
+* 2º nível (Elemento de despesa) - Não haverá alteração
+* 3º nível (Item de despesa) - Não haverá alteração
+* 4º nível (Favorecido):
 
 Ao clicar no ___Item de despesa___ listados no item 5 o Portal exibirá uma tabela. Dados da tabela:
 
 |Favorecido| CNPJ/CPF | Número do empenho | valor inscrito processado |valor inscrito não processado| valor pago no ano| valor a pagar|
 |---------|--------|---------|-----------|----------|---------|--------|
 
-Regras para anonimização:
+#### Regras para anonimização:
 
 * __Campo Favorecido:__ Exibir apenas as iniciais do nome do favorecido.
 
