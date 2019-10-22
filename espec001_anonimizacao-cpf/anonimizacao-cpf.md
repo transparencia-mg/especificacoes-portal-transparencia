@@ -7,7 +7,7 @@ pull_request: [espec001](https://github.com/transparencia-mg/especificacoes-port
 
 A especificação tem objetivo de anonimizar os nomes e CPFs dos credores pessoas físicas das consultas de Despesa e Restos a Pagar disponível no Portal da Transparência. 
 
-As alterações serão aplicadas no nível favorecido, formulário de detalhamento e pesquisa avançada dos credores que receberem valores na classificação orçamentária referente aos elementos de despesa destacados na _tabela 1_.
+As alterações serão aplicadas no nível favorecido, formulário de detalhamento e pesquisa avançada dos credores que receberem valores na classificação orçamentária referente aos elementos de despesa destacados na _tabela 1_(vide item 2 da 'Consulta Despesa' em 'Especificação', abaixo - linha 46).
 
 #### Regra da Anonimização:
 
@@ -43,11 +43,12 @@ Destaca-se ainda que as demais consultas, como por exemplo, convênios e remuner
 
 2. A anonimização será aplicada apenas nos credores pessoas físicas que receberem valores na classificação dos elementos de despesa listados abaixo.
 
+# Tabela 01
 |Código|Descrição|
 |-------|:--------|
-|01| aposentadorias do rpps, reserva remunerada e reformas dos militares|
+|01| aposentadorias do RPPS, reserva remunerada e reformas dos militares|
 |03| pensões do RPPS e do militar|
-|05| Outros benefícios previdenciários do servidor militares
+|05| Outros benefícios previdenciários do servidor ou do militar
 |59| Pensões especiais
 |31.2|premiacoes culturais, artisticas, cientificas, desportivas e outras / prêmios lotéricos|
 
@@ -66,7 +67,7 @@ Ao clicar no ___Elemento de despesa___ listados no item 5, o Portal exibirá um 
 
 As regras para anonimização são:
 
- * __Campo Favorecido:__ Exibir apenas as iniciais do nome do favorecido.
+ * __Campo Favorecido:__ Exibir apenas as iniciais do nome do favorecido, em letras maiúsculas, separadas por ponto.
 
  * __Campo CPF:__ Ocultar os três primeiros dígitos e dos dois últimos dígitos verificadores.
 
@@ -76,22 +77,23 @@ As regras para anonimização são:
 
   O Portal deverá exibir da seguinte forma:
 
+# Tabela 02
 |Favorecido| CNPJ/CPF | Item de despesa | Valor Empenhado |Valor Liquidado| Valor Pago|
 |---------:|:------------:|:---------------:|:-----------:|:----------:|:---------|
-|C.G.C     |***.659.616-**|Auxílio Reclusão| 10.000,00|10.000,00|10.000,00|
+|C.G.C.     |***.659.616-**|Auxílio Reclusão| 10.000,00|10.000,00|10.000,00|
 
 
 * 5º nível (Formulário de Detalhamento): Os campos do formulário de detalhamento deverão seguir as regras descritas acima.
 
 ___Empenho da despesa:___
 
-_Campo Razão Social do Credor:_ Nesse campo deverá ser exibido o nome do favorecido e CPF descaracterizado conforme regra mencionada acima.
+_Campo Razão Social do Credor:_ Nesse campo deverá ser exibido o nome do favorecido e CPF descaracterizados conforme regras para anonimização mencionadas acima.
 
 ![Empenho da Despesa](static/empenho_despesa.png)
 
 ___Liquidação e Pagamento___
 
-_Campo CNPJ/CPF e Descrição do Favorecido:_ Deverá ser exibido o nome do favorecido e CPF descaracterizado conforme regra mencionada acima.
+_Campo CNPJ/CPF e Descrição do Favorecido:_ Deverá ser exibido o nome do favorecido e CPF descaracterizados conforme regras para anonimização mencionadas acima.
 
 ![Liquidação e Pagamento](static/liquidacao_pagamento.png)
 
@@ -104,7 +106,7 @@ _Campo CNPJ/CPF e Descrição do Favorecido:_ Deverá ser exibido o nome do favo
 * 4º nível (Programa) - Não haverá alteração
 * 5º nível (Ação) - Não haverá alteração
 * 6º nível (Elemento de despesa): Não haverá alteração
-* 7º nível (Favorecido): __Mesmas alterações aplicadas no 4º nível (Filtro Favorecido) da consulta por órgão.__
+* 7º nível (Favorecido): __Mesmas alterações aplicadas na Tabela 02.__
 * 8º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.__.
 
 
@@ -114,7 +116,7 @@ _Campo CNPJ/CPF e Descrição do Favorecido:_ Deverá ser exibido o nome do favo
 * 2º nível (Órgão) - Não haverá alteração
 * 3º nível (Ação) - Não haverá alteração
 * 4º nível (Elemento de despesa)- Não haverá alteração
-* 5º nível (Favorecido) - __Mesmas alterações aplicadas no 4º nível (Filtro Favorecido) da consulta por órgão.__
+* 5º nível (Favorecido) - __Mesmas alterações aplicadas na Tabela 02.__
 * 6º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.__.
 
 
@@ -128,7 +130,7 @@ ___OBSERVAÇÃO___: O Portal deverá exibir os favorecidos que apresentem a anon
 
 O Portal da Transparência irá listar o resultado da consulta em um gráfico treemap e em tabela.  O cidadão poderá navegar pelos níveis de detalhamento tanto no gráfico quanto na tabela.
 
-* 1º nível (Favorecido) - __Mesmas alterações aplicadas no 4º nível (Filtro Favorecido) da consulta por órgão.__
+* 1º nível (Favorecido) - __Mesmas alterações aplicadas na Tabela 02.__
 * 2º nível (Elemento de despesa) - Não haverá alteração
 * 3º nível (Item de despesa) - Não haverá alteração
 * 4º nível (Órgão) - Não haverá alteração
@@ -144,7 +146,7 @@ ___OBSERVAÇÃO___: Os favorecidos que apresentarem o CPF anonimizado deverão s
 
 O Portal da Transparência irá listar o resultado da consulta em um gráfico treemap e em tabela.  O cidadão poderá navegar pelos níveis de detalhamento tanto no gráfico quanto na tabela.
 
-* 1º nível (Favorecido) - __Mesmas alterações aplicadas no 4º nível (Filtro Favorecido) da consulta por órgão.__
+* 1º nível (Favorecido) - __Mesmas alterações aplicadas na Tabela 02.__
 * 2º nível (Elemento de despesa) - Não haverá alteração
 * 3º nível (Item de despesa) - Não haverá alteração
 * 4º nível (Órgão) -Não haverá alteração
@@ -153,14 +155,14 @@ O Portal da Transparência irá listar o resultado da consulta em um gráfico tr
 
 ### Pesquisa Avançada
 
-Quando o cidadão selecionar o campo ___Exibir favorecidos___ o Portal deverá retornar a lista dos favorecidos que correspondem aos elementos da despesa especificados na alínea com o nome e CPF anonimizados (*****.123.456-**) conforme o estabelecido.
+Quando o cidadão selecionar o campo ___Exibir favorecidos___ o Portal deverá retornar a lista dos favorecidos que correspondem aos elementos da despesa especificados na alínea com o nome do favorecido e CPF anonimizados (*****.123.456-**) conforme Tabela 02.
 
 
 ## Especificação da consulta Restos a pagar
 
 Todas as páginas da consulta deverão exibir ícones com links para compartilhar consultas no facebook e twitter, a possibilidade de fazer download da planilha completa em csv, exportar para pdf e imprimir conforme padrão já adotado em outras consultas do Portal. 
 
-Exibir cabeçalho e legenda da tabela e “migalhas” conforme padrão.
+Exibir cabeçalho e legenda da tabela e rastro do caminho percorrido pelo usuário (“migalhas”) conforme padrão.
 
 Todos os gráficos da consulta irão buscar o valor pago no ano conforme a regra já adotada em outras consultas.
 
@@ -201,9 +203,9 @@ O Portal deverá exibir da seguinte forma:
 
 # Dúvidas / Pendências
 
-Dúvidas???
+Ponderar e decidir sobre a inclusão do rol de dados de beneficiários dos itens abaixo na mesma especificação da Tabela 02:
 
 Grupo 3 / Elemento: OUTROS SERVICOS DE TERCEIROS - PESSOA FISICA / Item de despesa: Estagiários????
 Grupo 3 / Elemento 13: Obrigações Patronais / Item: INSS – Demais Despesas
-
+OUTROS BENEFICIOS ASSISTENCIAIS DO SERVIDOR E DO MILITAR / Itens: auxílios fineral e natalidade
 ----FIM----
