@@ -58,12 +58,12 @@ Atualmente, só consta os meses de Janeiro a Agosto, considerando que o portal a
 
 # Dependências/Integrações
 
-Intervenções: Equipe da PRODEMGE, DTA, Fazenda
+Não se aplica.
 
 
 # Exemplos
 
-[](http://www.transparencia.pr.gov.br/pte/pages/pessoal/remuneracoes/exibir_remuneracao?windowId=729)
+[Governo do Paraná](http://www.transparencia.pr.gov.br/pte/pages/pessoal/remuneracoes/exibir_remuneracao?windowId=729)
 
 
 # Dúvidas
