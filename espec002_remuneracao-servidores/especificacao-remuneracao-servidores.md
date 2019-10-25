@@ -15,32 +15,38 @@ A proposta dessa especificação é realizar alterações na consulta de Remuner
 
 De acordo com o Decreto Estadual nº 45.969/2012, o direito de acesso à informação compreende dentre outros, a obtenção de informação relativa a remuneração e subsídios recebidos por ocupante de cargo, posto, graduação, função e emprego público, incluindo auxílios, ajudas de custo, jetons e quais outras vantagens pecuniárias, bem como proventos de aposentadoria e pensões daqueles que estiveram na ativa, de maneira individualizada.
 
-Para atender o disposto no inc. VIII, do art. 4º do Decreto Estadual nº45.969/2012, o Portal da Transparência, por meio da consulta de **Remuneração de Servidores** disponibiliza dados sobre a situação funcional e o histórico da remuneração, contendo os dados financeiros do ano corrente.
+Para atender o disposto no inc. VIII, do art. 4º do Decreto Estadual nº45.969/2012, o Portal da Transparência, por meio da consulta de __Remuneração de Servidores__ disponibiliza dados sobre a situação funcional e o histórico da remuneração, contendo os dados financeiros do ano corrente.
 
-Visando atender com mais completude o disposto no inc. VIII, do art. 4º do Decreto Estadual nº45.969/2012, a Diretoria de Transparência Ativa - DTA/CGE, recomenda a alteração do *layout* da consulta de **Remuneração de Servidores**, com a inclusão do Histórico da Remuneração referente aos últimos doses meses e do filtro **Ano** para a navegação do usuário em anos anteriores, sem mais excluir a base de dados após o encerramento do ano.
+Visando atender com mais completude o disposto no inc. VIII, do art. 4º do Decreto Estadual nº 45.969/2012, a Diretoria Central de Transparência Ativa - DTA/CGE, recomenda a alteração do _layout_ da consulta de __Remuneração de Servidores__, com a inclusão do histórico da remuneração referente aos últimos doses meses e do filtro __Ano__ para a navegação do usuário em anos anteriores, sem mais excluir a base de dados após o encerramento do ano.
 
 
 # Especificação
 
 ## Consulta Remuneração de Servidores
 
+### Página Inicial
 
-- 1º nível (Período/Ano)
+O cidadão seleciona a opção Pessoal e depois Remuneração dos Servidores e o Portal exibirá
 
-1. Habilitar a consulta por ano no primeiro nível da consulta, semelhante a regra que já é adotada para a consulta de Despesa.
+1. Ano da consulta (aaaa) O portal exibirá a opção para escolher o período da consulta – formato aaaa.
+2. Mês: sem alteração
+3. consulta: sem alteração
+4. Nome: sem alteração
+5. Pesquisa
+6. Pesquisa Avançada
+
+### Regras
+
+1. Período/Ano: habilitar a consulta por ano no primeiro nível da consulta, semelhante a regra que já é adotada para a consulta de Despesa.
 
 ![](static/filtro_ano.jpg)
 
-2. Incluir no filtro mês, todos os meses do anos. 
-Atualmente, só consta os meses de Janeiro a Agosto, considerando que o portal apresenta apenas os dados financeiros do ano corrente.
+2. Mês: incluir no filtro mês, todos os meses do anos. Atualmente, só consta os meses de Janeiro a Agosto, considerando que o portal apresenta apenas os dados financeiros do ano corrente.
 
 
-- 2º nível (Nome do Servidor): sem alteração
+#### Formulário Situação Funcional e Dados de Remuneração
 
-
-- 3º nível (Formulário Situação Funcional e Dados de Remuneração)
-
-3. Na visualização dos dados do servidor referente ao Histórico da Remuneração, a linha referente ao --mês/ano-- deverá apresentar dados financeiros dos últimos 12 meses.
+1. Na visualização dos dados do servidor referente ao Histórico da Remuneração, a linha referente ao --mês/ano-- deverá apresentar dados financeiros dos últimos 12 meses.
 
 |--Mês/Ano--|Ago/2019|Jul/2019|Jun/2019|Mai/2019|Abr/2019|Mar/2019|Fev/2019|Jan/2019|Dez/2018|Nov/2018|Out/2018|Set/2018|
 |-------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|
@@ -48,11 +54,11 @@ Atualmente, só consta os meses de Janeiro a Agosto, considerando que o portal a
 
 ![](static/historico_remuneracao.jpg)
 
-4. A cada nova carga no Portal referentes aos dados de remuneração dos servidores, deverá ser excluída a última coluna da barra, referente ao mês mais antigo.
+2. A cada nova carga no Portal referentes aos dados de remuneração dos servidores, deverá ser excluída a última coluna da barra, referente ao mês mais antigo.
 
-5. E, posteriormente, deverá ser incluída na primeira coluna (após o mês/ano), o mês da carga atual dos dados de remuneração.
+3. E, posteriormente, deverá ser incluída na primeira coluna (após o mês/ano), o mês da carga atual dos dados de remuneração.
 
-6. Incluir a funionalidade de salvar os dados funcionais e financeiros em PDF e visualizar por meio de planilha: exemplo Governo do Paraná
+4. Incluir a funionalidade de salvar os dados funcionais e financeiros em PDF e visualizar por meio de planilha: exemplo Governo do Paraná
 
 ![](static/pdf_planilha.jpg)
 
