@@ -11,9 +11,8 @@ As alterações serão aplicadas no nível favorecido, formulário de detalhamen
 
 #### Regra da Anonimização:
 
-1. Exibir apenas das iniciais do nome do Favorecido; e
+1. Exibir apenas as iniciais do nome do favorecido, em letras maiúsculas, separadas por ponto.; e
 2. Ocultar os três primeiros dígitos e os dois últimos dígitos verificadores dos CPFs.
-
 
 # Motivação / contexto da intervenção
 
@@ -37,13 +36,14 @@ Destaca-se ainda que as demais consultas, como por exemplo, convênios e remuner
 
 # Especificação
 
-## Consulta Despesa
+Abaixo segue as regras que deverão ser aplicadas nas consultas de despesa e restos a pagar.
 
 1. Quando o usuário realizar o download dos dados, esses deverão ser exibidos anonimizados conforme especificado. No entanto, a base deverá conter a informação completa.
 
 2. A anonimização será aplicada apenas nos credores pessoas físicas que receberem valores na classificação dos elementos de despesa listados abaixo.
 
-# Tabela 01
+__Tabela 01__
+
 |Código|Descrição|
 |-------|:--------|
 |01| aposentadorias do RPPS, reserva remunerada e reformas dos militares|
@@ -52,6 +52,11 @@ Destaca-se ainda que as demais consultas, como por exemplo, convênios e remuner
 |59| Pensões especiais
 |31.2|premiacoes culturais, artisticas, cientificas, desportivas e outras / prêmios lotéricos|
 
+
+
+## Consulta Despesa
+
+A alteração será aplicada no nível no qual o nome dos favorecidos são exibidos, no formulário de detalhamento e no resultado da consulta avançada.
 
 ### Consulta por Órgão
 
@@ -77,7 +82,7 @@ As regras para anonimização são:
 
   O Portal deverá exibir da seguinte forma:
 
-# Tabela 02
+__Tabela 02__
 |Favorecido| CNPJ/CPF | Item de despesa | Valor Empenhado |Valor Liquidado| Valor Pago|
 |---------:|:------------:|:---------------:|:-----------:|:----------:|:---------|
 |C.G.C.     |***.659.616-**|Auxílio Reclusão| 10.000,00|10.000,00|10.000,00|
@@ -160,14 +165,7 @@ Quando o cidadão selecionar o campo ___Exibir favorecidos___ o Portal deverá r
 
 ## Especificação da consulta Restos a pagar
 
-Todas as páginas da consulta deverão exibir ícones com links para compartilhar consultas no facebook e twitter, a possibilidade de fazer download da planilha completa em csv, exportar para pdf e imprimir conforme padrão já adotado em outras consultas do Portal. 
-
-Exibir cabeçalho e legenda da tabela e rastro do caminho percorrido pelo usuário (“migalhas”) conforme padrão.
-
-Todos os gráficos da consulta irão buscar o valor pago no ano conforme a regra já adotada em outras consultas.
-
-Todos os gráficos deverão apresentar legenda conforme o já adotado em outras consultas.
-
+As regras serão aplicadas no 4º nível (favorecido) e no formulário de detalhamento.
 
 ### Consulta por Órgão
 
@@ -183,7 +181,7 @@ Ao clicar no ___Item de despesa___ listados no item 5 o Portal exibirá uma tabe
 
 #### Regras para anonimização:
 
-* __Campo Favorecido:__ Exibir apenas as iniciais do nome do favorecido.
+* __Campo Favorecido:__ Exibir apenas as iniciais do nome do favorecido, em letras maiúsculas, separadas por ponto.
 
 * __Campo CPF:__ Ocultar os 3 dos três primeiros e dos dois últimos dígitos verificadores.
 
@@ -200,12 +198,32 @@ O Portal deverá exibir da seguinte forma:
 
 * 5º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas no formulário de detalhamento da consulta por órgão.__.
 
+# Dependências / Integrações
+
+Para efetivação da alteração é necessário verificar com a PRODEMGE a possibilidade de descaracterizar os dados.
+
+# Exemplos
+
+Foi realizado pesquisa no Portal do Governo Federal, Espirito Santo e São Paulo e no que diz respito a beneficios previdênciáirios nçao foi localizado nenhum credor pessoa física.
 
 # Dúvidas / Pendências
 
-Ponderar e decidir sobre a inclusão do rol de dados de beneficiários dos itens abaixo na mesma especificação da Tabela 02:
+* Ponderar e decidir sobre a inclusão do rol de dados de beneficiários dos itens abaixo na mesma especificação da Tabela 02:
 
 Grupo 3 / Elemento: OUTROS SERVICOS DE TERCEIROS - PESSOA FISICA / Item de despesa: Estagiários????
 Grupo 3 / Elemento 13: Obrigações Patronais / Item: INSS – Demais Despesas
-OUTROS BENEFICIOS ASSISTENCIAIS DO SERVIDOR E DO MILITAR / Itens: auxílios fineral e natalidade
+OUTROS BENEFICIOS ASSISTENCIAIS DO SERVIDOR E DO MILITAR / Itens: auxílios fineral e natalidade.
+
+* Conforme Decreto nº 42.758, de 17de julho de 2002; os benefícios assistencias referem-se a benefícios assegurados pelo RPPS:
+
+> _Art. 9º - São benefícios assegurados pelo Regime Próprio de Previdência Social:
+>I - ao segurado:
+>aposentadoria;
+>licença para tratamento de saúde;
+>licença-maternidade;
+>abono-família;
+>
+>II - ao dependente:
+>pensão por morte;
+>auxílio-reclusão._
 ----FIM----
