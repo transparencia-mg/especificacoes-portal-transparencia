@@ -214,9 +214,14 @@ Grupo 3 / Elemento: OUTROS SERVICOS DE TERCEIROS - PESSOA FISICA / Item de despe
 Grupo 3 / Elemento 13: Obrigações Patronais / Item: INSS – Demais Despesas
 OUTROS BENEFICIOS ASSISTENCIAIS DO SERVIDOR E DO MILITAR / Itens: auxílios fineral e natalidade.
 
-* Conforme Decreto nº 42.758, de 17de julho de 2002; os benefícios assistencias referem-se a benefícios assegurados pelo RPPS:
+1. Em seu art. 7º, o Decreto 7.185/2010 regulamenta que a exceção de disponiblização de dados de pessoa física estende-se a folha de pagamento de pessoa e a benefícios previdenciários.
+No entanto, com base no julgamento do Recurso Extraordinário com Agravo (ARE) 652777 do Supremo Tribunal Federal é legítima a publicação, inclusive em sítio eletrônico, dos nome de servidores e dos valores dos correspondentes vencimentos e vantagens pecuniárias. 
+Ressalta-se que em relação aos dados de endereço, CPF e identidade o ARE 652777 permaneceu com a proibição.
 
-> _Art. 9º - São benefícios assegurados pelo Regime Próprio de Previdência Social:
+..."E quanto à segurança física ou corporal dos servidores, seja pessoal, seja familiarmente, claro que ela resultará um tanto ou quanto fragilizada com a divulgação nominalizada dos dados em debate, mas é um tipo de risco pessoal e familiar que se atenua com a proibição de se revelar o endereço residencial, o CPF e a CI de cada servidor."
+
+2. Em relação a divulgação de dados de pessoas físicas credores de benefícios previdenciários: a Lei Complementar nº 64/2002 dispõe que são benefícios assegurados pelo Regima Próprio de Previdência Social:
+
 >I - ao segurado:
 >aposentadoria;
 >licença para tratamento de saúde;
@@ -225,5 +230,29 @@ OUTROS BENEFICIOS ASSISTENCIAIS DO SERVIDOR E DO MILITAR / Itens: auxílios fine
 >
 >II - ao dependente:
 >pensão por morte;
->auxílio-reclusão._
+>auxílio-reclusão.
+
+No entanto, o Diário Oficial do Estado divulga as pessoas físicas autorizadas a receber os benefícios previstos na Lei Complementar 64/2002, assim, questiono se não é válida divulgação nominal dos beneficiários, deixando apenas anonimizado o CPF do previdenciário, seguindo a regra já estabelecida na ARE 652777. 
+O único benefício previdenciário que não consta no IOF é o auxílio reclusão, que para evitar questionamentos, pode ser anonimizado o CPF e o nome do beneficiário.
+
+A título de exemplo, abaixo apresenta-se a divulgação no IOF de benefícios previdenciários.
+
+2.a. aposentadoria
+![](C:/Users\m11483500\Desktop\CGE\projetos_dta/aposentadoria.jpg)
+
+2.b. licença para tratamento de saúde
+![](C:/Users\m11483500\Desktop\CGE\projetos_dta/licenca_saude.jpg)
+
+2.c. licença maternidade
+![](C:/Users\m11483500\Desktop\CGE\projetos_dta/licenca_maternidade.jpg)
+
+2.d abono família
+![](C:/Users\m11483500\Desktop\CGE\projetos_dta/abono_familia.jpg)
+
+2.e. pensão por morte
+![](C:/Users\m11483500\Desktop\CGE\projetos_dta/pensao_por_morte.jpg)
+
+
+
+
 ----FIM----
