@@ -1,6 +1,6 @@
 ---
 titulo: "Nova especificação da Consulta Restos a pagar"
-pull_request:
+pull_request:https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/3
 ---
 
 # Visão geral da intervenção
@@ -33,14 +33,12 @@ O cidadão seleciona a opção Restos a pagar e o Portal exibirá
 3. __Filtro:__ exibir filtro para selecionar uma opção. Sempre que não for selecionado nenhum filtro, a pesquisa deverá retornar todos os resultados possíveis.
   O filtro _favorecido por nome_ deverá permitir que o cidadão digite qualquer parte do nome e o portal retornará todos os itens que encaixem na pesquisa.
 
-  ``Colocar esse campo no item dúvida``
-
 4. __Data Ínicio e Fim__
 5. __Pesquisar__
 6. __Pesquisa Avançada__
 
 Exemplo:
-![Pagina Inicial](pagina-inicial.png)
+![Pagina Inicial](static/pagina-inicial.png)
 
 |Ano| Consulta| Filtro|Início|Fim|Pesquisa|Pesquisa Avançada|
 |---|:---------|-------|------|---|--------|-----------------|
@@ -73,7 +71,7 @@ O Portal da Transparência irá listar o resultado da consulta em um gráfico tr
 
 <<Título do gráfico: Favorecidos>>
 
-![modelo-grafico-treemap](modelo-grafico-treemap.png)
+![modelo-grafico-treemap](static/modelo-grafico-treemap.png)
 
 |Favorecido| CNPJ/CPF|Valor inscrito processado| Valor não inscrito processado| Valor pago no ano| Valor a pagar|
 |-----|-----|-----|-----|-----|---
@@ -85,7 +83,7 @@ __2º nível (Elemento de Despesa)__
 Ao clicar no nome do _[Favorecido]_ o Portal exibirá um gráfico treemap e uma tabela.   
 
 <<Título do gráfico: Nome do favorecido selecionado no nível anterior>>
-![modelo-grafico-treemap](modelo-grafico-treemap.png)
+![modelo-grafico-treemap](static/modelo-grafico-treemap.png)
 
 |Categoria Econômica|Grupo de Despesa| Elemento de Despesa| Valor inscrito processado| Valor não inscrito processado|Valor pago no ano | Valor a pagar
 |-----|-----|-----|-----|-----|---|----
@@ -96,7 +94,7 @@ __3º nível (Item de despesa)__
 Ao clicar no _[Elemento de despesa]_ o Portal exibirá um gráfico treemap e uma tabela.
 
 <<Título do gráfico: Nome do elemento de despesa selecionado no nível anterior>>
-![modelo-grafico-treemap](modelo-grafico-treemap.png)
+![modelo-grafico-treemap](static/modelo-grafico-treemap.png)
 
 |Fonte de Recursos| Modalidade de Aplicação| Item de Despesa| Valor inscrito processado| Valor não inscrito processado|Valor pago no ano|Valor a pagar
 |-----|-----|-----|-----|-----|---|----|
@@ -107,7 +105,7 @@ __4º nível (Órgão)__
 Ao clicar em _[Item de despesa]_ o Portal exibirá um gráfico treemap e uma tabela.
 
 <<Título do gráfico: Nome do item de despesa selecionado no nível anterior>>
-![modelo-grafico-treemap](modelo-grafico-treemap.png)
+![modelo-grafico-treemap](static/modelo-grafico-treemap.png)
 
 |Código| Órgão| Valor inscrito processado| Valor não inscrito processado| Valor pago no ano | Valor a pagar|
 |-----|-----|-----|-----|-----|---|
@@ -128,7 +126,7 @@ __6º nível (Formulário de detalhamento)__
 
 Ao clicar no _[número do empenho]_ o Portal exibirá o Formulário de detalhamento igual ao utilizado atualmente na consulta por órgão.
 
-![Formulário de detalhamento](formulario-detalhamento.png)
+![Formulário de detalhamento](static/formulario-detalhamento.png)
 
 
 ## Consulta Favorecido por CPF/CNPJ
@@ -145,7 +143,7 @@ O Portal da Transparência irá listar o resultado da consulta em um gráfico tr
 
 <<Título do gráfico: Funções>>
 
-![modelo-grafico-treemap](modelo-grafico-treemap.png)
+![modelo-grafico-treemap](static/modelo-grafico-treemap.png)
 
 |Função|Valor inscrito processado| Valor não inscrito processado| Valor pago no ano| Valor a pagar|
 |-----|-----|-----|-----|----
@@ -156,7 +154,7 @@ __2º nível (Subfunção)__
 Ao clicar no nome da _[Função]_ o Portal exibirá um gráfico treemap e uma tabela. O cidadão poderá navegar pelos níveis de detalhamento tanto no gráfico quanto na tabela.  
 
 << Título do gráfico: Nome da função selecionada no nível anterior>>
-![modelo-grafico-treemap](modelo-grafico-treemap.png)
+![modelo-grafico-treemap](static/modelo-grafico-treemap.png)
 
 |Código|Subfunção|Valor inscrito processado| Valor não inscrito processado|Valor pago no ano | Valor a pagar
 |-----|-----|-----|-----|-----|---|
@@ -167,7 +165,7 @@ __3º nível (órgão)__
 Ao clicar na _[Subfunção]_ o Portal exibirá um gráfico treemap e uma tabela.
 
 << Título do gráfico: Nome da Subfunção selecionado no nível anterior>>
-![modelo-grafico-treemap](modelo-grafico-treemap.png)
+![modelo-grafico-treemap](static/modelo-grafico-treemap.png)
 
 |Código|Órgão| Valor inscrito processado| Valor não inscrito processado|Valor pago no ano|Valor a pagar
 |-----|-----|-----|-----|-----|--
@@ -179,7 +177,7 @@ Ao clicar em _[Órgão]_ o Portal exibirá um gráfico treemap e uma tabela.
 
 << Título do gráfico: Nome do órgão selecionado no nível anterior>>
 
-![modelo-grafico-treemap](modelo-grafico-treemap.png)
+![modelo-grafico-treemap](static/modelo-grafico-treemap.png)
 
 |Código do Programa|Programa| Valor inscrito processado| Valor não inscrito processado| Valor pago no ano | Valor a pagar|
 |-----|-----|-----|-----|-----|---|
@@ -192,7 +190,7 @@ Ao clicar no nome do _[Programa]_  Portal exibirá um gráfico treemap e uma tab
 
 << Título do gráfico: Nome do programa selecionado no nível anterior>>
 
-![modelo-grafico-treemap](modelo-grafico-treemap.png)
+![modelo-grafico-treemap](static/modelo-grafico-treemap.png)
 
 |Código da Ação|Ação| Valor inscrito processado| Valor não inscrito processado| Valor pago no ano | Valor a pagar|
 |-----|-----|-----|-----|-----|---|
@@ -203,7 +201,7 @@ __6º nível (Elemento de Despesa)__
 Ao clicar no nome da _[ação]_ o Portal exibirá um gráfico treemap e uma tabela.
 
 <<Título do gráfico: Nome da Ação selecionada no nível anterior>>
-![modelo-grafico-treemap](modelo-grafico-treemap.png)
+![modelo-grafico-treemap](static/modelo-grafico-treemap.png)
 
 |Categoria Econômica|Grupo de Despesa| Elemento de Despesa| Valor inscrito processado| Valor não inscrito processado|Valor pago no ano | Valor a pagar
 |-----|-----|-----|-----|-----|---|----
@@ -215,7 +213,7 @@ Ao clicar no nome do _[Elemento de despesa]_ o Portal exibirá um gráfico treem
 
 <<Título do gráfico: Nome do Elemento de despesa selecionado no nível anterior>>
 
-![modelo-grafico-treemap](modelo-grafico-treemap.png)
+![modelo-grafico-treemap](static/modelo-grafico-treemap.png)
 
 |Favorecido| CNPJ/CPF|Valor inscrito processado| Valor não inscrito processado| Valor pago no ano| Valor a pagar|
 |-----|-----|-----|-----|-----|---
@@ -235,7 +233,7 @@ __8º nível (Formulário de detalhamento)__
 
 Ao clicar no número do empenho o Portal exibirá o Formulário de detalhamento igual ao utilizado atualmente na consulta por órgão.
 
-![Formulário de detalhamento](formulario-detalhamento.png)
+![Formulário de detalhamento](static/formulario-detalhamento.png)
 
 ## Consulta Programa
 
@@ -247,7 +245,7 @@ O Portal da Transparência irá listar o resultado da consulta em um gráfico tr
 
 <<Título do gráfico: Programas>>
 
-![modelo-grafico-treemap](modelo-grafico-treemap.png)
+![modelo-grafico-treemap](static/modelo-grafico-treemap.png)
 
 |Código do Programa|Programa| Valor inscrito processado| Valor não inscrito processado| Valor pago no ano | Valor a pagar|
 |-----|-----|-----|-----|-----|---|
@@ -258,7 +256,7 @@ __2º nível (Órgão)__
 Ao clicar no _[Programa]_ o Portal exibirá um gráfico treemap e uma tabela.
 
 << Título do gráfico: Nome do Programa selecionado no nível anterior>>
-![modelo-grafico-treemap](modelo-grafico-treemap.png)
+![modelo-grafico-treemap](static/modelo-grafico-treemap.png)
 
 |Código|Órgão| Valor inscrito processado| Valor não inscrito processado|Valor pago no ano|Valor a pagar
 |-----|-----|-----|-----|-----|--
@@ -269,7 +267,7 @@ __3º nível (Ação)__
 Ao clicar no _[Órgão]_ o Portal exibirá um gráfico treemap e uma tabela.
 
 << Título do gráfico: Nome do Órgão selecionado no nível anterior>>
-![modelo-grafico-treemap](modelo-grafico-treemap.png)
+![modelo-grafico-treemap](static/modelo-grafico-treemap.png)
 
 |Código da Ação|Ação| Valor inscrito processado| Valor não inscrito processado|Valor pago no ano|Valor a pagar
 |-----|-----|-----|-----|-----|--
@@ -280,7 +278,7 @@ __4º nível (Elemento de Despesa)__
 Ao clicar no nome da _[ação]_ o Portal exibirá um gráfico treemap e uma tabela.
 
 <<Título do gráfico: Nome da Ação selecionada no nível anterior>>
-![modelo-grafico-treemap](modelo-grafico-treemap.png)
+![modelo-grafico-treemap](static/modelo-grafico-treemap.png)
 
 |Categoria Econômica|Grupo de Despesa| Elemento de Despesa| Valor inscrito processado| Valor não inscrito processado|Valor pago no ano | Valor a pagar
 |-----|-----|-----|-----|-----|---|----
@@ -292,7 +290,7 @@ Ao clicar no nome do _[Elemento de despesa]_ o Portal exibirá um gráfico treem
 
 <<Título do gráfico: Nome do Elemento de despesa selecionado no nível anterior>>
 
-![modelo-grafico-treemap](modelo-grafico-treemap.png)
+![modelo-grafico-treemap](static/modelo-grafico-treemap.png)
 
 |Favorecido| CNPJ/CPF|Valor inscrito processado| Valor não inscrito processado| Valor pago no ano| Valor a pagar|
 |-----|-----|-----|-----|-----|---
@@ -312,7 +310,7 @@ __7º nível (Formulário de detalhamento)__
 
 Ao clicar no número do empenho o Portal exibirá o Formulário de detalhamento igual ao utilizado atualmente na consulta por órgão.
 
-![Formulário de detalhamento](formulario-detalhamento.png)
+![Formulário de detalhamento](static/formulario-detalhamento.png)
 
 ## Consulta Avançada
 
