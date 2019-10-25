@@ -35,7 +35,7 @@ O cidadão seleciona a opção Pessoal e depois Remuneração dos Servidores e o
 5. Pesquisa
 6. Pesquisa Avançada
 
-### Regras
+#### Regras para a página inicial
 
 1. Período/Ano: habilitar a consulta por ano no primeiro nível da consulta, semelhante a regra que já é adotada para a consulta de Despesa.
 
@@ -44,12 +44,13 @@ O cidadão seleciona a opção Pessoal e depois Remuneração dos Servidores e o
 2. Mês: incluir no filtro mês, todos os meses do anos. Atualmente, só consta os meses de Janeiro a Agosto, considerando que o portal apresenta apenas os dados financeiros do ano corrente.
 
 
-#### Formulário Situação Funcional e Dados de Remuneração
+### Formulário Situação Funcional e Dados de Remuneração
 
 1. Na visualização dos dados do servidor referente ao Histórico da Remuneração, a linha referente ao --mês/ano-- deverá apresentar dados financeiros dos últimos 12 meses.
 
-|--Mês/Ano--|Ago/2019|Jul/2019|Jun/2019|Mai/2019|Abr/2019|Mar/2019|Fev/2019|Jan/2019|Dez/2018|Nov/2018|Out/2018|Set/2018|
+|Mês/Ano|Ago/2019|Jul/2019|Jun/2019|Mai/2019|Abr/2019|Mar/2019|Fev/2019|Jan/2019|Dez/2018|Nov/2018|Out/2018|Set/2018|
 |-------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|
+|-----|
 
 
 ![](static/historico_remuneracao.jpg)
