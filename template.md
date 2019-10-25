@@ -1,28 +1,44 @@
 ---
-titulo:
-pull_request:
+titulo: feat/"Especificação Layout Remuneração"
+pull_request:https://github.com/transparencia-mg/especificacoes-portal-transparencia/tree/feat/especificacao-layout-remuneracao/pull-4
 ---
 
 # Visão geral da intervenção
 
-Explicação de um parágrafo sobre o que deve ser feito.
+Objetivo: rever a especificação do leiaute da consulta de remuneração elaborada em 2015 e que está em produção atualmente.
 
 # Motivação / contexto da intervenção
 
-Porque a intervenção é necessária? Qual problema ela visa solucionar?
+Validar necessidade de preenchimento dos campos da consulta de remuneração que estão vazios. Suprimir campos que não são necessárias, e adicionar campos necessários, seja em decorrência de alterações legislativas (LGPD, p.ex.) e decisões concensuadas entre os técnicos das áreas envolvidas.
 
 # Especificação
 
-Detalhamento da intervenção.
+Na consulta Página Principal > Pessoal > Remuneração dos Servidores > Faixa Salarial > Órgao > Cargo > Servidor, adotar:
+
+Exclusões: campos NUMERO_ADMISSAO, CPF,  
+
+Inclusões:
+
+Valores de todos os campos que constam como '0' ou '-'
+
+Número e grau do cargo efetivo
+
+Detalhamento da composição remuneratória (discriminação dos vencimentos)
+
+Discriminação dos auxílios (alimentação, transporte e outros) e outros que estão agregados como 'Demais eventuais'
+
+Evidenciação de desconto decorrente de faltas nos dias trabalhados
+
+Agregação de vantagens e deduções em subtotais
 
 # Dependências / Integrações
 
-Para implementação da intervenção é necessário ações de atores externos à equipe da PRODEMGE do Portal ou da DTA?
+SISAP
 
 # Exemplos
 
-Existe algum exemplo similar ao proposta na intervenção que serviu de inspiração?
+
 
 # Dúvidas
+DIFERENÇA ENTRE '0' E '-' NO RESULTADO DA ATUAL CONSULTA
 
-Questionamentos ou dúvidas que ainda precisam ser avaliados/resolvidos.
