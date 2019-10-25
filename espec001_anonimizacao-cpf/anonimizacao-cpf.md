@@ -238,19 +238,19 @@ O único benefício previdenciário que não consta no IOF é o auxílio reclus�
 A título de exemplo, abaixo apresenta-se a divulgação no IOF de benefícios previdenciários.
 
 2.a. aposentadoria
-![](C:/Users\m11483500\Desktop\CGE\projetos_dta/aposentadoria.jpg)
+![](static/aposentadoria.jpg)
 
 2.b. licença para tratamento de saúde
-![](C:/Users\m11483500\Desktop\CGE\projetos_dta/licenca_saude.jpg)
+![](static/licenca_saude.jpg)
 
 2.c. licença maternidade
-![](C:/Users\m11483500\Desktop\CGE\projetos_dta/licenca_maternidade.jpg)
+![](static/licenca_maternidade.jpg)
 
 2.d abono família
-![](C:/Users\m11483500\Desktop\CGE\projetos_dta/abono_familia.jpg)
+![](static/abono_familia.jpg)
 
 2.e. pensão por morte
-![](C:/Users\m11483500\Desktop\CGE\projetos_dta/pensao_por_morte.jpg)
+![](static/pensao_por_morte.jpg)
 
 
 
