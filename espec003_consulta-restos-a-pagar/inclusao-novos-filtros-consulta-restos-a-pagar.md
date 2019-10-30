@@ -371,3 +371,5 @@ Seguir o modelo atual da [consulta de Despesa](http://www.transparencia.mg.gov.b
       | Função     |     4.179 |   2,73% |
       | Favorecido |    16.235 |  10,59% |
       | __Total__  |__153.255__|         |
+
+3. Avaliar se a navegação por nível deverá espelhar a da Consulta de Despesa.
