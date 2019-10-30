@@ -10,9 +10,9 @@ Essa intervenção visa acrescentar modos de pesquisa adicionais a consulta de R
 Serão acrescentados as pesquisas por filtros de:
 
 1. Favorecido por nome;
-2. Favorecido por CPF/CNPJ;
+2. Favorecido por CPF/CNPJ.
 
-Além do modo de Pesquisa Avançada.
+Além disso, também deve ser acrescentado o modo de Pesquisa Avançada.
 
 # Motivação / contexto da intervenção
 
