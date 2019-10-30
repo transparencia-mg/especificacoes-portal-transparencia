@@ -5,14 +5,14 @@ pull_request:https://github.com/transparencia-mg/especificacoes-portal-transpare
 
 # Visão geral da intervenção
 
-A especificação tem por objetivo acrescentar novos filtros na consulta de Restos a pagar nos mesmos moldes da consulta de Despesa.
+Essa intervenção visa acrescentar modos de pesquisa adicionais a consulta de Restos a Pagar, nos moldes da consulta de Despesa.
 
-Filtros que serão acrescentados:
-1. Programa;
-2. Favorecido por nome;
-3. Favorecido por CPF/CNPJ;
-4. Função; e
-5. Pesquisa Avançada.
+Serão acrescentados as pesquisas por filtros de:
+
+1. Favorecido por nome;
+2. Favorecido por CPF/CNPJ;
+
+Além do modo de Pesquisa Avançada.
 
 # Motivação / contexto da intervenção
 
@@ -67,7 +67,7 @@ __1º nível (Favorecido)__
 
 O portal exibirá a opção de escolher tipo da consulta e, ao selecionar o tipo _[Favorecido por nome]_, permitirá que o cidadão escreva o nome completo ou parte do nome do favorecido. O Portal retornará todos os resultados que se encaixem no termo informado do filtro.
 
-O Portal da Transparência irá listar o resultado da consulta em um gráfico treemap e em tabela.  
+O Portal da Transparência irá listar o resultado da consulta em um gráfico treemap e em tabela.
 
 <<Título do gráfico: Favorecidos>>
 
@@ -80,7 +80,7 @@ O Portal da Transparência irá listar o resultado da consulta em um gráfico tr
 
 __2º nível (Elemento de Despesa)__
 
-Ao clicar no nome do _[Favorecido]_ o Portal exibirá um gráfico treemap e uma tabela.   
+Ao clicar no nome do _[Favorecido]_ o Portal exibirá um gráfico treemap e uma tabela.
 
 <<Título do gráfico: Nome do favorecido selecionado no nível anterior>>
 ![modelo-grafico-treemap](static/modelo-grafico-treemap.png)
@@ -139,7 +139,7 @@ __1º nível (Função)__
 
 O portal exibirá a opção de escolher tipo da consulta e, ao selecionar o tipo _[Função]_, permitirá que o cidadão escreva o nome da função ou selecione uma função na lista. O Portal retornará todos os resultados que se encaixem no termo informado do filtro.
 
-O Portal da Transparência irá listar o resultado da consulta em um gráfico treemap e em tabela.  
+O Portal da Transparência irá listar o resultado da consulta em um gráfico treemap e em tabela.
 
 <<Título do gráfico: Funções>>
 
@@ -151,7 +151,7 @@ O Portal da Transparência irá listar o resultado da consulta em um gráfico tr
 
 __2º nível (Subfunção)__
 
-Ao clicar no nome da _[Função]_ o Portal exibirá um gráfico treemap e uma tabela. O cidadão poderá navegar pelos níveis de detalhamento tanto no gráfico quanto na tabela.  
+Ao clicar no nome da _[Função]_ o Portal exibirá um gráfico treemap e uma tabela. O cidadão poderá navegar pelos níveis de detalhamento tanto no gráfico quanto na tabela.
 
 << Título do gráfico: Nome da função selecionada no nível anterior>>
 ![modelo-grafico-treemap](static/modelo-grafico-treemap.png)
@@ -241,7 +241,7 @@ __1º nível (Programa)__
 
 O portal exibirá a opção de escolher tipo da consulta e, ao selecionar o tipo _[Programa]_, permitirá que o cidadão escreva o nome da função ou selecione um programa na lista. O Portal retornará todos os resultados que se encaixem no termo informado do filtro.
 
-O Portal da Transparência irá listar o resultado da consulta em um gráfico treemap e em tabela.  
+O Portal da Transparência irá listar o resultado da consulta em um gráfico treemap e em tabela.
 
 <<Título do gráfico: Programas>>
 
@@ -331,7 +331,7 @@ A consulta avançada terá 12 campos de filtro simples e parâmetro de ano:
 O usuário poderá escolher em exibir ou não a lista dos favorecidos. Como padrão o portal não exibirá os favorecidos.
 
 Favorecidos
-- [ ] Exibir favorecidos     
+- [ ] Exibir favorecidos
 - [x] Não exibir Favorecidos
 
 __OBS: Ao exibir o favorecido o Portal deverá retornar o nome e CNPJ/CPF do favorecido, conforme já ocorre na consulta de despesa.__
@@ -362,7 +362,7 @@ Seguir o modelo atual da [consulta de Despesa](http://www.transparencia.mg.gov.b
   2. Avaliar a real necessidade de acrescentar todos os filtros, uma vez que conforme levantamento realizado no google analytics, considerando a consulta de despesa, os filtros mais utilizados são:
 
   * __Período analisado__: jan/2019 a 23/out/2019
-  * __Total de acessos na consulta de despesa__: 125.024 sessões
+  * __Total de acessos na consulta de despesa__: 153.255 sessões
 
       | Filtros    | Acessos   | %       |
       |------------|----------:|--------:|
