@@ -5,14 +5,14 @@ pull_request: [espec001](https://github.com/transparencia-mg/especificacoes-port
 
 # Visão geral da intervenção
 
-A especificação tem objetivo de anonimizar os nomes e CPFs dos credores pessoas físicas das consultas de Despesa e Restos a Pagar disponível no Portal da Transparência. 
+A especificação tem objetivo de descaracterizar os nomes e CPFs dos credores pessoas físicas das consultas de Despesa e Restos a Pagar disponível no Portal da Transparência.
 
-As alterações serão aplicadas no nível favorecido, formulário de detalhamento e pesquisa avançada dos credores que receberem valores na classificação orçamentária referente aos elementos de despesa destacados na _tabela 1_(vide item 2 da 'Consulta Despesa' em 'Especificação', abaixo - linha 46).
-
-#### Regra da Anonimização:
+As alterações serão aplicadas no [nível favorecido](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2019/01-01-2019/31-12-2019/3887/1888/513/20/39), [formulários de detalhamento](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2019/01-01-2019/31-12-2019/3887/1888/513/20/39/1210194/3023/empenhado/7/12510483/0/0) e pesquisa avançada dos credores que receberem valores nas classificações orçamentárias pré-definidas pela CGE. A regra de anonimização deve:
 
 1. Exibir apenas as iniciais do nome do favorecido, em letras maiúsculas, separadas por ponto.; e
 2. Ocultar os três primeiros dígitos e os dois últimos dígitos verificadores dos CPFs.
+
+No banco de dados do Portal da Transparência as informações de nome e CPF devem ser armazenadas sem descaracterização.
 
 # Motivação / contexto da intervenção
 
@@ -28,7 +28,7 @@ A exigência de a administração pública divulgar informações consta na Lei 
 
 Nesse sentido, atualmente, o Portal da Transparência divulga nas consultas de Despesa e Restos a Pagar informações completas (nome e CPF) de __todos os credores__ que recebem benefícios previdenciários do Estado, contrariando o Decreto Federal em questão.
 
-Além disso, sua divulgação tem sido objeto de questionamentos pela sociedade. 
+Além disso, sua divulgação tem sido objeto de questionamentos pela sociedade.
 
 Assim, com a finalidade de atender plenamente o que determina a legislação, a Diretoria Central de Transparência Ativa (DTA), unidade responsável pela gestão do Portal da Transparência, propõe a alteração na forma de exibição dos dados nas consultas de Despesas e Restos a Pagar.
 
@@ -208,6 +208,8 @@ Foi realizado pesquisa no Portal do Governo Federal, Espirito Santo e São Paulo
 
 # Dúvidas / Pendências
 
+* A forma de descaracterização proposta está suficiente para garantir a privacidade dos benefíciários?
+
 * Ponderar e decidir sobre a inclusão do rol de dados de beneficiários dos itens abaixo na mesma especificação da Tabela 02:
 
 Grupo 3 / Elemento: OUTROS SERVICOS DE TERCEIROS - PESSOA FISICA / Item de despesa: Estagiários????
@@ -215,7 +217,7 @@ Grupo 3 / Elemento 13: Obrigações Patronais / Item: INSS – Demais Despesas
 OUTROS BENEFICIOS ASSISTENCIAIS DO SERVIDOR E DO MILITAR / Itens: auxílios fineral e natalidade.
 
 1. Em seu art. 7º, o Decreto 7.185/2010 regulamenta que a exceção de disponiblização de dados de pessoa física estende-se a folha de pagamento de pessoa e a benefícios previdenciários.
-No entanto, com base no julgamento do Recurso Extraordinário com Agravo (ARE) 652777 do Supremo Tribunal Federal é legítima a publicação, inclusive em sítio eletrônico, dos nome de servidores e dos valores dos correspondentes vencimentos e vantagens pecuniárias. 
+No entanto, com base no julgamento do Recurso Extraordinário com Agravo (ARE) 652777 do Supremo Tribunal Federal é legítima a publicação, inclusive em sítio eletrônico, dos nome de servidores e dos valores dos correspondentes vencimentos e vantagens pecuniárias.
 Ressalta-se que em relação aos dados de endereço, CPF e identidade o ARE 652777 permaneceu com a proibição.
 
 ..."E quanto à segurança física ou corporal dos servidores, seja pessoal, seja familiarmente, claro que ela resultará um tanto ou quanto fragilizada com a divulgação nominalizada dos dados em debate, mas é um tipo de risco pessoal e familiar que se atenua com a proibição de se revelar o endereço residencial, o CPF e a CI de cada servidor."
@@ -232,7 +234,7 @@ Ressalta-se que em relação aos dados de endereço, CPF e identidade o ARE 6527
 >pensão por morte;
 >auxílio-reclusão.
 
-No entanto, o Diário Oficial do Estado divulga as pessoas físicas autorizadas a receber os benefícios previstos na Lei Complementar 64/2002, assim, questiono se não é válida divulgação nominal dos beneficiários, deixando apenas anonimizado o CPF do previdenciário, seguindo a regra já estabelecida na ARE 652777. 
+No entanto, o Diário Oficial do Estado divulga as pessoas físicas autorizadas a receber os benefícios previstos na Lei Complementar 64/2002, assim, questiono se não é válida divulgação nominal dos beneficiários, deixando apenas anonimizado o CPF do previdenciário, seguindo a regra já estabelecida na ARE 652777.
 O único benefício previdenciário que não consta no IOF é o auxílio reclusão, que para evitar questionamentos, pode ser anonimizado o CPF e o nome do beneficiário.
 
 A título de exemplo, abaixo apresenta-se a divulgação no IOF de benefícios previdenciários.
