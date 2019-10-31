@@ -9,7 +9,13 @@ pull_request: [pull_request_002](https://github.com/transparencia-mg/especificac
 
 # Visão Geral da Intervenção
 
-A proposta dessa especificação é realizar alterações na consulta de Remuneração passando a apresentar os últimos 12 meses dos dados de pagamentos e não mais do ano corrente. Além de incluir a opção do filtro dos anos anteriores para consulta de todos os pagamentos.
+Essa demanda visa divulgar no Portal da Transparência as remunerações de todos os exercícios anteriores disponíveis. Atualmente somente é divulgado dados para o exercício corrente.
+
+Também deve ser alterado o formato de divulgação do histórico da remuneração, com inversão de linhas e colunas, de tal forma que seja possível a visualização de maior quantidade de meses.
+
+Por fim, deve ser incluído funcionalidade de exportação para `.pdf` e `.csv` conforme formato definido nesta especificação.
+
+Além disso também deve ser realizada a adequação do layout (entre planilha, banco de dados e interface) da Consulta de Remuneração no Portal da Transparência.
 
 # Motivação / Contexto da Intervenção
 
@@ -59,9 +65,20 @@ O cidadão seleciona a opção Pessoal e depois Remuneração dos Servidores e o
 
 3. E, posteriormente, deverá ser incluída na primeira coluna (após o mês/ano), o mês da carga atual dos dados de remuneração.
 
-4. Incluir a funionalidade de salvar os dados funcionais e financeiros em PDF e visualizar por meio de planilha: exemplo Governo do Paraná
+
 
 ![](static/pdf_planilha.jpg)
+
+## Demais funcionalidades
+
+* Na divulgação do quantitativo de servidores por faixa salarial, deve-se manter o salário mínimo do exercício corrente.
+
+* Incluir funcionalidade de exportação de salvar os dados funcionais e financeiros em PDF e visualizar por meio de `csv`. O modelo deve ser
+
+| Nome      | Cargo | Mês      | Remuneracao | Deducoes |
+|-----------|-------|----------|-------------|----------|
+| Francisco | DAD6  | JAN/2012 | 2.438,39    | 487,68   |
+| Francisco | DAD7  | FEV/2012 | 2.438,39    | 487,68   |
 
 # Dependências/Integrações
 
@@ -75,17 +92,9 @@ Não se aplica.
 
 # Dúvidas
 
+* Temos acesso aos dados de anos anteriores da remuneração sem decisões judiciais? Qual o impacto se planilhas de anos anteriores com descaracterização forem carregadas no Portal?
+
 1. A situação funcional do servidor será histórica? Ou seja, será possível pesquisar a situação funcional de um servidor no mês de Maio de 2014 ou somente a situação funcional atual?????
-
-2. Sugiro a alteração na apresentação dos dados financeiros.
-Atualmente o portal apresenta os dados mês/ano em coluna
-![](static/quadro_coluna.jpg)
-
-Sugestão: apresentar os dados dos financeiros no formato mês/ano em linha, como ocorre no Portal do Paraná
-![](static/quadro_linha.jpg)
-
-
-Dessa forma, não será necessário criar o filtro por ano, pois toda a remuneração do servidor já estará disponível, bastando navegar pelas próximas páginas.
 
 3. Concentrar as informações de servidores que possem mais de um cargo em uma mesma tela.
 Atualmente, o Portal da Transparência apresenta os dados de servidores com mais de um cargo em telas separadas:
@@ -94,4 +103,3 @@ Atualmente, o Portal da Transparência apresenta os dados de servidores com mais
 Sugestão: Permitir a visualização dos cargos e remunerações em uma única tela. Diferenciando os cargos por números, a exemplo com o que ocorre no Governo do Paraná
 
 ![](static/unica_tela.jpg)
-
