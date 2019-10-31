@@ -210,6 +210,8 @@ Foi realizado pesquisa no Portal do Governo Federal, Espirito Santo e São Paulo
 
 * A forma de descaracterização proposta está suficiente para garantir a privacidade dos benefíciários?
 
+* O método de descaracterização e as classificações orçamentárias para as quais elas serão aplicadas influeciam na estimativa de horas da demanda?
+
 * Ponderar e decidir sobre a inclusão do rol de dados de beneficiários dos itens abaixo na mesma especificação da Tabela 02:
 
 Grupo 3 / Elemento: OUTROS SERVICOS DE TERCEIROS - PESSOA FISICA / Item de despesa: Estagiários????
