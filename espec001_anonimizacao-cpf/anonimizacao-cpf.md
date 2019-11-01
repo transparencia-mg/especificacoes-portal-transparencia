@@ -5,7 +5,7 @@ pull_request: [espec001](https://github.com/transparencia-mg/especificacoes-port
 
 # Visão geral da intervenção
 
-A especificação tem objetivo de descaracterizar os nomes e CPFs dos credores pessoas físicas das consultas de Despesa e Restos a Pagar disponível no Portal da Transparência.
+A especificação tem objetivo de descaracterizar os nomes e CPFs dos credores pessoas físicas das consultas de Despesa e Restos a Pagar disponível no Portal da Transparência, incluindo os credores de benefícios previdencários e e ganhadores de prêmios lotéricos.
 
 As alterações serão aplicadas no [nível favorecido](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2019/01-01-2019/31-12-2019/3887/1888/513/20/39), [formulários de detalhamento](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2019/01-01-2019/31-12-2019/3887/1888/513/20/39/1210194/3023/empenhado/7/12510483/0/0) e pesquisa avançada dos credores que receberem valores nas classificações orçamentárias pré-definidas pela CGE. A regra de anonimização deve:
 
@@ -30,7 +30,11 @@ Nesse sentido, atualmente, o Portal da Transparência divulga nas consultas de D
 
 Além disso, sua divulgação tem sido objeto de questionamentos pela sociedade.
 
-Assim, com a finalidade de atender plenamente o que determina a legislação, a Diretoria Central de Transparência Ativa (DTA), unidade responsável pela gestão do Portal da Transparência, propõe a alteração na forma de exibição dos dados nas consultas de Despesas e Restos a Pagar.
+Outro item que também será alterado é a divulgação dos nomes e CPF de ganhadores de prêmio lotéricos. Atualmente, o Portal da Transparência retirou do rol de credores da consulta de despesa e restos a pagar os favorecidos do elemento item de despesa 3102 nos anos de 2002 a 2019, para atender a Portaria nº 26/2014 da Loteria Mineira do Estado de Minas. A referida portaria em seu art. 2º estabelece que a LEMG manterá, independente de classificação, sigilo sobre a informação pessoal, relativa à intimidade, à vida privda, à honra e à imagem dos apostadores sorteados da Loteria do Estado de Minas Gerais.
+
+A medida adotada pela DTA para preservar informações sobre apostadores sorteados da LEMG foi a exclusão de todos os dados divulgados no Portal da Transparência referentes aos pagamentos realizados no elemento item 3102, até que fosse realizada manutenção corretiva no Portal da Transparência para divulgar os dados sem a exposição dos ganhadores. Em consulta, a ASSJUR da CGE, o entendimento predominante foi o de anonimizar o nome e o CPF dos apostadores sorteados.
+
+Assim, com a finalidade de atender plenamente o que determina a legislação, a Diretoria Central de Transparência Ativa (DTA), unidade responsável pela gestão do Portal da Transparência, propõe a alteração na forma de exibição dos dados nas consultas de Despesas e Restos a Pagar, referentes aos credores de benefícios previdenciários e prêmios lotéricos.
 
 Destaca-se ainda que as demais consultas, como por exemplo, convênios e remuneração não sofrerão alterações, uma vez que, o entendimento corrente é o de que a divulgação de informações completas e íntegras possibilita a qualquer cidadão conhecer, questionar e atuar como fiscal da aplicação dos recursos públicos, para o exercício do controle social – pois está possibilitado o cruzamento de dados dos beneficiários de políticas públicas.
 
