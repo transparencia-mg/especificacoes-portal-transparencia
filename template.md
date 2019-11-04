@@ -19,7 +19,7 @@ Desde então existem campos disponibilizados na interface web da consulta que n�
 
 Na consulta Página Principal > Pessoal > Remuneração dos Servidores > Faixa Salarial > Órgao > Cargo > Servidor, adotar:
 
-* Para o cabeçalho:
+* Para o cabeçalho de situação funcional do servidor:
 
 Inclusões (valores de todos os campos que constam como '0' ou '-'). Atualmente, são eles: 
 - Data de Nomeação/Contratação	
@@ -38,7 +38,7 @@ Inclusões (valores de todos os campos que constam como '0' ou '-'). Atualmente,
 -	Descrição Instituição Lotação	
 - Código Instituição Exercício	
 - Quinquênio
-- Adicional de Desempenho	0
+- Adicional de Desempenho
 - Código Afastamento Licença
 - Descrição Afastamento Licença	
 - Decisão Judicial para não Publicar Remuneração	
@@ -48,7 +48,7 @@ Inclusões (valores de todos os campos que constam como '0' ou '-'). Atualmente,
 
 Exclusões:  
 
-* Para a tabela:
+* Para a tabela histórico da remuneração:
 
 Detalhamento da composição remuneratória (vantagens da carreira, ADE, cargos, funções gratificadas, gratificações temporárias estratégicas)
 
