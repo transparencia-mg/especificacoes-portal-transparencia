@@ -3,42 +3,48 @@ titulo:
 pull_request:
 ---
 
-# Visão geral da intervenção
+# Visão geral da demanda
 
-Desenvolvimento de serviço que faça extração dos dados do Portal da Transparência e carga dos mesmos no CKAN de forma automatizada de acordo com formato e periodicidade pré-definidos.
+O objetivo dessa demanda é ofertar, de maneira tempestiva, os dados do Portal da Transparência como dados abertos no CKAN de maneira automatizada. A divulgação de maneira tempestiva consiste na publicação de dados no CKAN na mesma periodicidade de atualização das consultas originárias do Portal da Transparência. 
 
-O objetivo é que os dados do Portal da Transparência também sejam ofertados como dados abertos no CKAN sem necessidade de intervenção manual para cada atualização.
+As tabelas e visões do Portal da Transparência devem ser mapeadas para os recursos do CKAN, possivelmente em múltiplos formatos (eg. csv e json), determinando o leiaute da divulgação.
 
-# Motivação / contexto da intervenção
+Caso exista duplicação de dados para publicação dos mesmos no CKAN, o serviço de extração e carga deve:
 
-Porque a intervenção é necessária? Qual problema ela visa solucionar?
+* Garantir a consistência entre os dados quando existirem alterações na base de dados origem;
+* Utilizar um usuário específico para carga no CKAN;
+* Configurável para efetuar cargas em instâncias CKAN não hospedadas na PRODEMGE;
+* Possuir mecanismo de monitoramento das cargas realizadas (eg. email com _log_ de atualização)
+
+# Motivação / contexto da demanda
+
+Porque a demanda é necessária? Qual problema ela visa solucionar?
 
 # Especificação
 
-* Deve ser garantido que caso exista alteração ou exclusão nos registros do Portal da Transparência, os mesmos devem ser refletidos nos conjuntos de dados equivalentes do CKAN
-
-* O serviço deve ser capaz de efetuar carga em instâncias distintas do CKAN, ainda que não hospedadas na PRODEMGE
-
-* O serviço deve utilizar um usuário específico do CKAN para carga de dados no CKAN
-
-* Deve ser enviado por email _log_ de atualização das cargas no CKAN
 
 # Dependências / Integrações
 
-Para implementação da intervenção é necessário ações de atores externos à equipe da PRODEMGE do Portal ou da DTA?
+Para implementação da demanda é necessário ações de atores externos à equipe da PRODEMGE do Portal ou da DTA?
 
 # Exemplos
 
-Existe algum exemplo similar ao proposta na intervenção que serviu de inspiração?
+Existe algum exemplo similar ao proposta na demanda que serviu de inspiração?
 
 # Dúvidas
 
-* Qual a real necessidade de replicar periodicidade de atualização das consultas do Portal da Transparência no CKAN?
+## Técnicas
 
 * É possível que o CKAN faça uma requisição ao banco de dados do Portal da Transparência? Essa ação faz sentido do ponto de vista de performance?
+
+* O CKAN permite alguma solução de negociação de conteúdo para oferta de múltiplos formatos de arquivos?
+
+* Caso seja implementado uma nova consulta, ou exista alterações nas consultas pré-existentes, no Portal da Transparência, como isso será refletido no CKAN?
+
+## Negócio
+
+* Qual a real necessidade de replicar periodicidade de atualização das consultas do Portal da Transparência no CKAN?
 
 * Qual o grau de agregação/desagregação das informações que serão disponibilizadas no CKAN?
 
 * Em qual formato de arquivo (eg. csv, json) os conjuntos de dados deverão ser disponibilizados no CKAN?
-
-* Caso seja implementado uma nova consulta, ou exista alterações nas consultas pré-existentes, no Portal da Transparência, como isso será inserido no CKAN?
