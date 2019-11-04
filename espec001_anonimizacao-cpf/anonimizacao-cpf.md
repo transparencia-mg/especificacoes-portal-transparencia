@@ -18,7 +18,7 @@ O método de anonimização/descaracterização consiste em:
 1. Substituir o nome do credor pelo valor "INFORMAÇÃO COM RESTRIÇÃO DE ACESSO"; e
 2. Substituir o CPF do credor pelo valor "000.000.000-00".
 
-As regras acima devem ser aplicadas ainda que os dois campos estejam sendo apresentados de maneira conjunta.
+As regras acima devem ser aplicadas inclusive no caso em que os dois campos estejam sendo apresentados de maneira conjunta.
 
 __Nota: No banco de dados do Portal da Transparência as informações de nome e CPF devem ser armazenadas sem anonimização/descaracterização, permitindo filtros que utilizem essas informações.__
 
