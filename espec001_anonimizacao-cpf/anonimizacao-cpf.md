@@ -3,24 +3,26 @@ titulo: "Anonimização dos CPFs"
 pull_request: [espec001](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/1)
 ---
 
-# Visão geral da intervenção
+# Visão geral da demanda
 
-Essa demanda visa anonimizar/descaracterizar os nomes e CPFs de credores pessoas físicas nas consultas de Despesa e Restos a Pagar (RP) em classificações orçamentárias específicas. As classificações orçamentárias iniciais (Folha de pagamento de pessoal; benefícios previdenciários; prêmios lotéricos) estão definidas nesta especificação, mas a solução deve ser flexível para que as classificações possam ser alteradas mediante provocação da CGE.
+Essa demanda visa anonimizar/descaracterizar os nomes e CPFs de credores pessoas físicas nas consultas de Despesa e Restos a Pagar (RP) em classificações orçamentárias específicas. As classificações orçamentárias iniciais (eg. Elemento item 31-02 - Prêmios lotéricos) estão definidas nesta especificação, mas a solução deve ser flexível para que as classificações possam ser alteradas mediante provocação da CGE.
 
-A regra de anonimização/descaracterização deve ser aplicada nos resultados das consultas de Despesa e RP que apresentem informação de nome e CPF, notadamente:
+O método de anonimização/descaracterização deve ser aplicado nos resultados das consultas de Despesa e RP que apresentem informação de nome e CPF, notadamente:
 
-* Nível favorecido (eg. [Despesa](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2019/01-01-2019/31-12-2019/3887/1888/513/20/39); [RP](http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar/restospagar-orgaos/2019/3887/533/42/20/2798/130/58))
-* Formulários de detalhamento de documentos (eg. [Despesa](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2019/01-01-2019/31-12-2019/3887/1888/513/20/39/1210194/3023/empenhado/7/12510483/0/0); [RP](http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar/restospagar-orgaos/2019/3887/533/42/20/2798/130/58/5839291))
-* Pesquisa avançada. 
+* Nível favorecido (eg. [Despesa](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2019/01-01-2019/31-12-2019/3887/1888/513/20/39); [RP](http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar/restospagar-orgaos/2019/3887/533/42/20/2798/130/58));
+* Formulários de detalhamento de documentos (eg. [Despesa](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2019/01-01-2019/31-12-2019/3887/1888/513/20/39/1210194/3023/empenhado/7/12510483/0/0); [RP](http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar/restospagar-orgaos/2019/3887/533/42/20/2798/130/58/5839291));
+* Pesquisa avançada.
 
-A regra de anonimização/descaracterização deve:
+O método de anonimização/descaracterização consiste em:
 
 1. Substituir o nome do credor pelo valor "INFORMAÇÃO COM RESTRIÇÃO DE ACESSO"; e
 2. Substituir o CPF do credor pelo valor "000.000.000-00".
 
+As regras acima devem ser aplicadas ainda que os dois campos estejam sendo apresentados de maneira conjunta.
+
 __Nota: No banco de dados do Portal da Transparência as informações de nome e CPF devem ser armazenadas sem anonimização/descaracterização, permitindo filtros que utilizem essas informações.__
 
-# Motivação / contexto da intervenção
+# Motivação / contexto da demanda
 
 A exigência de a administração pública divulgar informações consta na Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal- LRF) que foi complementada pelo Decreto Federal n° 7.185/2010, que regulamentou os padrões mínimos de qualidade da informação e reforçou o entendimento da divulgação dos dados em sentido amplo, conforme art. 7º abaixo:
 
@@ -218,9 +220,17 @@ Foi realizado pesquisa no Portal do Governo Federal, Espirito Santo e São Paulo
 
 # Dúvidas / Pendências
 
-* A forma de descaracterização proposta está suficiente para garantir a privacidade dos benefíciários?
+## Técnicas
 
-* O método de descaracterização e as classificações orçamentárias para as quais elas serão aplicadas influeciam na estimativa de horas da demanda?
+* O método de anonimização/descaracterização escolhido influencia na estimativa de horas?
+
+* As classificações orçamentárias para as quais o método de anonimização/descaracterização será aplicado influencia na estimativa de horas?
+
+* Acrescentar novas consultas (eg. [Concursos](http://www.transparencia.mg.gov.br/estado-pessoal/concursos-realizados/concursos-orgaos-demandantes/2017/01-01-2017/31-12-2017/1/2/2/64)) que deverão ser anonimizadas/descaracterizadas influencia na estimativa de horas?
+
+## Negócio
+
+* O método de anonimização/descaracterização proposta está suficiente para garantir a privacidade dos credores?
 
 * Ponderar e decidir sobre a inclusão do rol de dados de beneficiários dos itens abaixo na mesma especificação da Tabela 02:
 
