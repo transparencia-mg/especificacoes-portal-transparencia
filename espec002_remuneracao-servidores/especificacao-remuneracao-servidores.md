@@ -19,12 +19,13 @@ Além disso também deve ser realizada a adequação do layout (entre planilha, 
 
 # Motivação / Contexto da Intervenção
 
-De acordo com o Decreto Estadual nº 45.969/2012, o direito de acesso à informação compreende dentre outros, a obtenção de informação relativa a remuneração e subsídios recebidos por ocupante de cargo, posto, graduação, função e emprego público, incluindo auxílios, ajudas de custo, jetons e quais outras vantagens pecuniárias, bem como proventos de aposentadoria e pensões daqueles que estiveram na ativa, de maneira individualizada.
-
 Para atender o disposto no inc. VIII, do art. 4º do Decreto Estadual nº45.969/2012, o Portal da Transparência, por meio da consulta de __Remuneração de Servidores__ disponibiliza dados sobre a situação funcional e o histórico da remuneração, contendo os dados financeiros do ano corrente.
 
-Visando atender com mais completude o disposto no inc. VIII, do art. 4º do Decreto Estadual nº 45.969/2012, a Diretoria Central de Transparência Ativa - DTA/CGE, recomenda a alteração do _layout_ da consulta de __Remuneração de Servidores__, com a inclusão do histórico da remuneração referente aos últimos doses meses e do filtro __Ano__ para a navegação do usuário em anos anteriores, sem mais excluir a base de dados após o encerramento do ano.
+No entanto, o formato atual de divulgação no Portal da Transparência apresenta apenas os dados financeiros referentes ao ano corrente, o que tem sido objeto de questionamentos e dúvidas por parte dos usuários, por meio do Fale Conosco e 155, sobre a localização dos dados referentes a anos anteriores. 
 
+A prática adotada pelo Portal da Transparência, é a transferência dos dados ao final do ano corrente para a base de dados do Portal de Dados Abertos, e a consequente exclusão desse dados na consulta de Remuneração. 
+
+Visando atender com mais completude o disposto no inc. VIII, do art. 4º do Decreto Estadual nº 45.969/2012, a Diretoria Central de Transparência Ativa - DTA/CGE, recomenda a alteração do _layout_ da consulta de __Remuneração de Servidores__, com a inclusão do histórico da remuneração de todos os meses disponíveis, provavelmente a partir de 2012, ano em que foi iniciada a extração dos dados no SISAP pela Fazenda, sem mais excluir a base de dados após o encerramento do ano.
 
 # Especificação
 
