@@ -5,14 +5,20 @@ pull_request: [espec001](https://github.com/transparencia-mg/especificacoes-port
 
 # Visão geral da intervenção
 
-A especificação tem objetivo de descaracterizar os nomes e CPFs dos credores pessoas físicas das consultas de Despesa e Restos a Pagar disponível no Portal da Transparência, incluindo os credores de benefícios previdencários e e ganhadores de prêmios lotéricos.
+Essa demanda visa anonimizar/descaracterizar os nomes e CPFs de credores pessoas físicas nas consultas de Despesa e Restos a Pagar (RP) em classificações orçamentárias específicas. As classificações orçamentárias iniciais (Folha de pagamento de pessoal; benefícios previdenciários; prêmios lotéricos) estão definidas nesta especificação, mas a solução deve ser flexível para que as classificações possam ser alteradas mediante provocação da CGE.
 
-As alterações serão aplicadas no [nível favorecido](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2019/01-01-2019/31-12-2019/3887/1888/513/20/39), [formulários de detalhamento](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2019/01-01-2019/31-12-2019/3887/1888/513/20/39/1210194/3023/empenhado/7/12510483/0/0) e pesquisa avançada dos credores que receberem valores nas classificações orçamentárias pré-definidas pela CGE. A regra de anonimização deve:
+A regra de anonimização/descaracterização deve ser aplicada nos resultados das consultas de Despesa e RP que apresentem informação de nome e CPF, notadamente:
 
-1. Exibir apenas as iniciais do nome do favorecido, em letras maiúsculas, separadas por ponto.; e
-2. Ocultar os três primeiros dígitos e os dois últimos dígitos verificadores dos CPFs.
+* Nível favorecido (eg. [Despesa](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2019/01-01-2019/31-12-2019/3887/1888/513/20/39); [RP](http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar/restospagar-orgaos/2019/3887/533/42/20/2798/130/58))
+* Formulários de detalhamento de documentos (eg. [Despesa](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2019/01-01-2019/31-12-2019/3887/1888/513/20/39/1210194/3023/empenhado/7/12510483/0/0); [RP](http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar/restospagar-orgaos/2019/3887/533/42/20/2798/130/58/5839291))
+* Pesquisa avançada. 
 
-No banco de dados do Portal da Transparência as informações de nome e CPF devem ser armazenadas sem descaracterização.
+A regra de anonimização/descaracterização deve:
+
+1. Substituir o nome do credor pelo valor "INFORMAÇÃO COM RESTRIÇÃO DE ACESSO"; e
+2. Substituir o CPF do credor pelo valor "000.000.000-00".
+
+__Nota: No banco de dados do Portal da Transparência as informações de nome e CPF devem ser armazenadas sem anonimização/descaracterização, permitindo filtros que utilizem essas informações.__
 
 # Motivação / contexto da intervenção
 
