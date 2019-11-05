@@ -3,18 +3,25 @@ titulo: "Nova especificação da Consulta Restos a pagar"
 pull_request:https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/3
 ---
 
-# Visão geral da intervenção
+# Visão geral da demanda
 
-Essa intervenção visa acrescentar modos de pesquisa adicionais a consulta de Restos a Pagar, nos moldes da consulta de Despesa.
+Essa demanda visa acrescentar modos de pesquisa adicionais a [consulta de Restos a Pagar](http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar), nos moldes da [consulta de Despesa](http://www.transparencia.mg.gov.br/despesa-estado/despesa). Devem ser acrescentados os modos de pesquisa:
 
-Serão acrescentados as pesquisas por filtros de:
+1. Filtro favorecido por nome;
+2. Filtro favorecido por CPF/CNPJ;
+3. Pesquisa Avançada.
 
-1. Favorecido por nome;
-2. Favorecido por CPF/CNPJ.
+Os filtros dos três modos de pesquisa devem possuir funcionalidade de autocompletar (eg. [consulta compras](http://www.transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos)) com possibilidade de seleção múltipla. O escopo das sugestões deve se restringir aos valores existentes no ano corrente, indicando caso nenhuma correspondência for encontrada.
 
-Além disso, também deve ser acrescentado o modo de Pesquisa Avançada.
+## Filtro favorecido por CPF/CNPJ
 
-# Motivação / contexto da intervenção
+O filtro por CPF/CNPJ deve realizar autocomplete e buscas com CPFs/CNPJs formatados ou númericos.
+
+## Pesquisa Avançada
+
+A pesquisa avançada deve possuir um botão de marcar/desmarcar todas as colunas. Além disso, o autocomplete da pesquisa avançada deve possuir código e descrição das classificações orçamentárias (eg. [consulta proposta orçamentária](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada))
+
+# Motivação / contexto da demanda
 
 O Portal de Transparência possui como padrão em suas consultas a possibilidade de pesquisa um item por meio de vários filtros e pesquisa avançada. No entanto,
 quando ao reestruturação do Portal em 2015, a consulta de Restos a Pagar foi contemplada apenas com o filtro de pesquisa Órgão.
@@ -356,8 +363,13 @@ Seguir o modelo atual da [consulta de Despesa](http://www.transparencia.mg.gov.b
 
 # Dúvidas
 
-  1. Avaliar junto a Prodemge a possibilidade do cidadão não ter que digitar 3 digitos par exibir a lista dos favorecidos na consulta Favorecido por nome.
-  Nesse sentido o filtro favorecido por nome deverá permitir que o cidadão digite qualquer parte do nome e o portal retornará todos os itens que encaixem na pesquisa.
+## Técnicas
+
+* O número de campos na pesquisa avançada impacta a estimativa de horas? Incluir favorecido como campo de filtro na consulta avançada impacta na estimativa de horas?
+
+* Avaliar junto a Prodemge a possibilidade do cidadão não ter que digitar 3 digitos par exibir a lista dos favorecidos na consulta Favorecido por nome. Nesse sentido o filtro favorecido por nome deverá permitir que o cidadão digite qualquer parte do nome e o portal retornará todos os itens que encaixem na pesquisa.
+
+## Negócio
 
   2. Avaliar a real necessidade de acrescentar todos os filtros, uma vez que conforme levantamento realizado no google analytics, considerando a consulta de despesa, os filtros mais utilizados são:
 
