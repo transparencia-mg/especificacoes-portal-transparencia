@@ -50,6 +50,9 @@ Na consulta Página Principal > Pessoal > Remuneração dos Servidores > Faixa S
  - Gratificação Temporária
  - Função Gratificada
  - Adicional Desempenho
+ - Apostila
+ - Quinquênio
+ - Jetons (linha que deveria aparecer após 'Remuneração Após Deduções')
 
  *Este item presume o detalhamento retroativo do campo 'Remuneração Básica Bruta', de forma que todo o valor agregado, atulamente constante nesse campo, seja detalhado para os campos acima citados, desde 2012, ou a data mais antiga disponível*
  
@@ -76,7 +79,7 @@ Na hipótese da implantação da ['Remuneração de Servidores'](https://github.
 
 # Dúvidas
 É possível obter o detalhamento retroativo do campo 'Remuneração Básica Bruta'? 
-É possível realocar os valores componentes do campo 'Remuneração Básica Bruta' nos demais campos existentes na planilha especificada desde 2015 (há correspondência exata para o desdobramento nos campos citados em 2.2)? 
+É possível realocar os valores componentes do campo 'Remuneração Básica Bruta' nos demais campos existentes na planilha especificada desde 2012 (há correspondência exata para o desdobramento nos campos citados em 2.2)? 
 É possível que haja perda de dados na operação de correspondência aventada no item acima?
 Na possibilidade de perda de dados, é possível adotar uma regra que redirecione os valores impossíveis de serem classificados nos campos já existentes para o campo 'Demais itens eventuais'?
 Qual seria a diferença de significado entre '0' e '-' nos atuais campos do cabeçalho de 'SITUAÇÃO FUNCIONAL DO SERVIDOR'?
