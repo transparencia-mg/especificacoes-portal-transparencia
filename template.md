@@ -1,11 +1,6 @@
----
-titulo:
-pull_request:
----
-
 # Visão geral da demanda
 
-Explicação de um parágrafo sobre o que deve ser feito.
+Explicação de alto nível sobre o objetivo da demanda.
 
 # Motivação / contexto da demanda
 
@@ -19,9 +14,9 @@ Detalhamento da demanda.
 
 Para implementação da demanda é necessário ações de atores externos à equipe da PRODEMGE do Portal ou da DTA?
 
-# Exemplos
+# Exemplos / Pesquisa
 
-Existe algum exemplo similar ao proposta na demanda que serviu de inspiração?
+Existe exemplos similares que serviram de inspiração para a demanda?
 
 # Dúvidas
 
