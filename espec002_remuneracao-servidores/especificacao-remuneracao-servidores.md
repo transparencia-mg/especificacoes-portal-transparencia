@@ -1,11 +1,7 @@
-
 ---
 titulo: "Remuenração de Servidores"
-
 pull_request: [pull_request_002](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/feat/especificacao-remuneracao-servidores/especificacao-remuneracao-servidores.md)
-
 ---
-
 
 # Visão Geral da Intervenção
 
