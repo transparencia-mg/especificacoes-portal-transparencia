@@ -1,7 +1,7 @@
 ---
 titulo: "Nova especificação da Consulta Restos a pagar"
 pull_request:https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/3
----
+
 
 # Visão geral da demanda
 
@@ -13,60 +13,77 @@ Essa demanda visa acrescentar modos de pesquisa adicionais a [consulta de Restos
 
 Os filtros dos três modos de pesquisa devem possuir funcionalidade de autocompletar (eg. [consulta compras](http://www.transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos)) com possibilidade de seleção múltipla. O escopo das sugestões deve se restringir aos valores existentes no ano corrente, indicando caso nenhuma correspondência for encontrada.
 
-## Filtro favorecido por CPF/CNPJ
+### _Observações gerais:_
 
-O filtro por CPF/CNPJ deve realizar autocomplete e buscas com CPFs/CNPJs formatados ou númericos.
+* __Filtro favorecido por CPF/CNPJ__: O filtro por CPF/CNPJ deve realizar autocomplete e buscar com CPFs/CNPJs formatados ou númericos.
 
-## Pesquisa Avançada
-
-A pesquisa avançada deve possuir um botão de marcar/desmarcar todas as colunas. Além disso, o autocomplete da pesquisa avançada deve possuir código e descrição das classificações orçamentárias (eg. [consulta proposta orçamentária](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada))
+* __Pesquisa Avançada__: A pesquisa avançada deve possuir um botão de marcar/desmarcar todas as colunas. Além disso, o autocomplete da pesquisa avançada deve possuir código e descrição das classificações orçamentárias (eg. [consulta proposta orçamentária](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada))
 
 # Motivação / contexto da demanda
 
-O Portal de Transparência possui como padrão em suas consultas a possibilidade de pesquisa um item por meio de vários filtros e pesquisa avançada. No entanto,
-quando ao reestruturação do Portal em 2015, a consulta de Restos a Pagar foi contemplada apenas com o filtro de pesquisa Órgão.
+As consultas do Portal de Transparência possuem como padrão a possibilidade de pesquisa por meio de filtros (eg. [_Filtro Favorecido - Consulta Despesas_](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-favorecidos/2019/01-01-2019/31-12-2019/0/LUCIANA%20CASSIA%20NOGUEIRA/0/3)) e pesquisa avançada (eg. [_Pesquisa Avançada - Consulta Despesa_](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-pesquisa-avancada)). No entanto, na reestruturação do Portal de Transparência, ocorrida entre 2015 e 2017, a consulta de Restos a Pagar não foi contemplada com essa possibilidade, sendo disponibilizada apenas com o filtro de [pesquisa Órgão](http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar).
 
-Nesse sentido, com o objetivo de ofertar mais opções de pesquisa aos usuários essa nova especificação irá acrescentar os mesmos filtros atualmente existentes na consulta de despesa.
+Atualmente, a Diretoria Central de Transparência Ativa têm recebidos diversos questionamentos por do telefone do Portal quanto a não possibilidade de outras formas de pesquisa na consulta de Restos a Pagar. Nesse sentido, com o objetivo de ofertar mais opções aos usuários essa nova especificação visa acrescentar os filtros de favorecidos por nome e CPF/CNPJ e pesquisa avançada nos moldes da consulta de despesa.
+
+A decisão de acrescentar apenas os filtros mencionados acima se deve ao levantamento realizado no google analytics considerando como parâmetro os filtros da consulta de despesa.
+
+Conforme tabela abaixo os filtros por Programa e função são poucos utilizados.
+
+| Filtros Consulta Despesa  | Acessos   | %       |
+|---------------------------|----------:|--------:|
+| Órgãos                    |   132.412 |  86,40% |
+| Programa                  |       429 |   0,28% |
+| Função                    |     4.179 |   2,73% |
+| Favorecido                |    16.235 |  10,59% |
+| ___Total de sessões___    |___153.255___
+
+  __Fonte__: Google Analytics -período jan/2019 a 23/out/2019
+
 
 # Especificação
 
 ## Página Inicial
 
-O cidadão seleciona a opção Restos a pagar e o Portal exibirá
+Para contemplar a inclusão dos novos filtros a página inicial deverá sofrer alterações conforme abaixo:
 
-1. __Ano da consulta (aaaa)__ O portal exibirá a opção para escolher o período da consulta – formato aaaa.
+ O cidadão seleciona a opção Restos a pagar e o Portal exibirá:
 
-2. __Consulta__: Órgão, Função, Programa, Favorecido por nome, Favorecido por CPF/CNPJ. A consulta principal será a consulta por órgão.
-3. __Filtro:__ exibir filtro para selecionar uma opção. Sempre que não for selecionado nenhum filtro, a pesquisa deverá retornar todos os resultados possíveis.
-  O filtro _favorecido por nome_ deverá permitir que o cidadão digite qualquer parte do nome e o portal retornará todos os itens que encaixem na pesquisa.
+* __Ano da consulta (aaaa)__: Conforme padrão adotado atualmente.
 
-4. __Data Ínicio e Fim__
-5. __Pesquisar__
-6. __Pesquisa Avançada__
+* __Consulta__: Órgão, Favorecido por nome, Favorecido por CPF/CNPJ.
+
+* __Filtro:__ Exibir filtro para selecionar uma opção.
+
+* __Data Ínicio e Fim__: Conforme padrão adotado atualmente
+*__Pesquisar__: Conforme padrão adotado atualmente
+* __Pesquisa Avançada__:
 
 Exemplo:
 ![Pagina Inicial](static/pagina-inicial.png)
 
 |Ano| Consulta| Filtro|Início|Fim|Pesquisa|Pesquisa Avançada|
 |---|:---------|-------|------|---|--------|-----------------|
-|   |Órgão (consulta existente)
-|   |Função
-|   |Programa
+|   |Órgão (Consulta Principal)
 |   |Favorecido nome
 |   |Favorecido por CPF/CNPJ
 
-#### Observações Gerais
+### Observações Gerais
 
-* Todas as páginas da consulta deverão exibir ícones com links para compartilhar consultas no facebook e twitter e a possibilidade de fazer download da planilha completa em csv, exportar para pdf e imprimir conforme padrão já adotado em outras consultas do Portal. Exibir cabeçalho e legenda da tabela e “migalhas” conforme padrão.
+* O filtro favorecido por Nome deve ter a opção de autocomplete;
 
-* Todos os gráficos da consulta irão buscar a o valor pago no ano.
+* O filtro favorecido por Nome deve permitir que o cidadão digite qualquer parte do nome e o portal retornará todos os itens que encaixem na pesquisa;
 
-* Todos dos gráficos deverão apresentar legenda conforme o já adotado em outras consultas.
+* O filtro favorecido por CPF/CNPJ deve realizar a busca com CPFs/CNPJs formatados ou númericos.
+
+* A Pesquisa Avançada deve possuir um botão de marcar/desmarcar todas as colunas. Além disso, o autocomplete da pesquisa avançada deve possuir código e descrição das classificações orçamentárias (eg. consulta proposta orçamentária);
+
+* Todas as páginas da consulta devem exibir ícones com links para compartilhar consultas no facebook e twitter e a possibilidade de fazer download da planilha completa em csv, exportar para pdf e imprimir conforme padrão já adotado em outras consultas do Portal;
+
+* Todas as páginas devem exibir cabeçalho e legenda da tabela e “migalhas” conforme padrão;
+
+* Todos os gráficos da consulta irão buscar a o valor pago no ano e apresentar legenda conforme o já adotado em outras consultas.
 
 * Em todos os níveis o cidadão poderá avançar para os próximos níveis tanto clicando no gráfico quanto na tabela.
-
-* Exibir cabeçalho em todas as tabelas.
-
 
 ## Consulta Favorecido por nome
 
