@@ -11,15 +11,15 @@ Essa demanda visa criar o filtro *situação do servidor* na página inicial da 
 # Motivação / contexto da demanda
 A criação do filtro situação do servidor é importante para atender a uma demanda da sociedade, via Fale Conosco e 59622, que necessita realizar consultas de servidores inativos e pensionistas.
 
-O formato atual de divulgação no Portal da Transparência apresenta apenas os dados de servidores inativos que estão na ativa.
+O formato atual de divulgação no Portal da Transparência apresenta apenas a lsita total dos servidores, não diferenciando os servidores ativos e inativos.
 
 ![](static/filtro.png)
 
-No entanto, não há um filtro que permita visualizar os servidores inativos. Só se conhece que um servidor é inativo, ao acessar o detalhamento de um servidor (Situação Funcional - Descrição Situação do Servidor).
+Só se conhece a sitaução funcional de servidor (ativo ou inativo), quando se acessa o detalhamento dos dados funcionais desse servidor (Situação Funcional - Descrição Situação do Servidor).
 
 ![](static/detalhamento_servidor.jpg)
 
-Assim, ao criar o filtro Situação do Servidor, será possível viasulizar a quantidade de servidores ativos, inativos e pensionsitas.
+Assim, ao criar o filtro Situação do Servidor, será possível visualizar a quantidade de servidores ativos, inativos e pensionsitas.
 
 #Especificação
 
@@ -35,7 +35,7 @@ O cidadão seleciona na consulta os filtros
 - Situação do Servidor
 
 
-No filtro "Nome", será possível escolher umas das 3 opções abaixo:
+No filtro "Nome", será possível escolher umas das 4 opções abaixo:
 - Ativo
 - Inativo
 - Pensionista
@@ -53,4 +53,4 @@ Exemplos / Pesquisa
 ![](static/exemplos.jpg)
 
 Dúvidas
-Questionamentos ou dúvidas que ainda precisam ser avaliados/resolvidos.
+
