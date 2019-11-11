@@ -1,12 +1,12 @@
 ---
   titulo: "Fale Conosco centralizado"
-pull_request: 
-  ---
+pull_request: https://github.com/transparencia-mg/especificacoes-portal-transparencia/edit/feat/especificacao-fale-conosco/espec006_fale-conosco/especificacao-fale-conosco.md
+---
   
   
-  # Visão geral da demanda
+# Visão geral da demanda
   
-  Essa demanda visa alterar a interface do *Fale Conosco* existente no Portal da Transparência, passando a adotar a configuração do "Fale Conosco" padrão existente no Portal da SEPLAG.
+Essa demanda visa alterar a interface do *Fale Conosco* existente no Portal da Transparência, passando a adotar a configuração do "Fale Conosco" padrão existente no Portal da SEPLAG.
 
 
 # Motivação / contexto da demanda
@@ -17,13 +17,13 @@ A equipe da DTA responde os pedidos, devolve para a DTP e em seguida, registra o
 
 [REDE](S:\SCT\Diretoria_Transparencia_Ativa_DTA\Respostas_Faleconosco_Esic/respostas_faleconosco).
 
-![](static/faleconosco_portal.png)
+![](static/faleconosco_portal.jpg)
 
 A DTA não possui acesso a base de dados do Fale Conosco, registrados no Portal da Transparência. Além disso, esses dados não estão centralizados na base de dados do FAle Conosco administrados atualmente pela SEPLAG.
 
 Assim, a alteração da interface do "Fale Conosco" do Portal da Transparência tem por objetivos:
   
-  - adequar o layout atual ao layout padrão do Estado de Minas Gerais;
+- adequar o layout atual ao layout padrão do Estado de Minas Gerais;
 - centralizar os dados na base de dados do Fale Conosco utilizados pelos demais órgãos e entidades; 
 - permitir o acesso da equipe da DTA ao banco de dados do sistema.
 
@@ -35,9 +35,7 @@ Assim, a alteração da interface do "Fale Conosco" do Portal da Transparência 
 ### Página Inicial
 
 Alterar o layout do Fale Conosco, adequando ao layout padrão utilizado pela SEPLAG:
-  ![](static/fale_conosco.png)
-
-
+![](static/fale_conosco.jpg)
 
 
 # Dependências / Integrações
@@ -54,7 +52,8 @@ Não se aplica
 
 # Dúvidas
 
-1. Verifiquei que no Portal não consta o Menu atendimento, conforme especificado na Resolução nº 29/2016. Não seria interessante incluir essa alteração?????
+1. Verifiquei que no Portal não consta o Menu atendimento, conforme especificado na Resolução nº 29/2016. 
+Não seria interessante incluir essa alteração?????
   
   - Menu Atendimento, contendo:
       - Fale Conosco
