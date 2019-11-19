@@ -49,7 +49,15 @@ Dependências / Integrações
 Não se aplica
 
 Exemplos / Pesquisa
+
+Governo do [Distrito Federal](http://www.transparencia.df.gov.br/#/servidores/remuneracao)
+![](static/distritofederal.jpg)
+
+Prfeitura de [Curitiba](https://www.transparencia.curitiba.pr.gov.br/meta4/servidores.aspx)
+![](static/curitiba.jpg)
+
 ![](static/filtros.jpg)
+
 ![](static/exemplos.jpg)
 
 Dúvidas
