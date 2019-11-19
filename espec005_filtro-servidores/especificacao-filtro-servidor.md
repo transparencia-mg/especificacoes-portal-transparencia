@@ -5,13 +5,13 @@ pull_request: https://github.com/transparencia-mg/especificacoes-portal-transpar
   
 # Visão geral da demanda
 
-Essa demanda visa criar o filtro *situação do servidor* na página inicial da consulta de **Remuneração de Servidores** para a possiblitar a consulta de servidores ativos, inativos e pensionistas.
+Essa demanda visa criar o filtro *vínculo do servidor* na página inicial da consulta de **Remuneração de Servidores** para a possiblitar a consulta de servidores ativos, inativos e pensionistas.
 
 
 # Motivação / contexto da demanda
-A criação do filtro situação do servidor é importante para atender a uma demanda da sociedade, via Fale Conosco e 59622, que necessita realizar consultas de servidores inativos e pensionistas.
+A criação do filtro vínculo do servidor é importante para atender a uma demanda da sociedade, via Fale Conosco e 59622, que necessita realizar consultas de servidores inativos e pensionistas.
 
-O formato atual de divulgação no Portal da Transparência apresenta apenas a lsita total dos servidores, não diferenciando os servidores ativos e inativos.
+O formato atual de divulgação no Portal da Transparência apresenta apenas a lista total dos servidores, não diferenciando os servidores ativos e inativos.
 
 ![](static/filtro.png)
 
@@ -19,11 +19,11 @@ Só se conhece a sitaução funcional de servidor (ativo ou inativo), quando se 
 
 ![](static/detalhamento_servidor.jpg)
 
-Assim, ao criar o filtro Situação do Servidor, será possível visualizar a quantidade de servidores ativos, inativos e pensionsitas.
+Assim, ao criar o filtro Vínculo do Servidor, será possível visualizar a quantidade de servidores ativos, inativos e pensionsitas.
 
 #Especificação
 
-## Filtro Situação do Servidor
+## Filtro Vínculo do Servidor
 
 ### Página Inicial
 
