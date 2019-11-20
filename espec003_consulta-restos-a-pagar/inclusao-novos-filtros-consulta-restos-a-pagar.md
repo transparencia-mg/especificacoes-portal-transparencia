@@ -1,3 +1,18 @@
+
+---
+
+__titulo: "Adiciona modos consulta restos a pagar"__
+
+pull_request: [espec003](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/3)
+
+Contrato de Manutenção nº 15210010062019 (INF. 3951) 
+
+Proposta Comercial nº
+
+
+---
+
+
 # Visão geral da demanda
 
 Essa demanda visa acrescentar modos de pesquisa adicionais a [consulta de Restos a Pagar](http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar), nos moldes da [consulta de Despesa](http://www.transparencia.mg.gov.br/despesa-estado/despesa). Devem ser acrescentados os modos de pesquisa:
