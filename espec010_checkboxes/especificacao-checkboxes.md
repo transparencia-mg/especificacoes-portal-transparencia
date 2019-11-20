@@ -1,6 +1,6 @@
 ---
 titulo: "Checkboxes"
-pull_request: 
+pull_request: https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/feat/especificacao_checkboxes/espec010_checkboxes/especificacao-checkboxes.md
 ---
   
   
@@ -20,9 +20,13 @@ Para facilitar a navegação do usuário, sugere-se a inclusão do item “Exibi
 #Especificação
 
 Segue abaixo o layout da inclusão da opção exibir todos.
+
 1.	Incluir caixa de seleção com a descrição “Exibir todos”;
+
 2.	A caixa de seleção deverá ser localizada antes da seleção das opções da consulta avançadas;
-3.	A opção de “Exibir todos” deverá ser incluída em todas as consultas que possuem “Pesquisa Avançada”
+
+3.	A opção de “Exibir todos” deverá ser incluída em todas as consultas que possuem “Pesquisa Avançada”:
+
 - Despesa;
 - Restos a Pagar (a consulta avançada já consta da nova reformulação do portal);
 - Viagens;
@@ -36,12 +40,13 @@ Segue abaixo o layout da inclusão da opção exibir todos.
 - Convênios de Entrada de Recursos;
 - Compras e Contratos;
 - Gestão de Frota;
-- Patrimônio
+- Patrimônio.
 
 ![](static/exibir_todos.jpg)
 
 
 # Dependências / Integrações
+
 Não se aplica
 
 
@@ -49,16 +54,18 @@ Não se aplica
 
 
 
+
 # Dúvidas
 
-1.	Muitos portais utilizam a opção na pesquisa de exibir todos ou selecionar todos, sem a necessidade de ficar marcando a caixa de seleção “Exibir”.
-Eu só faço alteração na seleção, caso o usuário tenha interesse em exibir apenas um item específico.
+1.	Muitos portais utilizam a opção na pesquisa de exibir todos ou selecionar todos, sem a necessidade de ficar marcando a caixa de seleção “Exibir”. Dessa forma a seleção só é alterada, caso o usuário tenha interesse em exibir apenas um item específico.
 
 - Estados que utilizam a opção exibir todas:
 
 [CEARÁ](https://cearatransparente.ce.gov.br/portal-da-transparencia/despesas/despesas-do-poder-executivo?locale=pt-BR&__=__)
+
 ![](static/ceara.jpg)
 
 [Distrito Federal](http://www.transparencia.df.gov.br/#/despesas/credor)
+
 ![](static/distrito_federal.jpg)
 
