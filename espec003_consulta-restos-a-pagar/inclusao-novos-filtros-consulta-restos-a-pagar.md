@@ -1,18 +1,14 @@
 
 ---
-
-__titulo: "Adiciona modos consulta restos a pagar"__
+titulo: "Adiciona modos consulta restos a pagar"
 
 pull_request: [espec003](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/3)
 
-Contrato de Manutenção nº 15210010062019 (INF. 3951) 
+contrato_manutencao: "nº 15210010062019 (INF. 3951)"
 
-Proposta Comercial nº
-
+proposta_comercial: "nº"
 
 ---
-
-
 # Visão geral da demanda
 
 Essa demanda visa acrescentar modos de pesquisa adicionais a [consulta de Restos a Pagar](http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar), nos moldes da [consulta de Despesa](http://www.transparencia.mg.gov.br/despesa-estado/despesa). Devem ser acrescentados os modos de pesquisa:
@@ -58,17 +54,17 @@ Para contemplar a inclusão dos novos filtros a página inicial deverá sofrer a
 
 O cidadão seleciona a opção Restos a pagar e o Portal exibirá:
 
-*   **Ano da consulta (aaaa)**: Conforme padrão adotado atualmente.
+*  **Ano da consulta (aaaa)**: Conforme padrão adotado atualmente.
 
-*   **Consulta**: Órgão, Favorecido por nome, Favorecido por CPF/CNPJ.
+*  **Consulta**: Órgão, Favorecido por nome, Favorecido por CPF/CNPJ.
 
-*   **Filtro:** Exibir filtro para selecionar uma opção.
+*  **Filtro:** Exibir filtro para selecionar uma opção.
 
-*   **Data Ínicio e Fim**: Conforme padrão adotado atualmente
+*  [**Data Ínicio e Fim**: Conforme padrão adotado atualmente][todo]
 
-*   **Pesquisar**: Conforme padrão adotado atualmente
+*  **Pesquisar**: Conforme padrão adotado atualmente
 
-*   **Pesquisa Avançada**:
+*  **Pesquisa Avançada**:
 
 Exemplo:
 ![](static/pagina-inicial.png)
@@ -207,7 +203,7 @@ O usuário poderá escolher em exibir ou não a lista dos favorecidos. Como padr
 
 Favorecidos
 
- <input type="checkbox" disabled=""> Exibir favorecidos 
+ <input type="checkbox" disabled=""> Exibir favorecidos
  <input type="checkbox" disabled="" checked=""> Não exibir Favorecidos
 
 #### _Observações Gerais:_
@@ -237,3 +233,5 @@ A integração será realizada com o armazém do SIAFI (BO) conforme ocorre atua
 Seguir o modelo atual da [consulta de Despesa](http://www.transparencia.mg.gov.br/despesa-estado/despesa) do Portal de Transparência
 
 # Dúvidas
+
+[todo]: Um filtro de data inicial e final na consulta de restos a pagar corresponderia a qual fase de execução?
