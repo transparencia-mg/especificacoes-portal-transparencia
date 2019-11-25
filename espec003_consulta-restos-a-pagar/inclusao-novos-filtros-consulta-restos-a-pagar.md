@@ -1,15 +1,16 @@
-
 ---
-titulo: "Adiciona modos consulta restos a pagar"
-
-pull_request: [espec003](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/3)
-
-contrato_manutencao: "nº 15210010062019 (INF. 3951)"
-
-proposta_comercial: "nº"
-
+contrato_manutencao: nº 15210010062019 (INF. 3951)
+proposta_comercial: nº
+pull_request: '[espec003](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/3)'
+titulo: Adiciona modos consulta restos a pagar
+output:
+  html_document:
+    theme: united
+    toc: yes
 ---
+
 # Visão geral da demanda
+<a href="#top">(inicio)</a>
 
 Essa demanda visa acrescentar modos de pesquisa adicionais a [consulta de Restos a Pagar](http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar), nos moldes da [consulta de Despesa](http://www.transparencia.mg.gov.br/despesa-estado/despesa). Devem ser acrescentados os modos de pesquisa:
 
@@ -17,173 +18,49 @@ Essa demanda visa acrescentar modos de pesquisa adicionais a [consulta de Restos
 2.  Filtro favorecido por CPF/CNPJ;
 3.  Pesquisa Avançada.
 
-Os filtros dos três modos de pesquisa devem possuir funcionalidade de autocompletar (eg. [consulta compras](http://www.transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos)) com possibilidade de seleção múltipla. O escopo das sugestões deve se restringir aos valores existentes no ano corrente, indicando caso nenhuma correspondência for encontrada.
-
-### _Observações gerais:_
-
-*   **Filtro favorecido por CPF/CNPJ**: O filtro por CPF/CNPJ deve realizar autocomplete e buscar com CPFs/CNPJs formatados ou númericos.
-
-*   **Pesquisa Avançada**: A pesquisa avançada deve possuir um botão de marcar/desmarcar todas as colunas. Além disso, o autocomplete da pesquisa avançada deve possuir código e descrição das classificações orçamentárias (eg. [consulta proposta orçamentária](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada))
-
 # Motivação / contexto da demanda
+<a href="#top">(inicio)</a>
 
-As consultas do Portal de Transparência possuem como padrão a possibilidade de pesquisa por meio de filtros (eg. [_Filtro Favorecido - Consulta Despesas_](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-favorecidos/2019/01-01-2019/31-12-2019/0/LUCIANA%20CASSIA%20NOGUEIRA/0/3)) e pesquisa avançada (eg. [_Pesquisa Avançada - Consulta Despesa_](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-pesquisa-avancada)). No entanto, na reestruturação do Portal de Transparência, ocorrida entre 2015 e 2017, a consulta de Restos a Pagar não foi contemplada com essa possibilidade, sendo disponibilizada apenas com o filtro de [pesquisa Órgão](http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar).
+As consultas do Portal de Transparência possuem como padrão a possibilidade de pesquisa por meio de filtros (eg. [_Filtro Favorecido - Consulta Despesas_](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-favorecidos/2019/01-01-2019/31-12-2019/0/LUCIANA%20CASSIA%20NOGUEIRA/0/3)) e pesquisa avançada (eg. [_Pesquisa Avançada - Consulta Despesa_](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-pesquisa-avancada)). No entanto, na reestruturação do Portal de Transparência, ocorrida entre 2015 e 2017, a consulta de Restos a Pagar não foi contemplada com esses modos de pesquisa, sendo disponibilizado apenas o filtro por órgão.
 
-Atualmente, a Diretoria Central de Transparência Ativa tem recebido diversos questionamentos pelo telefone do Portal quanto a não possibilidade de outras formas de pesquisa na consulta de Restos a Pagar. Nesse sentido, com o objetivo de ofertar mais opções aos usuários essa nova especificação visa acrescentar os filtros de favorecidos por nome e CPF/CNPJ e pesquisa avançada nos moldes da consulta de despesa.
-
-A decisão de acrescentar apenas os filtros mencionados acima se deve ao levantamento realizado no google analytics considerando como parâmetro os filtros da consulta de despesa.
-
-Conforme tabela abaixo os filtros por Programa e função são poucos utilizados.
-
-
-|Filtros Consulta Despesa | Acessos |%
-|------|------|------
-|Órgãos |132.412|86,4%
-|Programa|	429	|0,28%
-|Função	|4.179	|2,73%
-Favorecido	|16.235	|10,59%
-**_Total de sessões_**	|**_153.255_**
-
-**Fonte**: Google Analytics -período jan/2019 a 23/out/2019
+A Diretoria Central de Transparência Ativa (DTA) recebe de forma recorrente questionamentos sobre a ausência dos modos de pesquisa adicionais.
 
 # Especificação
 
-## Página Inicial
+## Página Inicial e Navegação por nível
+<a href="#top">(inicio)</a>
 
-Para contemplar a inclusão dos novos filtros a página inicial deverá sofrer alterações conforme abaixo:
+Para contemplar a inclusão dos modos de pesquisa adicionais a barra de pesquisa da página inicial deve ser:
 
-O cidadão seleciona a opção Restos a pagar e o Portal exibirá:
-
-*  **Ano da consulta (aaaa)**: Conforme padrão adotado atualmente.
-
-*  **Consulta**: Órgão, Favorecido por nome, Favorecido por CPF/CNPJ.
-
-*  **Filtro:** Exibir filtro para selecionar uma opção.
-
-*  **Pesquisar**: Conforme padrão adotado atualmente
-
-*  **Pesquisa Avançada**:
-
-Exemplo:
 ![](static/pagina-inicial.png)
 
-|Ano | Consulta | Filtro|Pesquisa |Pesquisa Avançada|
-|------|------|------|----|----
-||Órgão (Consulta Principal)|					
-||Favorecido nome					
-||Favorecido por CPF/CNPJ					
+Após uma pesquisa bem sucedida utilizando o filtro favorecido por nome ou CPF/CNPJ devem ser apresentados um gráfico _treemap_ e uma tabela, __ambos navegáveis__, por meio de duplo clique. A ordem de navegação e os campos descritivos que compõe o _treemap_ e a tabela são:
 
-### Observações Gerais
+* 1º nível: | [Favorecido]()      | CPF/CNPJ |
+* 2º nível: | Categoria Econômica	| Grupo de Despesa | [Elemento de Despesa]() |
+* 3º nível: | Fonte de Recursos	  | Modalidade de Aplicação	| [Item de Despesa]() |
+* 4º nível: | Código              | [Órgão]()	|
+* 5º nível: | Data                | [Número do Empenho]()	|
 
-*   O filtro favorecido por Nome deve ter a opção de autocomplete a partir de 3 letras. A menos que seja tecnicamente inviável os resultados devem ser retornados sem a necessidade do usuário clicar no ícone pesquisar;
+Somente os campos marcados como hyperlink permitem a navegação nas tabelas. Nas tabelas do 1º ao 5º nível os seguinte campos númericos devem ser apresentados:
 
-*   O filtro favorecido por Nome deve permitir que o cidadão digite no mínimo 3 letras consecutivas de qualquer parte do nome do favorecido e o portal retornará todos os itens que encaixem na pesquisa;
+* Valor Inscrito Processado,
+* Valor Inscrito não Processado,
+* Valor Pago no Ano,
+* Valor a pagar
 
-*   O filtro favorecido por CPF/CNPJ deve realizar a busca com CPFs/CNPJs formatados ou númericos.
+Ao clicar no campo _[Número do empenho]_ no 5º nível, o Portal exibirá o [formulário de detalhamento](http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar/restospagar-orgaos/2019/3887/477/42/20/2768/130/58/5839139), já utilizado na consulta por órgão:
 
-* Os filtros dos três modos de pesquisa devem possuir funcionalidade de seleção múltipla como na pesquisa avançada.
+![](static/formulario-detalhamento.png)
 
-* No filtro e na pesquisa avançada o campo órgão deve permitir buscas por sigla sem que essa informação seja exibida.
+### Observações
 
-*   A Pesquisa Avançada deve possuir um botão de marcar/desmarcar todas as colunas conforme demanda [especificação checkboxes](https://github.com/transparencia-mg/especificacoes-portal-transparencia/tree/feat/especificacao_checkboxes/espec010_checkboxes).
+* O gráfico _treemap_ deve utilizar a métrica "Valor Pago no Ano" em todos os níveis;
+* O título do gráfico _treemap_ em cada nível deve ser o valor da classificação orçamentária selecionada no nível anterior;
+* O campo _[Data]_ exibido no 5º nível deve fazer referência a data de registro inicial do empenho.
 
-* A exibição de código e descrição deve ser diferente em cada seção da pesquisa  avançada:
-  * Campos dos filtros: exibir  código e descrição no mesmo campo ([eg. consulta proposta orçamentária](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada));
-  * Tabela de resultado: exibir apenas descrição;
-  * Opções imprimir e PDF:exibir apenas descrição; e
-  * Opção exportar CSV.: exibir código e descrição em campos distintos.
-
-
-## Consulta Favorecido por nome
-
-**_1º nível (Favorecido)_**
-
-O portal deve exibir a opção de escolher tipo da consulta e ao selecionar o tipo _[Favorecido por nome]_, permiti que o cidadão escreva o nome completo ou parte do nome do favorecido. O Portal retorna todos os resultados que se encaixem no termo informado do filtro.
-
-O Portal da Transparência irá listar o resultado da consulta em um gráfico treemap e em tabela.
-
-<<Título do gráfico: Favorecidos>>
-
-![](static/modelo-grafico-treemap.png)
-
-|Favorecido	|CNPJ/CPF	|Valor inscrito processado|	Valor não inscrito processado|	Valor pago no ano	Valor a pagar
-|----|----|-----|----|----|
-_Link para o próximo nível_			
-
-**2º nível (Elemento de Despesa)**
-
-Ao clicar no nome do _[Favorecido]_ o Portal exibirá um gráfico treemap e uma tabela.
-
-<<Título do gráfico: Nome do favorecido selecionado no nível anterior>>
-![](static/modelo-grafico-treemap.png)
-
-|Categoria Econômica	|Grupo de Despesa	|Elemento de Despesa	|Valor inscrito processado	|Valor não inscrito processado	|Valor pago no ano|	Valor a pagar
-|----|-----|-----|-----|-----|-----|------
-_Link para o próximo nível_
-
-**3º nível (Item de despesa)**
-
-Ao clicar no _[Elemento de despesa]_ o Portal exibirá um gráfico treemap e uma tabela.
-
-<<Título do gráfico: Nome do elemento de despesa selecionado no nível anterior>> ![](static/modelo-grafico-treemap.png)
-
-|Fonte de Recursos	|Modalidade de Aplicação	|Item de Despesa	|Valor inscrito processado|	Valor não inscrito processado	|Valor pago no ano	|Valor a pagar
-|----|-----|-----|-----|-----|-----|------
-_Link para o próximo nível_			
-
-**4º nível (Órgão)**
-
-Ao clicar em _[Item de despesa]_ o Portal exibirá um gráfico treemap e uma tabela.
-
-<<Título do gráfico: Nome do item de despesa selecionado no nível anterior>> ![](static/modelo-grafico-treemap.png)
-
-|Código| Órgão	|Valor inscrito processado|	Valor não inscrito processado	|Valor pago no ano	|Valor a pagar|
-|----|-----|-----|-----|-----|---
-_Link para o próximo nível_
-
-**5º nível (Número de Empenho)**
-
-Ao clicar em _[órgão]_ o Portal exibirá e uma tabela.
-
-|Data| Número do Empenho	|Valor inscrito processado	|Valor não inscrito processado	Valor pago no ano|	Valor a pagar|
-|----|-----|-----|-----|--
-_Link para o próximo nível_				
-
-**_OBS: A data deverá ser a data de registro inicial do empenho_**
-
-**6º nível (Formulário de detalhamento)**
-
-Ao clicar no _[número do empenho]_ o Portal exibirá o Formulário de detalhamento igual ao utilizado atualmente na consulta por órgão.
-
-![Formulário de detalhamento](static/formulario-detalhamento.png)
-
-## Consulta Favorecido por CPF/CNPJ
-
-**_1º nível (Favorecido)_**
-
-O portal deve exibir a opção de escolher tipo da consulta e ao selecionar o tipo _[Favorecido por CPF/CNPJ]_, permiti que o cidadão escreva o número do CPF/CNPJ formatados ou númericos. O Portal retorna todos os resultados que se encaixem no termo informado do filtro.
-
-**2º nível (Elemento de Despesa)**
-
-Mesma regra do nível favorecido por nome
-
-**3º nível (Item de despesa)**
-
-Mesma regra do nível favorecido por nome
-
-**4º nível (Órgão)**
-
-Mesma regra do nível favorecido por nome
-
-**5º nível (Número de Empenho)**
-
-Mesma regra do nível favorecido por nome
-
-**6º nível (Formulário de detalhamento)**
-
-Mesma regra do nível favorecido por nome
-
-## Consulta Avançada
+## Pesquisa Avançada
+<a href="#top">(inicio)</a>
 
 A consulta avançada terá 12 campos de filtro e parâmetro de ano:
 
@@ -191,7 +68,7 @@ A consulta avançada terá 12 campos de filtro e parâmetro de ano:
 2.  Função
 3.  Subfunção
 4.  Programas
-5.  ação
+5.  Ação
 6.  Categoria Econômica
 7.  Grupo de Despesa
 8.  Modalidade de Aplicação
@@ -207,7 +84,7 @@ Favorecidos
  <input type="checkbox" disabled=""> Exibir favorecidos
  <input type="checkbox" disabled="" checked=""> Não exibir Favorecidos
 
-#### _Observações Gerais:_
+#### Observações
 
 *   A Pesquisa Avançada deve possuir um botão de marcar/desmarcar todas as colunas.
 
@@ -225,12 +102,34 @@ Favorecidos
 
 *   Ao exibir o resultado na tabela a consulta deverá retornar as colunas valor inscrito processado, valor inscrito não processado, valor pago no ano e valor a pagar.
 
-# Dependências / Integrações
+## Filtros e Buscas
 
-A integração será realizada com o armazém do SIAFI (BO) conforme ocorre atualmente.
+* O filtro favorecido por nome deve ter a opção de autocomplete a partir de 3 letras. A menos que seja tecnicamente inviável os resultados devem ser retornados sem a necessidade do usuário clicar no ícone pesquisar;
+
+* O filtro favorecido por nome deve permitir que o cidadão digite no mínimo 3 letras consecutivas de qualquer parte do nome do favorecido e o portal retornará todos os itens que encaixem na pesquisa;
+
+* O filtro favorecido por CPF/CNPJ deve realizar a busca com CPFs/CNPJs formatados ou númericos.
+
+* Os filtros dos três modos de pesquisa devem possuir funcionalidade de seleção múltipla como na pesquisa avançada.
+
+* No filtro e na pesquisa avançada o campo órgão deve permitir buscas por sigla sem que essa informação seja exibida.
+
+* A Pesquisa Avançada deve possuir um botão de marcar/desmarcar todas as colunas conforme demanda [especificação checkboxes](https://github.com/transparencia-mg/especificacoes-portal-transparencia/tree/feat/especificacao_checkboxes/espec010_checkboxes).
+
+* O preenchimento obrigatório dos filtros favorecido por nome e por CPF/CNPJ somente deve ser necessário em caso de inviabilidade técnica ou prejuízo de desempenho para o Portal.
+
+* A exibição de código e descrição deve ser diferente em cada seção da pesquisa  avançada:
+  * Campos dos filtros: exibir  código e descrição no mesmo campo ([eg. consulta proposta orçamentária](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada));
+  * Tabela de resultado: exibir apenas descrição;
+  * Opções imprimir e PDF:exibir apenas descrição; e
+  * Opção exportar CSV.: exibir código e descrição em campos distintos.
 
 # Exemplos
+<a href="#top">(inicio)</a>
 
 Seguir o modelo atual da [consulta de Despesa](http://www.transparencia.mg.gov.br/despesa-estado/despesa) do Portal de Transparência
 
 # Dúvidas
+<a href="#top">(inicio)</a>
+
+* Data e ano de origem do empenho estão disponíveis nas bases de dados do Portal?
