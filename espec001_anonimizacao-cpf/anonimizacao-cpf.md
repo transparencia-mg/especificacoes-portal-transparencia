@@ -1,5 +1,6 @@
 ---
 | contrato_manutencao | proposta_comercial | pull_request | titulo | output |
+|---|---|---|---|---
 nº 15210010062019 (INF. 3951) | n | [espec001](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/1) | "Anonimização dos CPFs" | | html_document |
 theme | toc |
 united | true |||
@@ -15,14 +16,14 @@ O método de anonimização/descaracterização deve ser aplicado nos resultados
 * Formulários de detalhamento de documentos (eg. [Despesa](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2019/01-01-2019/31-12-2019/3873/1874/510/20/39/897363/2704/empenhado/412/12420866/0/0); [RP](http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar/restospagar-orgaos/2018/3718/510/39/20/2704/130/59/3774671));
 * Pesquisa avançada.
 
+As consultas passíveis de aplicação dessa regra, com seus respectivos filtros, são:
+ * Consulta Despesa, na pesquisa básica (por órgão, por função, por programa, por favorecido nome ou por favorecido CPF) e na pesquisa avançada;
+ * Consulta Restos a pagar, na pesquisa básica (por órgão) _e nos [demais filtros a serem implantados (favorecido por nome, favorecido por CPF/CNPJ e pesquisa avançada)](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/feat/especificacao-consulta-restos-pagar/espec003_consulta-restos-a-pagar/inclusao-novos-filtros-consulta-restos-a-pagar.md)_
+
 O método de anonimização/descaracterização consiste em:
 
 1. Substituir o nome do credor pelo valor "INFORMAÇÃO COM RESTRIÇÃO DE ACESSO"; e
 2. Substituir o CPF do credor pelo valor "000.000.000-00".
-
-As consultas passíveis de aplicação dessa regra, com seus respectivos filtros, são:
- * Consulta Despesa, na pesquisa básica (por órgão, por função, por programa, por favorecido nome ou por favorecido CPF) e na pesquisa avançada;
- * Consulta Restos a pagar, na pesquisa básica (por órgão) _e nos [demais filtros a serem implantados (favorecido por nome, favorecido por CPF/CNPJ e pesquisa avançada)](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/feat/especificacao-consulta-restos-pagar/espec003_consulta-restos-a-pagar/inclusao-novos-filtros-consulta-restos-a-pagar.md)_
 
 As regras acima devem ser aplicadas inclusive no caso em que os dois campos estejam sendo apresentados de maneira conjunta, como nos dois formulários linkados acima.
 
@@ -84,9 +85,11 @@ A alteração será aplicada no nível no qual o nome dos favorecidos são exibi
 
 Ao clicar em qualquer um dos ___Elementos de despesa___ do 3º nível, que esteja listado na Tabela 01, o Portal exibirá um gráfico treemap e uma tabela. O cidadão poderá navegar pelos níveis de detalhamento tanto no gráfico quanto na tabela.  O Portal deverá exibir da seguinte forma:
 
-__Tabela 02: Exemplo de aplicação da regra de anonimização/descaracterização__
-|Favorecido| CNPJ/CPF | Item de despesa | Valor Empenhado |Valor Liquidado| Valor Pago|
-|"INFORMAÇÃO COM RESTRIÇÃO DE ACESSO"   |***.659.616-**|Auxílio Reclusão| 10.000,00|10.000,00|10.000,00|:
+__Tabela 02: Exemplo de aplicação da regra de anonimização/descaracterização__:
+
+| Favorecido | CNPJ/CPF | Item de despesa | Valor Empenhado |Valor Liquidado| Valor Pago|
+|---|---|---|---|---|---
+"INFORMAÇÃO COM RESTRIÇÃO DE ACESSO"|*******.659.616**|Auxílio Reclusão| 10.000,00|10.000,00|10.000,00|
 
 As regras para anonimização são:
 
