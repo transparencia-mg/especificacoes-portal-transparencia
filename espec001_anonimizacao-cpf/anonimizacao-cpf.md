@@ -10,6 +10,7 @@ output:
 ---
 
 # Visão geral da demanda
+<a href="#top">(inicio)</a>
 
 Essa demanda visa anonimizar/descaracterizar os nomes e CPFs de credores pessoas físicas nas consultas de Despesa e Restos a Pagar (RP) em classificações orçamentárias específicas.
 
@@ -36,6 +37,7 @@ As regras acima devem ser aplicadas inclusive no caso em que os dois campos este
 __Nota: No banco de dados do Portal da Transparência as informações de nome e CPF devem ser armazenadas sem anonimização/descaracterização, permitindo filtros que utilizem essas informações.__
 
 # Motivação / contexto da demanda
+<a href="#top">(inicio)</a>
 
 O [art. 7º do Decreto Federal n° 7.185/2010](http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/decreto/d7185.htm) define os padrões mínimos de qualidade da informação e reforça o entendimento da divulgação dos dados em sentido amplo conforme estabelece a Lei Complementar nº 101/2000.
 
@@ -52,6 +54,7 @@ Assim, com a finalidade de atender plenamente o que determina a legislação, a 
 Destaca-se ainda que as demais consultas, como por exemplo, convênios e remuneração não sofrerão alterações, uma vez que, o entendimento corrente é o de que a divulgação de informações completas e íntegras possibilita a qualquer cidadão conhecer, questionar e atuar como fiscal da aplicação dos recursos públicos, para o exercício do controle social – pois está possibilitado o cruzamento de dados dos beneficiários de políticas públicas.
 
 # Especificação
+<a href="#top">(inicio)</a>
 
 Regras que deverão ser aplicadas nas consultas de Despesa e Restos a pagar.
 
@@ -102,10 +105,12 @@ INFORMAÇÃO COM RESTRIÇÃO DE ACESSO|000.000.000-00|Auxílio Reclusão| 10.000
 
 
 # Exemplos
+<a href="#top">(inicio)</a>
 
 Foi realizado pesquisa no Portal do Governo Federal, Espirito Santo e São Paulo e no que diz respeito a benefícios previdenciários e não foi localizado nenhum credor pessoa física.
 
 # Dúvidas / Pendências
+<a href="#top">(inicio)</a>
 
 ## Técnicas
 
