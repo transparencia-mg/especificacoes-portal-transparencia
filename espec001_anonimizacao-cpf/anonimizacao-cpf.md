@@ -1,9 +1,12 @@
 ---
-| contrato_manutencao | proposta_comercial | pull_request | titulo | output |
-|---|---|---|---|---
-nº 15210010062019 (INF. 3951) | n | [espec001](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/1) | "Anonimização dos CPFs" | | html_document |
-theme | toc |
-united | true |||
+contrato_manutencao: nº 15210010062019 (INF. 3951)
+proposta_comercial: nº
+pull_request: '[espec001](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/1)'
+titulo: Anonimização dos CPFs
+output:
+  html_document:
+    theme: united
+    toc: yes
 ---
 
 # Visão geral da demanda
@@ -89,7 +92,7 @@ __Tabela 02: Exemplo de aplicação da regra de anonimização/descaracterizaç�
 
 | Favorecido | CNPJ/CPF | Item de despesa | Valor Empenhado |Valor Liquidado| Valor Pago|
 |---|---|---|---|---|---
-"INFORMAÇÃO COM RESTRIÇÃO DE ACESSO"|*******.659.616**|Auxílio Reclusão| 10.000,00|10.000,00|10.000,00|
+INFORMAÇÃO COM RESTRIÇÃO DE ACESSO|000.000.000-00|Auxílio Reclusão| 10.000,00|10.000,00|10.000,00|
 
 As regras para anonimização são:
 
@@ -163,7 +166,8 @@ As regras serão aplicadas no 4º nível (favorecido) e no formulário de detalh
 
 
 |Favorecido| CNPJ/CPF | Número do empenho | valor inscrito processado |valor inscrito não processado| valor pago no ano| valor a pagar|
-|"INFORMAÇÃO COM RESTRIÇÃO DE ACESSO"|***.659.616-**|316| 10.000,00|0,00|10.000,00|0,00|
+|---|---|---|---|---|---|---
+|INFORMAÇÃO COM RESTRIÇÃO DE ACESSO|000.000.000-00|316| 10.000,00|0,00|10.000,00|0,00|
 
 * 5º nível (Formulário de Detalhamento): __Mesmas alterações aplicadas acima__.
 
