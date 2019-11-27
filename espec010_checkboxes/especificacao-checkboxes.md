@@ -6,12 +6,12 @@ pull_request: https://github.com/transparencia-mg/especificacoes-portal-transpar
   
 # Visão geral da demanda
   
-Essa demanda visa incluir nas consultas que possuem pesquisas avançadas a opção de marcar e desmarcar as caixas de seleção “checkboxes”, de forma que o usuário possa selecionar todas as opções da pesquisa avançadas sem a necessidade de selecionar todas as opções exibir.
+Essa demanda visa incluir nas consultas que possuem pesquisas avançadas a opção de marcar e desmarcar as caixas de seleção “checkboxes”, de forma que o usuário possa selecionar todas as opções da pesquisa avançada sem a necessidade de selecionar todas as opções exibir.
 
 
 # Motivação / contexto da demanda
 
-Atualmente, a pesquisa avançada das consultas do portal da transparência possui a funcionalidade de exibir os itens da pesquisa. No entanto, para que o usuário possa visualizar os itens da pesquisa é necessário que ele selecione um a um os campos exibir que deseja exibir na consulta.
+Atualmente, a pesquisa avançada das consultas do portal da transparência possui a funcionalidade de exibir os itens da pesquisa. No entanto, para que o usuário possa visualizar os itens da pesquisa é necessário que ele selecione um a um os campos "exibir" que serão mostrados na consulta.
 Para facilitar a navegação do usuário, sugere-se a inclusão do item “Exibir Todos” no início da consulta, possibilitando ao usuário selecionar com apenas um clique todos os itens da consulta.
 ![](static/pesquisa_avancada.jpg)
 [Pesquisa Avançada]( http://transparencia.mg.gov.br/despesa-estado/despesa/despesa-pesquisa-avancada).
@@ -23,7 +23,7 @@ Segue abaixo o layout da inclusão da opção exibir todos.
 
 1.	Incluir caixa de seleção com a descrição “Exibir todos”;
 
-2.	A caixa de seleção deverá ser localizada antes da seleção das opções da consulta avançadas;
+2.	A caixa de seleção deverá ser localizada antes da seleção das opções da consulta avançada;
 
 3.	A opção de “Exibir todos” deverá ser incluída em todas as consultas que possuem “Pesquisa Avançada”:
 
