@@ -145,3 +145,11 @@ Qual seria a diferença de significado entre '0' e '-' nos atuais campos do cabe
 | Abate Teto Valor                               | teto             | Valor deduzido da remuneraусo bрsica bruta, quando esta ultrapassar o teto constitucional, nos termos da legislaусo pertinente                                                                                                        |
 | Remuneraушes Apзs Deducшes                     | rem_pos          | Valor obtido pela soma das remuneraушes bрsica e eventual, descontados o abate teto e as deduушes obrigatзrias                                                                                                                        |
 | Jetons                                         | jetons           | Gratificaусo paga, em folha, referente a participaусo em reuniшes dos зrgсos de deliberaусo coletiva. Pode ser pago a pessoa que nсo tenha vьnculo funcional com o Estado                                                             |
+
+
+Sugestão de Histórico Funcional:
+
+static/historico_funcional
+
+Versão atual:
+static/versao_atual
