@@ -149,8 +149,8 @@ Qual seria a diferença de significado entre '0' e '-' nos atuais campos do cabe
 
 Sugestão de Histórico Funcional:
 
-![](static/historico_funcional)
+![](static/historico_funcional.jpg)
 
 Versão atual:
 
-![](static/versao_atual)
+![](static/versao_atual.jpg)
