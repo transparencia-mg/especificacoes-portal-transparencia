@@ -1,15 +1,4 @@
----
-contrato_manutencao: nº 15210010062019 (INF. 3951)
-proposta_comercial: nº
-pull_request: '[espec002](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/3)'
-titulo: Altera layout remuneração para o layout 2015
-output:
-  html_document:
-    theme: united
-    toc: yes
----
 # Visão geral da Demanda
-<a href="#top">(inicio)</a>
 
 Essa demanda visa divulgar no Portal da Transparência as remunerações de todos os exercícios.
 
@@ -21,23 +10,19 @@ Por fim, deve ser incluído funcionalidade de exportação para .pdf e .csv conf
 
 # Motivação / contexto da demanda
 
-<a href="#top">(inicio)</a>
+O formato atual de divulgação da consulta de Remuneração no Portal da Transparência apresenta apenas o histórico da remuneração referentes ao ano corrente, o que tem sido objeto de dúvidas no Fale Conosco e no telefone 155, sobre a localização do histórico da remuneração dos anos anteriores.
 
-O formato atual de divulgação no Portal da Transparência apresenta apenas os dados financeiros referentes ao ano corrente, o que tem sido objeto de questionamentos.
-
-A prática adotada pelo Portal da Transparência, é a transferência dos dados ao final do ano corrente para a base de dados do Portal de Dados Abertos, e a consequente exclusão desse dados na consulta de Remuneração.
+A prática adotada pelo Portal da Transparência é a transferência dos dados ao final do ano corrente para a base de dados do Portal de Dados Abertos, e a consequente exclusão desse dados na consulta de Remuneração.
 
 Visando atender com mais completude o disposto no inc. VIII, do art. 4º do Decreto Estadual nº 45.969/2012, a Diretoria Central de Transparência Ativa - DTA/CGE, sugere a inclusão do histórico da remuneração de todos os anos ( provavelmente a partir de 2012).
 
 ## _Planilha de remuneração do layout aprovado em 2015_
-<a href="#top">(inicio)</a>
 
 A especificação da consulta de remuneração foi elaborada em 2012 quando da publicação do Decreto 45.969/12 que obriga a publicação da remuneração e revista em 2015, quando da atualização e reformulação do Portal da Transparência.
 
 Na primeira onda de reformulação optou-se por atualizar a interface web da consulta de remuneração já colocando os novos campos, mas não foi feita a adequação no banco de dados. Desde então existem campos disponibilizados na interface web da consulta que não possuem dados preenchidos.
 
 ## Formulário situação funcional e histórico da Remuneração
-<a href="#top">(inicio)</a>
 
 Após a seleção de um servidor utilizando qualquer um dos filtros da pesquisa o Portal deve exibir o formulário da situação funcional e o histórico da Remuneração, conforme apresentado abaixo:
 
@@ -45,16 +30,18 @@ Após a seleção de um servidor utilizando qualquer um dos filtros da pesquisa 
 
 * __formulário histórico da remuneração__: deve exibir 14 colunas conforme detalhado abaixo
 
-![](static/situacao-funcional.png)
-![](static/1.historico-remuneracao-layout-2015.png)
-
-A tabela histórico remuneração deve permitir que o usuário clique em um mês/ano. Assim ao clicar em um período o portal exibe a outra tabela no formato de vizualização rápida na parte lateral da tabela histórico da remuneração.     
+![](static/situacao-funcional.jpg)
+![](static/remuneracao.jpg)
 
 
-![](static/2.barra-lateral-layout-2015.png)
+A tabela histórico remuneração deve permitir que o usuário clique em um mês/ano. 
+Assim ao clicar em um período, o portal exibe a outra tabela no formato de visualização rápida na parte lateral da tabela histórico da remuneração.     
 
 
-![](static/3.layout-2015.png)
+![](static/barra_lateral.jpg)
+
+
+![](static/remuneracao_barra_lateral.jpg)
 
 ___EXEMPLO:___ [VIZUALIZAÇÃO RÁPIDA (_Quick View)_](https://uxdesign.cc/design-better-data-tables-4ecc99d23356)
 
@@ -62,38 +49,39 @@ ___EXEMPLO:___ [VIZUALIZAÇÃO RÁPIDA (_Quick View)_](https://uxdesign.cc/desig
 
 ### Observações
 
-* Os dados da situação funcional devem refletir o situação do mês/ano selecionado no início da pesquisa realiza pelo usuário.
+* Os dados da situação funcional devem refletir a situação do mês/ano selecionado no início da pesquisa realizada pelo usuário.
+
 * O cabeçalho da tabela histórico da remuneração deverá ser congelado, ou seja, quando o usuário usar a barra de rolagem horizontal o cabeçalho da tabela deve ficar sempre visível.                    
  __Exemplo:__ [Cabeçalho fixo (_Fixed Header_)](https://uxdesign.cc/design-better-data-tables-4ecc99d23356)
 
 * A coluna mês/ano será apresentado em forma: Mês (3 caracteres) e ano (4 caracteres).           
 __Exemplo:__ Set/2019
 
-* Os dados da coluna mês/ ano devem ser exibidos de forma decrescente (mais recente para o mais antigo)
+* Os dados da coluna mês/ano devem ser exibidos de forma decrescente (mais recente para o mais antigo)
 
 * Quando o número de linhas da tabela histórico da remuneração for superior ao limite da página deve ser aplicado a paginação conforme já ocorre nas demais consultas do Portal.
 
-* A tabela histórico da remuneração deve exibir a opção de classificar em todas as colunas conforme já ocorre nas demais consultas do Portal. .
+* A tabela histórico da remuneração deve exibir a opção de classificar em todas as colunas conforme já ocorre nas demais consultas do Portal.
 
 * Ao clicar no símbolo de filtrar da tabela histórico da remuneração o usuário pode selecionar o período de exibição dos dados (_ínicio e fim_).
 
- ![](static/5.filtro-mes-ano.png)
+ ![](static/filtro.jpg)
 
  Após clicar em filtrar o portal deve exibir a tabela histórico da remuneração com a informação do período que foi selecionado:
 
- ![](static/6.filtro-mes-ano-pos-clique.png)
+ ![](static/filtro_selecionado.jpg)
 
   __Exemplo:__ [Governo do Paraná](http://www.transparencia.pr.gov.br/pte/pages/pessoal/remuneracoes/exibir_remuneracao?windowId=3d0)
 
-   ![](static/7.exemplo-filtro-parana.png)
-   ![](static/8.exemplo-filtro-parana.png)
+   ![](static/filtro-coluna-periodo.png)
+   ![](static/filtro-campo-mes-ano.png)
 
-* Opção exportar CSV: a opção exportar dados deve gerar a planilha completa em forma de tabela com todos os dados da tabela situação funcional e todo histórico  da tabela da remuneração). Os dados de cada linha da tabela deve se referir a situação funcional e remuneração referente período (mês/ano).       
+* Opção exportar CSV: a opção exportar dados deve gerar a planilha completa em forma de tabela com todos os dados da tabela (situação funcional e todo histórico da tabela da remuneração). Os dados de cada linha da tabela deve se referir a situação funcional e remuneração referente ao período (mês/ano).       
+
 __Exemplo:__ A linha "Ago/2015" deve exibir a situação funcional e remuneração do servidor referente a agosto de 2015; A linha "Jan/2019" deve exibir a situação funcional e remuneração do servidor referente a janeiro/2019 e assim sucessivamente.
 
-  __Importante:__ Caso o usuário filtre um período na tabela histórico da remuneração na coluna mês/ano o CSV irá apresentar apenas o histórico da remuneração referente a seleção aplicada.                   
+  __Importante:__ Caso o usuário filtre um período na tabela histórico da remuneração na coluna mês/ano o CSV irá apresentar apenas o histórico da remuneração referente a seleção aplicada.       
+  
   __Exemplo:__ [Extração CSV - Remuneração Governo do Paraná](http://www.transparencia.pr.gov.br/pte/pages/pessoal/remuneracoes/exibir_remuneracao?windowId=3d0)
 
 * A tabela de vizualização rápida (barra lateral) deve apresentar a opção de fechar (x) e o usuário poderá mover essa tabela para qualquer parte da tela.
-
-<a href="#top">(inicio)</a>
