@@ -1,3 +1,4 @@
+
 ---
 titulo: "Remuenração de Servidores"
 pull_request: [pull_request_002](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/feat/especificacao-remuneracao-servidores/especificacao-remuneracao-servidores.md)
@@ -17,9 +18,9 @@ Além disso também deve ser realizada a adequação do layout (entre planilha, 
 
 Para atender o disposto no inc. VIII, do art. 4º do Decreto Estadual nº45.969/2012, o Portal da Transparência, por meio da consulta de __Remuneração de Servidores__ disponibiliza dados sobre a situação funcional e o histórico da remuneração, contendo os dados financeiros do ano corrente.
 
-No entanto, o formato atual de divulgação no Portal da Transparência apresenta apenas os dados financeiros referentes ao ano corrente, o que tem sido objeto de questionamentos e dúvidas por parte dos usuários, por meio do Fale Conosco e 155, sobre a localização dos dados referentes a anos anteriores. 
+No entanto, o formato atual de divulgação no Portal da Transparência apresenta apenas os dados financeiros referentes ao ano corrente, o que tem sido objeto de questionamentos e dúvidas por parte dos usuários, por meio do Fale Conosco e 155, sobre a localização dos dados referentes a anos anteriores.
 
-A prática adotada pelo Portal da Transparência, é a transferência dos dados ao final do ano corrente para a base de dados do Portal de Dados Abertos, e a consequente exclusão desse dados na consulta de Remuneração. 
+A prática adotada pelo Portal da Transparência, é a transferência dos dados ao final do ano corrente para a base de dados do Portal de Dados Abertos, e a consequente exclusão desse dados na consulta de Remuneração.
 
 Visando atender com mais completude o disposto no inc. VIII, do art. 4º do Decreto Estadual nº 45.969/2012, a Diretoria Central de Transparência Ativa - DTA/CGE, recomenda a alteração do _layout_ da consulta de __Remuneração de Servidores__, com a inclusão do histórico da remuneração de todos os meses disponíveis, provavelmente a partir de 2012, ano em que foi iniciada a extração dos dados no SISAP pela Fazenda, sem mais excluir a base de dados após o encerramento do ano.
 
@@ -93,8 +94,8 @@ Não se aplica.
 
 1. A situação funcional do servidor será histórica? Ou seja, será possível pesquisar a situação funcional de um servidor no mês de Maio de 2014 ou somente a situação funcional atual?????
 
-3. Concentrar as informações de servidores que possem mais de um cargo em uma mesma tela.
-Atualmente, o Portal da Transparência apresenta os dados de servidores com mais de um cargo em telas separadas:
+2. Concentrar as informações de servidores que possem mais de um cargo em uma mesma tela. Atualmente, o Portal da Transparência apresenta os dados de servidores com mais de um cargo em telas separadas:
+
 ![](static/telas_separadas.jpg)
 
 Sugestão: Permitir a visualização dos cargos e remunerações em uma única tela. Diferenciando os cargos por números, a exemplo com o que ocorre no Governo do Paraná

@@ -1,4 +1,15 @@
+---
+contrato_manutencao: nº 15210010062019 (INF. 3951)
+proposta_comercial: nº
+pull_request: '[espec002](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/3)'
+titulo: Altera layout remuneração para o layout 2015
+output:
+  html_document:
+    theme: united
+    toc: yes
+---
 # Visão geral da Demanda
+<a href="#top">(inicio)</a>
 
 Essa demanda visa divulgar no Portal da Transparência as remunerações de todos os exercícios.
 
@@ -10,6 +21,8 @@ Por fim, deve ser incluído funcionalidade de exportação para .pdf e .csv conf
 
 # Motivação / contexto da demanda
 
+<a href="#top">(inicio)</a>
+
 O formato atual de divulgação no Portal da Transparência apresenta apenas os dados financeiros referentes ao ano corrente, o que tem sido objeto de questionamentos.
 
 A prática adotada pelo Portal da Transparência, é a transferência dos dados ao final do ano corrente para a base de dados do Portal de Dados Abertos, e a consequente exclusão desse dados na consulta de Remuneração.
@@ -17,12 +30,14 @@ A prática adotada pelo Portal da Transparência, é a transferência dos dados 
 Visando atender com mais completude o disposto no inc. VIII, do art. 4º do Decreto Estadual nº 45.969/2012, a Diretoria Central de Transparência Ativa - DTA/CGE, sugere a inclusão do histórico da remuneração de todos os anos ( provavelmente a partir de 2012).
 
 ## _Planilha de remuneração do layout aprovado em 2015_
+<a href="#top">(inicio)</a>
 
 A especificação da consulta de remuneração foi elaborada em 2012 quando da publicação do Decreto 45.969/12 que obriga a publicação da remuneração e revista em 2015, quando da atualização e reformulação do Portal da Transparência.
 
 Na primeira onda de reformulação optou-se por atualizar a interface web da consulta de remuneração já colocando os novos campos, mas não foi feita a adequação no banco de dados. Desde então existem campos disponibilizados na interface web da consulta que não possuem dados preenchidos.
 
 ## Formulário situação funcional e histórico da Remuneração
+<a href="#top">(inicio)</a>
 
 Após a seleção de um servidor utilizando qualquer um dos filtros da pesquisa o Portal deve exibir o formulário da situação funcional e o histórico da Remuneração, conforme apresentado abaixo:
 
@@ -70,8 +85,8 @@ __Exemplo:__ Set/2019
 
   __Exemplo:__ [Governo do Paraná](http://www.transparencia.pr.gov.br/pte/pages/pessoal/remuneracoes/exibir_remuneracao?windowId=3d0)
 
-   ![](static/filtro-coluna-periodo.png)
-   ![](static/filtro-campo-mes-ano.png)
+   ![](static/7.exemplo-filtro-parana.png)
+   ![](static/8.exemplo-filtro-parana.png)
 
 * Opção exportar CSV: a opção exportar dados deve gerar a planilha completa em forma de tabela com todos os dados da tabela situação funcional e todo histórico  da tabela da remuneração). Os dados de cada linha da tabela deve se referir a situação funcional e remuneração referente período (mês/ano).       
 __Exemplo:__ A linha "Ago/2015" deve exibir a situação funcional e remuneração do servidor referente a agosto de 2015; A linha "Jan/2019" deve exibir a situação funcional e remuneração do servidor referente a janeiro/2019 e assim sucessivamente.
@@ -80,3 +95,5 @@ __Exemplo:__ A linha "Ago/2015" deve exibir a situação funcional e remuneraç�
   __Exemplo:__ [Extração CSV - Remuneração Governo do Paraná](http://www.transparencia.pr.gov.br/pte/pages/pessoal/remuneracoes/exibir_remuneracao?windowId=3d0)
 
 * A tabela de vizualização rápida (barra lateral) deve apresentar a opção de fechar (x) e o usuário poderá mover essa tabela para qualquer parte da tela.
+
+<a href="#top">(inicio)</a>
