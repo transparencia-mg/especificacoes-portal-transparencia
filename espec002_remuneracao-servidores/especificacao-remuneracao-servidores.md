@@ -32,9 +32,7 @@ Visando atender com mais completude o disposto no Decreto supra, a Diretoria Cen
 
 ### Página Inicial
 
-O cidadão seleciona a opção Pessoal e depois Remuneração dos Servidores e o Portal exibirá as oções de filtro _ano/mês/consulta/nome_.
-
-Haverá inclusão de botão para pesquisa avançada, entre os botões 'pesquisar' e 'download planilha completa'.
+O cidadão seleciona a opção Pessoal e depois Remuneração dos Servidores e o Portal exibirá as opções de filtro _ano/mês/consulta/nome_. Uma nova opção de filtro será fornecida (vide [especificação 'Filtro do Servidor'](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/feat/especificacao-filtro-servidor/espec005_filtro-servidores/especificacao-filtro-servidor.md)). Os botões 'pesquisar' e 'download planilha completa' também serão mantidos na forma atual de apresentação.
 
 #### Regras para a página inicial
 
