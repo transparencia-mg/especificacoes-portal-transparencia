@@ -6,23 +6,25 @@ pull_request: [pull_request_002](https://github.com/transparencia-mg/especificac
 
 # Visão Geral da Intervenção
 
-Essa demanda visa divulgar no Portal da Transparência as remunerações de todos os exercícios anteriores disponíveis. Atualmente somente é divulgado dados para o exercício corrente.
+Essa demanda visa divulgar no Portal da Transparência as remunerações de todos os exercícios anteriores disponíveis. Atualmente, somente os dados do exercício corrente são divulgados.
 
 Também deve ser alterado o formato de divulgação do histórico da remuneração, com inversão de linhas e colunas, de tal forma que seja possível a visualização de maior quantidade de meses.
 
-Por fim, deve ser incluído funcionalidade de exportação para `.pdf` e `.csv` conforme formato definido nesta especificação.
+Além disso, também deve ser realizada a adequação do layout (entre planilha, banco de dados e interface) da Consulta de Remuneração no Portal da Transparência - com o preenchimento de campos que hoje estão vazios, e com adição ou desmembramento de campos.
 
-Além disso também deve ser realizada a adequação do layout (entre planilha, banco de dados e interface) da Consulta de Remuneração no Portal da Transparência.
+Por fim, deve ser incluída funcionalidade de exportação para `.pdf` e `.csv`, conforme formato definido nesta especificação.
+
+
 
 # Motivação / Contexto da Intervenção
 
-Para atender o disposto no inc. VIII, do art. 4º do Decreto Estadual nº45.969/2012, o Portal da Transparência, por meio da consulta de __Remuneração de Servidores__ disponibiliza dados sobre a situação funcional e o histórico da remuneração, contendo os dados financeiros do ano corrente.
+Para atender o disposto no inc. VIII, do art. 4º do Decreto Estadual nº 45.969/2012, o Portal da Transparência, por meio da consulta de __Remuneração de Servidores__ disponibiliza dados sobre a situação funcional e o histórico da remuneração, contendo os dados financeiros do ano corrente.
 
-No entanto, o formato atual de divulgação no Portal da Transparência apresenta apenas os dados financeiros referentes ao ano corrente, o que tem sido objeto de questionamentos e dúvidas por parte dos usuários, por meio do Fale Conosco e 155, sobre a localização dos dados referentes a anos anteriores.
+No entanto, o formato atual de divulgação no Portal da Transparência apresenta apenas os dados financeiros referentes ao ano corrente, apenas. A localização dos dados dos anos anteriores tem sido objeto de questionamentos e dúvidas pelos usuários, por meio do Fale Conosco e do telefone 155.
 
-A prática adotada pelo Portal da Transparência, é a transferência dos dados ao final do ano corrente para a base de dados do Portal de Dados Abertos, e a consequente exclusão desse dados na consulta de Remuneração.
+A prática adotada pelo Portal da Transparência é a transferência dos dados ao final do ano corrente para a base de dados do Portal de Dados Abertos, e a consequente exclusão desses dados na consulta de Remuneração.
 
-Visando atender com mais completude o disposto no inc. VIII, do art. 4º do Decreto Estadual nº 45.969/2012, a Diretoria Central de Transparência Ativa - DTA/CGE, recomenda a alteração do _layout_ da consulta de __Remuneração de Servidores__, com a inclusão do histórico da remuneração de todos os meses disponíveis, provavelmente a partir de 2012, ano em que foi iniciada a extração dos dados no SISAP pela Fazenda, sem mais excluir a base de dados após o encerramento do ano.
+Visando atender com mais completude o disposto no Decreto supra, a Diretoria Central de Transparência Ativa - DTA/CGE recomenda a alteração do _layout_ da consulta de __Remuneração de Servidores__, com a inclusão do histórico da remuneração de todos os meses disponíveis na serie histórica (provavelmente a partir de 2012, ano em que foi iniciada a extração dos dados no SISAP pela Fazenda), com a manutenção desse histórico no portal mesmo após o encerramento dos anos.
 
 # Especificação
 
@@ -30,14 +32,9 @@ Visando atender com mais completude o disposto no inc. VIII, do art. 4º do Decr
 
 ### Página Inicial
 
-O cidadão seleciona a opção Pessoal e depois Remuneração dos Servidores e o Portal exibirá
+O cidadão seleciona a opção Pessoal e depois Remuneração dos Servidores e o Portal exibirá as oções de filtro _ano/mês/consulta/nome_.
 
-1. Ano da consulta (aaaa) O portal exibirá a opção para escolher o período da consulta – formato aaaa.
-2. Mês: sem alteração
-3. consulta: sem alteração
-4. Nome: sem alteração
-5. Pesquisa
-6. Pesquisa Avançada
+Haverá inclusão de botão para pesquisa avançada, entre os botões 'pesquisar' e 'download planilha completa'.
 
 #### Regras para a página inicial
 
@@ -45,10 +42,10 @@ O cidadão seleciona a opção Pessoal e depois Remuneração dos Servidores e o
 
 ![](static/filtro_ano.jpg)
 
-2. Mês: incluir no filtro mês, todos os meses do anos. Atualmente, só consta os meses de Janeiro a Agosto, considerando que o portal apresenta apenas os dados financeiros do ano corrente.
+2. Mês: incluir no filtro mês, todos os meses do anos (atualmente, o portal apresenta apenas os dados financeiros dos meses que foram carregados no ano corrente).
 
 
-### Formulário Situação Funcional e Dados de Remuneração
+### Histórico da Remuneração
 
 1. Na visualização dos dados do servidor referente ao Histórico da Remuneração, a linha referente ao --mês/ano-- deverá apresentar dados financeiros dos últimos 12 meses contados do filtro realizado na página inicial da consulta de Remuneração
 
@@ -59,9 +56,9 @@ O cidadão seleciona a opção Pessoal e depois Remuneração dos Servidores e o
 
 ![](static/historico_remuneracao.jpg)
 
-2. A cada nova carga no Portal referentes aos dados de remuneração dos servidores, deverá ser excluída a última coluna da barra, referente ao mês mais antigo.
+2. A cada nova carga no Portal referente aos dados de remuneração dos servidores, deverá ser excluída a coluna da barra mais à direita, referente ao mês mais antigo.
 
-3. E, posteriormente, deverá ser incluída na primeira coluna (após o mês/ano), o mês da carga atual dos dados de remuneração.
+3. E, posteriormente, deverá ser incluída na coluna mais À esquerda (após o mês/ano), o mês da carga atual dos dados de remuneração.
 
 
 
@@ -69,7 +66,7 @@ O cidadão seleciona a opção Pessoal e depois Remuneração dos Servidores e o
 
 ## Demais funcionalidades
 
-* Na divulgação do quantitativo de servidores por faixa salarial, deve-se manter o salário mínimo do exercício corrente.
+* Na divulgação do quantitativo de servidores por faixa salarial, deve-se manter a atualização das faixas de acordo com o salário mínimo do exercício corrente.
 
 * Incluir funcionalidade de exportação de salvar os dados funcionais e financeiros em PDF e visualizar por meio de `csv`. O modelo deve ser
 
