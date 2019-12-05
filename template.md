@@ -5,44 +5,49 @@ pull_request:https://github.com/transparencia-mg/especificacoes-portal-transpare
 
 # Visão geral da intervenção
 
-Objetivo: rever a especificação do leiaute da consulta de remuneração elaborada em 2015 e que está em produção atualmente, com o objetivo de ajustar campos do cabeçalho e da tabela/planilha. Seja para adicionar campos que necessários e suprimir os desnecessários, além da adequação da forma de apresentação e dos espaços que alguns campos ocupam.
+Objetivo: rever a especificação do leiaute da consulta de remuneração elaborada em 2015 e que está em produção atualmente, para ajustar campos do cabeçalho 'Situação Funcional' e da tabela 'Histórico da Remuneração'. Seja para adicionar campos necessários e adequar a forma de apresentação e dos espaços que outros campos ocupam.
+
+Na hipótese da implantação da ['Remuneração de Servidores'](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/feat/especificacao-remuneracao-servidores/espec002_remuneracao-servidores/especificacao-remuneracao-servidores.md)([para aumentar horizonte de divulgação da remuneração](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/2)), os campos de linhas desta especificação deverão ser lidos como campos de colunas.
 
 # Motivação / contexto da intervenção
 
-A especificação da consulta de remuneração foi elaborada em 2012 quando da publicação do decreto 45.969/12 que obriga a publicação da remuneração e revista em 2015, quando da atualização e reformulação do Portal da Transparência. A revisão em 2015 visou dar mais transparência com relação à vida funcional dos servidores e à composição dos proventos, seguindo as boas práticas identificadas e as diversas demandas recebidas por meio de fale conosco e da Lei de Acesso a Informação.
+A especificação da consulta de remuneração foi elaborada em 2012, quando da publicação do decreto 45.969/12, que obrigou a publicação da remuneração. Ela foi revista em 2015, quando da atualização e reformulação do Portal da Transparência. Tal revisão visou dar mais transparência à vida funcional dos servidores e à composição dos proventos, seguindo as boas práticas identificadas e as diversas demandas recebidas por meio de fale conosco e da Lei de Acesso a Informação.
 
-Na primeira onda de reformulação optou-se por atualizar a interface web da consulta de remuneração já colocando os novos campos, mas não foi feita a adequação no banco de dados, o que seria feito logo em seguida. Posteriormente, foram priorizadas as novas consultas do Portal e, por fim, não houve recursos suficientes para realizar a adequação no banco.
+Naquele ano, optou-se por atualizar a interface web da consulta de remuneração, já colocando os novos campos; mas não foi feita a adequação no banco de dados, o que seria feito logo em seguida. Posteriormente, foram priorizadas as novas consultas do Portal e, por fim, não houve recursos suficientes para realizar a adequação no banco.
 
-Desde então existem campos disponibilizados na interface web da consulta que não possuem dados preenchidos.
+Desde então existem campos disponibilizados na interface web da consulta que não possuem dados preenchidos com valores válidos, mas apenas '-' ou '0' (exemplos: 'Código Instituição Exercício' e 'Código Cargo Comissão').
 
 # Especificação
 
 Na consulta Página Principal > Pessoal > Remuneração dos Servidores > Faixa Salarial > Órgao > Cargo > Servidor, adotar:
 
-1.Informações dos campos que já existem no leiaute da planilha e remuneração especificada em 2015 (*Esta é a principal alteração trazida por esta especificação*)
+1.Informações dos campos que já existem na interface web da consulta e no leiaute da planilha de remuneração especificada em 2015 (*Esta é a principal alteração trazida por esta especificação*)
 
-1.1. No cabeçalho de 'SITUAÇÃO FUNCIONAL DO SERVIDOR':preenchimento dos valores de todos os campos que atualmente constam como '0' ou '-', sendo: 
-- Data de Nomeação/Contratação	
--	Data de Desligamento	
+1.1. No cabeçalho de 'SITUAÇÃO FUNCIONAL DO SERVIDOR':preenchimento dos valores de todos os campos que atualmente constam como vazios, com '0' ou '-', sendo:
+- Data de Nomeação/Contratação
+-	Data de Desligamento
 - Número Admissão		
+- Código Situação do Servidor
 - Regime Jurídico Descrição		
-- Vínculo Descrição	
-- Código Gratificação Cargo Efetivo	
-- Descrição Gratificação Cargo Efetivo	
-- Código Cargo Comissão		
+- Vínculo Descrição
+- Código Cargo Efetivo
+- Código Gratificação Cargo Efetivo
+- Descrição Gratificação Cargo Efetivo
+- Código Cargo Comissão
 - Código Gratificação Temporária
-- Descrição Gratificação Temporária	
+- Descrição Gratificação Temporária
 - Código Função Gratificada
-- Descrição Função Gratificada	
 - Código Instituição Lotação
--	Descrição Instituição Lotação	
-- Código Instituição Exercício	
+-	Descrição Instituição Lotação
+- Código Instituição Exercício
 - Quinquênio
 - Adicional de Desempenho
 - Código Afastamento Licença
-- Descrição Afastamento Licença	
-- Decisão Judicial para não Publicar Remuneração	
- 
+- Descrição Afastamento Licença
+- Decisão Judicial para não Publicar Remuneração
+
+ ![](static/situacao_funcional.jpg)
+
  1.2. Na tabela 'HISTÓRICO DA REMUNERAÇÃO': preenchimento dos valores de todos os campos que atualmente constam como vazios na composição remuneratória:
  - Vencimento Básico
  - Gratificação Cargo Efetivo
@@ -54,32 +59,36 @@ Na consulta Página Principal > Pessoal > Remuneração dos Servidores > Faixa S
  - Quinquênio
  - Jetons (linha que deveria aparecer após 'Remuneração Após Deduções')
 
- *Este item presume o detalhamento retroativo do campo 'Remuneração Básica Bruta', de forma que todo o valor agregado, atulamente constante nesse campo, seja detalhado para os campos acima citados, desde 2012, ou a data mais antiga disponível*
- 
+![](static/historico-da-remuneracao.jpg)
+
+ *Este item presume o detalhamento retroativo do campo 'Remuneração Básica Bruta', de forma que todo o valor agregado, atualmente constante nesse campo, seja detalhado para os campos acima citados, desde 2012, ou a data mais antiga disponível*
+
 2. Para informações de novos campos:
- 
- 2.1. No cabeçalho de 'SITUAÇÃO FUNCIONAL DO SERVIDOR', abaixo da linha do campo 'Descrição do Cargo Efetivo' e acima da linha do campo 'Código Gratificação Cargto Efetivo', incluir um linha com dois campos :
+
+ 2.1. No cabeçalho de 'SITUAÇÃO FUNCIONAL DO SERVIDOR', abaixo da linha do campo 'Descrição do Cargo Efetivo' e acima da linha do campo 'Código Gratificação Cargo Efetivo', incluir um linha com dois campos :
 - Nível na carreira (no mês filtrado para a pesquisa)
 - Grau na carreira (no mês filtrado para a pesquisa)
+
+![](static/situacao_funcional_proposto.jpg)
 
  2.2. Na tabela 'HISTÓRICO DA REMUNERAÇÃO':
  - Evidenciação e discriminação dos auxílios alimentação e transporte e ajuda de custo, em três linhas adicionais entre 'Demais eventuais Valor' e 'Abate Teto Valor'
 - Evidenciação de desconto decorrente de faltas nos dias trabalhados, em uma linha adicional entre 'Contribuição Previdenciária' e 'Demais eventuais Valor'
-- Evidenciação da composição dos subtotais de vantagens e deduções a partir da criação de uma nova coluna à esquerda da tabela, com dois campos denominados 'Vantagens' e 'Deduções', que mesclem: para o subtotal de 'Vantagens', desde a linha de 'Remuneração Básica Bruta' até 'Demais eventuais Valor'; para o subtotal 'Deduções', desde 'IRRF' até 'Abate Teto Valor' 
+- Evidenciação da composição dos subtotais de vantagens e deduções a partir da criação de uma nova coluna à esquerda da tabela, com dois campos denominados 'Vantagens' e 'Deduções', que mesclem: para o subtotal de 'Vantagens', desde a linha de 'Remuneração Básica Bruta' até 'Demais eventuais Valor'; para o subtotal 'Deduções', desde 'IRRF' até 'Abate Teto Valor'
 
 # Dependências / Integrações
 
-Será necessária recuperação da base histórica do SISAP para nova geração das consultas com os campos que não foram preenchidos (ver possíveis implicações em 'Dúvidas' abaixo). 
+Será necessária recuperação da base histórica do SISAP para nova geração das consultas com os campos que não foram preenchidos (ver possíveis implicações em 'Dúvidas' abaixo).
 Será necessário agendamento de reuniões de validação com os órgãos envolvidos (CBMMG, PMMG), para que os mesmos possam preencher a planilha de remuneração, tal qual definido nesta especificação.
-Na hipótese da implantação da ['Remuneração de Servidores'](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/feat/especificacao-remuneracao-servidores/espec002_remuneracao-servidores/especificacao-remuneracao-servidores.md)([para aumentar horizonte de divulgação da remuneração](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/2)), os campos de linhas desta especificação deverão ser lidos como campos de colunas. 
+
 
 # Exemplos
 
 
 
 # Dúvidas
-É possível obter o detalhamento retroativo do campo 'Remuneração Básica Bruta'? 
-É possível realocar os valores componentes do campo 'Remuneração Básica Bruta' nos demais campos existentes na planilha especificada desde 2012 (há correspondência exata para o desdobramento nos campos citados em 2.2)? 
+É possível obter o detalhamento retroativo do campo 'Remuneração Básica Bruta'?
+É possível realocar os valores componentes do campo 'Remuneração Básica Bruta' nos demais campos existentes na planilha especificada desde 2012 (há correspondência exata para o desdobramento nos campos citados em 2.2)?
 É possível que haja perda de dados na operação de correspondência aventada no item acima?
 Na possibilidade de perda de dados, é possível adotar uma regra que redirecione os valores impossíveis de serem classificados nos campos já existentes para o campo 'Demais itens eventuais'?
 Qual seria a diferença de significado entre '0' e '-' nos atuais campos do cabeçalho de 'SITUAÇÃO FUNCIONAL DO SERVIDOR'?
@@ -145,12 +154,3 @@ Qual seria a diferença de significado entre '0' e '-' nos atuais campos do cabe
 | Abate Teto Valor                               | teto             | Valor deduzido da remuneraусo bрsica bruta, quando esta ultrapassar o teto constitucional, nos termos da legislaусo pertinente                                                                                                        |
 | Remuneraушes Apзs Deducшes                     | rem_pos          | Valor obtido pela soma das remuneraушes bрsica e eventual, descontados o abate teto e as deduушes obrigatзrias                                                                                                                        |
 | Jetons                                         | jetons           | Gratificaусo paga, em folha, referente a participaусo em reuniшes dos зrgсos de deliberaусo coletiva. Pode ser pago a pessoa que nсo tenha vьnculo funcional com o Estado                                                             |
-
-
-Sugestão de Histórico Funcional:
-
-![](static/historico_funcional.jpg)
-
-Versão atual:
-
-![](static/versao_atual.jpg)
