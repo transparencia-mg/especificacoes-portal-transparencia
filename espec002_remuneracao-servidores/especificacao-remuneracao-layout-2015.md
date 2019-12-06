@@ -34,7 +34,7 @@ Após a seleção de um servidor utilizando qualquer um dos filtros da pesquisa 
 ![](static/remuneracao.jpg)
 
 
-A tabela histórico remuneração deve permitir que o usuário clique em um mês/ano. 
+A tabela histórico remuneração deve permitir que o usuário clique em um mês/ano.
 Assim ao clicar em um período, o portal exibe a outra tabela no formato de visualização rápida na parte lateral da tabela histórico da remuneração.     
 
 
@@ -81,7 +81,30 @@ __Exemplo:__ Set/2019
 __Exemplo:__ A linha "Ago/2015" deve exibir a situação funcional e remuneração do servidor referente a agosto de 2015; A linha "Jan/2019" deve exibir a situação funcional e remuneração do servidor referente a janeiro/2019 e assim sucessivamente.
 
   __Importante:__ Caso o usuário filtre um período na tabela histórico da remuneração na coluna mês/ano o CSV irá apresentar apenas o histórico da remuneração referente a seleção aplicada.       
-  
+
   __Exemplo:__ [Extração CSV - Remuneração Governo do Paraná](http://www.transparencia.pr.gov.br/pte/pages/pessoal/remuneracoes/exibir_remuneracao?windowId=3d0)
 
 * A tabela de vizualização rápida (barra lateral) deve apresentar a opção de fechar (x) e o usuário poderá mover essa tabela para qualquer parte da tela.
+
+### Sugestões para serem trabalhadas
+[o nível e grau da carreira deveriam ficar somente após descrição do cargo efetivo, no quadro 'Situação Funcional']{.todo}
+
+[os códigos atualmente situados na coluna esquerda do quadro 'Situação do Servidor' parecem desnecessários para usuários externos à ADM; poderiam aparecer somente no csv]{.todo}
+
+Código Situação do Servidor
+
+Código Cargo Efetivo
+
+Código Gratificação Cargo Efetivo
+
+Código Cargo Comissão
+
+Código Gratificação Temporária
+
+Código Função Gratificada
+
+Código Instituição Lotação
+
+Código Instituição Exercício_
+
+## Dicionário de dados
