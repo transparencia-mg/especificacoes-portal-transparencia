@@ -1,8 +1,8 @@
 # Visão geral da Demanda
 
-Essa demanda visa divulgar no Portal da Transparência as remunerações de todos os exercícios.
+Essa demanda visa divulgar no Portal da Transparência as remunerações dos servidores públicos do Poder Executivo de todos os exercícios.
 
-Também deve ser alterado o formato de divulgação do histórico da remuneração, com inversão de linhas e colunas, de tal forma que seja possível a visualização de maior quantidade de meses.
+Sugere-se a alteração do formato de divulgação do histórico da remuneração, com inversão de linhas e colunas, de tal forma que seja possível a visualização de maior quantidade de meses.
 
 Além disso, também deve ser realizada a adequação do layout (entre planilha, banco de dados e interface) da consulta de remuneração no Portal da Transparência.
 
@@ -24,32 +24,54 @@ Na primeira onda de reformulação optou-se por atualizar a interface web da con
 
 ## Formulário situação funcional e histórico da Remuneração
 
-Após a seleção de um servidor utilizando qualquer um dos filtros da pesquisa o Portal deve exibir o formulário da situação funcional e o histórico da Remuneração, conforme apresentado abaixo:
+Após a seleção de um servidor utilizando qualquer um dos filtros da barra pesquisa, o Portal exibe o formulário da situação funcional e o histórico da Remuneração, conforme apresentado abaixo:
 
-* __formulário da situação funcional__: sem alterações
+![](static/1.1.situacao-funcional.png)
 
-* __formulário histórico da remuneração__: deve exibir 14 colunas conforme detalhado abaixo
+___Versão 1___
+![](static/1.historico-remuneracao-layout-2015.png)
 
-![](static/situacao-funcional.jpg)
-![](static/remuneracao.jpg)
+A tabela histórico remuneração deve permitir que o usuário clique no valor  referente a coluna "Remuneração básica bruta", "Demais eventuais" ou "Jetons Empresas" e o Portal exibe outra tabela detalhando os valores no formato de visualização rápida na parte lateral da tabela histórico da remuneração.
+
+* Ao clicar no valor da coluna "Remuneração básica Bruta" o portal exibe a barra lateral:
+
+![](static/2.barra-lateral-layout-2015-RB.png)
+
+* Ao clicar no valor da coluna "Demais Eventuais" o portal exibe a barra lateral:
+
+![](static/2.barra-lateral-layout-2015-DE.png)
+
+* Ao clicar no valor da coluna "Jetons Empresas" o portal exibe a barra lateral:
+
+![](static/2.barra-lateral-layout-2015-Jetons.png)
 
 
-A tabela histórico remuneração deve permitir que o usuário clique em um mês/ano.
-Assim ao clicar em um período, o portal exibe a outra tabela no formato de visualização rápida na parte lateral da tabela histórico da remuneração.     
 
+___Versão 2___
 
-![](static/barra_lateral.jpg)
+![](static/1.historico-remuneracao-layout-2015v2.png)
 
+A tabela histórico remuneração deve permitir que o usuário clique no valor  referente a coluna "Remuneração básica bruta" ou "Jetons Empresas" e o Portal exibe outra tabela detalhando os valores no formato de visualização rápida na parte lateral da tabela histórico da remuneração.
 
-![](static/remuneracao_barra_lateral.jpg)
+* Ao clicar no valor da coluna "Remuneração básica Bruta" o portal exibe a barra lateral:
+
+![](static/2.barra-lateral-layout-2015-RB.png)
+
+* Ao clicar no valor da coluna "Demais Eventuais" o portal exibe a barra lateral:
+
+![](static/2.barra-lateral-layout-2015-DE.png)
+
 
 ___EXEMPLO:___ [VIZUALIZAÇÃO RÁPIDA (_Quick View)_](https://uxdesign.cc/design-better-data-tables-4ecc99d23356)
 
 ![](static/4.exemplo-barra-lateral-exemplo.png)
 
+
 ### Observações
 
-* Os dados da situação funcional devem refletir a situação do mês/ano selecionado no início da pesquisa realizada pelo usuário.
+* A tabela de vizualização rápida (barra lateral) deve apresentar a opção de fechar (x) e o usuário poderá mover essa tabela para qualquer parte da tela.
+* Os dados da situação funcional devem refletir a situação do mês/ano selecionado no início da pesquisa realizada pelo usuário. Ou seja, caso o usuário selecione a exibição dos dados de out/2019, a situação funcional será a correspondente a esse período. Caso o usuário selecione o jan/2019 a situação funcional deve refletir os dados de janeiro de 2019.
+* Os dados apresentados na tabela histórico da remuneração deve como regra apresentar o período selecionado no início da consulta e os meses anteriores.
 
 * O cabeçalho da tabela histórico da remuneração deverá ser congelado, ou seja, quando o usuário usar a barra de rolagem horizontal o cabeçalho da tabela deve ficar sempre visível.                    
  __Exemplo:__ [Cabeçalho fixo (_Fixed Header_)](https://uxdesign.cc/design-better-data-tables-4ecc99d23356)
@@ -63,48 +85,39 @@ __Exemplo:__ Set/2019
 
 * A tabela histórico da remuneração deve exibir a opção de classificar em todas as colunas conforme já ocorre nas demais consultas do Portal.
 
-* Ao clicar no símbolo de filtrar da tabela histórico da remuneração o usuário pode selecionar o período de exibição dos dados (_ínicio e fim_).
+* Opção exportar CSV: a opção exportar dados deve gerar a planilha completa em forma de tabela com todos os dados da tabela (situação funcional e todo histórico da tabela da remuneração). Os dados de cada linha da tabela deve refletir a situação funcional e remuneração referente ao período (mês/ano).       
 
- ![](static/filtro.jpg)
+   _Exemplo:_ A linha "Ago/2015" deve exibir a situação funcional e remuneração do servidor referente a agosto de 2015; A linha "Jan/2019" deve exibir a situação funcional e remuneração do servidor referente a janeiro/2019 e assim sucessivamente.
 
- Após clicar em filtrar o portal deve exibir a tabela histórico da remuneração com a informação do período que foi selecionado:
+* __Importante:__ Caso o usuário tenha selecionado um período específico a tabela histórico da remuneração exporta apenas o histórico da remuneração referente a seleção aplicada.
 
- ![](static/filtro_selecionado.jpg)
+   _Exemplo 1_:  Usuário selecionou o mês janeiro/2019 na barra de pesquisa inicial do Portal. O Portal exibe e exporta para CSV os dados de Janeiro/2019 e os meses anteriores.
 
-  __Exemplo:__ [Governo do Paraná](http://www.transparencia.pr.gov.br/pte/pages/pessoal/remuneracoes/exibir_remuneracao?windowId=3d0)
+  _Exemplo 2_:  Usuário não realizou nenhum filtro na barra de pesquisa inicial do Portal (default último mês). O Portal exibe e exporta para CSV todos dos dados da tabela de remuneração, inclusive os anteriores.
 
-   ![](static/filtro-coluna-periodo.png)
-   ![](static/filtro-campo-mes-ano.png)
+* Opção exportar PDF/ Imprimir: a opção exportar para PDF e Imprimir deve permitir que o cidadão imprima ou gere o pdf dos dados exibido na tela.  
 
-* Opção exportar CSV: a opção exportar dados deve gerar a planilha completa em forma de tabela com todos os dados da tabela (situação funcional e todo histórico da tabela da remuneração). Os dados de cada linha da tabela deve se referir a situação funcional e remuneração referente ao período (mês/ano).       
+Modelo da Planilha CSV. em anexo [remuneracao-layout-2015]()
 
-__Exemplo:__ A linha "Ago/2015" deve exibir a situação funcional e remuneração do servidor referente a agosto de 2015; A linha "Jan/2019" deve exibir a situação funcional e remuneração do servidor referente a janeiro/2019 e assim sucessivamente.
+## Glossário Interativo
 
-  __Importante:__ Caso o usuário filtre um período na tabela histórico da remuneração na coluna mês/ano o CSV irá apresentar apenas o histórico da remuneração referente a seleção aplicada.       
+1. Mês/ ano: Mês e ano de referência da remuneração
 
-  __Exemplo:__ [Extração CSV - Remuneração Governo do Paraná](http://www.transparencia.pr.gov.br/pte/pages/pessoal/remuneracoes/exibir_remuneracao?windowId=3d0)
+2. Remuneração Básica Bruta: É composta pela soma das parcelas remuneratórias correspondentes ao cargo efetivo, a função ou o cargo comissionado.
+3. Férias: Adicional: correspondente a 1/3 (um terço) da remuneração, pago ao servidor civil ou militar por ocasião das férias.
+4. Gratificação Natalina: Gratificação assegurada ao servidor civil ou militar a título de décimo terceiro salário.
+5. Jetons Administração Direta: Gratificação paga, em folha, referente a participação em reuniões dos órgãos de deliberação coletiva. Pode ser pago a pessoa que não tenha vínculo funcional com o Estado.
+6. Demais eventuais: Gratificações, restituições, horas-extras, prêmio de produtividade, férias prêmio e outros, pagos de forma variável e/ou eventual.
+7. IRRF: Imposto de Renda Retido na Fonte, nos termos da legislação própria.
+8. Contribuição Previdenciária: Contribuição Previdenciária obrigatória, nos termos da legislação pertinente.
+9. Demais Deduções;
+10. Abate Teto: Valor deduzido da remuneração básica bruta, quando esta ultrapassar o teto constitucional, nos termos da legislação pertinente.
+11. Total de Vencimentos: Valor obtido pela soma das remunerações básica bruta, férias, Gratificação Natalina. Jetons Administração Direta e Demais eventuais.
+12. Total de Descontos: Valor total dos descontos obrigatórios
+13. Remuneração após deduções: Valor líquido após descontos obrigatórios.
+14. Jetons empresas: É a remuneração percebida por servidores públicos estaduais em razão da participação como representantes do Estado em Conselhos de Administração e Fiscal ou órgãos equivalentes de empresas controladas direta ou indiretamente pelo Estado
 
-* A tabela de vizualização rápida (barra lateral) deve apresentar a opção de fechar (x) e o usuário poderá mover essa tabela para qualquer parte da tela.
 
 ### Sugestões para serem trabalhadas
 [o nível e grau da carreira deveriam ficar somente após descrição do cargo efetivo, no quadro 'Situação Funcional']{.todo}
-
-[os códigos atualmente situados na coluna esquerda do quadro 'Situação do Servidor' parecem desnecessários para usuários externos à ADM; poderiam aparecer somente no csv]{.todo}
-
-Código Situação do Servidor
-
-Código Cargo Efetivo
-
-Código Gratificação Cargo Efetivo
-
-Código Cargo Comissão
-
-Código Gratificação Temporária
-
-Código Função Gratificada
-
-Código Instituição Lotação
-
-Código Instituição Exercício_
-
-## Dicionário de dados
+__(sugestões implementadas no layout 2019)__
