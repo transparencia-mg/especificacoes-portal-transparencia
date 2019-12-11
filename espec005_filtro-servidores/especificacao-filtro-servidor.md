@@ -35,13 +35,11 @@ Para contemplar a inclusão dos novos filtros a página inicial deverá sofrer a
 
 * Ano da consulta (aaaa): Conforme padrão adotado atualmente.
 * Mês (mmmm): Conforme padrão adotado atualmente.
-* Vínculo: todos, ativo, inativo, pensionista, designado ao serviço e etc.
+* Vínculo: todos, ativo, inativo, pensionista, designado ao serviço ativo e etc.
 * Consulta: nome do servidor, cargo efetivo, cargo em comissão, órgão.
 * Nome: manter as regras atuais
 * Pesquisar
 * Download planilha completa
-
-
 
 |Ano| Mês| Vínculo|Consulta|Nome|pesquisar| Download planilha completa|
 ----|----|----|---|----|----|-----|
@@ -59,6 +57,13 @@ Para contemplar a inclusão dos novos filtros a página inicial deverá sofrer a
 Ex. Caso o cidadão não escolha nenhum tipo de vínculo e digite o nome do servidor ou outro tipo de consulta no campo ___NOME___ o portal retornará todos os tipos de vínculos relacionados a consulta selecionada.
 
 2. O portal deve exibir todos os tipos de vínculo que estiverem na planilha de remuneração.
+- ATIVO
+- INATIVO
+- DESIGNADO AO SERVICO ATIVO
+
+- ATIVO/NAO ESTAO INFORMADOS OS VALORES EXTRA SISAP
+- ATIVO/NAO CONSIDERADOS RECEBIMENTOS EXTRA SISAP
+- ATIVO/OPTOU POR RECEBER ORGAO DE ORIGEM
 
 # Dependências / Integrações
 
