@@ -24,19 +24,19 @@ A especificação da consulta de remuneração foi elaborada em 2012 quando da p
 
 Após a seleção de um servidor utilizando qualquer um dos filtros da barra pesquisa, o Portal exibe o formulário da situação funcional e o histórico da Remuneração, conforme apresentado abaixo:
 
-![](static/1.1.1.situacao-funcional-2012.png)
+![](static/1.situacao-funcional-2012.png)
 
-![](static/1.historico-remuneracao-layout-2012.png)
+![](static/2.historico-remuneracao-layout-2012.png)
 
 A tabela histórico remuneração deve permitir que o usuário clique no valor  referente a coluna "Demais eventuais" ou "Jetons Empresas" e o Portal exibe outra tabela detalhando os valores no formato de visualização rápida na parte lateral da tabela histórico da remuneração.
 
 * Ao clicar no valor da coluna "Demais Eventuais" o portal exibe a barra lateral:
 
-![](static/2.barra-lateral-layout-2015-DE.png)
+![](static/3.barra-lateral-layout-2015-DE.png)
 
 * Ao clicar no valor da coluna "Jetons Empresas" o portal exibe a barra lateral:
 
-![](static/2.barra-lateral-layout-2015-Jetons.png)
+![](static/3.barra-lateral-layout-2015-Jetons.png)
 
 ___EXEMPLO:___ [VIZUALIZAÇÃO RÁPIDA (_Quick View)_](https://uxdesign.cc/design-better-data-tables-4ecc99d23356)
 

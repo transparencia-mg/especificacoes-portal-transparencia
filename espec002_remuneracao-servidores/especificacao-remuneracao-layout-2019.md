@@ -16,7 +16,7 @@ A prática adotada pelo Portal da Transparência é a transferência dos dados a
 
 Visando atender com mais completude o disposto no inc. VIII, do art. 4º do Decreto Estadual nº 45.969/2012, a Diretoria Central de Transparência Ativa - DTA/CGE, sugere a inclusão do histórico da remuneração de todos os anos ( provavelmente a partir de 2012).
 
-## _Planilha de remuneração do layout aprovado em 2015_
+## _Planilha de remuneração do layout aprovado em 2019_
 
 A especificação da consulta de remuneração foi elaborada em 2012 quando da publicação do Decreto 45.969/12 que obriga a publicação da remuneração e revista em 2015, quando da atualização e reformulação do Portal da Transparência.
 
@@ -26,40 +26,25 @@ Na primeira onda de reformulação optou-se por atualizar a interface web da con
 
 Após a seleção de um servidor utilizando qualquer um dos filtros da barra pesquisa, o Portal exibe o formulário da situação funcional e o histórico da Remuneração, conforme apresentado abaixo:
 
-![](static/1.situacao-funcional-2015.png)
+![](static/1.situacao-funcional-2019.png)
 
-___Versão 1___
 ![](static/2.historico-remuneracao-layout-2015v1.png)
+
+***Layout histórico da remuneração não sofrerá alteração em nenhum ano. Apenas a barra lateral será alterada.***
 
 A tabela histórico remuneração deve permitir que o usuário clique no valor  referente a coluna "Remuneração básica bruta", "Demais eventuais" ou "Jetons Empresas" e o Portal exibe outra tabela detalhando os valores no formato de visualização rápida na parte lateral da tabela histórico da remuneração.
 
 * Ao clicar no valor da coluna "Remuneração básica Bruta" o portal exibe a barra lateral:
 
-![](static/3.barra-lateral-layout-2015-RB.png)
+![](static/3.barra-lateral-layout-2019-RB.png)
 
 * Ao clicar no valor da coluna "Demais Eventuais" o portal exibe a barra lateral:
 
-![](static/3.barra-lateral-layout-2015-DE.png)
+![](static/3.barra-lateral-layout-2019-DE.png)
 
 * Ao clicar no valor da coluna "Jetons Empresas" o portal exibe a barra lateral:
 
-![](static/3.barra-lateral-layout-2015-Jetons.png)
-
-
-
-___Versão 2___
-
-![](static/2.historico-remuneracao-layout-2015v2.png)
-
-A tabela histórico remuneração deve permitir que o usuário clique no valor  referente a coluna "Remuneração básica bruta" ou "Jetons Empresas" e o Portal exibe outra tabela detalhando os valores no formato de visualização rápida na parte lateral da tabela histórico da remuneração.
-
-* Ao clicar no valor da coluna "Remuneração básica Bruta" o portal exibe a barra lateral:
-
-![](static/3.barra-lateral-layout-2015-RB.png)
-
-* Ao clicar no valor da coluna "Demais Eventuais" o portal exibe a barra lateral:
-
-![](static/3.barra-lateral-layout-2015-DE.png)
+![](static/3.barra-lateral-layout-2019-Jetons.png)
 
 
 ___EXEMPLO:___ [VIZUALIZAÇÃO RÁPIDA (_Quick View)_](https://uxdesign.cc/design-better-data-tables-4ecc99d23356)
@@ -118,8 +103,3 @@ Modelo da Planilha CSV. em anexo [remuneracao-layout-2015]()
 12. Total de Descontos: Valor total dos descontos obrigatórios
 13. Remuneração após deduções: Valor líquido após descontos obrigatórios.
 14. Jetons empresas: É a remuneração percebida por servidores públicos estaduais em razão da participação como representantes do Estado em Conselhos de Administração e Fiscal ou órgãos equivalentes de empresas controladas direta ou indiretamente pelo Estado
-
-
-### Sugestões para serem trabalhadas
-[o nível e grau da carreira deveriam ficar somente após descrição do cargo efetivo, no quadro 'Situação Funcional']{.todo}
-__(sugestões implementadas no layout 2019)__
