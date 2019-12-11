@@ -11,15 +11,18 @@ Essa demanda visa alterar a interface do *Fale Conosco* existente no Portal da T
 
 # Motivação / contexto da demanda
 
-Atualmente, os dados do Fale Conosco são recebidos na equipe da Diretoria de Transparência Passiva, após análise prévia da equipe da Diretoria de Transparência Passiva, que recebe todas as demandas, e encaminha por e-mail apenas os pedidos relacionados a transparência ativa.
+Atualmente, os dados do Fale Conosco são recebidos pela equipe da Diretoria de Transparência Passiva. 
 
-A equipe da DTA responde os pedidos, devolve para a DTP e em seguida, registra os pedidos respondido em um arquivo da rede.
+Após análise da equipe da Diretoria de Transparência Passiva são encaminhados por e-mail a DTA apenas os pedidos relacionados a transparência ativa (acesso à informação, portal da transparência)
+
+A equipe da DTA responde os pedidos, devolve para a DTP por e-mail, e, em seguida, registra os pedidos respondido em um arquivo da rede.
 
 [REDE](S:\SCT\Diretoria_Transparencia_Ativa_DTA\Respostas_Faleconosco_Esic/respostas_faleconosco).
 
 ![](static/faleconosco_portal.jpg)
 
-A DTA não possui acesso a base de dados do Fale Conosco registrados no Portal da Transparência. Além disso, esses dados não estão centralizados na base de dados do Fale Conosco administrados atualmente pela SEPLAG.
+A DTA não possui acesso a base de dados do Fale Conosco registrados no Portal da Transparência. 
+Além disso, esses dados não estão centralizados na base de dados do Fale Conosco administrados atualmente pela SEPLAG.
 
 Assim, a alteração da interface do "Fale Conosco" do Portal da Transparência tem por objetivos:
   
@@ -39,6 +42,7 @@ Alterar o layout do Fale Conosco, adequando ao layout padrão utilizado pela SEP
 
 
 # Dependências / Integrações
+
 Não se aplica
 
 
@@ -51,14 +55,7 @@ Não se aplica
 
 
 # Dúvidas
+
 OBSERVAÇÃO: Não sei informar como deverá ser realizada essa alteração.
 
-1. Verifiquei que no Portal da CGE não consta o Menu atendimento, conforme especificado na Resolução nº 29/2016. 
-Não seria interessante incluir essa alteração????? [CGE](http://www.cge.mg.gov.br/)
 
-  
-  - Menu Atendimento, contendo:
-      - Fale Conosco
-      - Horário de Atendimento
-      - Dúvidas Frequentes
-      - Ajuda (consta da revisão)
