@@ -11,11 +11,11 @@ Proposta Comercial nº
 
 # Visão geral da demanda
 
-Essa demanda visa criar o filtro *vínculo do servidor* na página inicial da consulta de [Remuneração de Servidores](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores) para a possibilitar a consulta de servidores ativos, inativos, pensionistas entre outros.
+Essa demanda visa criar o filtro *Situação Funcional* na página inicial da consulta de [Remuneração de Servidores](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores) para a possibilitar a consulta de servidores ativos, inativos, pensionistas entre outros.
 
 
 # Motivação / contexto da demanda
-A criação do filtro vínculo do servidor é importante para atender a uma demanda da sociedade, via Fale Conosco e 3915-9622, que necessita realizar consultas de outros tipos de vinculos.
+A criação do filtro **Situação Funcional** o do servidor é importante para atender a uma demanda da sociedade, via Fale Conosco e 3915-9622, que necessita realizar consultas de outros tipos de vínculos.
 
 O formato atual de divulgação no Portal da Transparência apresenta apenas a lista total dos servidores, não diferenciando os servidores ativos e inativos.
 
@@ -25,7 +25,7 @@ Só se conhece a situação funcional de servidor (ativo ou inativo), quando se 
 
 ![](static/detalhamento_servidor.jpg)
 
-Assim, ao criar o filtro Vínculo do Servidor, será possível visualizar a quantidade de servidores ativos, inativos, pensionsitas e outros.
+Assim, ao criar o filtro *Situação do Servidor*, será possível visualizar a quantidade de servidores ativos, inativos, pensionsitas e outros.
 
 # Especificação
 
@@ -35,7 +35,7 @@ Para contemplar a inclusão dos novos filtros a página inicial deverá sofrer a
 
 * Ano da consulta (aaaa): Conforme padrão adotado atualmente.
 * Mês (mmmm): Conforme padrão adotado atualmente.
-* Vínculo: todos, ativo, inativo, pensionista, designado ao serviço ativo e etc.
+* Situação Funcional: todos, ativo, inativo, pensionista, designado ao serviço ativo e etc.
 * Consulta: nome do servidor, cargo efetivo, cargo em comissão, órgão.
 * Nome: manter as regras atuais
 * Pesquisar
@@ -53,17 +53,18 @@ Para contemplar a inclusão dos novos filtros a página inicial deverá sofrer a
 #### __Observações gerais__
 
 
-1. O cidadão poderá escolher um tipo de vínculo ou solicitar que o Portal apresente todos.
-Ex. Caso o cidadão não escolha nenhum tipo de vínculo e digite o nome do servidor ou outro tipo de consulta no campo ___NOME___ o portal retornará todos os tipos de vínculos relacionados a consulta selecionada.
+1. O cidadão poderá escolher um tipo de situação funcional ou solicitar que o Portal apresente todos.
+Ex. Caso o cidadão não escolha nenhum tipo de situação funcional e digite o nome do servidor ou outro tipo de consulta no campo ___NOME___ o portal retornará todos os tipos de situações funcionais relacionados a consulta selecionada.
 
-2. O portal deve exibir todos os tipos de vínculo que estiverem na planilha de remuneração.
-- ATIVO
-- INATIVO
-- DESIGNADO AO SERVICO ATIVO
+2. O portal deve exibir todos os tipos de situação funcional que estiverem na planilha de remuneração.
 
-- ATIVO/NAO ESTAO INFORMADOS OS VALORES EXTRA SISAP
-- ATIVO/NAO CONSIDERADOS RECEBIMENTOS EXTRA SISAP
-- ATIVO/OPTOU POR RECEBER ORGAO DE ORIGEM
+- Situação Funcional da planilha atual
+  - ATIVO
+  - INATIVO
+  - DESIGNADO AO SERVICO ATIVO
+  - ATIVO/NAO ESTAO INFORMADOS OS VALORES EXTRA SISAP
+  - ATIVO/NAO CONSIDERADOS RECEBIMENTOS EXTRA SISAP
+  - ATIVO/OPTOU POR RECEBER ORGAO DE ORIGEM
 
 # Dependências / Integrações
 
