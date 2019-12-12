@@ -6,12 +6,12 @@ titulo: "Valor Pago Financeiro"
 
 Essa demanda visa alterar no Portal da Transparência a divulgação da coluna "Valor Pago" das consultas de Despesa, Restos a Pagar, Convênios de Saída e Diárias, bem como do Formulário de Detalhamento da Despesa.
 
-A alteração será realizada na extração dos dados realizada no armazém SIAFI, que passará a exibir informar na coluna Valor Pago as OP´s após a assinatura do ordenador de despesa e não mais a partir da data do registro da OP.
+A alteração será realizada na extração dos dados realizada no armazém SIAFI, que passará a exibir na coluna Valor Pago as Ordens de Pagamento após a assinatura do ordenador de despesa e não mais a partir da data do registro da OP.
 
 
 # Motivação / Contexto da Intervenção
 
-De acordo com as regras de registro de Ordem de Pagamento (OP) no SIAFI é possível ocorrer 3 situações:
+De acordo com as regras da data de registro das Ordens de Pagamento (OP´s) no SIAFI é possível ocorrer 3 situações:
 
 1. Pendente de transmissão aos bancos;
 2. Sujeita a compensação bancaria;
@@ -25,9 +25,11 @@ Atualmente, o Portal de Transparência apresenta os dados relativos a OP no mome
 
 ![](static/data_pagamento.jpg)
 
-A partir dessa alteração, a coluna Valor Pago bem como o formulário de detalhamento do pagamento e do empenho passará a apresentar o pagamento efetivo de uma determinada OP, na data em que a compensação bancária ocorrer, respeitado o prazo de atualização de D+1 estabelecido pelo Decreto Federal n° 7.185, de 2010.
+A partir dessa alteração, a coluna Valor Pago bem como o formulário de detalhamento do pagamento e o formulário de detalhamento do empenho passará a apresentar o pagamento efetivo de uma determinada OP, na data em que a compensação bancária ocorrer, respeitado o prazo de atualização de D+1 estabelecido pelo Decreto Federal n° 7.185, de 2010.
 
-Além dessa alteração, deverá ser alterada a descrição do Valor pago que consta das colunas "Valor pago" da consulta de Despesa. No glossário do portal atual e no tool tip consta apenas a definição de valor pago: Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa.
+Além dessa alteração, deverá ser alterada a descrição do Valor Pago que consta nas colunas "Valor pago" (tool tip) da consulta de Despesa para adequar a descrição do valor pago a essa nova situação.
+
+No glossário do portal atual e no tool tip consta a seguinte definição de valor pago: Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa.
 
 
 # Especificação
@@ -36,7 +38,7 @@ Além dessa alteração, deverá ser alterada a descrição do Valor pago que co
 
 ### Consulta por Órgão, Função, Programa, Favorecido por Nome e CPF/CNPJ
 
-Apresentar no campo "Valor Pago", o valor referente a data em que a OP foi acatada pelo campo.
+Apresentar no campo "Valor Pago", o valor referente a data em que a OP foi acatada pelo banco.
 
 ![](static/valor_pago)
 
@@ -48,14 +50,14 @@ Apresentar na coluna Data e no Valor Pago, o pagamento quando a OP for acatada p
 ![](static/formulario_detalhamento_empenho)
 
 
-### Alterar a descrição do Valor Pago
+### Alterar a descrição do Valor Pago (Tool Tip)
 
 Alterar a descrição do valor pago para: valor pago pelo Estado de Minas Gerais até a data de atualização da base de dados, estando o efetivo pagamento sujeito a compensação bancária.
 
 ![](descricao_valor_pago)
 
 
-### A quais consulta se aplica
+### A quais consulta a nova regra se aplica?
 A regra deverá ser aplicada a todas as consultas que extraem o campo Valor Pago Financeiro do armazém SIAFI:
 * Consulta Despesa
 * Consulta Restos a Pagar
@@ -70,7 +72,10 @@ Não se aplica.
 
 # Exemplos
 
+1. Boa Prática:
+O portal da Transparência do Distrito Federal traz a informação de Data de Lançamento no lugar de data de pagamento.
 
+![](static/distritofederal)
 
 
 # Dúvidas
