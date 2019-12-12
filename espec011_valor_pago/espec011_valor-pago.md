@@ -75,7 +75,7 @@ Não se aplica.
 1. Boa Prática:
 O portal da Transparência do Distrito Federal traz a informação de Data de Lançamento no lugar de data de pagamento.
 
-![](static/distritofederal)
+![](static/distritofederal.jpg)
 
 
 # Dúvidas
