@@ -17,15 +17,17 @@ Para facilitar a navegação do usuário, sugere-se a inclusão do item “Exibi
 [Pesquisa Avançada]( http://transparencia.mg.gov.br/despesa-estado/despesa/despesa-pesquisa-avancada).
 
 
-#Especificação
+# Especificação
 
 Segue abaixo o layout da inclusão da opção exibir todos.
 
 1.	Incluir caixa de seleção com a descrição “Exibir todos”;
 
+![](static/exibir_todos.jpg)
+
 2.	A caixa de seleção deverá ser localizada antes da seleção das opções da consulta avançada;
 
-3.	A opção de “Exibir todos” deverá ser incluída em todas as consultas que possuem “Pesquisa Avançada”:
+3.	A opção “Exibir todos” deverá ser incluída em todas as consultas que possuem “Pesquisa Avançada”:
 
 - Despesa;
 - Restos a Pagar (a consulta avançada já consta da nova reformulação do portal);
@@ -42,8 +44,6 @@ Segue abaixo o layout da inclusão da opção exibir todos.
 - Gestão de Frota;
 - Patrimônio.
 
-![](static/exibir_todos.jpg)
-
 
 # Dependências / Integrações
 
@@ -57,7 +57,8 @@ Não se aplica
 
 # Dúvidas
 
-1.	Muitos portais utilizam a opção na pesquisa de exibir todos ou selecionar todos, sem a necessidade de ficar marcando a caixa de seleção “Exibir”. Dessa forma a seleção só é alterada, caso o usuário tenha interesse em exibir apenas um item específico.
+1.	Boa Prática
+Muitos portais utilizam a opção na pesquisa de exibir todos ou selecionar todos, sem a necessidade de ficar marcando a caixa de seleção “Exibir”. Dessa forma a seleção só é alterada, caso o usuário tenha interesse em exibir apenas um item específico.
 
 - Estados que utilizam a opção exibir todas:
 
