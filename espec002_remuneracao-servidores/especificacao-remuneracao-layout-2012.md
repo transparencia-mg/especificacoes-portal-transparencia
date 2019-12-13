@@ -1,4 +1,4 @@
-# Visão geral da Demanda
+Visão geral da Demanda
 
 Essa demanda visa divulgar no Portal da Transparência as remunerações dos servidores públicos do Poder Executivo de todos os exercícios.
 
@@ -7,6 +7,7 @@ Sugere-se a alteração do formato de divulgação do histórico da remuneraçã
 Além disso, também deve ser realizada a adequação do layout (entre planilha, banco de dados e interface) da consulta de remuneração no Portal da Transparência.
 
 Por fim, deve ser incluído funcionalidade de exportação para .pdf e .csv conforme formato definido nesta especificação.
+
 
 # Motivação / contexto da demanda
 
@@ -18,7 +19,10 @@ Visando atender com mais completude o disposto no inc. VIII, do art. 4º do Decr
 
 ## _Planilha de remuneração do layout aprovado em 2012_
 
-A especificação da consulta de remuneração foi elaborada em 2012 quando da publicação do Decreto 45.969/12 que obriga a publicação da remuneração.
+A especificação da consulta de remuneração foi elaborada em 2012 quando da publicação do Decreto 45.969/12 que obriga a publicação da remuneração e revista em 2015, quando da atualização e reformulação do Portal da Transparência.
+
+Na primeira onda de reformulação optou-se por atualizar a interface web da consulta de remuneração já colocando os novos campos, mas não foi feita a adequação no banco de dados. Desde então existem campos disponibilizados na interface web da consulta que não possuem dados preenchidos. Assim, sugere-se a adequação da interface do Portal com a atual planilha de remuneração utilizada.
+
 
 ## Formulário situação funcional e histórico da Remuneração
 
@@ -26,55 +30,72 @@ Após a seleção de um servidor utilizando qualquer um dos filtros da barra pes
 
 ![](static/1.situacao-funcional-2012.png)
 
-![](static/2.historico-remuneracao-layout-2012.png)
+![](static/2.historico-remuneracao-layout-2012-2015-2019.png)
 
-A tabela histórico remuneração deve permitir que o usuário clique no valor  referente a coluna "Demais eventuais" ou "Jetons Empresas" e o Portal exibe outra tabela detalhando os valores no formato de visualização rápida na parte lateral da tabela histórico da remuneração.
+A tabela histórico remuneração deve permitir que o usuário clique no valor  referente a coluna "Remuneração básica bruta", "Demais eventuais" ou "Jetons Empresas" para detalhar os dados. Quando o usuário clicar em um desses campos o Portal exibe outra tabela detalhando os valores. O formato de exibição dessa nova tabela será do tipo [multi-modal](https://uxdesign.cc/design-better-data-tables-4ecc99d23356).
 
-* Ao clicar no valor da coluna "Demais Eventuais" o portal exibe a barra lateral:
+![](static/4.multi-modal-exemplo.png)
 
-![](static/3.barra-lateral-layout-2015-DE.png)
+As tabelas multi-modal serão:
 
-* Ao clicar no valor da coluna "Jetons Empresas" o portal exibe a barra lateral:
+* Ao clicar no valor da coluna _[Outros Valores]_ o portal exibe:
 
-![](static/3.barra-lateral-layout-2015-Jetons.png)
+  ![](static/3.multi-modal-OV-2012-2015.png)
 
-___EXEMPLO:___ [VIZUALIZAÇÃO RÁPIDA (_Quick View)_](https://uxdesign.cc/design-better-data-tables-4ecc99d23356)
 
-![](static/4.exemplo-barra-lateral-exemplo.png)
+* Ao clicar no valor da coluna "Jetons Empresas" o portal exibe:
 
+  ![](static/3.mult-modal-jetons-2012-2015-2019.png)
 
 ### Observações
 
-* A tabela de vizualização rápida (barra lateral) deve apresentar a opção de fechar (x) e o usuário poderá mover essa tabela para qualquer parte da tela.
-* Os dados da situação funcional devem refletir a situação do mês/ano selecionado no início da pesquisa realizada pelo usuário. Ou seja, caso o usuário selecione a exibição dos dados de out/2019, a situação funcional será a correspondente a esse período. Caso o usuário selecione o jan/2019 a situação funcional deve refletir os dados de janeiro de 2019.
-* Os dados apresentados na tabela histórico da remuneração deve como regra apresentar o período selecionado no início da consulta e os meses anteriores.
+1. Tabela multi-modal:
 
-* O cabeçalho da tabela histórico da remuneração deverá ser congelado, ou seja, quando o usuário usar a barra de rolagem horizontal o cabeçalho da tabela deve ficar sempre visível.                    
- __Exemplo:__ [Cabeçalho fixo (_Fixed Header_)](https://uxdesign.cc/design-better-data-tables-4ecc99d23356)
+    * A tabela de vizualização multi-modal deve apresentar a opção de fechar (x);
+    * O usuário poderá mover a tabela multi-modal para qualquer parte da tela;
 
-* A coluna mês/ano será apresentado em forma: Mês (3 caracteres) e ano (4 caracteres).           
-__Exemplo:__ Set/2019
 
-* Os dados da coluna mês/ano devem ser exibidos de forma decrescente (mais recente para o mais antigo)
+  2. Tabela situação funcional:
 
-* Quando o número de linhas da tabela histórico da remuneração for superior ao limite da página deve ser aplicado a paginação conforme já ocorre nas demais consultas do Portal.
+    * Os dados da situação funcional devem refletir a situação do mês/ano selecionado na _[barra de pesquisa inicial]_ do Portal no início da consulta.       
 
-* A tabela histórico da remuneração deve exibir a opção de classificar em todas as colunas conforme já ocorre nas demais consultas do Portal.
+      __Exemplo 1:__ Caso o usuário selecione a  exibição os dados de out/2019, a situação funcional apresentada na tabela _[situação funcional]_ será a correspondente a esse período (Out/2019).
 
-* Opção exportar CSV: a opção exportar dados deve gerar a planilha completa em forma de tabela com todos os dados da tabela (situação funcional e todo histórico da tabela da remuneração). Os dados de cada linha da tabela deve refletir a situação funcional e remuneração referente ao período (mês/ano).       
+      __Exemplo 2:__ Caso o usuário selecione  a  exibição os dados de Jan/2015, a situação funcional apresentada na tabela _[situação funcional]_ será a correspondente a esse período (Jan/2015).
 
-   _Exemplo:_ A linha "Ago/2015" deve exibir a situação funcional e remuneração do servidor referente a agosto de 2015; A linha "Jan/2019" deve exibir a situação funcional e remuneração do servidor referente a janeiro/2019 e assim sucessivamente.
+  3. Tabela histórico da remuneração:
+    * A coluna mês/ano será apresentada da seguinte forma: Mês (3 caracteres) e ano (4 caracteres);           
+    __Exemplo:__ Set/2019
 
-* __Importante:__ Caso o usuário tenha selecionado um período específico a tabela histórico da remuneração exporta apenas o histórico da remuneração referente a seleção aplicada.
+    * Os dados da coluna mês/ano devem ser exibidos de forma decrescente (mais recente para o mais antigo);
 
-   _Exemplo 1_:  Usuário selecionou o mês janeiro/2019 na barra de pesquisa inicial do Portal. O Portal exibe e exporta para CSV os dados de Janeiro/2019 e os meses anteriores.
+    * Quando o número de linhas da tabela _[histórico da remuneração]_ for superior ao limite da página deve ser aplicado a paginação conforme já ocorre nas demais consultas do Portal.
 
-  _Exemplo 2_:  Usuário não realizou nenhum filtro na barra de pesquisa inicial do Portal (default último mês). O Portal exibe e exporta para CSV todos dos dados da tabela de remuneração, inclusive os anteriores.
+    * O cabeçalho da tabela histórico da remuneração deve ser congelado, ou seja, quando o usuário usar a barra de rolagem horizontal o cabeçalho da tabela deve ficar sempre visível.                    
+     __Exemplo:__ [Cabeçalho fixo (_Fixed Header_)](https://uxdesign.cc/design-better-data-tables-4ecc99d23356)
 
-* Opção exportar PDF/ Imprimir: a opção exportar para PDF e Imprimir deve permitir que o cidadão imprima ou gere o pdf dos dados exibido na tela.  
-* Caso o servidor tenha mais de uma admissão o Portal irá apresentar cada admissão conforme já ocorre atualmente, no entanto caso ele opte em exportar os dados para CSV o Portal deve apresentar todas as admissões na planilha CSV gerada.
+     * A tabela _[histórico da remuneração]_ deve exibir a opção de classificar em todas as colunas conforme já ocorre nas demais consultas do Portal.
 
-Modelo da Planilha CSV. em anexo [remuneracao-layout-2012]()
+    * Os dados apresentados na tabela _[histórico da remuneração]_ devem refletir o primeiro mês da série histórica disponível até o mês/ano selecionado no início da pesquisa.  
+      __Exemplo:__ O servidor Luiz possui dados disponíveis de Mai/2015 a Out/2019. Caso o usuário selecione na barra de pesquisa inicial a exibição os dados de Out/2017, o Portal exibe dos dados de Mai/2015 a Out/2017.
+
+
+  4. Exportar CSV:
+
+    * A opção exportar dados deve gerar a planilha completa em forma de tabela com todos os dados das tabelas _[situação funcional]_ e _[histórico da remuneração]_.
+
+      Os dados de cada linha da planilha deve refletir a situação funcional e remuneração referente ao período (mês/ano). Ver: Modelo da Planilha CSV: [remuneracao-layout-2012]()
+
+      __Exemplo:__ A linha "Ago/2015" deve exibir a situação funcional e remuneração do servidor referente a agosto de 2015; A linha "Jan/2019" deve exibir a situação funcional e remuneração do servidor referente a janeiro/2019 e assim sucessivamente.
+
+      ___IMPORTANTE___: Caso o usuário tenha selecionado um período específico a tabela _[histórico da remuneração]_ o portal exporta apenas o histórico da remuneração referente a seleção aplicada.
+
+      __Exemplo 1__:  O servidor Aroldo possui dados disponíveis de Mai/2012 a Out/2019. Caso o usuário selecione o mês janeiro/2019 na barra de pesquisa inicial do Portal. O Portal exibe e exporta para CSV o primeiro mês da série histórica disponível até o mês de Jan/2019 (Mai/2012 a Jan/2019).
+
+      __Exemplo 2__: Considerando ainda o servidor Aroldo. O mês atual é Out/2019. O Usuário não realizou nenhum filtro na barra de pesquisa inicial do Portal que por default utilizou o mês corrente (Out/2019). O Portal exibe e exporta para CSV o primeiro mês da série histórica disponível até o mês de Set/2019 (Mai/2012 a Out/2019).
+
+  5. Exportar PDF e imprimir:
+    * A opção deve permitir que o cidadão imprima ou gere o pdf dos dados exibidos na tela conforme já ocorre nas demais consultas do Portal.  
 
 ## Glossário Interativo
 
