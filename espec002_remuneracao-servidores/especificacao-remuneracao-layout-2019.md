@@ -1,4 +1,4 @@
-Visão geral da Demanda
+# Visão geral da Demanda
 
 Essa demanda visa divulgar no Portal da Transparência as remunerações dos servidores públicos do Poder Executivo de todos os exercícios.
 
@@ -53,13 +53,13 @@ As tabelas multi-modal serão:
 
 ### Observações
 
-  1. Tabela multi-modal:
+1. Tabela multi-modal:
 
     * A tabela de vizualização multi-modal deve apresentar a opção de fechar (x);
     * O usuário poderá mover a tabela multi-modal para qualquer parte da tela;
 
 
-  2. Tabela situação funcional:
+2. Tabela situação funcional:
 
     * Os dados da situação funcional devem refletir a situação do mês/ano selecionado na _[barra de pesquisa inicial]_ do Portal no início da consulta.       
 
@@ -67,7 +67,7 @@ As tabelas multi-modal serão:
 
       __Exemplo 2:__ Caso o usuário selecione  a  exibição os dados de Jan/2015, a situação funcional apresentada na tabela _[situação funcional]_ será a correspondente a esse período (Jan/2015).
 
-  3. Tabela histórico da remuneração:
+3. Tabela histórico da remuneração:
     * A coluna mês/ano será apresentada da seguinte forma: Mês (3 caracteres) e ano (4 caracteres);           
     __Exemplo:__ Set/2019
 
@@ -86,7 +86,7 @@ As tabelas multi-modal serão:
       ___Observação___: Considerando que do período de 2012 a 2019 não existe detalhamento dos dados da Remuneração básica bruta, o Portal não terá a opção do usuário exibir a tabela multi-modal nesse período.
 
 
-  4. Exportar CSV:
+4. Exportar CSV:
 
     * A opção exportar dados deve gerar a planilha completa em forma de tabela com todos os dados das tabelas _[situação funcional]_ e _[histórico da remuneração]_.
 
@@ -100,7 +100,7 @@ As tabelas multi-modal serão:
 
       __Exemplo 2__: Considerando ainda o servidor Aroldo. O mês atual é Out/2019. O Usuário não realizou nenhum filtro na barra de pesquisa inicial do Portal que por default utilizou o mês corrente (Out/2019). O Portal exibe e exporta para CSV o primeiro mês da série histórica disponível até o mês de Set/2019 (Mai/2012 a Out/2019).
 
-  5. Exportar PDF e imprimir:
+5. Exportar PDF e imprimir:
     * A opção deve permitir que o cidadão imprima ou gere o pdf dos dados exibidos na tela conforme já ocorre nas demais consultas do Portal.  
     
 ## Glossário Interativo
