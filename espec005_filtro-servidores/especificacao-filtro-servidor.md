@@ -1,3 +1,13 @@
+---
+contrato_manutencao: nº 15210010062019 (INF. 3951)
+proposta_comercial: nº
+pull_request: '[espec005](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/7)'
+titulo: Especificação filtro servidor
+output:
+  html_document:
+    theme: united
+    toc: yes
+---
 
 # Visão geral da demanda
 
@@ -15,7 +25,7 @@ Só se conhece a situação funcional do servidor (ativo ou inativo), quando se 
 
 ![](static/detalhamento_servidor.jpg)
 
-Assim, ao criar o filtro Vínculo do Servidor, será possível visualizar a quantidade de servidores ativos, inativos, pensionsitas e outros.
+Assim, ao criar o filtro *Situação do Servidor*, será possível visualizar a quantidade de servidores ativos, inativos, pensionsitas e outros.
 
 # Especificação
 
