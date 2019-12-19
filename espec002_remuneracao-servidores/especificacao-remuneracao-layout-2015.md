@@ -55,55 +55,56 @@ As tabelas multi-modal serão:
 
 ### Observações
 
-1. Tabela multi-modal:
-
-  * A tabela de vizualização multi-modal deve apresentar a opção de fechar (x);
-  * O usuário poderá mover a tabela multi-modal para qualquer parte da tela;
-
-
-2. Tabela situação funcional:
+__1. Tabela situação funcional:__
 
   * Os dados da situação funcional devem refletir a situação do mês/ano selecionado na _[barra de pesquisa inicial]_ do Portal no início da consulta.       
 
-    __Exemplo 1:__ Caso o usuário selecione a  exibição os dados de out/2019, a situação funcional apresentada na tabela _[situação funcional]_ será a correspondente a esse período (Out/2019).
+    ___Exemplo 1:___ Caso o usuário selecione a  exibição os dados de out/2019, a situação funcional apresentada na tabela _[situação funcional]_ será a correspondente a esse período (Out/2019).
 
-    __Exemplo 2:__ Caso o usuário selecione  a  exibição os dados de Jan/2015, a situação funcional apresentada na tabela _[situação funcional]_ será a correspondente a esse período (Jan/2015).
+    ___Exemplo 2:___ Caso o usuário selecione  a  exibição os dados de Jan/2015, a situação funcional apresentada na tabela _[situação funcional]_ será a correspondente a esse período (Jan/2015).
 
-3. Tabela histórico da remuneração:
+__2. Tabela histórico da remuneração:__
   * A coluna mês/ano será apresentada da seguinte forma: Mês (3 caracteres) e ano (4 caracteres);           
-  __Exemplo:__ Set/2019
+  ___Exemplo:___ Set/2019
 
   * Os dados da coluna mês/ano devem ser exibidos de forma decrescente (mais recente para o mais antigo);
 
   * Quando o número de linhas da tabela _[histórico da remuneração]_ for superior ao limite da página deve ser aplicado a paginação conforme já ocorre nas demais consultas do Portal.
 
   * O cabeçalho da tabela histórico da remuneração deve ser congelado, ou seja, quando o usuário usar a barra de rolagem horizontal o cabeçalho da tabela deve ficar sempre visível.                    
-   __Exemplo:__ [Cabeçalho fixo (_Fixed Header_)](https://uxdesign.cc/design-better-data-tables-4ecc99d23356)
+    ___Exemplo:___ [Cabeçalho fixo (_Fixed Header_)](https://uxdesign.cc/design-better-data-tables-4ecc99d23356)
 
    * A tabela _[histórico da remuneração]_ deve exibir a opção de classificar em todas as colunas conforme já ocorre nas demais consultas do Portal.
 
   * Os dados apresentados na tabela _[histórico da remuneração]_ devem refletir o primeiro mês da série histórica disponível até o mês/ano selecionado no início da pesquisa.  
-    __Exemplo:__ O servidor Luiz possui dados disponíveis de Mai/2015 a Out/2019. Caso o usuário selecione na barra de pesquisa inicial a exibição os dados de Out/2017, o Portal exibe dos dados de Mai/2015 a Out/2017.
 
-    ___Observação___: Considerando que do período de 2012 a 2019 não existe detalhamento dos dados da Remuneração básica bruta, o Portal não terá a opção do usuário exibir a tabela multi-modal nesse período.
+    ___Exemplo:___ O servidor Luiz possui dados disponíveis de Mai/2015 a Out/2019. Caso o usuário selecione na barra de pesquisa inicial a exibição os dados de Out/2017, o Portal exibe dos dados de Mai/2015 a Out/2017.
+
+  * ___Observação___: Considerando que do período de 2012 a 2019 não existe detalhamento dos dados da Remuneração básica bruta, o Portal não terá a opção do usuário exibir a tabela multi-modal nesse período.
+
+__3. Tabela multi-modal:__
+
+* A tabela de vizualização multi-modal deve apresentar a opção de fechar (x);
+* O usuário poderá mover a tabela multi-modal para qualquer parte da tela.
 
 
-4. Exportar CSV:
+__4. Exportar CSV:__
 
   * A opção exportar dados deve gerar a planilha completa em forma de tabela com todos os dados das tabelas _[situação funcional]_ e _[histórico da remuneração]_.
 
-    Os dados de cada linha da planilha deve refletir a situação funcional e remuneração referente ao período (mês/ano). Ver: Modelo da Planilha CSV: [remuneracao-layout-2015]()
+  * Os dados de cada linha da planilha deve refletir a situação funcional e remuneração referente ao período (mês/ano). Ver: Modelo da Planilha CSV: [remuneracao-layout-2015]()
 
-    __Exemplo:__ A linha "Ago/2015" deve exibir a situação funcional e remuneração do servidor referente a agosto de 2015; A linha "Jan/2019" deve exibir a situação funcional e remuneração do servidor referente a janeiro/2019 e assim sucessivamente.
+    ___Exemplo:___ A linha "Ago/2015" deve exibir a situação funcional e remuneração do servidor referente a agosto de 2015; A linha "Jan/2019" deve exibir a situação funcional e remuneração do servidor referente a janeiro/2019 e assim sucessivamente.
 
-    ___IMPORTANTE___: Caso o usuário tenha selecionado um período específico a tabela _[histórico da remuneração]_ o portal exporta apenas o histórico da remuneração referente a seleção aplicada.
+  * Caso o usuário tenha selecionado um período específico na barra de pesquisa inicial o portal exporta apenas o histórico da remuneração considerando o primeiro mês da série histórica disponível até o mês selecionado.
 
-    __Exemplo 1__:  O servidor Aroldo possui dados disponíveis de Mai/2012 a Out/2019. Caso o usuário selecione o mês janeiro/2019 na barra de pesquisa inicial do Portal. O Portal exibe e exporta para CSV o primeiro mês da série histórica disponível até o mês de Jan/2019 (Mai/2012 a Jan/2019).
+    ___Exemplo 1___:  O servidor Aroldo possui dados disponíveis de Mai/2012 a Out/2019. Caso o usuário selecione o mês janeiro/2019 na barra de pesquisa inicial do Portal. O Portal exibe e exporta para CSV o primeiro mês da série histórica disponível até o mês de Jan/2019 (Mai/2012 a Jan/2019).
 
-    __Exemplo 2__: Considerando ainda o servidor Aroldo. O mês atual é Out/2019. O Usuário não realizou nenhum filtro na barra de pesquisa inicial do Portal que por default utilizou o mês corrente (Out/2019). O Portal exibe e exporta para CSV o primeiro mês da série histórica disponível até o mês de Set/2019 (Mai/2012 a Out/2019).
+    ___Exemplo 2___: Considerando ainda o servidor Aroldo. O mês atual é Out/2019. O Usuário não realizou nenhum filtro na barra de pesquisa inicial do Portal que por default utilizou o mês corrente (Out/2019). O Portal exibe e exporta para CSV o primeiro mês da série histórica disponível até o mês de Out/2019 (Mai/2012 a Out/2019).
 
-5. Exportar PDF e imprimir:
+__5. Exportar PDF e imprimir:__
   * A opção deve permitir que o cidadão imprima ou gere o pdf dos dados exibidos na tela conforme já ocorre nas demais consultas do Portal.  
+
 
 ## Glossário Interativo
 
@@ -122,7 +123,3 @@ As tabelas multi-modal serão:
 12. Total de Descontos: Valor total dos descontos obrigatórios
 13. Remuneração após deduções: Valor líquido após descontos obrigatórios.
 14. Jetons empresas: É a remuneração percebida por servidores públicos estaduais em razão da participação como representantes do Estado em Conselhos de Administração e Fiscal ou órgãos equivalentes de empresas controladas direta ou indiretamente pelo Estado
-
-### Dúvidas
-
-* Para os layouts que possuem CPFs qual o fluxo de dados deve ser utilizado para que o CPF seja armazenado sem máscara na base de dados do Portal, mas o CPF não esteja disponível no "Download Planilha Completa".
