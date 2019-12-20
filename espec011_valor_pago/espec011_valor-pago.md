@@ -42,33 +42,48 @@ Atualmente, o Portal de Transparência apresenta os dados relativos a OP utiliza
 
 E conforme tela do SIAFI, consta na Situação a informação de PENDENTE PARA BANCO. AGUARDANDO ASSINATURA DIGITAL.
 
-Essa mesma OP consultada no Portal da Transparência consta como paga no formulário de detalhamento de despesa, desde o dia 28/11/2019 (código do documento 1599), na valor de R$268,45.
+Essa mesma OP consultada no Portal da Transparência consta como paga no formulário de detalhamento de despesa, desde o dia 28/11/2019 (código do documento 1599), no valor de R$268,45.
 
 ![](static/portal_1599.jpg)
 
-Assim, conforme exemplo acima, apesar de constar como paga no Portal da Transparência desde o dia 28/11/2019. A OP 1599 ainda não percorreu as etapas de pagamento.
+Assim, conforme exemplo acima, apesar de constar como paga no Portal da Transparência desde o dia 28/11/2019, a OP 1599 ainda não percorreu todas as etapas de pagamento.
 
-A mesma situação ocorre na consulta de Restos a Pagar. Exemplo é a consulta de restos a pagar referente ao Restos a Pagar 2018/3. Conforme tela do SIAFI a data de registro da OP ocorreu em 01/03/2019, mas o efetivo pagamento da despesa ocorreu em 07/03/2019.
+A mesma situação ocorre na consulta de Restos a Pagar.
+Exemplo é a consulta de restos a pagar referente ao Restos a Pagar 2018/3. Conforme tela do SIAFI a data de registro da OP ocorreu em 01/03/2019, mas o efetivo pagamento da despesa ocorreu em 07/03/2019.
 
 ![](static/restosapagarsiafi.jpg)
 
- Assim, com o objetivo de melhorar a divulgação de dados sobre pagamentos, sugere-se a alteração no formulário de detalhamento da despesa (opções Empenho e Pagamento) para que apresente não somente a data de registro da OP, mas também a data de pagamento de uma determinada OP (paga, acatada pelo banco e sujeita a compensação bancária), respeitado o prazo de atualização de D+1 estabelecido pelo Decreto Federal n° 7.185, de 2010.
+No Portal da Transparênca, a mesma OP 22, consta que o pagamento foi realizado no 01/03/2019, quando na verdade, a data em que o valor foi acatado pelo banco ocorreu somente no dia 07/03/2019.
 
-Além dessa alteração, sugere-se a alteração na descrição do valor pago que consta das colunas "Valor pago" das consultas de Despesa, Diária e Restos a Pagar, para que seja esclarecido a sociedade as situações que compõem o campo valor pago.
+![](static/restosapagarportal.jpg)
 
-Atualmente, o glossário do portal e o tool tip traz a seguinte definição: valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa.
-
-Diferentemente das demais consultas de Despesa, Diárias e Restos a Pagar, a consulta de Convênios/Parcerias de Saída de Recursos não possui a divulgação de Data de Registro da OP, consta apenas a informação do Valor total Repassado pelo Concedente/Órgão ou Entidade Estadual Parceiro, sem detalhamento sobre a Data de Registro da OP ou Data de Pagamento.
+Outra consulta com impacto direto na divulgação de dados sobre o pagamento é a consulta de Convênios/Parcerias de Saída de Recursos, que diferentemente das demais consultas não possui a informação de Data de Registro da OP.
 
 ![](static/conveniossaida.jpg)
 
-No entanto, a regra adotada pelo Portal da Transparência é a mesma aplicada as demais consulta, que é a informação de valor repassado tendo como critério o Valor Pago Financeiro, Valor Pago Processado e Valor Pago Não Processado de acordo com a Data de Registro da OP, que traz para o Portal, a informação de valor repassado, mesmo que a despesa não tenha percorrido todas as suas fases.
+A regra adotada pelo Portal da Transparência para a Consulta de Convênios / Parcerias de Saída de Recursos é a mesma aplicada as demais consultas, que é a informação de valor repassado tendo como critério o Valor Pago Financeiro, Valor Pago Processado e Valor Pago Não Processado de acordo com a Data de Registro da OP, que traz para o Portal, a informação de valor repassado, mesmo que a despesa não tenha percorrido todas as suas fases.
 
 [Convênios de Saída](static/conveniossaida.xls)
 
-Como exemplo, temos o convênio 9192092, cuja OP 622 foi registrada no dia 17/12/2019, e com data de pagamento para 19/12/2019. No entanto, conforme consulta ao armazém consta na Situação Ordem Pagamento - Descrição: pendente de transmissão aos bancos. Essa situação indica que o depósito no valor de R$100.000,00 ainda não foi depositada pelo órgão concedente.
+Como exemplo, temos o convênio 9220736, cuja OP 192 foi registrada no dia 17/12/2019, e com data de pagamento para 20/12/2019.
 
 ![](static/convenios.jpg)
+
+No entanto, conforme consulta ao armazém consta na Situação Ordem Pagamento - Descrição: Transmitida ao banco - pendente de confirmação. Essa situação indica que o depósito no valor de R$45.000,00 ainda não foi realizado na conta do convenente. Apesar do Portal da Transparência informar que o valor já foi repassado ao convenente.
+
+![](static/portalconvenios.jpg)
+
+A tela do SIAFI, confirma que o OP 192 ainda depende de compensação bancária, estando o depósito sujeita a confirmação pelo banco.
+
+![](static/siaficonvenios.jpg)
+
+Assim, com o objetivo de melhorar a divulgação de dados sobre pagamentos, sugere-se a alteração no formulário de detalhamento da despesa (opções Empenho e Pagamento) para que apresente não somente a data de registro da OP, mas também a data de pagamento de uma determinada OP (paga, acatada pelo banco e sujeita a compensação bancária), respeitado o prazo de atualização de D+1 estabelecido pelo Decreto Federal n° 7.185, de 2010.
+
+Além dessa alteração, sugere-se a alteração na descrição do valor pago que consta das colunas "Valor pago" das consultas de Despesa, Diária e Restos a Pagar, para que seja esclarecido a sociedade as situações que compõem o campo valor pago.
+
+Atualmente, o glossário do portal e o tool tip trazem a seguinte definição: valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa.
+
+
 
 # Especificação
 
@@ -76,47 +91,62 @@ Como exemplo, temos o convênio 9192092, cuja OP 622 foi registrada no dia 17/12
 
 ### Descrição do Valor Pago
 
+![](static/descricao_valor_pago.jpg)
+
 Alterar a descrição do TOOL TIP da coluna valor pago, que passará a exibir o seguinte texto ao passar o cursor sobre o ponto de interrogação:
 
-- valor regsitrado no SIAFI/MG até a data de atualização da base de dados, podendo o efetivo pagamento estar pendente de assinatura do ordenador de despesa, transmissão bancária e/ou sujeito a compensação bancária.
+- Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de assinatura do ordenador de despesa e/ou sujeito a compensação bancária.
 
 ![](static/valor_pago.jpg)
 
-**IMPORTANTE:** Essas alterações aplicam-se as consultas de Despesas e Diárias.
+**IMPORTANTE:**
+1. Essas alterações aplicam-se as consultas de Despesas e Diárias.
+2. Essas alterações aplicam-se a toda base de dados da consulta de Despesas e Diárias disponíveis no Portal da Transparência.
+
 
 ### Texto das colunas Data e Número de Documento
 
-Alterar o texto das colunas "Data" e "NUMERO DO DOCUMENTO" das consultas de Despesas e Diárias
+Visando adequar os textos das colunas de Data e Número do Documento sugere-se a alteração dos textos de empenho, liquidação e pagamento, com informação próxima ao que consta no armazém SIAFI.
+
+![](static/textodascolunas.jpg)
+
+Alterar o texto das [colunas](http://transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2019/01-01-2019/31-12-2019/3853/1872/469/20/42/1648079/3075/empenhado) "DATA" e "NUMERO DO DOCUMENTO" das consultas de Despesas e Diárias.
 
 **Situação 1:** ao clicar no "Valor Empenhado", o próximo nível deverá apresentar a informação:
-- Data de Empenho (no lugar de Data)
-- Número do Empenho (no lugar de Número Documento)
+- Data Empenho (no lugar de Data)
+- Número Empenho (no lugar de Número Documento)
 
 ![](static/empenho.jpg)
 
-**Situação 2:** ao clicar no "Valor Liquidado", o próximo nível deverá apresentar a informação:
-- Data de Liquidação (no lugar de Data): Data de registro do documento de liquidação no SIAFI (Sistema Integrado de Administração Financeira).
 
-- Número da Liquidação (no lugar de Número Documento): Número de identificação do documento de liquidação no SIAFI (Sistema Integrado de Administração Financeira).
+**Situação 2:** ao clicar no "Valor Liquidado", o próximo nível deverá apresentar a informação:
+- Data Liquidação (no lugar de Data), e alterar o texto descritivo do TOOL TIP para "Data de registro da liquidação no SIAFI (Sistema Integrado de Administração Financeira)"
+- Número da Liquidação (no lugar de Número Documento) e alterar o texto descritivo do TOOL TIP para "Número de identificação da liquidação no SIAFI(Sistema Integrado de Administração Financeira)"
 
 ![](static/liquidacao.jpg)
 
-**Situação 3:** ao clicar no "Valor Pago", o próximo nível deverá apresentar a informação:
-- Registro da Ordem de Pagamento (no lugar de Data): Data de registro do documento de pagamento no SIAFI (Sistema Integrado de Administração Financeira).
+Alterar também a descrição dos TOOL TIP das colunas dna situação Valor Liquidado
 
-- Número da Ordem de Pagamento (no lugar de Número Documento):Número de identificação do documento de pagamento no SIAFI (Sistema Integrado de Administração Financeira).
+**Situação 3:** ao clicar no "Valor Pago", o próximo nível deverá apresentar a informação:
+
+- Data Registro (no lugar de Data) e alterar o texto descritivo do TOOL TIP para "Data de registro da ordem de pagamento no SIAFI (Sistema Integrado de Administração Financeira)"
+- Número OP (no lugar de Número Documento) e alterar o texto descritivo do TOOL TIP para "Número de identificação da ordem de pagamento no SIAFI(Sistema Integrado de Administração Financeira)"
 
 ![](static/pagamento.jpg)
 
-*IMPORTANTE:* Essas alterações aplicam-se as consultas de Despesas e Diárias.
+
+**IMPORTANTE:**
+1. Essas alterações aplicam-se as consultas de Despesas e Diárias.
+2. Essas alterações aplicam-se a toda base de dados da consulta de Despesas e Diárias disponíveis no Portal da Transparência.
+
 
 ### Formulário de Detalhamento de Despesa
 
 No formulário de detalhamento da despesa, opções de empenho e pagamento, serão alteradas as seguintes informações:
 
-1. Substituir o texto: "Data" para "Data de Registro" (sem alteração na extração de dados no Armazém);
+1. Substituir o texto: "Data" para "Data Registro" (sem alteração na extração de dados no Armazém);
 
-2. Incluir a coluna de Data de Pagamento (após a coluna data de registro), que será preenchida quando ocorrer o preenchimento da variável data de pagamento em uma das seguintes "Situações Ordem Pagamento - Descrição" (somente a situações Ordem Pagamento, código 3):
+2. Incluir a coluna de "Data Pagamento" (após a coluna data de registro), que será preenchida quando ocorrer o preenchimento da variável data de pagamento em uma das seguintes "Situações Ordem Pagamento - Descrição" (somente a situações Ordem Pagamento, código 3):
 
   - Paga
   - Acatada pelo banco
@@ -128,18 +158,18 @@ Importante ressaltar que serão consideradas apenas as data de pagamento com val
 
 [formulario_detalhamento_despesa](static/formulario_detalhamento_despesa.xls)
 
-*IMPORTANTE:* Essas alterações aplicam-se as consultas de Despesas e Diárias.
+**IMPORTANTE:**
+1. Essas alterações aplicam-se as consultas de Despesas e Diárias.
+2. Essas alterações aplicam-se a toda base de dados da consulta de Despesas e Diárias disponíveis no Portal da Transparência.
 
 
 ## Consulta Restos a Pagar
 
 ### Formulário de Detalhamento de Despesa
 
-No formulário de detalhamento da despesa da Consulta de Restos a Pagar, será alterada a seguinte informação:
+No [Formulário de Detalhamento da Despesa](http://transparencia.mg.gov.br/despesa-estado/restos-a-pagar/restospagar-orgaos/2019/3853/546/42/20/3065/130/58/5933374) da Consulta de Restos a Pagar, será alterada a mesma informação já especificada para a consulta de Despesas e Diárias, que é:
 
-[Formulário de Detalhamento da Despesa](http://transparencia.mg.gov.br/despesa-estado/restos-a-pagar/restospagar-orgaos/2019/3853/546/42/20/3065/130/58/5933374)
-
-1. Substituir o texto: "Data" para "Data de Registro" (sem alteração na extração de dados no Armazém);
+1. Substituir o texto: "Data" para "Data Registro" (sem alteração na extração de dados no Armazém);
 
 2. Incluir a coluna de Data de Pagamento (após a coluna data de registro), que será preenchida quando ocorrer o preenchimento da variável data de pagamento em uma das seguintes "Situações Ordem Pagamento - Descrição" (somente a situações Ordem Pagamento, código 3):
 
@@ -149,7 +179,12 @@ No formulário de detalhamento da despesa da Consulta de Restos a Pagar, será a
 
 Importante ressaltar que serão consideradas apenas as data de pagamento com valores válidos. Informações em branco ou informações inválidas não serão trazidas para o portal.
 
+![](static/formulario_emp_pag.jpg)
+
 [Restos a Pagar](static/restosapagar.xls)
+
+**IMPORTANTE:**
+1. Essas alterações aplicam-se a toda base de dados da consulta de Restos a Pagar do Portal da Transparência.
 
 ### Descrição do Valor Pago no Ano
 
@@ -157,20 +192,40 @@ Alterar a descrição do TOOL TIP da coluna "valor pago no ano" da consulta de R
 
 ![](static/restosapagar.jpg)
 
-- soma do valor de restos a pagar processados e não processados referentes aos pagamentos registrados no SIAFI/MG até a data de atualização da base de dados, podendo o efetivo pagamento estar pendente de assinatura do ordenador de despesa, transmissão bancária e/ou sujeito a compensação bancária.
+- Soma do valor de restos a pagar processados e não processados referentes aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de assinatura do ordenador de despesa e/ou sujeito a compensação bancária.
 
 ![](static/valorpagonoano.jpg)
 
+**IMPORTANTE:**
+1. Essas alterações aplicam-se a toda base de dados da consulta de Restos a Pagar do Portal da Transparência.
 
 ## Consulta Convênios de Saída
 
-Na extração dos dados do armazém para a divulgação do Valor Repassado pelo Concedente/Órgão ou Entidade Estadual Parceiro, será considerado apenas os pagamentos com o preenchimento da variável data de pagamento em uma das seguintes "Situações Ordem Pagamento - Descrição" (somente a situações Ordem Pagamento, código 3):
+### Descrição do Valor Repassado
+
+Alterar a descrição do TOOL TIP da coluna "valor Repassado pelo Concedente/Órgão ou Entidade Estadual Parceiro" da consulta de Convênios/Parcerias Saída de Recursos, que passará a exibir o seguinte texto ao passar o cursor sobre o ponto de interrogação:
+
+![](static/valorrepassadoconvenios.jpg)
+
+- Valor financeiro repassado pelo concedente/órgão ou entidade estadual parceiro ao convenente / Organização da Sociedade Civil (OSC) parceria, referente ao(s) convênios(s)/ parceria(s) firmado(s) entre as partes por meio de pagamento via SIAFI. Abrange o valor do concedente / órgão ou entidade estadual parceiro, das emendas parlamentares e outras fontes. O efetivo pagamento pode estar pendente de assinatura do ordenador de despesa e/ou sujeito a compensação bancária.
+
+![](static/valorrepassadoalter.jpg)
+
+**IMPORTANTE:**
+1. Essas alterações aplicam-se a toda base de dados da consulta de Restos a Pagar do Portal da Transparência.
+
+Na extração dos dados do armazém para a divulgação do Valor Repassado pelo Concedente/Órgão ou Entidade Estadual Parceiro, será considerado para divulgação de valores repassados o Valor Pago Financeiro menos o Valor Pago Pendente.
+
+Também deverá ser considerada apenas os pagamentos com o preenchimento da variável data de pagamento em uma das seguintes "Situações Ordem Pagamento - Descrição" (somente a situações Ordem Pagamento, código 3):
 
   - Paga
   - Acatada pelo banco
   - Sujeita a compensação bancária
 
-Importante ressaltar que serão consideradas apenas as data de pagamento com valores válidos. Informações em branco ou informações inválidas não serão trazidas para o portal.
+Importante ressaltar que serão consideradas os pagamentos cuja variável data de pagamento apresente valores em branco ou informações inválidas. Essa informação no Portal deve permanecer zerada até que a data de pagamento apresente uma data válida.
+
+**IMPORTANTE:**
+1. Essas alterações aplicam-se a toda base de dados da consulta de Convênios/Parcerias de Saída de Recursos do Portal da Transparência.
 
 
 # Exemplos
