@@ -1,10 +1,3 @@
----
-titulo: "Valor Pago Financeiro"
-
-https://github.com/transparencia-mg/especificacoes-portal-transparencia/edit/feat/especificacao-valor-pago/espec011_valor_pago/espec011_valor-pago.md
-
----
-
 
 # Visão Geral da Intervenção
 
@@ -25,8 +18,7 @@ De acordo com as regras de registro de Ordem de Pagamento (OP) no SIAFI é poss�
 7. Cancelada pelo operador
 8. Cancelada -TED
 9. Transmitida ao banco - Pendente de confirmação
-10. Cancelada sem cancelamento do IRRP retido _TED
-
+10. Cancelada sem cancelamento do IRRP retido _TED_
 
 Dentre essas situações, ressaltamos as situações 2 (acatada pelo banco), 3 (pendente de transmissão aos bancos) e situação 4 (sujeita a compensação bancária).
 
@@ -207,9 +199,27 @@ Alterar a descrição do TOOL TIP da coluna "valor Repassado pelo Concedente/Ór
 
 ![](static/valorrepassadoconvenios.jpg)
 
-- Valor financeiro repassado pelo concedente/órgão ou entidade estadual parceiro ao convenente / Organização da Sociedade Civil (OSC) parceria, referente ao(s) convênios(s)/ parceria(s) firmado(s) entre as partes por meio de pagamento via SIAFI. Abrange o valor do concedente / órgão ou entidade estadual parceiro, das emendas parlamentares e outras fontes. O efetivo pagamento pode estar pendente de assinatura do ordenador de despesa e/ou sujeito a compensação bancária.
+* __Valor Repassado pelo Concedente/Órgão ou Entidade Estadual Parceiro: Valor financeiro__: Valor repassado pelo concedente/órgão ou entidade estadual parceiro ao convenente / Organização da Sociedade Civil (OSC) parceria, referente ao(s) convênios(s)/ parceria(s) firmado(s) entre as partes por meio de pagamento via SIAFI. Abrange o valor do concedente / órgão ou entidade estadual parceiro, das emendas parlamentares e outras fontes. O efetivo pagamento pode estar sujeito a compensação bancária.
 
 ![](static/valorrepassadoalter.jpg)
+
+Para obter o real valor repassado deve-se utilizar a fórmula: (Valor Pago Financeiro - Valor Pago pendente =  Valor repassado) conforme campos do armazém BO.
+
+Campos do Armazém BO:
+![](static/valor-repassado-convenio-saida.png)
+
+Exemplos:
+
+Dados disponíveis no Portal de Transparência atualmente:
+
+![](static/valor-repassado-portal.png)
+
+O Portal apresenta como repassado o valor total de R$ 35.000,00 no entanto, conforme consta no SIAFI transacional o valor encontra-se "pendente para o banco- aguardando assinatura digital". Com as novas regras o Portal deve apresentar o valor efetivamente repassado.
+
+![](static/convenio-op-1547-.png)
+
+__Nome da Consulta Armazém (BO):__ valor_repassado_conv_saida
+
 
 **IMPORTANTE:**
 1. Essas alterações aplicam-se a toda base de dados da consulta de Restos a Pagar do Portal da Transparência.
