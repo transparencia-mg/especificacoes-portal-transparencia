@@ -244,3 +244,11 @@ Importante ressaltar que serão consideradas os pagamentos cuja variável data d
 O portal da Transparência do Distrito Federal traz a informação de Data de Emissão no lugar de data de pagamento.
 
 ![](static/distritofederal.jpg)
+
+2. No Governo do [Paraná](http://www.transparencia.pr.gov.br/pte/pages/despesas/consultaCredor/exibir_extrato.jsf?windowId=8b8), é utilizado a expressão Nº do Documento, no entanto, a visualização das fases é apresentada numa única tela, não deixando dúvidas a que fase da despesa o documento se refere.
+
+![](static/parana.jpg)
+
+3. No [Governo Federal](http://transparencia.gov.br/despesas/favorecido?de=01/09/2019&ate=30/09/2019&funcaoSubfuncao=FN03&funcaoSubfuncao=SB092&programa=2130&acao=2674&programaGoverno=00&grupo=3&elemento=14&modalidade=90&orgaos=UG110581&ordenarPor=valor&direcao=desc), utiliza-se a expressão Documento, e só é apresentado esse número para a nota de empenho, com o código de NE, que supõe que seja referente a uma nota de empenho. Ex: 2019NE000268
+
+![](static/governofederal.jpg)
