@@ -124,7 +124,7 @@ Alterar também a descrição dos TOOL TIP das colunas dna situação Valor Liqu
 - Data Registro (no lugar de Data) e alterar o texto descritivo do TOOL TIP para "Data de registro da ordem de pagamento no SIAFI (Sistema Integrado de Administração Financeira)"
 - Número Ordem Pagamento (no lugar de Número Documento) e alterar o texto descritivo do TOOL TIP para "Número de identificação da ordem de pagamento no SIAFI(Sistema Integrado de Administração Financeira)"
 
-![](static/pagamento.jpg)
+![](static/pagamentos.jpg)
 
 
 **IMPORTANTE:**
@@ -135,7 +135,8 @@ Alterar também a descrição dos TOOL TIP das colunas dna situação Valor Liqu
 Abaixo, indicamos as consultas realizadas no armazém SIAFI para cada alteração sugerida.
 ![](static/nomenclaturas.jpg)
 
-![](static/pagamentos_2019.jpg)
+[Planilha Pagamentos](static/pagamentos_2019.xls)
+
 ### Formulário de Detalhamento de Despesa
 
 No formulário de detalhamento da despesa, opções de empenho e pagamento, serão alteradas as seguintes informações:
