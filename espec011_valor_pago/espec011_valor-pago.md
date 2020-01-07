@@ -112,8 +112,8 @@ Alterar o texto das [colunas](http://transparencia.mg.gov.br/despesa-estado/desp
 
 
 **Situação 2:** ao clicar no "Valor Liquidado", o próximo nível deverá apresentar a informação:
-- Data Liquidação (no lugar de Data), e alterar o texto descritivo do TOOL TIP para "Data de registro da liquidação no SIAFI (Sistema Integrado de Administração Financeira)"
-- Número da Liquidação (no lugar de Número Documento) e alterar o texto descritivo do TOOL TIP para "Número de identificação da liquidação no SIAFI(Sistema Integrado de Administração Financeira)"
+- Data Registro (no lugar de Data), e alterar o texto descritivo do TOOL TIP para "Data de registro da liquidação no SIAFI (Sistema Integrado de Administração Financeira)"
+- Número Liquidação (no lugar de Número Documento) e alterar o texto descritivo do TOOL TIP para "Número de identificação da liquidação no SIAFI(Sistema Integrado de Administração Financeira)"
 
 ![](static/liquidacao.jpg)
 
@@ -122,7 +122,7 @@ Alterar também a descrição dos TOOL TIP das colunas dna situação Valor Liqu
 **Situação 3:** ao clicar no "Valor Pago", o próximo nível deverá apresentar a informação:
 
 - Data Registro (no lugar de Data) e alterar o texto descritivo do TOOL TIP para "Data de registro da ordem de pagamento no SIAFI (Sistema Integrado de Administração Financeira)"
-- Número OP (no lugar de Número Documento) e alterar o texto descritivo do TOOL TIP para "Número de identificação da ordem de pagamento no SIAFI(Sistema Integrado de Administração Financeira)"
+- Número Ordem Pagamento (no lugar de Número Documento) e alterar o texto descritivo do TOOL TIP para "Número de identificação da ordem de pagamento no SIAFI(Sistema Integrado de Administração Financeira)"
 
 ![](static/pagamento.jpg)
 
@@ -131,7 +131,11 @@ Alterar também a descrição dos TOOL TIP das colunas dna situação Valor Liqu
 1. Essas alterações aplicam-se as consultas de Despesas e Diárias.
 2. Essas alterações aplicam-se a toda base de dados da consulta de Despesas e Diárias disponíveis no Portal da Transparência.
 
+**Observação:**
+Abaixo, indicamos as consultas realizadas no armazém SIAFI para cada alteração sugerida.
+![](static/nomenclaturas.jpg)
 
+![](static/pagamentos_2019.jpg)
 ### Formulário de Detalhamento de Despesa
 
 No formulário de detalhamento da despesa, opções de empenho e pagamento, serão alteradas as seguintes informações:
