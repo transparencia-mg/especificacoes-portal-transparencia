@@ -199,7 +199,7 @@ Alterar a descrição do TOOL TIP da coluna "valor Repassado pelo Concedente/Ór
 
 ![](static/valorrepassadoconvenios.jpg)
 
-* __Valor Repassado pelo Concedente/Órgão ou Entidade Estadual Parceiro: Valor financeiro__: Valor repassado pelo concedente/órgão ou entidade estadual parceiro ao convenente / Organização da Sociedade Civil (OSC) parceria, referente ao(s) convênios(s)/ parceria(s) firmado(s) entre as partes por meio de pagamento via SIAFI. Abrange o valor do concedente / órgão ou entidade estadual parceiro, das emendas parlamentares e outras fontes. O efetivo pagamento pode estar sujeito a compensação bancária.
+* __Valor Repassado pelo Concedente/Órgão ou Entidade Estadual Parceiro: Valor financeiro__: Valor repassado pelo concedente/órgão ou entidade estadual parceiro ao convenente / Organização da Sociedade Civil (OSC) parceria, referente ao(s) convênios(s)/ parceria(s) firmado(s) entre as partes por meio de pagamento via SIAFI. Abrange o valor do concedente / órgão ou entidade estadual parceiro, das emendas parlamentares e outras fontes. O efetivo pagamento pode estar pendente de assinatura do ordenador de despesa e/ou sujeito a compensação bancária.
 
 ![](static/valorrepassadoalter.jpg)
 
