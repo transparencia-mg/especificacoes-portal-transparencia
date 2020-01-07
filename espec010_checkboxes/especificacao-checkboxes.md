@@ -29,20 +29,20 @@ Segue abaixo o layout da inclusão da opção exibir todos.
 
 3.	A opção “Exibir todos” deverá ser incluída em todas as consultas que possuem “Pesquisa Avançada”:
 
-- Despesa;
+- [Despesa](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-pesquisa-avancada);
 - Restos a Pagar (a consulta avançada já consta da nova reformulação do portal);
-- Viagens;
-- Receita;
-- Proposta orçamentária;
-- Alteração orçamentária;
-- Obras orçadas;
-- Crédito orçamentário;
-- Programação e Execução PPAG por Programa;
-- Convênios/Parcerias de Saída de Recursos;
-- Convênios de Entrada de Recursos;
-- Compras e Contratos;
-- Gestão de Frota;
-- Patrimônio.
+- [Viagens](http://www.transparencia.mg.gov.br/estado-pessoal/viagens/estado_viagens-pesquisa-avancada);
+- [Receita](http://www.transparencia.mg.gov.br/estado-receita/receita-pesquisa-avancada);
+- [Proposta orçamentária](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada);
+- [Alteração orçamentária](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/alteracao-orcamentaria/altorcam-pesquisa-avancada);
+- [Obras orçadas](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/obras-orcadas/obras-pesquisa-avancada);
+- [Crédito orçamentário](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/credito-orcamentario/credorcam-pesquisa-avancada);
+- [Programação e Execução PPAG por Programa](http://www.transparencia.mg.gov.br/planejamento-e-resultados/planejamento-e-monitoramento/programacao-execucao-ppag-programa?task=estado_ppagprograma.consultaLivre);
+- [Convênios/Parcerias de Saída de Recursos](http://www.transparencia.mg.gov.br/convenios/convenios-de-saida/convenios-pesquisa-avancada);
+- [Convênios de Entrada de Recursos](http://www.transparencia.mg.gov.br/convenios/convenio-entrada/convenios-entrada-pesquisa-avancada);
+- [Compras e Contratos](http://www.transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos/comprasecontratos-pesquisa-avancada);
+- [Gestão de Frota](http://www.transparencia.mg.gov.br/compras-e-patrimonio/gestao-de-frota/frota-pesquisa-avancada);
+- [Patrimônio](http://www.transparencia.mg.gov.br/compras-e-patrimonio/patrimonio/patrimonio-pesquisa-avancada).
 
 
 # Dependências / Integrações
