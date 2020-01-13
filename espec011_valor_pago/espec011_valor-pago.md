@@ -105,15 +105,15 @@ Visando adequar os textos das colunas de Data e Número do Documento sugere-se a
 Alterar o texto das [colunas](http://transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2019/01-01-2019/31-12-2019/3853/1872/469/20/42/1648079/3075/empenhado) "DATA" e "NUMERO DO DOCUMENTO" das consultas de Despesas e Diárias.
 
 **Situação 1:** ao clicar no "Valor Empenhado", o próximo nível deverá apresentar a informação:
-- Data Empenho (no lugar de Data)
-- Número Empenho (no lugar de Número Documento)
+- Data de Registro (no lugar de Data)
+- Número do Empenho (no lugar de Número Documento)
 
 ![](static/empenho.jpg)
 
 
 **Situação 2:** ao clicar no "Valor Liquidado", o próximo nível deverá apresentar a informação:
-- Data Registro (no lugar de Data), e alterar o texto descritivo do TOOL TIP para "Data de registro da liquidação no SIAFI (Sistema Integrado de Administração Financeira)"
-- Número Liquidação (no lugar de Número Documento) e alterar o texto descritivo do TOOL TIP para "Número de identificação da liquidação no SIAFI(Sistema Integrado de Administração Financeira)"
+- Data do Registro (no lugar de Data), e alterar o texto descritivo do TOOL TIP para "Data de registro da liquidação no SIAFI (Sistema Integrado de Administração Financeira)"
+- Número da Liquidação (no lugar de Número Documento) e alterar o texto descritivo do TOOL TIP para "Número de identificação da liquidação no SIAFI(Sistema Integrado de Administração Financeira)"
 
 ![](static/liquidacao.jpg)
 
@@ -121,8 +121,8 @@ Alterar também a descrição dos TOOL TIP das colunas dna situação Valor Liqu
 
 **Situação 3:** ao clicar no "Valor Pago", o próximo nível deverá apresentar a informação:
 
-- Data Registro (no lugar de Data) e alterar o texto descritivo do TOOL TIP para "Data de registro da ordem de pagamento no SIAFI (Sistema Integrado de Administração Financeira)"
-- Número Ordem Pagamento (no lugar de Número Documento) e alterar o texto descritivo do TOOL TIP para "Número de identificação da ordem de pagamento no SIAFI(Sistema Integrado de Administração Financeira)"
+- Data de Registro (no lugar de Data) e alterar o texto descritivo do TOOL TIP para "Data de registro da ordem de pagamento no SIAFI (Sistema Integrado de Administração Financeira)"
+- Número da Ordem Pagamento (no lugar de Número Documento) e alterar o texto descritivo do TOOL TIP para "Número de identificação da ordem de pagamento no SIAFI(Sistema Integrado de Administração Financeira)"
 
 ![](static/pagamentos.jpg)
 
@@ -204,9 +204,12 @@ Alterar a descrição do TOOL TIP da coluna "valor Repassado pelo Concedente/Ór
 
 ![](static/valorrepassadoconvenios.jpg)
 
-* __Valor Repassado pelo Concedente/Órgão ou Entidade Estadual Parceiro: Valor financeiro__: Valor repassado pelo concedente/órgão ou entidade estadual parceiro ao convenente / Organização da Sociedade Civil (OSC) parceria, referente ao(s) convênios(s)/ parceria(s) firmado(s) entre as partes por meio de pagamento via SIAFI. Abrange o valor do concedente / órgão ou entidade estadual parceiro, das emendas parlamentares e outras fontes. O efetivo pagamento pode estar pendente de assinatura do ordenador de despesa e/ou sujeito a compensação bancária.
+* __Valor Repassado pelo Concedente/Órgão ou Entidade Estadual Parceiro: Valor financeiro__: Valor repassado pelo concedente/órgão ou entidade estadual parceiro ao convenente / Organização da Sociedade Civil (OSC) parceria, referente ao(s) convênios(s)/ parceria(s) firmado(s) entre as partes por meio de pagamento via SIAFI. Abrange o valor do concedente / órgão ou entidade estadual parceiro, das emendas parlamentares e outras fontes. O efetivo pagamento pode estar sujeito a compensação bancária.
 
 ![](static/valorrepassadoalter.jpg)
+
+
+### Formulário de Detalhamento do Convênio
 
 Para obter o real valor repassado deve-se utilizar a fórmula: (Valor Pago Financeiro - Valor Pago pendente =  Valor repassado) conforme campos do armazém BO.
 
@@ -219,25 +222,21 @@ Dados disponíveis no Portal de Transparência atualmente:
 
 ![](static/valor-repassado-portal.png)
 
-O Portal apresenta como repassado o valor total de R$ 35.000,00 no entanto, conforme consta no SIAFI transacional o valor encontra-se "pendente para o banco- aguardando assinatura digital". Com as novas regras o Portal deve apresentar o valor efetivamente repassado.
+O Portal apresenta como repassado o valor total de R$ 35.000,00 no entanto, conforme consta no SIAFI transacional o valor encontra-se "pendente para o banco- aguardando assinatura digital". Com as novas regras o Portal deve apresentar o valor efetivamente repassado Valor Pago Financeiro - Valor Pago pendente).
 
 ![](static/convenio-op-1547-.png)
 
 __Nome da Consulta Armazém (BO):__ valor_repassado_conv_saida
 
+Na extração dos dados do armazém para a divulgação do Valor Repassado pelo Concedente/Órgão ou Entidade Estadual Parceiro, será considerado para divulgação dos valores repassados o Valor Pago Financeiro menos o Valor Pago Pendente, nas segintes condições:
 
-**IMPORTANTE:**
-1. Essas alterações aplicam-se a toda base de dados da consulta de Restos a Pagar do Portal da Transparência.
-
-Na extração dos dados do armazém para a divulgação do Valor Repassado pelo Concedente/Órgão ou Entidade Estadual Parceiro, será considerado para divulgação de valores repassados o Valor Pago Financeiro menos o Valor Pago Pendente.
-
-Também deverá ser considerada apenas os pagamentos com o preenchimento da variável data de pagamento em uma das seguintes "Situações Ordem Pagamento - Descrição" (somente a situações Ordem Pagamento, código 3):
+1. Serão considerados apenas os pagamentos com o preenchimento da variável data de pagamento em uma das seguintes  "Situações Ordem Pagamento - Descrição" (somente a situações Ordem Pagamento, código 3):
 
   - Paga
   - Acatada pelo banco
-  - Sujeita a compensação bancária
-
-Importante ressaltar que serão consideradas os pagamentos cuja variável data de pagamento apresente valores em branco ou informações inválidas. Essa informação no Portal deve permanecer zerada até que a data de pagamento apresente uma data válida.
+  - Sujeito a compensação bancária
+  
+2. Somente serão considerados os pagamentos cuja variável data de pagamento apresente uma data válida. Datas em branco ou datas inválidas não serão mostrados no Portal. Essa informação no Portal deve permanecer zerada até que a data de pagamento apresente uma data válida.
 
 **IMPORTANTE:**
 1. Essas alterações aplicam-se a toda base de dados da consulta de Convênios/Parcerias de Saída de Recursos do Portal da Transparência.
