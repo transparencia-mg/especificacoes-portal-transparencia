@@ -70,7 +70,7 @@ Após a seleção de um servidor utilizando qualquer um dos filtros da barra pes
 
 ![](static/situacaofuncional.jpg)
 
-![](static/historicoremuneracao)
+![](static/historicoremuneracao.jpg)
 
 No caso da tabela histórico da Remuneração, cada linha da tabela será representado pelo mês e as colunas serão divididas em:
 - mês/ano
@@ -121,7 +121,7 @@ __2. Tabela histórico da remuneração:__
 
    * Os dados apresentados na tabela _[histórico da remuneração]_ devem refletir o primeiro mês da série histórica disponível até o mês/ano selecionado no início da pesquisa.  
 
-    ___Exemplo:___ O servidor Luiz possui dados disponíveis de Mai/2015 a Out/2019. Caso o usuário selecione na barra de pesquisa inicial, os dados de Out/2017, o Portal exibirá dos dados de Mai/2015 a Out/2017.
+   ___Exemplo:___ O servidor Luiz possui dados disponíveis de Mai/2015 a Out/2019. Caso o usuário selecione na barra de pesquisa inicial, os dados de Out/2017, o Portal exibirá dos dados de Mai/2015 a Out/2017.
 
 __3. Tabela multi-modal:__
 
