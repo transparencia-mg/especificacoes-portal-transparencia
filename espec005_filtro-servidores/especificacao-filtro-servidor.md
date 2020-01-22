@@ -27,6 +27,10 @@ Só se conhece a situação funcional do servidor (ativo ou inativo), quando se 
 
 Assim, ao criar o filtro *Situação do Servidor*, será possível visualizar a quantidade de servidores ativos, inativos, pensionsitas e outros.
 
+Na opção de Consulta: deverá ser excluída a opção Cargo Comissionado, e substituída por:
+- Comissionado com vínculo efetivo;
+- Comissioando sem vínculo efetivo.
+
 # Especificação
 
 ## Barra de pesquisa
@@ -35,7 +39,8 @@ Assim, ao criar o filtro *Situação do Servidor*, será possível visualizar a 
 
 Para contemplar a possibilidade da seleção de novos períodos a barra de pesquisa da página inicial deve ser:
 
-![](static/barra-pesquisa.png)
+![](static/barradepesquisa.jpg)
+
 
 ### Observações gerais
 
@@ -53,6 +58,9 @@ Para contemplar a possibilidade da seleção de novos períodos a barra de pesqu
 
 
 # Exemplos / Pesquisa
+* Governo de Santa Catarina, utiliza a opção de consulta de cargos comissionados com vínculo e sem vínculo:
+ [Portal Santa Catarina](http://www.transparencia.sc.gov.br/remuneracao-servidores)
+ ![](santacatarina.jpg)
 
 * Governo do [Distrito Federal](http://www.transparencia.df.gov.br/#/servidores/remuneracao)
 
