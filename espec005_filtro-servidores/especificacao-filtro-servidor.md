@@ -60,7 +60,7 @@ Para contemplar a possibilidade da seleção de novos períodos a barra de pesqu
 # Exemplos / Pesquisa
 * Governo de Santa Catarina, utiliza a opção de consulta de cargos comissionados com vínculo e sem vínculo:
  [Portal Santa Catarina](http://www.transparencia.sc.gov.br/remuneracao-servidores)
- ![](santacatarina.jpg)
+ ![](static/santacatarina.jpg)
 
 * Governo do [Distrito Federal](http://www.transparencia.df.gov.br/#/servidores/remuneracao)
 
