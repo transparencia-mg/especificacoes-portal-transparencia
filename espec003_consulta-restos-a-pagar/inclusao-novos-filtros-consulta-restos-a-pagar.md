@@ -1,6 +1,6 @@
 ---
 contrato_manutencao: nº 15210010062019 (INF. 3951)
-proposta_comercial: nº
+proposta_comercial: nº nº 626584/19
 pull_request: '[espec003](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/3)'
 titulo: Adiciona modos consulta restos a pagar
 output:
