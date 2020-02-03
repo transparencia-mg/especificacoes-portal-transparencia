@@ -1,7 +1,7 @@
 ---
 contrato_manutencao: nº 15210010062019 (INF. 3951)
 proposta_comercial: nº 626584/19
-titulo: [Homologação da documentação da especificação -> anonimização dos CPFs]
+titulo: '[Homologação da documentação da especificação -> anonimização dos CPFs](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec001_anonimizacao-cpf/anonimizacao-cpf-homologa-espec.html)'
 output:
   html_document:
     theme: united
