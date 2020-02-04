@@ -1,13 +1,10 @@
 # Visão geral da Demanda
 
-Essa demanda visa divulgar no Portal da Transparência as remunerações dos servidores públicos do Poder Executivo de todos os exercícios.
+Essa demanda visa divulgar alterar a [consulta de remuneração](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores) para:
 
-Sugere-se a alteração do formato de divulgação do histórico da remuneração, com inversão de linhas e colunas, de tal forma que seja possível a visualização de maior quantidade de meses.
-
-Além disso, também deve ser realizada a adequação do layout (entre planilha, banco de dados e interface) da consulta de remuneração no Portal da Transparência.
-
-Por fim, deve ser incluído funcionalidade de exportação para .pdf e .csv conforme formato definido nesta especificação.
-
+* divulgar o histórico da remuneração de múltiplos anos na mesma tela;
+* adequar o leiaute da interface aos campos da planilha de remuneração;
+* utilizar elementos visuais para facilitar o entendimento da composição da remuneração.
 
 # Motivação / contexto da demanda
 
