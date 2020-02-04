@@ -33,71 +33,36 @@ A revisão em 2015 visou dar mais transparência com relação à vida funcional
 ## Leiaute - Tabelas navegação por filtros
 <a href="#top">(inicio)</a>
 
-### Inclusão de colunas na consulta *Nome do Servidor*
+Nas tabelas de resultado dos filtros
 
-Após a busca de um determinado termo, pelo filtro Nome do Servidor, o Portal exibirá além do nome, órgão e MASP, que atualmente já existem na consulta de Remunaração, as informações sobre o cargo, remuneração bruta e remuneração líquida, e o somatório dessas remunerações. 
+* [Nome do Servidor](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/Robson%20Goncalves/0/0/0/0/0/0)
+* [Cargo Efetivo](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/0/0/3401/E/0/0/1)
+* [Cargo em Comissão](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/0/0/4007/C/0/0/2)
+* [Órgão](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/0/1066/0/0/0/0/3)
 
-Por ex: Ao utilizar a consulta *Nome do Servidor*, digitar o nome Robson Goncalves e clicar em pesquisar, o portal deverá exibir as seguintes situações:
+bem como no [quarto nível](http://transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/201911/4/1094/4028/C) da navegação default por [salários mínimos](http://transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/201911/3) os campos na tabela de resultado devem ser 
 
-![](static/nomedoservidor.png)
+* Servidor
+* Masp
+* Cargo
+* Órgão Exercício
+* Remuneração Bruta
+* Remuneração Líquida
 
+Exemplo:
 
-### Inclusão de colunas na consulta *Cargo Efetivo*
+![](static/leiaute_tabelas_navegacao_filtros.png)
 
-Após a seleção de um dos cargos da lista de cargos efetivos, o Portal exibirá além do nome, órgão e MASP, que atualmente já existem na consulta de Remunaração, as informações sobre o cargo, remuneração bruta e remuneração líquida, e o somatório dessas remunerações. 
+Atualmente somente são exibidos os campos Servidor, Masp e Órgão Exercício.
 
-Por ex: Ao utilizar a consulta *Cargo Efetivo*, e selecionar o filtro Analista de Gestão Artística, o portal deverá exibir as seguintes situações:
-
-![](static/cargoefetivo.jpg)
-
-
-### Inclusão de colunas na consulta "Cargo em Comissão"
-
-Após a busca de um dos cargos da lista de cargos em comissão, o Portal exibirá além do nome, órgão e MASP, que atualmente já existem na consulta de Remunaração, as informações sobre o cargo, remuneração bruta e remuneração líquida, e o somatório dessas remunerações. 
-
-Por ex: Ao utilizar a consulta *Cargo em Comissão*, e selecionar o filtro Dai33, o portal deverá exibir as seguintes situações:
-
-![](static/cargocomissao.jpg)
-
-### Inclusão de colunas na consulta "Órgão"
-
-Após a busca de um dos órgãos da lista de consulta "Órgãos", o Portal exibirá além do nome, órgão e MASP, que atualmente já existem na consulta de Remunaração, as informações sobre o cargo, remuneração bruta e remuneração líquida, e o somatório dessas remunerações. 
-
-Por ex: Ao utilizar a consulta *Órgão*, e selecionar o filtro Feam Fundacao do Meio Ambiente, o portal todos os servidores da FEAM com as seguintes colunas:
-
-![](static/orgao.jpg)
-
-### Inclusão de colunas na consulta [Salários Mínimos](http://transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/201911/3)
-
-Ao navegar pela página inicial da consulta por salários mínimos, no [quarto nível](http://transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/201911/4/1094/4028/C) na qual mostra o nome do servidor e o MASP, o Portal deverá exibir, as colunas órgão, cargo, remuneração bruta e remuneração líquida, e o somatório dessas remunerações. 
-
-Consulta que será exibida:
-![](static/consulta_salarios_nova.jpg)
-
-Consulta que é exibida atualmente:
-![](static/consulta_salarios_atual.jpg)
-
-
-## Leiaute - Formulário situação funcional e histórico da remuneração
+## Leiaute - Formulários detalhamento situação funcional e histórico da remuneração
 <a href="#top">(inicio)</a>
 
 Após a seleção de um servidor utilizando qualquer um dos filtros da barra pesquisa, o Portal exibe o formulário da situação funcional e o histórico da Remuneração, conforme apresentado abaixo:
 
-![](static/situacaofuncional.jpg)
+![](static/situacao_funcional.jpg)
 
-![](static/historicoremuneracao.jpg)
-
-No caso da tabela histórico da Remuneração, cada linha da tabela será representado pelo mês e as colunas serão divididas em:
-- mês/ano
-- Vantagens
-- 13º Salário/Férias
-- Indenizações
-- Atrasados
-- Outros Valores
-- Remuneração Bruta
-- Deduções
-- Remuneração Líquida
-- Jetons Empresas
+![](static/historico_recebimentos.jpg)
 
 A tabela histórico remuneração deve permitir que o usuário clique no mês/ano para detalhar as informações referente aqueles mês. A informação mês/ano virá em vermelho. 
 
@@ -105,7 +70,7 @@ Quando o usuário clicar em um desses campos o Portal exibe outra tabela detalha
 
 ![](static/4.multi-modal-exemplo.png)
 
-* Ao clicar no coluna mês/ano, linha Out/2019 o portal exibirá o detalhamento do mês de Novembro, com cabeçalho detalhando nome do servidor e mês da pesquisa:
+* Ao clicar no coluna mês/ano, linha Out/2019 o portal exibirá o detalhamento do mês de outubro, com cabeçalho detalhando nome do servidor e mês da pesquisa:
 
 ![](static/tabelamesano.jpg)
 
