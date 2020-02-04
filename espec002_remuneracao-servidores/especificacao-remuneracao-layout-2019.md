@@ -1,12 +1,23 @@
+---
+title: Consulta Remuneração - Interface
+output:
+  html_document:
+    theme: united
+    toc: yes
+---
+
 # Visão geral da Demanda
+<a href="#top">(inicio)</a>
 
 Essa demanda visa divulgar alterar a [consulta de remuneração](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores) para:
 
 * divulgar o histórico da remuneração de múltiplos anos na mesma tela;
 * adequar o leiaute da interface aos campos da planilha de remuneração;
-* utilizar elementos visuais para facilitar o entendimento da composição da remuneração.
+* utilizar elementos visuais para facilitar o entendimento da composição da remuneração;
+* acrescentar informações da remuneração bruta/líquida nas tabelas de resultados da navegação por filtros.
 
 # Motivação / contexto da demanda
+<a href="#top">(inicio)</a>
 
 O formato atual de divulgação da consulta de Remuneração no Portal da Transparência apresenta apenas o histórico da remuneração referentes ao ano corrente, o que tem sido objeto de dúvidas no Fale Conosco e no telefone 155, sobre a localização do histórico da remuneração dos anos anteriores.
 
@@ -16,13 +27,16 @@ Em relação a interface de divulgação, a especificação da consulta de remun
 
 A revisão em 2015 visou dar mais transparência com relação à vida funcional dos servidores e à composição dos proventos. A interface web da consulta de remuneração foi alterada com a inserção dos novos campos, mas não foi feita as demais adequações para viabilizar a divulgação. Desde então existem campos disponibilizados na interface web da consulta que não possuem dados preenchidos.
 
-## _Planilha de remuneração - novo layout
+# Especificação
+<a href="#top">(inicio)</a>
+
+## Leiaute - Tabelas navegação por filtros
 
 ### Inclusão de colunas na consulta *Nome do Servidor*
 
 Após a busca de um determinado termo, pelo filtro Nome do Servidor, o Portal exibirá além do nome, órgão e MASP, que atualmente já existem na consulta de Remunaração, as informações sobre o cargo, remuneração bruta e remuneração líquida, e o somatório dessas remunerações. 
 
-Por ex: Ao utilizar a consulta *Nome do Servidor", digitar o nome Robson Goncalves e clicar em pesquisar, o portal deverá exibir as seguintes situações:
+Por ex: Ao utilizar a consulta *Nome do Servidor*, digitar o nome Robson Goncalves e clicar em pesquisar, o portal deverá exibir as seguintes situações:
 
 ![](static/nomedoservidor.png)
 
@@ -63,7 +77,7 @@ Consulta que é exibida atualmente:
 ![](static/consulta_salarios_atual.jpg)
 
 
-## Formulário situação funcional e histórico da Remuneração
+## Leiaute - Formulário situação funcional e histórico da remuneração
 
 Após a seleção de um servidor utilizando qualquer um dos filtros da barra pesquisa, o Portal exibe o formulário da situação funcional e o histórico da Remuneração, conforme apresentado abaixo:
 
