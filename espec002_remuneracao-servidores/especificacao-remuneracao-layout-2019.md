@@ -31,6 +31,7 @@ A revisão em 2015 visou dar mais transparência com relação à vida funcional
 <a href="#top">(inicio)</a>
 
 ## Leiaute - Tabelas navegação por filtros
+<a href="#top">(inicio)</a>
 
 ### Inclusão de colunas na consulta *Nome do Servidor*
 
@@ -78,6 +79,7 @@ Consulta que é exibida atualmente:
 
 
 ## Leiaute - Formulário situação funcional e histórico da remuneração
+<a href="#top">(inicio)</a>
 
 Após a seleção de um servidor utilizando qualquer um dos filtros da barra pesquisa, o Portal exibe o formulário da situação funcional e o histórico da Remuneração, conforme apresentado abaixo:
 
