@@ -60,9 +60,9 @@ Atualmente somente são exibidos os campos Servidor, Masp e Órgão Exercício.
 
 Após a seleção de um servidor utilizando qualquer um dos filtros da barra pesquisa, o Portal exibe o formulário da situação funcional e o histórico da Remuneração, conforme apresentado abaixo:
 
-![](static/situacao_funcional.jpg)
+![](static/situacao_funcional.png)
 
-![](static/historico_recebimentos.jpg)
+![](static/historico_recebimentos.png)
 
 A tabela histórico remuneração deve permitir que o usuário clique no mês/ano para detalhar as informações referente aqueles mês. A informação mês/ano virá em vermelho. 
 
