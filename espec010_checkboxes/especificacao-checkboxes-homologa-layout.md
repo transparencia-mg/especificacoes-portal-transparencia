@@ -1,7 +1,7 @@
 ---
 contrato_manutencao: nº 15210010062019 (INF. 3951)
 proposta_comercial: nº 626584/19
-pull_request: '[espec010](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/10)'
+ambiente de homologação: http://homologa3.prodemge.gov.br/age7/
 titulo: Marcar e desmarcar todos os checkboxes nas pesquisas avançadas
 output:
   html_document:
@@ -19,49 +19,70 @@ Atualmente, a pesquisa avançada das consultas do Portal da Transparência possu
 
 Para facilitar a navegação do usuário, sugere-se a inclusão do item “___Exibir Todos___” no início da consulta, possibilitando ao usuário selecionar com apenas um clique todos os itens da consulta.
 
-# Especificação
+# Homologação do layout da funcionalidade
 
-__1. Consultas que sofrerão alterações__
+<div class="alert alert-info">
 
-A opção “___Exibir todos___” deverá ser incluída em todas as consultas que possuem “Pesquisa Avançada”:
+A Diretoria Central de Transparência Ativa (DTA) não enviou a especificação da funcionalidade checkboxes, dessa forma a PRODEMGE propôs um modelo de funcionalidade que foi aprovado pela equipe gestora do Portal.
+  </div>
 
-- [Despesa](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-pesquisa-avancada);
-- Restos a Pagar (incluir essa funcionalidade na reformulação que será implementada) ;
-- [Viagens](http://www.transparencia.mg.gov.br/estado-pessoal/viagens/estado_viagens-pesquisa-avancada);
-- [Receita](http://www.transparencia.mg.gov.br/estado-receita/receita-pesquisa-avancada);
-- [Proposta orçamentária](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada);
-- [Alteração orçamentária](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/alteracao-orcamentaria/altorcam-pesquisa-avancada);
-- [Obras orçadas](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/obras-orcadas/obras-pesquisa-avancada);
-- [Crédito orçamentário](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/credito-orcamentario/credorcam-pesquisa-avancada);
-- [Programação e Execução PPAG por Programa](http://www.transparencia.mg.gov.br/planejamento-e-resultados/planejamento-e-monitoramento/programacao-execucao-ppag-programa?task=estado_ppagprograma.consultaLivre);
-- [Convênios/Parcerias de Saída de Recursos](http://www.transparencia.mg.gov.br/convenios/convenios-de-saida/convenios-pesquisa-avancada);
-- [Convênios de Entrada de Recursos](http://www.transparencia.mg.gov.br/convenios/convenio-entrada/convenios-entrada-pesquisa-avancada);
-- [Compras e Contratos](http://www.transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos/comprasecontratos-pesquisa-avancada);
-- [Gestão de Frota](http://www.transparencia.mg.gov.br/compras-e-patrimonio/gestao-de-frota/frota-pesquisa-avancada);
-- [Patrimônio](http://www.transparencia.mg.gov.br/compras-e-patrimonio/patrimonio/patrimonio-pesquisa-avancada).
+<div class="alert alert-info">
+
+As divergências estão destacadas em   <div class="alert alert-danger">vermelho  </div>
+  </div>
+
+  <div class="alert alert-danger">
 
 
-**2. Layout da inclusão da opção "*Exibir Todos/Não Exibir Todos*" nas pesquisas avançadas**
+__Diárias__
 
-* Deverá ser incluído a caixa de seleção _"Exibir todos”_ e _"Não Exibir Todos"_ ;
-* A caixa de seleção deverá ser localizada antes da seleção das opções da consulta avançada;
-
-![](static/exibir_todos.jpg)
+  Não está funcionado. Ao clicar no ícone Diáriaso Portal retorna para a página inicial
+        </div>
 
 
-# Dúvidas
+<div class="alert alert-success">
 
-1.	Boa Prática
-Muitos portais utilizam a opção na pesquisa de exibir todos ou selecionar todos, sem a necessidade de ficar marcando a caixa de seleção “Exibir”. Dessa forma a seleção só é alterada, caso o usuário tenha interesse em exibir apenas um item específico.
+  1. Despesa
+  ![](static/layout-despesa.png)
+--
 
-- Estados que utilizam a opção exibir todas:
+2. Restos a pagar
 
-[CEARÁ](https://cearatransparente.ce.gov.br/portal-da-transparencia/despesas/despesas-do-poder-executivo?locale=pt-BR&__=__)
+  ![](static/layout-restos-a-pagar.png)
 
-![](static/ceara.jpg)
+3. Viagens
 
-[Distrito Federal](http://www.transparencia.df.gov.br/#/despesas/credor)
+![](static/layout-viagens.png)
 
-![](static/distrito_federal.jpg)
+4. Receita
 
-2. Podemos deixar como padrão a opção "Exibir todos" sem ativado. Assim caso algum usu
+![](static/layout-receita.png)
+
+5. Proposta Orçamentária
+![](static/layout-proposta-orcamentaria.png)
+
+6. Crédito Orçamentário
+![](static/layout-credito.png)
+
+7. Alteração Orçamentária
+![](static/layout-alteracao.png)
+
+8. Alteração Orçamentária
+![](static/layout-obras.png)
+
+9. Convênio de Saída
+![](static/layout-convenio-saida.png)
+
+10. Convênio Entrada
+![](static/layout-convenio-entrada.png)
+
+11. Compras e Contratos
+![](static/layout-compras.png)
+
+12. Patrimônio
+![](static/layout-patrimonio.png)
+
+13. Frota
+![](static/layout-frota.png)
+
+  </div>
