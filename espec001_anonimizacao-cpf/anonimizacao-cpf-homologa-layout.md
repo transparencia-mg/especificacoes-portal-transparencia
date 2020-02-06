@@ -2,7 +2,7 @@
 contrato_manutencao: nº 15210010062019 (INF. 3951)
 proposta_comercial: nº 626584/19
 ambiente de homologação: 'http://homologa3.prodemge.gov.br/age7/'
-titulo: Homologação do layout da anonimização dos CPFs
+titulo: Homologação do layout da anonimização dos CPFs (http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec001_anonimizacao-cpf/anonimizacao-cpf-homologa-layout.html)
 output:
   html_document:
     theme: united
