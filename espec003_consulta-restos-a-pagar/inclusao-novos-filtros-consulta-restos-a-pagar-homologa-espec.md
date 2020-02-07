@@ -12,7 +12,7 @@ output:
 
 <div class="alert alert-info">
 
-As divergências estão destacadas em ___VERMELHO___.
+Toda as divergências foram corrigidas
 </div>
 
 
@@ -28,15 +28,15 @@ __Tipos de consulta OK__
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-1. Ao selecionar o tipo de consulta [ÓRGÃO] o campo a ser exibido deve ser [FILTRO], conforme padrão já utilizado nas demais consultas`
+1. Ao selecionar o tipo de consulta [ÓRGÃO] o campo a ser exibido deve ser [FILTRO], conforme padrão já utilizado nas demais consultas __CORRIGIDO__
 
-![](static/d.barra-navegacao.png)
+![](static/d.barra-navegacao-corrigido.png)
 
-2. A página inicial da Consulta de restos a pagar será por consulta por [ÓRGÃO]" e não por [FAVORECIDO] como consta no IU007`
+2. A página inicial da Consulta de restos a pagar será por consulta por [ÓRGÃO]" e não por [FAVORECIDO] como consta no IU007 __CORRIGIDO__
 
-![](static/b.IU007-pagina-incial.png)
+![](static/b.IU007-pagina-incial-corrigido.png)
 
 </div>
 
@@ -67,15 +67,14 @@ Somente os campos marcados como _hyperlink_ permitem a navegação nas tabelas. 
 * Valor Pago no Ano,
 * Valor a pagar
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-1. O favorecido com o termo __"Informação com restrição de acesso"__ deve ser navegável`
+1. O favorecido com o termo __"Informação com restrição de acesso"__ deve ser navegável - __CORRIGIDO__
 
-![](static/e.nome-favorecido-navegacao.png)
+![](static/e.nome-favorecido-navegacao-corrigido.png)
 
-2. O campo filtrar dever permitir que o usuário realize a pesquisa por qualquer dado que consta na tabela e não apenas pelo nome do favorecido.
 
-![](static/f.campo-filtrar.png)
+2. O campo filtrar dever permitir que o usuário realize a pesquisa por qualquer dado que consta na tabela e não apenas pelo nome do favorecido. - __CORRIGIDO__
 
  </div>
 
@@ -84,11 +83,11 @@ Ao clicar no campo _[Número do empenho]_ no 5º nível, o Portal exibirá o [fo
 ![](static/formulario-detalhamento.png)
 
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 __O título do formulário é "Empenho da Despesa"`__
 
-![](static/g.formulario-detalhamento.png)
+![](static/g.formulario-detalhamento-corrigido.png)
 </div>
 
 ### Observações
@@ -137,11 +136,11 @@ Favorecidos
 
    </div>
 
-   <div class="alert alert-danger">
+   <div class="alert alert-success">
 
 Os dados do resultado da consulta estão incorretos
 
-![](static/h.resultado-restos-a-pagar.png)
+![](static/h.resultado-restos-a-pagar-corrigido.png)
    </div>
 
 ### Observações
