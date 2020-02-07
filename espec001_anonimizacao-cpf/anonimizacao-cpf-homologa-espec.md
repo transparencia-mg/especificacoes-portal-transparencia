@@ -73,11 +73,11 @@ __Dados OK__
 
 ![](static/liquidacao_pagamento.png)
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-__Falta a descrição do favorecido__
+Falta a descrição do favorecido - __CORRIGIDO__
 
-![](static/formulario-detalhamento-liquidacao.png)
+![](static/formulario-detalhamento-liquidacao-corrigido.png)
   </div>
 #### Pesquisa Avançada
 
