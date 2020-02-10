@@ -1,4 +1,7 @@
 ---
+contrato_manutencao: nº 15210010062019 (INF. 3951)
+proposta_comercial: nº 626584/19
+pull_request:
 title: Consulta Remuneração - Interface
 output:
   html_document:
@@ -9,7 +12,7 @@ output:
 # Visão geral da Demanda
 <a href="#top">(inicio)</a>
 
-Essa demanda visa divulgar alterar a [consulta de remuneração](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores) para:
+Essa demanda visa alterar a [consulta de remuneração](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores) para:
 
 * divulgar o histórico da remuneração de múltiplos anos na mesma tela;
 * adequar o leiaute da interface aos campos da planilha de remuneração;
@@ -23,9 +26,9 @@ O formato atual de divulgação da consulta de Remuneração no Portal da Transp
 
 A prática adotada pelo Portal da Transparência é a transferência dos dados ao final do ano corrente para a base de dados do Portal de Dados Abertos, e a consequente exclusão desse dados na consulta de Remuneração.
 
-Em relação a interface de divulgação, a especificação da consulta de remuneração foi elaborada em 2012 quando da publicação do decreto 45.969/12 que obriga a publicação da remuneração e revista em 2015, quando da atualização e reformulação do Portal da Transparência.
+Em relação a interface de divulgação, a especificação da consulta de remuneração foi elaborada em 2012 quando da publicação do Decreto n 45.969/12 que obriga a publicação da remuneração e revista em 2015, quando da atualização e reformulação do Portal da Transparência.
 
-A revisão em 2015 visou dar mais transparência com relação à vida funcional dos servidores e à composição dos proventos. A interface web da consulta de remuneração foi alterada com a inserção dos novos campos, mas não foi feita as demais adequações para viabilizar a divulgação. Desde então existem campos disponibilizados na interface web da consulta que não possuem dados preenchidos.
+A revisão em 2015 visou ofertar mais transparência com relação à vida funcional dos servidores e à composição dos proventos. A interface web da consulta de remuneração foi alterada com a inserção dos novos campos, mas não foi feita as demais adequações para viabilizar a divulgação. Desde então existem campos disponibilizados na interface web da consulta que não possuem dados preenchidos.
 
 # Especificação
 <a href="#top">(inicio)</a>
@@ -33,14 +36,14 @@ A revisão em 2015 visou dar mais transparência com relação à vida funcional
 ## Leiaute - Tabelas navegação por filtros
 <a href="#top">(inicio)</a>
 
-Nas tabelas de resultado dos filtros
+Incluir os campos ___cargo, remuneração bruta e remuneração líquida___ nas tabelas de resultado dos filtros
 
 * [Nome do Servidor](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/Robson%20Goncalves/0/0/0/0/0/0)
 * [Cargo Efetivo](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/0/0/3401/E/0/0/1)
 * [Cargo em Comissão](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/0/0/4007/C/0/0/2)
 * [Órgão](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/0/1066/0/0/0/0/3)
 
-bem como no [quarto nível](http://transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/201911/4/1094/4028/C) da navegação default por [salários mínimos](http://transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/201911/3) os campos na tabela de resultado devem ser 
+bem como no [quarto nível](http://transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/201911/4/1094/4028/C) da navegação default por [salários mínimos](http://transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/201911/3) os campos na tabela de resultado devem ser
 
 * Servidor
 * Masp
@@ -53,7 +56,6 @@ Exemplo:
 
 ![](static/leiaute_tabelas_navegacao_filtros.png)
 
-Atualmente somente são exibidos os campos Servidor, Masp e Órgão Exercício.
 
 ## Leiaute - Formulários detalhamento situação funcional e histórico da remuneração
 <a href="#top">(inicio)</a>
@@ -64,7 +66,7 @@ Após a seleção de um servidor utilizando qualquer um dos filtros da barra pes
 
 ![](static/historico_recebimentos.png)
 
-A tabela histórico remuneração deve permitir que o usuário clique no mês/ano para detalhar as informações referente aqueles mês. A informação mês/ano virá em vermelho. 
+A tabela histórico remuneração deve permitir que o usuário clique no mês/ano para detalhar as informações referente aqueles mês. A informação mês/ano virá em vermelho.
 
 Quando o usuário clicar em um desses campos o Portal exibe outra tabela detalhando os valores do mês selecionado. O formato de exibição dessa nova tabela será do tipo [multi-modal](https://uxdesign.cc/design-better-data-tables-4ecc99d23356).
 
@@ -108,14 +110,11 @@ __3. Tabela multi-modal:__
   * A tabela de vizualização multi-modal deve apresentar a opção de fechar (x);
   * O usuário poderá mover a tabela multi-modal para qualquer parte da tela.
 
-  * ___Observação___: Considerando que do período de 2012 a 2019 não existe detalhamento dos dados da Remuneração e Deduções, o Portal não terá a opção do usuário exibir a tabela multi-modal nesse período.
-
-
 __4. Exportar CSV:__
 
   * A opção exportar dados deve gerar a planilha completa em forma de tabela com todos os dados das tabelas _[situação funcional]_ e _[histórico da remuneração]_.
 
-  * Os dados de cada linha da planilha deve refletir a situação funcional e remuneração referente ao período (mês/ano). Ver: Modelo da Planilha CSV: [remuneracao-layout-](AGUARDANDO A TABELA DA PRODEMGE)
+  * Os dados de cada linha da planilha deve refletir a situação funcional e remuneração referente ao período (mês/ano). Ver: Modelo da Planilha CSV: [Exportar CSV](csv-usuario.csv)   ![](static/csv-usuario.png)
 
       ___Exemplo 1___: A linha "Ago/2015" deve exibir a situação funcional e remuneração do servidor referente a agosto de 2015; A linha "Jan/2019" deve exibir a situação funcional e remuneração do servidor referente a janeiro/2019 e assim sucessivamente.
 
@@ -131,14 +130,14 @@ __5. Exportar PDF e imprimir:__
 
 
 ## Glossário Interativo: TOOL TIP
+<a href="#top">(inicio)</a>
 
-1. Mês/ano: Mês e ano de referência da remuneração
-2. Vantagens: É composta pela soma das parcelas remuneratórias recebidas pelo servidor em razão do cargo, função ou emprego público, o que inclui adicionais, gratificações e vantagens pessoais.
-3. 13º Salário e Férias: Valores próprios desses direitos.
-4. Indenizações: Valores pagos a título de auxílio alimentação, auxílio transporte, ajuda de custose parcelas indenizatórias que não caracterizam como despesas de pessoal.
-5. Atrasados: Valores pagos posteriormente ao fato gerador
-6. Outros Valores: Valores pagos em condições excepcionais e transitórias, tais como: Indenizações, Decisões Judiciais e outros valores de natureza eventual.
-7. Remuneração Bruta: Todos os valores devidos ao servidor no mês
-8. Deduções: Valor referentes aos descontos obrigatórios e pagamentos indevidos, incluído os descontos que excedam o limite constituicional da remuneração. Não estão incluídos os descontos de caráter pessoal, tais como consignados, previdência complementar e pensão alimentícia. 
-9. Remuneração Líquida: Valor da remuneração do servidor deduzidos das deduções realizadas no mês. O valor líquido apresentado pode ser superior ao efetivamente recebido, em face de não estarem inseridos os descontos de caráter pessoal.
-10. Jetons empresas: É a remuneração percebida por servidores públicos estaduais em razão da participação como representantes do Estado em Conselhos de Administração e Fiscal ou órgãos equivalentes de empresas controladas direta ou indiretamente pelo Estado
+1. Mês/ano: Mês e ano de referência da remuneração;
+2. Remuneração Básica: É composta pela soma das parcelas remuneratórias correspondentes ao cargo efetivo, a função ou o cargo comissionado.
+3. Férias: Valores próprios desses direitos.
+4. Gratificação Natalina: Valores próprios desses direitos.
+5. Outros valores: Valores pagos em condições excepcionais e transitórias, tais como: Indenizações, Decisões Judiciais,  e outros valores de natureza eventual.
+6. Total: Soma dos valores da remuneração básica, férias, Gratificação Natalina e Outros Valores.
+7. Descontos: Valor referentes aos descontos obrigatórios e pagamentos indevidos, incluído os descontos que excedam o limite constituicional da remuneração. Não estão incluídos os descontos de caráter pessoal, tais como consignados, previdência complementar e pensão alimentícia.
+8. Remuneração líquida: Remuneração Líquida: Valor da remuneração do servidor deduzidos das deduções realizadas no mês. O valor líquido apresentado pode ser superior ao efetivamente recebido, em face de não estarem inseridos os descontos de caráter pessoal.
+9. Jetons Empresas:É a remuneração percebida por servidores públicos estaduais em razão da participação como representantes do Estado em Conselhos de Administração e Fiscal ou órgãos equivalentes de empresas controladas direta ou indiretamente pelo Estado
