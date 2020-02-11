@@ -17,14 +17,11 @@ Essa demanda visa criar o filtro ___Situação___ na página inicial da consulta
 # Motivação / contexto da demanda
 <a href="#top">(inicio)</a>
 
-A Diretoria Central de Transparência Ativa (DTA) recebe de forma recorrente questionamentos sobre a ausência de filtros para realizar a consulta por outros tipos de vínculos.
+A Diretoria Central de Transparência Ativa (DTA) recebe de forma recorrente questionamentos sobre o local de divulgação, no Portal da Transparência, de servidores inativos. Atualmente essa informação não é divulgada, mas existe previsão de divulgação ainda em 2020. 
 
-O formato atual de divulgação no Portal da Transparência apresenta apenas a lista total dos servidores, não diferenciando os servidores ativos, inativos, pensionistas entre outros.
+Cabe ressaltar que o[Acórdão TCU 2154-2019 Plenário](https://pesquisa.apps.tcu.gov.br/#/redireciona/acordao-completo/%22ACORDAO-COMPLETO-2320372%22) afastou quaisquer eventuais dúvidas sobre a legalidade de divulgação dessas informações, 
 
-A situação funcional do servidor (ativo ou inativo) só é apresentada quando se acessa o detalhamento dos dados funcionais de um determinado servidor [Situação Funcional - Descrição Situação do Servidor](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201911/zema/0/0/0/4139353/2256/0).
-
-
-Assim, ao criar o filtro *Situação do Servidor*, será possível visualizar a quantidade de servidores ativos, inativos, pensionsitas e outros.
+Essa demanda vai possibilitar uma melhor navegação e busca quando estiverem sendo divulgados no Portal servidores ativos, inativos, pensionistas entre outros.
 
 Na opção de Consulta: deverá ser excluída a opção Cargo Comissionado, e substituída por:
 - Comissionado com vínculo efetivo;
