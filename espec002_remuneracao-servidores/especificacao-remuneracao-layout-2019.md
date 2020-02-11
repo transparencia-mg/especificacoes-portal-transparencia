@@ -2,7 +2,7 @@
 contrato_manutencao: nº 15210010062019 (INF. 3951)
 proposta_comercial: nº 626584/19
 pull_request:
-title: Consulta Remuneração - Interface (http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec/layout-remuneracao/espec002_remuneracao-servidores/especificacao-remuneracao-layout-2019.html)
+title: Consulta Remuneração - Interface
 output:
   html_document:
     theme: united
@@ -40,8 +40,7 @@ Incluir os campos ___cargo, remuneração bruta e remuneração líquida___ nas 
 
 * [Nome do Servidor](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/Robson%20Goncalves/0/0/0/0/0/0)
 * [Cargo Efetivo](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/0/0/3401/E/0/0/1)
-* [Cargo em Comissão - sem vínculo efetivo](no filtro conforme especificação Filtro de Servidores)
-* [Cargo em Comissão - com sem vínculo efetivo](no filtro conforme especificação Filtro de Servidores)
+* [Cargo em Comissão](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/0/0/4007/C/0/0/2)
 * [Órgão](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/0/1066/0/0/0/0/3)
 
 bem como no [quarto nível](http://transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/201911/4/1094/4028/C) da navegação default por [salários mínimos](http://transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/201911/3) os campos na tabela de resultado devem ser
