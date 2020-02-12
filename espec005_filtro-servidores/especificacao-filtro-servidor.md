@@ -34,8 +34,4 @@ Na barra de pesquisa deve ser incluída um novo filtro em um campo específico q
 
 * Caso o cidadão não escolha nenhum tipo de filtro no campo ___Situação___ o Portal deverá exibir o resultado considerando todos os tipos de vínculos existentes.
 
-* Nos filtro situação do servidor, órgão, cargo efetivo e cargo em comissão devem possuir funcionalidade de seleção múltipla como na pesquisa avançada da consulta de despesa.
-
-* No filtro o campo órgão deve permitir buscas por sigla sem que essa informação seja exibida.
-
 * O portal deve exibir todos os tipos de situação funcional do servidor que estiverem na planilha de remuneração.
