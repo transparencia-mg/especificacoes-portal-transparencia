@@ -19,13 +19,9 @@ Essa demanda visa criar o filtro ___Situação___ na página inicial da consulta
 
 A Diretoria Central de Transparência Ativa (DTA) recebe de forma recorrente questionamentos sobre o local de divulgação, no Portal da Transparência, de servidores inativos. Atualmente essa informação não é divulgada, mas existe previsão de divulgação ainda em 2020. 
 
-Cabe ressaltar que o[Acórdão TCU 2154-2019 Plenário](https://pesquisa.apps.tcu.gov.br/#/redireciona/acordao-completo/%22ACORDAO-COMPLETO-2320372%22) afastou quaisquer eventuais dúvidas sobre a legalidade de divulgação dessas informações, 
+Cabe ressaltar que o [Acórdão TCU 2154-2019 Plenário](https://pesquisa.apps.tcu.gov.br/#/redireciona/acordao-completo/%22ACORDAO-COMPLETO-2320372%22) afastou quaisquer eventuais dúvidas sobre a legalidade de divulgação dessas informações, 
 
 Essa demanda vai possibilitar uma melhor navegação e busca quando estiverem sendo divulgados no Portal servidores ativos, inativos, pensionistas entre outros.
-
-Na opção de Consulta: deverá ser excluída a opção Cargo Comissionado, e substituída por:
-- Comissionado com vínculo efetivo;
-- Comissioando sem vínculo efetivo.
 
 # Especificação
 
@@ -43,7 +39,7 @@ Considerando a inclusão do campo ___Situação___ e as alterações propostas n
 * Download planilha completa;
 
 
-![](static/barradepesquisa.jpg)
+![](static/barra_pesquisa.png)
 
 
 ### Observações gerais
