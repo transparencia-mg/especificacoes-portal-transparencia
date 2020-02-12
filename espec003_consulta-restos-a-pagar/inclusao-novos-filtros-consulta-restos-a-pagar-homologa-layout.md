@@ -10,9 +10,10 @@ output:
 ---
 
 # Homologação do Layout
-<div class="alert alert-info">
-As divergências estão destacadas em <div class="alert alert-danger">
-  vermelho </div>
+<div class="alert alert-warning">
+
+___Todas as divergências apontadas pela CGE na homologação do dia 05/02/2020 foram corrigidas pela PRODEMGE___  
+
   </div>
 
 ## Página Inicial e Navegação por nível
@@ -26,17 +27,17 @@ __Tipos de Consultas OK__
 ![](static/layout-barra-pagina-inicial.png)
   </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 __1__. Ao selecionar o tipo de consulta [ÓRGÃO] o campo a ser exibido deve ser [FILTRO], conforme padrão já utilizado nas demais consultas
 
-![](static/d.barra-navegacao.png)
+![](static/layout-barra-navegacao-corrigido.png)
 
 ----
 
 __2.__ Falta no ano no título do gráfico de pizza
 
-![](static/layout-nome-grafico-pizza.png)
+![](static/layout-nome-grafico-pizza-corrigido.png)
 </div>
 
 Após uma pesquisa bem sucedida utilizando o filtro favorecido por nome ou CPF/CNPJ devem ser apresentados um gráfico _treemap_ e uma tabela, __ambos navegáveis__, por meio de duplo clique. O primeiro nível de navegação após a realização de uma busca utilizando o filtro favorecido é
@@ -80,17 +81,17 @@ __O campo filtrar permiti pesquisar qualquer dado da tabela - OK__
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 O 5º nível do número do documento não possui gráfico _treemap_
 http://homologa3.prodemge.gov.br/age7/despesa-estado/restos-a-pagar/restospagar-favorecidos/2020/2811340/autentica/0/3/566/25/51/3106/154/560/9804
 
- ![](static/layout-gráfico-5-nivel.png)
+ ![](static/layout-gráfico-5-nivel-corrigido.png)
 
  ---
  Os dados abaixo da tabela não estão sendo carregados
- http://homologa3.prodemge.gov.br/age7/despesa-estado/restos-a-pagar/restospagar-favorecidos/2020/2811340/autentica/0/3/566/25/51/3106/154/560/9804
-![](static/layout-rodapel.png)
+
+![](static/layout-rodapel-corrigido.png)
 </div>
 
 <div class="alert alert-success">
@@ -102,9 +103,9 @@ __Formulário de detalhamento RP OK__
 ![](static/layout-formulario-detalhamento.png)
   </div>
 
-  <div class="alert alert-danger">
+  <div class="alert alert-success">
 
-Ao selecionar um favorecido pelo número do CPF/CNPJ o Portal exibe o favorecido corretamente, no entanto ao tentar avançar para o próximo nível o usuário é direcionado a página inicial.
+Ao selecionar um favorecido pelo número do CPF/CNPJ o Portal exibe o favorecido corretamente, no entanto ao tentar avançar para o próximo nível o usuário é direcionado a página inicial. __CORRIGIDO__
 http://homologa3.prodemge.gov.br/age7/despesa-estado/restos-a-pagar/restospagar-favorecidos/2020/0/0/27520617000194/4
 
   </div>
@@ -121,13 +122,13 @@ http://homologa3.prodemge.gov.br/age7/despesa-estado/restos-a-pagar/restospagar-
 * O título do gráfico _treemap_ em cada nível deve ser o valor da classificação orçamentária selecionada no nível anterior; __CONFERE__
   </div>
 
-  <div class="alert alert-danger">
+  <div class="alert alert-success">
 
 * O campo _[Data]_ exibido no 5º nível deve fazer referência a data de registro inicial do empenho.
 
-__O Portal está apresentando a data de registro em restos a pagar e não a data inicial do documento de empenho__
+O Portal está apresentando a data de registro em restos a pagar e não a data inicial do documento de empenho __CORRIGIDO__
 
-![](static/layout-data.png)
+![](static/layout-data-corrigido.png)
 
   </div>
 
@@ -152,19 +153,22 @@ __Observação enviada pelo Luiz (PRODEMGE)__: A funcionalidade de autocomplete 
 __Observação enviada pelo Luiz (PRODEMGE)__ A obrigatoriedade de preenchimento do campo persiste, para evitar possíveis problemas de desempenho;
   </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 * O filtro favorecido por CPF/CNPJ deve realizar a busca com CPFs/CNPJs formatados ou númericos.
 
-__A pesquisa por CNPJ/CPF quando utilizado o número formatado não retorna nenhum dado.__
+A pesquisa por CNPJ/CPF quando utilizado o número formatado não retorna nenhum dado __CORRIGIDO__
+
 CNPJ pesquisado: 04.602.789/0001-01  - DATEN TECNOLOGIA LTDA
-![](static/layout-busca-cnpj.png)
+![](static/layout-busca-cnpj-corrigido.png)
 
 ---
 
 * No filtro o campo órgão deve permitir buscas por sigla sem que essa informação seja exibida.
 
-__Luiz, conforme sugerido por você a CGE aprova a inclusão da sigla logo apos o nome do órgão na caixa de pesquisa. Porém, favor colocar a sigla em caixa alta__
+Luiz, conforme sugerido por você a CGE aprova a inclusão da sigla logo após o nome do órgão na caixa de pesquisa. Porém, favor colocar a sigla em caixa alta __IMPLEMENTADO__
+
+![](static/layout-sigla-orgao.png)
 
 </div>
 
@@ -211,11 +215,16 @@ __CONFERE__
 
 ### Observações
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 * O campo órgão da pesquisa avançada deve permitir buscas por sigla sem que essa informação seja exibida.
 
-__Se possível aplicar a mesma regra. O campo busca pode exibir o nome e sigla (nessa ordem) sem exibir na tabela.__
+Se possível aplicar a mesma regra. O campo busca pode exibir o nome e sigla (nessa ordem) sem exibir na tabela. __IMPLEMENTADO__
+
+![](static/layout-sigla-orgao-pesquisa-avancada.png)
+
+
  </div>
+
  <div class="alert alert-success">
 *  A Pesquisa Avançada deve possuir um botão de marcar/desmarcar todas as colunas conforme demanda [especificação checkboxes](https://github.com/transparencia-mg/especificacoes-portal-transparencia/tree/feat/especificacao_checkboxes/espec010_checkboxes).
 
