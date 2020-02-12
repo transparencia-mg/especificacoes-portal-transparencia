@@ -25,24 +25,12 @@ Essa demanda vai possibilitar uma melhor navegação e busca quando estiverem se
 
 # Especificação
 
-## Barra de pesquisa
-
-Considerando a inclusão do campo ___Situação___ e as alterações propostas na especificação referente ao layout da remuneração, a barra de pesquisa deverá apresentar a seguinte estrutura:
-
-* Ano: Todo o histórico anual da remuneração;
-
-* Mês: Todos os meses do (Janeiro a Dezembro);
-* ___Situação:___ Ativo, Inativo, Pensionista, Designado ao Serviço Ativo e outros (o Portal deve exibir todos os tipos de vínculo que estiverem na planilha de remuneração);
-* ___Consulta___: Nome do servidor, Cargo efetivo, Comissionado com vínculo efetivo,Comissioando sem vínculo efetivo, órgão;
-* Nome: manter as regras atuais
-* Pesquisar;
-* Download planilha completa;
-
+Na barra de pesquisa deve ser incluída um novo filtro em um campo específico que permita pesquisa pesquisas a partir dos valores da variável `Descrição Situação do Servidor`/`descsitser`. A barra de pesquisa deverá apresentar a seguinte estrutura:
 
 ![](static/barra_pesquisa.png)
 
 
-### Observações gerais
+## Observações
 
 * Caso o cidadão não escolha nenhum tipo de filtro no campo ___Situação___ o Portal deverá exibir o resultado considerando todos os tipos de vínculos existentes.
 
