@@ -77,6 +77,8 @@ ___Exemplo:___ Caso o usuário selecione os filtros `Ano: 2015 Mês: Janeiro` na
 
 Algumas observações:
 
+* Valores zero devem ser apresentados como "-"
+
 * A coluna mês/ano deve ser apresentada no formato mês(3 caracteres)/ano(4 caracteres). ___Exemplo:___ Set/2019
 
 * Os dados da coluna mês/ano devem ser exibidos de forma decrescente (mais recente para o mais antigo)
@@ -119,12 +121,16 @@ ___Exemplo:___ [Multi-Modal](https://uxdesign.cc/design-better-data-tables-4ecc9
 
 Ao clicar no coluna mês/ano, linha Out/2019 o portal exibirá o detalhamento do mês de outubro, com cabeçalho detalhando nome do servidor e mês da pesquisa:
 
-![](static/formulario-detalhamento.jpg)
+![](static/formulario-detalhamento.png)
 
 Algumas observações:
 
-* O formulário de detalhamento deve apresentar a opção de fechar (x);
-* O usuário pode mover o formulário de detalhamento para qualquer parte da tela.
+* O formulário de detalhamento deve apresentar a opção de fechar (x)
+* O usuário pode mover o formulário de detalhamento para qualquer parte da tela
+* Valores zero devem ser apresentados como "-"
+* A seção de detalhamento dos jetons empresas somente deve ocorrer para os casos em que os valores não forem zerados para o mês destacado. __Exemplo:__
+
+![](static/formulario-detalhamento-jetons.png)
 
 ### Exportação de arquivos
 
@@ -139,3 +145,5 @@ Nas tabelas de navegação por filtros as regras de exportação/impressão deve
       ___Exemplo 1___: A linha "Ago/2015" deve exibir a situação funcional e remuneração do servidor referente a agosto de 2015; A linha "Jan/2019" deve exibir a situação funcional e remuneração do servidor referente a janeiro/2019 e assim sucessivamente.
 
 * O leiaute da planilha exportada deve serguir o formato da planilha de remuneração disponibilizada pela CGE com inserção de uma coluna `mes` no formato `YYYY-MM-01`. Vide [arquivo exemplo](static/csv-usuario.csv).
+
+* Os valores zero devem ser exportados como valores númericos `0`
