@@ -58,6 +58,17 @@ Exemplo:
 
 As tabelas devem possuir o comportamento padrão em relação a paginação, filtro, compartilhamento em redes sociais e exportação/impressão.
 
+### Glossário Interativo: TOOL TIP
+
+O glossário interativo das tabelas de navegação devem apresentar os seguintes textos:
+
+1. __Servidor:__
+1. __Masp:__
+1. __Cargo:__
+1. __Órgão Exercício:__
+1. __Remuneração Bruta:__
+1. __Remuneração Líquida:__
+
 ## Leiaute - Formulários detalhamento situação funcional e histórico de recebimentos
 <a href="#top">(inicio)</a>
 
@@ -100,14 +111,14 @@ Algumas observações:
 O glossário interativo do histórico de recebimentos deve apresentar os seguintes textos:
 
 1. __Mês/ano:__ Mês e ano de referência da remuneração;
-2. __Remuneração Básica:__ É composta pela soma das parcelas remuneratórias correspondentes ao cargo efetivo, a função ou o cargo comissionado.
-3. __Férias:__ Valores próprios desses direitos.
-4. __Gratificação Natalina:__ Valores próprios desses direitos.
-5. __Outros valores:__ Valores pagos em condições excepcionais e transitórias, tais como: Indenizações, Decisões Judiciais,  e outros valores de natureza eventual.
-6. __Total:__ Soma dos valores da remuneração básica, férias, Gratificação Natalina e Outros Valores.
-7. __Descontos:__ Valor referentes aos descontos obrigatórios e pagamentos indevidos, incluído os descontos que excedam o limite constituicional da remuneração. Não estão incluídos os descontos de caráter pessoal, tais como consignados, previdência complementar e pensão alimentícia.
-8. __Remuneração líquida:__ Valor da remuneração do servidor deduzidos das deduções realizadas no mês. O valor líquido apresentado pode ser superior ao efetivamente recebido, em face de não estarem inseridos os descontos de caráter pessoal.
-9. __Jetons Empresas:__ É a remuneração percebida por servidores públicos estaduais em razão da participação como representantes do Estado em Conselhos de Administração e Fiscal ou órgãos equivalentes de empresas controladas direta ou indiretamente pelo Estado
+1. __Remuneração Básica:__ É composta pela soma das parcelas remuneratórias correspondentes ao cargo efetivo, a função ou o cargo comissionado.
+1. __Férias:__ Valores próprios desses direitos.
+1. __Gratificação Natalina:__ Valores próprios desses direitos.
+1. __Outros valores:__ Valores pagos em condições excepcionais e transitórias, tais como: Indenizações, Decisões Judiciais,  e outros valores de natureza eventual.
+1. __Total:__ Soma dos valores da remuneração básica, férias, Gratificação Natalina e Outros Valores.
+1. __Descontos:__ Valor referentes aos descontos obrigatórios e pagamentos indevidos, incluído os descontos que excedam o limite constituicional da remuneração. Não estão incluídos os descontos de caráter pessoal, tais como consignados, previdência complementar e pensão alimentícia.
+1. __Remuneração líquida:__ Valor da remuneração do servidor deduzidos das deduções realizadas no mês. O valor líquido apresentado pode ser superior ao efetivamente recebido, em face de não estarem inseridos os descontos de caráter pessoal.
+1. __Jetons Empresas:__ É a remuneração percebida por servidores públicos estaduais em razão da participação como representantes do Estado em Conselhos de Administração e Fiscal ou órgãos equivalentes de empresas controladas direta ou indiretamente pelo Estado
 
 #### Formulário de detalhamento
 
