@@ -138,4 +138,4 @@ Nas tabelas de navegação por filtros as regras de exportação/impressão deve
 
       ___Exemplo 1___: A linha "Ago/2015" deve exibir a situação funcional e remuneração do servidor referente a agosto de 2015; A linha "Jan/2019" deve exibir a situação funcional e remuneração do servidor referente a janeiro/2019 e assim sucessivamente.
 
-* O leiaute da planilha exportada deve serguir o formato da planilha de remuneração disponibilizada pela CGE com inserção de uma coluna `mes`. Vide [arquivo exemplo](static/csv-usuario.csv).
+* O leiaute da planilha exportada deve serguir o formato da planilha de remuneração disponibilizada pela CGE com inserção de uma coluna `mes` no formato `YYYY-MM-01`. Vide [arquivo exemplo](static/csv-usuario.csv).
