@@ -21,22 +21,20 @@ Para facilitar a navegação do usuário, sugere-se a inclusão do item “___Ex
 
 # Homologação do layout da funcionalidade
 
-<div class="alert alert-info">
+<div class="alert alert-warning">
 
 A Diretoria Central de Transparência Ativa (DTA) não enviou a especificação da funcionalidade checkboxes, dessa forma a PRODEMGE propôs um modelo de funcionalidade que foi aprovado pela equipe gestora do Portal.
   </div>
 
-<div class="alert alert-info">
 
-As divergências estão destacadas em   <div class="alert alert-danger">vermelho  </div>
-  </div>
 
-  <div class="alert alert-danger">
+
+  <div class="alert alert-success">
 
 
 __Diárias__
 
-  Não está funcionado. Ao clicar no ícone Diáriaso Portal retorna para a página inicial
+  A consulta de diárias não possui a funcionalidade de pesquisa avançada. cial
         </div>
 
 
