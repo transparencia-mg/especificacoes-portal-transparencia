@@ -1,12 +1,14 @@
 ---
-contrato_manutencao: nº 15210010062019 (INF. 3951)
-proposta_comercial: nº 626584/19
-pull_request:
-title: Consulta Remuneração - Interface
+title: "Consulta Remuneração - Interface"
 output:
   html_document:
     theme: united
     toc: yes
+  word_document:
+    toc: yes
+proposta_comercial: nº 626584/19
+pull_request: null
+contrato_manutencao: nº 15210010062019 (INF. 3951)
 ---
 
 # Visão geral da Demanda
@@ -22,7 +24,7 @@ Essa demanda visa alterar a [consulta de remuneração](http://www.transparencia
 # Motivação / contexto da demanda
 <a href="#top">(inicio)</a>
 
-O formato atual de divulgação da consulta de Remuneração no Portal da Transparência apresenta apenas o histórico da remuneração referentes ao ano corrente, o que tem sido objeto de dúvidas no Fale Conosco e no telefone 155, sobre a localização do histórico da remuneração dos anos anteriores.
+O formato atual de divulgação da consulta de Remuneração no Portal da Transparência apresenta apenas o histórico da remuneração referentes ao ano corrente, o que tem sido objeto de dúvidas no Fale Conosco, sobre a localização do histórico da remuneração dos anos anteriores.
 
 A prática adotada pelo Portal da Transparência é a transferência dos dados ao final do ano corrente para a base de dados do Portal de Dados Abertos, e a consequente exclusão desse dados na consulta de Remuneração.
 
@@ -45,7 +47,7 @@ Incluir os campos ___cargo, remuneração bruta e remuneração líquida___ nas 
 
 bem como no [quarto nível](http://transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/201911/4/1094/4028/C) da navegação default por [salários mínimos](http://transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/201911/3). Os campos na tabela de resultado devem ser
 
-* Servidor 
+* Servidor
 * Masp
 * Cargo
 * Órgão Exercício
@@ -56,21 +58,20 @@ Exemplo:
 
 ![](static/leiaute_tabelas_navegacao_filtros.png)
 
-* O campo remuneração bruta refere-se ao campo _[Total]_ da tabela histórico de recebimentos;
+* O campo remuneração bruta refere-se ao campo _[Total]_ da tabela histórico recebimentos;
 
-* O campo remuneração líquida refere-se ao campo _[Remuneração Líquida]_ da da tabela histórico de recebimentos.
+* O campo remuneração líquida refere-se ao campo _[Remuneração Líquida]_ da tabela histórico recebimentos.
 * As tabelas devem possuir o comportamento padrão em relação a paginação, filtro, compartilhamento em redes sociais e exportação/impressão.
 
 ### Glossário Interativo: TOOL TIP
 
-O glossário interativo das tabelas de navegação devem apresentar os seguintes textos:
+O glossário interativo das tabelas de navegação deve apresentar os seguintes textos:
 
 1. __Servidor:__ Nome do servidor civil ou militar conforme registrado nos Sistemas de Pagamento de Pessoal do Estado de Minas Gerais.
 1. __Masp:__ Matrícula do servidor civil ou militar de Minas Gerais.
-1. __Cargo:__ Descrição do cargo de provimento efetivo ou comissão.
 1. __Órgão Exercício:__ Órgão ou entidade de exercício do servidor.
-1. __Remuneração Bruta:__ Composta pela soma das parcelas remuneratórias correspondentes ao cargo efetivo, a função ou cargo em comissionado, bem como gratificações de qualquer natureza e vantagens percuniárias de caráter temporário ou permanente (gratificação natalina, férias e etc).
-1. __Remuneração Líquida:__ Valor da remuneração do servidor deduzidos das deduções obrigatórias realizadas no mês. O valor líquido apresentado pode ser superior ao efetivamente recebido, em face de não estarem inseridos os descontos de caráter pessoal.
+1. __Remuneração Bruta:__ Composta pela soma das parcelas remuneratórias correspondentes ao cargo efetivo, a função ou cargo comissionado, bem como gratificações de qualquer natureza e vantagens pecuniárias de caráter temporário ou permanente (gratificação natalina, férias e etc).
+1. __Remuneração Líquida:__ Valor da remuneração do servidor após deduções obrigatórias realizadas no mês. O valor líquido apresentado pode ser superior ao efetivamente recebido, em face de não estarem inseridos os descontos de caráter pessoal.
 
 ## Leiaute - Formulários detalhamento situação funcional e histórico de recebimentos
 <a href="#top">(inicio)</a>
@@ -85,11 +86,11 @@ Os dados da situação funcional devem refletir a situação do mês/ano selecio
 
 ___Exemplo:___ Caso o usuário selecione os filtros `Ano: 2015 Mês: Janeiro` na _[barra de pesquisa]_, a situação funcional apresentada na tabela _[situação funcional]_ será a correspondente ao período Jan/2015.
 
-### Histórico de recebimentos
+### Histórico recebimentos
 
 ![](static/historico-recebimentos.png)
 
-Oservações:
+Observações:
 
 * Valores zero devem ser apresentados como "-";
 
@@ -97,43 +98,43 @@ Oservações:
 
 * Os dados da coluna mês/ano devem ser exibidos de forma decrescente (mais recente para o mais antigo);
 
-* Quando o número de linhas da tabela _[histórico da recebimentos]_ for superior ao limite da página deve ser aplicada paginação conforme padrão das demais consultas;
+* Quando o número de linhas da tabela _[histórico recebimentos]_ for superior ao limite da página deve ser aplicada paginação conforme padrão das demais consultas;
 
-* O cabeçalho da tabela histórico da recebimentos deve ser congelado, ou seja, quando o usuário usar a barra de rolagem horizontal o cabeçalho da tabela deve ficar sempre visível. ___Exemplo:___ [Cabeçalho fixo (_Fixed Header_)](https://uxdesign.cc/design-better-data-tables-4ecc99d23356#86cf);
+* O cabeçalho da tabela histórico recebimentos deve ser congelado, ou seja, quando o usuário usar a barra de rolagem vertical o cabeçalho da tabela deve ficar sempre visível. ___Exemplo:___ [Cabeçalho fixo (_Fixed Header_)](https://uxdesign.cc/design-better-data-tables-4ecc99d23356#86cf);
 
 ![](static/fixed-header.gif)
 
-* A tabela _[histórico da recebimentos]_ deve exibir a opção de classificar em todas as colunas conforme já ocorre nas demais consultas do Portal;
+* A tabela _[histórico recebimentos]_ deve exibir a opção de classificar em todas as colunas conforme já ocorre nas demais consultas do Portal;
 
-* Os dados apresentados na tabela _[histórico da recebimentos]_ devem refletir o primeiro mês da série histórica disponível até o mês/ano selecionado no início da pesquisa.  
+* Os dados apresentados na tabela _[histórico recebimentos]_ devem refletir o primeiro mês da série histórica disponível até o mês/ano selecionado no início da pesquisa.  
 
     ___Exemplo:___ O servidor Luiz possui dados disponíveis de Mai/2015 a Out/2019. Caso o usuário selecione no filtro da _[barra de pesquisa]_ os dados de Out/2017, o Portal exibirá dos dados de Mai/2015 a Out/2017.
 
 ##### Glossário Interativo: TOOL TIP
 
-O glossário interativo do histórico de recebimentos deve apresentar os seguintes textos:
+O glossário interativo do histórico recebimentos deve apresentar os seguintes textos:
 
-1. __Mês/ano:__ Mês e ano de referência de lançamento da remuneração;
-1. __Remuneração Básica:__ Composta pela soma das parcelas remuneratórias correspondentes ao cargo efetivo, a função ou cargo em comissionado, bem como gratificações de qualquer natureza;
+1. __Mês/ano:__ Mês e ano de referência da folha de pagamento. O pagamento ocorre conforme cronograma do Governo do Estado de Minas Gerais;
+1. __Remuneração Básica:__ Composta pela soma das parcelas remuneratórias correspondentes ao cargo efetivo,  função gratificada ou cargo comissionado;
 1. __Férias:__ Adicional pago ao servidor, por ocasião das férias regulamentares, correspondentes a 1/3 (um terço) da remuneração do período de férias;
 1. __Gratificação Natalina:__ Gratificação assegurada ao servidor civil ou militar a título de décimo terceiro salário;
 1. __Outros valores:__ Valores pagos em condições excepcionais e transitórias, tais como: Indenizações, Decisões Judiciais, Ajuda de Custo, Alimentação e outros valores de natureza eventual.
-1. __Total:__ Composta pela soma das parcelas remuneratórias correspondentes a remuneração básica e vantagens percuniárias de caráter temporário ou permanente (gratificação natalina, férias e etc);
-1. __Descontos:__ Valor referentes aos descontos obrigatórios e pagamentos indevidos, incluído os descontos que excedam o limite constituicional da remuneração. Não estão incluídos os descontos de caráter pessoal, tais como consignados, previdência complementar e pensão alimentícia.
-1. __Remuneração líquida:__ Valor da remuneração do servidor deduzidos das deduções realizadas no mês. O valor líquido apresentado pode ser superior ao efetivamente recebido, em face de não estarem inseridos os descontos de caráter pessoal.
+1. __Total:__ Composta pela soma das parcelas remuneratórias correspondentes a remuneração básica e vantagens pecuniárias de caráter temporário ou permanente (gratificação natalina, férias e etc);
+1. __Descontos:__ Valor referentes aos descontos obrigatórios, incluído os descontos que excedam o limite constitucional da remuneração. Não estão incluídos os descontos de caráter pessoal, tais como consignados, previdência complementar e pensão alimentícia.
+1. __Remuneração líquida:__ Valor da remuneração do servidor após deduções realizadas no mês. O valor líquido apresentado pode ser superior ao efetivamente recebido, em face de não estarem inseridos os descontos de caráter pessoal.
 1. __Jetons Empresas:__ É a remuneração percebida por servidores públicos estaduais em razão da participação como representantes do Estado em Conselhos de Administração e Fiscal ou órgãos equivalentes de empresas controladas direta ou indiretamente pelo Estado
 
 #### Formulário de detalhamento
 
-A tabela histórico de recebimentos deve permitir que o usuário clique no mês/ano para detalhar as informações referente aqueles mês. A informação mês/ano virá em vermelho como forma de destacar a possibilidade de clique. 
+A tabela histórico recebimentos deve permitir que o usuário clique no mês/ano para detalhar as informações referente aqueles mês. A informação mês/ano virá em vermelho como forma de destacar a possibilidade de clique.
 
-Quando o usuário clicar em um desses campos o Portal exibe outra janela detalhando os valores do mês selecionado. Deve ser possível a seleção de múltiplos meses sem perda de contexto. 
+Quando o usuário clicar em um desses campos o Portal exibe outra janela detalhando os valores do mês selecionado. Deve ser possível a seleção de múltiplos meses sem perda de contexto.
 
 ___Exemplo:___ [Multi-Modal](https://uxdesign.cc/design-better-data-tables-4ecc99d23356#4a39)
 
 ![](static/multi-modal.gif)
 
-Ao clicar no coluna mês/ano, linha Out/2019 o portal exibirá o detalhamento do mês de outubro, com cabeçalho detalhando nome do servidor e mês da pesquisa:
+Ao clicar na coluna mês/ano, linha Out/2019 o portal exibirá o detalhamento do mês de outubro, com cabeçalho detalhando nome do servidor e mês da pesquisa:
 
 ![](static/formulario-detalhamento.png)
 
@@ -158,6 +159,6 @@ Nas tabelas de navegação por filtros as regras de exportação/impressão deve
 
       ___Exemplo 1___: A linha "Ago/2015" deve exibir a situação funcional e remuneração do servidor referente a agosto de 2015; A linha "Jan/2019" deve exibir a situação funcional e remuneração do servidor referente a janeiro/2019 e assim sucessivamente.
 
-* O leiaute da planilha exportada deve serguir o formato da planilha de remuneração disponibilizada pela CGE com inserção de uma coluna `mes` no formato `YYYY-MM-01`. Vide [arquivo exemplo](static/csv-usuario.csv).
+* O leiaute da planilha exportada deve seguir o formato da planilha de remuneração disponibilizada pela CGE com inserção de uma coluna `mes` no formato `YYYY-MM-01`. Vide [arquivo exemplo](static/csv-usuario.csv).
 
-* Os valores zero devem ser exportados como valores númericos `0`
+* Os valores zero devem ser exportados como valores numéricos `0`
