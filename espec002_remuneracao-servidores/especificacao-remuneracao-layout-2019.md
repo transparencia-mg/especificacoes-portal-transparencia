@@ -45,7 +45,7 @@ Incluir os campos ___cargo, remuneração bruta e remuneração líquida___ nas 
 
 bem como no [quarto nível](http://transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/201911/4/1094/4028/C) da navegação default por [salários mínimos](http://transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/201911/3). Os campos na tabela de resultado devem ser
 
-* Servidor
+* Servidor 
 * Masp
 * Cargo
 * Órgão Exercício
@@ -56,23 +56,26 @@ Exemplo:
 
 ![](static/leiaute_tabelas_navegacao_filtros.png)
 
-As tabelas devem possuir o comportamento padrão em relação a paginação, filtro, compartilhamento em redes sociais e exportação/impressão.
+* O campo remuneração bruta refere-se ao campo _[Total]_ da tabela histórico de recebimentos;
+
+* O campo remuneração líquida refere-se ao campo _[Remuneração Líquida]_ da da tabela histórico de recebimentos.
+* As tabelas devem possuir o comportamento padrão em relação a paginação, filtro, compartilhamento em redes sociais e exportação/impressão.
 
 ### Glossário Interativo: TOOL TIP
 
 O glossário interativo das tabelas de navegação devem apresentar os seguintes textos:
 
-1. __Servidor:__
-1. __Masp:__
-1. __Cargo:__
-1. __Órgão Exercício:__
-1. __Remuneração Bruta:__
-1. __Remuneração Líquida:__
+1. __Servidor:__ Nome do servidor civil ou militar conforme registrado nos Sistemas de Pagamento de Pessoal do Estado de Minas Gerais.
+1. __Masp:__ Matrícula do servidor civil ou militar de Minas Gerais.
+1. __Cargo:__ Descrição do cargo de provimento efetivo ou comissão.
+1. __Órgão Exercício:__ Órgão ou entidade de exercício do servidor.
+1. __Remuneração Bruta:__ Composta pela soma das parcelas remuneratórias correspondentes ao cargo efetivo, a função ou cargo em comissionado, bem como gratificações de qualquer natureza e vantagens percuniárias de caráter temporário ou permanente (gratificação natalina, férias e etc).
+1. __Remuneração Líquida:__ Valor da remuneração do servidor deduzidos das deduções obrigatórias realizadas no mês. O valor líquido apresentado pode ser superior ao efetivamente recebido, em face de não estarem inseridos os descontos de caráter pessoal.
 
 ## Leiaute - Formulários detalhamento situação funcional e histórico de recebimentos
 <a href="#top">(inicio)</a>
 
-Após a seleção de um servidor utilizando qualquer um dos filtros da barra pesquisa, o Portal deve exibir o formulário da situação funcional e o histórico da recebimentos, conforme apresentado abaixo.
+Após a seleção de um servidor utilizando qualquer um dos filtros da barra pesquisa, o Portal deve exibir o formulário da situação funcional e o histórico de recebimentos, conforme apresentado abaixo.
 
 ### Situação funcional
 
@@ -86,21 +89,21 @@ ___Exemplo:___ Caso o usuário selecione os filtros `Ano: 2015 Mês: Janeiro` na
 
 ![](static/historico-recebimentos.png)
 
-Algumas observações:
+Oservações:
 
-* Valores zero devem ser apresentados como "-"
+* Valores zero devem ser apresentados como "-";
 
-* A coluna mês/ano deve ser apresentada no formato mês(3 caracteres)/ano(4 caracteres). ___Exemplo:___ Set/2019
+* A coluna mês/ano deve ser apresentada no formato mês(3 caracteres)/ano(4 caracteres). ___Exemplo:___ Set/2019;
 
-* Os dados da coluna mês/ano devem ser exibidos de forma decrescente (mais recente para o mais antigo)
+* Os dados da coluna mês/ano devem ser exibidos de forma decrescente (mais recente para o mais antigo);
 
-* Quando o número de linhas da tabela _[histórico da recebimentos]_ for superior ao limite da página deve ser aplicada paginação conforme padrão das demais consultas
+* Quando o número de linhas da tabela _[histórico da recebimentos]_ for superior ao limite da página deve ser aplicada paginação conforme padrão das demais consultas;
 
-* O cabeçalho da tabela histórico da recebimentos deve ser congelado, ou seja, quando o usuário usar a barra de rolagem horizontal o cabeçalho da tabela deve ficar sempre visível. ___Exemplo:___ [Cabeçalho fixo (_Fixed Header_)](https://uxdesign.cc/design-better-data-tables-4ecc99d23356#86cf)
+* O cabeçalho da tabela histórico da recebimentos deve ser congelado, ou seja, quando o usuário usar a barra de rolagem horizontal o cabeçalho da tabela deve ficar sempre visível. ___Exemplo:___ [Cabeçalho fixo (_Fixed Header_)](https://uxdesign.cc/design-better-data-tables-4ecc99d23356#86cf);
 
 ![](static/fixed-header.gif)
 
-* A tabela _[histórico da recebimentos]_ deve exibir a opção de classificar em todas as colunas conforme já ocorre nas demais consultas do Portal.
+* A tabela _[histórico da recebimentos]_ deve exibir a opção de classificar em todas as colunas conforme já ocorre nas demais consultas do Portal;
 
 * Os dados apresentados na tabela _[histórico da recebimentos]_ devem refletir o primeiro mês da série histórica disponível até o mês/ano selecionado no início da pesquisa.  
 
@@ -110,12 +113,12 @@ Algumas observações:
 
 O glossário interativo do histórico de recebimentos deve apresentar os seguintes textos:
 
-1. __Mês/ano:__ Mês e ano de referência da remuneração;
-1. __Remuneração Básica:__ É composta pela soma das parcelas remuneratórias correspondentes ao cargo efetivo, a função ou o cargo comissionado.
-1. __Férias:__ Valores próprios desses direitos.
-1. __Gratificação Natalina:__ Valores próprios desses direitos.
-1. __Outros valores:__ Valores pagos em condições excepcionais e transitórias, tais como: Indenizações, Decisões Judiciais,  e outros valores de natureza eventual.
-1. __Total:__ Soma dos valores da remuneração básica, férias, Gratificação Natalina e Outros Valores.
+1. __Mês/ano:__ Mês e ano de referência de lançamento da remuneração;
+1. __Remuneração Básica:__ Composta pela soma das parcelas remuneratórias correspondentes ao cargo efetivo, a função ou cargo em comissionado, bem como gratificações de qualquer natureza;
+1. __Férias:__ Adicional pago ao servidor, por ocasião das férias regulamentares, correspondentes a 1/3 (um terço) da remuneração do período de férias;
+1. __Gratificação Natalina:__ Gratificação assegurada ao servidor civil ou militar a título de décimo terceiro salário;
+1. __Outros valores:__ Valores pagos em condições excepcionais e transitórias, tais como: Indenizações, Decisões Judiciais, Ajuda de Custo, Alimentação e outros valores de natureza eventual.
+1. __Total:__ Composta pela soma das parcelas remuneratórias correspondentes a remuneração básica e vantagens percuniárias de caráter temporário ou permanente (gratificação natalina, férias e etc);
 1. __Descontos:__ Valor referentes aos descontos obrigatórios e pagamentos indevidos, incluído os descontos que excedam o limite constituicional da remuneração. Não estão incluídos os descontos de caráter pessoal, tais como consignados, previdência complementar e pensão alimentícia.
 1. __Remuneração líquida:__ Valor da remuneração do servidor deduzidos das deduções realizadas no mês. O valor líquido apresentado pode ser superior ao efetivamente recebido, em face de não estarem inseridos os descontos de caráter pessoal.
 1. __Jetons Empresas:__ É a remuneração percebida por servidores públicos estaduais em razão da participação como representantes do Estado em Conselhos de Administração e Fiscal ou órgãos equivalentes de empresas controladas direta ou indiretamente pelo Estado
@@ -149,7 +152,7 @@ Ao contrário da situação atual, a funcionalidade de impressão e exportação
 
 Nas tabelas de navegação por filtros as regras de exportação/impressão devem seguir o padrão das demais consultas. A seguir são destacadas as particularidades das regras exportação/impressão para os formulários de detalhamento da situação funcional e histórico de recebimentos:
 
-* A opção exportar dados deve gerar a planilha completa em forma de tabela com todos os dados das tabelas _[situação funcional]_ e _[histórico da remuneração]_.
+* A opção exportar dados deve gerar a planilha completa em forma de tabela com todos os dados das tabelas _[situação funcional]_ e _[histórico de recebimentos]_.
 
 * Os dados de cada linha da planilha deve refletir a situação funcional e remuneração referente ao período (mês/ano).
 
