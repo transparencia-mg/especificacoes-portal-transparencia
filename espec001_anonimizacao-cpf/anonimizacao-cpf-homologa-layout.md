@@ -26,9 +26,14 @@ As classificações orçamentárias iniciais estão definidas nesta especificaç
 O método de anonimização deve ser aplicado nos resultados das consultas de Despesa e RP que apresentem informação de nome e CPF, bem como nas funcionalidades de exportação de dados.
 
 No entanto as informações devem ser armazenadas de forma completa no banco de dados do Portal, permitindo inclusive a realização de buscas nos campos anonimizados.
+
 <div class="alert alert-danger">
 
-__Ao pesquisar um dado anonimizado (Nome ou CPF) no campo de busca do Portal o dado não é exibido__
+__FUNCIONALIDADE NÃO APLICADA__
+
+__Ao pesquisar um dado anonimizado (Nome ou CPF) no campo de busca do Portal o dado deve ser exibido.__  
+
+Conforme o especificado, ao digitar o nome ou CPF de um credor que se enquadre no elemento-item 1302 na consulta por Favorecido por nome ou Favorecido por CPF/CNPJ o Portal deve exibir a consulta completa anonimizando os dados do favorecido.
 
 ![](static/layout-busca-despesa.png)
   </div>
@@ -64,6 +69,15 @@ Conforme Armazém BO apenas a natureza Jurídicia (1) Pessoa Física deve ser an
 
 No banco de dados do Portal da Transparência as informações de nome e CPF devem ser armazenadas sem anonimização, permitindo filtros que utilizem essas informações.
 
+<div class="alert alert-danger">
+
+__Os dados na migalha devem ser anonimizados. No lugar do nome deve exibir " Informação com restrição de acesso"__
+
+![](static/layout-migalha.png)
+
+  </div>
+
+
 ## Consulta Despesa e Restos a Pagar
 
 A anonimização deve ser aplicada:
@@ -78,29 +92,58 @@ __Gráfico treemap OK__
 
 * Formulários de detalhamento de documentos (eg. [Despesa](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2019/01-01-2019/31-12-2019/3873/1874/510/20/39/897363/2704/empenhado/412/12420866/0/0); [RP](http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar/restospagar-orgaos/2018/3718/510/39/20/2704/130/59/3774671));
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 __Fomulário de detalhamento "Dados do Empenho" a funcionalidade não foi aplicada__
 
-![](static/layout-formulario-detalha-despesa.png)
+![](static/layout-formulario-detalha-despesa-corrigido.png)
+  </div>
+
+<div class="alert alert-danger">
+
+__NÃO CORRIGIDO__
 
 __Quando se tratar de natureza jurídica que não seja pessoa física os dados não devem ser anonimizados__
 
+Apenas os credores Pessoa Física devem ser anonimizados - Campo do BO Armazém (1 - Pessoa Física)
+![](static/layout-campo-bo.png)
+
 ![](static/layout-formulario-detalha-despesa2.png)
+
+O empenho 65 refere-se a pessoa jurídica
+
+![](static/layout-formulario-detalha-despesa2-rp.png)
+
+Por se tratar de pessoa jurídica os dados não devem ser anonimizados.
+
+![](static/layout-formulario-detalha-despesa2-formulario-rp.png)
+
   </div>
 
 
 * Pesquisa avançada;
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 
-__O Portal está anonimizando dados de natureza jurídica diferente de pessoa física__
+O Portal está anonimizando dados de natureza jurídica diferente de pessoa física - __CORRIGIDO__
 1. Despesa
 ![](static/layout-pesquisa-avancada-despesa.png)
 
+</div>
+
+<div class="alert alert-danger">
+
+__Ao realizar a anonimização, O Portal deve continuar apresentando as duas transações por se tratar de empenhos distintos. Na consulta avançada de despesa as informações estão sendo somadas__
+
+[Pesquisa Avançada- 2019 -  Loteria Mineira de Minas Gerais --  Elemento-item  3102](http://homologa3.prodemge.gov.br/age7/despesa-estado/despesa/despesa-resultado-pesquisa-avancada/2019/01-01-2019/31-12-2019/9659/0/0/0/0/0/0/0/588/3455/0/0/0/0/0/0/0/0/0/0/1/1/0/0/1/0)
+
+![](static/layout-pesquisa-avancada-despesa-transacao-bo.png)
+
+![](static/layout-pesquisa-avancada-despesa-transacao.png)
+
 2. Restos a pagar
-![](static/layout-pesquisa-avancada-restos-a-pagar.png)
+![](static/layout-pesquisa-avancada-restos-a-pagar-corrigido.png)
 
   </div>
 
@@ -158,11 +201,12 @@ Ao acessar os formulários de detalhamento os seguintes campos devem ser anonimi
 * Campo ___Razão Social do Credor___ do formulário de empenho da despesa:
 
 ![](static/empenho_despesa.png)
-<div class="alert alert-danger">
+
+<div class="alert alert-success">
 
 __Funcionalidade não foi aplicada__
 
-![](static/layout-formulario-detalha-despesa.png)
+![](static/layout-formulario-detalha-despesa-corrigido2.png)
   </div>
 
  * Campo ___CNPJ/CPF e Descrição do Favorecido___ do formulário de liquidação e pagamento:
