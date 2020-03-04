@@ -53,9 +53,11 @@ Somente os campos marcados como _hyperlink_ permitem a navegação nas tabelas. 
 * Valor Pago no Ano,
 * Valor a pagar
 
-Ao clicar no campo _[Número do empenho]_ no 5º nível, o Portal exibirá o [formulário de detalhamento](http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar/restospagar-orgaos/2019/3887/477/42/20/2768/130/58/5839139), já utilizado na consulta por órgão:
+Ao clicar no campo _[Número do empenho]_ no 5º nível, o Portal exibirá o [formulário de detalhamento], conforme abaixo:
 
-![](static/formulario-detalhamento.png)
+__Obs:__ Foi incluído a data inicial de registro do empenho no formulário de detalhamento.
+
+![](static/formulario-detalhamento-novo.png)
 
 ### Observações
 
@@ -101,7 +103,9 @@ Favorecidos
 
 *  A Pesquisa Avançada deve possuir um botão de marcar/desmarcar todas as colunas conforme demanda [especificação checkboxes](https://github.com/transparencia-mg/especificacoes-portal-transparencia/tree/feat/especificacao_checkboxes/espec010_checkboxes).
 
-*   O autocomplete da pesquisa avançada deve possuir código e descrição das classificações orçamentárias ([eg. consulta proposta orçamentária](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada));
+*   O autocomplete da pesquisa avançada deve possuir código e descrição das classificações orçamentárias ([eg. consulta proposta orçamentária](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada)). Os itens dos filtros devem refletir apenas as classificações referente ao ano de inscrição em restos a pagar e não a lista de todas as classificações independente do ano.
+
+Assim, ao selecionar um período específico o Portal irá exibir apenas a classificação orçamentária referente ao ano de inscrição do em restos a Pagar.
 
 * A exibição de código e descrição deve ser diferente em cada seção da pesquisa  avançada:
   * Campos dos filtros: exibir  código e descrição no mesmo campo ([eg. consulta proposta orçamentária](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada));
@@ -121,3 +125,9 @@ Favorecidos
 *   O cidadão deverá escolher o ano da pesquisa.
 
 *   Ao exibir o resultado na tabela a consulta deverá retornar as colunas valor inscrito processado, valor inscrito não processado, valor pago no ano e valor a pagar.
+
+## Observações Gerais
+
+Conforme informado pelo analista da Prodemge Luiz, o Armazém SIAFI não apresenta a data de registro dos empenhos anteriores a 2002, nesse sentido quando um empenho se referir a esse período não será possível trazer essa informação.
+
+Nesses casos o Portal irá apresentar a data em branco.
