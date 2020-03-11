@@ -1,7 +1,7 @@
 
 # Visão Geral da Intervenção
 
-Essa demanda visa adequar no Portal da Transparência a regra de divulgação dos dados de pagamento, mais especificamente, a inclusão a Data de Pagamento no formulário de detalhamento da despesa. alteração do nome das tabelas e alteração da conceito do valor pago das consultas de Despesa, Diárias e Restos a Pagar.
+Essa demanda visa adequar no Portal da Transparência a regra de divulgação dos dados de pagamento, mais especificamente, a inclusão da situação da ordem de pagamento no formulário de detalhamento da despesa, alteração do nome das tabelas e alteração da conceito do valor pago das consultas de Despesa, Diárias e Restos a Pagar.
 
 A alteração também será realizada na consulta de Convênios, e será alterada a regra de extração dos dados para a divulgação dos valores pagos.
 
@@ -20,64 +20,15 @@ De acordo com as regras de registro de Ordem de Pagamento (OP) no SIAFI é poss�
 9. Transmitida ao banco - Pendente de confirmação
 10. Cancelada sem cancelamento do IRRP retido _TED_
 
-Dentre essas situações, ressaltamos as situações 2 (acatada pelo banco), 3 (pendente de transmissão aos bancos) e situação 4 (sujeita a compensação bancária).
-
-Atualmente, o Portal de Transparência apresenta os dados relativos a OP utilizando como variável para divulgação do valor pago a ___Data de Registro___ no SIAFI.
+Atualmente, o Portal de Transparência apresenta os dados relativos a OP utilizando como variável para divulgação do valor pago a ___Data de Registro___ no SIAFI sem considerar a situação da ordem de pagamento.
 
 Nesse sentido o Portal divulga uma despesa como paga, mas que ainda não percorreu todas as etapas de pagamento, ou seja, assinatura pelo ordenador de despesa, transmissão ao banco e a compensação bancária, o que gera dúvidas para os credores sobre o efetivo depósito dos valores registrados no Portal como pagos.
 
-Etapas da Ordem de Pagamento:
-
-![](static/fluxograma.jpg)
-
-  Para elucidar, trazemos como exemplo o empenho 1387 (UE 1500002) - OP 1599 consultado no SIAFI na data de 17/12/2019, cujo registro da OP ocorreu no dia 28/11/2019, com data de pagamento registrada no SIAFI para 29/11/2019.
-
-![](static/siafi_1599.jpg)
-
-E conforme tela do SIAFI, consta na [Situação] a informação de PENDENTE PARA BANCO. AGUARDANDO ASSINATURA DIGITAL.
-
-Essa mesma OP consultada no Portal da Transparência consta como paga no formulário de detalhamento de despesa, desde o dia 28/11/2019 (código do documento 1599), no valor de R$268,45.
-
-![](static/portal_1599.jpg)
-
-Assim, apesar de constar como paga no Portal da Transparência desde o dia 28/11/2019, a OP 1599 ainda não percorreu todas as etapas de pagamento.
-
-A mesma situação ocorre na consulta de Restos a Pagar.
-Exemplo é a consulta de restos a pagar referente ao Restos a Pagar 2018/3. Conforme tela do SIAFI a data de registro da OP ocorreu em 01/03/2019, mas o efetivo pagamento da despesa ocorreu em 07/03/2019.
-
-![](static/restosapagarsiafi.jpg)
-
-No Portal da Transparência, a mesma OP 22, consta que o pagamento foi realizado no 01/03/2019, quando na verdade, a data em que o valor foi acatado pelo banco ocorreu somente no dia 07/03/2019.
-
-![](static/restosapagarportal.jpg)
-
-Outra consulta com impacto direto na divulgação de dados sobre o pagamento é a consulta de Convênios/Parcerias de Saída de Recursos, que diferentemente das demais consultas não possui a informação de Data de Registro da OP.
-
-![](static/conveniossaida.jpg)
-
-A regra adotada pelo Portal da Transparência para a Consulta de Convênios / Parcerias de Saída de Recursos é a mesma aplicada as demais consultas, que é a informação de valor repassado tendo como critério o Valor Pago Financeiro, Valor Pago Processado e Valor Pago Não Processado de acordo com a Data de Registro da OP, que traz para o Portal, a informação de valor repassado, mesmo que a despesa não tenha percorrido todas as suas fases.
-
-[Convênios de Saída](static/conveniossaida.xls)
-
-Como exemplo, temos o convênio 9220736, cuja OP 192 foi registrada no dia 17/12/2019, e com data de pagamento para 20/12/2019.
-
-![](static/convenios.jpg)
-
-No entanto, conforme consulta ao armazém consta na Situação Ordem Pagamento - Descrição: Transmitida ao banco - pendente de confirmação. Essa situação indica que o depósito no valor de R$45.000,00 ainda não foi realizado na conta do convenente. Apesar do Portal da Transparência informar que o valor já foi repassado ao convenente.
-
-![](static/portalconvenios.jpg)
-
-A tela do SIAFI, confirma que o OP 192 ainda depende de compensação bancária, estando o depósito sujeita a confirmação pelo banco.
-
-![](static/siaficonvenios.jpg)
-
-Assim, com o objetivo de melhorar a divulgação de dados sobre pagamentos, sugere-se a alteração no formulário de detalhamento da despesa (opções Empenho e Pagamento) para que apresente não somente a data de registro da OP, mas também a data de pagamento de uma determinada OP (paga, acatada pelo banco e sujeita a compensação bancária), respeitado o prazo de atualização de D+1 estabelecido pelo Decreto Federal n° 7.185, de 2010.
+Com o objetivo de melhorar a divulgação de dados sobre pagamentos, sugere-se a alteração no formulário de detalhamento da despesa (opções Empenho e Pagamento) para que apresente a situação da ordem de pagamento, respeitado o prazo de atualização de D+1 estabelecido pelo Decreto Federal n° 7.185, de 2010.
 
 Além dessa alteração, sugere-se a alteração na descrição do valor pago que consta no glossário interativo das colunas "Valor pago" das consultas de Despesa, Diárias e Restos a Pagar, para que seja esclarecido a sociedade as situações que compõem o campo valor pago.
 
-Atualmente, o glossário do portal e o tool tip trazem a seguinte definição: valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa.
-
-
+``Atualmente, o glossário do portal e o tool tip trazem a seguinte definição: valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa.``
 
 # Especificação
 
@@ -95,7 +46,6 @@ ___Observação___: Essas alterações aplicam-se a toda base de dados da consul
 
 
 __2. Alterar o texto das colunas Data e Número de Documento__
-
 
 Alterar o texto e descrição das [colunas] "DATA" e "NUMERO DO DOCUMENTO" das consultas de Despesas e Diárias.
 
@@ -147,9 +97,7 @@ No formulário de detalhamento da consulta de despesa e diárias, opções de em
 ![](static/formulario_emp_pag.jpg)
 
 
-__Observação__: Importante ressaltar que serão consideradas apenas as data de pagamento com valores válidos. Informações em branco ou informações inválidas não serão trazidas para o portal.
-
-[formulario_detalhamento_despesa](static/formulario_detalhamento_despesa.xls)
+__Observação__: Importante ressaltar que o portal deve realizar a atualização do campos [Situação da Ordem de Pagamento] diariamente, pois esse campo não é estático no decorrer do exercício podendo sofrer alterações constantes.
 
 ## Consulta Restos a Pagar
 
@@ -163,10 +111,7 @@ No [Formulário de Detalhamento da Despesa](http://transparencia.mg.gov.br/despe
 
 ![](static/formulario_emp_pag.jpg)
 
-  __Observação__: Importante ressaltar que serão consideradas apenas as data de pagamento com valores válidos. Informações em branco ou informações inválidas não serão trazidas para o portal.
-
-[Restos a Pagar](static/restosapagar.xls)
-
+  __Observação__: Importante ressaltar que o portal deve realizar a atualização do campos [Situação da Ordem de Pagamento] diariamente, pois esse campo não é estático no decorrer do exercício podendo sofrer alterações constantes.
 
 __2. Alterar descrição do campo "Valor Pago no Ano" no glossário interativo__
 
@@ -175,6 +120,14 @@ Alterar a descrição do _tooltip_ da coluna "valor pago no ano" da consulta de 
   - Valor Pago no Ano: Soma do valor de restos a pagar processados e não processados referentes aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de assinatura do ordenador de despesa e/ou sujeito a compensação bancária.
 
 ![](static/valorpagonoano.jpg)
+
+## Observações Gerais
+
+1. O campo [Situação da Ordem de Pagamento] no Portal deve refletir a mesma situação da OP que consta no Armazém. Como já mencionado, esse campo não é estático, podendo sofrer várias alterações no decorrer no ano. Nesse sentido, é necessário atualização diária dessa informação no Portal da Transparência.
+
+Campo a ser utilizado no Armazém:
+
+![](static/situacao-op-siafi.jpg)
 
 
 ## Consulta Convênios de Saída
@@ -205,23 +158,12 @@ O Portal apresenta como repassado o valor total de R$ 35.000,00 no entanto, conf
 
 ![](static/convenio-op-1547-.png)
 
-__Nome da Consulta Armazém (BO):__ valor_repassado_conv_saida
-
 Na extração dos dados do armazém para a divulgação do Valor Repassado pelo Concedente/Órgão ou Entidade Estadual Parceiro, será considerado para divulgação dos valores repassados o Valor Pago Financeiro menos o Valor Pago Pendente, nas segintes condições:
 
-* Somente serão considerados os pagamentos cuja variável data de pagamento apresente uma data válida. Datas em branco ou datas inválidas não serão mostrados no Portal. Essa informação no Portal deve permanecer zerada até que a data de pagamento apresente uma data válida.
 
-# Exemplos
+# Sugestões
 
-1. Boa Prática:
-O portal da Transparência do Distrito Federal traz a informação de Data de Emissão no lugar de data de pagamento.
+Na especificação da consulta de Despesa foi sugerido acrescentar o campo [Situação da ordem de pagamento] no formulário de detalhamento.
+Outra hipótese pode ser a exibição das ordens de pagamento que apresentem apenas as situação definidas pela DTA, como por exemplo: Acatada pelo Banco, Sujeita a Compensação Bancária e Paga. Nesse caso, o Portal irá apresentar apenas as OPs que efetivamente foram pagas e/ou transmitidas ao banco.
 
-![](static/distritofederal.jpg)
-
-2. No Governo do [Paraná](http://www.transparencia.pr.gov.br/pte/pages/despesas/consultaCredor/exibir_extrato.jsf?windowId=8b8), é utilizado a expressão Nº do Documento, no entanto, a visualização das fases é apresentada numa única tela, não deixando dúvidas a que fase da despesa o documento se refere.
-
-![](static/parana.jpg)
-
-3. O [Governo Federal](http://transparencia.gov.br/despesas/favorecido?de=01/09/2019&ate=30/09/2019&funcaoSubfuncao=FN03&funcaoSubfuncao=SB092&programa=2130&acao=2674&programaGoverno=00&grupo=3&elemento=14&modalidade=90&orgaos=UG110581&ordenarPor=valor&direcao=desc) utiliza a expressão Documento, com visualização semelhante a do Paraná, com o número do documento acompanhado da fase a que se refere.
-
-![](static/governofederal.jpg)
+Assim não seria necessário a inclusão de mais campos no formulário de detalhamento.
