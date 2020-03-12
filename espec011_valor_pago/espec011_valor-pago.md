@@ -1,9 +1,14 @@
 
 # Visão Geral da Intervenção
 
-Essa demanda visa adequar no Portal da Transparência a regra de divulgação dos dados de pagamento, mais especificamente, alteração do formulário de detalhamento (opção pagamento), alteração do nome das tabelas e alteração da conceito dos _tooltips_ das consultas de despesa, restos a pagar e diárias.
+Essa demanda visa adequar no Portal da Transparência a forma de divulgação de informações sobre pagamentos de despesas. Mais especificamente
 
-A alteração também será realizada na consulta de Convênios, e será alterada a regra de extração dos dados para a divulgação dos valores repassados.
+* alteração do formulário de detalhamento (opção pagamento);
+* alteração do nome das tabelas;
+* alteração da conceito dos _tooltips_ das consultas de despesa, restos a pagar e diárias;
+* alteração do cálculo do valor repassado na consulta de convênios
+
+As variáveis _[Situação Ordem de Pagamento - Descrição]_ e _[Valor Pago Pendente]_ do assunto `EXECUÇÃO ORÇAMENTÁRIA DA DESPESA / DESPESA REALIZADA` deverão ser extraídas do Armazém SIAFI para viabilizar as alterações definidas nesta especificação.
 
 # Motivação / Contexto da Intervenção
 
@@ -26,9 +31,9 @@ Além disso, não existe clareza sobre o significado da data de pagamento inform
 
 ## Observação
 
-Conforme informado pela Diretoria Central de Governança do Sistema - SEF o campo _[Situação da ordem de pagamento- descrição]_ do armazém SIAFI foi tratado em 2019 para permitir que a informação seja extraída de apenas uma [tabela](static/situacao-ordem-pagamento.docx).
+Conforme informado pela Diretoria Central de Governança do Sistema - SEF o campo _[Situação Ordem de Pagamento - Descrição]_ do armazém SIAFI foi tratado em 2019 para permitir que a informação seja extraída de apenas uma [tabela](static/situacao-ordem-pagamento.docx).
 
-Ainda segundo essa Diretoria, o campo _[valor pago pendente]_ (campo que será utilizado na nova regra da consulta de convênios de saída) são tratadss as situações: transmitida ao banco – pendente de Confirmação e pendente de transmissão aos bancos.
+Ainda segundo essa Diretoria, o campo _[Valor Pago Pendente]_ (campo que será utilizado na nova regra da consulta de convênios de saída) são tratadss as situações: transmitida ao banco – pendente de Confirmação e pendente de transmissão aos bancos.
 
 # Especificação
 
