@@ -49,23 +49,23 @@ Alterar o texto e descrição das colunas "Data" e " Número do documento":
 
  __Situação 1:__ ao clicar em [Valor Empenhado](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2020/01-01-2020/31-12-2020/4009/1910/457/20/42/1264408/2771/empenhado), o próximo nível deverá apresentar a informação:
 
-  - Data de Registro (no lugar de Data): Data de Registro do documento de empenho no SIAFI (Sistema Integrado de Administração Financeira).
+  - Data de Registro (no lugar de Data): Data de Registro do documento de empenho.
 
-  - Número do Empenho (no lugar de Número Documento): Número de identificação do documento de empenho no SIAFI (Sistema Integrado de Administração Financeira).
+  - Número do Empenho (no lugar de Número Documento): Número de identificação do documento de empenho.
 
   ![](static/empenho.jpg)
 
 __Situação 2:__ ao clicar em [Valor Liquidado](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2020/01-01-2020/31-12-2020/4009/1910/457/20/42/1264408/2771/liquidado), o próximo nível deverá apresentar a informação:
 
-  - Data do Registro (no lugar de Data): Data de registro do documento de liquidação no SIAFI (Sistema Integrado de Administração Financeira).
+  - Data do Registro (no lugar de Data): Data de registro do documento de liquidação.
 
   ![](static/liquidacao.jpg)
 
 __Situação 3:__ ao clicar em [Valor Pago](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2020/01-01-2020/31-12-2020/4009/1910/457/20/42/1264408/2771/pago), o próximo nível deverá apresentar a informação:
 
-  - Data de Registro (no lugar de Data): Data de registro da ordem de pagamento no SIAFI (Sistema Integrado de Administração Financeira).
+  - Data de Registro (no lugar de Data): Data de registro da ordem de pagamento.
 
-  - Número da Ordem Pagamento (no lugar de Número Documento): Número de identificação do documento da ordem de pagamento no SIAFI (Sistema Integrado de Administração Financeira).
+  - Número da Ordem Pagamento (no lugar de Número Documento): Número de identificação do documento da ordem de pagamento.
 
 ![](static/pagamentos.jpg)
 
