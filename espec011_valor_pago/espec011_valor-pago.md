@@ -49,7 +49,7 @@ Alterar o texto e descrição das colunas "Data" e " Número do documento":
 
  __Situação 1:__ ao clicar em [Valor Empenhado](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2020/01-01-2020/31-12-2020/4009/1910/457/20/42/1264408/2771/empenhado), o próximo nível deverá apresentar a informação:
 
-  - Data de Registro (no lugar de Data): Data de Registro do documento de empenho.
+  - Data de Registro (no lugar de Data): Data de registro do documento de empenho.
 
   - Número do Empenho (no lugar de Número Documento): Número de identificação do documento de empenho.
 
