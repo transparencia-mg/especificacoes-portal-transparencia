@@ -7,24 +7,24 @@ A alteração também será realizada na consulta de Convênios, e será alterad
 
 # Motivação / Contexto da Intervenção
 
-De acordo com as regras de registro de Ordem de Pagamento (OP) no SIAFI é possível ocorrer diversas situações identificadas no armazém BO para o campo Situação Ordem de Pagamento, que são:
+De acordo com o [art. 64 da Lei 4320/1964](http://www.planalto.gov.br/ccivil_03/leis/l4320.htm#art64), a ordem de pagamento é o despacho exarado por autoridade competente, determinando que a despesa seja paga. O pagamento da despesa consiste na transferência de recursos financeiros a terceiros, encerrando a obrigação existente entre as partes.
 
-* Paga
-* Acatada pelo banco
-* Pendente de transmissão aos bancos
-* Sujeita a compensação bancária
-* Quitada
-* Cancelada
-* Cancelada pelo operador
-* Cancelada -TED
-* Transmitida ao banco - Pendente de confirmação
-* Cancelada sem cancelamento do IRRP retido _TED_
+De maneira geral, entre o registro da ordem de pagamento (OP) e o seu pagamento efetivo a OP irá percorrer as seguintes etapas:
 
-Atualmente, o Portal de Transparência apresenta nas consultas de despesa, diárias e restos a pagar os dados relativos a OP utilizando como variável para divulgação do valor pago a ___Data de Registro___ no SIAFI sem considerar a situação da ordem de pagamento.
+1. Pendente de assinatura digital;
+1. Pendente de transmissão aos bancos;
+1. Pendente de [compensação bancária](https://contaembanco.com.br/servicos/quais-sao-os-prazos-de-compensacao-bancaria/);
+1. Pendente de confirmação da compensação bancária.
 
-Nesse sentido o Portal divulga uma despesa como paga, mas que ainda não percorreu todas as etapas de pagamento, como por exemplo, assinatura pelo ordenador de despesa, transmissão ao banco e a compensação bancária, o que gera dúvidas para os credores sobre o efetivo depósito dos valores registrados no Portal como pagos.
+Atualmente o Portal da Transparência divulga uma OP enquanto valor pago no momento de seu registro. Isso ocorre nas consultas de despesa, diárias, restos a pagar, e convênios de saída. 
 
-___Observação___
+Ou seja, o Portal divulga uma despesa como paga que potencialmente não percorreu todas as etapas de pagamento, como, por exemplo, assinatura pelo ordenador de despesa, transmissão ao banco e compensação bancária. 
+
+Essa situação gera dúvidas para os credores sobre o efetivo depósito dos valores registrados no Portal como pagos, sendo motivo de questionamentos recorrentes à equipe gestora do Portal da Transparência, inclusive por parte de órgãos estaduais.
+
+Além disso, não existe clareza sobre o significado da data de pagamento informada nas diversas consultas do Portal.
+
+## Observação
 
 Conforme informado pela Diretoria Central de Governança do Sistema - SEF o campo _[Situação da ordem de pagamento- descrição]_ do armazém SIAFI foi tratado em 2019 para permitir que a informação seja extraída de apenas uma [tabela](static/situacao-ordem-pagamento.docx).
 
