@@ -105,15 +105,6 @@ No [Formulário de Detalhamento da Consulta de Restos a pagar](http://transparen
 
 ![](static/espec-formulario-detalhamento-despesa.jpg)
 
-
-## Observações Gerais
-
-1. O campo _[Situação da Ordem de Pagamento]_ no Portal deve refletir a mesma situação da OP que consta no Armazém. Conforme informado pela SEF, esse campo não é estático, podendo sofrer várias alterações no decorrer no ano.
-
-Campo a ser utilizado no Armazém:
-
-![](static/espec-relacao-situacao-op-siafi.jpg)
-
 ## Consulta Convênios de Saída
 
 __1. Alterar descrição do campo "Valor Repassado pelo Concedente/Órgão ou Entidade Estadual Parceiro"__
@@ -141,3 +132,8 @@ Dados disponíveis no Portal de Transparência atualmente:
 O Portal apresenta como repassado o valor total de R$ 35.000,00 no entanto, conforme consta no SIAFI transacional o valor encontra-se __"pendente para o banco- aguardando assinatura digital"__. Com as novas regras o Portal deve apresentar o valor efetivamente repassado (Valor Pago Financeiro - Valor Pago pendente).
 
 ![](static/espec-siafi-op-1547-convenio-saida-.png)
+
+## Observação
+
+De acordo com informações da SEF, as variáveis _[Situação Ordem de Pagamento - Descrição]_ e _[Valor Pago Pendente]_ sofrem diversas alterações ao longo do exercício. O processo de carga utilizado, especialmente se possuir natureza incremental, deve garantir que os valores das variáveis estejam sendo atualizados.
+
