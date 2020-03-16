@@ -27,16 +27,36 @@ O método de anonimização deve ser aplicado nos resultados das consultas de De
 
 No entanto as informações devem ser armazenadas de forma completa no banco de dados do Portal, permitindo inclusive a realização de buscas nos campos anonimizados.
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-__FUNCIONALIDADE NÃO APLICADA__
+__CORRIGIDO__
 
-__Ao pesquisar um dado anonimizado (Nome ou CPF) no campo de busca do Portal o dado deve ser exibido.__  
+Ao pesquisar um dado anonimizado (Nome ou CPF) no campo de busca do Portal o dado deve ser exibido.
+
 
 Conforme o especificado, ao digitar o nome ou CPF de um credor que se enquadre no elemento-item 1302 na consulta por Favorecido por nome ou Favorecido por CPF/CNPJ o Portal deve exibir a consulta completa anonimizando os dados do favorecido.
 
-![](static/layout-busca-despesa.png)
+* Despesa
+![](static/layout-busca-despesa-corrigido.png)
+
+![](static/layout-busca-despesa-corrigido-cpf.png)
+</div>
+----
+
+<div class="alert alert-danger">
+
+* Restos a Pagar
+
+__A funcionalidade na consulta de restos a pagar foi aplicada apenas no campo "Favorecido por nome". Ao realizar a pesquisa por CNPJ/CPF os dados não são exibidos__
+ - CPF/Nome: ADRIANA APARECIDA DA SILVA - 036.321.236-16
+
+![](static/layout-busca-despesa-rp.png)
+
+http://homologa3.prodemge.gov.br/age7/despesa-estado/restos-a-pagar/restospagar-favorecidos/2020/0/0/03632123616/4
+
+![](static/layout-busca-despesa-rp-cpf.png)
   </div>
+
 Inicialmente cabe destacar que os registros do elemento item de despesa 3102 deverão ser novamente carregados na base de dados do Portal da Transparência.
 
 ## Método de anonimização
@@ -54,26 +74,33 @@ Dados OK
   </div>
 
 As regras acima devem ser aplicadas inclusive no caso em que o nome e CPF sejam apresentados no mesmo campo, como nos formulários de detalhamento apresentados acima.
-<div class="alert alert-danger">
 
-__A regra está anonimizando dados de CNPJ. No momento a funcionalidade deve ser aplicada apenas aos CPFs__
+<div class="alert alert-success">
+
+__CORRIGIDO__
+
+A regra está anonimizando dados de CNPJ. No momento a funcionalidade deve ser aplicada apenas aos CPFs
 
 Conforme Armazém BO apenas a natureza Jurídicia (1) Pessoa Física deve ser anonimizada.
 
 
 ![](static/layout-natureza-juridica-credor.png)
 
-![](static/layout-natureza-juridica-credor-portal.png)
+![](static/layout-natureza-juridica-credor-portal-corrigido.png)
 
+![](static/layout-natureza-juridica-credor-portal-rp.png)
   </div>
 
 No banco de dados do Portal da Transparência as informações de nome e CPF devem ser armazenadas sem anonimização, permitindo filtros que utilizem essas informações.
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-__Os dados na migalha devem ser anonimizados. No lugar do nome deve exibir " Informação com restrição de acesso"__
+__CORRIGIDO__
+Os dados na migalha devem ser anonimizados. No lugar do nome deve exibir " Informação com restrição de acesso"
 
-![](static/layout-migalha.png)
+![](static/layout-migalha-corrigido.png)
+
+![](static/layout-migalha-corrigido-rp.png)
 
   </div>
 
@@ -99,16 +126,16 @@ __Fomulário de detalhamento "Dados do Empenho" a funcionalidade não foi aplica
 ![](static/layout-formulario-detalha-despesa-corrigido.png)
   </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-__NÃO CORRIGIDO__
+__CORRIGIDO__
 
 __Quando se tratar de natureza jurídica que não seja pessoa física os dados não devem ser anonimizados__
 
 Apenas os credores Pessoa Física devem ser anonimizados - Campo do BO Armazém (1 - Pessoa Física)
 ![](static/layout-campo-bo.png)
 
-![](static/layout-formulario-detalha-despesa2.png)
+![](static/layout-formulario-detalha-despesa2-corrigido.png)
 
 O empenho 65 refere-se a pessoa jurídica
 
@@ -134,7 +161,9 @@ O Portal está anonimizando dados de natureza jurídica diferente de pessoa fís
 
 <div class="alert alert-danger">
 
-__Ao realizar a anonimização, O Portal deve continuar apresentando as duas transações por se tratar de empenhos distintos. Na consulta avançada de despesa as informações estão sendo somadas__
+__NÃO CORRIGIDO__
+
+Ao realizar a anonimização, O Portal deve continuar apresentando as duas transações por se tratar de empenhos distintos. Na consulta avançada de despesa as informações estão sendo somadas
 
 [Pesquisa Avançada- 2019 -  Loteria Mineira de Minas Gerais --  Elemento-item  3102](http://homologa3.prodemge.gov.br/age7/despesa-estado/despesa/despesa-resultado-pesquisa-avancada/2019/01-01-2019/31-12-2019/9659/0/0/0/0/0/0/0/588/3455/0/0/0/0/0/0/0/0/0/0/1/1/0/0/1/0)
 
@@ -200,18 +229,14 @@ Ao acessar os formulários de detalhamento os seguintes campos devem ser anonimi
 
 * Campo ___Razão Social do Credor___ do formulário de empenho da despesa:
 
-![](static/empenho_despesa.png)
-
 <div class="alert alert-success">
 
-__Funcionalidade não foi aplicada__
+__OK__
 
 ![](static/layout-formulario-detalha-despesa-corrigido2.png)
   </div>
 
  * Campo ___CNPJ/CPF e Descrição do Favorecido___ do formulário de liquidação e pagamento:
-
-![](static/liquidacao_pagamento.png)
 
 <div class="alert alert-success">
 
@@ -223,7 +248,7 @@ __Funcionalidade OK__
 #### Pesquisa Avançada
 
 A anonimização deve ocorrer quando o usuário marcar o campo ___exibir favorecidos___.
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 __O Portal está anonimizando dados de natureza jurídica diferente de pessoa física__
 1. Despesa
