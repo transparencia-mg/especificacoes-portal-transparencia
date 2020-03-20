@@ -103,7 +103,9 @@ Favorecidos
 
 *  A Pesquisa Avançada deve possuir um botão de marcar/desmarcar todas as colunas conforme demanda [especificação checkboxes](https://github.com/transparencia-mg/especificacoes-portal-transparencia/tree/feat/especificacao_checkboxes/espec010_checkboxes).
 
-*   O autocomplete da pesquisa avançada deve possuir código e descrição das classificações orçamentárias ([eg. consulta proposta orçamentária](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada)). Os itens dos filtros devem refletir apenas as classificações referente ao ano de inscrição em restos a pagar e não a lista de todas as classificações independente do ano.
+*   O autocomplete da pesquisa avançada deve possuir código e descrição das classificações orçamentárias ([eg. consulta proposta orçamentária](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada)). Os itens de resultado em cada filtro devem refletir apenas as classificações orçamentárias inscritas em restos a pagar, e não a classificação orçamentária vigente no ano. 
+
+    _Exemplo: Em 31 dezembro/2019 foram inscritos em RP R$ 50,00 da ação `1111 - foo` com ano de origem 2016 e R$ 50,00 da ação `2222 - bar` com ano de origem 2019. Em 2020 o filtro de ação deve mostrar apenas as ações `1111 - foo` e `2222 - bar`_.
 
 Assim, ao selecionar um período específico o Portal irá exibir apenas a classificação orçamentária referente ao ano de inscrição do em restos a Pagar.
 
