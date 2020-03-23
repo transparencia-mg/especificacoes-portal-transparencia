@@ -32,7 +32,7 @@ A Diretoria Central de Transparência Ativa (DTA) recebe de forma recorrente que
 
 Para contemplar a inclusão dos modos de pesquisa adicionais a barra de pesquisa da página inicial deve ser:
 
-![](static/pagina-inicial.png)
+![](static/a.barra-navegacao.png)
 
 Após uma pesquisa bem sucedida utilizando o filtro favorecido por nome ou CPF/CNPJ devem ser apresentados um gráfico _treemap_ e uma tabela, __ambos navegáveis__, por meio de duplo clique. O primeiro nível de navegação após a realização de uma busca utilizando o filtro favorecido é
 
