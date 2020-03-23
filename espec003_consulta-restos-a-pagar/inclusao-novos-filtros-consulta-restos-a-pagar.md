@@ -103,9 +103,11 @@ Favorecidos
 
 *  A Pesquisa Avançada deve possuir um botão de marcar/desmarcar todas as colunas conforme demanda [especificação checkboxes](https://github.com/transparencia-mg/especificacoes-portal-transparencia/tree/feat/especificacao_checkboxes/espec010_checkboxes).
 
-*   O autocomplete da pesquisa avançada deve possuir código e descrição das classificações orçamentárias ([eg. consulta proposta orçamentária](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada)). Os itens de resultado em cada filtro devem refletir apenas as classificações orçamentárias inscritas em restos a pagar, e não a classificação orçamentária vigente no ano. 
+*   O autocomplete da pesquisa avançada deve possuir código e descrição das classificações orçamentárias ([eg. consulta proposta orçamentária](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada)). Os itens de resultado em cada filtro devem refletir apenas as classificações orçamentárias inscritas em restos a pagar, e não a classificação orçamentária vigente no ano.
 
-    _Exemplo: Em 31 dezembro/2019 foram inscritos em RP R$ 50,00 da ação `1111 - foo` com ano de origem 2016 e R$ 50,00 da ação `2222 - bar` com ano de origem 2019. Em 2020 o filtro de ação deve mostrar apenas as ações `1111 - foo` e `2222 - bar`_.
+    _Exemplo 1: Em 08 de Janeiro/2020 foram inscritos em RP R$ 7317,47 da ação `4484 - Abastecimento de Medicamentos Básicos` com ano de origem 2016 e R$ 514,16 da ação `4259 - Representação Judicial, Cobrança da Dívida Ativa e Assessoramento Jurídico ao Estado na Região Metrô` com ano de origem 2019. Em 2020 o filtro de ação deve mostrar apenas as ações `4484 - Abastecimento de Medicamentos Básicos` e `4259 - Representação Judicial, Cobrança da Dívida Ativa e Assessoramento Jurídico ao Estado na Região Metrô`_.
+
+    _Exemplo 2: Ao selecionar a ação `4392- Promoção do acesso a Informação e da Transparência Governamental` no ano de 2020, o filtro apresenta como opção outro código para a mesma descrição - `4056 - Promoção do acesso a Informação e da Transparência Governamental`. No entanto, a ação com o código `4056` refere-se a classificação orçamentária do ano de 2020. Conforme tabela gerada no BO (Restos a pagar) o código correto da ação é `4392` pois na classificação orçamentária de 2019, a qual se refere o restos a pagar o código da ação `Promoção do acesso a Informação e da Transparência Governamental é 4392`_
 
 Assim, ao selecionar um período específico o Portal irá exibir apenas a classificação orçamentária referente ao ano de inscrição do em restos a Pagar.
 
@@ -130,6 +132,4 @@ Assim, ao selecionar um período específico o Portal irá exibir apenas a class
 
 ## Observações Gerais
 
-Conforme informado pelo analista da Prodemge Luiz, o Armazém SIAFI não apresenta a data de registro dos empenhos anteriores a 2002, nesse sentido quando um empenho se referir a esse período não será possível trazer essa informação.
-
-Nesses casos o Portal irá apresentar a data em branco.
+Conforme informado pelo analista da Prodemge Luiz, o Armazém SIAFI não apresenta programação financeira para dados anteriores a 2002, nesse sentido quando um empenho se referir a esse período não será possível trazer essa informação.
