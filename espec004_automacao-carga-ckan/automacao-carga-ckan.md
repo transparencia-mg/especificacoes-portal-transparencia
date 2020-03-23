@@ -95,6 +95,12 @@ Cada evento de carga pela DTI deverá gerar um aviso automático por email, por 
 
 * Caso seja implementado uma nova consulta, ou exista alterações nas consultas pré-existentes, no Portal da Transparência, como isso será refletido no CKAN?
 
+* o que o script de carga faz de fato?
+
+* Atualização dos metadados no ckan precinde de conferência pela DTI?
+
+* Processo de atualização de metadados: onde estaria o git consumido e como mudar?
+
 ## Negócio
 
 * Qual a real necessidade de replicar periodicidade de atualização das consultas do Portal da Transparência no CKAN?
