@@ -10,6 +10,8 @@ output:
 ---
 
 # Homologação do Layout
+
+[LINK HTML](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec003_consulta-restos-a-pagar/inclusao-novos-filtros-consulta-restos-a-pagar-homologa-layout.html)
 <div class="alert alert-warning">
 
 ___Todas as divergências apontadas pela CGE na homologação do dia 05/02/2020 foram corrigidas pela PRODEMGE___  
