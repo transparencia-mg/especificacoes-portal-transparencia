@@ -13,8 +13,8 @@ output:
 <a href="#top">(inicio)</a>
 
 <div class="alert alert-info">
-As divergências estão destacadas em <div class="alert alert-danger"> vermelho.
- </div>
+
+__Todas as divergências foram corrigidas em 27/03/2020__
  </div>
 
 ## Visão geral da demanda
@@ -43,16 +43,16 @@ Conforme o especificado, ao digitar o nome ou CPF de um credor que se enquadre n
 </div>
 ----
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-* Restos a Pagar
+* Restos a Pagar  - __CORRIGIDO__
 
-__A funcionalidade na consulta de restos a pagar foi aplicada apenas no campo "Favorecido por nome". Ao realizar a pesquisa por CNPJ/CPF os dados não são exibidos__
+A funcionalidade na consulta de restos a pagar foi aplicada apenas no campo "Favorecido por nome". Ao realizar a pesquisa por CNPJ/CPF os dados não são exibidos
  - CPF/Nome: ADRIANA APARECIDA DA SILVA - 036.321.236-16
 
 ![](static/layout-busca-despesa-rp.png)
 
-http://homologa3.prodemge.gov.br/age7/despesa-estado/restos-a-pagar/restospagar-favorecidos/2020/0/0/03632123616/4
+http://homologa3.prodemge.gov.br/age7/despesa-estado/restos-a-pagar/restospagar-favorecidos/2020/2848565/0/03632123616/4/1
 
 ![](static/layout-busca-despesa-rp-cpf.png)
   </div>
@@ -159,11 +159,11 @@ O Portal está anonimizando dados de natureza jurídica diferente de pessoa fís
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-warning">
 
-__NÃO CORRIGIDO__
+Ao realizar a anonimização, O Portal deve continuar apresentando as duas transações por se tratar de empenhos distintos. Na consulta avançada de despesa as informações estão sendo somadas.
 
-Ao realizar a anonimização, O Portal deve continuar apresentando as duas transações por se tratar de empenhos distintos. Na consulta avançada de despesa as informações estão sendo somadas
+`Conforme informado pelo luiz, não é possível desagregar essas informações, pois com a anonimização não temos várias distintas.`
 
 [Pesquisa Avançada- 2019 -  Loteria Mineira de Minas Gerais --  Elemento-item  3102](http://homologa3.prodemge.gov.br/age7/despesa-estado/despesa/despesa-resultado-pesquisa-avancada/2019/01-01-2019/31-12-2019/9659/0/0/0/0/0/0/0/588/3455/0/0/0/0/0/0/0/0/0/0/1/1/0/0/1/0)
 
