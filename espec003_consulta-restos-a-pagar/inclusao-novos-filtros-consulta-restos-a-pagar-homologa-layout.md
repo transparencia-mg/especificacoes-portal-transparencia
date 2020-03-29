@@ -132,7 +132,6 @@ O Portal está apresentando a data de registro em restos a pagar e não a data i
 
   </div>
 
-
 * O filtro favorecido por nome deve ter a opção de autocomplete a partir de 3 letras. A menos que seja tecnicamente inviável os resultados devem ser retornados sem a necessidade do usuário clicar no ícone pesquisar;
 
 <div class="alert alert-info">
@@ -144,7 +143,6 @@ __Observação enviada pelo Luiz (PRODEMGE)__: A funcionalidade de autocomplete 
 
 * O filtro favorecido por nome deve permitir que o cidadão digite no mínimo 3 letras consecutivas de qualquer parte do nome do favorecido e o portal retornará todos os itens que encaixem na pesquisa; __CONFERE__
   </div>
-
 
 * O preenchimento obrigatório dos filtros favorecido por nome e por CPF/CNPJ somente deve ser necessário em caso de inviabilidade técnica ou prejuízo de desempenho para o Portal.
 
@@ -236,7 +234,17 @@ __Funcionalidade está OK na consulta de restos a pagar, as demais serão verifi
 
 ![](static/layout-pesquisa-avancada-codigo.png)
 
----
+<div class="alert alert-info">
+
+_Exemplo 1: Em 08 de Janeiro/2020 foram inscritos em RP R$ 7317,47 da ação 4484 - Abastecimento de Medicamentos Básicos com ano de origem 2016 e R$ 514,16 da ação 4259 - Representação Judicial, Cobrança da Dívida Ativa e Assessoramento Jurídico ao Estado na Região Metrô com ano de origem 2019. Em 2020 o filtro de ação deve mostrar apenas as ações 4484 - Abastecimento de Medicamentos Básicos e 4259 - Representação Judicial, Cobrança da Dívida Ativa e Assessoramento Jurídico ao Estado na Região Metrô._
+
+_Exemplo 2: Ao selecionar a ação 4392- Promoção do acesso a Informação e da Transparência Governamental no ano de 2020, o filtro apresenta como opção outro código para a mesma descrição - 4056 - Promoção do acesso a Informação e da Transparência Governamental. No entanto, a ação com o código 4056 refere-se a classificação orçamentária do ano de 2020. Conforme tabela gerada no BO (Restos a pagar) o código correto da ação é 4392 pois na classificação orçamentária de 2019, a qual se refere o restos a pagar o código da ação Promoção do acesso a Informação e da Transparência Governamental é 4392._
+
+_Assim, ao selecionar um período específico o Portal irá exibir apenas a classificação orçamentária referente ao ano de inscrição do em restos a Pagar._
+</div>
+</div>
+
+ <div class="alert alert-success">
 
 * A exibição de código e descrição deve ser diferente em cada seção da pesquisa  avançada:
   * Campos dos filtros: exibir  código e descrição no mesmo campo ([eg. consulta proposta orçamentária](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada)); __CONFERE__
@@ -267,5 +275,15 @@ __Funcionalidade está OK na consulta de restos a pagar, as demais serão verifi
 *   O cidadão deverá escolher o ano da pesquisa. __CONFERE__
 
 *   Ao exibir o resultado na tabela a consulta deverá retornar as colunas valor inscrito processado, valor inscrito não processado, valor pago no ano e valor a pagar. __CONFERE__
+
+</div>
+
+<div class="alert alert-warning">
+
+### Observações Gerais
+
+Conforme informado pelo analista da Prodemge Luiz, o Armazém SIAFI não apresenta programação financeira para dados anteriores a 2002, nesse sentido quando um empenho se referir a esse período não será possível trazer essa informação.
+
+"_Inclusão dos registros que, por serem referentes a anos de exercícios anteriores a 2002, não possuem informações de Programa/Ação, Função e Subfunção associadas_"
 
 </div>
