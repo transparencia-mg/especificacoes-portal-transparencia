@@ -96,7 +96,7 @@ http://homologa3.prodemge.gov.br/age7/despesa-estado/restos-a-pagar/restospagar-
 
 <div class="alert alert-success">
 
-Ao clicar no campo _[Número do empenho]_ no 5º nível, o Portal exibirá o [formulário de detalhamento](http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar/restospagar-orgaos/2019/3887/477/42/20/2768/130/58/5839139), já utilizado na consulta por órgão:
+Ao clicar no campo _[Número do empenho]_ no 5º nível, o Portal exibirá o [formulário de detalhamento] já utilizado na consulta por órgão:
 
 __Formulário de detalhamento RP OK__
 
