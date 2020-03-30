@@ -1,8 +1,9 @@
 ---
 contrato_manutencao: nº 15210010062019 (INF. 3951)
 proposta_comercial: nº 626584/19
-Disponível na URL: http://homologa3.prodemge.gov.br/age7/despesa-estado/restos-a-pagar
+mantis:  nº 0143507
 titulo: Homologa layout adiciona modos consulta restos a pagar
+url html: '[Link html](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec003_consulta-restos-a-pagar/inclusao-novos-filtros-consulta-restos-a-pagar-homologa-layout.html)'
 output:
   html_document:
     theme: united
@@ -10,6 +11,8 @@ output:
 ---
 
 # Homologação do Layout
+<a href="#top">(inicio)</a>
+
 <div class="alert alert-warning">
 
 ___Todas as divergências apontadas pela CGE na homologação do dia 05/02/2020 foram corrigidas pela PRODEMGE___  
@@ -17,6 +20,7 @@ ___Todas as divergências apontadas pela CGE na homologação do dia 05/02/2020 
   </div>
 
 ## Página Inicial e Navegação por nível
+<a href="#top">(inicio)</a>
 
 Para contemplar a inclusão dos modos de pesquisa adicionais a barra de pesquisa da página inicial deve ser:
 
@@ -109,8 +113,6 @@ Ao selecionar um favorecido pelo número do CPF/CNPJ o Portal exibe o favorecido
 http://homologa3.prodemge.gov.br/age7/despesa-estado/restos-a-pagar/restospagar-favorecidos/2020/0/0/27520617000194/4
 
   </div>
-
-
 
 ### Observações
 
@@ -267,7 +269,6 @@ _Assim, ao selecionar um período específico o Portal irá exibir apenas a clas
 
 *   O Portal dever ter a funcionalidade de autocompletar (desde a primeira letra), desconsiderando acentuação, letras maiúsculas/minúsculas e palavras intermediárias (ex.: Ao digitar "gestao pública", um dos resultados será "Gestão da Administração Pública"). __CONFERE__
 
-
 *   O cidadão poderá informar mais de um valor para cada filtro. Ao informar um valor de filtro, listar todas as opções. Se o cidadão não informar um valor para cada filtro, o Portal considerará todos os valores possíveis para cada filtro não informado. __CONFERE__
 
 *   O cidadão poderá escolher os campos que ele quer que apareça no resultado (seguir modelo das demais consultas). __CONFERE__
@@ -281,6 +282,7 @@ _Assim, ao selecionar um período específico o Portal irá exibir apenas a clas
 <div class="alert alert-warning">
 
 ### Observações Gerais
+<a href="#top">(inicio)</a>
 
 Conforme informado pelo analista da Prodemge Luiz, o Armazém SIAFI não apresenta programação financeira para dados anteriores a 2002, nesse sentido quando um empenho se referir a esse período não será possível trazer essa informação.
 

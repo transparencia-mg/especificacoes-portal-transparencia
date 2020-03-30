@@ -1,7 +1,9 @@
 ---
 contrato_manutencao: nº 15210010062019 (INF. 3951)
 proposta_comercial: nº 626584/19
-titulo: '[Homologação da documentação da especificação -> anonimização dos CPFs](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec001_anonimizacao-cpf/anonimizacao-cpf-homologa-espec.html)'
+mantis: nº 0143530
+url html: '[Link html](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec001_anonimizacao-cpf/anonimizacao-cpf-homologa-espec.html)'
+titulo: [Homologação da documentação da especificação -> anonimização dos CPFs]
 output:
   html_document:
     theme: united
@@ -9,10 +11,12 @@ output:
 ---
 
 # Homologação da documentação da especificação
+<a href="#top">(inicio)</a>
 
 Inicialmente cabe destacar que os registros do elemento item de despesa 3102 deverão ser novamente carregados na base de dados do Portal da Transparência.
 
 ## Método de anonimização
+<a href="#top">(inicio)</a>
 
 A anonimização deve ser aplicada nas consultas de Despesa e Restos a Pagar para todos os registros do elemento item de despesa 3102 - PRÊMIOS LOTÉRICOS. O método de anonimização consiste em:
 
@@ -24,6 +28,7 @@ As regras acima devem ser aplicadas inclusive no caso em que o nome e CPF sejam 
 No banco de dados do Portal da Transparência as informações de nome e CPF devem ser armazenadas sem anonimização, permitindo filtros que utilizem essas informações.
 
 ## Consulta Despesa e Restos a Pagar
+<a href="#top">(inicio)</a>
 
 A anonimização deve ser aplicada:
 
@@ -79,6 +84,8 @@ Falta a descrição do favorecido - __CORRIGIDO__
 
 ![](static/formulario-detalhamento-liquidacao-corrigido.png)
   </div>
-#### Pesquisa Avançada
+
+## Pesquisa Avançada
+<a href="#top">(inicio)</a>
 
 A anonimização deve ocorrer quando o usuário marcar o campo ___exibir favorecidos___.

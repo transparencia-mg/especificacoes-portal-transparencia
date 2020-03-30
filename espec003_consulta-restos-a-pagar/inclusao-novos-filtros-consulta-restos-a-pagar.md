@@ -1,7 +1,8 @@
 ---
 contrato_manutencao: nº 15210010062019 (INF. 3951)
-proposta_comercial: nº nº 626584/19
+proposta_comercial: nº 626584/19
 pull_request: '[espec003](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/3)'
+mantis:  nº 0143507
 titulo: Adiciona modos consulta restos a pagar
 output:
   html_document:
@@ -60,6 +61,7 @@ __Obs:__ Foi incluído a data inicial de registro do empenho no formulário de d
 ![](static/formulario-detalhamento-novo.png)
 
 ### Observações
+
 
 * O gráfico _treemap_ deve utilizar a métrica "Valor Pago no Ano" em todos os níveis;
 * O título do gráfico _treemap_ em cada nível deve ser o valor da classificação orçamentária selecionada no nível anterior;
@@ -131,5 +133,6 @@ Assim, ao selecionar um período específico o Portal irá exibir apenas a class
 *   Ao exibir o resultado na tabela a consulta deverá retornar as colunas valor inscrito processado, valor inscrito não processado, valor pago no ano e valor a pagar.
 
 ## Observações Gerais
+<a href="#top">(inicio)</a>
 
 Conforme informado pelo analista da Prodemge Luiz, o Armazém SIAFI não apresenta programação financeira para dados anteriores a 2002, nesse sentido quando um empenho se referir a esse período não será possível trazer essa informação.

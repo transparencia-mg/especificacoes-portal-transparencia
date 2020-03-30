@@ -1,4 +1,16 @@
+---
+contrato_manutencao: nº 15210010062019 (INF. 3951)
+proposta_comercial: nº 626584/19
+mantis:  nº 0143507
+titulo: Homologa layout -Consulta Avançada
+url html: '[Link html](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec003_consulta-restos-a-pagar/inclusao-novos-filtros-consulta-restos-a-pagar-homologa-valores.html)'
+output:
+  html_document:
+    theme: united
+    toc: yes
+---
 # Homologação consulta avançada - Restos a Pagar
+<a href="#top">(inicio)</a>
 
 <div class="alert alert-info">
 Todas as divergências foram corrigidas na homologação do dia 30/03/2020.
@@ -7,10 +19,7 @@ Todas as divergências foram corrigidas na homologação do dia 30/03/2020.
 
 Ao selecionar  alguns filtros na caixa de seleção o Portal não retorna nenhum dado. No entanto, ao deixar a caixa com a opção “Todos” o portal retorna a tabela que contém o item selecionado.
 
-
-
-### Filtros utilizados na seleção da pesquisa avançada:
-
+#### Filtros utilizados na seleção da pesquisa avançada:
 * CONTROLADORIA -GERAL DO ESTADO:
 
 ![](static/valores-pesquisa-avancada.png)

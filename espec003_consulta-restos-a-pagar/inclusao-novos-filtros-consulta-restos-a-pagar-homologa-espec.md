@@ -1,7 +1,9 @@
 ---
 contrato_manutencao: nº 15210010062019 (INF. 3951)
 proposta_comercial: nº 626584/19
-titulo: '[Homologação do documento de especificação -> Adiciona modos consulta restos a pagar](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec003_consulta-restos-a-pagar/inclusao-novos-filtros-consulta-restos-a-pagar-homologa-espec.html)'
+mantis:  nº 0143507
+titulo: [Homologação do documento de especificação -> Adiciona modos consulta restos a pagar]
+url html: '[Link html](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec003_consulta-restos-a-pagar/inclusao-novos-filtros-consulta-restos-a-pagar-homologa-espec.html)'
 output:
   html_document:
     theme: united
@@ -9,7 +11,7 @@ output:
 ---
 
 # Homologação da documentação da especificação
-
+<a href="#top">(inicio)</a>
 <div class="alert alert-info">
 
 Toda as divergências foram corrigidas
@@ -17,6 +19,7 @@ Toda as divergências foram corrigidas
 
 
 ## Página Inicial e Navegação por nível
+<a href="#top">(inicio)</a>
 
 Para contemplar a inclusão dos modos de pesquisa adicionais a barra de pesquisa da página inicial deve ser:
 
@@ -84,7 +87,7 @@ __Obs:__ Foi incluído a data inicial de registro do empenho no formulário de d
 
 ![](static/formulario-detalhamento-novo.png)
 
-Imagem PDSOO 
+Imagem PDSOO
 ![](static/layout-formulario-detalhamento-novo.png)
 
  </div>
@@ -110,7 +113,7 @@ __O título do formulário é "Empenho da Despesa"`__
 
 
 ## Pesquisa Avançada
-
+<a href="#top">(inicio)</a>
 
 A consulta avançada terá 12 campos de filtro e parâmetro de ano:
 
@@ -182,4 +185,6 @@ Assim, ao selecionar um período específico o Portal irá exibir apenas a class
 *   Ao exibir o resultado na tabela a consulta deverá retornar as colunas valor inscrito processado, valor inscrito não processado, valor pago no ano e valor a pagar.
 
 ### Observações Gerais
+<a href="#top">(inicio)</a>
+
 Conforme informado pelo analista da Prodemge Luiz, o Armazém SIAFI não apresenta programação financeira para dados anteriores a 2002, nesse sentido quando um empenho se referir a esse período não será possível trazer essa informação

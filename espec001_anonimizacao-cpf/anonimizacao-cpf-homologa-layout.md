@@ -1,8 +1,9 @@
 ---
 contrato_manutencao: nº 15210010062019 (INF. 3951)
 proposta_comercial: nº 626584/19
-ambiente de homologação: 'http://homologa3.prodemge.gov.br/age7/'
-titulo: Homologação do layout da anonimização dos CPFs (http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec001_anonimizacao-cpf/anonimizacao-cpf-homologa-layout.html)
+mantis: nº 0143530
+url html: '[Link html](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec001_anonimizacao-cpf/anonimizacao-cpf-homologa-layout.html)'
+titulo: Homologação do layout da anonimização dos CPFs
 output:
   html_document:
     theme: united
@@ -18,6 +19,7 @@ __Todas as divergências foram corrigidas em 27/03/2020__
  </div>
 
 ## Visão geral da demanda
+<a href="#top">(inicio)</a>
 
 Essa demanda visa anonimizar os nomes e CPFs de credores pessoas físicas nas consultas de Despesa e Restos a Pagar (RP) em classificações orçamentárias específicas.
 
@@ -60,6 +62,7 @@ http://homologa3.prodemge.gov.br/age7/despesa-estado/restos-a-pagar/restospagar-
 Inicialmente cabe destacar que os registros do elemento item de despesa 3102 deverão ser novamente carregados na base de dados do Portal da Transparência.
 
 ## Método de anonimização
+<a href="#top">(inicio)</a>
 
 A anonimização deve ser aplicada nas consultas de Despesa e Restos a Pagar para todos os registros do elemento item de despesa 3102 - PRÊMIOS LOTÉRICOS. O método de anonimização consiste em:
 
@@ -83,7 +86,6 @@ A regra está anonimizando dados de CNPJ. No momento a funcionalidade deve ser a
 
 Conforme Armazém BO apenas a natureza Jurídicia (1) Pessoa Física deve ser anonimizada.
 
-
 ![](static/layout-natureza-juridica-credor.png)
 
 ![](static/layout-natureza-juridica-credor-portal-corrigido.png)
@@ -104,8 +106,8 @@ Os dados na migalha devem ser anonimizados. No lugar do nome deve exibir " Infor
 
   </div>
 
-
 ## Consulta Despesa e Restos a Pagar
+<a href="#top">(inicio)</a>
 
 A anonimização deve ser aplicada:
 
@@ -245,7 +247,8 @@ __Funcionalidade OK__
 ![](static/layout-formulario-detalha-despesa3.png)
   </div>
 
-#### Pesquisa Avançada
+## Pesquisa Avançada
+<a href="#top">(inicio)</a>
 
 A anonimização deve ocorrer quando o usuário marcar o campo ___exibir favorecidos___.
 <div class="alert alert-success">
