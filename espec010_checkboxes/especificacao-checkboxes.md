@@ -10,16 +10,19 @@ output:
 ---
 
 # Visão geral da demanda
+<a href="#top">(inicio)</a>
 
 Essa demanda visa incluir nas consultas que possuem pesquisas avançadas a opção de marcar e desmarcar as caixas de seleção ___checkboxes___, de forma que o usuário possa selecionar todas as opções da pesquisa avançada sem a necessidade de selecionar todas as opções exibir.
 
 # Motivação / contexto da demanda
+<a href="#top">(inicio)</a>
 
 Atualmente, a pesquisa avançada das consultas do Portal da Transparência possui a funcionalidade de exibir os itens da pesquisa. No entanto, para que o usuário possa visualizar os itens da pesquisa é necessário que ele selecione um a um os campos "_exibir_" que serão mostrados na consulta.
 
 Para facilitar a navegação do usuário, sugere-se a inclusão do item “___Exibir Todos___” no início da consulta, possibilitando ao usuário selecionar com apenas um clique todos os itens da consulta.
 
 # Especificação
+<a href="#top">(inicio)</a>
 
 __1. Consultas que sofrerão alterações__
 
@@ -50,6 +53,7 @@ A opção “___Exibir todos___” deverá ser incluída em todas as consultas q
 
 
 # Dúvidas
+<a href="#top">(inicio)</a>
 
 1.	Boa Prática
 Muitos portais utilizam a opção na pesquisa de exibir todos ou selecionar todos, sem a necessidade de ficar marcando a caixa de seleção “Exibir”. Dessa forma a seleção só é alterada, caso o usuário tenha interesse em exibir apenas um item específico.
