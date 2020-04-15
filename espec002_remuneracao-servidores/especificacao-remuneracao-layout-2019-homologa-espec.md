@@ -90,6 +90,7 @@ O glossário interativo das tabelas de navegação deve apresentar os seguintes 
 
 1. __Servidor:__ Nome do servidor civil ou militar conforme registrado nos Sistemas de Pagamento de Pessoal do Estado de Minas Gerais.
 1. __Masp:__ Matrícula do servidor civil ou militar de Minas Gerais.
+1. __Cargo:__ Cargo efetivo ou comissionado que o servidor ocupa.
 1. __Órgão Exercício:__ Órgão ou entidade de exercício do servidor.
 1. __Remuneração Bruta:__ Composta pela soma das parcelas remuneratórias correspondentes ao cargo efetivo, a função ou cargo comissionado, bem como gratificações de qualquer natureza e vantagens pecuniárias de caráter temporário ou permanente (gratificação natalina, férias e etc).
 1. __Remuneração Líquida:__ Valor da remuneração do servidor após deduções obrigatórias realizadas no mês. O valor líquido apresentado pode ser superior ao efetivamente recebido, em face de não estarem inseridos os descontos de caráter pessoal.
