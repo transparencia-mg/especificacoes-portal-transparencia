@@ -1,6 +1,6 @@
 ---
-title: "Consulta Remuneração - Interface"
-proposta_comercial: "626584/19"
+title: 'Memória de cálculo - valor pago'
+proposta_comercial: '626584/19'
 pull_request: "[PR#9](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/9)"
 contrato_manutencao: "15210010062019 (INF. 3951)"
 output:
@@ -146,4 +146,3 @@ O Portal apresenta como repassado o valor total de R$ 35.000,00 no entanto, conf
 ## Observação
 
 De acordo com informações da SEF, as variáveis _[Situação Ordem de Pagamento - Descrição]_ e _[Valor Pago Pendente]_ sofrem diversas alterações ao longo do exercício. O processo de carga utilizado, especialmente se possuir natureza incremental, deve garantir que os valores das variáveis estejam sendo atualizados.
-
