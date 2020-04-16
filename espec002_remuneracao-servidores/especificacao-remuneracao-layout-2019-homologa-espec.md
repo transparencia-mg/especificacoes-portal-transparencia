@@ -1,13 +1,15 @@
 ---
 contrato_manutencao: nº 15210010062019 (INF. 3951)
+mantis: 0144817
 proposta_comercial: nº 626584/19
 titulo: '[Consulta Remuneração - Interface](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec002_remuneracao-servidores/especificacao-remuneracao-layout-2019-homologa-espec.html)'
-mantis: 0144817
 output:
   html_document:
     theme: united
     toc: yes
   word_document:
+    toc: yes
+  pdf_document:
     toc: yes
 ---
 # Homologação da documentação da especificação
@@ -17,41 +19,51 @@ output:
 
 <div class="alert alert-danger">
 
-__As divergências estão destacadas em vermelho__
+_As divergências estão destacadas em vermelho__
 </div>
 
 ## Leiaute - Tabelas navegação por filtros
 <a href="#top">(inicio)</a>
 
-Incluir os campos ___cargo, remuneração bruta e remuneração líquida___ nas tabelas de resultado dos filtros
+Incluir os campos ___remuneração bruta e remuneração líquida___ nas tabelas de resultado dos filtros
 
 <div class="alert alert-success">
 
-* [Nome do Servidor](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/Robson%20Goncalves/0/0/0/0/0/0)
+* [Nome do Servidor](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/Robson%20Goncalves/0/0/0/0/0/0) __OK__
+
 ![](static/espec-tabela-filtro-servidor.png)
-----
+</div>
 
-* [Cargo Efetivo](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/0/0/3401/E/0/0/1)
+<div class="alert alert-success">
+
+* [Cargo Efetivo](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/0/0/3401/E/0/0/1) __OK__
+
+
 ![](static/espec-tabela-filtro-cargo-efetivo.png)
+</div>
 
------
+<div class="alert alert-success">
 
-* [Cargo em Comissão](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/0/0/4007/C/0/0/2)
+* [Cargo em Comissão](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/0/0/4007/C/0/0/2) __OK__
 
 ![](static/espec-tabela-filtro-cargo-comissao.png)
+</div>
 
-* [Órgão](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/0/1066/0/0/0/0/3)
+<div class="alert alert-success">
+
+* [Órgão](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/0/1066/0/0/0/0/3) __OK__
 
 ![](static/espec-tabela-filtro-cargo-orgao.png)
+</div>
 
-----
+<div class="alert alert-danger">
 
+__NÃO POSSUI O CAMPO CARGO NO QUARTO NÍVEL__
 
 bem como no [quarto nível](http://transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/201911/4/1094/4028/C) da navegação default por [salários mínimos](http://transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/201911/3). Os campos na tabela de resultado devem ser
 
 * Servidor
 * Masp
-* Cargo
 * Órgão Exercício
 * Remuneração Bruta
 * Remuneração Líquida
@@ -90,7 +102,6 @@ O glossário interativo das tabelas de navegação deve apresentar os seguintes 
 
 1. __Servidor:__ Nome do servidor civil ou militar conforme registrado nos Sistemas de Pagamento de Pessoal do Estado de Minas Gerais.
 1. __Masp:__ Matrícula do servidor civil ou militar de Minas Gerais.
-1. __Cargo:__ Cargo efetivo ou comissionado que o servidor ocupa.
 1. __Órgão Exercício:__ Órgão ou entidade de exercício do servidor.
 1. __Remuneração Bruta:__ Composta pela soma das parcelas remuneratórias correspondentes ao cargo efetivo, a função ou cargo comissionado, bem como gratificações de qualquer natureza e vantagens pecuniárias de caráter temporário ou permanente (gratificação natalina, férias e etc).
 1. __Remuneração Líquida:__ Valor da remuneração do servidor após deduções obrigatórias realizadas no mês. O valor líquido apresentado pode ser superior ao efetivamente recebido, em face de não estarem inseridos os descontos de caráter pessoal.
@@ -112,6 +123,7 @@ Faltou o texo __"(sim/não)"__ no campo apostila
 ![](static/espec-situacao-funcional.png)
 
 ---
+
 Corrigir texto do itens da situação funcional
 
 ![](static/espec-situacao-funcional-descricao-RNG019.png)
@@ -133,6 +145,7 @@ ___Exemplo:___ Caso o usuário selecione os filtros `Ano: 2015 Mês: Janeiro` na
 
 
 ---
+
 Corrigir texto do itens do histórico de recebimentos
 
 ![](static/espec-historico-recebimentos-descricao-RNG019.png)
