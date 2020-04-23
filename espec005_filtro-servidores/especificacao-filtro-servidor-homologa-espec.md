@@ -14,9 +14,9 @@ output:
 
 * ___Mantis 0144817___
 
-<div class="alert alert-danger">
+<div class="alert alert-info">
 
- __As divergências estão destacadas em vermelho__
+ __Toda as divergências foram corrigidas na documentação do dia 16/04/2020__
 </div>
 # Especificação
 
@@ -24,7 +24,7 @@ Na barra de pesquisa deve ser incluída um novo filtro em um campo específico q
 
 ![](static/barra_pesquisa.png)
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
  __A alteração da barra de pesquisa deve ocorrer a partir da página inicial - IU0034__
 
