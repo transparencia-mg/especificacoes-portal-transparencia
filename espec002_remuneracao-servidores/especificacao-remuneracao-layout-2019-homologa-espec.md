@@ -223,13 +223,8 @@ Ao clicar na coluna mês/ano, linha Out/2019 o portal exibirá o detalhamento do
 
 ![](static/formulario-detalhamento.png)
 
-<div class="alert alert-danger">
-
-O nome do servidor não deve ser todo em __"CAIXA ALTA"__
-
-
 ![](static/espec-formulario-detalhamento-jetons.png)
-</div>
+
 
 <div class="alert alert-success">
 Algumas observações:
