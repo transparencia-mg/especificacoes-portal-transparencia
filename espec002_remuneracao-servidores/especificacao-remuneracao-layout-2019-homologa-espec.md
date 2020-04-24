@@ -20,6 +20,7 @@ output:
 <div class="alert alert-danger">
 
 _As divergências estão destacadas em vermelho__
+
 </div>
 
 ## Leiaute - Tabelas navegação por filtros
@@ -27,40 +28,43 @@ _As divergências estão destacadas em vermelho__
 
 Incluir os campos ___remuneração bruta e remuneração líquida___ nas tabelas de resultado dos filtros
 
-<div class="alert alert-success">
+<div class="alert alert-danger">
 
-* [Nome do Servidor](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/Robson%20Goncalves/0/0/0/0/0/0) __OK__
+__Os campos "remuneração bruta e remuneração líquida" de todas as tabelas estão invertidos.__
+
+</div>
+
+<div class="alert alert-danger">
+
+* [Nome do Servidor]()
 
 ![](static/espec-tabela-filtro-servidor.png)
 </div>
 
-<div class="alert alert-success">
+<div class="alert alert-danger">
 
-* [Cargo Efetivo](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/0/0/3401/E/0/0/1) __OK__
-
+* [Cargo Efetivo]()
 
 ![](static/espec-tabela-filtro-cargo-efetivo.png)
 </div>
 
-<div class="alert alert-success">
+<div class="alert alert-danger">
 
-* [Cargo em Comissão](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/0/0/4007/C/0/0/2) __OK__
+* [Cargo em Comissão]()
 
 ![](static/espec-tabela-filtro-cargo-comissao.png)
 </div>
 
-<div class="alert alert-success">
+<div class="alert alert-danger">
 
-* [Órgão](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/201912/0/1066/0/0/0/0/3) __OK__
+* [Órgão]() 
 
 ![](static/espec-tabela-filtro-cargo-orgao.png)
 </div>
 
 <div class="alert alert-danger">
 
-__NÃO POSSUI O CAMPO CARGO NO QUARTO NÍVEL__
-
-bem como no [quarto nível](http://transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/201911/4/1094/4028/C) da navegação default por [salários mínimos](http://transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/201911/3). Os campos na tabela de resultado devem ser
+bem como no [quarto nível]() da navegação default por [salários mínimos](http://transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/201911/3). Os campos na tabela de resultado devem ser
 
 * Servidor
 * Masp
@@ -73,6 +77,13 @@ Exemplo:
 ![](static/leiaute_tabelas_navegacao_filtros.png)
 
 ![](static/espec-leiaute_tabelas_navegacao_filtros.png)
+
+---
+
+__Esse item não existe nas Tabelas__
+
+![](static/espec-total-geral.png)
+
   </div>
 
 * O campo remuneração bruta refere-se ao campo _[Total]_ da tabela histórico recebimentos;
@@ -93,8 +104,9 @@ Resultado após clicar em qualquer um dos vínculos
 
 ![](static/zulma-goncalves-detalhamento.png)
 
-<div class="alert alert-danger">
-A tela do glossário não está disponível na documentação
+<div class="alert alert-success">
+
+<s>A tela do glossário não está disponível na documentação</s>  __CORRIGIDO__
 
 ### Glossário Interativo: TOOL TIP
 
@@ -105,7 +117,9 @@ O glossário interativo das tabelas de navegação deve apresentar os seguintes 
 1. __Órgão Exercício:__ Órgão ou entidade de exercício do servidor.
 1. __Remuneração Bruta:__ Composta pela soma das parcelas remuneratórias correspondentes ao cargo efetivo, a função ou cargo comissionado, bem como gratificações de qualquer natureza e vantagens pecuniárias de caráter temporário ou permanente (gratificação natalina, férias e etc).
 1. __Remuneração Líquida:__ Valor da remuneração do servidor após deduções obrigatórias realizadas no mês. O valor líquido apresentado pode ser superior ao efetivamente recebido, em face de não estarem inseridos os descontos de caráter pessoal.
- </div>
+
+![](static/espec-glossario-tabela.png)
+</div>
 
 ## Leiaute - Formulários detalhamento situação funcional e histórico de recebimentos
 <a href="#top">(inicio)</a>
@@ -116,15 +130,16 @@ Após a seleção de um servidor utilizando qualquer um dos filtros da barra pes
 
 ![](static/situacao-funcional.png)
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Faltou o texo __"(sim/não)"__ no campo apostila
+<s> Faltou o texo __"(sim/não)"__ no campo apostila </s> __CORRIGIDO__
 
 ![](static/espec-situacao-funcional.png)
-
+</div>
 ---
+<div class="alert alert-success">
 
-Corrigir texto do itens da situação funcional
+<s>Corrigir texto do itens da situação funcional</s> __OK__
 
 ![](static/espec-situacao-funcional-descricao-RNG019.png)
 
@@ -146,9 +161,10 @@ ___Exemplo:___ Caso o usuário selecione os filtros `Ano: 2015 Mês: Janeiro` na
 
 ---
 
-Corrigir texto do itens do histórico de recebimentos
+<s>Corrigir texto do itens do histórico de recebimentos</s> __CORRIGIDO__
 
 ![](static/espec-historico-recebimentos-descricao-RNG019.png)
+![](static/espec-historico-recebimentos-descricao-RNG019-2.png)
 
   </div>
 
@@ -162,9 +178,7 @@ Observações:
 
 * Quando o número de linhas da tabela _[histórico recebimentos]_ for superior ao limite da página deve ser aplicada paginação conforme padrão das demais consultas;
 
-<div class="alert alert-danger">
-
-__NÃO FOI MENCIONADO ESSE COMPORTAMENTO NA DOCUMENTAÇÃO__
+<div class="alert alert-success">
 
 * O cabeçalho da tabela histórico recebimentos deve ser congelado, ou seja, quando o usuário usar a barra de rolagem vertical o cabeçalho da tabela deve ficar sempre visível. ___Exemplo:___ [Cabeçalho fixo (_Fixed Header_)](https://uxdesign.cc/design-better-data-tables-4ecc99d23356#86cf);
 
@@ -174,6 +188,9 @@ Exemplo: [stackoverflow](https://stackoverflow.com/questions/4709390/table-heade
 
 ![](static/fixed-header.gif)
 
+---
+![](static/espec-cabecalho-congelado.png)
+
 </div>
 
 * A tabela _[histórico recebimentos]_ deve exibir a opção de classificar em todas as colunas conforme já ocorre nas demais consultas do Portal; __OK__
@@ -181,6 +198,8 @@ Exemplo: [stackoverflow](https://stackoverflow.com/questions/4709390/table-heade
 * Os dados apresentados na tabela _[histórico recebimentos]_ devem refletir o primeiro mês da série histórica disponível até o mês/ano selecionado no início da pesquisa.  
 
     ___Exemplo:___ O servidor Luiz possui dados disponíveis de Mai/2015 a Out/2019. Caso o usuário selecione no filtro da _[barra de pesquisa]_ os dados de Out/2017, o Portal exibirá dos dados de Mai/2015 a Out/2017.
+
+![](static/espec-dados-tabela-obs.png)
 
 <div class="alert alert-success">
 
@@ -207,15 +226,15 @@ O glossário interativo do histórico recebimentos deve apresentar os seguintes 
 
 A tabela histórico recebimentos deve permitir que o usuário clique no mês/ano para detalhar as informações referente aqueles mês. A informação mês/ano virá em vermelho como forma de destacar a possibilidade de clique.
 
-<div class="alert alert-danger">
-
-__Não foi mencionado esse comportamento na documentação__
+<div class="alert alert-success">
 
 Quando o usuário clicar em um desses campos o Portal exibe outra janela detalhando os valores do mês selecionado. Deve ser possível a seleção de múltiplos meses sem perda de contexto.
 
 ___Exemplo:___ [Multi-Modal](https://uxdesign.cc/design-better-data-tables-4ecc99d23356#4a39)
 
 ![](static/multi-modal.gif)
+
+![](static/espec-formulario-detalhamento-obs.png)
 
   </div>
 
@@ -242,23 +261,24 @@ Algumas observações:
 ### Exportação de arquivos
 
 Ao contrário da situação atual, a funcionalidade de impressão e exportação (CSV e PDF) deve existir tanto nas tabelas de navegação por filtros quanto nos formulários de detalhamento da situação funcional e histórico de recebimentos.
+
+<div class="alert alert-success">
+
+__OK__
+![](static/espec-impressao-tabela.png)
+</div>
+
 <div class="alert alert-danger">
 
-__A descrição do conteúdo que diz respeito a impressão não está conforme o especificado__
+__Falta o ícone imprimir__
 
-![](static/espec-impressao.png)
+![](static/espec-impressao-formulario.png)
 
 </div>
 
 Nas tabelas de navegação por filtros as regras de exportação/impressão devem seguir o padrão das demais consultas. A seguir são destacadas as particularidades das regras exportação/impressão para os formulários de detalhamento da situação funcional e histórico de recebimentos:
 
-<div class="alert alert-danger">
-
-__* Os comportamentos abaxo não foram mencionados na documentação;__
-
-__* O exemplo da planilha CSV que o usuário realizará downloand não consta na documentação;__
-__* O ícone para exportação não consta na tabela__
-
+<div class="alert alert-success">
 
 * A opção exportar dados deve gerar a planilha completa em forma de tabela com todos os dados das tabelas _[situação funcional]_ e _[histórico de recebimentos]_.
 
@@ -266,7 +286,12 @@ __* O ícone para exportação não consta na tabela__
 
       ___Exemplo 1___: A linha "Ago/2015" deve exibir a situação funcional e remuneração do servidor referente a agosto de 2015; A linha "Jan/2019" deve exibir a situação funcional e remuneração do servidor referente a janeiro/2019 e assim sucessivamente.
 
-* O leiaute da planilha exportada deve seguir o formato da planilha de remuneração disponibilizada pela CGE com inserção de uma coluna `mes` no formato `YYYY-MM-01`. Vide [arquivo exemplo](static/csv-usuario.csv).
+* O leiaute da planilha exportada deve seguir o formato da planilha de remuneração disponibilizada pela CGE com inserção de uma coluna `mes` no formato `YYYY-MM-01`. Vide [arquivo exemplo](static/csv-usuario.csv). __OK__
+
+
+![](static/espec-padroes-impressão-RNG029.png)
+
+![](static/espec-arquivo-csv.png)
 
 * Os valores zero devem ser exportados como valores numéricos `0`
 </div>
