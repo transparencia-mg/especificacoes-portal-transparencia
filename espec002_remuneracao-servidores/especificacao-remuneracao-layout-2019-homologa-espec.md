@@ -17,9 +17,9 @@ output:
 
 * ___Mantis 0144817___
 
-<div class="alert alert-danger">
+<div class="alert alert-info">
 
-_As divergências estão destacadas em vermelho__
+_As divergências foram todas corrigidas na documentação do dia 28/04/2020__
 
 </div>
 
@@ -28,41 +28,35 @@ _As divergências estão destacadas em vermelho__
 
 Incluir os campos ___remuneração bruta e remuneração líquida___ nas tabelas de resultado dos filtros
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-__Os campos "remuneração bruta e remuneração líquida" de todas as tabelas estão invertidos.__
-
-</div>
-
-<div class="alert alert-danger">
-
-* [Nome do Servidor]()
+* [Nome do Servidor]() __OK__
 
 ![](static/espec-tabela-filtro-servidor.png)
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 * [Cargo Efetivo]()
 
 ![](static/espec-tabela-filtro-cargo-efetivo.png)
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 * [Cargo em Comissão]()
 
 ![](static/espec-tabela-filtro-cargo-comissao.png)
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-* [Órgão]() 
+* [Órgão]()
 
 ![](static/espec-tabela-filtro-cargo-orgao.png)
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 bem como no [quarto nível]() da navegação default por [salários mínimos](http://transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/201911/3). Os campos na tabela de resultado devem ser
 
@@ -268,9 +262,9 @@ __OK__
 ![](static/espec-impressao-tabela.png)
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-__Falta o ícone imprimir__
+__Falta o ícone imprimir__ __OK__
 
 ![](static/espec-impressao-formulario.png)
 
