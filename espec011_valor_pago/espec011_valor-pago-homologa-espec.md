@@ -2,7 +2,7 @@
 title: '[Memória de cálculo - valor pago]()'
 proposta_comercial: "626584/19"
 contrato_manutencao: "15210010062019 (INF. 3951)"
-mantis:
+mantis: 0145203
 output:
   html_document:
     theme: united
@@ -10,44 +10,14 @@ output:
 ---
  # Homologação da especificação
 
- __Mantis__
+ __Mantis: 0145203__
 
+ <div class="alert alert-danger">
 
-# Visão Geral da Intervenção
+As divergências estão destacadas em vermelho.
+--
 
-Essa demanda visa adequar no Portal da Transparência a forma de divulgação de informações sobre pagamentos de despesas. Mais especificamente
-
-* alteração do formulário de detalhamento (opção pagamento);
-* alteração do nome das tabelas;
-* alteração da conceito dos _tooltips_ das consultas de despesa, restos a pagar e diárias;
-* alteração do cálculo do valor repassado na consulta de convênios
-
-As variáveis _[Situação Ordem de Pagamento - Descrição]_ e _[Valor Pago Pendente]_ do assunto `EXECUÇÃO ORÇAMENTÁRIA DA DESPESA / DESPESA REALIZADA` deverão ser extraídas do Armazém SIAFI para viabilizar as alterações definidas nesta especificação.
-
-# Motivação / Contexto da Intervenção
-
-De acordo com o [art. 64 da Lei 4320/1964](http://www.planalto.gov.br/ccivil_03/leis/l4320.htm#art64), a ordem de pagamento é o despacho exarado por autoridade competente, determinando que a despesa seja paga. O pagamento da despesa consiste na transferência de recursos financeiros a terceiros, encerrando a obrigação existente entre as partes.
-
-De maneira geral, entre o registro da ordem de pagamento (OP) e o seu pagamento efetivo a OP irá percorrer as seguintes etapas:
-
-1. Pendente de assinatura digital;
-1. Pendente de transmissão aos bancos;
-1. Pendente de [compensação bancária](https://contaembanco.com.br/servicos/quais-sao-os-prazos-de-compensacao-bancaria/);
-1. Pendente de confirmação da compensação bancária.
-
-Atualmente o Portal da Transparência divulga uma OP enquanto valor pago no momento de seu registro. Isso ocorre nas consultas de despesa, diárias, restos a pagar, e convênios de saída.
-
-Ou seja, o Portal divulga uma despesa como paga que potencialmente não percorreu todas as etapas de pagamento, como, por exemplo, assinatura pelo ordenador de despesa, transmissão ao banco e compensação bancária.
-
-Essa situação gera dúvidas para os credores sobre o efetivo depósito dos valores registrados no Portal como pagos, sendo motivo de questionamentos recorrentes à equipe gestora do Portal da Transparência, inclusive por parte de órgãos estaduais.
-
-Além disso, não existe clareza sobre o significado da data de pagamento informada nas diversas consultas do Portal.
-
-## Observação
-
-Conforme informado pela Diretoria Central de Governança do Sistema - SEF o campo _[Situação Ordem de Pagamento - Descrição]_ do armazém SIAFI foi tratado em 2019 para permitir que a informação seja extraída de apenas uma [tabela](static/static/espec-SEF-situacao-ordem-pagamento.docx).
-
-Ainda segundo essa Diretoria, o campo _[Valor Pago Pendente]_ (campo que será utilizado na nova regra da consulta de convênios de saída) são tratadss as situações: transmitida ao banco – pendente de Confirmação e pendente de transmissão aos bancos.
+   </div>
 
 # Especificação
 
@@ -58,9 +28,24 @@ __1. Alterar descrição do campo "Valor Pago"__
 Alterar a descrição do _tooltip_ da coluna Valor Pago:
 
 * __Valor Pago:__ Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão ao banco e/ou sujeito a compensação bancária.
-
 ![](static/espec-tooltip-valor-pago.jpg)
 
+<div class="alert alert-success">
+
+Conceito alterado em todas as tabelas
+  --
+Despesa OK
+--
+
+![](static/espec-tooltip-valor-pago-descricao-despesa.jpg)
+
+---
+Diárias OK
+--
+
+![](static/espec-tooltip-valor-pago-descricao-diarias.jpg)
+
+   </div>
 
 __2. Alterar o texto e descrição das colunas "Data" e "Número de Documento"__
 
@@ -72,13 +57,86 @@ Alterar o texto e descrição do _tooltip_ das colunas "Data" e " Número do doc
 
   - Número do Empenho (no lugar de Número Documento): Número de identificação do documento de empenho.
 
-  ![](static/espec-tooltip-empenho.jpg)
+![](static/espec-tooltip-empenho.jpg)
+
+__DESPESA__
+--
+<div class="alert alert-success">
+Dados corretos
+
+![](static/espec-tooltip-empenho-tabela-despesa.jpg)
+</div>
+
+<div class="alert alert-danger">
+
+<kbd> O nome na tabela lista está incorreto. O nome deve ser Número do empenho</kbd>
+  --
+__A correção deve ser aplicada em todas as consultas e em todos os niveis.__
+--
+![](static/espec-tooltip-empenho-descricao-despesa.jpg)
+
+</div>
+
+__DIÁRIAS__
+--
+<div class="alert alert-danger">
+
+<kbd> O nome da coluna está incorreto na tabela e na descrição. O correto é  [*Número do Empenho*]</kbd>
+--
+__A correção deve ser aplicada em todas as consultas e em todos os niveis.__
+--
+![](static/espec-tooltip-empenho-tabela-diarias.jpg)
+
+---
+![](static/espec-tooltip-empenho-descricao-diarias.jpg)
+
+</div>
 
 __Situação 2:__ ao clicar em [Valor Liquidado](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2020/01-01-2020/31-12-2020/4009/1910/457/20/42/1264408/2771/liquidado), o próximo nível deverá apresentar a informação:
 
   - Data do Registro (no lugar de Data): Data de registro do documento de liquidação.
 
   ![](static/espec-tooltip-liquidacao.jpg)
+
+__DESPESA__
+--
+<div class="alert alert-success">
+
+__OK__
+  ![](static/espec-tooltip-liquidacao-tabela-despesa.jpg)
+
+</div>
+
+<div class="alert alert-danger">
+
+<kbd> A descrição do nome Data de registro está incorreto. O correto é [*Data de registro do documento de liquidação*].</kbd>
+--
+__A correção deve ser aplicada em todas as consultas e em todos os niveis.__
+--
+
+![](static/espec-tooltip-liquidacao-descricao-despesa.jpg)
+
+</div>
+
+__DIÁRIAS__
+--
+<div class="alert alert-success">
+
+__OK__
+
+![](static/espec-tooltip-liquidacao-tabela-diarias.jpg)
+</div>
+
+<div class="alert alert-danger">
+
+<kbd> A descrição do nome Data de registro está incorreto. O correto é [*Data de registro do documento de liquidação*].</kbd>
+--
+__A correção deve ser aplicada em todas as consultas e em todos os niveis.__
+--
+
+![](static/espec-tooltip-liquidacao-descricao-diarias.jpg)
+
+</div>
 
 __Situação 3:__ ao clicar em [Valor Pago](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2020/01-01-2020/31-12-2020/4009/1910/457/20/42/1264408/2771/pago), o próximo nível deverá apresentar a informação:
 
@@ -87,6 +145,59 @@ __Situação 3:__ ao clicar em [Valor Pago](http://www.transparencia.mg.gov.br/d
   - Número da Ordem Pagamento (no lugar de Número Documento): Número de identificação do documento da ordem de pagamento.
 
 ![](static/espec-tooltip-op-pagamento.jpg)
+
+
+DESPESA
+--
+<div class="alert alert-success">
+
+__OK__
+
+  ![](static/espec-tooltip-op-pagamento-tabela-despesa.jpg)
+
+</div>
+
+
+<div class="alert alert-danger">
+
+<kbd> A descrição do nome [Data de registro] e [Número da Ordem de Pagamento] estão incorretos.</kbd>
+--
+
+**O correto é:**
+* Data de Registro [*Data de registro da ordem de pagamento*]
+* Número da Ordem de Pagamento [*Número de identificação do documento da ordem de pagamento*].
+
+__A correção deve ser aplicada em todas as consultas e em todos os niveis.__
+--
+![](static/espec-tooltip-op-pagamento-descricao-despesa.jpg)
+
+</div>
+
+
+__DIÁRIAS__
+--
+<div class="alert alert-success">
+
+__OK__
+
+![](static/espec-tooltip-op-pagamento-tabela-diarias.jpg)
+</div>
+
+<div class="alert alert-danger">
+
+<kbd> A descrição do nome [Data de registro] e [Número da Ordem de Pagamento] estão incorretos.</kbd>
+--
+
+**O correto é:**
+* Data de Registro [*Data de registro da ordem de pagamento*]
+* Número da Ordem de Pagamento [*Número de identificação do documento da ordem de pagamento*].
+
+__A correção deve ser aplicada em todas as consultas e em todos os niveis.__
+--
+
+![](static/espec-tooltip-op-pagamento-descricao-diarias.jpg)
+
+</div>
 
 __3. Alteração do Formulário de Detalhamento__
 
@@ -98,6 +209,22 @@ Ao clicar no [Número do documento do Empenho, Número Documento Liquidação ou
 
 ![](static/espec-formulario-detalhamento-despesa.jpg)
 
+DESPESA
+--
+<div class="alert alert-success">
+
+__OK__
+
+![](static/espec-formulario-detalhamento-despesa-tabela.jpg)
+</div>
+
+DIÁRIAS
+--
+<div class="alert alert-danger">
+
+<kbd> Não identifquei o formulário de detalhamento da consulta de diárias.</kbd>
+--
+</div>
 
 ## Consulta Restos a Pagar
 
@@ -109,6 +236,14 @@ Alterar a descrição do _tooltip_ da coluna "valor pago no ano" da consulta de 
 
 ![](static/espec-tooltip-valor-pago-ano.jpg)
 
+<div class="alert alert-success">
+
+<kbd>OK Conceito alterado em todas as tabelas</kbd>
+--
+![](static/espec-tooltip-valor-pago-ano-descricao.jpg)
+
+</div>
+
 __2. Formulário de Detalhamento__
 
 No [Formulário de Detalhamento da Consulta de Restos a pagar](http://transparencia.mg.gov.br/despesa-estado/restos-a-pagar/restospagar-orgaos/2019/3853/546/42/20/3065/130/58/5933374) será alterada a mesma informação já especificada para a consulta de Despesas e Diárias, que é:
@@ -118,6 +253,14 @@ No [Formulário de Detalhamento da Consulta de Restos a pagar](http://transparen
 2. Incluir a coluna de "Situação da Ordem de Pagamento" no formulário de pagamento (após a coluna data de registro).
 
 ![](static/espec-formulario-detalhamento-despesa.jpg)
+
+<div class="alert alert-success">
+
+__OK__
+--
+![](static/espec-formulario-detalhamento-rp-tabela.jpg)
+
+</div>
 
 ## Consulta Convênios de Saída
 
@@ -129,6 +272,14 @@ Alterar a descrição do _tooltip_ da coluna "valor Repassado pelo Concedente/Ó
 
 ![](static/espec-tooltip-convenio-saida.jpg)
 
+<div class="alert alert-danger">
+
+<kbd>A alteração será aplicada em todos os níveis da consulta? Não identifiquei os demais niveis na documentação.</kbd>
+--
+
+![](static/espec-tooltip-convenio-saida-descricao.jpg)
+
+</div>
 
 __2. Alterar Formulário de Detalhamento__
 
