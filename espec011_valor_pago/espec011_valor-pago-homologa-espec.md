@@ -8,7 +8,7 @@ output:
     theme: united
     toc: yes
 ---
- # Homologação da especificação
+# Homologação da especificação
 
  __Mantis: 0145203__
 
@@ -17,11 +17,12 @@ output:
 As divergências estão destacadas em vermelho.
 --
 
-   </div>
+</div>
 
 # Especificação
 
 ## Consulta Despesa e Diárias
+
 
 __1. Alterar descrição do campo "Valor Pago"__
 
@@ -32,16 +33,17 @@ Alterar a descrição do _tooltip_ da coluna Valor Pago:
 
 <div class="alert alert-success">
 
-Conceito alterado em todas as tabelas
+  Conceito alterado em todas as tabelas
   --
-Despesa OK
---
+  Despesa OK
+
 
 ![](static/espec-tooltip-valor-pago-descricao-despesa.jpg)
 
 ---
-Diárias OK
---
+
+  Diárias OK
+
 
 ![](static/espec-tooltip-valor-pago-descricao-diarias.jpg)
 
@@ -60,7 +62,7 @@ Alterar o texto e descrição do _tooltip_ das colunas "Data" e " Número do doc
 ![](static/espec-tooltip-empenho.jpg)
 
 __DESPESA__
---
+
 <div class="alert alert-success">
 Dados corretos
 
@@ -69,8 +71,8 @@ Dados corretos
 
 <div class="alert alert-danger">
 
-<kbd> O nome na tabela lista está incorreto. O nome deve ser Número do empenho</kbd>
-  --
+O nome na tabela lista está incorreto. O nome deve ser [Número do empenho]
+--
 __A correção deve ser aplicada em todas as consultas e em todos os niveis.__
 --
 ![](static/espec-tooltip-empenho-descricao-despesa.jpg)
@@ -78,10 +80,10 @@ __A correção deve ser aplicada em todas as consultas e em todos os niveis.__
 </div>
 
 __DIÁRIAS__
---
+
 <div class="alert alert-danger">
 
-<kbd> O nome da coluna está incorreto na tabela e na descrição. O correto é  [*Número do Empenho*]</kbd>
+O nome da coluna está incorreto na tabela e na descrição. O correto é  [*Número do Empenho*]
 --
 __A correção deve ser aplicada em todas as consultas e em todos os niveis.__
 --
@@ -99,7 +101,7 @@ __Situação 2:__ ao clicar em [Valor Liquidado](http://www.transparencia.mg.gov
   ![](static/espec-tooltip-liquidacao.jpg)
 
 __DESPESA__
---
+
 <div class="alert alert-success">
 
 __OK__
@@ -107,19 +109,18 @@ __OK__
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-<kbd> A descrição do nome Data de registro está incorreto. O correto é [*Data de registro do documento de liquidação*].</kbd>
---
-__A correção deve ser aplicada em todas as consultas e em todos os niveis.__
---
+A descrição do nome Data de registro está incorreto. O correto é [*Data de registro do documento de liquidação*]. __CORRIGIDO__
+
+A correção deve ser aplicada em todas as consultas e em todos os niveis.__CORRIGIDO__
 
 ![](static/espec-tooltip-liquidacao-descricao-despesa.jpg)
 
 </div>
 
 __DIÁRIAS__
---
+
 <div class="alert alert-success">
 
 __OK__
@@ -127,12 +128,12 @@ __OK__
 ![](static/espec-tooltip-liquidacao-tabela-diarias.jpg)
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-<kbd> A descrição do nome Data de registro está incorreto. O correto é [*Data de registro do documento de liquidação*].</kbd>
---
-__A correção deve ser aplicada em todas as consultas e em todos os niveis.__
---
+A descrição do nome Data de registro está incorreto. O correto é [*Data de registro do documento de liquidação*].<__CORRIGIDO__>
+
+A correção deve ser aplicada em todas as consultas e em todos os niveis. <__CORRIGIDO__>
+
 
 ![](static/espec-tooltip-liquidacao-descricao-diarias.jpg)
 
@@ -148,7 +149,7 @@ __Situação 3:__ ao clicar em [Valor Pago](http://www.transparencia.mg.gov.br/d
 
 
 DESPESA
---
+
 <div class="alert alert-success">
 
 __OK__
@@ -160,12 +161,16 @@ __OK__
 
 <div class="alert alert-danger">
 
-<kbd> A descrição do nome [Data de registro] e [Número da Ordem de Pagamento] estão incorretos.</kbd>
+A descrição do nome [Data de registro] e [Número da Ordem de Pagamento] estão incorretos.
 --
 
 **O correto é:**
-* Data de Registro [*Data de registro da ordem de pagamento*]
-* Número da Ordem de Pagamento [*Número de identificação do documento da ordem de pagamento*].
+<div class="alert alert-success">
+* Data de Registro [*Data de registro da ordem de pagamento*] <__CORRIGIDO__>
+</div>
+
+Número da Ordem de Pagamento [*Número de identificação do documento da ordem de pagamento*]. <__O TEXTO AINDA ESTÁ INCORRETO__>
+--
 
 __A correção deve ser aplicada em todas as consultas e em todos os niveis.__
 --
@@ -175,7 +180,7 @@ __A correção deve ser aplicada em todas as consultas e em todos os niveis.__
 
 
 __DIÁRIAS__
---
+
 <div class="alert alert-success">
 
 __OK__
@@ -185,12 +190,19 @@ __OK__
 
 <div class="alert alert-danger">
 
-<kbd> A descrição do nome [Data de registro] e [Número da Ordem de Pagamento] estão incorretos.</kbd>
+A descrição do nome [Data de registro] e [Número da Ordem de Pagamento] estão incorretos.
 --
 
 **O correto é:**
-* Data de Registro [*Data de registro da ordem de pagamento*]
-* Número da Ordem de Pagamento [*Número de identificação do documento da ordem de pagamento*].
+
+<div class="alert alert-success">
+
+* Data de Registro [*Data de registro da ordem de pagamento*] <__CORRIGIDO__>
+
+</div>
+
+Número da Ordem de Pagamento [*Número de identificação do documento da ordem de pagamento*]. __O texto ainda está errado__
+--
 
 __A correção deve ser aplicada em todas as consultas e em todos os niveis.__
 --
@@ -210,7 +222,7 @@ Ao clicar no [Número do documento do Empenho, Número Documento Liquidação ou
 ![](static/espec-formulario-detalhamento-despesa.jpg)
 
 DESPESA
---
+
 <div class="alert alert-success">
 
 __OK__
@@ -219,10 +231,10 @@ __OK__
 </div>
 
 DIÁRIAS
---
-<div class="alert alert-danger">
 
-<kbd> Não identifquei o formulário de detalhamento da consulta de diárias.</kbd>
+<div class="alert alert-success">
+
+ Conforme Caso de Uso CDU002.03 Consultar pessoal – Despesas com Diárias em Requisitos funcionais > Casos de Uso, a interface de detalhamento de despesa é acessada pela consulta de diárias, pois ambas consultas compartilham o mesmo formato de detalhamento.
 --
 </div>
 
@@ -238,7 +250,7 @@ Alterar a descrição do _tooltip_ da coluna "valor pago no ano" da consulta de 
 
 <div class="alert alert-success">
 
-<kbd>OK Conceito alterado em todas as tabelas</kbd>
+OK Conceito alterado em todas as tabelas
 --
 ![](static/espec-tooltip-valor-pago-ano-descricao.jpg)
 
@@ -272,10 +284,14 @@ Alterar a descrição do _tooltip_ da coluna "valor Repassado pelo Concedente/Ó
 
 ![](static/espec-tooltip-convenio-saida.jpg)
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 <kbd>A alteração será aplicada em todos os níveis da consulta? Não identifiquei os demais niveis na documentação.</kbd>
---
+
+Resposta Luiz:
+
+_"O formato da documentação realizada na época é diferenciado, não apresentando os níveis da consulta. Entretanto, a alteração será aplicada em todos os níveis, principalmente pelo fato de que o glossário interativo é uma informação centralizada na aplicação.'_'
+
 
 ![](static/espec-tooltip-convenio-saida-descricao.jpg)
 
