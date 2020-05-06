@@ -12,9 +12,9 @@ output:
 
  __Mantis: 0145203__
 
- <div class="alert alert-danger">
+ <div class="alert alert-success">
 
-As divergências estão destacadas em vermelho.
+Conferência finalizada em 06/05/2020.
 --
 
 </div>
@@ -69,11 +69,12 @@ Dados corretos
 ![](static/espec-tooltip-empenho-tabela-despesa.jpg)
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 O nome na tabela lista está incorreto. O nome deve ser [Número do empenho]
 --
-__A correção deve ser aplicada em todas as consultas e em todos os niveis.__
+A correção deve ser aplicada em todas as consultas e em todos os niveis.__CORRIGIDO__
+
 --
 ![](static/espec-tooltip-empenho-descricao-despesa.jpg)
 
@@ -81,12 +82,12 @@ __A correção deve ser aplicada em todas as consultas e em todos os niveis.__
 
 __DIÁRIAS__
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 O nome da coluna está incorreto na tabela e na descrição. O correto é  [*Número do Empenho*]
 --
-__A correção deve ser aplicada em todas as consultas e em todos os niveis.__
---
+A correção deve ser aplicada em todas as consultas e em todos os niveis.__CORRIGIDO__
+
 ![](static/espec-tooltip-empenho-tabela-diarias.jpg)
 
 ---
@@ -159,20 +160,19 @@ __OK__
 </div>
 
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 A descrição do nome [Data de registro] e [Número da Ordem de Pagamento] estão incorretos.
 --
 
 **O correto é:**
-<div class="alert alert-success">
+
 * Data de Registro [*Data de registro da ordem de pagamento*] <__CORRIGIDO__>
-</div>
 
-Número da Ordem de Pagamento [*Número de identificação do documento da ordem de pagamento*]. <__O TEXTO AINDA ESTÁ INCORRETO__>
---
 
-__A correção deve ser aplicada em todas as consultas e em todos os niveis.__
+Número da Ordem de Pagamento [*Número de identificação do documento da ordem de pagamento*]. <__CORRIGIDO__>
+
+__A correção deve ser aplicada em todas as consultas e em todos os niveis.__ OK
 --
 ![](static/espec-tooltip-op-pagamento-descricao-despesa.jpg)
 
@@ -188,21 +188,20 @@ __OK__
 ![](static/espec-tooltip-op-pagamento-tabela-diarias.jpg)
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 A descrição do nome [Data de registro] e [Número da Ordem de Pagamento] estão incorretos.
 --
 
 **O correto é:**
 
-<div class="alert alert-success">
+
 
 * Data de Registro [*Data de registro da ordem de pagamento*] <__CORRIGIDO__>
 
-</div>
 
-Número da Ordem de Pagamento [*Número de identificação do documento da ordem de pagamento*]. __O texto ainda está errado__
---
+Número da Ordem de Pagamento [*Número de identificação do documento da ordem de pagamento*].<__CORRIGIDO__>
+
 
 __A correção deve ser aplicada em todas as consultas e em todos os niveis.__
 --
