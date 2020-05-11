@@ -93,13 +93,13 @@ Cada evento de carga pela DTI deverá gerar um aviso automático por email, por 
 
 * O CKAN permite alguma solução de negociação de conteúdo para oferta de múltiplos formatos de arquivos?
 
-* Caso seja implementado uma nova consulta, ou exista alterações nas consultas pré-existentes, no Portal da Transparência, como isso será refletido no CKAN?
+* Caso seja implementado uma nova consulta, ou exista alterações nas consultas pré-existentes, no Portal da Transparência, como isso será refletido no CKAN? Como garantir que as mudanças sejam implementadas por máquina, seja nos arquivos ou nos seus metadados (quais funções em quais linhas do scropt)?
 
 * o que o script de carga faz de fato?
 
-* Atualização dos metadados no ckan precinde de conferência pela DTI?
+* Processo de atualização de metadados: prescinde de conferência pela DTI? onde estaria o git consumido e como mudar?
 
-* Processo de atualização de metadados: onde estaria o git consumido e como mudar?
+* É realmente necessário um arquivo json para descrever cada arquivo, como foi solicitado pela DTI durante os testes, em vez de um único por conjunto de dados?
 
 ## Negócio
 
@@ -110,3 +110,5 @@ Cada evento de carga pela DTI deverá gerar um aviso automático por email, por 
 * Em qual formato de arquivo (eg. csv, json) os conjuntos de dados deverão ser disponibilizados no CKAN?
 
 * Qual a responsabilidade da DTA nos arquivos de datasets que não têm consultas correspondentes na interface do Portal, ou que não estão visíveis no banco do Portal pelo NUCC? (Eg, doações, termos de parceria, relatórios de pedidos de acesso às informações)
+
+## [Issues a partir dos testes no novo domínio criado](http://10.183.67.16/transparencia/issues/)
