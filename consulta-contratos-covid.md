@@ -9,7 +9,7 @@ output:
 # Visão geral da Demanda
 <a href="#top">(inicio)</a>
 
-Essa demanda visa criar uma um local específica para divulgar as ações do governo destinadas ao enfrentamento do Coronavírus (COVID-19).
+Essa demanda visa implementar uma consulta para divulgar as ações do governo destinadas ao enfrentamento do Coronavírus (COVID-19).
 
 # Motivação
 <a href="#top">(inicio)</a>
@@ -28,7 +28,15 @@ Para contemplar a inclusão dos modos de consulta relacionadas às Contrataçõe
 
 ![](static/pagina-inicial-covid19.png)
 
-* __Texto do ícone COVID-19:__ Encontre aqui os gastos, contratações e legislações do Estado referente ao enfretamento à pandemia causada pelo novo coronavírus.
+__Texto do ícone COVID-19:__ Encontre aqui os gastos, contratações e legislações do Estado referente ao enfretamento à pandemia causada pelo novo coronavírus.
+
+#### Observação
+
+O ícone ___[COVID-19]___ deve se o primeiro ícone da esquerda para direita, sendo os demais reposicionandos. O ícone ___[TCE/Obras Públicas]___ deverá ficar abaixo do ícone ___[Munícipios]___
+
+
+## Página das Consultas
+<a href="#top">(inicio)</a>
 
 Após clicar no ícone ___[COVID-19]___ deve ser apresentado a página a seguir:
 
@@ -44,7 +52,7 @@ Após clicar no ícone ___[COVID-19]___ deve ser apresentado a página a seguir:
 
 * Acesso à Informação: Registre sua solicitação de acesso à informação para órgãos e entidades do Poder Executivo Estadual.
 
-* Dados Abertos COVID -19: Acesse aqui o conjunto de dados das aquisições e contratações relacionadas ao COVID-9.
+* Dados Abertos: Acesse aqui o conjunto de dados relacionados a COVID 19.
 
 * Conselho de Transparência e Combate a Corrupção: Acesse aqui as informações sobre o Conselho de Transparência e Combate à Corrupção e sua atuação no monitoramento e avaliação das ações relacionadas ao enfrentamento da COVID-19.
 
@@ -61,51 +69,59 @@ Ao clicar em ___[Aquisições e Contratações]___ o portal exibe uma página co
 
 ![](static/leiaute-painel-covid19.png)
 
-Arquico .xls: [leiaute-tabelas-covid19]()
+Arquico .xls: [leiaute-tabelas-covid19](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/feat/consulta-contratos-covid/static/leiaute-tabelas-covid19.xlsx)
 
 ___Itens da tabela___:
 
-__1. Número do Processo de Compra:__ Número identificador do processo de compra no Portal de Compras.
+1. __Número do Processo de Compra:__ Número identificador do processo de compra no Portal de Compras.
 
-__2. Objeto do Processo:__ Descrição dos bens e serviços que estão sendo comprados e sua finalidade.
+1. __Data de Cadastramento do Processo:__ Data de Cadastro do Processo de Compras
+1. __Objeto do Processo:__ Descrição dos bens e serviços que estão sendo comprados e sua finalidade.
 
-__3. Edital__:
-
-__4. Órgão demandante__: Órgão ou entidade que solicitou a compra de determinado material ou serviço. Pode coincidir ou não com o órgão que está executando o processo de compra.
-
-__5. Procedimento de contratação:__ Inclui as modalidades de licitação (concorrência, tomada de preços, convite e leilão), pregão, dispensa, inexigibilidade, registro de preços, etc.
-
-__6. Situação do Processo:__ Situação do processo de compra durante a aquisição de materiais e serviços (concluído, suspenso, em andamento, etc.). Quanto aos processos de compra com situação em andamento, são considerados apenas os itens já homologados desses processos.
-
-__7. Órgão Contrato__: Órgão ou entidade que formalizou o instrumento de contratação.
-
-__8. Número do Contrato__: Número do contrato registrado no SIAFI.
-
-__9. CPF/CNPJ do Contratado:__ Número de identificação do fornecedor. Pessoa Jurídica (CNPJ) e Pessoa física (CPF).
-
-__10. Contratado:__ Nome da pessoa física ou jurídica contratada para prestar um serviço ou entregar bens materiais ao Estado.
-
-__11. Data da Publicação do Contrato__: Data de Publicação do Contrato no IOF.
-
-__12.Fim da Vigência do Contrato__: Data atualizada do fim da vigência do Contrato.
-
-__13. Valor de Referência__:Valor estimado de um determinado bem ou serviço, obtido por meio de pesquisa de mercado ou cadastro de preços.
-
-__14. Valor Homologado__: Valor final licitado ou comprado.
+1. __Código Órgão Demandante:__
+1. __Órgão demandante__: Órgão ou entidade que solicitou a compra de determinado material ou serviço. Pode coincidir ou não com o órgão que está executando o processo de compra.
+1. __Edital:__
+1. __Situação do Processo:__ Situação do processo de compra durante a aquisição de materiais e serviços (concluído, suspenso, em andamento, etc.). Quanto aos processos de compra com situação em andamento, são considerados apenas os itens já homologados desses processos.
+1. __Procedimento de contratação:__ Inclui as modalidades de licitação (concorrência, tomada de preços, convite e leilão), pregão, dispensa, inexigibilidade, registro de preços, etc.
+1. __Número do Contrato__: Número do contrato registrado no SIAFI.
+1. __Código Órgão:__
+1. __Órgão Contrato__: Órgão ou entidade que formalizou o instrumento de contratação.
+1. __Data da Publicação:__ Data de Publicação do Contrato no IOF.
+1. __Início da Vigência:__ Ínicio da vigência do Contrato
+1. __Fim da Vigência:__: Data fim da vigência do Contrato.
+1. __Fim da Vigência Atualizada:__: Data atualizada do fim da vigência do Contrato.
+1. __CPF/CNPJ do Contratado:__ Número de identificação do fornecedor. Pessoa Jurídica (CNPJ) e Pessoa física (CPF).
+1. __Contratado:__ Nome da pessoa física ou jurídica contratada para prestar um serviço ou entregar bens materiais ao Estado.
+1. __Valor de Referência__:Valor estimado de um determinado bem ou serviço, obtido por meio de pesquisa de mercado ou cadastro de preços.
+1. __Valor Homologado__: Valor final licitado ou comprado.
 
 #### Observações Importantes
 
 * O campo filtro deverá buscar qualquer item na tabela;
 
-* O Painel deverá apresentar todos os processos de compras relacionados ao Programa 026 -Enfrentamento dos Efeitos da Pandemia de COVID-19: processos concluídos e em andamento, bem como os processos que ainda não tiveram nenhuma execução.
+* O Painel deverá apresentar todos os processos de compras relacionados ao Programa 026 -Enfrentamento dos Efeitos da Pandemia de COVID-19 independente da situação e do ano de cadastro do processo de compra.        
+__Exemplo:__
+    - Processo de Compra Concluido: [0250073 000001/2020](http://transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos/comprasecontratos-detalhe-proccompra/2020/20200101/20201231/322109)
+    - Processo de Compra Em andamento: [1510120 000001/2020](http://transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos/comprasecontratos-procedimento/4/2020/01-01-2020/18-05-2020/1831079/0/2/0/18/85/239/8510/21584/85100242/170087/1669370/321394/1510120000001-2020)
+    - Processo de Compra ano 2017: [1401189 000001/2017](http://transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos/comprasecontratos-detalhe-proccompra/2017/20170101/20171231/90432)
 
-* Ao clicar no _[Número do processo de compra]_ o usuário será direcionado a página de detalhamento do Portal que apresenta os dados do processo de compra;
 
-* Ao clicar no _[Número do contrato]_ o usuário será direcionado para a página do Portal de Compras para realizar o download do contrato;
+* O painel deve apresentar todos os processos independentemete de haver ou não execução (empenho). ___Luiz irá verificar essa possibilidade___  
+
+* Ao clicar no _[Número do processo de compra]_ o usuário será direcionado a página de detalhamento do Portal que apresenta os dados do processo de compra.  
+__Exemplo:__ Processo de compra - [0250073 000001/2020](http://transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos/comprasecontratos-detalhe-proccompra/2020/20200101/20201231/322109)
+
+* Ao clicar no _[Número do contrato]_ o usuário será direcionado para a página do Portal de Compras para realizar o download do contrato;  
+__Exemplo:__ Número do Contrato - [9245761](https://www1.compras.mg.gov.br/contrato/gestaocontratos/arquivosContrato.html?idContrato=162593)
+
+* Ao clicar em _[Edital]_ o usuário será direcionado para a página do Portal de Compras para realizar o download do edital;  
+__Exemplo:__ Edital - [Link](https://www1.compras.mg.gov.br/processocompra/processo/consultaEditalRetificaoProcesso.html?metodo=visualizarEditalRetificao&id=417793)
 
 * O cidadão poderá realizar a extração dos dados através dos ícones (imprimir, CSV e PDF);
 
 * As colunas da tabela deverão ser movivéis, conforme o já adotado pelas demais consultas do Portal.
+
+* O usuário poderá classificar os dados da tabela, conforme o já adotado pelas demais consultas do Portal.
 
 ### 2. Consulta Legislação e Normativos
 <a href="#top">(inicio)</a>
@@ -116,12 +132,12 @@ O conteúdo dessa página será alimentado pela CGE atravé do aréa administrat
 
 ![](static/legislacao-normativos-covid19.png)
 
-### 3. Consulta Dados Abertos COVID -19
+### 3. Consulta Dados Abertos
 <a href="#top">(inicio)</a>
 
-Ao clicar no ícone ___[Dados Abertos COVID -19]___ o portal exibe o conjunto de dados com a relação das contratações celebradas pelo Governo de Minas Gerais com fulcro na Lei Federal n. 13.979 de 06 de fevereiro de 2020 para enfrentamento da emergência de saúde pública de importância internacional decorrente do coronavírus.
+Ao clicar no ícone ___[Dados Abertos]___ o portal exibe o conjunto de dados do Estado referente ao enfrentamento da emergência de saúde pública de importância internacional decorrente do coronavírus.
 
-Link: http://www.transparencia.dadosabertos.mg.gov.br/dataset/contratacoes-coronavirus
+Link: http://www.transparencia.dadosabertos.mg.gov.br/dataset?tags=coronavirus
 
 ### 4. Consulta Conselho de Transparência e Combate a Corrupção
 <a href="#top">(inicio)</a>
@@ -152,9 +168,3 @@ Link: http://www.acessoainformacao.mg.gov.br/
 * [Alagoas](http://www.alagoascontraocoronavirus.al.gov.br/)
 * [Ceará](https://coronavirus.ceara.gov.br/)
 * [Espirito Santo](https://coronavirus.es.gov.br/)
-
-# Dúvidas
-
-* Até o momento não sei como será exibido o texto na coluna Edital. Ainda estou localizando um exemplo.
-* Dados Abertos: A minha sugestão é que nesse item seja exibido não só as contratações, mas tudo relativo ao covid19
-* Podíamos criar uma organização no CKAN "COVID-19" nesse sentido todos os dados ficam disponíveis nessa "organização". 
