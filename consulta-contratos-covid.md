@@ -48,7 +48,7 @@ Após clicar no ícone ___[COVID-19]___ deve ser apresentado a página a seguir:
 
 * Legislação e Normativos: Acesse a legislação e os normativos relativos às medidas de prevenção e combate a COVID- 19.
 
-* Ouvidoria Coronavírus: Registre as denúncias e reclamações sobre o Coronavírus.
+* Ouvidoria Coronavírus: Registre aqui as denúncias, reclamações e manifestações sobre o enfrentamento ao Coronavírus.
 
 * Acesso à Informação: Registre sua solicitação de acesso à informação para órgãos e entidades do Poder Executivo Estadual.
 
