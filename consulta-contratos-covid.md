@@ -102,7 +102,6 @@ ___Itens da tabela___:
 * O Painel deverá apresentar todos os processos de compras relacionados ao Programa 026 -Enfrentamento dos Efeitos da Pandemia de COVID-19 independente da situação e do ano de cadastro do processo de compra.        
 __Exemplo:__
     - Processo de Compra Concluido: [0250073 000001/2020](http://transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos/comprasecontratos-detalhe-proccompra/2020/20200101/20201231/322109)
-    - Processo de Compra Em andamento: [1510120 000001/2020](http://transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos/comprasecontratos-procedimento/4/2020/01-01-2020/18-05-2020/1831079/0/2/0/18/85/239/8510/21584/85100242/170087/1669370/321394/1510120000001-2020)
     - Processo de Compra ano 2017: [1401189 000001/2017](http://transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos/comprasecontratos-detalhe-proccompra/2017/20170101/20171231/90432)
 
 
