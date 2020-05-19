@@ -77,10 +77,10 @@ ___Itens da tabela___:
 
 1. __Data de Cadastramento do Processo:__ Data de Cadastro do Processo de Compras
 1. __Objeto do Processo:__ Descrição dos bens e serviços que estão sendo comprados e sua finalidade.
-
+1. __Documentos do Processo:__ Relação dos documentos do processo de compra: Edital e suas retificações, relatório de detalhes do processo de compra, dados do pregão e outros arquivos relacionados ao processo.
 1. __Código Órgão Demandante:__ Código do órgão demandante
 1. __Órgão demandante__: Órgão ou entidade que solicitou a compra de determinado material ou serviço. Pode coincidir ou não com o órgão que está executando o processo de compra.
-1. __Edital:__ Edital do procedimento de contratação
+
 1. __Situação do Processo:__ Situação do processo de compra durante a aquisição de materiais e serviços (concluído, suspenso, em andamento, etc.). Quanto aos processos de compra com situação em andamento, são considerados apenas os itens já homologados desses processos.
 1. __Procedimento de contratação:__ Inclui as modalidades de licitação (concorrência, tomada de preços, convite e leilão), pregão, dispensa, inexigibilidade, registro de preços, etc.
 1. __Número do Contrato__: Número do contrato registrado no SIAFI.
@@ -113,8 +113,19 @@ __Exemplo:__ Processo de compra - [0250073 000001/2020](http://transparencia.mg.
 * Ao clicar no _[Número do contrato]_ o usuário será direcionado para a página do Portal de Compras para realizar o download do contrato;  
 __Exemplo:__ Número do Contrato - [9245761](https://www1.compras.mg.gov.br/contrato/gestaocontratos/arquivosContrato.html?idContrato=162593)
 
-* Ao clicar em _[Edital]_ o usuário será direcionado para a página do Portal de Compras para realizar o download do edital;  
-__Exemplo:__ Edital - [Link](https://www1.compras.mg.gov.br/processocompra/processo/consultaEditalRetificaoProcesso.html?metodo=visualizarEditalRetificao&id=417793)
+* Ao clicar em _[Documentos do processo]_ o usuário será direcionado para a página do Portal de Compras onde constam todos os documentos relacionados ao processo de compra.  
+
+  __Exemplo:__ Documentos do processo - [Link](https://www1.compras.mg.gov.br/processocompra/processo/consultaProcessoCompra.html?metodo=pesquisar&codigoUnidadeCompra=1501561&numero=000028&ano=2020)
+
+  * _URL_ que deverá ser recuperda para exibição dos documentos do processos:
+<https://www1.compras.mg.gov.br/processocompra/processo/consultaProcessoCompra.html?metodo=pesquisar&codigoUnidadeCompra={unidade}&numero={numero}&ano={ano}>
+
+  * Considerar os seguintes campos para construção da _url_:
+   * Processo de Compra: 1501561 000028/2020    
+      Código da Unidade: 1501561    
+      Número do Processo: 000028    
+      Ano do Processo: 2020
+
 
 * O cidadão poderá realizar a extração dos dados através dos ícones (imprimir, CSV e PDF);
 
