@@ -78,13 +78,13 @@ ___Itens da tabela___:
 1. __Data de Cadastramento do Processo:__ Data de Cadastro do Processo de Compras
 1. __Objeto do Processo:__ Descrição dos bens e serviços que estão sendo comprados e sua finalidade.
 
-1. __Código Órgão Demandante:__
+1. __Código Órgão Demandante:__ Código do órgão demandante
 1. __Órgão demandante__: Órgão ou entidade que solicitou a compra de determinado material ou serviço. Pode coincidir ou não com o órgão que está executando o processo de compra.
-1. __Edital:__
+1. __Edital:__ Edital do procedimento de contratação
 1. __Situação do Processo:__ Situação do processo de compra durante a aquisição de materiais e serviços (concluído, suspenso, em andamento, etc.). Quanto aos processos de compra com situação em andamento, são considerados apenas os itens já homologados desses processos.
 1. __Procedimento de contratação:__ Inclui as modalidades de licitação (concorrência, tomada de preços, convite e leilão), pregão, dispensa, inexigibilidade, registro de preços, etc.
 1. __Número do Contrato__: Número do contrato registrado no SIAFI.
-1. __Código Órgão:__
+1. __Código Órgão:__ Código do órgão responsável pelo contrato.
 1. __Órgão Contrato__: Órgão ou entidade que formalizou o instrumento de contratação.
 1. __Data da Publicação:__ Data de Publicação do Contrato no IOF.
 1. __Início da Vigência:__ Ínicio da vigência do Contrato
