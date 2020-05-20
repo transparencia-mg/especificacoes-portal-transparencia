@@ -44,17 +44,17 @@ Após clicar no ícone ___[COVID-19]___ deve ser apresentado a página a seguir:
 
 #### __Texto dos ícones:__
 
-* Aquisições e Contratações: Acesse as contratações e execução referente ao Programa Enfrentamento dos efeitos da pandemia de COVID-19.
+* Compras e contratos: Acesse as contratações, contratos e execução referente ao Programa Enfrentamento dos efeitos da pandemia de COVID-19.
 
 * Legislação e Normativos: Acesse a legislação e os normativos relativos às medidas de prevenção e combate a COVID- 19.
 
-* Ouvidoria Coronavírus: Registre aqui as denúncias, reclamações e manifestações sobre o enfrentamento ao Coronavírus.
+* Ouvidoria: Registre aqui as denúncias, reclamações e manifestações sobre o enfrentamento ao Coronavírus.
 
 * Acesso à Informação: Registre sua solicitação de acesso à informação para órgãos e entidades do Poder Executivo Estadual.
 
-* Dados Abertos: Acesse aqui o conjunto de dados relacionados a COVID 19.
+* Dados Abertos: Acesse os conjuntos de dados relacionados a COVID 19.
 
-* Conselho de Transparência e Combate a Corrupção: Acesse aqui as informações sobre o Conselho de Transparência e Combate à Corrupção e sua atuação no monitoramento e avaliação das ações relacionadas ao enfrentamento da COVID-19.
+* Conselho de Transparência e Combate a Corrupção: Acesse as informações sobre o Conselho e sua atuação no monitoramento e avaliação das ações relacionadas ao enfrentamento da COVID-19.
 
 #### __Texto Página Inicial__
 
@@ -62,14 +62,14 @@ Com foco no fomento da transparência e melhores práticas para atender ao cidad
 
 O Cidadão poderá acessar a legislação de referência, os relatórios das compras de forma estruturada e em formato aberto, com ferramenta de busca, bem como acessar os canais de Ouvidoria e Lei de Acesso a Informação.
 
-### 1. Consulta Aquisições  Contratações
+### 1. Consulta Compras e Contratos
 <a href="#top">(inicio)</a>
 
-Ao clicar em ___[Aquisições e Contratações]___ o portal exibe uma página com o painel das aquisições e contratações relacionados ao Programa 26 - Enfrentamento dos efeitos da pandemia de COVID-19.
+Ao clicar em ___[Compras e Contratos]___ o portal exibe uma página com o painel das contratações relacionados ao Programa 26 - Enfrentamento dos efeitos da pandemia de COVID-19.
 
 ![](static/leiaute-painel-covid19.png)
 
-Arquico .xls: [leiaute-tabelas-covid19](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/feat/consulta-contratos-covid/static/leiaute-tabelas-covid19.xlsx)
+Arquivo .xls: [leiaute-tabelas-covid19](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/feat/consulta-contratos-covid/static/leiaute-tabelas-covid19.xlsx)
 
 ___Itens da tabela___:
 
@@ -79,10 +79,10 @@ ___Itens da tabela___:
 1. __Objeto do Processo:__ Descrição dos bens e serviços que estão sendo comprados e sua finalidade.
 1. __Documentos do Processo:__ Relação dos documentos do processo de compra: Edital e suas retificações, relatório de detalhes do processo de compra, dados do pregão e outros arquivos relacionados ao processo.
 1. __Código Órgão Demandante:__ Código do órgão demandante
-1. __Órgão demandante__: Órgão ou entidade que solicitou a compra de determinado material ou serviço. Pode coincidir ou não com o órgão que está executando o processo de compra.
+1. __Órgão Demandante__: Órgão ou entidade que solicitou a compra de determinado material ou serviço. Pode coincidir ou não com o órgão que está executando o processo de compra.
 
 1. __Situação do Processo:__ Situação do processo de compra durante a aquisição de materiais e serviços (concluído, suspenso, em andamento, etc.). Quanto aos processos de compra com situação em andamento, são considerados apenas os itens já homologados desses processos.
-1. __Procedimento de contratação:__ Inclui as modalidades de licitação (concorrência, tomada de preços, convite e leilão), pregão, dispensa, inexigibilidade, registro de preços, etc.
+1. __Procedimento de Contratação:__ Inclui as modalidades de licitação (concorrência, tomada de preços, convite e leilão), pregão, dispensa, inexigibilidade, registro de preços, etc.
 1. __Número do Contrato__: Número do contrato registrado no SIAFI.
 1. __Código Órgão:__ Código do órgão responsável pelo contrato.
 1. __Órgão Contrato__: Órgão ou entidade que formalizou o instrumento de contratação.
@@ -129,16 +129,16 @@ __Exemplo:__ Número do Contrato - [9245761](https://www1.compras.mg.gov.br/cont
 
 * O cidadão poderá realizar a extração dos dados através dos ícones (imprimir, CSV e PDF);
 
-* As colunas da tabela deverão ser movivéis, conforme o já adotado pelas demais consultas do Portal.
+* As colunas da tabela deverão ser movivéis, conforme adotado pelas demais consultas do Portal.
 
-* O usuário poderá classificar os dados da tabela, conforme o já adotado pelas demais consultas do Portal.
+* O usuário poderá classificar os dados da tabela, conforme o  adotado pelas demais consultas do Portal.
 
 ### 2. Consulta Legislação e Normativos
 <a href="#top">(inicio)</a>
 
 Ao clicar no ícone ___[Legislação e Normativos ]___ o portal exibe a página de conteúdo Legislação e Normativos COVID-19 (eg. Voos do Governador).
 
-O conteúdo dessa página será alimentado pela CGE atravé do aréa administrativa do Portal (Joomla).
+O conteúdo dessa página será alimentado pela CGE atravéz da aréa administrativa do Portal (Joomla).
 
 ![](static/legislacao-normativos-covid19.png)
 
@@ -152,14 +152,14 @@ Link: http://www.transparencia.dadosabertos.mg.gov.br/dataset?tags=coronavirus
 ### 4. Consulta Conselho de Transparência e Combate a Corrupção
 <a href="#top">(inicio)</a>
 
-Ao clicar no ícone ___[Conselho de Transparência e Combate a Corrupção]___ o portal exibe informações sobre o Conselho de Transparência e Combate à Corrupção e sua atuação no monitoramento e avaliação das ações relacionadas ao enfrentamento da COVID-19).
+Ao clicar no ícone ___[Conselho de Transparência e Combate a Corrupção]___ o portal exibe informações sobre o Conselho de Transparência e Combate à Corrupção e sua atuação no monitoramento e avaliação das ações relacionadas ao enfrentamento da COVID-19.
 
 Link: http://portaldosconselhos.cge.mg.gov.br/
 
-### 5. Ouvidoria Coronavírus
+### 5. Ouvidoria
 <a href="#top">(inicio)</a>
 
-Ao clicar no ícone ___[Ouvidoria Coronavírus]___ o portal exibe a página da Ouvidoria exclusiva para manifestações relacionadas ao Coronavírus.
+Ao clicar no ícone ___[Ouvidoria]___ o portal exibe a página da Ouvidoria exclusiva para manifestações relacionadas ao Coronavírus.
 
 Link: http://www.ouvidoriageral.mg.gov.br/coronavirus
 
