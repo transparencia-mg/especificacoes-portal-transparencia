@@ -84,7 +84,7 @@ Acrescentar a descrição do ícone _[Contratações Emergenciais]_
 Alterar nome e Descrição
 --
 
-* Contratações executadas no Programa 26 :  Acesse as contratações, os contratos e a execução financeira do Programa 26 - Enfrentamento dos efeitos da pandemia da COVID-19.
+* Contratações executadas no Programa Enfrentamento dos efeitos da pandemia de COVID-19 :  Acesse as contratações e os contratos do Programa 26 - Enfrentamento dos efeitos da pandemia da COVID-19.
 
 </div>
 
@@ -168,10 +168,10 @@ Link: http://www.transparencia.dadosabertos.mg.gov.br/dataset/contratacoes-coron
 
 </div>
 
-### 2. Consulta Contratações executadas no Programa 26
+### 2. Consulta Contratações executadas no Programa Enfrentamento dos efeitos da pandemia de COVID-19
 <a href="#top">(inicio)</a>
 
-Ao clicar em ___[Contratações executadas no Programa 26]___ o portal exibe uma página com o painel das contratações relacionados ao Programa 26 - "Enfrentamento dos efeitos da pandemia de COVID-19".
+Ao clicar em ___[Contratações executadas no Programa Enfrentamento dos efeitos da pandemia de COVID-19]___ o portal exibe uma página com o painel das contratações relacionados ao Programa 26 - "Enfrentamento dos efeitos da pandemia de COVID-19".
 
 <div class="alert alert-danger">
 
