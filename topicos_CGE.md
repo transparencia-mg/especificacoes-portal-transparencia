@@ -19,3 +19,6 @@
 * [ ] Portal oficial do governo - Nicolle
 
 * [ ] Portal Covid19 ou Portal da Sec. de Saúde - Soraia
+
+* [ ] Produzir rol dos processos considerados de contratação emergencial para fins de carga inicial no portal de compras
+    * Considerar nova circular, por orgao, solicitando ateste dos processos catalogados até o momento
