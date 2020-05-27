@@ -1,3 +1,4 @@
+
 # Tópicos SEPLAG
 
 item de compra = processo de compras/item de solicitação/item de pedido/item de processo
@@ -13,3 +14,7 @@ item de compra = processo de compras/item de solicitação/item de pedido/item d
 ## Informações desejáveis
 
 * Local de entrega do item de compra
+
+## Download da íntegra do contrato
+
+* URL dos instrumentos que substituem o termo de contrato. Exemplos: Nota de empenho ou Autorização de Fornecimento

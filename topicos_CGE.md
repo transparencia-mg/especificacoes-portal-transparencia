@@ -11,3 +11,11 @@
 * [ ] Inserir link da pesquisa pública do SEI no conjunto de dados abertos
 
 * [ ] Pré-visualização no CKAN
+
+* [ ] Atualização do dicionário de dados conforme o novo conjunto de dados
+
+* [ ] Inserir documentação por meio do joomla
+
+* [ ] Portal oficial do governo - Nicolle
+
+* [ ] Portal Covid19 ou Portal da Sec. de Saúde - Soraia
