@@ -1,5 +1,4 @@
 ---
-
 title: 'Homologação Layout - Consulta Contratos Covid'
 output:
   html_document:
@@ -19,34 +18,46 @@ Todas as divergências estão destacadas em vermelho
 ## Página Inicial
 <a href="#top">(inicio)</a>
 
-Para contemplar a inclusão dos modos de consulta relacionadas às Contratações/Aquisições decorrentes do Programa 026 - Enfrentamento dos efeitos da pandemia de COVID-19 a página inicial do Portal deve ser:
+Para contemplar a inclusão dos modos de consulta relacionadas às Contratações/Aquisições decorrentes do Programa 026 - "Enfrentamento dos efeitos da pandemia de COVID-19" a página inicial do Portal deve ser:
 
 ![](static/pagina-inicial-covid19.png)
-
-__Texto do ícone COVID-19:__ Encontre aqui os gastos, contratações e legislações do Estado referente ao enfretamento à pandemia causada pelo novo coronavírus.
 
 <div class="alert alert-success">
 
 CONFERE
 --
 ![](static/layout-pagina-inicial-covid19.png)
-
-____
-![](static/layout-texto-icone-covid19.png)
   </div>
+
+<div class="alert alert-danger">
+
+Alterar Texto
+--
+__Texto do ícone COVID-19:__ Encontre aqui os gastos, contratações e legislações do Estado referente ao enfretamento à pandemia causada pela COVID-19.
+
+</div>
 
 
 #### Observação
 
-O ícone ___[COVID-19]___ deve se o primeiro ícone da esquerda para direita, sendo os demais reposicionandos. O ícone ___[TCE/Obras Públicas]___ deverá ficar abaixo do ícone ___[Munícipios]___
+O ícone ___[COVID-19]___ deve se o primeiro ícone da esquerda para direita, sendo os demais reposicionandos.
+
+O ícone ___[TCE/Obras Públicas]___ deverá ficar abaixo do ícone ___[Munícipios]___
 
 
 ## Página das Consultas
 <a href="#top">(inicio)</a>
 
-Após clicar no ícone ___[COVID-19]___ deve ser apresentado a página a seguir:
+Após clicar no ícone ___[COVID-19]___ deverá ser apresentada a seguinte página:
+
+<div class="alert alert-danger">
+
+Acrescentar o ícone ___[Contratações Emergenciais]___ conforme abaixo:
+--
 
 ![](static/pagina-consultas-covid19.png)
+
+</div>
 
 <div class="alert alert-danger">
 
@@ -60,17 +71,22 @@ A letra "E" do ícone [Legislação e Normativos] é minúscula.
 
 #### __Texto dos ícones:__
 
-* Compras e contratos: Acesse as contratações, contratos e execução referente ao Programa Enfrentamento dos efeitos da pandemia de COVID-19.
+<div class="alert alert-danger">
 
-
-<div class="alert alert-success">
-
-CONFERE
+Acrescentar a descrição do ícone _[Contratações Emergenciais]_
 --
 
-![](static/layout-texto-icone-compras-contratos.png)
+* Contratações Emergenciais: Acesse as informações relativas aos Contratos Emergenciais firmados para aquisição de bens, serviços, inclusive de engenharia, obras, alienações e locações para enfrentamento da COVID-19, com base na Lei Federal nº 13.979/2020 e na Lei Estadual nº 23.640/2020.
+</div>
 
-  </div>
+<div class="alert alert-danger">
+
+Alterar nome e Descrição
+--
+
+* Compras e contratos Programa 26 :  Acesse as contratações, os contratos e a execução financeira do Programa 26 - Enfrentamento dos efeitos da pandemia da COVID-19.
+
+</div>
 
 * Legislação e Normativos: Acesse a legislação e os normativos relativos às medidas de prevenção e combate a COVID- 19.
 
@@ -82,15 +98,14 @@ CONFERE
 ![](static/layout-texto-icone-legislacao.png)
   </div>
 
-* Ouvidoria: Registre aqui as denúncias, reclamações e manifestações sobre o enfrentamento ao Coronavírus.
+<div class="alert alert-danger">
 
-<div class="alert alert-success">
-
-CONFERE
+Alterar Descrição
 --
-![](static/layout-texto-icone-ouvidoria.png)
-  </div>
 
+* Ouvidoria: Registre aqui as denúncias, reclamações e manifestações sobre o enfrentamento a COVID-19.
+
+</div>
 
 * Acesso à Informação: Registre sua solicitação de acesso à informação para órgãos e entidades do Poder Executivo Estadual.
 
@@ -101,7 +116,7 @@ CONFERE
 ![](static/layout-texto-icone-acesso-informacao.png)
   </div>
 
-* Dados Abertos: Acesse os conjuntos de dados relacionados a COVID 19.
+* Dados Abertos: Acesse os conjuntos de dados relacionados a COVID-19.
 
 <div class="alert alert-success">
 
@@ -121,34 +136,54 @@ CONFERE
 
 #### __Texto Página Inicial__
 
-Com foco no fomento da transparência e melhores práticas para atender ao cidadão, o Estado de Minas Gerais disponibiliza sessão específica para facilitar ainda mais a divulgação de dados relativos às contratações do Programa Enfrentamento dos Efeitos da Pandemia de COVID-19.
-
-O Cidadão poderá acessar a legislação de referência, os relatórios das compras de forma estruturada e em formato aberto, com ferramenta de busca, bem como acessar os canais de Ouvidoria e Lei de Acesso a Informação.
-
 <div class="alert alert-danger">
 
-Corrigir texto : " Programa Enfrentamento dos Efeitos da Pandemia de COVID-19."
+Alterar Texto
+--
+
+Com foco no fomento da transparência e melhores práticas para atender ao cidadão, o Estado de Minas Gerais disponibiliza sessão específica para facilitar a divulgação de informações relativas aos Contratos Emergenciais amparados pela Lei Federal nº 13.979, de 6 de fevereiro de 2020 e Lei Estadual nº 23.640, de 14 de maio de 2020 para aquisição de bens, serviços, inclusive de engenharia, obras, alienações e locações necessários ao enfrentamento da calamidade de saúde pública e estado de emergência decorrentes da COVID-19.
+
+Por meio dessa seção é possível consultar a legislação de referência, os relatórios de execução financeira, dados dos contratados, valores, dentre outras informações, de forma estruturada e em formato aberto.
+
+Ao clicar em Ouvidoria, um canal específico para denúncias, reclamações e sugestões também está disponível ao cidadão.
+
+E caso deseje mais informações, solicite por meio do Acesso à Informação.
+
 --
 ![](static/layout-texto-pagina-consultas.png)
 </div>
 
-### 1. Consulta Compras e Contratos
+### 1. Contratações Emergenciais
 <a href="#top">(inicio)</a>
 
-Ao clicar em ___[Compras e Contratos]___ o portal exibe uma página com o painel das contratações relacionados ao Programa 26 - Enfrentamento dos efeitos da pandemia de COVID-19.
+
+<div class="alert alert-danger">
+
+Inclusão de novo ícone
+--
+
+Ao clicar em ___[Contratações Emergenciais]___ o portal exibe uma página com as Contratações Emergenciais.
+
+Link: http://www.transparencia.dadosabertos.mg.gov.br/dataset/contratacoes-coronavirus
+
+</div>
+
+### 2. Consulta Compras e Contratos Programa 26
+<a href="#top">(inicio)</a>
+
+Ao clicar em ___[Compras e Contratos Programa 26]___ o portal exibe uma página com o painel das contratações relacionados ao Programa 26 - "Enfrentamento dos efeitos da pandemia de COVID-19".
+
+<div class="alert alert-danger">
+
+Retirar as colunas [Código do órgão demandante] e [Código do órgão do contrato] do painel. Esses dados deverão ser exibidos apenas na extração dos dados.
+--
 
 ![](static/leiaute-painel-covid19.png)
-
-<div class="alert alert-success">
-
-CONFERE
---
-![](static/layout-leiaute-painel-covid19.png)
 </div>
 
 <div class="alert alert-danger">
 
-As datas que estiverem em branco no armazém deverão ser exibidas no Portal em como vazio.
+As datas que estiverem em branco no armazém deverão ser exibidas no Portal com o campo vazio.
 --
 
 ![](static/layout-data-errada.png)
@@ -180,9 +215,6 @@ ___Itens da tabela___:
 
 ![](static/layout-tooltip-documentos-processo.png)
 
-1. __Código Órgão Demandante:__ Código do órgão demandante
-
-![](static/layout-tooltip-codigo-orgao-demandante.png)
 1. __Órgão Demandante__: Órgão ou entidade que solicitou a compra de determinado material ou serviço. Pode coincidir ou não com o órgão que está executando o processo de compra.
 
 ![](static/layout-tooltip-orgao-demandante.png)
@@ -198,10 +230,6 @@ ___Itens da tabela___:
 1. __Número do Contrato__: Número do contrato registrado no SIAFI.
 
 ![](static/layout-tooltip-numero-contrato.png)
-
-1. __Código Órgão:__ Código do órgão responsável pelo contrato.
-
-![](static/layout-tooltip-codigo-orgao-contrato.png)
 
 1. __Órgão Contrato__: Órgão ou entidade que formalizou o instrumento de contratação.
 
@@ -252,13 +280,13 @@ CONFERE
   </div>
 
 
-* O Painel deverá apresentar todos os processos de compras relacionados ao Programa 026 -Enfrentamento dos Efeitos da Pandemia de COVID-19 independente da situação e do ano de cadastro do processo de compra.        
+* O Painel deverá apresentar todos os processos de compras relacionados ao Programa 026 -Enfrentamento dos Efeitos da Pandemia da COVID-19 independente da situação e do ano de cadastro do processo de compra.        
 __Exemplo:__
     - Processo de Compra Concluido: [0250073 000001/2020](http://transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos/comprasecontratos-detalhe-proccompra/2020/20200101/20201231/322109)
     - Processo de Compra ano 2017: [1401189 000001/2017](http://transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos/comprasecontratos-detalhe-proccompra/2017/20170101/20171231/90432)
 
 
-* O painel deve apresentar todos os processos independentemete de haver ou não execução (empenho). ___Luiz irá verificar essa possibilidade___  
+* O painel deve apresentar todos os processos independentemente de haver ou não execução (empenho). ___Luiz irá verificar essa possibilidade___  
 
 * Ao clicar no _[Número do processo de compra]_ o usuário será direcionado a página de detalhamento do Portal que apresenta os dados do processo de compra.  
 __Exemplo:__ Processo de compra - [0250073 000001/2020](http://transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos/comprasecontratos-detalhe-proccompra/2020/20200101/20201231/322109)
@@ -271,7 +299,6 @@ CONFERE
 __Exemplo:__ Número do Contrato - [9245761](https://www1.compras.mg.gov.br/contrato/gestaocontratos/arquivosContrato.html?idContrato=162593)
 <div class="alert alert-success">
 CONFERE
-
 
   </div>
 
@@ -305,7 +332,7 @@ CONFERE
 ![](static/layout-extracao-imprimir.png)
   </div>
 
-* As colunas da tabela deverão ser movivéis, conforme adotado pelas demais consultas do Portal.
+* As colunas da tabela deverão ser movíveis, conforme adotado pelas demais consultas do Portal.
 
 <div class="alert alert-success">
 
@@ -337,7 +364,7 @@ CONFERE
 
 </div>
 
-### 2. Consulta Legislação e Normativos
+### 3. Consulta Legislação e Normativos
 <a href="#top">(inicio)</a>
 
 Ao clicar no ícone ___[Legislação e Normativos ]___ o portal exibe a página de conteúdo Legislação e Normativos COVID-19 (eg. Voos do Governador).
@@ -354,7 +381,7 @@ A letra "E" do ícone [Legislação e Normativos] é minúscula.
 ![](static/layout-legislacao-normativos-covid19.png)
   </div>
 
-### 3. Consulta Dados Abertos
+### 4. Consulta Dados Abertos
 <a href="#top">(inicio)</a>
 
 Ao clicar no ícone ___[Dados Abertos]___ o portal exibe o conjunto de dados do Estado referente ao enfrentamento da emergência de saúde pública de importância internacional decorrente do coronavírus.
@@ -363,12 +390,12 @@ Link: http://www.transparencia.dadosabertos.mg.gov.br/dataset?tags=coronavirus
 
 <div class="alert alert-danger">
 
-Corrigir o Link de direcionamento do ícone [Dados Abertos].
+Corrigir o Link de direcionamento do ícone _[Dados Abertos]_.
 --
 
   </div>
 
-### 4. Consulta Conselho de Transparência e Combate a Corrupção
+### 5. Consulta Conselho de Transparência e Combate a Corrupção
 <a href="#top">(inicio)</a>
 
 Ao clicar no ícone ___[Conselho de Transparência e Combate a Corrupção]___ o portal exibe informações sobre o Conselho de Transparência e Combate à Corrupção e sua atuação no monitoramento e avaliação das ações relacionadas ao enfrentamento da COVID-19.
@@ -383,7 +410,7 @@ CONFERE
 </div>
 
 
-### 5. Ouvidoria
+### 6. Ouvidoria
 <a href="#top">(inicio)</a>
 
 Ao clicar no ícone ___[Ouvidoria]___ o portal exibe a página da Ouvidoria exclusiva para manifestações relacionadas ao Coronavírus.
@@ -397,7 +424,7 @@ CONFERE
 ![](static/layout-pagina-ouvidoria.png)
 </div>
 
-### 6. Acesso à Informação
+### 7. Acesso à Informação
 <a href="#top">(inicio)</a>
 
 Ao clicar no ícone ___[Acesso à Informação]___ o portal exibe a página Sistema Eletrônico de Acesso à Informação (e-Sic)
