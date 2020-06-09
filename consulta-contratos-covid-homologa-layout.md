@@ -1,16 +1,21 @@
 ---
-title: 'Homologação Layout - Consulta Contratos Covid'
+
+title: "Homologação Layout - Consulta COVID-19"
+Mantis: '0145750'
 output:
   html_document:
     theme: united
     toc: yes
-
+  pdf_document:
+    toc: yes
 ---
 
 # Homologação layout da consulta
 <a href="#top">(inicio)</a>
 
-Todas as divergências estão destacadas em vermelho
+[VERSÃO HTML](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/feat/consulta-contratos-covid/consulta-contratos-covid-homologa-layout.html)
+
+Divergências corrigidas
 
 # Especificação
 <a href="#top">(inicio)</a>
@@ -29,11 +34,13 @@ CONFERE
 ![](static/layout-pagina-inicial-covid19.png)
   </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 Alterar Texto
 --
 __Texto do ícone COVID-19:__ Encontre aqui os gastos, contratações e legislações do Estado referente ao enfretamento à pandemia causada pela COVID-19.
+
+![](static/layout-texto-icone-covid19.png)
 
 </div>
 
@@ -50,41 +57,50 @@ O ícone ___[TCE/Obras Públicas]___ deverá ficar abaixo do ícone ___[Munícip
 
 Após clicar no ícone ___[COVID-19]___ deverá ser apresentada a seguinte página:
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Acrescentar o ícone ___[Contratações Emergenciais]___ conforme abaixo:
---
+Acrescentar o ícone ___[Contratações Emergenciais]___ conforme abaixo: OK
+
 
 ![](static/pagina-consultas-covid19.png)
 
+![](static/layout-pagina-consultas-covid19.png)
+
+
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-A letra "E" do ícone [Legislação e Normativos] é minúscula.
---
+A letra "E" do ícone [Legislação e Normativos] é minúscula. OK
 
-![](static/layout-pagina-consultas-covid19.png)
+
+![](static/layout-legislacao-normativos-covid19-corrigido.png)
 
   </div>
 
 
 #### __Texto dos ícones:__
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Acrescentar a descrição do ícone _[Contratações Emergenciais]_
---
+Acrescentar a descrição do ícone _[Compras Emergenciais]_ OK
 
-* Contratações Emergenciais: Acesse as informações relativas aos Contratos Emergenciais firmados para aquisição de bens, serviços, inclusive de engenharia, obras, alienações e locações para enfrentamento da COVID-19, com base na Lei Federal nº 13.979/2020 e na Lei Estadual nº 23.640/2020.
+* Compras Emergenciais: Acesse as informações relativas aos Contratos Emergenciais firmados para aquisição de bens, serviços, inclusive de engenharia, obras, alienações e locações para enfrentamento da COVID-19, com base na Lei Federal nº 13.979/2020 e na Lei Estadual nº 23.640/2020.
+
+
+![](static/layout-texto-icone-contratacoes-emergenciais.png)
+
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 Alterar nome e Descrição
 --
 
-* Contratações executadas no Programa Enfrentamento dos efeitos da pandemia de COVID-19 :  Acesse as contratações e os contratos do Programa 26 - Enfrentamento dos efeitos da pandemia da COVID-19.
+* Contratos - Programa Enfrentamento COVID- 19:  Acesse as contratações e os contratos do Programa 26 - Enfrentamento dos efeitos da pandemia da COVID-19.
+
+![](static/layout-texto-icone-compras-contratos.png)
+
 
 </div>
 
@@ -98,12 +114,14 @@ CONFERE
 ![](static/layout-texto-icone-legislacao.png)
   </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Alterar Descrição
+Alterar Descrição - OK
 --
 
 * Ouvidoria: Registre aqui as denúncias, reclamações e manifestações sobre o enfrentamento a COVID-19.
+
+![](static/layout-texto-icone-ouvidoria.png)
 
 </div>
 
@@ -134,11 +152,20 @@ CONFERE
 ![](static/layout-texto-icone-conselho.png)
 </div>
 
+* Dados epidemiológicos: Acesse as informações relativas ao boletim epidemiológicos, painel de monitoramento de casos, orientações para o cidadão e outros dados relacionados ao coronavírus divulgadas pela Secretaria de Estado da Saúde.
+
+<div class="alert alert-success">
+
+CONFERE
+--
+![](static/layout-texto-icone-dados-epidemiologicos.png)
+</div>
+
 #### __Texto Página Inicial__
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Alterar Texto
+Alterar Texto - OK
 --
 
 Com foco no fomento da transparência e melhores práticas para atender ao cidadão, o Estado de Minas Gerais disponibiliza sessão específica para facilitar a divulgação de informações relativas aos Contratos Emergenciais amparados pela Lei Federal nº 13.979, de 6 de fevereiro de 2020 e Lei Estadual nº 23.640, de 14 de maio de 2020 para aquisição de bens, serviços, inclusive de engenharia, obras, alienações e locações necessários ao enfrentamento da calamidade de saúde pública e estado de emergência decorrentes da COVID-19.
@@ -151,39 +178,45 @@ E caso deseje mais informações, solicite por meio do Acesso à Informação.
 
 --
 ![](static/layout-texto-pagina-consultas.png)
+
 </div>
 
-### 1. Contratações Emergenciais
+### 1. Compras Emergenciais
 <a href="#top">(inicio)</a>
 
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Inclusão de novo ícone
+Inclusão de novo ícone -- OK
 --
 
 Ao clicar em ___[Contratações Emergenciais]___ o portal exibe uma página com as Contratações Emergenciais.
 
 Link: http://www.transparencia.dadosabertos.mg.gov.br/dataset/contratacoes-coronavirus
 
+
+![](static/layout-pagina-contratacoes-emergenciais.png)
+
 </div>
 
-### 2. Consulta Contratações executadas no Programa Enfrentamento dos efeitos da pandemia de COVID-19
+### 2. Consulta Compras - Programa de enfrentamento COVID-19
 <a href="#top">(inicio)</a>
 
 Ao clicar em ___[Contratações executadas no Programa Enfrentamento dos efeitos da pandemia de COVID-19]___ o portal exibe uma página com o painel das contratações relacionados ao Programa 26 - "Enfrentamento dos efeitos da pandemia de COVID-19".
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Retirar as colunas [Código do órgão demandante] e [Código do órgão do contrato] do painel. Esses dados deverão ser exibidos apenas na extração dos dados.
---
+OK
 
 ![](static/leiaute-painel-covid19.png)
+
+![](static/layout-leiaute-painel-covid19.png)
+
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-As datas que estiverem em branco no armazém deverão ser exibidas no Portal com o campo vazio.
+As datas que estiverem em branco no armazém deverão ser exibidas no Portal com o campo vazio. OK
 --
 
 ![](static/layout-data-errada.png)
@@ -215,6 +248,10 @@ ___Itens da tabela___:
 
 ![](static/layout-tooltip-documentos-processo.png)
 
+1. __Código Órgão Demandante:__ Código do órgão demandante
+
+![](static/layout-tooltip-codigo-orgao-demandante.png)
+
 1. __Órgão Demandante__: Órgão ou entidade que solicitou a compra de determinado material ou serviço. Pode coincidir ou não com o órgão que está executando o processo de compra.
 
 ![](static/layout-tooltip-orgao-demandante.png)
@@ -230,6 +267,10 @@ ___Itens da tabela___:
 1. __Número do Contrato__: Número do contrato registrado no SIAFI.
 
 ![](static/layout-tooltip-numero-contrato.png)
+
+1. __Código Órgão:__ Código do órgão responsável pelo contrato
+
+![](static/layout-tooltip-codigo-orgao-contrato.png)
 
 1. __Órgão Contrato__: Órgão ou entidade que formalizou o instrumento de contratação.
 
@@ -373,10 +414,10 @@ O conteúdo dessa página será alimentado pela CGE atravéz da aréa administra
 
 ![](static/legislacao-normativos-covid19.png)
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-A letra "E" do ícone [Legislação e Normativos] é minúscula.
---
+A letra "E" do ícone [Legislação e Normativos] é minúscula. OK
+
 
 ![](static/layout-legislacao-normativos-covid19.png)
   </div>
@@ -388,10 +429,11 @@ Ao clicar no ícone ___[Dados Abertos]___ o portal exibe o conjunto de dados do 
 
 Link: http://www.transparencia.dadosabertos.mg.gov.br/dataset?tags=coronavirus
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Corrigir o Link de direcionamento do ícone _[Dados Abertos]_.
---
+Corrigir o Link de direcionamento do ícone _[Dados Abertos]_. OK
+
+![](static/layout-pagina-tag-dados-abertos.png)
 
   </div>
 
@@ -436,4 +478,18 @@ Link: http://www.acessoainformacao.mg.gov.br/
 CONFERE
 --
 ![](static/layout-pagina-acesso-informacao.png)
+</div>
+
+### 7. Dados epidemiológicos
+<a href="#top">(inicio)</a>
+
+Ao clicar no ícone ___[Dados epidemiológicos]___ o portal exibe a página da Secretaria de Estado da Saúde
+
+link: https://www.saude.mg.gov.br/coronavirus
+
+<div class="alert alert-success">
+
+CONFERE
+--
+
 </div>
