@@ -1,20 +1,34 @@
 ---
-title: 'Consulta Contratos Covid'
-pull_request: "[PR#12](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/12)"
+title: 'Consulta COVID-19'
+Mantis: '0145750'
+pull_request: '[PR#12](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/12)'
+
 output:
   html_document:
     theme: united
     toc: yes
 ---
+[VERSÃO HTML](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/feat/consulta-contratos-covid/consulta-contratos-covid.html)
+
 # Visão geral da Demanda
 <a href="#top">(inicio)</a>
 
-Essa demanda visa implementar uma consulta para divulgar as ações do governo destinadas ao enfrentamento do Coronavírus (COVID-19).
+Essa demanda visa implementar uma seção exclusiva  no Portal da Transparência para divulgar dados referentes à COVID-19.A seção irá disponibilizar as seguintes consultas:
+
+* Compras emergenciais
+* Compras - Programa de Enfrentamento Covid-19
+* Legislação e Normativos
+* Dados abertos;
+* Ouvidoria
+* Acesso à Informação
+* Conselho de Transparência e Combate a Corrupção
+* Dados Epidemiológicos
+
 
 # Motivação
 <a href="#top">(inicio)</a>
 
-Com foco no fomento da transparência e melhores práticas para atender ao cidadão, o Estado de Minas Gerais disponibiliza sessão específica para facilitar ainda mais a divulgação de dados relativos às contratações do Programa Enfrentamento dos Efeitos da Pandemia de COVID-19.
+Com foco no fomento da transparência e melhores práticas para atender ao cidadão, o Estado de Minas Gerais disponibiliza sessão específica para facilitar ainda mais a divulgação de dados relacionados ao enfretamento a pandemia causada pela COVID-19.
 
 A iniciativa reforça o compromisso com a transparência, enquanto diretriz de governo, e abre mais uma possibilidade para o cidadão exercer seu papel no controle social.
 
@@ -24,15 +38,15 @@ A iniciativa reforça o compromisso com a transparência, enquanto diretriz de g
 ## Página Inicial
 <a href="#top">(inicio)</a>
 
-Para contemplar a inclusão dos modos de consulta relacionadas às Contratações/Aquisições decorrentes do Programa 026 - Enfrentamento dos efeitos da pandemia de COVID-19 a página inicial do Portal deve ser:
+Para contemplar a inclusão dos modos de consulta relacionadas a  COVID-19 a página inicial do Portal deve ser:
 
 ![](static/pagina-inicial-covid19.png)
 
-__Texto do ícone COVID-19:__ Encontre aqui os gastos, contratações e legislações do Estado referente ao enfretamento à pandemia causada pelo novo coronavírus.
+__Texto do ícone COVID-19:__ Encontre aqui os gastos, contratações e legislações do Estado referente ao enfretamento à pandemia causada pela COVID-19.
 
 #### Observação
 
-O ícone ___[COVID-19]___ deve se o primeiro ícone da esquerda para direita, sendo os demais reposicionandos. O ícone ___[TCE/Obras Públicas]___ deverá ficar abaixo do ícone ___[Munícipios]___
+O ícone ___[COVID-19]___ deve se o primeiro ícone da esquerda para direita, sendo os demais reposicionados. O ícone ___[TCE/Obras Públicas]___ deverá ficar abaixo do ícone ___[Munícipios]___
 
 
 ## Página das Consultas
@@ -44,11 +58,13 @@ Após clicar no ícone ___[COVID-19]___ deve ser apresentado a página a seguir:
 
 #### __Texto dos ícones:__
 
-* Compras e contratos: Acesse as contratações, contratos e execução referente ao Programa Enfrentamento dos efeitos da pandemia de COVID-19.
+* Compras Emergenciais: Acesse as informações relativas aos Contratos Emergenciais firmados para aquisição de bens, serviços, inclusive de engenharia, obras, alienações e locações para enfrentamento da COVID-19, com base na Lei Federal nº 13.979/2020 e na Lei Estadual nº 23.640/2020.
 
-* Legislação e Normativos: Acesse a legislação e os normativos relativos às medidas de prevenção e combate a COVID- 19.
+* Contratos - Programa Enfrentamento COVID- 19: Acesse as contratações e os contratos do Programa 26 - Enfrentamento dos efeitos da pandemia da COVID-19.
 
-* Ouvidoria: Registre aqui as denúncias, reclamações e manifestações sobre o enfrentamento ao Coronavírus.
+* Legislação e Normativos: Acesse a legislação e os normativos relativos às medidas de prevenção e combate à COVID- 19.
+
+* Ouvidoria: Registre aqui as denúncias, reclamações e manifestações sobre o enfrentamento a COVID-19.
 
 * Acesso à Informação: Registre sua solicitação de acesso à informação para órgãos e entidades do Poder Executivo Estadual.
 
@@ -56,16 +72,29 @@ Após clicar no ícone ___[COVID-19]___ deve ser apresentado a página a seguir:
 
 * Conselho de Transparência e Combate a Corrupção: Acesse as informações sobre o Conselho e sua atuação no monitoramento e avaliação das ações relacionadas ao enfrentamento da COVID-19.
 
+* Dados epidemiológicos: Acesse as informações relativas ao boletim epidemiológicos, painel de monitoramento de casos, orientações para o cidadão e outros dados relacionados ao coronavírus divulgadas pela Secretaria de Estado da Saúde.
+
 #### __Texto Página Inicial__
 
-Com foco no fomento da transparência e melhores práticas para atender ao cidadão, o Estado de Minas Gerais disponibiliza sessão específica para facilitar ainda mais a divulgação de dados relativos às contratações do Programa eEnfrentamento dos Efeitos da Pandemia de COVID-19.
+Com foco no fomento da transparência e melhores práticas para atender ao cidadão, o Estado de Minas Gerais disponibiliza sessão específica para facilitar a divulgação de informações relativas aos Contratos Emergenciais amparados pela Lei Federal nº 13.979, de 6 de fevereiro de 2020 e Lei Estadual nº 23.640, de 14 de maio de 2020 para aquisição de bens, serviços, inclusive de engenharia, obras, alienações e locações necessários ao enfrentamento da calamidade de saúde pública e estado de emergência decorrentes da COVID-19.
 
-O Cidadão poderá acessar a legislação de referência, os relatórios das compras de forma estruturada e em formato aberto, com ferramenta de busca, bem como acessar os canais de Ouvidoria e Lei de Acesso a Informação.
+Por meio dessa seção é possível consultar a legislação de referência, os relatórios de execução financeira, dados dos contratados, valores, dentre outras informações, de forma estruturada e em formato aberto.
 
-### 1. Consulta Compras e Contratos
+Ao clicar em Ouvidoria, um canal específico para denúncias, reclamações e sugestões também está disponível ao cidadão.
+
+E caso deseje mais informações, solicite por meio do Acesso à Informação.
+
+###  1. Consulta Compras Emergenciais
 <a href="#top">(inicio)</a>
 
-Ao clicar em ___[Compras e Contratos]___ o portal exibe uma página com o painel das contratações relacionados ao Programa 26 - Enfrentamento dos efeitos da pandemia de COVID-19.
+Ao clicar em __[Contratações Emergenciais]__ o portal exibe uma página com as Contratações Emergenciais
+
+Link: http://www.transparencia.dadosabertos.mg.gov.br/dataset/contratacoes-coronavirus
+
+### 2. Consulta Compras - Programa de enfrentamento COVID-19
+<a href="#top">(inicio)</a>
+
+Ao clicar em __[Compras - Programa de enfrentamento COVID-19]__ o portal exibe uma página com o painel das contratações relacionados ao Programa 26 - "Enfrentamento dos efeitos da pandemia de COVID-19".
 
 ![](static/leiaute-painel-covid19.png)
 
@@ -126,10 +155,9 @@ __Exemplo:__ Número do Contrato - [9245761](https://www1.compras.mg.gov.br/cont
       Número do Processo: 000028    
       Ano do Processo: 2020
 
-
 * O cidadão poderá realizar a extração dos dados através dos ícones (imprimir, CSV e PDF);
 
-* As colunas da tabela deverão ser movivéis, conforme adotado pelas demais consultas do Portal.
+* As colunas da tabela deverão ser movíveis, conforme adotado pelas demais consultas do Portal.
 
 * O usuário poderá classificar os dados da tabela, conforme o  adotado pelas demais consultas do Portal.
 
@@ -169,6 +197,14 @@ Link: http://www.ouvidoriageral.mg.gov.br/coronavirus
 Ao clicar no ícone ___[Acesso à Informação]___ o portal exibe a página Sistema Eletrônico de Acesso à Informação (e-Sic)
 
 Link: http://www.acessoainformacao.mg.gov.br/
+
+### 7. Dados epidemiológicos
+<a href="#top">(inicio)</a>
+
+Ao clicar no ícone ___[Dados epidemiológicos]___ o portal exibe a página da Secretaria de Estado da Saúde
+
+link: https://www.saude.mg.gov.br/coronavirus
+
 
 
 # Exemplos / Pesquisa
