@@ -1,5 +1,5 @@
 
-| Título| [Homologação do layout - Consulta Remuneração - Interface]()        
+| Título| [Homologação do layout - Consulta Remuneração - Interface](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec002_remuneracao-servidores/especificacao-remuneracao-layout-2019-homologa-layout.html)        
 | -|:-
 |__Contrato Manutenção__ | Nº 15210010062019 (INF. 3951)
 |__Proposta comercial__ |  Nº 626584/19
