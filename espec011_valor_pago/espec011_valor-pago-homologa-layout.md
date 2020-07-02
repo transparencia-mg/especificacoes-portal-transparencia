@@ -3,7 +3,7 @@
 |__Contrato manutenção__ | nº 15210010062019 (INF. 3951)
 |__Proposta Comercial__ | nº 626584/19
 |__Mantis__ |nº 0146649
-|__Versão html__ |[link]()
+|__Versão html__ |[link](http://htmlpreview.github.io/?https://raw.githubusercontent.com/transparencia-mg/especificacoes-portal-transparencia/master/espec011_valor_pago/espec011_valor-pago-homologa-layout.html)
 
 # Homologação do layout da Memória do valor pago
 
