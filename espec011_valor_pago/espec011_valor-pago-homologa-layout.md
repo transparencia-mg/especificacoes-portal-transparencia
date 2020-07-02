@@ -1,8 +1,9 @@
 | Título| Homologação do layout - Memória do valor pago
 | -|:-
-|__Contrato manutenção__ | 15210010062019 (INF. 3951)
-|__Proposta Comercial__ | 626584/19
-|__Mantis__ |
+|__Contrato manutenção__ | nº 15210010062019 (INF. 3951)
+|__Proposta Comercial__ | nº 626584/19
+|__Mantis__ |nº 0146649
+|__Versão html__ |[link]()
 
 # Homologação do layout da Memória do valor pago
 
