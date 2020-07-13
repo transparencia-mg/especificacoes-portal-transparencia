@@ -1,10 +1,6 @@
-
-| Título| Homologação de valores - Memória do valor pago
-| -|:-
-|__Contrato manutenção__ | nº 15210010062019 (INF. 3951)
-|__Proposta Comercial__ | nº 626584/19
-|__Mantis__ |nº 0146649
-|__Versão html__ |[link](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec011_valor_pago/espec011_valor-pago-homologa-valores.html)
+|Título| Contrato manutenção |Proposta Comercial| Mantis |Versão html
+| -|:-| -|:-| -|
+| Homologação de valores - Memória do valor pago| 15210010062019 (INF. 3951)| 626584/19|0146649| [link](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec011_valor_pago/espec011_valor-pago-homologa-valores.html)|
 
 # Homologação de valores da Memória do valor pago
 
@@ -14,9 +10,9 @@
 * Diárias
 * Convênios de Saída
 
-<div class="alert alert-danger">
+<div class="alert alert-info">
 
-Todas as divergências estão destacadas em vermelho - data de acesso ao armazém 02/07/2020
+Todas as divergências foram corrigidas na questão de valores - data de acesso ao armazém 13/07/2020
 --
   </div>
 
@@ -25,12 +21,12 @@ Todas as divergências estão destacadas em vermelho - data de acesso ao armazé
 
 ## Consulta Despesa e Diárias
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 Consulta Despesa
 --
-Os valores estão duplicados no resultado da consulta
---
+<s>Os valores estão duplicados no resultado da consulta</s> __CORRIGIDO__
+
 
 ![](static/valores-empenho3-documento10-despesa.jpg)
 
@@ -53,16 +49,24 @@ __CONFERE__
 
 ![](static/valores-empenho28-documento358-despesa-portal.jpg)
 
+Verificação 13/07/2020 - __CONFERE__
+--
+
+![](static/valores-empenho28-documento358-despesa-20200711.jpg)
+
+![](static/valores-empenho28-documento358-despesa-portal-20200711.jpg)
+
   </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 Consulta Diárias
 --
-O resultado apresenta erros, não é possível realizar a conferência
---
+<s>O resultado apresenta erros, não é possível realizar a conferência</s> -__CORRIGIDO__
 
-![](static/valores-op-diarias.jpg)
+![](static/valores-empenho10-documento132-diarias-portal.jpg)
+
+![](static/valores-empenho10-documento132-diarias.jpg)
 
 </div>
 
@@ -83,12 +87,42 @@ __CONFERE__
 
 <div class="alert alert-success">
 
-__CONFERE__
+__CONFERE - 02/07/2020__
 
 ![](static/valores-9247827-9250010l.jpg)
 
 ![](static/valores-9247827-portal.jpg)
 
 ![](static/valores-9250010-portal.jpg)
+
+__CONFERE - 13/07/2020__
+--
+
+![](static/valores-9247827-9250010-20200713.jpg)
+
+![](static/valores-9247827-portal-20200713.jpg)
+
+![](static/valores-9250010-portal-20200713.jpg)
+
+---
+BO
+--
+
+![](static/valores-9245691.jpg)
+
+PORTAL
+--
+
+![](static/valores-9245691-portal.jpg)
+
+---
+BO
+--
+![](static/valores-9130889.jpg)
+
+PORTAL
+--
+
+![](static/valores-9130889-portal.jpg)
 
 </div>

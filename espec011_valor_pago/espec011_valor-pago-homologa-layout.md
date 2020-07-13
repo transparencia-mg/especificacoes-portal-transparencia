@@ -1,9 +1,6 @@
-| Título| Homologação do layout - Memória do valor pago
-| -|:-
-|__Contrato manutenção__ | nº 15210010062019 (INF. 3951)
-|__Proposta Comercial__ | nº 626584/19
-|__Mantis__ |nº 0146649
-|__Versão html__ |[link](http://htmlpreview.github.io/?https://raw.githubusercontent.com/transparencia-mg/especificacoes-portal-transparencia/master/espec011_valor_pago/espec011_valor-pago-homologa-layout.html)
+| Título| Contrato manutenção|Proposta Comercial|Mantis|Versão html
+| -|-|-|-|-|
+|Homologação do layout - Memória do valor pago| nº 15210010062019 (INF. 3951)|626584/19|0146649|[link](http://htmlpreview.github.io/?https://raw.githubusercontent.com/transparencia-mg/especificacoes-portal-transparencia/master/espec011_valor_pago/espec011_valor-pago-homologa-layout.html)
 
 # Homologação do layout da Memória do valor pago
 
@@ -42,13 +39,13 @@ A alteração foi aplicada em todos os níveis
 
   </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 Consulta de Diárias
 --
-A alteração **não** foi aplicada
---
-![](static/layout-tooltip-valor-pago-diarias.jpg)
+<s>A alteração **não** foi aplicada </s> - __CORRIGIDO__
+
+![](static/layout-tooltip-valor-pago-diarias-corrigido.jpg)
 
   </div>
 
@@ -65,13 +62,17 @@ Alterar o texto e descrição do _tooltip_ das colunas "Data" e " Número do doc
 
   ![](static/espec-tooltip-empenho.jpg)
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 Consulta de Despesas
 --
-Dados não alterados (nome e tooltip)
---
-![](static/layout-tooltip-empenho-despesa.jpg)
+<s>Dados não alterados (nome e tooltip)</s> - __CORRIGIDO__
+
+![](static/layout-tooltip-empenho-despesa-corrigido.jpg)
+
+![](static/layout-tooltip-empenho-despesa-data.jpg)
+
+![](static/layout-tooltip-empenho-despesa-numero-empenho.jpg)
 
 </div>
 
@@ -104,15 +105,29 @@ __Situação 2:__ ao clicar em [Valor Liquidado](), o próximo nível deverá ap
 
 ![](static/espec-tooltip-liquidacao.jpg)
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 Consulta de Despesas
 --
-Dados **não** alterados (nome e tooltip)
---
-![](static/layout-tooltip-liquidacao-despesa.jpg)
+<s>Dados **não** alterados (nome e tooltip)</s> - __CORRIGIDO__
+
+![](static/layout-tooltip-liquidacao-despesa-corrigido.jpg)
 
 </div>
+
+<div class="alert alert-danger">
+
+Despesa
+--
+
+Ficou pendente a correção do tooltip do campo "Número do documento" ao clicar no **VALOR LIQUIDADO**
+--
+**Número do documento**: Número de identificação do documento
+--
+
+![](static/layout-tooltip-liquidacao-despesa-numero-documento.jpg)
+</div>
+
 
 <div class="alert alert-success">
 
@@ -124,14 +139,14 @@ __CONFERE__
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 Consulta de Diárias
 --
 
-Alterar o tooltip do campo "Número do Documento" para: Número de identificação do documento
---
-![](static/layout-tooltip-numero-documento-liquidacao-diarias.jpg)
+<s>Alterar o tooltip do campo "Número do Documento" para: Número de identificação do documento</s> __CORRIGIDO__
+
+![](static/layout-tooltip-numero-documento-liquidacao-diarias-corrigido.jpg)
 ---
 
 </div>
@@ -145,13 +160,16 @@ __Situação 3:__ ao clicar em [Valor Pago](), o próximo nível deverá apresen
 
 ![](static/espec-tooltip-op-pagamento.jpg)
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 Consulta de Despesas
 --
-Dados **não** alterados (nome e tooltip)
---
-![](static/layout-tooltip-op-pagamento-despesa.jpg)
+<s>Dados **não** alterados (nome e tooltip)</s> - __CORRIGIDO__
+
+![](static/layout-tooltip-op-pagamento-despesa-corrigido.jpg)
+
+
+![](static/layout-tooltip-liquidacao-despesa-numero-op.jpg)
 
 </div>
 
@@ -167,7 +185,6 @@ __CONFERE__
 __CONFERE__
 
 ![](static/layout-tooltip-numero-documento-pagamento-diarias.jpg)
-
 
 </div>
 
@@ -196,20 +213,33 @@ CONFERE
 
 Consulta de Despesas
 --
-Corrigir a formatação da tabela de pagamento
+Corrigir a formatação da tabela de pagamento - __Não corrigido__
 --
 
 ![](static/layout-formulario-detalhamento-formatacao-despesa.jpg)
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 Consulta de Diárias
 --
-A alteração dos campos estão OK, no entanto a tabela está desconfigurada
+<s>A alteração dos campos estão OK, no entanto a tabela está desconfigurada</s> - __CORRIGIDO  FORMULÁRIO DE EMPENHO__
 
 ![](static/layout-formulario-detalhamento-formatacao-diarias.jpg)
+
+
+</div>
+
+<div class="alert alert-danger">
+
+DIÁRIAS
+--
+
+Corrigir formatação do formulário de pagamento
+--
+
+![](static/layout-formulario-detalhamento-formatacao-diarias-pagamento.jpg)
 
 </div>
 
@@ -232,12 +262,12 @@ Alterar a descrição do _tooltip_ da coluna "valor pago no ano" da consulta de 
 
 ![](static/espec-tooltip-valor-pago-ano.jpg)
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 Não alterado a descrição do tooltip
 --
 
-![](static/layout-tooltip-valor-pago-ano.jpg)
+![](static/layout-tooltip-valor-pago-ano-corrigido.jpg)
 
 </div>
 
@@ -253,7 +283,10 @@ No [Formulário de Detalhamento da Consulta de Restos a pagar]() será alterada 
 
 <div class="alert alert-danger">
 
-Corrigir formatação
+RESTOS A Pagar
+--
+
+Corrigir formatação - __NÃO CORRIGIDO__
 --
 
 ![](static/layout-formulario-detalhamento-rp.jpg)
