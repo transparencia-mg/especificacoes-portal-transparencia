@@ -1,10 +1,7 @@
 
-| Título| [Homologação do layout - Consulta Remuneração - Interface](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec002_remuneracao-servidores/especificacao-remuneracao-layout-2019-homologa-layout.html)        
-| -|:-
-|__Contrato Manutenção__ | Nº 15210010062019 (INF. 3951)
-|__Proposta comercial__ |  Nº 626584/19
-|__Mantis__ | 0146470  
-
+|Título| Contrato Manutenção| Proposta comercial| Mantis| Versão html
+| -|:-| -|:-|:-
+| [Homologação do layout - Consulta Remuneração - Interface](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec002_remuneracao-servidores/especificacao-remuneracao-layout-2019-homologa-layout.html)  |15210010062019 (INF. 3951)| 626584/19|0146470 |[Link](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec002_remuneracao-servidores/especificacao-remuneracao-layout-2019-homologa-layout.html)
 
 # Homologação do layout
 <a href="#top">(inicio)</a>
@@ -81,11 +78,13 @@ __CONFERE__
 
 * O campo remuneração bruta refere-se ao campo _[Total]_ da tabela histórico recebimentos;
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-O portal não está exibindo os valores referente ao campo _[Total]_ na remuneração bruta. Os valores que estão sendo exibidos refere-se ao campo remuneração básica
---
-![](static/layout-remuneracao-bruta-tabela.png)
+__CORRIGIDO__
+
+<s>O portal não está exibindo os valores referente ao campo _[Total]_ na remuneração bruta. Os valores que estão sendo exibidos refere-se ao campo remuneração básica</s>
+
+![](static/layout-remuneracao-bruta-tabela-corrigido.png)
 
 **Valores corretos a serem exibidos:**
 
@@ -99,7 +98,13 @@ __CONFERE__
 
 * As tabelas devem possuir o comportamento padrão em relação a paginação, filtro, compartilhamento em redes sociais e exportação/impressão.
 
-<div class="alert alert-danger">
+<div class="alert alert-info">
+
+**Não é possível aplicar essa funcionalidade**
+
+Mensagem da PRODEMGE (Alan):
+
+"*Na tela de listagem de Servidores não é possível ter opção Exibir Todos pois se trata de uma tela com paginação pelo servidor justamente pela grande quantidade de registros que ela pode trazer, travando a página caso tente exibir todos os dados.*"
 
 A opção "todas" não está ativa em nenhuma consulta conforme ocorre na consulta de despesa
 --
@@ -113,73 +118,66 @@ A opção "todas" não está ativa em nenhuma consulta conforme ocorre na consul
 ![](static/exemplo-paginacao-despesa.png)
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Ao realizar a classificação de valores o "TOTAL GERAL" é considerado na classificação
---
+__CORRIGIDO__
 
-![](static/layout-classificar-valor-total.png)
+<s>Ao realizar a classificação de valores o "TOTAL GERAL" é considerado na classificação</s>
+
+![](static/layout-classificar-valor-total-corrigido.png)
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-O "TOTAL GERAL" não está sendo exibido no fim da tabela
---
+__CORRIGIDO__
 
-![](static/layout-valor-total-fim-tabela.png)
+<s>O "TOTAL GERAL" não está sendo exibido no fim da tabela</s>
 
---
-**Exemplo: [Consulta Despesa]()**
---
 
-![](static/exemplo-valor-total-fim-tabela-despesa.png)
+![](static/layout-valor-total-fim-tabela-corrigido.png)
+
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-O campo "TOTAL GERAL"deve vir em negrito
---
+__CORRIGIDO__
 
-![](static/layout-valor-total-negrito.png)
+<s>O campo "TOTAL GERAL"deve vir em negrito</s>
+
+
+![](static/layout-valor-total-negrito-corrigido.png)
 </div>
 
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Considerando a estrutura padrão do portal ao utilizar o campo "filtrar" o Portal de deve apresentar como "TOTAL GERAL" o valor total do filtro inicial da pesquisa.
---
+__CORRIGIDO__
+
+<s>Considerando a estrutura padrão do portal ao utilizar o campo "filtrar" o Portal de deve apresentar como "TOTAL GERAL" o valor total do filtro inicial da pesquisa.</s>
 
 Filtro utilizado na pesquisa: ***Fontenelle***
---
 
-![](static/layout-valor-total-fitro-resultado.png)
+
+![](static/layout-valor-total-fitro-resultado-corrigido.png)
 
 Resultado utilizando o campo [filtrar]: ***Rodrigo***
---
-![](static/layout-valor-total-fitro.png)
 
---
-
-**Exemplo: [Consulta Despesa]()**
---
-
-Filtro utilizado na pesquisa: ***Maria Aparecida da Silva***
-
-![](static/exemplo-valor-total-filtro-despesa.png)
-
-
-Resultado utilizando o campo [filtrar]: ***Oliveira***
-
-![](static/exemplo-valor-total-filtro-despesa-filtrar.png)
+![](static/layout-valor-total-fitro-corrigido.png)
 
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-info">
+
+**Ficou definido pela DTA que a tabela de remuneração deve seguir o padrão do portal, conforme sugestão da PRODEMGE.**
+
+Mensagem PRODEMGE (Alan):
+
+"*Peço que reconsiderem as cores da tela de Detalhamento, pois as cores verde e amerela não são padrão do site, quase todas as telas de detalhamento não possuem cores, exceto a até então tela de remuneração e a de viagens.*"
 
 Inserir as cores padrões na planilha
---
+
 
 ![](static/layout-cor-situacao-funcional.png)
 
@@ -187,6 +185,14 @@ Inserir as cores padrões na planilha
 
 ![](static/layout-cor-popup.png)
 
+</div>
+
+<div class="alert alert-danger">
+
+Colocar os Cabeçalhos em negrito
+--
+
+![](static/layout-cabecalho-negrito.png)
 
 </div>
 
@@ -196,6 +202,9 @@ Inserir as cores padrões na planilha
 <div class="alert alert-success">
 
 __CONFERE__
+
+Mês Fevereiro
+--
 
 ![](static/layout-zulma-goncalves-planilha.png)
 
@@ -208,11 +217,26 @@ Resultado ao clicar na linha de valor: 2.657,67
 
 Resultado ao clicar na linha de valor: 2.491,56
 --
-
 ![](static/layout-zulma-goncalves-detalhamento-linha2.png)
 
+---
+Mês Janeiro
+--
+
+![](static/layout-zulma-goncalves-detalhamento-janeiro.png)
+
+---
+
+* Planilha histórico remuneração
+
+![](static/layout-zulma-goncalves-detalhamento-janeiro-csv.png)
+
+---
+* Planilha Portal
+![](static/layout-zulma-goncalves-detalhamento-janeiro-planilha-portal.png)
 
 </div>
+
 
   __Exemplo:__ Servidora: ZULMA GONCALVES DE AGUIAR - JAN/2019 -
 
@@ -319,7 +343,7 @@ Resultado ao clicar na linha de valor: 2.491,56
 
 ___Exemplo:___ Caso o usuário selecione os filtros `Ano: 2015 Mês: Janeiro` na _[barra de pesquisa]_, a situação funcional apresentada na tabela _[situação funcional]_ será a correspondente ao período Jan/2015.
 
-<div class="alert alert-danger">
+<div class="alert alert-warning">
 
 **OBS:** Testes referente a mais anos serão verificados em produção, pois no ambiente de homologação estão disponíveis apenas 3 meses.
 --
@@ -330,9 +354,10 @@ ___Exemplo:___ Caso o usuário selecione os filtros `Ano: 2015 Mês: Janeiro` na
 
 ![](static/historico-recebimentos.png)
 
-<div class="alert alert-success">
+<div class="alert alert-danger">
 
-__CONFERE__
+O nome da tabela é **Histórico de Recebimentos**
+--
 
 ![](static/layout-historico-recebimentos.png)
 
@@ -342,33 +367,44 @@ Observações:
 
 * Valores zero devem ser apresentados como "-";
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Valores zero devem ser apresentados como "-"
---
-![](static/layout-valores-zerados.png)
+__CORRIGIDO__
+
+<s>Valores zero devem ser apresentados como "-"</s>
+
+![](static/layout-valores-zerados-corrigido.png)
 
 </div>
 
-* A coluna mês/ano deve ser apresentada no formato mês(3 caracteres)/ano(4 caracteres). ___Exemplo:___ Set/2019;<div class="alert alert-success">
-__CONFERE__
+* A coluna mês/ano deve ser apresentada no formato mês(3 caracteres)/ano(4 caracteres). ___Exemplo:___ Set/2019;
 
+<div class="alert alert-danger">
+
+O mês deve ser descritivo
+--
+![](static/layout-mes-descritivo.png)
+
+**EXEMPLO**
+![](static/historico-recebimentos.png)
 </div>
 
 * Os dados da coluna mês/ano devem ser exibidos de forma decrescente (mais recente para o mais antigo);
 
 <div class="alert alert-danger">
 
-Ao utilizar a opção classificar  da coluna mês ano a funcionalidade não retorna a classificação correta
+Ao utilizar a opção classificar  da coluna mês ano a funcionalidade não retorna a classificação correta - Como a descrição do mês encontra-se incorreta, não foi possível verificar esse item.
+--
+
+**No entanto ao classificar os dados deves obedecer a ordem decrescente**
 --
 A ordem correta seria:
 --
-*  __<12/2019>; <01/2020>; <02/2020>__  
+*  __<Fev/2020>; <Jan/2020>; <Dez/2019>__ : como padrão
      ou  
-* __<02/2020>; <01/2020>; <12/2019>__
+* __<Dez/2019>; <Jan/2020>; <Fev/2020>__ ao realizar a classificação.
 
 ![](static/layout-classificar-mes-ano1.png)
-
 
 ![](static/layout-classificar-mes-ano2.png)
 
@@ -376,7 +412,7 @@ A ordem correta seria:
 
 * Quando o número de linhas da tabela _[histórico recebimentos]_ for superior ao limite da página deve ser aplicada paginação conforme padrão das demais consultas;
 
-<div class="alert alert-danger">
+<div class="alert alert-warning">
 
 **OBS** Não é possível verificar essa funcionalidade (paginação) em homologação, pois a base de dados disponibilizada corresponde a apenas 3 meses. Dados serão verificados em produção.
 --
@@ -386,14 +422,16 @@ A ordem correta seria:
 
 * O cabeçalho da tabela histórico recebimentos deve ser congelado, ou seja, quando o usuário usar a barra de rolagem vertical o cabeçalho da tabela deve ficar sempre visível. ___Exemplo:___ [Cabeçalho fixo (_Fixed Header_)](https://uxdesign.cc/design-better-data-tables-4ecc99d23356#86cf);
 
-<div class="alert alert-danger">
+<div class="alert alert-warning">
 
 **OBS** Não é possível verificar essa funcionalidade (*Cabeçalho fixo (Fixed Header)* em homologação, pois a base de dados disponibilizada corresponde a apenas 3 meses. Dados serão verificados em produção.
 --
 
 </div>
 
-__OBSERVAÇÃO:__ Essa funcionalidade não deve apresentar outra barra de rolagem dentro da tabela histórico recebimentos.<div class="alert alert-danger">
+__OBSERVAÇÃO:__ Essa funcionalidade não deve apresentar outra barra de rolagem dentro da tabela histórico recebimentos.
+<div class="alert alert-warning">
+
 **OBS**: Não é possível verificar essa funcionalidade (*não apresentar barra de rolagem*) em homologação, pois a base de dados disponibilizada corresponde a apenas 3 meses. Dados serão verificados em produção.
 --
 
@@ -403,13 +441,19 @@ Exemplo: [stackoverflow](https://stackoverflow.com/questions/4709390/table-heade
 
 ![](static/fixed-header.gif)
 
-* A tabela _[histórico recebimentos]_ deve exibir a opção de classificar em todas as colunas conforme já ocorre nas demais consultas do Portal; <div class="alert alert-success">__CONFERE__
+* A tabela _[histórico recebimentos]_ deve exibir a opção de classificar em todas as colunas conforme já ocorre nas demais consultas do Portal;
+
+<div class="alert alert-success">
+
+__CONFERE__
+
+![](static/layout-filtro-historico-recebimento.png)
 
 </div>
 
 * Os dados apresentados na tabela _[histórico recebimentos]_ devem refletir o primeiro mês da série histórica disponível até o mês/ano selecionado no início da pesquisa.
 
-<div class="alert alert-danger">
+<div class="alert alert-warning">
 
 **OBS**: Não é possível verificar essa funcionalidade em homologação, pois a base de dados disponibilizada corresponde a apenas 3 meses. Dados serão verificados em produção.
 --
@@ -508,6 +552,13 @@ __CONFERE__
 
 A tabela histórico recebimentos deve permitir que o usuário clique no mês/ano para detalhar as informações referente aqueles mês. A informação mês/ano virá em vermelho como forma de destacar a possibilidade de clique.
 
+<div class="alert alert-success">
+
+__CONFERE__
+
+![](static/layout-destaque-mes.png)
+</div>
+
 Quando o usuário clicar em um desses campos o Portal exibe outra janela detalhando os valores do mês selecionado. Deve ser possível a seleção de múltiplos meses sem perda de contexto.
 
 ___Exemplo:___ [Multi-Modal](https://uxdesign.cc/design-better-data-tables-4ecc99d23356#4a39)
@@ -533,14 +584,43 @@ __CONFERE__
 
   </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-A tabela histórico de remuneração não está exibindo os valores de jetons
---
+__CORRIGIDO__
 
-![](static/layout-historico-jetons.png)
+<s>A tabela histórico de remuneração não está exibindo os valores de jetons</s>
+
+
+![](static/layout-historico-jetons-corrigido.png)
 </div>
 
+<div class="alert alert-danger">
+
+Os valores estão incorretos. Para o servidor em questão não existe valores na planilha "Jetons Administração Direta". Os valores são correspondentes a Jetons empresas apenas.
+--
+
+![](static/layout-valores-errados-jetons-portal.png)
+
+![](static/layout-valores-errados-jetons-planilha.png)
+
+</div>
+
+
+<div class="alert alert-danger">
+
+O campo **[Outros valores]** é composto pela soma dos campos (Prêmio de Produtividade + Férias Prêmio + Jetons Administração Direta + Demais Eventuais).
+--
+
+O campo **[Total]** é composto pela soma (básica + férias+ gratificação natalina + outros valores)
+--
+--
+
+![](static/layout-erros-outros-valores.png)
+
+[link portal](http://homologa3.prodemge.gov.br/age7/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/202002/0/49/0/0/526355/4083/3/2034740/0/0/0)
+--
+
+</div>
 
 Algumas observações:
 
@@ -562,17 +642,16 @@ __CONFERE__
 
 * Valores zero devem ser apresentados como "-"
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Corrigir valores zerados para "-"
---
+__CORRIGIDO__
 
-![](static/layout--formulario-detalhamento-valor-zerado.png)
+<s>Corrigir valores zerados para "-"</s>
+
+![](static/layout--formulario-detalhamento-valor-zerado-corrigido.png)
 </div>
 
-
 * A seção de detalhamento dos jetons empresas somente deve ocorrer para os casos em que os valores não forem zerados para o mês destacado. __Exemplo:__
-
 
 ![](static/formulario-detalhamento-jetons.png)
 
@@ -583,21 +662,23 @@ __CONFERE__
 ![](static/layout-valor-zerado-jetons.png)
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Corrigir nome de Total Jetons Empresa para **Total Jetons Empresas**
---
+__CORRIGIDO__
 
+<s>Corrigir nome de Total Jetons Empresa para **Total Jetons Empresas**</s>
 
-![](static/layout-altera-texto-empresa.png)
+![](static/layout-altera-texto-empresa-corrigido.png)
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Incluir o "R$" no local indicado
---
+__CORRIGIDO__
 
-![](static/layout--formulario-detalhamento-r$.png)
+<s>Incluir o "R$" no local indicado</s>
+
+
+![](static/layout--formulario-detalhamento-r$-corrigido.png)
 </div>
 
 ### Exportação de arquivos
@@ -645,7 +726,10 @@ ___Exemplo 1___: A linha "Ago/2015" deve exibir a situação funcional e remuner
 
 <div class="alert alert-danger">
 
-A funcionalidade destacada no exemplo acima (Exemplo 1) não está funcionando.
+Não foi possível verificar esse erro, pois ao gerar o csv o Portal está apresentando apenas o mês vigente.
+--
+
+=> A funcionalidade destacada no exemplo acima (Exemplo 1) não está funcionando.
 --
 
 **Exemplo**: A Joana Darc Aparecida de Faria Lopes em dez/2019 estava lotada na "SUPERINTENDENCIA CENTRAL DE ANALISE E"  e em fev/2020 estava lotada em "DIRETORIA CENTRAL DE FISCALIZACAO DE" ao gerar o csv o Portal retorna os mesmos dados para todos os períodos. Esse fato também ocorre para os outros campos, como por exemplo cargo em comissão.
@@ -661,6 +745,41 @@ A funcionalidade destacada no exemplo acima (Exemplo 1) não está funcionando.
 
 * **CSV gerado**
 ![](static/layout-exportacao-detalhamento-remuneracao-csv3.png)
+
+CSV gerado no dia 14/07/2020
+--
+
+![](static/layout-exportacao-detalhamento-remuneracao-csv4.png)
+</div>
+
+
+<div class="alert alert-danger">
+
+Ao solicitar a extração em csv é gerado as informações de apenas um cargo.
+--
+
+![](static/layout-zulma-goncalves-detalhamento-fev-csv.png)
+
+![](static/layout-zulma-goncalves-detalhamento-linha2.png)
+
+---
+O servidor ACI ALVES DOS SANTOS apresenta 02 cargos, no entanto apenas 01 está sendo exibido na tabela histórico de recebimentos.
+--
+[link porta- ACI ALVES DOS SANTOS](http://homologa3.prodemge.gov.br/age7/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/202002/ACI%20ALVES%20DOS%20SANTOS/0/0/0/0/0/0/9/0/0/0)
+--
+
+![](static/layout-exportacao-aci-alves1.png)
+--
+![](static/layout-exportacao-aci-alves2.png)
+
+Exemplo: A servidora ZULMA GONCALVES DE AGUIAR também apresenta 02 cargos e no entanto a informação dela é exibida na tabela.
+--
+
+[Link Portal - ZULMA](http://homologa3.prodemge.gov.br/age7/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/202002/ZULMA%20GONCALVES%20DE%20AGUIAR/0/0/0/0/0/0/9/0/0/0)
+--
+
+
+
 </div>
 
 <div class="alert alert-success">
@@ -684,18 +803,26 @@ __CONFERE__
 
 <div class="alert alert-danger">
 
-A ordem e o layout da planilha extraída em csv do Portal não está conforme o solicitado pela congelado
+A ordem da planilha a partir das empresa ainda encontra-se incorreto
 --
-![](static/layout-csv.png)
+
+A ordem e o layout da planilha extraída em csv do Portal não está conforme o solicitado pela CGE.
+--
+
+![](static/layout-csv-historico-remuneracao-empresa.png)
 
 ![](static/espec-arquivo-csv.png)
+
 </div>
 
 * Os valores zero devem ser exportados como valores numéricos `0`
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Os valores não estão no formato solicitado
---
+__CORRIGIDO__
+
+<s>Os valores não estão no formato solicitado</s>
+
+![](static/layout-valores-planilha-incorretos.png)
 
 </div>
