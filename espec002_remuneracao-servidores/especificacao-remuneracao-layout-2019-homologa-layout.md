@@ -1,7 +1,18 @@
+---
+title: "Homologação do layout - Consulta Remuneração"
+output:
+  pdf_document:
+    toc: yes
+  html_document:
+    theme: united
+    toc: yes
+  word_document:
+    toc: yes
+---
 
 |Título| Contrato Manutenção| Proposta comercial| Mantis| Versão html
 | -|:-| -|:-|:-
-| [Homologação do layout - Consulta Remuneração - Interface](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec002_remuneracao-servidores/especificacao-remuneracao-layout-2019-homologa-layout.html)  |15210010062019 (INF. 3951)| 626584/19|0146470 |[Link](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec002_remuneracao-servidores/especificacao-remuneracao-layout-2019-homologa-layout.html)
+| Homologação do layout - Consulta Remuneração - Interface   |15210010062019 (INF. 3951)| 626584/19|0146470 |[Link](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec002_remuneracao-servidores/especificacao-remuneracao-layout-2019-homologa-layout.html)
 
 # Homologação do layout
 <a href="#top">(inicio)</a>
@@ -111,11 +122,6 @@ A opção "todas" não está ativa em nenhuma consulta conforme ocorre na consul
 ![](static/layout-paginacao.png)
 
 --
-
-**Exemplo: [Consulta Despesa]()**
---
-
-![](static/exemplo-paginacao-despesa.png)
 </div>
 
 <div class="alert alert-success">
@@ -196,7 +202,6 @@ Colocar os Cabeçalhos em negrito
 
 </div>
 
-
 * Quando a base de dados (tabela de dados) apresentar o mesmo servidor com dois ou mais vínculos, o Portal deve apresentar cada vínculo em uma linha com os seus respectivos valores, ou seja, cada linha da planilha deve refletir uma linha no Portal.
 
 <div class="alert alert-success">
@@ -218,22 +223,6 @@ Resultado ao clicar na linha de valor: 2.657,67
 Resultado ao clicar na linha de valor: 2.491,56
 --
 ![](static/layout-zulma-goncalves-detalhamento-linha2.png)
-
----
-Mês Janeiro
---
-
-![](static/layout-zulma-goncalves-detalhamento-janeiro.png)
-
----
-
-* Planilha histórico remuneração
-
-![](static/layout-zulma-goncalves-detalhamento-janeiro-csv.png)
-
----
-* Planilha Portal
-![](static/layout-zulma-goncalves-detalhamento-janeiro-planilha-portal.png)
 
 </div>
 
