@@ -10,9 +10,9 @@
 * Diárias
 * Convênios de Saída
 
-<div class="alert alert-danger">
+<div class="alert alert-info">
 
-Todas as divergências estão destacadas em vermelho
+Todas as divergências foram corrigidas na Homologação do dia 14/07/2020
 --
   </div>
 
@@ -115,17 +115,18 @@ Consulta de Despesas
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 Despesa
 --
+__CORRIGIDO__
 
-Ficou pendente a correção do tooltip do campo "Número do documento" ao clicar no **VALOR LIQUIDADO**
---
+<s>Ficou pendente a correção do tooltip do campo "Número do documento" ao clicar no **VALOR LIQUIDADO**</s>
+
 **Número do documento**: Número de identificação do documento
---
 
-![](static/layout-tooltip-liquidacao-despesa-numero-documento.jpg)
+
+![](static/layout-tooltip-liquidacao-despesa-numero-documento-corrigido.jpg)
 </div>
 
 
@@ -148,9 +149,7 @@ Consulta de Diárias
 
 ![](static/layout-tooltip-numero-documento-liquidacao-diarias-corrigido.jpg)
 ---
-
 </div>
-
 
 __Situação 3:__ ao clicar em [Valor Pago](), o próximo nível deverá apresentar a informação:
 
@@ -209,14 +208,14 @@ CONFERE
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 Consulta de Despesas
 --
-Corrigir a formatação da tabela de pagamento - __Não corrigido__
---
+<s>Corrigir a formatação da tabela de pagamento </s> __CORRIGIDO__
 
-![](static/layout-formulario-detalhamento-formatacao-despesa.jpg)
+
+![](static/layout-formulario-detalhamento-formatacao-despesa-corrigido.jpg)
 
 </div>
 
@@ -231,15 +230,15 @@ Consulta de Diárias
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 DIÁRIAS
 --
 
-Corrigir formatação do formulário de pagamento
---
+<s>Corrigir formatação do formulário de pagamento</s> __CORRIGIDO__
 
-![](static/layout-formulario-detalhamento-formatacao-diarias-pagamento.jpg)
+
+![](static/layout-formulario-detalhamento-formatacao-diarias-pagamento-corrigido.jpg)
 
 </div>
 
@@ -281,15 +280,15 @@ No [Formulário de Detalhamento da Consulta de Restos a pagar]() será alterada 
 
 ![](static/espec-formulario-detalhamento-despesa.jpg)
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 RESTOS A Pagar
 --
 
-Corrigir formatação - __NÃO CORRIGIDO__
---
+<s>Corrigir formatação</s> __CORRIGIDO__
 
-![](static/layout-formulario-detalhamento-rp.jpg)
+
+![](static/layout-formulario-detalhamento-rp-corrigido.jpg)
 
 </div>
 
