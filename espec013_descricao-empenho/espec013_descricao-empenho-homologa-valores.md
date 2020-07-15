@@ -1,4 +1,3 @@
-
 |Título| Homologação da descrição do empenho
 | -|:-
 |__Contrato manutenção__ | nº 15210010062019 (INF. 3951)
@@ -8,10 +7,15 @@
 
 # Homologação do campo Descrição Histórico do Empenho
 
-<div class="alert alert-danger">
+<div class="alert alert-info">
 
-Todas as divergências estão destacadas em vermelho
---
+Considerando o relatado pelo Analista da PRODEMGE (Luiz), o erro detectado nesse documento refere-se a empenho do mês de junho. Nesse sentido, encontra-se concluída a homologação.
+Aguardamos a disponibilização em produção para uma conferência mais extensa.
+
+"*A geração do arquivo foi realizada em Março/2020. A divergência apresentada trata-se de um empenho **gerado em Junho**, ou seja, no arquivo disponibilizado para essa avaliação preliminar não continha tais dados.*
+
+*Estamos no aguardo da reunião para decidir a frequência de geração do referido arquivo, a ser realizada no dia 15/07. Com base nesse retorno, o analista da Prodemge que atende a SEF não atualizou o arquivo de teste, conforme eu havia cogitado no e-mail, sendo assim, os testes estão temporariamente limitados dentro do escopo de empenhos gerados em 2020 até o mês de Março (sem garantias que todos os empenhos gerados em Março estão inclusos e que possíveis divergências entre as descrições podem ocorrer.)*"
+
   </div>
 
 A homologação foi realizada por **amostragem** e apenas com base nos **empenhos de 2020**. Quando os dados forem disponibilizados em produção será possível verificar uma amostra maior.
@@ -60,20 +64,22 @@ SIAFI
 ![](static/siafi_empenho306_cbmmg-2020.png)
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-DIVERGÊNCIA NA DESCRIÇÃO DO HISTÓRICO DO EMPENHO
---
+**Desconsiderar pois o empenho refere-se a junho/2020**
+
+<s>DIVERGÊNCIA NA DESCRIÇÃO DO HISTÓRICO DO EMPENHO
+
 PORTAL
---
+
 ![](static/empenho1579-fundacao-ezequiel-2020.png)
 
 SIAFI
---
+
 ![](static/siafi_empenho1579_funed-2020.png)
 
 ![](static/siafi_empenho1579_funed-2020-telaanterior.png)
-
+</s>
 </div>
 
 ## Consulta Diárias
