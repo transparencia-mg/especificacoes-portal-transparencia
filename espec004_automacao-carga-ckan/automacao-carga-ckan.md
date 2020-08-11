@@ -37,7 +37,7 @@ Partes diretamente envolvidas: administrador do Portal; administrador dos sistem
 
 * É necessário:
 
-	- o uso de um arquivo datapackage.json para descrever os metadados de cada dataset;
+	- o uso de um arquivo `datapackage.json` para descrever os metadados de cada dataset;
 
 	- que o `datapackage.json` esteja de acordo com as especificações da Frictionless Data; 
 
@@ -47,7 +47,7 @@ Partes diretamente envolvidas: administrador do Portal; administrador dos sistem
 
 	
 
-	- que o arquivo datapackage.json contenha, minimamente, valores válidos para todas as propriedades enumeradas no gerador da [Frictionless Data](https://create.frictionlessdata.io/):
+	- que o arquivo `datapackage.json` contenha, minimamente, valores válidos para todas as propriedades enumeradas no gerador da [Frictionless Data](https://create.frictionlessdata.io/):
 
 	````
 	* dataset:
@@ -66,13 +66,10 @@ Partes diretamente envolvidas: administrador do Portal; administrador dos sistem
 ## Recursos
 
 É necessário:
-
 	- em sendo um recurso tabular, que tenha um schema válido no `datapackage.json`; e que seus dados disponibilizados na carga sejam validados automaticamente pelo goodtables.io no confronto com especificações do Frictionless data e json schema;
-
 	- em sendo um recurso em csv, que a codificação do arquivo csv seja UTF-8 (com BOM); 
 
 É recomendado:
-
 	- que o dado tabular seja em formato `.csv`;
 
 
@@ -82,8 +79,7 @@ Partes diretamente envolvidas: administrador do Portal; administrador dos sistem
 * É necessário:
 
 	- que cada dataset tenha um repositório com mesmo nome na organização https://github.com/dados-mg;
-	- que o nome de cada dataset e de cada um dos seus recursos sigam as [convenções de nomenclatura](https://pandoc.org/MANUAL.html#extension-auto_identifiers); 
-	- que os nomes das URLs dos repositórios sigam as [convenções](https://slugify.online/);
+	- que o nome de cada dataset, das URLs de seus respectivos repositórios e de cada um dos seus recursos sigam as convenções de nomenclatura (indicações: [pandoc](https://pandoc.org/MANUAL.html#extension-auto_identifiers) e [SLUG](https://slugify.online/));
 	- que cada repositório use a estrutura de pastas e arquivos seguinte:
 
 	- que o ftp eventualmente utilizado para espelhar o repositório reproduze a mesma estrutura de pastas e arquivos acima;
@@ -91,10 +87,6 @@ Partes diretamente envolvidas: administrador do Portal; administrador dos sistem
 * É desejável:
 
 	_ que haja um FTP de "entrada" e um de "publicação". No FTP de "entrada" os vários orgãos (eg. SES) podem receber usuários específicos com permissão de leitura (read);
-
-	- que as estrturas de pastas e arquivos a serem utilizadas se balizem pelo padrão https://drivendata.github.io/cookiecutter-data-science/; 
-
-	- que no processo de atualização, o id do recurso seja a propriedade do datapackage.json que indicará a necessidade de nova carga das alterações realizadas
 
 ## Cenários e situações
 
