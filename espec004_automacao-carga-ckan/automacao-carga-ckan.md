@@ -12,26 +12,24 @@ output:
 
 Essa demanda visa especificar as ações necessárias e requisitos do processo de extração, transformação e carga (fluxo ETL) dos dados do [Portal de Dados Abertos](dados.mg.gov.br) a ser implementado pela CGE.
 
-Partes diretamente envolvidas: Diretoria de Transparência Ativa (DTA); Diretoria de Tecnologia da Informação (DTI); Núcleo de Combate à Corrupção (NUCC); órgão ou setor custodiante de dados, externo à CGE.
+Partes diretamente envolvidas: administrador do Portal; administrador dos sistemas; órgão ou setor custodiante de dados, externo à CGE.
 
-## Premissas
 
-* É necessário (mandatário para o funcionamento esperado do fluxo, tal qual descrito):
+## Princípios Gerais
+
+* Automatização da maior parte possível das atividades necessárias do fluxo ETL - menor número possível de intervenções humanas manuais nas etapas do fluxo;
+
+* Aproveitamento da maior parte das regras de boas práticas de dados já consolidadas e vocabulários preexistentes (tanto dos nomes de datasets, de recursos, de variáveis, de metadados) - corresponde à [Boa Prática 15 recomendada pela W3C](https://www.w3.org/TR/dwbp/#ReuseVocabularies)
+
+## Conceitos 
+
+* É necessário: mandatário para o funcionamento esperado do fluxo, tal qual descrito
 	
-	a. automatizar da maior parte possível das atividades necessárias do fluxo ETL - é recomendado, portanto, que haja o menor número possível de intervenções humanas manuais nas etapas do fluxo;
+* É recomendado: adoção de práticas para garantir controle e reprodutibilidade
 
-	b. que os datasets sejam descritos pelos dados sem fricção (Frictionless Data), sendo o ´datapackage.json´ o conjunto de dados mínimo, com a garantia da DTA na elaboração desse arquivo, em qualquer nível de conhecimento do órgão/setor custodiate de dados sobre o formato json;
+* É desejável: para promover melhorias além das anteriores
 
-* É recomendado (adoção de práticas para garantir controle e reprodutibilidade):
-
- 	c. o aproveitamento da maior parte das regras de boas práticas de dados já consolidadas e vocabulários preexistentes (tanto dos nomes de datasets, de recursos, de variáveis, de metadados) - corresponde à [Boa Prática 15 recomendada pela W3C](https://www.w3.org/TR/dwbp/#ReuseVocabularies);
-
- 	d. que o órgão ou setor custodiante de dados use repositório Github para gerenciar datasets. Trata-se de melhor prática para controlar versões das publicações/atualizações de dados abertos - caso o órgão ou setor custodiante não adira, a DTA vai versionar automaticamente os dados no Github
-
-* É desejável (para promover melhorias além das anteriores):
-
-	e. a atualização de dados com a mesma periodicidade das consultas originárias do Portal da Transparência;
-  
+ 
 # Especificação
 <a href="#top">(inicio)</a>
 
@@ -40,18 +38,44 @@ Partes diretamente envolvidas: Diretoria de Transparência Ativa (DTA); Diretori
 * É necessário:
 
 	- o uso de um arquivo datapackage.json para descrever os metadados de cada dataset;
-	- que o nome e extensão do arquivo sejam `datapackage.json`, invariavelmente, para qualquer dataset que descrevam;
-	- que o `datapackage.json` contenha um schema para cada recurso deste dataset, segundo o [exemplo]();
+
 	- que o `datapackage.json` esteja de acordo com as especificações da Frictionless Data; 
-	- que o arquivo datapackage.json contenha, minimamente, valores válidos para todas as propriedades enumeradas no gerador da [Frictionless Data](https://create.frictionlessdata.io/) e as propriedades do arquivo csv a que se refere o datapackage; 
+
+	- que o nome e extensão do arquivo sejam `datapackage.json`, invariavelmente, para qualquer dataset que descrevam;
+
+	- que o `datapackage.json` contenha um schema para cada recurso deste dataset, segundo o [exemplo]();
+
+	
+
+	- que o arquivo datapackage.json contenha, minimamente, valores válidos para todas as propriedades enumeradas no gerador da [Frictionless Data](https://create.frictionlessdata.io/):
+
+	````
+	* dataset:
+		profile, resources, keywords, name, title, description, homepage, version, contributors, licenses
+	* recurso:
+		id, name, path, profile, schema, fields
+	* variáveis:
+		name, type, format, title, description
+	```` 
 	- que as propriedades do arquivo csv sejam descritas pelo [CSV Dialect](https://specs.frictionlessdata.io/csv-dialect/);
-	- que a codificação do arquivo `datapackage.json` seja UTF-8 (sem BOM)
+
+	- que a codificação do arquivo `datapackage.json` seja UTF-8 (sem BOM);
+
+	- que o start da recarga de arquivo de metadados para administrador de banco seja a alteração na versão, indicada como propriedade no `datapackage.json`
 
 ## Recursos
 
 É necessário:
 
-- que a codificação do arquivo csv seja UTF-8 (com BOM); 
+	- em sendo um recurso tabular, que tenha um schema válido no `datapackage.json`; e que seus dados disponibilizados na carga sejam validados automaticamente pelo goodtables.io no confronto com especificações do Frictionless data e json schema;
+
+	- em sendo um recurso em csv, que a codificação do arquivo csv seja UTF-8 (com BOM); 
+
+É recomendado:
+
+	- que o dado tabular seja em formato `.csv`;
+
+
 
 ## Versionamento
 
