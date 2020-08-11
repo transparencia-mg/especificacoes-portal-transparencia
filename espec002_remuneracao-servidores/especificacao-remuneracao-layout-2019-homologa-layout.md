@@ -1,28 +1,26 @@
 ---
-title: "Homologação do layout - Consulta Remuneração"
+Título: "Homologação do layout - Consulta Remuneração"
+Contrato Manutenção: 15210010062019 (INF. 3951)
+Proposta comercial: 626584/19
+Mantis: 0146470
 output:
-  pdf_document:
-    toc: yes
   html_document:
     theme: united
+    toc: yes
+  pdf_document:
     toc: yes
   word_document:
     toc: yes
 ---
 
-|Título| Contrato Manutenção| Proposta comercial| Mantis| Versão html
-| -|:-| -|:-|:-
-| Homologação do layout - Consulta Remuneração - Interface   |15210010062019 (INF. 3951)| 626584/19|0146470 |[Link](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec002_remuneracao-servidores/especificacao-remuneracao-layout-2019-homologa-layout.html)
+## Homologação finalizada em 11/08/2020.
+
+
+[VERSÃO HTML](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec002_remuneracao-servidores/especificacao-remuneracao-layout-2019-homologa-layout.html)
 
 # Homologação do layout
 <a href="#top">(inicio)</a>
 
-<div class="alert alert-danger">
-
-_As divergências estão destacadas em vermelho_
---
-
-</div>
 
 ## Leiaute - Tabelas navegação por filtros
 <a href="#top">(inicio)</a>
@@ -193,12 +191,14 @@ Inserir as cores padrões na planilha
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Colocar os Cabeçalhos em negrito
---
+__CORRIGIDO__
 
-![](static/layout-cabecalho-negrito.png)
+<s>Colocar os Cabeçalhos em negrito</s>
+
+
+![](static/layout-cabecalho-negrito-corrigido.png)
 
 </div>
 
@@ -343,12 +343,14 @@ ___Exemplo:___ Caso o usuário selecione os filtros `Ano: 2015 Mês: Janeiro` na
 
 ![](static/historico-recebimentos.png)
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-O nome da tabela é **Histórico de Recebimentos**
---
+__CORRIGIDO__
 
-![](static/layout-historico-recebimentos.png)
+<s>O nome da tabela é **Histórico de Recebimentos**</s>
+
+
+![](static/layout-historico-recebimentos-corrigido.png)
 
 </div>
 
@@ -368,11 +370,13 @@ __CORRIGIDO__
 
 * A coluna mês/ano deve ser apresentada no formato mês(3 caracteres)/ano(4 caracteres). ___Exemplo:___ Set/2019;
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-O mês deve ser descritivo
---
-![](static/layout-mes-descritivo.png)
+__CORRIGIDO__
+
+<s>O mês deve ser descritivo</s>
+
+![](static/layout-mes-descritivo-corrigido.png)
 
 **EXEMPLO**
 ![](static/historico-recebimentos.png)
@@ -380,22 +384,25 @@ O mês deve ser descritivo
 
 * Os dados da coluna mês/ano devem ser exibidos de forma decrescente (mais recente para o mais antigo);
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Ao utilizar a opção classificar  da coluna mês ano a funcionalidade não retorna a classificação correta - Como a descrição do mês encontra-se incorreta, não foi possível verificar esse item.
+__CORRIGIDO__
+
+***Foram testados apenas 3 meses***
 --
 
-**No entanto ao classificar os dados deves obedecer a ordem decrescente**
---
+<s>Ao utilizar a opção classificar  da coluna mês ano a funcionalidade não retorna a classificação correta - Como a descrição do mês encontra-se incorreta, não foi possível verificar esse item.</s>
+
+
+<s>**No entanto ao classificar os dados deves obedecer a ordem decrescente**</s>
+
 A ordem correta seria:
---
+
 *  __<Fev/2020>; <Jan/2020>; <Dez/2019>__ : como padrão
      ou  
 * __<Dez/2019>; <Jan/2020>; <Fev/2020>__ ao realizar a classificação.
 
-![](static/layout-classificar-mes-ano1.png)
-
-![](static/layout-classificar-mes-ano2.png)
+![](static/layout-mes-descritivo-corrigido.png)
 
 </div>
 
@@ -583,31 +590,30 @@ __CORRIGIDO__
 ![](static/layout-historico-jetons-corrigido.png)
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Os valores estão incorretos. Para o servidor em questão não existe valores na planilha "Jetons Administração Direta". Os valores são correspondentes a Jetons empresas apenas.
---
+__CORRIGIDO__
 
-![](static/layout-valores-errados-jetons-portal.png)
+<s>Os valores estão incorretos. Para o servidor em questão não existe valores na planilha "Jetons Administração Direta". Os valores são correspondentes a Jetons empresas apenas.</s>
+
+
+![](static/layout-valores-errados-jetons-portal-corrigido.png)
 
 ![](static/layout-valores-errados-jetons-planilha.png)
 
 </div>
 
+<div class="alert alert-success">
 
-<div class="alert alert-danger">
+__CORRIGIDO__
 
 O campo **[Outros valores]** é composto pela soma dos campos (Prêmio de Produtividade + Férias Prêmio + Jetons Administração Direta + Demais Eventuais).
---
+
 
 O campo **[Total]** é composto pela soma (básica + férias+ gratificação natalina + outros valores)
---
---
 
-![](static/layout-erros-outros-valores.png)
+![](static/layout-erros-outros-valores-corrigido.png)
 
-[link portal](http://homologa3.prodemge.gov.br/age7/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/202002/0/49/0/0/526355/4083/3/2034740/0/0/0)
---
 
 </div>
 
@@ -670,7 +676,7 @@ __CORRIGIDO__
 ![](static/layout--formulario-detalhamento-r$-corrigido.png)
 </div>
 
-### Exportação de arquivos
+Exportação de arquivos
 
 Ao contrário da situação atual, a funcionalidade de impressão e exportação (CSV e PDF) deve existir tanto nas tabelas de navegação por filtros quanto nos formulários de detalhamento da situação funcional e histórico de recebimentos.
 
@@ -713,17 +719,17 @@ Nas tabelas de navegação por filtros as regras de exportação/impressão deve
 
 ___Exemplo 1___: A linha "Ago/2015" deve exibir a situação funcional e remuneração do servidor referente a agosto de 2015; A linha "Jan/2019" deve exibir a situação funcional e remuneração do servidor referente a janeiro/2019 e assim sucessivamente.
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Não foi possível verificar esse erro, pois ao gerar o csv o Portal está apresentando apenas o mês vigente.
---
+__CORRIGIDO__
 
-=> A funcionalidade destacada no exemplo acima (Exemplo 1) não está funcionando.
---
+<s>Não foi possível verificar esse erro, pois ao gerar o csv o Portal está apresentando apenas o mês vigente.</s>
+
+<s>=> A funcionalidade destacada no exemplo acima (Exemplo 1) não está funcionando.</s>
+
 
 **Exemplo**: A Joana Darc Aparecida de Faria Lopes em dez/2019 estava lotada na "SUPERINTENDENCIA CENTRAL DE ANALISE E"  e em fev/2020 estava lotada em "DIRETORIA CENTRAL DE FISCALIZACAO DE" ao gerar o csv o Portal retorna os mesmos dados para todos os períodos. Esse fato também ocorre para os outros campos, como por exemplo cargo em comissão.
 
---
 
 * **Dezembro/2019**
 ![](static/layout-exportacao-detalhamento-remuneracao-csv1.png)
@@ -732,42 +738,44 @@ Não foi possível verificar esse erro, pois ao gerar o csv o Portal está apres
 * **Fevereiro/2020**
 ![](static/layout-exportacao-detalhamento-remuneracao-csv2.png)
 
-* **CSV gerado**
-![](static/layout-exportacao-detalhamento-remuneracao-csv3.png)
+* **CSV gerado** - CSV gerado no dia 16/07/2020
 
-CSV gerado no dia 14/07/2020
---
+![](static/layout-exportacao-detalhamento-remuneracao-csv3-corrigido.png)
 
-![](static/layout-exportacao-detalhamento-remuneracao-csv4.png)
 </div>
 
+<div class="alert alert-success">
 
-<div class="alert alert-danger">
+__CORRIGIDO__
 
-Ao solicitar a extração em csv é gerado as informações de apenas um cargo.
---
+<s>Ao solicitar a extração em csv é gerado as informações de apenas um cargo.</s>
 
-![](static/layout-zulma-goncalves-detalhamento-fev-csv.png)
+![](static/layout-zulma-goncalves-detalhamento-fev-csv-corrigido.png)
 
 ![](static/layout-zulma-goncalves-detalhamento-linha2.png)
+</div>
 
----
+<div class="alert alert-warning">
+
+**Observações Luiz:**
+
+***O servidor ACI ALVES DOS SANTOS possui dois cargos com cargas horárias distintas, sendo assim o processo de carga permite distinguir os cargos e exibir o histórico para cada cargo, de forma correta. Ou seja, os dados apresentados estão corretos.
+Em alguns casos, quando o servidor possui alterações na carga horária entre meses ou cargas horários idênticas são os momentos em que os valores no histórico de recebimentos poderá exibir valores de diferentes caros que o servidor possui.***
+***No caso da servidora ZULMA GONCALVES DE AGUIAR, ela possui a mesma carga horária, sendo assim, as informações são apresentadas de forma idêntica em ambos os cargos.
+Esse é um dos problemas de não haver o número de admissão, como deveria ser no projeto original.***
+
+
 O servidor ACI ALVES DOS SANTOS apresenta 02 cargos, no entanto apenas 01 está sendo exibido na tabela histórico de recebimentos.
---
+
 [link porta- ACI ALVES DOS SANTOS](http://homologa3.prodemge.gov.br/age7/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/202002/ACI%20ALVES%20DOS%20SANTOS/0/0/0/0/0/0/9/0/0/0)
---
 
 ![](static/layout-exportacao-aci-alves1.png)
 --
 ![](static/layout-exportacao-aci-alves2.png)
 
 Exemplo: A servidora ZULMA GONCALVES DE AGUIAR também apresenta 02 cargos e no entanto a informação dela é exibida na tabela.
---
 
 [Link Portal - ZULMA](http://homologa3.prodemge.gov.br/age7/estado-pessoal/remuneracao-dos-servidores/remuneracao-filtros/202002/ZULMA%20GONCALVES%20DE%20AGUIAR/0/0/0/0/0/0/9/0/0/0)
---
-
-
 
 </div>
 
@@ -790,15 +798,16 @@ __CONFERE__
 
 * O leiaute da planilha exportada deve seguir o formato da planilha de remuneração disponibilizada pela CGE com inserção de uma coluna `mes` no formato `YYYY-MM-01`. Vide [arquivo exemplo](static/csv-usuario.csv). __OK__
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-A ordem da planilha a partir das empresa ainda encontra-se incorreto
---
+__CORRIGIDO__
+
+<s>A ordem da planilha a partir das empresa ainda encontra-se incorreto. A nome EMPI é a última coluna</s>
 
 A ordem e o layout da planilha extraída em csv do Portal não está conforme o solicitado pela CGE.
---
 
-![](static/layout-csv-historico-remuneracao-empresa.png)
+
+![](static/layout-csv-historico-remuneracao-empresa-empi-corrigido.png)
 
 ![](static/espec-arquivo-csv.png)
 
