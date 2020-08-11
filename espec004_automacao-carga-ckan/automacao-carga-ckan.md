@@ -1,5 +1,5 @@
 ---
-pull_request: '[espec001](https://github.com/transparencia-mg/especificacoes-portal-transparencia/pull/1)'
+pull_request: '[espec001]()'
 titulo: Fluxo ETL no CKAN da CGE
 output:
   html_document:
@@ -10,24 +10,78 @@ output:
 # Visão geral da demanda
 <a href="#top">(inicio)</a>
 
-Essa demanda visa especificar as ações necessárias e requisitos do processo de extração, transformação e carga (fluxo ETL) dos dados do Portal da Transparência para o [Portal de Dados Abertos](dados.mg.gov.br), de maneira automatizada e na mesma periodicidade de atualização das consultas originárias do Portal da Transparência.
+Essa demanda visa especificar as ações necessárias e requisitos do processo de extração, transformação e carga (fluxo ETL) dos dados do [Portal de Dados Abertos](dados.mg.gov.br) a ser implementado pela CGE.
 
-As tabelas e visões do Portal da Transparência devem ser mapeadas para os recursos do CKAN, em múltiplos formatos (eg. csv e json), determinando o leiaute da divulgação.
+Partes diretamente envolvidas: Diretoria de Transparência Ativa (DTA); Diretoria de Tecnologia da Informação (DTI); Núcleo de Combate à Corrupção (NUCC); órgão ou setor custodiante de dados, externo à CGE.
 
 ## Premissas
 
-Menor número possível de intervenções humanas manuais na interface gráfica do ckan - especialmente no fluxo de atualização de metadados (criação e exclusão de recursos e datasets são passíveis dessas intervenções)
+* É necessário (mandatário para o funcionamento esperado do fluxo, tal qual descrito):
+	
+	a. automatizar da maior parte possível das atividades necessárias do fluxo ETL - é recomendado, portanto, que haja o menor número possível de intervenções humanas manuais nas etapas do fluxo;
 
-Aproveitamento da maior parte das regras de boas práticas de dados já consolidadas e vocabulários preexistentes (tanto dos nomes de datasets, de recursos, de variáveis, de metadados) - corresponde à [Boa Prática 15 recomendada pela W3C](https://www.w3.org/TR/dwbp/#ReuseVocabularies). 
+	b. que os datasets sejam descritos pelos dados sem fricção (Frictionless Data), sendo o ´datapackage.json´ o conjunto de dados mínimo, com a garantia da DTA na elaboração desse arquivo, em qualquer nível de conhecimento do órgão/setor custodiate de dados sobre o formato json;
 
-Fontes:
-* [Documentação da API do CKAN](https://docs.ckan.org/en/latest/api/index.html)
-* [CSV Lint](https://csvlint.io/about)
-* [JSON Lint](https://jsonlint.com/)
-* [Referência padrão mundial para contratos](https://standard.open-contracting.org/latest/en/schema/)
-* [Portal da Transparência](http://www.transparencia.dadosabertos.mg.gov.br/dataset)
-* Armazém do SIAFI
-* Expertise das equipes dos órgãos centrais que utilizam os temros que designam
+* É recomendado (adoção de práticas para garantir controle e reprodutibilidade):
+
+ 	c. o aproveitamento da maior parte das regras de boas práticas de dados já consolidadas e vocabulários preexistentes (tanto dos nomes de datasets, de recursos, de variáveis, de metadados) - corresponde à [Boa Prática 15 recomendada pela W3C](https://www.w3.org/TR/dwbp/#ReuseVocabularies);
+
+ 	d. que o órgão ou setor custodiante de dados use repositório Github para gerenciar datasets. Trata-se de melhor prática para controlar versões das publicações/atualizações de dados abertos - caso o órgão ou setor custodiante não adira, a DTA vai versionar automaticamente os dados no Github
+
+* É desejável (para promover melhorias além das anteriores):
+
+	e. a atualização de dados com a mesma periodicidade das consultas originárias do Portal da Transparência;
+  
+# Especificação
+<a href="#top">(inicio)</a>
+
+## Metadados
+
+* É necessário:
+
+	- o uso de um arquivo datapackage.json para descrever os metadados de cada dataset;
+	- que o nome e extensão do arquivo sejam `datapackage.json`, invariavelmente, para qualquer dataset que descrevam;
+	- que o `datapackage.json` contenha um schema para cada recurso deste dataset, segundo o [exemplo]();
+	- que o `datapackage.json` esteja de acordo com as especificações da Frictionless Data; 
+	- que o arquivo datapackage.json contenha, minimamente, valores válidos para todas as propriedades enumeradas no gerador da [Frictionless Data](https://create.frictionlessdata.io/) e as propriedades do arquivo csv a que se refere o datapackage; 
+	- que as propriedades do arquivo csv sejam descritas pelo [CSV Dialect](https://specs.frictionlessdata.io/csv-dialect/);
+	- que a codificação do arquivo `datapackage.json` seja UTF-8 (sem BOM)
+
+## Recursos
+
+É necessário:
+
+- que a codificação do arquivo csv seja UTF-8 (com BOM); 
+
+## Versionamento
+
+* É necessário:
+
+	- que cada dataset tenha um repositório com mesmo nome na organização https://github.com/dados-mg;
+	- que o nome de cada dataset e de cada um dos seus recursos sigam as [convenções de nomenclatura](https://pandoc.org/MANUAL.html#extension-auto_identifiers); 
+	- que os nomes das URLs dos repositórios sigam as [convenções](https://slugify.online/);
+	- que cada repositório use a estrutura de pastas e arquivos seguinte:
+
+	- que o ftp eventualmente utilizado para espelhar o repositório reproduze a mesma estrutura de pastas e arquivos acima;
+
+* É desejável:
+
+	_ que haja um FTP de "entrada" e um de "publicação". No FTP de "entrada" os vários orgãos (eg. SES) podem receber usuários específicos com permissão de leitura (read);
+
+	- que as estrturas de pastas e arquivos a serem utilizadas se balizem pelo padrão https://drivendata.github.io/cookiecutter-data-science/; 
+
+	- que no processo de atualização, o id do recurso seja a propriedade do datapackage.json que indicará a necessidade de nova carga das alterações realizadas
+
+## Cenários e situações
+
+1. Arquivo csv pronto para publicação
+
+2. Arquivo tem que passar por processamento para ser publicado
+
+3. Arquivo primário tem que ser processado mas arquivo primário não pode ser divulgado (ex.: unidade administrativa)
+
+* Cada evento de carga pela DTI deverá gerar um aviso automático por email, por dataset, de que foi realizado, como um log de operação.
+
 
 Caso exista duplicação de dados para publicação dos mesmos no CKAN, o serviço de extração e carga deve:
 
@@ -35,17 +89,6 @@ Caso exista duplicação de dados para publicação dos mesmos no CKAN, o servi�
 * Utilizar um usuário específico para carga no CKAN;
 * Configurável para efetuar cargas em instâncias CKAN não hospedadas na PRODEMGE;
 * Possuir mecanismo de monitoramento das cargas realizadas (eg. email com log de atualização)
-  
-
-# Motivação / contexto da demanda
-<a href="#top">(inicio)</a>
-
-O Planejamento Estratégico da Diretoria de Transparência Ativa prevê a publicação de todos os conjuntos de dados disponíveis na interface de consulta do Portal da Transparência, com a mesma periodicidade que este utiliza para carga/atualização. Em paralelo, a hospedagem do CKAN, que hoje abriga a seção de dados abertos, vai migrar para servidores sob governabilidade da CGE, o que permite a autonomia e aumenta a responsabilidade sobre a gestão do mesmo.
-
-Tais medidas deverão estar articuladas com a implementação das especificações deste documento, no que tange ao fluxo de ETL, para que todos os agentes envolvidos desempenhem seu papel de forma a atender as práticas recomendadas na literatura sobre o assunto, gerando previsibildiade, confiança e eficiência na consecução do objetivo de publicar os dados abertos com periodicidade definida. 
-
-# Especificação
-<a href="#top">(inicio)</a>
 
 ## Etapas e responsabilidades dos setores no fluxo ETL
 
@@ -68,22 +111,19 @@ Cada evento de carga pelo NUCC deverá gerar um aviso automático por email, por
 
 3) Carga: a partir dos dados extraídos, a carga se dará por meio de script elaborado e operado na DTI, que buscará o dado no ftp utilizado pelo NUCC e fará a carga, com periodicidade definida pela DTA, no ftp criado na máquina do CKAN
 
-Cada evento de carga pela DTI deverá gerar um aviso automático por email, por dataset, de que foi realizado, como um log de operação.
-
-## Aspectos genéricos dos diretórios e dos arquivos
-
-* Nomes dos diretórios sem espaços, hifens (‘-‘) como separadores;
-
-* Tabelas-dimensões com valores restritos aos que estiverem constando em cada tabela-fato de cada dataset;
-
-* CSV: delimitadores de colunas são ponto e vírgula; delimitadores de valores são vírgulas; utilização de  quote (aspas simples) ao início de cada célula que contenha string (ESCAPING);
-
-* ENCODING UTF-8 para o arquivo e para os caracteres, com a a inserção da assinatura unicode BOM (_Byte Order Mark_) em todos os arquivos gerados
-
-
 ### Exemplos
 
+* Datapackage:
 
+	com um único arquivo no schema: https://raw.githubusercontent.com/dados-mg/letters-datapackage/master/datapackage.json
+
+	com múltiplos arquivos no schema
+
+* Dataset sem recurso
+
+* Dataset com único recurso
+
+* Dataset com múltiplos recursos
 
 # Dúvidas
 
@@ -91,24 +131,36 @@ Cada evento de carga pela DTI deverá gerar um aviso automático por email, por 
 
 * É possível que o CKAN faça uma requisição ao banco de dados do Portal da Transparência? Essa ação faz sentido do ponto de vista de performance?
 
-* O CKAN permite alguma solução de negociação de conteúdo para oferta de múltiplos formatos de arquivos?
-
-* Caso seja implementado uma nova consulta, ou exista alterações nas consultas pré-existentes, no Portal da Transparência, como isso será refletido no CKAN? Como garantir que as mudanças sejam implementadas por máquina, seja nos arquivos ou nos seus metadados (quais funções em quais linhas do scropt)?
+* Caso uma nova consulta seja implementada, ou existam alterações nas consultas pré-existentes, no Portal da Transparência, como isso será refletido no CKAN? Como garantir que as mudanças sejam implementadas por máquina, seja nos arquivos ou nos seus metadados (quais funções em quais linhas do script)?
 
 * o que o script de carga faz de fato?
-
-* Processo de atualização de metadados: prescinde de conferência pela DTI? onde estaria o git consumido e como mudar?
-
-* É realmente necessário um arquivo json para descrever cada arquivo, como foi solicitado pela DTI durante os testes, em vez de um único por conjunto de dados?
 
 ## Negócio
 
 * Qual a real necessidade de replicar periodicidade de atualização das consultas do Portal da Transparência no CKAN?
 
-* Qual o grau de agregação/desagregação das informações que serão disponibilizadas no CKAN? A depender de cada caso como foram os testes-piloto dos datasets de dívida?
+	Verificar se bases legais detertminam a periodicidade de atualização; fazer benchmarking outros portais abertos, e.g. govenro federal
 
-* Em qual formato de arquivo (eg. csv, json) os conjuntos de dados deverão ser disponibilizados no CKAN?
+* Qual o grau de agregação/desagregação das informações que serão disponibilizadas no CKAN? A depender de cada caso como foram os testes-piloto dos datasets de dívida?
 
 * Qual a responsabilidade da DTA nos arquivos de datasets que não têm consultas correspondentes na interface do Portal, ou que não estão visíveis no banco do Portal pelo NUCC? (Eg, doações, termos de parceria, relatórios de pedidos de acesso às informações)
 
-## [Issues a partir dos testes no novo domínio criado](http://10.183.67.16/transparencia/issues/)
+## [Issues a partir dos testes no novo domínio criado](https://github.com/dados-mg/issues/issues)
+
+# Fontes:
+
+* [Repositório dados.mg no Github](https://github.com/dados-mg)
+
+* [Documentação da API do CKAN](https://docs.ckan.org/en/latest/api/index.html)
+
+* [Frictionless Data - datapackage creator](https://create.frictionlessdata.io/)
+
+* [Goodtables](https://goodtables.io/)
+
+* [CSV Dialect](https://specs.frictionlessdata.io/csv-dialect/)
+
+* [JSON Lint](https://jsonlint.com/)
+
+* Armazém do SIAFI
+
+* Expertise das equipes dos órgãos centrais que utilizam os temros que designam
