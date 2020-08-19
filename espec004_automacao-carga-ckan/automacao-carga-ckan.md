@@ -66,7 +66,8 @@ Partes diretamente envolvidas: administrador do Portal; administrador dos sistem
 ## Recursos
 
 É necessário:
-	- em sendo um recurso tabular, que tenha um schema válido no `datapackage.json`; e que seus dados disponibilizados na carga sejam validados automaticamente pelo goodtables.io no confronto com especificações do Frictionless data e json schema;
+	- em sendo um recurso tabular, que tenha um schema válido no `datapackage.json`;
+	
 	- em sendo um recurso em csv, que a codificação do arquivo csv seja UTF-8 (com BOM); 
 
 É recomendado:
@@ -79,10 +80,14 @@ Partes diretamente envolvidas: administrador do Portal; administrador dos sistem
 * É necessário:
 
 	- que cada dataset tenha um repositório com mesmo nome na organização https://github.com/dados-mg;
+	
 	- que o nome de cada dataset, das URLs de seus respectivos repositórios e de cada um dos seus recursos sigam as convenções de nomenclatura (indicações: [pandoc](https://pandoc.org/MANUAL.html#extension-auto_identifiers) e [SLUG](https://slugify.online/));
+	
 	- que cada repositório use a estrutura de pastas e arquivos seguinte:
 
 	- que o ftp eventualmente utilizado para espelhar o repositório reproduze a mesma estrutura de pastas e arquivos acima;
+	
+	-  e que os _commits_ referentes aos recursos e ao `datapakage.json` de cada dataset sejam validados automaticamente pelo serviço Goodtables.io. Esse serviço faz o confronto dos dados do arquivo do recurso e do `datapakage.json` com as especificações do Frictionless data e do json schema;
 
 * É desejável:
 
@@ -90,9 +95,25 @@ Partes diretamente envolvidas: administrador do Portal; administrador dos sistem
 
 ## Cenários e situações
 
-1. Arquivo csv pronto para publicação
+0. Caminho para a publicação
 
-2. Arquivo tem que passar por processamento para ser publicado
+O administrador do portal validará a versão final do arquivo junto ao custodiante do dado, cotejando aspectos de metadados, recursos e versionamento mencionados anteriormente. Validada versão final do arquivo para publicação, ela deverá ser incluída (commitada) no repositório correspondente no Github, seguindo as regras e convenções de nomenclatura e estrutura de pastas e arquivos predeterminadas (incluindo o caminho relativo indicado na propriedade _path_: **data/arquivo.csv**).
+
+É necessário que o repositório do GitHub obtenha a validação automática do Goodtables.io, a partir do último _commit_, para confirmar se estrutura e padrões de valores do `arquivo.csv` refletem o _schema_ definido no `datapackage.json`. O link contido no _badge_ de validação que existirá no repositório traz o hiperlink do resultado do _job_ no Goodtables.io indicará necessidades de ajustes no arquivo csv ou no datapackage.json. As inconsistências devem ser abordadas e resolvidas até o horário diário prederminado de atualização do CKAN pelo script de carga.
+
+
+1. Arquivo csv pronto para publicação:
+
+É necessário que o script de carga perceba, diariamente, as alterações do arquivo csv para publicação, e que realize a importação dessa última versão commitada no respectivo repositório para o ftp de publicação da máquina CKAN do administrador de sistemas. (Na inviabilidade de importação dos arquivos pelo script de carga, o adminsitrador do Portal fará o upload manual dos mesmos para o ftp de publicação da máquina CKAN, utilizando a mesma estrutura de pastas e arquivos mencionada anteriormente.)
+
+Ao realizar a publicação, é necessário que o script atualize o dicionário de dados automátizado da extensão DataStore, para que os metadados das variáveis (título, tipo, descrição representem as alterações realizadas com o upload do novo arquivo). 
+
+Ao fim do processo de publicação, é necessário que o script gere um relatório de notificação de erros resumidos para os emails previamente registrados dos agentes do adminsitrador do Portal. Tal relatório deve resumir e quantificar as operações realizadas na rotina, precisando sua data e horário de realização, e também deve permitir o acesso um relatório mais detalhado (log) que compare os resultados (outputs) das operações previstas com aquelas realizadas (modelo ?).
+
+
+
+2. Arquivo tem que passar por processamento para ser publicado:
+
 
 3. Arquivo primário tem que ser processado mas arquivo primário não pode ser divulgado (ex.: unidade administrativa)
 
