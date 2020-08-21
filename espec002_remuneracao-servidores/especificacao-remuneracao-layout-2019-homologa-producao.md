@@ -22,10 +22,11 @@ Incluir os campos ___remuneração bruta e remuneração líquida___ nas tabelas
 
 
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-O conteúdo das colunas estão incorretos na navegação por faixa salarial
---
+<s>O conteúdo das colunas estão incorretos na navegação por faixa salarial</s>
+
+__CORRIGIDO__
 
 * Servidor
 * Masp
@@ -34,7 +35,7 @@ O conteúdo das colunas estão incorretos na navegação por faixa salarial
 * Remuneração Líquida
 
 
-![](static/producao-sequencia-colunas.png)
+![](static/producao-sequencia-colunas-corrigido.jpg)
 
 </div>
 
@@ -63,17 +64,17 @@ MAIO/2019
 
 ### Histórico recebimentos
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 Favor alterar o nome dos meses para a língua Portuguesa
 --
 
-![](static/producao-nome-meses.png)
+![](static/producao-nome-meses-corrigido.jpg)
 
 </div>
 
 
-* Quando o número de linhas da tabela _[histórico recebimentos]_ for superior ao limite da página deve ser aplicada paginação conforme padrão das demais consultas; <div class="alert alert-warning"> **OBS** Não é possível verificar essa funcionalidade (paginação) em homologação, pois a base de dados disponibilizada corresponde a apenas 18 meses. Dados serão verificados em produção.
+* Quando o número de linhas da tabela _[histórico recebimentos]_ for superior ao limite da página deve ser aplicada paginação conforme padrão das demais consultas; <div class="alert alert-warning"> **OBS** Não é possível verificar essa funcionalidade (paginação) em produção, pois a base de dados disponibilizada corresponde a apenas 18 meses. Dados serão verificados em produção.
 
 </div>
 
@@ -107,12 +108,13 @@ MAIO/2019
 
 O glossário interativo do histórico recebimentos deve apresentar os seguintes textos:
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Não está sendo exibido no tooltip
---
+<s>Não está sendo exibido no tooltip</s> - __CORRIGIDO__
 
 1. __Outros valores:__ Valores pagos em condições excepcionais e transitórias, tais como: Indenizações, Decisões Judiciais, Ajuda de Custo, Alimentação e outros valores de natureza eventual.
+
+![](static/producao-outros-valores.jpg)
 
 </div>
 
@@ -121,23 +123,41 @@ Não está sendo exibido no tooltip
 
 Exportação de arquivos
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Ao exportar os dados em csv a ordem dos meses está incorreta
---
+<s>Ao exportar os dados em csv a ordem dos meses está incorreta</s> __CORRIGIDO__
 
-![](static/producao-ordem-mes.png)
+
+![](static/producao-ordem-mes-corrigido.jpg)
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 __CORRIGIDO__
 
 A ordem da planilha a partir das empresa ainda encontra-se incorreto.
 
-![](static/producao-ordem-empresas.png)
+![](static/producao-ordem-empresas-corrigido.jpg)
 
 ![](static/espec-arquivo-csv.png)
+
+</div>
+
+<div class="alert alert-danger">
+
+As colunas não estão movíveis nesse nível
+--
+
+![](static/producao-mover-coluna.jpg)
+
+</div>
+
+<div class="alert alert-danger">
+
+Alinhar os valores do formulário de rendimentos
+--
+
+![](static/producao-alinhar-valores.jpg)
 
 </div>
