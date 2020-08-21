@@ -1,21 +1,15 @@
+
 |Título| Contrato manutenção |Proposta Comercial| Mantis |Versão html
 | -|:-| -|:-| -|
-| Homologação de valores - Memória do valor pago| 15210010062019 (INF. 3951)| 626584/19|0146649| [link](http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec011_valor_pago/espec011_valor-pago-homologa-valores.html)|
+| Homologação de valores produção- Memória do valor pago| 15210010062019 (INF. 3951)| 626584/19|0146649| [link]()|
 
-# Homologação de valores da Memória do valor pago
+# Homologação de valores da Memória do valor pago no ambiente de produção
 
 #### Consultas:
 * Despesa
 * Restos a Pagar
 * Diárias
 * Convênios de Saída
-
-<div class="alert alert-info">
-
-Todas as divergências foram corrigidas na questão de valores - data de acesso ao armazém 13/07/2020
---
-  </div>
-
 
 # Especificação
 
@@ -24,105 +18,48 @@ Todas as divergências foram corrigidas na questão de valores - data de acesso 
 <div class="alert alert-success">
 
 Consulta Despesa
---
-<s>Os valores estão duplicados no resultado da consulta</s> __CORRIGIDO__
 
+![](static/producao-op-despesa.jpg)
 
-![](static/valores-empenho3-documento10-despesa.jpg)
+![](static/producao-op-despesa491.jpg)
 
-![](static/valores-empenho3-documento10-despesa-portal.jpg)
+</div>
 
-  </div>
-
-<div class="alert alert-success">
-
-__CONFERE__
-
-![](static/valores-empenho126-documento162-despesa.jpg)
-
-![](static/valores-empenho126-documento162-despesa-portal.jpg)
-
----
-__CONFERE__
-
-![](static/valores-empenho28-documento358-despesa.jpg)
-
-![](static/valores-empenho28-documento358-despesa-portal.jpg)
-
-Verificação 13/07/2020 - __CONFERE__
---
-
-![](static/valores-empenho28-documento358-despesa-20200711.jpg)
-
-![](static/valores-empenho28-documento358-despesa-portal-20200711.jpg)
-
-  </div>
 
 <div class="alert alert-success">
 
 Consulta Diárias
 --
-<s>O resultado apresenta erros, não é possível realizar a conferência</s> -__CORRIGIDO__
+![](static/producao-op-diaria.jpg)
 
-![](static/valores-empenho10-documento132-diarias-portal.jpg)
-
-![](static/valores-empenho10-documento132-diarias.jpg)
-
-</div>
+![](static/producao-op-diaria131.jpg)
 
 
-## Consulta Restos a Pagar
-
-<div class="alert alert-success">
-
-__CONFERE__
-
-![](static/valores-empenho13-documento24-RP-portal.jpg)
-
-![](static/valores-empenho13-documento24-RP.jpg)
 
 </div>
+
 
 ## Consulta Convênios de Saída
 
-<div class="alert alert-success">
+<div class="alert alert-danger">
 
-__CONFERE - 02/07/2020__
+Quando o convênio apresenta alguma OP cancelada o valor pago pendente permanece no sistema(BO-SIAFI), assim faz com que ao realizar o cálculo (Valor Pago Financeiro - Valor Pago Pendente) o portal exiba o valor duplicado.
 
-![](static/valores-9247827-9250010l.jpg)
+Exemplo  
+* OP 2092 (11/12/2019) Foi realizado o Pagamento  
+* OP 2092 (18/12/2019) Essa OP foi cancelada e o valor no BO permaneceu como - R$170.000,00  
+* OP 2174 (19/12/2019) Foi paga normalmente
 
-![](static/valores-9247827-portal.jpg)
+O Porta está apresentando como valor repassado o valor de R$ 340.000,00
 
-![](static/valores-9250010-portal.jpg)
+Luiz, favor analisar o banco e verificar se é possível simplesmente zerar o valor pendente que não tiver valor pago associado. Caso essa não seja a solução mais viável, como podemos nos proceder?
 
-__CONFERE - 13/07/2020__
---
 
-![](static/valores-9247827-9250010-20200713.jpg)
+![](static/producao-convenio-bo.jpg)
 
-![](static/valores-9247827-portal-20200713.jpg)
 
-![](static/valores-9250010-portal-20200713.jpg)
+[LINK](http://transparencia.mg.gov.br/convenios/convenios-de-saida/convenios-conslivre-detalhesconv/2019/01-01-2019/31-12-2019/55767)
 
----
-BO
---
-
-![](static/valores-9245691.jpg)
-
-PORTAL
---
-
-![](static/valores-9245691-portal.jpg)
-
----
-BO
---
-![](static/valores-9130889.jpg)
-
-PORTAL
---
-
-![](static/valores-9130889-portal.jpg)
+![](static/producao-convenio-portal.jpg)
 
 </div>
