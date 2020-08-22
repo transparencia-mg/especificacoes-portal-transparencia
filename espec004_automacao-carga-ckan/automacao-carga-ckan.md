@@ -33,19 +33,48 @@ Partes diretamente envolvidas: administrador do Portal; administrador dos sistem
 # Especificação
 <a href="#top">(inicio)</a>
 
+Cada conjunto de dados, denominado dataset, deve conter seus recursos (pondendo ser arquivos anexados ou não) e metadados. Abaixo seguem os requisitos de arquivo e de qualidade para tais elementos:
+
 ## Metadados
 
 * É necessário:
 
 	- o uso de um arquivo `datapackage.json` para descrever os metadados de cada dataset;
 
-	- que o `datapackage.json` esteja de acordo com as especificações da Frictionless Data; 
+	- que o `datapackage.json` esteja de acordo com as [especificações da Frictionless Data](https://specs.frictionlessdata.io/data-package/#specification); 
 
 	- que o nome e extensão do arquivo sejam `datapackage.json`, invariavelmente, para qualquer dataset que descrevam;
 
-	- que o `datapackage.json` contenha um schema para cada recurso deste dataset, segundo o [exemplo]();
+	- que o `datapackage.json` contenha um schema para cada recurso deste dataset, segundo o [exemplo](https://raw.githubusercontent.com/dados-mg/dataset-template/master/datapackage.json):
 
-	
+	````
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer",
+            "format": "default",
+            "title": "Incremental counter",
+            "description": "An integer counter for the rows"
+          },
+          {
+            "name": "letter",
+            "type": "string",
+            "format": "default",
+            "title": "Alfhabet letter",
+            "description": "A lower case alfabet letter"
+          },
+          {
+            "name": "vowel",
+            "type": "boolean",
+            "format": "default",
+            "title": "Grammer of letter",
+            "description": "Is the letter a vowel?"
+          }
+        ]
+      },
+	```` 
+
 
 	- que o arquivo `datapackage.json` contenha, minimamente, valores válidos para todas as propriedades enumeradas no gerador da [Frictionless Data](https://create.frictionlessdata.io/):
 
@@ -59,35 +88,56 @@ Partes diretamente envolvidas: administrador do Portal; administrador dos sistem
 	```` 
 	- que as propriedades do arquivo csv sejam descritas pelo [CSV Dialect](https://specs.frictionlessdata.io/csv-dialect/);
 
-	- que a codificação do arquivo `datapackage.json` seja UTF-8 (sem BOM);
+	- que a codificação do arquivo `datapackage.json` seja UTF-8 (sem Byte Order Mask/BOM);
 
 	- que o start da recarga de arquivo de metadados para administrador de banco seja a alteração na versão, indicada como propriedade no `datapackage.json`
 
 ## Recursos
 
 É necessário:
-	- em sendo um recurso tabular, que tenha um schema válido no `datapackage.json`;
+
+- pelo menos a indicação da URL do local onde o recurso esteja hospedado, ou a inserção de seu arquivo - em qualquer das situações, a indicação do local onde o recurso existe  deverá constar no `datapackage.json`, na propriedade _path_;
+
+- em sendo um recurso tabular, que tenha um schema válido no `datapackage.json`;
 	
-	- em sendo um recurso em csv, que a codificação do arquivo csv seja UTF-8 (com BOM); 
+- em sendo um recurso em csv, que a codificação do arquivo csv seja UTF-8 (com BOM); 
 
 É recomendado:
 	- que o dado tabular seja em formato `.csv`;
 
-
+OBS.: o upload de recurso não exige necessariamente um arquivo para ser anexado; se o arquivo estiver hospedado em URL de sítio do autor, a URL deverá ser indicada na propriedade '_path_' do `datapackage.json` do seu dataset. É possível que haja um dataset sem recurso, somente com o `datapackage.json ` descrevendo seus metadados; mas não é possível haver um dataset com recurso e sem o `datapackage.json` 
 
 ## Versionamento
 
 * É necessário:
 
-	- que cada dataset tenha um repositório com mesmo nome na organização https://github.com/dados-mg;
+	- que cada dataset tenha um repositório com mesmo nome na organização [dados-mg](https://github.com/dados-mg);
 	
 	- que o nome de cada dataset, das URLs de seus respectivos repositórios e de cada um dos seus recursos sigam as convenções de nomenclatura (indicações: [pandoc](https://pandoc.org/MANUAL.html#extension-auto_identifiers) e [SLUG](https://slugify.online/));
 	
 	- que cada repositório use a estrutura de pastas e arquivos seguinte:
 
+		dataset
+			|--data
+				|--recurso
+				|--recurso
+			|--datapackage.json
+
 	- que o ftp eventualmente utilizado para espelhar o repositório reproduze a mesma estrutura de pastas e arquivos acima;
 	
-	-  e que os _commits_ referentes aos recursos e ao `datapakage.json` de cada dataset sejam validados automaticamente pelo serviço Goodtables.io. Esse serviço faz o confronto dos dados do arquivo do recurso e do `datapakage.json` com as especificações do Frictionless data e do json schema;
+	-  e que os _commits_ referentes aos recursos e ao `datapakage.json` de cada dataset sejam validados automaticamente pelo serviço [Goodtables.io](http://goodtables.io/). Esse serviço faz o confronto dos dados do arquivo do recurso e do `datapakage.json` com as especificações do Frictionless data e do json schema;
+
+É necessário que as operações seguintes sejam descritas em mudanças no `datapackage.json`:
+
+	- adição/supressão de recurso,
+
+	- adição/supressão de variável de recurso, 
+
+	- alteração de propriedade de variável de recurso,
+
+	- adição de dataset,
+
+	- adição/supressão/alteração de propriedade de dataset 
 
 * É desejável:
 
@@ -95,30 +145,42 @@ Partes diretamente envolvidas: administrador do Portal; administrador dos sistem
 
 ## Cenários e situações
 
-0. Caminho para a publicação
+#### Carga
 
-O administrador do portal validará a versão final do arquivo junto ao custodiante do dado, cotejando aspectos de metadados, recursos e versionamento mencionados anteriormente. Validada versão final do arquivo para publicação, ela deverá ser incluída (commitada) no repositório correspondente no Github, seguindo as regras e convenções de nomenclatura e estrutura de pastas e arquivos predeterminadas (incluindo o caminho relativo indicado na propriedade _path_: **data/arquivo.csv**).
+0. Etapa prévia à publicação
 
-É necessário que o repositório do GitHub obtenha a validação automática do Goodtables.io, a partir do último _commit_, para confirmar se estrutura e padrões de valores do `arquivo.csv` refletem o _schema_ definido no `datapackage.json`. O link contido no _badge_ de validação que existirá no repositório traz o hiperlink do resultado do _job_ no Goodtables.io indicará necessidades de ajustes no arquivo csv ou no datapackage.json. As inconsistências devem ser abordadas e resolvidas até o horário diário prederminado de atualização do CKAN pelo script de carga.
+O administrador do portal validará a versão final do arquivo junto ao custodiante do dado, cotejando aspectos de metadados, recursos e versionamento mencionados anteriormente. Validada a versão final do arquivo para publicação, ela deverá ser incluída (commitada) no repositório correspondente no Github, seguindo as regras e convenções de nomenclatura e estrutura de pastas e arquivos (incluindo o caminho relativo indicado na propriedade _path_: **data/arquivo.csv**).
+
+É necessário que o repositório do GitHub obtenha a validação automática do Goodtables.io, a partir do último _commit_, para confirmar se estrutura e padrões de valores do arquivo do recurso (ou URL do recurso indicada no _path_) refletem o _schema_ definido no `datapackage.json`. O link contido no _badge_ de validação que existirá no repositório traz o hiperlink do resultado do _job_ no Goodtables.io. Este resultado indicará necessidades de ajustes no arquivo do recurso ou no `datapackage.json`. As inconsistências devem ser abordadas e resolvidas até o horário diário prederminado de atualização do CKAN pelo script de carga.
 
 
-1. Arquivo csv pronto para publicação:
+1. Arquivo pronto para publicação:
 
-É necessário que o script de carga perceba, diariamente, as alterações do arquivo csv para publicação, e que realize a importação dessa última versão commitada no respectivo repositório para o ftp de publicação da máquina CKAN do administrador de sistemas. (Na inviabilidade de importação dos arquivos pelo script de carga, o adminsitrador do Portal fará o upload manual dos mesmos para o ftp de publicação da máquina CKAN, utilizando a mesma estrutura de pastas e arquivos mencionada anteriormente.)
+É necessário que o script de carga tenha uma função para perceber, diariamente, se alterações foram realizadas no `datapackage.json` e/ou no `arquivo.csv` de cada dataset.
 
-Ao realizar a publicação, é necessário que o script atualize o dicionário de dados automátizado da extensão DataStore, para que os metadados das variáveis (título, tipo, descrição representem as alterações realizadas com o upload do novo arquivo). 
+As alterações devem ser refletidas no ambiente em produção, numa publicação automatizada. Para tal, a rotina deve realizar a importação dessa última versão commitada dos arquivos alterados no respectivo repositório para o ftp de publicação da máquina CKAN do administrador de sistemas. Na inviabilidade de importação dos arquivos pelo script de carga, o adminsitrador do Portal fará o upload manual dos mesmos para o ftp de publicação da máquina CKAN, utilizando a mesma estrutura de pastas e arquivos mencionada anteriormente. Em qualquer dos casos, a rotina fará o upload dos arquivos alterados e atualização dos campos de metadados (chaves/keys e respectivos valores) no CKAN, de modo que fiquem visíveis na interface gráfica, sem necessidade de inserção manual.
+
+* Situações:
+
+1.1. alteração somente de datapackage.json
+
+1.2. adição ou supressão de recurso 
+
+1.3. alteração de recurso:
+
+	propriedades do recurso
+
+	valores das variáveis
+
+	propriedades das variáveis
+
+
+
+2. Pós-publicação (carga/upload)
+
+Ao realizar a publicação, é necessário que o script atualize o dicionário de dados automátizado da extensão DataStore, para que os metadados das variáveis (título, tipo, descrição representem as alterações realizadas com o upload do novo arquivo). Na inviabilidade dessa atualização automática, o relatório de notificação descrito a seguir deve ter incluída uma mensagem de aviso ou lembrete para a necessidade de atualização manual do Dicionário de Dados.
 
 Ao fim do processo de publicação, é necessário que o script gere um relatório de notificação de erros resumidos para os emails previamente registrados dos agentes do adminsitrador do Portal. Tal relatório deve resumir e quantificar as operações realizadas na rotina, precisando sua data e horário de realização, e também deve permitir o acesso um relatório mais detalhado (log) que compare os resultados (outputs) das operações previstas com aquelas realizadas (modelo ?).
-
-
-
-2. Arquivo tem que passar por processamento para ser publicado:
-
-
-3. Arquivo primário tem que ser processado mas arquivo primário não pode ser divulgado (ex.: unidade administrativa)
-
-* Cada evento de carga pela DTI deverá gerar um aviso automático por email, por dataset, de que foi realizado, como um log de operação.
-
 
 Caso exista duplicação de dados para publicação dos mesmos no CKAN, o serviço de extração e carga deve:
 
@@ -126,6 +188,15 @@ Caso exista duplicação de dados para publicação dos mesmos no CKAN, o servi�
 * Utilizar um usuário específico para carga no CKAN;
 * Configurável para efetuar cargas em instâncias CKAN não hospedadas na PRODEMGE;
 * Possuir mecanismo de monitoramento das cargas realizadas (eg. email com log de atualização)
+
+#### Processamento
+
+ Arquivo tem que passar por processamento para ser publicado:
+
+
+ Arquivo primário tem que ser processado mas não pode ser divulgado (ex.: unidade administrativa)
+
+
 
 ## Etapas e responsabilidades dos setores no fluxo ETL
 
@@ -141,8 +212,6 @@ No caso dos arquivos dos datasets que existem sem a correspondente interface de 
 * Semanal = 
 * Diária = despesa, receita, compras
 * por evento de publicação =  extrato de doações de bens e serviços e comodatos
-
-Cada evento de carga pelo NUCC deverá gerar um aviso automático por email, por dataset, de que foi realizado, como um log de operação.
 
 2) Transformação: a DTA deverá definir parâmetros assegurando a premissa de menor internvenção humana possível, a não ser na criação ou exclusão de datasets. Todas as atualizações de metadados, por exemplo, deverão ser efetuadas via script no ambiente operado pela DTI na máquina do CKAN, sem necessidade de logar no ambiente de produção do novo CKAN
 
@@ -201,3 +270,4 @@ Cada evento de carga pelo NUCC deverá gerar um aviso automático por email, por
 * Armazém do SIAFI
 
 * Expertise das equipes dos órgãos centrais que utilizam os temros que designam
+
