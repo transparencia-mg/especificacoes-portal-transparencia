@@ -118,9 +118,13 @@ OBS.: o upload de recurso não exige necessariamente um arquivo para ser anexado
 	- que cada repositório use a estrutura de pastas e arquivos seguinte:
 
 		dataset
+		
 			|--data
+			
 				|--recurso
+				
 				|--recurso
+				
 			|--datapackage.json
 
 	- que o ftp eventualmente utilizado para espelhar o repositório reproduze a mesma estrutura de pastas e arquivos acima;
