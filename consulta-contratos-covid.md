@@ -23,6 +23,8 @@ Essa demanda visa implementar uma seção exclusiva  no Portal da Transparência
 * Acesso à Informação
 * Conselho de Transparência e Combate a Corrupção
 * Dados Epidemiológicos
+* Doações
+* Medidas de estímulo econômico e proteção social
 
 
 # Motivação
@@ -54,7 +56,7 @@ O ícone ___[COVID-19]___ deve se o primeiro ícone da esquerda para direita, se
 
 Após clicar no ícone ___[COVID-19]___ deve ser apresentado a página a seguir:
 
-![](static/pagina-consultas-covid19.png)
+![](static/pagina-consultas-covid19.jpg)
 
 #### __Texto dos ícones:__
 
@@ -74,13 +76,30 @@ Após clicar no ícone ___[COVID-19]___ deve ser apresentado a página a seguir:
 
 * Dados epidemiológicos: Acesse as informações relativas ao boletim epidemiológicos, painel de monitoramento de casos, orientações para o cidadão e outros dados relacionados ao coronavírus divulgadas pela Secretaria de Estado da Saúde.
 
+* Doações: Encontre aqui orientações sobre como fazer doações, informações sobre as doações recebidas e sua destinação;
+
+* Medidas de estímulo econômico e proteção social: Encontre aqui informações sobre as medidas de estímulo econômicas e sociais desenvolvidas no combate a pandemia causada pela COVID-19.
+
 #### __Texto Página Inicial__
 
-Com foco no fomento da transparência e melhores práticas para atender ao cidadão, o Estado de Minas Gerais disponibiliza sessão específica para facilitar a divulgação de informações relativas aos Contratos Emergenciais amparados pela Lei Federal nº 13.979, de 6 de fevereiro de 2020 e Lei Estadual nº 23.640, de 14 de maio de 2020 para aquisição de bens, serviços, inclusive de engenharia, obras, alienações e locações necessários ao enfrentamento da calamidade de saúde pública e estado de emergência decorrentes da COVID-19.
+***TEXTO DEVERÁ SER ADICIONADO/ALTERADO PELA DTA***
 
-Por meio dessa seção é possível consultar a legislação de referência, os relatórios de execução financeira, dados dos contratados, valores, dentre outras informações, de forma estruturada e em formato aberto.
+Com foco no fomento da transparência e melhores práticas para atender ao cidadão, o Estado de Minas Gerais disponibiliza seção específica para divulgar dados referentes à COVID-19 no estado de Minas.
 
-Ao clicar em Ouvidoria, um canal específico para denúncias, reclamações e sugestões também está disponível ao cidadão.
+As informações disponíveis são relativas a:
+
+* Compras emergenciais realizadas com base na Lei Federal nº 13.979/2020 e na Lei Estadual nº 23.640/2020;
+* Compras - Programa de Enfrentamento Covid-19: compras executadas no Programa 26 – Programa de Enfrentamento dos Efeitos da Pandemia de Covid-19, conforme Lei estadual nº 23.632/2020;
+* Legislação e Normativos relacionados às medidas de proteção e combate à COVID-19;
+* Dados Abertos: todos os conjuntos de dados relacionados a COVID-19 ;
+* Conselho de Transparência e Combate à Corrupção: informações sobre o Conselho de Transparência e Combate à Corrupção e sua atuação no monitoramento e avaliação das ações relacionadas ao enfrentamento da COVID-19;
+* Dados Epidemiológicos: informações relativas ao boletim epidemiológicos, painel de monitoramento de casos, orientações para o cidadão e outros dados relacionados ao coronavírus divulgadas pela Secretaria de Estado da Saúde;
+* Doações: orientações sobre como fazer doações, informações sobre as doações recebidas e sua destinação; e
+* Medidas de estímulo econômico e proteção social: informações sobre as medidas de estímulo econômicas e sociais desenvolvidas no combate a pandemia causada pela COVID-19.
+
+É possível, ainda, solicitar informações relativas à pandemia por meio do Acesso à Informação e realizar denúncias, reclamações e sugestões por meio do canal exclusivo da Ouvidoria.
+
+As informações sobre as contratações e aquisições para enfrentar a emergência de saúde pública decorrente da pandemia da COVID-19 estão dispostas no Portal de Transparência de três formas, para conhecê-las clique aqui.
 
 E caso deseje mais informações, solicite por meio do Acesso à Informação.
 
@@ -89,7 +108,7 @@ E caso deseje mais informações, solicite por meio do Acesso à Informação.
 
 Ao clicar em __[Contratações Emergenciais]__ o portal exibe uma página com as Contratações Emergenciais
 
-Link: http://www.transparencia.dadosabertos.mg.gov.br/dataset/contratacoes-coronavirus
+Link: http://dados.mg.gov.br/dataset/compras-emergenciais-covid-19
 
 ### 2. Consulta Compras - Programa de enfrentamento COVID-19
 <a href="#top">(inicio)</a>
@@ -113,7 +132,7 @@ ___Itens da tabela___:
 1. __Situação do Processo:__ Situação do processo de compra durante a aquisição de materiais e serviços (concluído, suspenso, em andamento, etc.). Quanto aos processos de compra com situação em andamento, são considerados apenas os itens já homologados desses processos.
 1. __Procedimento de Contratação:__ Inclui as modalidades de licitação (concorrência, tomada de preços, convite e leilão), pregão, dispensa, inexigibilidade, registro de preços, etc.
 1. __Número do Contrato__: Número do contrato registrado no SIAFI.
-1. __Código Órgão:__ Código do órgão responsável pelo contrato.
+1. __Código Órgão Contrato:__ Código do órgão responsável pelo contrato.
 1. __Órgão Contrato__: Órgão ou entidade que formalizou o instrumento de contratação.
 1. __Data da Publicação:__ Data de Publicação do Contrato no IOF.
 1. __Início da Vigência:__ Ínicio da vigência do Contrato
@@ -146,7 +165,7 @@ __Exemplo:__ Número do Contrato - [9245761](https://www1.compras.mg.gov.br/cont
 
   __Exemplo:__ Documentos do processo - [Link](https://www1.compras.mg.gov.br/processocompra/processo/consultaProcessoCompra.html?metodo=pesquisar&codigoUnidadeCompra=1501561&numero=000028&ano=2020)
 
-  * _URL_ que deverá ser recuperda para exibição dos documentos do processos:
+  * _URL_ que deverá ser recuperada para exibição dos documentos do processos:
 <https://www1.compras.mg.gov.br/processocompra/processo/consultaProcessoCompra.html?metodo=pesquisar&codigoUnidadeCompra={unidade}&numero={numero}&ano={ano}>
 
   * Considerar os seguintes campos para construção da _url_:
@@ -175,7 +194,7 @@ O conteúdo dessa página será alimentado pela CGE atravéz da aréa administra
 
 Ao clicar no ícone ___[Dados Abertos]___ o portal exibe o conjunto de dados do Estado referente ao enfrentamento da emergência de saúde pública de importância internacional decorrente do coronavírus.
 
-Link: http://www.transparencia.dadosabertos.mg.gov.br/dataset?tags=coronavirus
+Link: http://dados.mg.gov.br/dataset?tags=coronavirus
 
 ### 4. Consulta Conselho de Transparência e Combate a Corrupção
 <a href="#top">(inicio)</a>
@@ -187,16 +206,19 @@ Link: http://portaldosconselhos.cge.mg.gov.br/
 ### 5. Ouvidoria
 <a href="#top">(inicio)</a>
 
-Ao clicar no ícone ___[Ouvidoria]___ o portal exibe a página da Ouvidoria exclusiva para manifestações relacionadas ao Coronavírus.
+Ao clicar no ícone ___[Ouvidoria Coronavírus]___ o portal exibe a página de conteúdo da Ouvidoria.
 
-Link: http://www.ouvidoriageral.mg.gov.br/coronavirus
+O conteúdo dessa página será alimentado pela CGE através da área administrativa do Portal (Joomla).
+
+![](static/pagina-conteudo-ouvidoria.png)
 
 ### 6. Acesso à Informação
 <a href="#top">(inicio)</a>
 
-Ao clicar no ícone ___[Acesso à Informação]___ o portal exibe a página Sistema Eletrônico de Acesso à Informação (e-Sic)
+Ao clicar no ícone ___[Acesso à Informação]___ o portal exibe o portal exibe a página de conteúdo do Sistema Eletrônico de Acesso à Informação (e-Sic)
 
-Link: http://www.acessoainformacao.mg.gov.br/
+![](static/pagina-conteudo-esic.jpg)
+
 
 ### 7. Dados epidemiológicos
 <a href="#top">(inicio)</a>
@@ -205,7 +227,23 @@ Ao clicar no ícone ___[Dados epidemiológicos]___ o portal exibe a página da S
 
 link: https://www.saude.mg.gov.br/coronavirus
 
+### 8. Doações
+<a href="#top">(inicio)</a>
 
+Ao clicar no ícone ___[Doações ]___ o portal exibe a página de conteúdo Doações COVID-19 (eg. Voos do Governador).
+
+O conteúdo dessa página será alimentado pela CGE através da área administrativa do Portal (Joomla).
+
+![](static/pagina-conteudo-doacoes.png)
+
+### 9. Medidas de estímulo econômico e proteção social
+<a href="#top">(inicio)</a>
+
+Criar uma página de conteúdo ___[Medidas de estímulo econômico e proteção social]___.
+
+O conteúdo dessa página será alimentado pela CGE através da área administrativa do Portal (Joomla).
+
+![](static/pagina-conteudo-medidas-estimulo.png)
 
 # Exemplos / Pesquisa
 
