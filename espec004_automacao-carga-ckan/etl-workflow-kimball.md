@@ -46,16 +46,15 @@ Por fim, o scheduler deve apoiar um processo totalmente automatizado, incluindo 
 
 O serviço de controle dos jobs compreende: 
 
-	definição de séries ou passos dos jobs e relações e dependências entre eles; 
+- definição de séries ou passos dos jobs e relações e dependências entre eles; 
 
-	a habilidade de monitorar flags nas bases de dados, checar a existência de arquivos e comparar datas de criação; 
+- a habilidade de monitorar flags nas bases de dados, checar a existência de arquivos e comparar datas de criação; 
 
-	a captura de metadados do processo que estiver sendo executado no momento, como qual dataset está sendo carregado, o horário de início deste processo e sua duração;
+- a captura de metadados do processo que estiver sendo executado no momento, como qual dataset está sendo carregado, o horário de início deste processo e sua duração;
 
-	coleta e registro de informação sobre o que ocorreu durante todo o processo de ETL (logging), não somente no momento;
+- coleta e registro de informação sobre o que ocorreu durante todo o processo de ETL (logging), não somente no momento;
 
-	após todo o processo de ETL ter sido desenvolvido e utilizado, ele deve funcionar sem qualquer intervenção humana. If a problem does occur, the control system needs to
-interface to the problem escalation system (subsystem 30).
+- após todo o processo de ETL ter sido desenvolvido e utilizado, ele deve funcionar sem qualquer intervenção humana. If a problem does occur, the control system needs to interface to the problem escalation system (subsystem 30).
 
 
 23. Backup system: 
@@ -75,10 +74,7 @@ Recomenda-se a implementação modular de ETL para mitigar custos de recuperaç�
 
 Deve controlar check-ins e check-outs de todos os módulos e jobs do fluxo ETL. Deve permitir a comparação de diferenças entre versões e restaurar o contexto completo de uma versão, sendo necessário também evidenciar a versão do dataset/arquivo em que se estiver trabalhando durante todo o processo de ETL
 
-	You have a master version number for each part of the ETL system as
-well as one for the system as a whole, don’t you? And you can restore yesterday’s
-complete ETL metadata context if it turns out there is a big mistake in the current
-release?
+- You have a master version number for each part of the ETL system as well as one for the system as a whole, don’t you? And you can restore yesterday’s complete ETL metadata context if it turns out there is a big mistake in the current release?
 
 26. Version Migration System: espelhamento entre os ambientes de homologação e produção
 
