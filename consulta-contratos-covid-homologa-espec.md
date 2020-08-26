@@ -44,6 +44,10 @@ Para contemplar a inclusão dos modos de consulta relacionadas a  COVID-19 a pá
 
 ![](static/pagina-inicial-covid19.png)
 
+__CONFERE__
+
+![](static/espec-pagina-inicial-covid19.png)
+
 __Texto do ícone COVID-19:__ Encontre aqui os gastos, contratações e legislações do Estado referente ao enfretamento à pandemia causada pela COVID-19.
 
 #### Observação
@@ -116,6 +120,11 @@ Link: http://dados.mg.gov.br/dataset/compras-emergenciais-covid-19
 Ao clicar em __[Compras - Programa de enfrentamento COVID-19]__ o portal exibe uma página com o painel das contratações relacionados ao Programa 26 - "Enfrentamento dos efeitos da pandemia de COVID-19".
 
 ![](static/leiaute-painel-covid19.png)
+
+![](static/espec-compras-enfrentamento1.png)
+
+![](static/espec-compras-enfrentamento2.png)
+
 
 Arquivo .xls: [leiaute-tabelas-covid19](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/feat/consulta-contratos-covid/static/leiaute-tabelas-covid19.xlsx)
 
@@ -244,11 +253,3 @@ Criar uma página de conteúdo ___[Medidas de estímulo econômico e proteção 
 O conteúdo dessa página será alimentado pela CGE através da área administrativa do Portal (Joomla).
 
 ![](static/pagina-conteudo-medidas-estimulo.png)
-
-# Exemplos / Pesquisa
-
-* [Recomendações Transparência Internacional](https://comunidade.transparenciainternacional.org.br/asset/86:tibr-recomendacoes-de-contratacoes-emergenciais-covid19?stream=1)
-
-* [Alagoas](http://www.alagoascontraocoronavirus.al.gov.br/)
-* [Ceará](https://coronavirus.ceara.gov.br/)
-* [Espirito Santo](https://coronavirus.es.gov.br/)
