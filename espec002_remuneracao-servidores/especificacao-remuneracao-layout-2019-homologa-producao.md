@@ -1,3 +1,4 @@
+
 ---
 Título: "Conferência dos dados em produção - Consulta Remuneração"
 Contrato Manutenção: 15210010062019 (INF. 3951)
@@ -144,20 +145,20 @@ A ordem da planilha a partir das empresa ainda encontra-se incorreto.
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 As colunas não estão movíveis nesse nível
 --
 
-![](static/producao-mover-coluna.jpg)
+![](static/producao-mover-coluna-corigido.jpg)
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 Alinhar os valores do formulário de rendimentos
 --
 
-![](static/producao-alinhar-valores.jpg)
+![](static/producao-alinhar-valores-corrigido.jpg)
 
 </div>
