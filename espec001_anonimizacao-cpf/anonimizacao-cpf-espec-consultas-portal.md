@@ -32,9 +32,9 @@ A divulgação do CPF está sendo objeto de questionamento frequente no canal �
 
 A aprovação da LGPD trouxe para a discussão o tema privacidade e proteção de dados pessoais, provocando a necessidade de um debate em torno dos limites do tratamento de dados pessoais pelo poder público e, por consequência, as implicações da aplicação da LGPD na política de transparência, em especial, para a CGE, em relação à forma de divulgação dessas informações no Portal.
 
-Nesse sentido o Grupo de Trabalho instituído pela Resolução Conjunta SEPLAG/CGE/SEF/AGE/PRODEMGE nº 10.064, de 29/7/2019 emitiu a Consulta Jurídica SEPLAG/SUBGOVES nº 01/2020 à Advocacia Geral do Estado que versa sobre a publicização de dados pessoais no Portal da Transparência.
+Nesse sentido, o Grupo de Trabalho instituído pela Resolução Conjunta SEPLAG/CGE/SEF/AGE/PRODEMGE nº 10.064, de 29/7/2019, emitiu a Consulta Jurídica SEPLAG/SUBGOVES nº 01/2020, que versa sobre a publicização de dados pessoais no Portal da Transparência, à Advocacia Geral do Estado .
 
-Em resposta ao Grupo de Trabalho a Advocacia Geral do Estado emitiu o Parecer Jurídico AGE 16.248. Abaixo segue a conclusão da AGE quanto aos questionamentos do Grupo de Trabalho:
+Em resposta ao Grupo de Trabalho, a Advocacia Geral do Estado emitiu o Parecer Jurídico AGE 16.248. Abaixo segue a conclusão da AGE quanto aos questionamentos do Grupo de Trabalho:
 
 > **III. Da Consulta**
 >
@@ -53,7 +53,7 @@ diferentemente do endereço institucional ou comercial, não decorrem da relaç�
 # Especificação
 <a href="#top">(inicio)</a>
 
-Inicialmente cabe destacar que todos os registros devem ser carregados novamente na base de dados do Portal da Transparência de forma que todos os CPFs fiquem anonimizados..
+Inicialmente, cabe destacar que todos os registros devem ser carregados novamente na base de dados do Portal da Transparência, de forma que todos os CPFs fiquem anonimizados.
 
 A anonimização deve ser aplicada em:
 
@@ -76,11 +76,11 @@ O método de anonimização consiste em:
 
 * Substituir o CPF do candidato classificado pelo valor "000.000.000-00".
 
-As regras acima devem ser aplicadas inclusive no caso em que o nome e CPF sejam apresentados no mesmo campo. No banco de dados do Portal da Transparência as informações de CPF devem ser armazenadas sem anonimização, permitindo filtros que utilizem essas informações.
+As regras acima devem ser aplicadas inclusive no caso em que o nome e CPF sejam apresentados no mesmo campo. No banco de dados do Portal da Transparência, as informações de CPF devem ser armazenadas sem anonimização, permitindo filtros que utilizem essas informações.
 
 #### Exemplo:
 
-Ao acessar o nível 'Nome do Classificado' o Portal deverá exibir:
+Ao acessar o nível 'Nome do Classificado', o Portal deverá exibir:
 
 | Nome do Classificado | CPF |
 |---|---|
@@ -100,7 +100,7 @@ O método de anonimização consiste em:
 
 * Substituir o CPF do credor (favorecido) pelo valor "000.000.000-00".
 
-A regra acima devem ser aplicada inclusive no caso em que o nome e CPF sejam apresentados no mesmo campo. No banco de dados do Portal da Transparência as informações de CPF devem ser armazenadas sem anonimização, permitindo filtros que utilizem essas informações.
+A regra acima devem ser aplicada inclusive no caso em que o nome e CPF sejam apresentados no mesmo campo. No banco de dados do Portal da Transparência, as informações de CPF devem ser armazenadas sem anonimização, permitindo filtros que utilizem essas informações.
 
 **Exemplos**:
 
@@ -115,7 +115,7 @@ MARCOS SAULO DE CARVALHO|000.000.000-00|DESPESAS MIUDAS DE PRONTO PAGAMENTO| 10.
 
 * **Formulários de detalhamento de documentos**
 
-Ao acessar os formulários de detalhamento os seguintes campos devem ser anonimizados:
+Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonimizados:
 
 => Campo ___Razão Social do Credor, CNPJ/CPF e Descrição do Favorecido___ do formulário de empenho da despesa:
 
@@ -131,7 +131,7 @@ MARCOS SAULO DE CARVALHO|000.000.000-00|85| 10.000,00|30.000,00|10.000,00|20.000
 
 * **Formulários de detalhamento de documentos**
 
-Ao acessar os formulários de detalhamento os seguintes campos devem ser anonimizados:
+Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonimizados:
 
 =>Campo ___Razão Social do Credor, CNPJ/CPF e Descrição do Favorecido___ do formulário de empenho da despesa:
 
@@ -148,7 +148,7 @@ MARCOS SAULO DE CARVALHO|000.000.000-00|10.000,00|10.000,00|10.000,00|
 
 * **Formulários de detalhamento de documentos**
 
-Ao acessar os formulários de detalhamento os seguintes campos devem ser anonimizados:
+Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonimizados:
 
 => Campo ___Razão Social do Credor, CNPJ/CPF e Descrição do Favorecido___ do formulário de empenho da despesa:
 
@@ -164,20 +164,20 @@ MARCOS SAULO DE CARVALHO|000.000.000-00| Auditor Fiscal| Secretária de Estado d
 
 * **Formulários de detalhamento de documentos**
 
-Ao acessar os formulários de detalhamento os seguintes campos devem ser anonimizados:
+Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonimizados:
 
 ![](static/espec-anonimizacao-viagem-detalhamento.png)
 
 
 ***OBSERVAÇÕES GERAIS***
 
-* Na pesquisa avançada a anonimização deve ocorrer quando o usuário marcar o campo ___exibir favorecidos___.
+* Na pesquisa avançada, a anonimização deve ocorrer quando o usuário marcar o campo ___exibir favorecidos___.
 
-* Ao digitar o CPF de um favorecido na consulta 'Favorecido por CPF / CNPJ' o Portal deve exibir a consulta completa anonimizando os dados do favorecido.
+* Ao digitar o CPF de um favorecido na consulta 'Favorecido por CPF / CNPJ', o Portal deve exibir a consulta completa anonimizando os dados do favorecido.
 
-* Os dados na migalha devem ser anonimizados quando exibir o número do CPF;
+* Os dados na migalha de pão (caminho da pesquisa) devem ser anonimizados quando exibir o número do CPF;
 
-* Ao realizar uma anonimização, o Portal deve continuar a exibir as transações de forma separadas.
+* Ao realizar uma anonimização, o Portal deve continuar a exibir as transações de forma separada.
 
 * A anonimização deve ser aplicada na árvore da consultas
 
