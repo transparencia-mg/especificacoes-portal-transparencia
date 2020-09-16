@@ -3,7 +3,7 @@ contrato_manutencao: nº 15210010062019 (INF. 3951)
 proposta_comercial:
 mantis:
 pull_request:
-titulo: Anonimização dos CPFs de todas as Consultas do Portal
+titulo: Anonimização dos CPFs das consultas - Concursos Realizados; Despesa; Restos a Pagar; Diárias e Viagens.
 output:
   html_document:
     theme: united
@@ -65,51 +65,40 @@ A anonimização deve ser aplicada em:
 * Exportar para csv;
 * Exportar para pdf.
 
+## Método de anonimização
+
+A anonimização deve ser aplicada em todos os filtros das consultas listadas que possuem informação de CPF.
+
+O método de anonimização consiste em ocultar os três primeiros dígitos e dos dois dígitos verificadores dos CPFs.
+
+ **Exemplo:**  
+ Substituir o CPF pelo valor *** .456.526- **
+
 ## Concursos Realizados
 <a href="#top">(inicio)</a>
 
-### Método de anonimização
-
 A anonimização deve ser aplicada no nível 'Nome do Classificado' em todos os filtros da consulta [Concursos Realizados](http://transparencia.mg.gov.br/estado-pessoal/concursos-realizados/concursos-orgaos-demandantes/2018/01-01-2018/31-12-2018/1/17/17/97) que possuem informação de CPF.
-
-O método de anonimização consiste em:
-
-* Substituir o CPF do candidato classificado pelo valor "000.000.000-00".
-
-As regras acima devem ser aplicadas inclusive no caso em que o nome e CPF sejam apresentados no mesmo campo. No banco de dados do Portal da Transparência, as informações de CPF devem ser armazenadas sem anonimização, permitindo filtros que utilizem essas informações.
-
-#### Exemplo:
 
 Ao acessar o nível 'Nome do Classificado', o Portal deverá exibir:
 
 | Nome do Classificado | CPF |
 |---|---|
-ADRIA DE LIMA SOUSA|000.000.000-00|
+ADRIA DE LIMA SOUSA|*** .000.000- **|
 * ***Obs: As demais colunas não sofrerão alterações***
 
 ![](static/espec-anonimizacao-concursos.png)
 
-## Consultas Despesa, Restos a Pagar, Diárias e Viagens
+## Despesa, Restos a Pagar, Diárias e Viagens
 <a href="#top">(inicio)</a>
 
-### Método de anonimização
-
 A anonimização deve ser aplicada no nível 'Favorecido' de todos os filtros das consultas [Despesa](http://transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2020/01-01-2020/31-12-2020/4015/1914/533/20/42), [Diárias](http://transparencia.mg.gov.br/estado-pessoal/diarias/despesadiarias-programas/2020/01-01-2020/31-12-2020/4026), [Restos a Pagar](http://transparencia.mg.gov.br/despesa-estado/restos-a-pagar/restospagar-orgaos/2020/4015/533/42/20/2798/130/58) e [Viagens](http://transparencia.mg.gov.br/estado-pessoal/viagens/estado_viagens-consulta/21/01-01-2020/31-12-2020/2020) que possuem informação de CPF.
-
-O método de anonimização consiste em:
-
-* Substituir o CPF do credor (favorecido) pelo valor "000.000.000-00".
-
-A regra acima devem ser aplicada inclusive no caso em que o nome e CPF sejam apresentados no mesmo campo. No banco de dados do Portal da Transparência, as informações de CPF devem ser armazenadas sem anonimização, permitindo filtros que utilizem essas informações.
-
-**Exemplos**:
 
 Ao acessar o nível 'Favorecido por nome' ou 'Favorecido por CNPJ/CPF' o Portal deverá exibir:
 
 ### Consulta Despesa
 | Favorecido | CNPJ/CPF | Item de despesa | Valor Empenhado |Valor Liquidado| Valor Pago|
 |---|---|---|---|---|---
-MARCOS SAULO DE CARVALHO|000.000.000-00|DESPESAS MIUDAS DE PRONTO PAGAMENTO| 10.000,00|10.000,00|10.000,00|
+MARCOS SAULO DE CARVALHO|*** .456.286- **|DESPESAS MIUDAS DE PRONTO PAGAMENTO| 10.000,00|10.000,00|10.000,00|
 
 ![](static/espec-anonimizacao-despesa.png)
 
@@ -125,7 +114,7 @@ Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonim
 
 | Favorecido | CNPJ/CPF | Número do empenho | Valor Inscrito Processado |Valor Inscrito não Processado| Valor Pago no ano| Valor a pagar
 |---|---|---:|---:|---:|---:|---:
-MARCOS SAULO DE CARVALHO|000.000.000-00|85| 10.000,00|30.000,00|10.000,00|20.000,00
+MARCOS SAULO DE CARVALHO|*** .456.286- **|85| 10.000,00|30.000,00|10.000,00|20.000,00
 
 ![](static/espec-anonimizacao-restosapagar.png)
 
@@ -141,7 +130,7 @@ Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonim
 
 |Favorecido| CNPJ/CPF|  Valor Empenhado |Valor Liquidado| Valor Pago|
 |---|---|---:|---:|---:
-MARCOS SAULO DE CARVALHO|000.000.000-00|10.000,00|10.000,00|10.000,00|
+MARCOS SAULO DE CARVALHO|*** .456.286- **|10.000,00|10.000,00|10.000,00|
 
 ![](static/espec-anonimizacao-diarias.png)
 
@@ -158,7 +147,7 @@ Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonim
 
 |Favorecido | CNPJ/CPF | Cargo | Órgão| Quantidade de Viagens| Quantidade de Diárias |Valor Pago Diárias|Valor Pago Passagens| Valor Total|
 |---|---|---|---|---|---|---:|---:|--:
-MARCOS SAULO DE CARVALHO|000.000.000-00| Auditor Fiscal| Secretária de Estado da Fazenda|1,00|1,00|0,00|0,00|0,00
+MARCOS SAULO DE CARVALHO|*** .456.286- **| Auditor Fiscal| Secretária de Estado da Fazenda|1,00|1,00|0,00|0,00|0,00
 
 ![](static/espec-anonimizacao-viagens.png)
 
@@ -170,6 +159,8 @@ Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonim
 
 
 ***OBSERVAÇÕES GERAIS***
+
+* As regras acima devem ser aplicadas inclusive no caso em que o nome e CPF sejam apresentados no mesmo campo. No banco de dados do Portal da Transparência, as informações de CPF devem ser armazenadas sem anonimização, permitindo filtros que utilizem essas informações.
 
 * Na pesquisa avançada, a anonimização deve ocorrer quando o usuário marcar o campo ___exibir favorecidos___.
 
