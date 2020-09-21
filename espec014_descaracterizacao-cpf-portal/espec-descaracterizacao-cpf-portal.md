@@ -1,10 +1,13 @@
 ---
 contrato_manutencao: nº 15210010062019 (INF. 3951)
-proposta_comercial:
-mantis:
-pull_request:
-titulo: Anonimização dos CPFs das consultas - Concursos Realizados; Despesa; Restos a Pagar; Diárias e Viagens.
+proposta_comercial: null
+mantis: null
+pull_request: null
+titulo: Anonimização dos CPFs das consultas - Concursos Realizados; Despesa; Restos
+  a Pagar; Diárias e Viagens.
 output:
+  pdf_document:
+    toc: yes
   html_document:
     theme: united
     toc: yes
