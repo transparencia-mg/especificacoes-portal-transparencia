@@ -1,15 +1,14 @@
 ---
 contrato_manutencao: nº 15210010062019 (INF. 3951)
-proposta_comercial: null
-mantis: null
-pull_request: null
-titulo: Anonimização dos CPFs das consultas - Concursos Realizados; Despesa; Restos
-  a Pagar; Diárias e Viagens.
+proposta_comercial:
+mantis:
+pull_request:
+titulo: Anonimização dos CPFs das consultas - Concursos Realizados; Despesa; Restos  a Pagar; Diárias e Viagens.
 output:
-  pdf_document:
-    toc: yes
   html_document:
     theme: united
+    toc: yes
+  pdf_document:
     toc: yes
 ---
 
@@ -52,6 +51,10 @@ diferentemente do endereço institucional ou comercial, não decorrem da relaç�
 >**IV. Conclusão**
 >
 >Em conclusão, ao responder aos questionamentos que nos foram formulados, somos de **opinião favorável à adoção das soluções pensadas pela consulente**. Seja pela **descaracterização de parte do número CPF** e de outros documentos de identificação civil de **candidatos aprovados em concursos públicos, representantes de sociedades e entidades contratantes e credores do Estado**. Seja pela ocultação de dados pessoais adicionais constantes de termos negociais entabulados pelo Estado. Entendendo-as, quando avaliadas em sua razoabilidade e legalidade, adequadas a dar cumprimento a ditames que, à primeira vista, mas de forma meramente aparente, seriam contraditórios. Preservando-se, de tal modo, o dever de transparência sedimentado na Lei de Acesso à Informação e o dever de proteção  dados pessoais de que trata, de forma sistematizada, a Lei Geral de Proteção de Dados.
+
+# Atenção
+
+A anonimização dos nomes e CPFs de credores pessoas físicas nas consultas de Despesa e Restos a Pagar (RP) referente  elemento item de despesa 3102 - PRÊMIOS LOTÉRICOS deve permanecer conforme [demanda já disponibilizada em produção](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec001_anonimizacao-cpf/anonimizacao-cpf-espec.md) e deverá sem aplicada antes dessa nova proposta de descaraterização.
 
 # Especificação
 <a href="#top">(inicio)</a>
