@@ -15,9 +15,9 @@ output:
 # Visão geral da demanda
 <a href="#top">(inicio)</a>
 
-Essa demanda visa anonimizar os CPFs de credores pessoas físicas de **todas** as consultas que possuem esse tipo de informação.
+Essa demanda visa anonimizar os CPFs de credores pessoas físicas de **TODAS** as consultas que possuem esse tipo de informação.
 
-O método de anonimização deve ser aplicado em **todos os campos e resultados** que apresentem informação de CPF, bem como nas funcionalidades de exportação de dados.
+O método de anonimização deve ser aplicado em **TODOS** os campos e resultados que apresentem informação de CPF, bem como nas funcionalidades de exportação de dados.
 
 As informações devem ser armazenadas de forma completa no banco de dados do Portal, permitindo inclusive a realização de buscas nos campos anonimizados.
 
@@ -67,14 +67,14 @@ A anonimização deve ser aplicada em:
 
 ## Método de anonimização
 
-A anonimização deve ser aplicada nos filtros de todas as consultas que possuem informação de CPF.
+A anonimização deve ser aplicada em **TODOS** os campos e filtros de **TODAS** as consultas que possuem informação de CPF.
 
 O método de anonimização consiste em ocultar os três primeiros dígitos e dos dois dígitos verificadores dos CPFs.
 
  **Exemplo:**  
  Substituir o CPF pelo valor *** .456.526- **
 
-Abaixo segue **exemplos** de algumas consultas de como a anonimização deve ocorrer:
+Abaixo segue **EXEMPLOS** de algumas consultas de como a anonimização deve ocorrer:
 
 ## Concursos Realizados
 <a href="#top">(inicio)</a>
