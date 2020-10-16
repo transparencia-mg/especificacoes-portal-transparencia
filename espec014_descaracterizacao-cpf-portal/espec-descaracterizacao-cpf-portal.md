@@ -15,15 +15,9 @@ output:
 # Visão geral da demanda
 <a href="#top">(inicio)</a>
 
-Essa demanda visa anonimizar os CPFs de credores pessoas físicas nas seguintes consultas:
+Essa demanda visa anonimizar os CPFs de credores pessoas físicas de **todas** as consultas que possuem esse tipo de informação.
 
-* Concursos Realizados;
-* Despesa;
-* Restos a Pagar;
-* Diárias e
-* Viagens.
-
-O método de anonimização deve ser aplicado nos resultados de todas as consultas citadas que apresentem informação de CPF, bem como nas funcionalidades de exportação de dados.
+O método de anonimização deve ser aplicado em **todos os campos e resultados** que apresentem informação de CPF, bem como nas funcionalidades de exportação de dados.
 
 As informações devem ser armazenadas de forma completa no banco de dados do Portal, permitindo inclusive a realização de buscas nos campos anonimizados.
 
@@ -73,12 +67,14 @@ A anonimização deve ser aplicada em:
 
 ## Método de anonimização
 
-A anonimização deve ser aplicada em todos os filtros das consultas listadas que possuem informação de CPF.
+A anonimização deve ser aplicada nos filtros de todas as consultas que possuem informação de CPF.
 
 O método de anonimização consiste em ocultar os três primeiros dígitos e dos dois dígitos verificadores dos CPFs.
 
  **Exemplo:**  
  Substituir o CPF pelo valor *** .456.526- **
+
+Abaixo segue **exemplos** de algumas consultas de como a anonimização deve ocorrer:
 
 ## Concursos Realizados
 <a href="#top">(inicio)</a>
@@ -163,12 +159,85 @@ Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonim
 
 ![](static/espec-anonimizacao-viagem-detalhamento.png)
 
+## Consulta Compras e Contratos
+<a href="#top">(inicio)</a>
+
+A anonimização deve ser aplicada no nível 'Contratado' em todos os filtros da consulta [Compras e Contratos](http://www.transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos/comprasecontratos-filtros/3/2020/01-01-2020/07-10-2020/0/0/0/0/0/0/0/0/0/0/0/0) que possuem informação de CPF.
+
+Ao acessar o nível 'Contratado', o Portal deverá exibir:
+
+| Contratado| CNPJ/CPF | Valor de Referência | Valor Homologado | Economias
+|---|---||---|---|
+SANDRO LUIS VILELA AVELAR|*** .000.000- **|
+
+
+![](static/espec-anonimizacao-compras-contratos.png)
+
+
+* **Formulários de detalhamento de documentos**
+
+Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonimizados:
+
+![](static/espec-anonimizacao-compras-contratos-detalhamento.png)
+
+![](static/espec-anonimizacao-compras-contratos-nota-empenho.png)
+
+* **Formulário de detalhamento da consulta Contratos por órgão**
+
+Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonimizados:
+
+![](static/espec-anonimizacao-contratos-detalhamento.png)
+
+
+## Gestão da Frota
+<a href="#top">(inicio)</a>
+
+A anonimização deve ser aplicada no nível 'Proprietário' em todos os filtros da consulta [Gestão da Frota](http://www.transparencia.mg.gov.br/compras-e-patrimonio/gestao-de-frota/frota-veiculos-orgao-resp/1/1/51/51/31) que possuem informação de CPF.
+
+
+| Número do Patrimônio| Placa do Veículo |Marca/Modelo | Ano de Fabricação | Siatuação do Veículo| Tipo de bem|Proprietário|Finalidade do Veículo
+|---|---|---|---|---|--|---|-
+|---|---|---|---|---|--|*** .000.000- ** -SANDRO LUIS VILELA AVELAR||
+
+
+![](static/espec-anonimizacao-frota.png)
+
+
+* **Formulários de detalhamento de documentos**
+
+Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonimizados:
+
+![](static/espec-anonimizacao-frota-detalhamento.png)
+
+
+## Patrimônio
+<a href="#top">(inicio)</a>
+
+A anonimização deve ser aplicada em todos os campos que tiver informação de CPFS e em todos os filtros da consulta [Patrimônio](http://www.transparencia.mg.gov.br/compras-e-patrimonio/patrimonio/patrimonio-terceiros-responsaveis/1/2/).
+
+
+| CNPJ/CPF|Terceiro Responsável |Quantidade de Bens Ativos |
+|---|---|---|
+|*** .000.000- **|SANDRO LUIS VILELA AVELAR|-|
+
+
+![](static/espec-anonimizacao-patrimonio.png)
+
+
+* **Formulários de detalhamento de documentos**
+
+Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonimizados:
+
+![](static/espec-anonimizacao-frota-detalhamento.png)
+
 
 ***OBSERVAÇÕES GERAIS***
 
-* As regras acima devem ser aplicadas inclusive no caso em que o nome e CPF sejam apresentados no mesmo campo. No banco de dados do Portal da Transparência, as informações de CPF devem ser armazenadas sem anonimização, permitindo filtros que utilizem essas informações.
+* As regras acima devem ser aplicadas inclusive no caso em que o nome e CPF sejam apresentados no mesmo campo (ex. formulários de detalhamento).
 
-* Na pesquisa avançada, a anonimização deve ocorrer quando o usuário marcar o campo ___exibir favorecidos___.
+* No banco de dados do Portal da Transparência, as informações de CPF devem ser armazenadas sem anonimização, permitindo filtros que utilizem essas informações.
+
+* A anonimização deve ocorrer em todas as pesquisas avançadas que apresentem informação de CPF.
 
 * Ao digitar o CPF de um favorecido na consulta 'Favorecido por CPF / CNPJ', o Portal deve exibir a consulta completa anonimizando os dados do favorecido.
 
@@ -176,6 +245,8 @@ Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonim
 
 * Ao realizar uma anonimização, o Portal deve continuar a exibir as transações de forma separada.
 
-* A anonimização deve ser aplicada na árvore da consultas
+* A anonimização deve ser aplicada na árvore de todas as consultas
 
 ![](static/espec-anonimizacao-arvore.png)
+
+* Quando o usuário clicar no número do processo de compra da consulta "[Compras - Programa de enfrentamento COVID -19](http://www.transparencia.mg.gov.br/covid-19/compras-contratos/contratoscovid-detalharcompra/145425)" deve-se aplicar as mesmas regras de anonimização adotada na Consulta de Compras e Contratos caso exista algum CPF.
