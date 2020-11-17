@@ -1,7 +1,7 @@
 ---
 contrato_manutencao: nº 15210010062019 (INF. 3951)
 proposta_comercial: 629499
-mantis:
+mantis: 0150313
 titulo: descaraterização dos CPFs das consultas do Portal
 output:
   html_document:
@@ -58,6 +58,12 @@ ADRIA DE LIMA SOUSA|*** .000.000- **|
 
 ![](static/espec-anonimizacao-concursos.png)
 
+<div class="alert alert-success">
+
+CONFERE
+--
+![](static/espec-anonimizacao-concursos-homologa.png)
+  </div>
 ## Despesa, Restos a Pagar, Diárias e Viagens
 <a href="#top">(inicio)</a>
 
@@ -91,11 +97,12 @@ Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonim
 
 ![](static/espec-anonimizacao-despesa-detalhamento.png)
 
-  <div class="alert alert-danger">
+  <div class="alert alert-info">
 
-CORRIGIR
---
-O CPF devera ser descaracterizado em todos itens existente. Na documentação apresenta o formulário de empenho apresenta os dado de pessoa jurídica e no da liquidação apresenta a anonimização por sigilo dos prêmios lotéricos.
+Conforme informado pelo analista Luiz:
+> '*objetivo dos dados presentes nas interfaces da documentação tem apenas o intuito de simular como a aplicação irá se comportar, não refletindo o funcionamento real da aplicação.Conforme foi observado nos formulários de detalhamento de Despesas e Restos a Pagar, os dados apresentados em liquidação e pagamento divergem do comportamento real da aplicação, mas possuem a intenção de demonstrar como as funcionalidades de anonimização e descaracterização de CPF comportam.*''
+
+Considerando a informação acima os dados estão de acordo, mas durante a homologação em da consulta verificar.
 
 
 ![](static/espec-anonimizacao-despesa-detalhamento-homologa.png)
@@ -125,21 +132,17 @@ Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonim
 
 ![](static/espec-anonimizacao-despesa-detalhamento.png)
 
-<div class="alert alert-danger">
+<div class="alert alert-info">
 
-CORRIGIR
---
-O CPF devera ser descaracterizado em todos itens existente. Na documentação apresenta o formulário de empenho apresenta os dado de pessoa jurídica e no da liquidação apresenta a anonimização por sigilo dos prêmios lotéricos.
+Conforme informado pelo analista Luiz:
+> '*objetivo dos dados presentes nas interfaces da documentação tem apenas o intuito de simular como a aplicação irá se comportar, não refletindo o funcionamento real da aplicação.Conforme foi observado nos formulários de detalhamento de Despesas e Restos a Pagar, os dados apresentados em liquidação e pagamento divergem do comportamento real da aplicação, mas possuem a intenção de demonstrar como as funcionalidades de anonimização e descaracterização de CPF comportam.*''
+
+Considerando a informação acima os dados estão de acordo, mas durante a homologação em da consulta verificar.
 
 ![](static/espec-anonimizacao-restosapagar-detalhamento-homologa.png)
   </div>
 
 ### Consulta Diárias
-<div class="alert alert-danger">
-
-Não localizei as telas da consulta de diárias.
---
-  </div>  
 
 |Favorecido| CNPJ/CPF|  Valor Empenhado |Valor Liquidado| Valor Pago|
 |---|---|---:|---:|---:
@@ -147,7 +150,14 @@ MARCOS SAULO DE CARVALHO|*** .456.286- **|10.000,00|10.000,00|10.000,00|
 
 ![](static/espec-anonimizacao-diarias.png)
 
+<div class="alert alert-success">
 
+CONFERE
+--
+
+![](static/espec-anonimizacao-diarias-homologa.png)
+--
+  </div>  
 * **Formulários de detalhamento de documentos**
 
 Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonimizados:
@@ -164,12 +174,28 @@ MARCOS SAULO DE CARVALHO|*** .456.286- **| Auditor Fiscal| Secretária de Estado
 
 ![](static/espec-anonimizacao-viagens.png)
 
+<div class="alert alert-success">
+
+CONFERE
+--
+![](static/espec-anonimizacao-viagens-homologa.png)
+
+--
+  </div>  
+
 * **Formulários de detalhamento de documentos**
 
 Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonimizados:
 
 ![](static/espec-anonimizacao-viagem-detalhamento.png)
 
+<div class="alert alert-success">
+
+CONFERE
+--
+![](static/espec-anonimizacao-viagem-detalhamento-homologa.png)
+  </div>  
+  
 ## Consulta Compras e Contratos
 <a href="#top">(inicio)</a>
 
