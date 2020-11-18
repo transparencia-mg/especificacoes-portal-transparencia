@@ -1,6 +1,6 @@
 ---
 contrato_manutencao: nº 15210010062019 (INF. 3951)
-proposta_comercial: 629499
+proposta_comercial: 629499/20 e 629844/20
 mantis: 0150313
 titulo: descaraterização dos CPFs das consultas do Portal
 output:
@@ -195,7 +195,7 @@ CONFERE
 --
 ![](static/espec-anonimizacao-viagem-detalhamento-homologa.png)
   </div>  
-  
+
 ## Consulta Compras e Contratos
 <a href="#top">(inicio)</a>
 
