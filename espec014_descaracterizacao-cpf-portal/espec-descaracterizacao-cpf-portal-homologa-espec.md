@@ -44,7 +44,7 @@ O método de anonimização consiste em ocultar os três primeiros dígitos e do
 
 Abaixo segue **EXEMPLOS** de algumas consultas de como a anonimização deve ocorrer:
 
-## Concursos Realizados
+## Concursos Realizados - ok
 <a href="#top">(inicio)</a>
 
 A anonimização deve ser aplicada no nível 'Nome do Classificado' em todos os filtros da consulta [Concursos Realizados](http://transparencia.mg.gov.br/estado-pessoal/concursos-realizados/concursos-orgaos-demandantes/2018/01-01-2018/31-12-2018/1/17/17/97) que possuem informação de CPF.
@@ -71,7 +71,7 @@ A anonimização deve ser aplicada no nível 'Favorecido' de todos os filtros da
 
 Ao acessar o nível 'Favorecido por nome' ou 'Favorecido por CNPJ/CPF' o Portal deverá exibir:
 
-### Consulta Despesa
+### Consulta Despesa- ok
 
 | Favorecido | CNPJ/CPF | Item de despesa | Valor Empenhado |Valor Liquidado| Valor Pago|
 |---|---|---|---|---|---
@@ -109,7 +109,7 @@ Considerando a informação acima os dados estão de acordo, mas durante a homol
   </div>
 
 
-### Consulta Restos a Pagar
+### Consulta Restos a Pagar- ok
 
 | Favorecido | CNPJ/CPF | Número do empenho | Valor Inscrito Processado |Valor Inscrito não Processado| Valor Pago no ano| Valor a pagar
 |---|---|---:|---:|---:|---:|---:
@@ -142,7 +142,7 @@ Considerando a informação acima os dados estão de acordo, mas durante a homol
 ![](static/espec-anonimizacao-restosapagar-detalhamento-homologa.png)
   </div>
 
-### Consulta Diárias
+### Consulta Diárias - ok
 
 |Favorecido| CNPJ/CPF|  Valor Empenhado |Valor Liquidado| Valor Pago|
 |---|---|---:|---:|---:
@@ -166,7 +166,7 @@ Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonim
 
 ![](static/espec-anonimizacao-despesa-detalhamento.png)
 
-### Consulta Viagens
+### Consulta Viagens- ok
 
 |Favorecido | CNPJ/CPF | Cargo | Órgão| Quantidade de Viagens| Quantidade de Diárias |Valor Pago Diárias|Valor Pago Passagens| Valor Total|
 |---|---|---|---|---|---|---:|---:|--:
@@ -226,7 +226,7 @@ Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonim
 ![](static/espec-anonimizacao-contratos-detalhamento.png)
 
 
-## Gestão da Frota
+## Gestão da Frota - Ok
 <a href="#top">(inicio)</a>
 
 A anonimização deve ser aplicada no nível 'Proprietário' em todos os filtros da consulta [Gestão da Frota](http://www.transparencia.mg.gov.br/compras-e-patrimonio/gestao-de-frota/frota-veiculos-orgao-resp/1/1/51/51/31) que possuem informação de CPF.
@@ -239,6 +239,15 @@ A anonimização deve ser aplicada no nível 'Proprietário' em todos os filtros
 
 ![](static/espec-anonimizacao-frota.png)
 
+<div class="alert alert-success">
+
+CONFERE
+--
+![](static/espec-anonimizacao-frota-homologa.png)
+
+--
+  </div>  
+
 
 * **Formulários de detalhamento de documentos**
 
@@ -246,8 +255,16 @@ Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonim
 
 ![](static/espec-anonimizacao-frota-detalhamento.png)
 
+<div class="alert alert-success">
 
-## Patrimônio
+CONFERE
+--
+![](static/espec-anonimizacao-frota-detalhamento-homologa.png)
+
+--
+  </div>  
+
+## Patrimônio - OK
 <a href="#top">(inicio)</a>
 
 A anonimização deve ser aplicada em todos os campos que tiver informação de CPFS e em todos os filtros da consulta [Patrimônio](http://www.transparencia.mg.gov.br/compras-e-patrimonio/patrimonio/patrimonio-terceiros-responsaveis/1/2/).
@@ -260,13 +277,24 @@ A anonimização deve ser aplicada em todos os campos que tiver informação de 
 
 ![](static/espec-anonimizacao-patrimonio.png)
 
+<div class="alert alert-success">
+
+CONFERE
+--
+![](static/espec-anonimizacao-patrimonio-homologa.png)
+
+--
+  </div>  
+
 
 * **Formulários de detalhamento de documentos**
 
-Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonimizados:
+<div class="alert alert-info">
 
-![](static/espec-anonimizacao-frota-detalhamento.png)
+No formulário de detalhamento da consulta de Patrimônio não foi identificado, inicialmente, registro de informações de CPF, mas o sistema tem que estar apto caso isso ocorra.
+--
 
+  </div>  
 
 ***OBSERVAÇÕES GERAIS***
 
@@ -280,6 +308,10 @@ Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonim
 
 DESPESAS - CONFERE
 ![](static/espec-anonimizacao-despesa-pesquisa-avancada.png)
+
+FROTA - CONFERE
+
+![](static/espec-anonimizacao-frota-pesquisa-avancada-homologa.png)
   </div>  
 * Ao digitar o CPF de um favorecido na consulta 'Favorecido por CPF / CNPJ', o Portal deve exibir a consulta completa anonimizando os dados do favorecido.
 
