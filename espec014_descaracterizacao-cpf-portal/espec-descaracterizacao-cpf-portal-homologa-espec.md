@@ -196,7 +196,7 @@ CONFERE
 ![](static/espec-anonimizacao-viagem-detalhamento-homologa.png)
   </div>  
 
-## Consulta Compras e Contratos
+## Consulta Compras e Contratos - OK
 <a href="#top">(inicio)</a>
 
 A anonimização deve ser aplicada no nível 'Contratado' em todos os filtros da consulta [Compras e Contratos](http://www.transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos/comprasecontratos-filtros/3/2020/01-01-2020/07-10-2020/0/0/0/0/0/0/0/0/0/0/0/0) que possuem informação de CPF.
@@ -210,6 +210,14 @@ SANDRO LUIS VILELA AVELAR|*** .000.000- **|
 
 ![](static/espec-anonimizacao-compras-contratos.png)
 
+<div class="alert alert-success">
+
+CONFERE
+--
+
+![](static/espec-anonimizacao-compras-contratos-homologa.png)
+
+  </div>  
 
 * **Formulários de detalhamento de documentos**
 
@@ -219,12 +227,28 @@ Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonim
 
 ![](static/espec-anonimizacao-compras-contratos-nota-empenho.png)
 
+<div class="alert alert-success">
+
+CONFERE
+--
+
+![](static/espec-anonimizacao-compras-contratos-detalhamento-homologa.png)
+
+  </div>  
+
 * **Formulário de detalhamento da consulta Contratos por órgão**
 
 Ao acessar os formulários de detalhamento, os seguintes campos devem ser anonimizados:
 
 ![](static/espec-anonimizacao-contratos-detalhamento.png)
+<div class="alert alert-success">
 
+CONFERE
+--
+
+![](static/espec-anonimizacao-contratos-detalhamento-homologa.png)
+
+  </div>
 
 ## Gestão da Frota - Ok
 <a href="#top">(inicio)</a>
@@ -324,3 +348,12 @@ FROTA - CONFERE
 ![](static/espec-anonimizacao-arvore.png)
 
 * Quando o usuário clicar no número do processo de compra da consulta "[Compras - Programa de enfrentamento COVID -19](http://www.transparencia.mg.gov.br/covid-19/compras-contratos/contratoscovid-detalharcompra/145425)" deve-se aplicar as mesmas regras de anonimização adotada na Consulta de Compras e Contratos caso exista algum CPF.
+
+<div class="alert alert-success">
+
+CONFERE
+--
+
+![](static/espec-anonimizacao-covid-homologa.png)
+
+  </div>
