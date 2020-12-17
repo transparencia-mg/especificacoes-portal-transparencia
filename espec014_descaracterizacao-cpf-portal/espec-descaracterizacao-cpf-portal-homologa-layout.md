@@ -284,7 +284,7 @@ Dados verificados em todos os filtros no ano de 2020
 
   </div>
 
-## Patrimônio - **ERRO**
+## Patrimônio - OK
 <a href="#top">(inicio)</a>
 
 A anonimização deve ser aplicada em todos os campos que tiver informação de CPFS e em todos os filtros da consulta [Patrimônio](http://www.transparencia.mg.gov.br/compras-e-patrimonio/patrimonio/patrimonio-terceiros-responsaveis/1/2/).
@@ -294,15 +294,13 @@ A anonimização deve ser aplicada em todos os campos que tiver informação de 
 |---|---|---|
 |*** .000.000- **|SANDRO LUIS VILELA AVELAR|-|
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-A consulta "terceiros responsáveis pelos bens do estado" não está funcionando. Não é possível verificar os dados
---
-url:http://homologa3.prodemge.gov.br/age7/compras-e-patrimonio/patrimonio/patrimonio-terceiros-responsaveis/1/2/
+CORRIGIDO
+
+![](static/layout-anonimizacao-patrimonio-homologa.png)
 
 </div>
-
-![](static/espec-anonimizacao-patrimonio.png)
 
 
 ***OBSERVAÇÕES GERAIS***
@@ -367,16 +365,13 @@ CONFERE
 
 ![](static/espec-anonimizacao-arvore.png)
 
-
-
-
-## Dúvida: - **ERRO**
+## Dúvida:
 <a href="#top">(inicio)</a>
 
-<div class="alert alert-danger">
+<div class="alert alert-info">
 --
-O texto que aparece na árvore da consulta é um texto digitado pelo usuário, nesse sentido é possível descaracterizá-lo??
---
+Não é possível descaracterizar esses dados, pois são informações digitas pelo usuário.
+>"seguindo o mesmo princípio adotado na anonimização e considerando que a informação apresentada no site apenas representa a entrada de dados realizada pelo usuário, e não a recuperação de informações sensíveis, podemos considerar a não descaracterização dessa informação apresentada;"
 
 ![](static/layout-anonimizacao-despesa-arvore.png)
 
@@ -390,21 +385,16 @@ Até o momento não existe contratação nessa consulta com pessoa física (CPF)
 
 
 
+<div class="alert alert-success">
 
-## **ERRO**
-<a href="#top">(inicio)</a>
+Corrigido - O Portal apresenta erro ao não exibir todos os dados da coluna CPNJ/CPF. Ao realizar a pesquisa por nome do favorecido é exibido todos os favorecidos, porém os dados de CPNJ não estão sendo exibidos.
 
-<div class="alert alert-danger">
+![](static/layout-anonimizacao-restosapagar-coluna-CNPJ-CPF-corrigida.png)
 
-O Portal apresenta erro ao não exibir todos os dados da coluna CPNJ/CPF. Ao realizar a pesquisa por nome do favorecido é exibido todos os favorecidos, porém os dados de CPNJ não estão sendo exibidos.
 
-url:http://homologa3.prodemge.gov.br/age7/despesa-estado/restos-a-pagar/restospagar-favorecidos/2020/0/Geraldo/0/3
+* O CPF administrativo do credor "Diárias e Favorecidos" não deverá ser descaracterizado, uma vez que não se refere a um credor pessoa física. Essa regra vale para todos os CPFs administrativos de todas as consultas
 
-![](static/layout-anonimizacao-restosapagar-coluna-CNPJ-CPF-homologa.png)
-
-## ERRO
-
-O CPF administrativo do credor "Diárias e Favorecidos" da consulta diárias  encontra-se descaracterizado, mas na consulta de despesa ele não está
+>" Os CPFs institucionais foram desconsiderados da regra, pois se tratam de um documento específico não diretamente associado a uma pessoa física;"
 
 * DESPESA
 http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2020/01-01-2020/31-12-2020/4015/1915/502/20/42
@@ -414,18 +404,18 @@ http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2020/01
 
 * Diárias
 http://homologa3.prodemge.gov.br/age7/estado-pessoal/diarias/despesadiarias-programas/2020/01-01-2020/31-12-2020/9807
-![](static/layout-anonimizacao-diarias-cpf-administrativo.png)
+![](static/layout-anonimizacao-diarias-cpf-administrativo-corrigido.png)
 
 </div>
 
-## Extração dos dados - **ERRO**
+## Extração dos dados -
 <a href="#top">(inicio)</a>
 
-<div class="alert alert-danger">
+<div class="alert alert-info">
 
 ## PDF
 
-Em nenhuma consulta a extração clicando no ícone PDF está funcionando, inclusive no ambiente de produção
+Os dados serão tratados separadamente uma vez que o erro ocorre também no ambiente de produção
 ---
 
 </div>
@@ -481,7 +471,5 @@ Em nenhuma consulta a extração clicando no ícone PDF está funcionando, inclu
 
 * Frota
 ![](static/layout-anonimizacao-frota-imprimir-homologa.png)
-
-
 
 </div>
