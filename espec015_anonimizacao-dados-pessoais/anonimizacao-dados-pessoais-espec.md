@@ -3,7 +3,7 @@ contrato_manutencao: nº 15210010062019 (INF. 3951)
 proposta_comercial:
 mantis:
 pull_request: '[espec015]()'
-titulo: Anonimização dos CPFs
+titulo: Anonimização dos dados pessoais
 output:
   html_document:
     theme: united
