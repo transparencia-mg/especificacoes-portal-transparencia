@@ -13,11 +13,11 @@ output:
 # Visão geral da demanda
 <a href="#top">(inicio)</a>
 
-Essa demanda visa anonimizar dados pessoais, como por exemplo nomes e CPFs, de credores pessoas físicas nas consultas do Portal de Transparência a partir de combinações especificas das classificações, inclusive de anos de exercício e períodos de datas especificas, podendo definir até quais empenhos serão anonimizados.
+Essa demanda visa anonimizar dados pessoais, como por exemplo nomes e CPFs, de credores pessoas físicas a partir de combinações especificas das classificações da dotação orçamentária, inclusive de anos de exercício e períodos de datas especificas, podendo definir até quais faixas de empenhos serão anonimizados.
 
 A combinação das classificações orçamentárias, anos e empenho serão informadas  conforme necessidade da Diretoria.
 
-O método de anonimização deve ser flexível para que possa ser aplicado em todas as consultas disponíveis no Portal que apresentem informação de nome e CPF, bem como nas funcionalidades de exportação de dados.
+O método de anonimização deve ser flexível para que possa ser aplicado nas consultas de Despesa,  Restos a Pagar e Diárias do Portal de Transparência, bem como nas funcionalidades de exportação de dados.
 
 Destaca-se que as informações devem ser armazenadas de forma completa no banco de dados do Portal, permitindo inclusive a realização de buscas nos campos anonimizados.
 
@@ -36,9 +36,29 @@ Como o mapa de carga do Portal não apresenta essa variável para anonimizar ess
 
 ## Método de anonimização
 
-A anonimização deve ser aplicada em todas as consultas do Portal de Transparência que possuem informações de nomes e CPFs. As combinações de classificação, ano, período, número do empenho, campos e etc devem contemplar todas as possibilidades de cruzamento.
+A anonimização deve ser aplicada nas informações de nomes, CPFs e histórico de empenho das consultas de Despesa,  Restos a Pagar e Diárias do Portal de Transparência. As combinações de classificação, ano, período, número do empenho e outros campos devem contemplar todas as possibilidades de cruzamento.
 
-Destaca-se que a regra de anonimização deve permitir tanto a aplicação inicial quanto o reprocessamento, ou seja, a DTA pode definir a partir de qual período a anonimização será aplicada, como também pode solicitar apenas um período especifico.
+Abaixo segue a lista dos campos que poderão ser combinados para aplicação da funcionalidade:
+
+* Ano de exercício
+* Período de datas (data de registro do empenho)
+* Unidade Orçamentária
+* Unidade Executora
+* Função
+* Subfunção
+* Programa
+* Ação
+* Identificador de Procedência e Uso
+* Categoria Econômica
+* Grupo de Despesa
+* Elemento de Despesa
+* Item de Despesa
+* Fonte de Recurso
+* Modalidade de Aplicação
+* Número do Empenho
+* Unidade de Programação de Gasto
+
+A regra de anonimização deve permitir tanto a aplicação inicial quanto o reprocessamento, ou seja, a DTA pode definir a partir de qual período a anonimização será aplicada, como também pode solicitar apenas um período especifico.
 
 O método de anonimização consiste em:
 
@@ -54,12 +74,14 @@ As regras acima devem ser aplicadas inclusive no caso em que o nome e CPF sejam 
 1. Substituir o nome do credor pelo valor "INFORMAÇÃO COM RESTRIÇÃO DE ACESSO" quando for possível identificar essa informação dentro do campo;
 
 2. Substituir o CPF do credor pelo valor "000.000.000-00" quando for possível identificar essa informação dentro do campo
-3. Caso não seja possível a identificação dos dados acima por se tratar de um campo aberto, a solução deverá ocultar toda a informação dentro do campo e o texto deverá ser substituído por "INFORMAÇÃO COM RESTRIÇÃO DE ACESSO" .
+3. Caso **não seja possível** a identificação dos dados acima por se tratar de um campo aberto, a solução deverá ocultar toda a informação dentro do campo e o texto deverá ser substituído por "INFORMAÇÃO COM RESTRIÇÃO DE ACESSO" .
 
-No banco de dados do Portal da Transparência as informações de nome, CPF e histórico de empenho devem ser armazenadas sem anonimização, permitindo filtros que utilizem essas informações.
+Como default sempre que for solicitado a anonimização dos dados de um determinado empenho o seu respectivo histórico deve ser anonimizado.
+
+No **banco de dados** do Portal da Transparência as informações de nome, CPF e histórico de empenho devem ser armazenadas sem anonimização, permitindo filtros que utilizem essas informações. Destaca-se ainda que a funcionalidade deve permitir que os dados deixem de ser anonimizados a qualquer momento sob demanda da CGE.
 
 
-## Consulta Despesa / Restos a Pagar
+## Consulta Despesa / Restos a Pagar / Diárias
 
 A anonimização deve ser aplicada:
 
@@ -73,7 +95,7 @@ A anonimização deve ser aplicada:
 
 ### Exemplo 1
 
-Aonimizar os dados dos credores de indenização referente aos filhos de hansênicos.
+Anonimizar os dados dos credores de indenização referente aos filhos de hansênicos.
 
 Combinação a ser utilizada:
 - Ano de exercício (2021)
@@ -103,7 +125,7 @@ Ao acessar os formulários de detalhamento os seguintes campos devem ser anonimi
 
 ### Exemplo 2
 
-Aonimizar o **histórico de empenho** dos credores de prêmios lotéricos.
+Anonimizar o **histórico de empenho** dos credores de prêmios lotéricos.
 
 Combinação a ser utilizada:
 - Ano de exercício (Todos)
@@ -117,8 +139,6 @@ Ao acessar os formulários de detalhamento os seguintes campos devem ser anonimi
 * Campo ___Razão Social do Credor___ do formulário de empenho da despesa:
 
 ![](static/empenho_despesa_premios.png)
-
-
 
 
 #### Pesquisa Avançada
