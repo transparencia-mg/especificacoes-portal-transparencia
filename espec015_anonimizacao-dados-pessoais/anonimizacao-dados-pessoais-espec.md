@@ -1,10 +1,12 @@
 ---
 contrato_manutencao: nº 15210010062019 (INF. 3951)
-proposta_comercial:
-mantis:
+proposta_comercial: null
+mantis: null
 pull_request: '[espec015]()'
 titulo: Anonimização dos dados pessoais
 output:
+  pdf_document:
+    toc: yes
   html_document:
     theme: united
     toc: yes
