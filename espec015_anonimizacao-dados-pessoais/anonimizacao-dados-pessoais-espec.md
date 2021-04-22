@@ -15,13 +15,12 @@ output:
 # Visão geral da demanda
 <a href="#top">(inicio)</a>
 
-Essa demanda visa anonimizar dados pessoais, como por exemplo nomes e CPFs, de credores pessoas físicas a partir de combinações especificas das classificações da dotação orçamentária, inclusive de anos de exercício e períodos de datas especificas, podendo definir até quais faixas de empenhos serão anonimizados.
+Essa demanda visa anonimizar dados pessoais, como por exemplo nomes e CPFs, de credores pessoas físicas nas consultas de Despesa e Restos a Pagar (RP) a partir de combinações especificas das classificações da dotação orçamentária, inclusive de anos de exercício e períodos de datas especificas, podendo definir até quais faixas de empenhos serão anonimizados.
 
-A combinação das classificações orçamentárias, anos e empenho serão informadas  conforme necessidade da Diretoria.
+Nota 1: No banco de dados do Portal da Transparência as informações de nome e CPF devem ser armazenadas sem anonimização/descaracterização, permitindo filtros que utilizem essas informações.
 
-O método de anonimização deve ser flexível para que possa ser aplicado nas consultas de Despesa,  Restos a Pagar e Diárias do Portal de Transparência, bem como nas funcionalidades de exportação de dados.
+Nota 2: A solução deve ser flexível para que as combinações possam ser alteradas mediante provocação da CGE.
 
-Destaca-se que as informações devem ser armazenadas de forma completa no banco de dados do Portal, permitindo inclusive a realização de buscas nos campos anonimizados.
 
 # Motivação / contexto da demanda
 <a href="#top">(inicio)</a>
@@ -38,7 +37,7 @@ Como o mapa de carga do Portal não apresenta essa variável para anonimizar ess
 
 ## Método de anonimização
 
-A anonimização deve ser aplicada nas informações de nomes, CPFs e histórico de empenho das consultas de Despesa,  Restos a Pagar e Diárias do Portal de Transparência. As combinações de classificação, ano, período, número do empenho e outros campos devem contemplar todas as possibilidades de cruzamento.
+A anonimização deve ser aplicada nas informações de nomes, CPFs e histórico de empenho das consultas de Despesa e Restos a Pagar do Portal de Transparência. As combinações de classificação, ano, período, número do empenho e outros campos devem contemplar todas as possibilidades de cruzamento.
 
 Abaixo segue a lista dos campos que poderão ser combinados para aplicação da funcionalidade:
 
@@ -83,7 +82,7 @@ Como default sempre que for solicitado a anonimização dos dados de um determin
 No **banco de dados** do Portal da Transparência as informações de nome, CPF e histórico de empenho devem ser armazenadas sem anonimização, permitindo filtros que utilizem essas informações. Destaca-se ainda que a funcionalidade deve permitir que os dados deixem de ser anonimizados a qualquer momento sob demanda da CGE.
 
 
-## Consulta Despesa / Restos a Pagar / Diárias
+## Consulta Despesa / Restos a Pagar
 
 A anonimização deve ser aplicada:
 
