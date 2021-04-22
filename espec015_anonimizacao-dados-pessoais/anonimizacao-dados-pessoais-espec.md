@@ -5,10 +5,10 @@ mantis: null
 pull_request: '[espec015]()'
 titulo: Anonimização dos dados pessoais
 output:
-  pdf_document:
-    toc: yes
   html_document:
     theme: united
+    toc: yes
+  pdf_document:
     toc: yes
 ---
 
