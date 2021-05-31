@@ -37,9 +37,9 @@ A solução aplicada na construção da pesquisa avançada deve ser flexível pa
 # Motivação / contexto da demanda
 <a href="#top">(inicio)</a>
 
-A partir da necessidade de implementação de melhorias no Portal da Transparência foi realizado o '*Projeto Experiência do Usuário no Portal da Transparência*' em parceria com a equipe do Laboratório de Inovação (LAB.mg) - SEPLAG. O projeto teve como objetivo auxiliar no entendimento do perfil geral dos usuários e tendências de comportamento durante a navegação nas páginas, identificar pontos críticos, sugestões de melhoria e novas informações que podem ser inseridas no Portal com o objetivo de melhorar a experiência dos usuários.
+A partir da necessidade de implementação de melhorias no Portal da Transparência foi realizado o '*Projeto Experiência do Usuário no Portal da Transparência*' em parceria com a equipe do Laboratório de Inovação (LAB.MG) - SEPLAG. O projeto teve como objetivo auxiliar no entendimento do perfil geral dos usuários e tendências de comportamento durante a navegação nas páginas, identificar pontos críticos, sugestões de melhoria e novas informações que podem ser inseridas no Portal com o objetivo de melhorar a experiência dos usuários.
 
-A identificação das principais necessidades de alteração do Portal foram coletadas através da aplicação de entrevistas, testes de usabilidade, disponibilização de formulários e elaboração de um diagnóstico realizado pela equipe LAB.mg.
+A identificação das principais necessidades de alteração do Portal foram coletadas através da aplicação de entrevistas, testes de usabilidade, disponibilização de formulários e elaboração de um diagnóstico realizado pela equipe LAB.MG.
 
 Todas as ideias geradas ao longo do Projeto foram consolidadas em uma planilha denominada [Consolidado de Sugestões de Melhoria](https://docs.google.com/spreadsheets/d/1IPKqSnfbys6oQNQGjB24FOo0dUu-uqUC/edit#gid=1059189781). Ao todo foram 285 ideias captadas, sendo que dessas 58 estão relacionadas a melhoria na pesquisa avançada.
 
@@ -47,18 +47,19 @@ Todas as ideias geradas ao longo do Projeto foram consolidadas em uma planilha d
 # Especificação
 <a href="#top">(inicio)</a>
 
-Esse documento tem como base a remodelagem das pesquisas avançadas dos PdT. Abaixo segue as principais intervenções que deverão ser implementadas:
+Esse documento tem como base a remodelagem das pesquisas avançadas do PdT. Abaixo segue as principais intervenções que deverão ser implementadas:
 
-* Alteração do layout do ícone *[Pesquisa Avançada]*
-* Inclusão da Barra de Navegação vertical e Barra Deslizante e do campo Filtros Aplicados;
+* Alteração do layout do ícone ***[Pesquisa Avançada]***
+* Inclusão da Barra de Navegação vertical, da Barra Deslizante e do campo Filtros Aplicados;
 * Alteração da tabela de resultado com novas funcionalidades; e
 * Inclusão de novas opções para compartilhamento nas redes sociais;
 
-As particularidades de cada consulta serão detalhadas em capítulo específico.
+As particularidades, como por exemplo os filtros padrões, links, formulários e etc de cada consulta serão detalhados em capítulo específico.
 
-O layout (tipografia, cores, gráficos) deverá seguir o padrão adotado no Portal de Transparência.
+#### Pontos de destaque
 
->> A consulta deverá ser responsiva
+* O layout (tipografia, cores, gráficos) deverá seguir o padrão adotado no Pdt.
+* A pesquisa avançada deverá ser **responsiva**, ou seja, se adaptar ao tamanho das telas dos dispositivos móveis.
 
 ## Página Inicial da consulta
 <a href="#top">(inicio)</a>
@@ -96,7 +97,12 @@ Caso a quantidade de filtros ultrapasse o limite da tela deverá ser utilizado a
 
 ![](static/barra-navegacao-vertical.gif)
 
+
+[Issues#47](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/47)
+--
+
 * O usuário poderá realizar a busca de qualquer filtro na **barra de pesquisa**. A barra de pesquisa será representada pelo atributo *placeholder*, ou seja, indicação de como o campo deverá sem preenchido.
+
 
 * Alguns filtros da barra de navegação também serão representados pelo atributo *placeholder*. Em capítulo específico a DTA irá definir os filtros.
 
@@ -107,7 +113,7 @@ Caso a quantidade de filtros ultrapasse o limite da tela deverá ser utilizado a
     *	Ocultada => ao clicar no símbolo **[<<]** ou no botão **[<< Ocultar Filtros]**;
     * Exibida => ao clicar no botão **[<< Exibir Filtros]**
 
-OBS: Ao ocultar a barra de navegação vertical dos demais conteúdos (tabela de resultados, campos aplicados e etc) serão reajustados na página.
+**OBS**: Ao ocultar a barra de navegação vertical dos demais conteúdos (tabela de resultados, campos aplicados e etc) serão reajustados na página.
 
 ![](static/ocultar-exibir-barra.gif)
 
@@ -117,8 +123,7 @@ OBS: Ao ocultar a barra de navegação vertical dos demais conteúdos (tabela de
 ![](static/secao-utilizador.png)
 
 
-### Barra Deslizante
-<a href="#top">(inicio)</a>
+### Barra Deslizante <a href="#top">(inicio)</a>
 
 * A barra deslizante só será exibida se o usuário clicar em algum filtro  da barra de navegação.
 * A barra deslizante será **ocultada** a partir dos seguintes comandos (eg. [Portal de Transparência Federal](http://www.portaltransparencia.gov.br/despesas/programa-e-acao?ordenarPor=programa&direcao=asc) ):
@@ -202,7 +207,9 @@ OBS: Os botões **Pesquisar/ Atualizar/Limpar** devem ser estilisticamente difer
 ![](static/dados-atualizacao.png)
 
 
-* Os valores **TOTAL GERAL** e o **SUBTOTAL** serão exibidos na tabela de acordo com o comportamento do usuário:[Issues#44](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/44)
+[Issues#44](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/44)
+--
+* Os valores **TOTAL GERAL** e o **SUBTOTAL** serão exibidos na tabela de acordo com o comportamento do usuário:
 
   * TOTAL GERAL: quando o usuário não aplicar nenhum filtro na tabela ou quanto todos os dados forem exibidos em uma única página, ou seja, sem paginação;   
 
@@ -260,7 +267,10 @@ OBS: Os botões **Pesquisar/ Atualizar/Limpar** devem ser estilisticamente difer
 ![](static/campos-clicaveis.png)
 
 
-#### Download dos dados: [Issues#45](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/45)
+#### Download dos dados:
+
+ [Issues#45](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/45)
+ --
 
   * PDF: O documento gerado em PDF deverá exibir:
     * a logo do Portal de Transparência no início da página;
@@ -287,7 +297,10 @@ OBS: Os botões **Pesquisar/ Atualizar/Limpar** devem ser estilisticamente difer
 
 * Todos os filtros selecionados serão exibidos na tabela de resultado.
 
-* A exibição de código e descrição será diferente em cada seção: [Issues#43](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/43)
+* A exibição de código e descrição será diferente em cada seção:
+
+[Issues#43](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/43)
+--
 
  * Barra de pesquisa e filtros aplicados: exibir código e descrição no mesmo campo (eg. [Proposta Orçamentára - PdT MG](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada));
  * Tabela de resultado: exibir apenas descrição. Os códigos serão exibidos apenas se o usuário adicionar a coluna;
@@ -299,66 +312,4 @@ OBS: Os botões **Pesquisar/ Atualizar/Limpar** devem ser estilisticamente difer
 
 ### Despesa
 [issues#46](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/46)
-
-#### Barra de navegação vertical
-
-A consulta de despesa irá apresentar 5 filtros como padrão conforme sequência abaixo.  Os demais serão exibidos ao clicar em ***(+) Mais Filtros***.
-
-- Período
- - representado por mm/aaaa
-- Órgão
-- Favorecido
-  - Atributo _placeholder_ :'**_informe pelo menos 3 caracteres_**'
-- CNPJ/CPF do Favorecido
-  - Atributo _placeholder_ : '**_apenas números_**'
-- Programa
-- Fonte de Recursos
-- Função
-- Ação
-- Elemento de despesa
-- Item de Despesa
-- Fonte de Recursos
-- Número do Empenho
-
-#### Campo Adicionar/ Remover colunas
-
-O usuário poderá ocultar/exibir qualquer coluna abaixo:
-
-- Data
-  * representado por dd/mm/aaaa
-- Ano
-  -  representado por 4 dígitos (aaaa)
-- Códigos
-  - Ao clicar nesse campo será exibido o código de todos os itens da dotação orçamentária
-- Órgão
-- Favorecido
-- CNPJ/CPF do Favorecido
-- Programa
-- Ação
-- Função
-- Subfunção
-- Categoria Econômica
-- Grupo de Despesa
-- Modalidade de Aplicação
-- Elemento de despesa
-- Item de Despesa
-- Fonte de Recursos
-- Identificador de Procedência e Uso (IPU)
-- Número do Empenho
-- Número da Liquidação
-- Número da Ordem de Pagamento
-- Valor Empenhado
-- Valor Liquidado
-- Valor Pago
-
-Ao clicar no  Número do Empenho, Número da Liquidação ou Número da Ordem de Pagamento o usuário será direcionado ao formulário de detalhamento do empenho completo (dados do empenho, liquidação e pagamento)
-
-### Colunas padrões da Tabela de Resultado
-
-A tabela de resultados irá exibir como padrão as colunas:
-
-- Ano
-- Órgão
-- Valor Empenhado
-- Valor Liquidado
-- Valor Pago
+--
