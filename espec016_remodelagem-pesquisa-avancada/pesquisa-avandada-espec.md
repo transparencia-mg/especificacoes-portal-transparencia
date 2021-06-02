@@ -310,6 +310,31 @@ OBS: Os botões **Pesquisar/ Atualizar/Limpar** devem ser estilisticamente difer
 ## Filtros das consultas
 <a href="#top">(inicio)</a>
 
-### Despesa
+#### Despesa
 [issues#46](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/46)
---
+
+
+#### Restos a pagar
+
+[issues#48](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/48)
+
+#### Receita
+[issues#](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/)
+#### Compras e Contratos
+[issues#](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/)
+#### Patrimônio
+[issues#](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/)
+#### Frota
+[issues#](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/)
+#### Convênios de Entrada
+[issues#](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/)
+#### Convênios de Saída
+[issues#](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/)
+####  Proposta orçamentária
+[issues#](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/)
+#### Alteração Orçamentária
+[issues#](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/)
+####  Crédito Orçamentário
+[issues#](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/)
+#### Viagens
+[issues#](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/)
