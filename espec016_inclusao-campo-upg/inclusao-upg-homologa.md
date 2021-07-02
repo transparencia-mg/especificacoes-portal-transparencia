@@ -12,7 +12,6 @@ output:
     toc: yes
 ---
 
-
 # Visão geral da demanda
 <a href="#top">(inicio)</a>
 
@@ -28,15 +27,27 @@ A Diretoria Central de Transparência Ativa (DTA) não enviou a especificação 
   </div>
 
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-CORRIGIR
+CORRIGIDO - Despesa
 --
 
-O mapa de carga enviado consta apenas o Código da UPG na consulta de despesa.
+~~O mapa de carga enviado consta apenas o Código da UPG na consulta de despesa.~~
 
 A informação no mapa dever ser código e descrição conforme ocorre nos demais campos do [Diagrama Entidade Relacionamento](https://drive.google.com/drive/u/0/folders/1Y77huM56ODxQx876lvkabPc2aZhttJUq), tanto da consulta de despesa como da consulta de restos a pagar.
 
-![](static/cd-upg.png)
+![](static/homologa-cd-upg.png)
+
+Restos a pagar
+--
+
+<div class="alert alert-info">
+
+A UPG não é registrada nas informações de restos a pagar no armazém ela se baseia no UPG do empenho original. Assim os dados não são exibidos no DER de RP.
+
+Conforme informado pelo Luiz (Prodemge) foi adicionado um vínculo entre o empenho original e o RP, coisa que não existia, exatamente para recuperar a informação da UPG.
+Assim foi possível processar a anonimização e é por isso que no mapa de carga existem dois fluxos: um que recupera dados de Despesa e outro que usa os dados de Despesa para recuperar os restos a pagar associados.
+
+  </div
 
   </div
