@@ -158,11 +158,13 @@ Ao acessar os formulários de detalhamento os seguintes campos devem ser anonimi
 * Campo ___CNPJ/CPF e Descrição do Favorecido___ do formulário de liquidação e pagamento:
 
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 **Despesa**
 
-Nesse exemplo não foi possível verificar a anonimização no formulário de pagamento, pois os dados não estão sendo exibidos no [ambiente de homologação](http://homologa3.prodemge.gov.br/age7/despesa-estado/despesa/despesa-favorecidos/2021/01-01-2021/31-12-2021/2953876/JANICE%20GOMES%20FERRARI/0/3/1/562/25/51/3566/154/483/9905/empenhado/13/6946479/0/0) mesmo tendo havido pagamento [eg. Portal Produção](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-favorecidos/2021/01-01-2021/31-12-2021/0/JANICE%20GOMES%20FERRARI/0/3).
+CORRIGIDO
+
+![](static/homologa-formulario-detalhamento-pagamento.png)
 
 </div>
 
@@ -182,13 +184,13 @@ Ao acessar os formulários de detalhamento os seguintes campos devem ser anonimi
 
 * Campo ___Razão Social do Credor___ do formulário de empenho da despesa:
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 **Despesa**
 
-A funcionalidade não foi aplicada no histórico de empenho da combinação do exemplo 2 http://homologa3.prodemge.gov.br/age7/despesa-estado/despesa/despesa-orgaos/2020/01-01-2020/31-12-2020/9770/4514/588/25/51/2933918/1/3455/empenhado/71/6809941/0/0
+A funcionalidade não foi aplicada no histórico de empenho da combinação do exemplo 2 - CORRIGIDO  http://homologa3.prodemge.gov.br/age7/despesa-estado/despesa/despesa-orgaos/2020/01-01-2020/31-12-2020/9770/4514/588/25/51/2933918/1/3455/empenhado/71/6809941/0/0
 
-![](static/homologa-historico-empenho.png)
+![](static/homologa-historico-empenho-corrigido.png)
 
 </div>
 
@@ -196,15 +198,15 @@ A funcionalidade não foi aplicada no histórico de empenho da combinação do e
 
 A anonimização deve ocorrer quando o usuário marcar o campo ___exibir favorecidos___.
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 **Despesa**
 
-Não foi possível verificar a funcionalidade na pesquisa avançada porque ela não está respondendo aos filtros selecionados.
+Não foi possível verificar a funcionalidade na pesquisa avançada porque ela não está respondendo aos filtros selecionados.- **CORRIGIDO**
 
-![](static/homologa-pesquisa-avancada.png)
+![](static/homologa-pesquisa-avancada-corrigido.png)
 ---
-![](static/homologa-pesquisa-avancada2.png)
+![](static/homologa-pesquisa-avancada2-corrigido.png)
 
 </div>
 
@@ -230,6 +232,30 @@ Combinação a ser utilizada:
 
 OBS: Os empenhos foram realizados em 2016 (eg.[Consulta de Despesa](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-favorecidos/2016/01-01-2016/31-12-2016/1741243/ADRIANA%20MARQUES%20DE%20ARAUJO/0/3/0/466/20/42/2991/130/18/3541/empenhado/4/9914927/0/0)), porém estão inscritos em Restos a Pagar em 2021 (eg. [Consulta Restos a Pagar](http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar/restospagar-orgaos/2021/4113/466/42/20/2991/130/18))
 
+<div class="alert alert-success">
+
+**Despesa - Pesquisa Básica**
+
+Anonimização realizada em 2016 - **CONFERE**
+
+![](static/homologa-formulario-teste1a.png)
+
+</div>
+<div class="alert alert-danger">
+
+**Restos a Pagar - Pesquisa Básica**
+
+**Corrigir**
+--
+A informação não foi anonimizada em Restos a Pagar
+--
+
+[Link Produção](https://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar/restospagar-orgaos/2021/4113/466/42/20/2991/130/18/1917639)
+
+[Link homologação](http://homologa3.prodemge.gov.br/age7/despesa-estado/restos-a-pagar/restospagar-favorecidos/2021/1785419/FABIANA%20CRISTINA%20BRAGA%20DOS%20SANTOS/0/3/0/562/25/51/3566/154/483/9905/188/5541190)
+
+![](static/homologa-formulario-detalhamento-restosapagar.png)
+</div>
 
 **TESTE 2**
 
@@ -240,5 +266,28 @@ OBS: Os empenhos foram realizados em 2016 (eg.[Consulta de Despesa](http://www.t
 
 
 OBS: Os empenhos foram realizados em 2020 (eg.[Consulta de Despesa - Pesquisa Avançada](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-resultado-pesquisa-avancada/2020/01-01-2020/31-12-2020/3976/0/0/0/0/0/0/0/0/2767/0/97/0/0/0/0/0/0/0/0/0/0/0/0/1/0)) e [Pesquisa Básica](http://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-orgaos/2020/01-01-2020/31-12-2020/3976/1894/476/20/39), porém estão inscritos em Restos a Pagar em 2021 (eg. [Consulta Restos a Pagar - Pesquisa Avançada](http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar/restospagar-resultado-pesquisa-avancada/2021/4193/0/0/0/0/0/0/0/0/2767/0/97/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0)) e [Pesquisa Básica](http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar/restospagar-orgaos/2021/4193/476/39/20/2767/130/58)
+
+
+<div class="alert alert-success">
+
+**Despesa - Pesquisa Básica**
+
+![](static/homologa-formulario-teste2a.png)
+
+Despesa - Pesquisa avançada
+
+![](static/homologa-formulario-teste2a-pesquisa-avancada.png)
+
+</div>
+
+<div class="alert alert-success">
+
+**Restos a Pagar - Pesquisa Básica**
+
+![](static/homologa-formulario-teste2a-restosapagar.png)
+
+Restos a Pagar  - Pesquisa avançada
+
+</div>
 
 </div>
