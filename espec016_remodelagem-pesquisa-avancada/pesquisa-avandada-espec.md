@@ -64,7 +64,7 @@ As particularidades, como por exemplo os filtros padrões, links, formulários e
 ## Página Inicial da consulta
 <a href="#top">(inicio)</a>
 
-Ao acessar qualquer consulta do PdT o ícone de acesso a **Pesquisa Avançada** será apresentado na parte superior da barra de pesquisa.
+Ao acessar qualquer consulta do PdT o ícone de acesso a **Pesquisa Avançada** será apresentado na parte superior esquerda da barra de pesquisa.
 
 **OBS:** Para que o ícone tenha destaque na página inicial **não** adotar a cor vermelha usada atualmente.
 
@@ -101,10 +101,10 @@ Caso a quantidade de filtros ultrapasse o limite da tela deverá ser utilizado a
 [Issues#47](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/47)
 --
 
-* O usuário poderá realizar a busca de qualquer filtro na **barra de pesquisa**. A barra de pesquisa será representada pelo atributo *placeholder*, ou seja, indicação de como o campo deverá sem preenchido.
+* O usuário poderá realizar a busca de qualquer filtro na **barra de pesquisa**. A barra de pesquisa deverá possuir atributo [placeholder](https://www.w3schools.com/tags/att_input_placeholder.asp) para facilitar ou indicar como o campo deverá sem preenchido.
 
 
-* Alguns filtros da barra de navegação também serão representados pelo atributo *placeholder*. Em capítulo específico a DTA irá definir os filtros.
+* Alguns filtros da barra de navegação também deverão possuir atributos *placeholder*. Em capítulo específico a DTA irá definir os filtros.
 
 ![](static/barra-navegacao-vertical.png)
 
@@ -137,10 +137,10 @@ Caso a quantidade de filtros ultrapasse o limite da tela deverá ser utilizado a
 
 * Ao colocar o cursor do mouse sob a **barra de pesquisa** será exibido uma lista suspensa com todos os parâmetros referente ao filtro. Para selecionar o parâmetro desejado o usuário poderá usar a barra de rolagem ou a barra de pesquisa.  
 
-* A barra deslizante deverá listar os parâmetros selecionados com a opção ***['x']() (fechar)***. O usuário poderá remover os parâmetros não desejados clicando no ***['x']()***.
+* A barra deslizante deverá listar os parâmetros selecionados com a opção ***['x']() (excluir)***. O usuário poderá remover os parâmetros não desejados clicando no ***['x']()***.
 
 * O usuário poderá combinar vários parâmetros para o mesmo filtro (selecionar mais de um item) ou selecionar a opção ***[Todos]***.
-* Ao selecionar ***[Todos]***, será exibido todos os parâmetros daquele filtro com a opção ***['x']() (fechar)***. O usuário poderá remover os parâmetros não desejados clicando no ***['x']()***.
+* Ao selecionar ***[Todos]***, serão exibidos todos os parâmetros daquele filtro com a opção ***['x']() (excluir)***. O usuário poderá remover os parâmetros não desejados clicando no ***['x']()***.
 
 ![](static/barra-deslizante2.png)
 
@@ -177,6 +177,7 @@ Ao selecionar o parâmetro '1521- Controladoria-Geral do Estado' no filtro *Órg
 
 * O campo filtro aplicados será composto pelos botões: Pesquisar, Atualizar e Limpar:
 
+  * A posição na tela dos botões Pesquisar e Atualizar será a mesma, sendo a exibição de um ou outro realizada de acordo com as regras abaixo.
   * Pesquisar: será exibido após o usuário selecionar qualquer parâmetro na barra deslizante.  O Usuário deverá clicar em pesquisar para exibir o resultado desejado.
   * Atualizar: será exibido quando o usuário remover/adicionar algum parâmetro, ou seja, fizer qualquer alteração no campo filtros aplicados.
   * Limpar: ficará disponível sempre que houver pelo menos um parâmetro selecionado. Ao clicar nesse botão será excluído todo o conteúdo desse campo.
@@ -188,7 +189,7 @@ OBS: Os botões **Pesquisar/ Atualizar/Limpar** devem ser estilisticamente difer
 * Os parâmetros selecionados na barra deslizante deverão ser exibidos na ordem que o usuário escolheu.
 
 * Todos os parâmetros serão representados no campo filtros aplicados da seguinte forma:
-  * **Filtro** (*nome do filtro*): **Parâmentro** (*nome do parâmetro*)-(**[X]()**)(*fechar*);
+  * **Filtro** (*nome do filtro*): **Parâmentro** (*nome do parâmetro*)-(**[X]()**)(*excluir*);
 
 ![](static/parametros-filtros-aplicados.png)
 
@@ -209,7 +210,7 @@ OBS: Os botões **Pesquisar/ Atualizar/Limpar** devem ser estilisticamente difer
 
 [Issues#44](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/44)
 --
-* Os valores **TOTAL GERAL** e o **SUBTOTAL** serão exibidos na tabela de acordo com o comportamento do usuário:
+* Os valores **TOTAL GERAL** e o **SUBTOTAL** serão exibidos na tabela de resultados de acordo com o comportamento do usuário:
 
   * TOTAL GERAL: quando o usuário não aplicar nenhum filtro na tabela ou quanto todos os dados forem exibidos em uma única página, ou seja, sem paginação;   
 
