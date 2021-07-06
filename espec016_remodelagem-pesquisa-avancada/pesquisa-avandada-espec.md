@@ -189,7 +189,7 @@ OBS: Os botões **Pesquisar/ Atualizar/Limpar** devem ser estilisticamente difer
 * Os parâmetros selecionados na barra deslizante deverão ser exibidos na ordem que o usuário escolheu.
 
 * Todos os parâmetros serão representados no campo filtros aplicados da seguinte forma:
-  * **Filtro** (*nome do filtro*): **Parâmentro** (*nome do parâmetro*)-(**[X]()**)(*ecluir*);
+  * **Filtro** (*nome do filtro*): **Parâmentro** (*nome do parâmetro*)-(**[X]()**)(*excluir*);
 
 ![](static/parametros-filtros-aplicados.png)
 
