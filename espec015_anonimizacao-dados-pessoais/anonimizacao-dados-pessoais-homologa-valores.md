@@ -15,7 +15,6 @@ output:
 # Homologação do layout da funcionalidade
 
 
-
 # Visão geral da demanda
 <a href="#top">(inicio)</a>
 
