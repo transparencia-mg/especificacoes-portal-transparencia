@@ -52,7 +52,6 @@ Esse documento tem como base a remodelagem das pesquisas avançadas do PdT. Abai
 * Alteração do layout do ícone ***[Pesquisa Avançada]***
 * Inclusão da Barra de Navegação vertical, da Barra Deslizante e do campo Filtros Aplicados;
 * Alteração da tabela de resultado com novas funcionalidades; e
-* Inclusão de novas opções para compartilhamento nas redes sociais;
 
 As particularidades, como por exemplo os filtros padrões, links, formulários e etc de cada consulta serão detalhados em capítulo específico.
 
@@ -159,6 +158,8 @@ Caso a quantidade de filtros ultrapasse o limite da tela deverá ser utilizado a
 
   Exemplo:   
 Ao selecionar o parâmetro '1521- Controladoria-Geral do Estado' no filtro *Órgão* e em seguida clicar no filtro *Programa* apenas os programas que tiveram execução na Controladoria-Geral do Estado naquele ano serão exibidos.
+
+O [Portal da Transparência do Estado de São Paulo](www.fazenda.sp.gov.br/SigeoLei131/Paginas/FlexConsDespesa.aspx) possui a funcionalidade citada acima.
 
 * Todos os parâmetros selecionados serão exibidos no campo **Filtros Aplicados**.
 
