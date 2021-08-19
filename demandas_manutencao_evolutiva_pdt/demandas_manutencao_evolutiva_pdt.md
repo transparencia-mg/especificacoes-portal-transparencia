@@ -6,9 +6,7 @@ O Projeto teve como objetivo, dentre outros, entender melhor as demandas dos usu
 
 O projeto foi dividido em etapas sequenciais que visam o entendimento do problema à implementação das soluções propostas, seguidas por uma manutenção evolutiva das soluções.
 
-A identificação das principais necessidades serão objeto de elaboração de especificações que serão disponibilizadas a PRODEMGE para que possam ser implementadas.
-
-Inicialmente serão analisadas as seguintes intervenções:
+A identificação das principais necessidades serão objeto de elaboração de especificações que serão disponibilizadas a PRODEMGE para que possam ser implementadas. Inicialmente serão analisadas as seguintes intervenções:
 
 ### Remodelagem da Página Inicial
 
@@ -28,10 +26,17 @@ A página inicial deve reduzir ao máximo os pontos intermediários de interaç�
 
 
 - Barra de Busca:
- - o campo deve possibilitar que um determinado dado seja encontrado
+  - o campo deve possibilitar que um determinado dado seja encontrado
  de forma mais rápida e por vários caminhos possíveis;
- - inclusão da ferramenta *placeholder* indicando o que o usuário pode buscar, como órgão, Município, CNPJ de empresa conveniada ou nome de servidor.
+  - inclusão da ferramenta *placeholder* indicando o que o usuário pode buscar, como órgão, Município, CNPJ de empresa conveniada ou nome de servidor.
 
+
+- Criação de um painel para destacar consultas que serão elaboradas para atender demandas de eventos extraordinários.
+
+Obs: A primeira consulta a compor esse painel será a consulta que dará transparência a execução do Acordo Judicial firmado entre o Estado e a Vale referente ao desastre de Brumadinho.
+
+Exemplo: [Portal de Transparência de Santa Catarina](http://www.transparencia.sc.gov.br/)
+![](static/painel.png)
 
 ## Partição dos anos
 
@@ -109,3 +114,9 @@ Exemplo: [Portal de Transparência Distrito Federal](http://www.transparencia.df
 ![](static/feedback1.png)
 
 ![](static/feedback2.png)
+
+### Transparência Pró-Brumadinho
+
+Elaboração de uma consulta para possibilitar o acompanhamento das ações desenvolvidas pelo governo do estado com recursos provenientes do acordo judicial firmado com a Vale. A nova consulta será um instrumento de transparência e prestação de contas.
+
+A consulta irá apresentar todas as etapas da Programação e Execução Orçamentária dos recursos provenientes do acordo judicial.
