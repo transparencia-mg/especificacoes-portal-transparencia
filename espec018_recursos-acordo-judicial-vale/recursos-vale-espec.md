@@ -38,5 +38,34 @@ A Lei nº 23.830/2021, publicada em 28/07/2021, autorizou abertura de crédito s
 
 Esse documento tem como base a criação de uma nova consulta possibilitar o acompanhamento das ações desenvolvidas pelo governo do estado com recursos provenientes do acordo judicial firmado com a Vale .
 
-## Página Inicial da consulta
+## Página Inicial da consulta - Pesquisa Básica
 <a href="#top">(inicio)</a>
+
+### Texto explicativo
+<a href="#top">(inicio)</a>
+
+Inclusão de um campo que irá trazer uma breve explicação do conteúdo da consulta.  
+
+Atributos do campo:
+
+* O usuário poderá exibir mais detalhes do texto ao clicar em "*Saiba Mais*" ou ocultar ao clicar "*Ocultar*". [eg. Leroy Merlin](https://www.leroymerlin.com.br/materiais-hidraulicos).
+
+* A funcionalidade deverá permitir a visualização de *tooltip* ao posicionar o mouse sobre uma palavra ou termo. [eg. tooltips](https://getbootstrap.com.br/docs/4.1/components/tooltips/)
+
+* Ao clicar sobre a palavra ou termo da funcionalidade anterior o PdT deverá abrir um um *pop-up* qem forma de glossário. [eg. pop-up](https://www.usaspending.gov/)
+
+* O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA inclua ou altere os dados desse campo incluindo os *tooltips*.
+
+### Leiaute - Barra de navegação
+<a href="#top">(inicio)</a>
+
+A barra de navegação será composta pelos seguintes campos:
+
+* Tipo de consulta;
+* Período (início/fim): formato mmmm/aaaa
+* Opção de filtrar conforme o tipo de consulta selecionado;
+* Botão *'Monte sua consulta'*
+
+
+
+### Leiaute - Tabelas navegação por filtros
