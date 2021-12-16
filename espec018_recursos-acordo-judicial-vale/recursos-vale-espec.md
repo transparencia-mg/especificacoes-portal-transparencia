@@ -59,13 +59,84 @@ Atributos do campo:
 ### Leiaute - Barra de navegação
 <a href="#top">(inicio)</a>
 
-A barra de navegação será composta pelos seguintes campos:
+A barra de navegação superior será composta pelos seguintes campos:
 
-* Tipo de consulta;
-* Período (início/fim): formato mmmm/aaaa
-* Opção de filtrar conforme o tipo de consulta selecionado;
+* Ícones do tipo de consulta;
+* Período
+* Opção de *'Filtrar por'*;
 * Botão *'Monte sua consulta'*
 
+##### Observações:
+
+* A pesquisa básica será composta, inicialmente, por 4 ícones de tipo de consultas:
+  * Por projeto
+  * Por Órgão
+  * Por Receita
+  * Transferência por Município
+
+* Os ícones serão clicáveis. Quando o usuário posicionar o mouse sobre o ícone será exibido um *tooltip* com uma breve descrição da consulta.
+
+* O campo período será no formato **mm/aaaa** composto por início e fim (eg. 04/2021 a 12/2021);
+* O comportamento da opção *'Filtrar por'* será conforme o tipo de consulta selecionada e como padrão será exibido todos
+  * Por Projeto: Ao selecionar essa opção o usuário poderá escolher o nome do Projeto a ser exibido.
+  * Por Órgão: Ao selecionar esse tipo de consulta no campo *"Filtrar por"* o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ.
+  * Por Receita:
+  * Transferência por Município:
 
 
-### Leiaute - Tabelas navegação por filtros
+### Leiaute - Tabelas navegação
+
+* A tabela de resultado levará em consideração os parâmetros do campo filtros aplicados.
+
+* A pesquisa básica irá apresentar como padrão a tabela de resultados com os dados do exercício vigente e os dados da consulta 'Por Projeto'.
+
+* A data de atualização dos dados (*Dados atualizados em*), o período e o ícone *Exibir Gráfico* ou *Exibir Tabela* serão exibidos acima da tabela de resultados.
+
+* Como padrão os dados serão exibidos no formato de tabela e caso o usuário queira visualizar os dados em forma de gráfico deve clicar em '*Exibir Gráfico*'. Para retornar a exibição no formato tabela o usuário deve clicar em '*Exibir Tabela*'
+
+* A barra de pesquisa da tabela de resultado deverá retornar os dados a medida que o usuário for digitando. O atributo *placeholder* deve ser aplicado na barra de pesquisa.
+
+* Os valores TOTAL GERAL e o SUBTOTAL serão exibidos na tabela de resultados de acordo com o comportamento do usuário:
+
+  * **TOTAL GERAL:** quando o usuário não aplicar nenhum filtro na tabela ou quanto todos os dados forem exibidos em uma única página, ou seja, sem paginação;
+  * **SUBTOTAL:** quando o usuário aplicar qualquer filtros na tabela através da barra de pesquisa ou quando houver paginação no tabela de resultado, ou seja, houver mais de uma página de resultado.
+
+* O usuário poderá solicitar a exibição dos dados com código e descrição. Ao clicar no botão '*Exibir código e descrição*' uma nova coluna será adicionada a esquerda de cada coluna que tenha a descrição.
+
+#### Estrutura de design das tabelas de resultados
+
+ * Cabeçalho fixo - Fixer Header (eg. Consulta de Remuneração do PdT);
+
+ * Rolagem horizontal - Horizontal Scroll. Quando o número de colunas ultrapassar o limite da página o PdT deve possibilizar a rolagem horizontal;
+ * Colunas movíveis e classificáveis conforme ocorre atualmente;
+ * Paginação e seleção da quantidade de linhas a serem exibidas, conforme ocorre atualmente;
+ * O texto deve ser ajustável nas colunas, ou seja, caso seja necessário pode haver quebra de linha;
+ * A tabela apresentará campos clicáveis (com link) que irá direcionar o usuário para o formulário de detalhamento ou para o próximo nível da consulta.
+
+ * Os campos clicáveis serão destacados conforme o layout já adotado pelo PdT e terão a imagem de uma lupa.
+
+#### Download dos dados:
+
+* **Download PDF:** O documento gerado em PDF deverá exibir:
+ * logo do Portal de Transparência no início da página e
+ * *URL*, paginação e a data no fim da página.
+ * O arquivo gerado irá exibir os mesmos dados apresentados na tela considerando todos os filtros aplicados e inclusive o TOTAL GERAL ou SUBTOTAL conforme o comportamento do usuário.
+
+
+* **Download tabela:**
+Será exibido a tabela completa de todas as páginas no formato CSV, independente do filtro aplicado. O campo TOTAL GERAL também deverá ser exibido.      
+ Exibir código e descrição em campos distintos, independente de o usuário selecionar a opção '*Exibir código e descrição*'
+
+* **Download base completa:** O usuário será direcionado para o conjunto de dados da respectiva consulta no Portal de Dados Abertos. O PdT deverá permitir que a equipe DTA inclua/altere a *url* desse campo através da área administrativa do Portal.                  
+O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA decida se o campo Download Base Completa será exibido ou não na parte superior da tabela de resultado.
+
+#### Barra de pesquisa
+
+A barra de pesquisa deve aceitar várias formas de preenchimento dos dados:
+* Desconsiderar acentuação, letras maiúsculas/minúsculas;
+* Desconsiderar palavras intermediárias (ex.: Ao digitar “gestao pública”, um dos resultados será “Gestão da Administração Pública”);
+* O usuário poderá pesquisar por qualquer coluna na tabela de resultados.
+
+### Leiaute - Formulário de Detalhamento
+
+### Leiaute - Monte sua consulta
