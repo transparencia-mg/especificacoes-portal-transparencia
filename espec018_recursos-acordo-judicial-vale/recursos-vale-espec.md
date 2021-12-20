@@ -41,7 +41,7 @@ Esse documento tem como base a criação de uma nova consulta possibilitar o aco
 ## Página Inicial da consulta - Pesquisa Básica
 <a href="#top">(inicio)</a>
 
-### Texto explicativo
+#### Texto explicativo
 <a href="#top">(inicio)</a>
 
 Inclusão de um campo que irá trazer uma breve explicação do conteúdo da consulta.  
@@ -49,24 +49,29 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 Atributos do campo:
 
 * O usuário poderá exibir mais detalhes do texto ao clicar em "*Saiba Mais*" ou ocultar ao clicar "*Ocultar*". [eg. Leroy Merlin](https://www.leroymerlin.com.br/materiais-hidraulicos).
-
 * A funcionalidade deverá permitir a visualização de *tooltip* ao posicionar o mouse sobre uma palavra ou termo. [eg. tooltips](https://getbootstrap.com.br/docs/4.1/components/tooltips/)
-
-* Ao clicar sobre a palavra ou termo da funcionalidade anterior o PdT deverá abrir um um *pop-up* qem forma de glossário. [eg. pop-up](https://www.usaspending.gov/)
-
+* Ao clicar sobre a palavra ou termo o PdT deverá abrir um um *pop-up* em forma de glossário. [eg. pop-up](https://www.usaspending.gov/)
 * O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA inclua ou altere os dados desse campo incluindo os *tooltips*.
 
-### Leiaute - Barra de navegação
+Exemplos:  
+![](static/imagens/texto-explicativo.png)
+____
+![](static/imagens/texto-explicativo-ocultar.png)
+___
+![](static/imagens/texto-explicativo-glossario.png)
+
+
+#### Leiaute - Barra de navegação
 <a href="#top">(inicio)</a>
 
 A barra de navegação superior será composta pelos seguintes campos:
 
-* Ícones do tipo de consulta;
-* Período
+* Ícones por tipo de consulta;
+* Período (mm/aaaa)
 * Opção de *'Filtrar por'*;
 * Botão *'Monte sua consulta'*
 
-##### Observações:
+###### Observações:
 
 * A pesquisa básica será composta, inicialmente, por 4 ícones de tipo de consultas:
   * Por projeto
@@ -77,16 +82,19 @@ A barra de navegação superior será composta pelos seguintes campos:
 * Os ícones serão clicáveis. Quando o usuário posicionar o mouse sobre o ícone será exibido um *tooltip* com uma breve descrição da consulta.
 
 * O campo período será no formato **mm/aaaa** composto por início e fim (eg. 04/2021 a 12/2021);
-* O comportamento da opção *'Filtrar por'* será conforme o tipo de consulta selecionada e como padrão será exibido todos
-  * Por Projeto: Ao selecionar essa opção o usuário poderá escolher o nome do Projeto a ser exibido.
-  * Por Órgão: Ao selecionar esse tipo de consulta no campo *"Filtrar por"* o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ.
-  * Por Receita:
-  * Transferência por Município:
+* O comportamento da opção *'Filtrar por'* será conforme o tipo de consulta selecionada e como padrão será exibido a opção 'Todos'
+  * **Por Projeto**: Ao selecionar essa opção o usuário poderá escolher o Projeto a ser exibido.
+  * **Por Órgão**: Ao selecionar esse tipo de consulta no campo *"Filtrar por"* o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ.
+  * **Por Receita**:
+  * **Transferência por Município**:
+
+![](static/imagens/barra-navegacao-superior.png)
 
 
-### Leiaute - Tabelas navegação
+#### Leiaute - Tabelas navegação
+<a href="#top">(inicio)</a>
 
-* A tabela de resultado levará em consideração os parâmetros do campo filtros aplicados.
+* A tabela de resultado levará em consideração os parâmetros dos filtros aplicados.
 
 * A pesquisa básica irá apresentar como padrão a tabela de resultados com os dados do exercício vigente e os dados da consulta 'Por Projeto'.
 
@@ -103,19 +111,21 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 * O usuário poderá solicitar a exibição dos dados com código e descrição. Ao clicar no botão '*Exibir código e descrição*' uma nova coluna será adicionada a esquerda de cada coluna que tenha a descrição.
 
-#### Estrutura de design das tabelas de resultados
+![](static/imagens/tabela-resultados-parte-superior.png)
+
+
+##### Estrutura de design das tabelas de resultados
 
  * Cabeçalho fixo - Fixer Header (eg. Consulta de Remuneração do PdT);
-
  * Rolagem horizontal - Horizontal Scroll. Quando o número de colunas ultrapassar o limite da página o PdT deve possibilizar a rolagem horizontal;
  * Colunas movíveis e classificáveis conforme ocorre atualmente;
  * Paginação e seleção da quantidade de linhas a serem exibidas, conforme ocorre atualmente;
  * O texto deve ser ajustável nas colunas, ou seja, caso seja necessário pode haver quebra de linha;
  * A tabela apresentará campos clicáveis (com link) que irá direcionar o usuário para o formulário de detalhamento ou para o próximo nível da consulta.
-
  * Os campos clicáveis serão destacados conforme o layout já adotado pelo PdT e terão a imagem de uma lupa.
 
 #### Download dos dados:
+<a href="#top">(inicio)</a>
 
 * **Download PDF:** O documento gerado em PDF deverá exibir:
  * logo do Portal de Transparência no início da página e
@@ -130,13 +140,25 @@ Será exibido a tabela completa de todas as páginas no formato CSV, independent
 * **Download base completa:** O usuário será direcionado para o conjunto de dados da respectiva consulta no Portal de Dados Abertos. O PdT deverá permitir que a equipe DTA inclua/altere a *url* desse campo através da área administrativa do Portal.                  
 O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA decida se o campo Download Base Completa será exibido ou não na parte superior da tabela de resultado.
 
-#### Barra de pesquisa
+##### Barra de pesquisa
 
 A barra de pesquisa deve aceitar várias formas de preenchimento dos dados:
+
 * Desconsiderar acentuação, letras maiúsculas/minúsculas;
 * Desconsiderar palavras intermediárias (ex.: Ao digitar “gestao pública”, um dos resultados será “Gestão da Administração Pública”);
 * O usuário poderá pesquisar por qualquer coluna na tabela de resultados.
 
-### Leiaute - Formulário de Detalhamento
+#### Leiaute - Formulário de Detalhamento
+<a href="#top">(inicio)</a>
 
-### Leiaute - Monte sua consulta
+Ao clicar no campo clicável da tabela de resultados e o usuário for direcionado para o formulário de detalhamento, esse será composto pelos seguintes atributos:
+
+* As tabelas que compõe o formulário de detalhamento será exibidas em formato de guias (eg. [*Tabs*](https://www.w3schools.com/howto/howto_js_tabs.asp))
+
+* O usuário poderá exportar as informações do formulário de detalhamento ao clicar no botão '*Exportar*'.
+         Definir se a exportação será em pdf ou tabela
+
+## Monte sua consulta
+<a href="#top">(inicio)</a>
+
+A estrutura da pesquisa avançada está descrita na documentação [Remodelagem da Pesquisa Avançada](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec016_remodelagem-pesquisa-avancada/espec016_remodelagem-pesquisa-avancada/pesquisa-avandada-espec.md).
