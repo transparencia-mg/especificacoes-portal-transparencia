@@ -62,3 +62,133 @@ Tabelas:
 | Unidade Orçamentária Código      | Código Órgão            |    Código da Unidade Orçamentária responsável pelo Projeto                | ao acionar o botão '*Exibir código e descrição*''
 | Unidade Orçamentária Nome        | Órgão                   |    Descrição da Unidade Orçamentária responsável pelo Projeto                |default
 | Valor Total Convênio             | Valor Total           |          Valor Total destinado ao projeto          |default
+
+![](static/imagens/tabela-projeto.png)
+
+
+
+**Por Órgão**: Os dados dessa consulta serão extraídos do Universo BO SIAFI
+
+Tabela 1º nível
+
+| Armazém BO- SIAFI     | Dimensão SIAFI| PdT | Tooltip - PdT           | Exibição da Coluna
+|-------------------------------|---|-------------------------|--------------------|---|
+| ContratoConvênio Entrada | |Código SIAFI            | Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |default
+| Unidade Orçamentária-Código      | |Código Órgão            |    Código da Unidade Orçamentária responsável pelo Projeto                | ao acionar o botão '*Exibir código e descrição*''
+| Unidade Orçamentária-Nome        | | Órgão                   |    Descrição da Unidade Orçamentária responsável pelo Projeto                |default
+| Valor Despesa Empenhada             | | Valor Empenhado       |                    |default
+| Valor Despesa Liquidada            | | Valor Liquidado      |                    |default
+| Valor Pago Financeiro           | | Valor Pago          |                    |default
+| Valor Despesa Liquidada             | |Valor Liquidado em Restos a Pagar       |                    |default
+| Valor Pago Processado + Valor Pago não processado           | |Valor Pago em Restos a Pagar     |                    |default
+| Valor Pago Financeiro           | | Valor Total Pago         |                  |default
+
+
+![](static/imagens/tabela-orgao-1nivel.png)
+
+Tabela 2º nível
+
+| Armazém BO- SIAFI     | Dimensão SIAFI| PdT | Tooltip - PdT           | Exibição da Coluna
+|-------------------------------|---|-------------------------|--------------------|---|
+| Número Empenho| |Empenho           |  |default
+|  CNPJ_CPF Credor - Formatado    | |CNPJ/ CPF  Favorecido           |                  | default
+|   Razão Social Credor   | | Favorecido                   |                    |default
+| Valor Despesa Empenhada             | | Valor Empenhado       |                    |default
+| Valor Despesa Liquidada            | | Valor Liquidado      |                    |default
+| Valor Pago Financeiro           | | Valor Pago          |                    |default
+| Valor Despesa Liquidada             | |Valor Liquidado em Restos a Pagar       |                    |default
+| Valor Pago Processado + Valor Pago não processado           | |Valor Pago em Restos a Pagar     |                    |default
+| Valor Pago Financeiro           | | Valor Total Pago         |                  |default
+
+![](static/imagens/tabela-empenho.png)
+
+
+**Formulário de Detalhamento**: Os dados dessa consulta serão extraídos do Universo BO SIAFI
+
+Tabela Classificação Orçamentária
+
+| Armazém BO- SIAFI     | Dimensão SIAFI| PdT |  Observações
+|-------------------------------|---|-------------------------|--------------------|
+| Unidade Orçamentária - Código Unidade Orçamentária - Nome| |Unidade Orçamentária           |  |
+| | |Unidade Executora           |  |
+| Função - Código   Função - Descrição| |Função           |  |
+|Subfunção - Código   Subfunção - Descrição|  |    Subfunção      |  |  
+|Programa - Código Programa - Descrição| |     Programa     |  |
+|Projeto_Atividade - Código Projeto_Atividade - Descrição| |  Ação (Projeto Atividade)        |  |  
+|Categoria Econômica Despesa -Código Categoria Econômica Despesa -Descrição| | Categoria Econômica          | |
+|Grupo Despesa - Código Grupo Despesa - Descrição| | Grupo Despesa         |  |  
+|Elemento Despesa - Código Elemento Despesa - Descrição| |   Elemento Despesa       |  |
+|Item Despesa - Código Item Despesa - Descrição| | Item Despesa         |  |  
+|Modalidade Aplicação - Código Modalidade Aplicação - Descrição| | Modalidade Aplicação         |  |
+|Procedência - Código Procedência - Descrição| | Indicador de Procedência e Uso         |  |  
+|Fonte Recurso - Código Fonte Recurso - Descrição| | Fonte Recurso         |  |
+
+###### Tabela Empenho
+
+| Armazém BO- SIAFI     | Dimensão SIAFI| PdT |  Observações
+|-------------------------------|---|-------------------------|--------------------|
+| Número Empenho| |Número do Empenho           |  |
+| Ano de Exercício| |  Ano de Exercício       |  |
+| Data Registro Doc Empenho| |  Data do Registro       |  |
+| Tipo Empenho - Descrição| | Tipo  de Empenho       |  |
+| CNPJ_CPF Credor - Formatado   Razão Social Credor | |  Favorecido       |  |
+| | | Descrição Histórico do Empenho        |  |
+| Valor Inicial Empenho| |    Valor Inicial Empenhado     |  |
+|Valor Despesa Empenhada | | Valor Empenhado Atualizado        |  |
+| | |  Data de Registro       |  Reforço do Empenho
+| | |  Número do documento       |  Reforço do Empenho
+|Valor Reforço Empenho | |   Valor  do reforço     | Reforço do Empenho
+| | | Data de Registro        |  Anulação do Empenho
+| | |  Número do documento        |  Anulação do Empenho
+| | |  Valor Anulado      |  Anulação do Empenho
+| | | Data de Registro        |  Inscrição em Restos a Pagar
+| | |   Tipo      |  Inscrição em Restos a Pagar
+| | |   Valor Inscrito      |  Inscrição em Restos a Pagar
+
+###### Tabela Liquidação
+
+| Armazém BO- SIAFI     | Dimensão SIAFI| PdT |  Observações
+|-------------------------------|---|-------------------------|--------------------|
+| | |Data de Registro         | |
+| | |Número do Documento      | |
+| CNPJ_CPF Credor - Formatado   Razão Social Credor | |  Favorecido
+| | |Valor Liquidado        |   
+| | | Data de Registro        |  Liquidação em Restos a Pagar
+| | |  Número do documento     |  Liquidação em Restos a Pagar
+| CNPJ_CPF Credor - Formatado   Razão Social Credor | |  Favorecido |  Liquidação em Restos a Pagar
+| | |   Valor Inscrito      |  Liquidação em Restos a Pagar
+
+###### Tabela Pagamento
+
+| Armazém BO- SIAFI     | Dimensão SIAFI| PdT |  Observações
+|-------------------------------|---|-------------------------|--------------------|
+| | |Data de Registro         |
+| | |Número do Documento         |  
+|||Situação da Ordem de Pagamento|
+| CNPJ_CPF Credor - Formatado   Razão Social Credor ||  Favorecido
+| | |Valor Pago       |   
+| | | Data de Registro        |  Pagamento em Restos a Pagar
+| | |   Número do documento     |  Pagamento em Restos a Pagar
+|||Situação da Ordem de Pagamento| Pagamento em Restos a Pagar
+| CNPJ_CPF Credor - Formatado   Razão Social Credor | |  Favorecido | em Restos a Pagar
+| | |   Valor Pago    |  Pagamento em Restos a Pagar
+
+###### Tabela Outras Informações
+
+| Campo Armazém BO  | Dimensão SIAFI| PdT |  Observações
+|-------------------------------|---|-------------------------|--------------------|
+| | |Número do Processo de Compra         | link para o processo de compra no PdT
+| | |Data de Cadastramento do Processo         |
+| | |Procedimento de Contratação        |
+| | |Situação         |
+| | |Objeto         |
+| | |Número do Contrato        | link para o Contrato no Portal de Compras
+| | |Data de Publicação       |
+| | |Situação        |
+| | |Vigência Atualizada        |
+| | |Objeto         |
+| | |Número do Convênio / Parceria SIAFI       |link para o convênio no PdT
+| | |Data de Publicação       |
+| | |Situação do Convênio / Parceria       |
+| | |Vigência Atualizada        |
+| | |Título do Convênio / Parceria        |
