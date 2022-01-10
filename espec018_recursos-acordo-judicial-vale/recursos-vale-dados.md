@@ -52,6 +52,7 @@ O texto desse campo poderá sem incluído/alterado pela equipe DTA por meio da �
 #### Tipo de Consultas
 
 **Por Projeto**: Os dados dessa consulta serão extraídos do Universo BO SIGCON- Entrada.
+- Armazém BO - CONSULTA tmp> recursos-vale> Convenio de entrada
 
 Tabelas:
 
