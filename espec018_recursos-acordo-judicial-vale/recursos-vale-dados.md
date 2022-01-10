@@ -52,7 +52,7 @@ O texto desse campo poderá sem incluído/alterado pela equipe DTA por meio da �
 #### Tipo de Consultas
 
 **Por Projeto**: Os dados dessa consulta serão extraídos do Universo BO SIGCON- Entrada.
-- Armazém BO - CONSULTA tmp> recursos-vale> Convenio de entrada
+- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio
 
 Tabelas:
 
@@ -69,6 +69,7 @@ Tabelas:
 
 
 **Por Órgão**: Os dados dessa consulta serão extraídos do Universo BO SIAFI
+- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio
 
 Tabela 1º nível
 
@@ -102,6 +103,36 @@ Tabela 2º nível
 | Valor Pago Financeiro           | | Valor Total Pago         | Valor total pago efetuado através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços, incluído os valores pagos em restos a pagar. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária. |default
 
 ![](static/imagens/tabela-empenho.png)
+
+**Por Município**: Os dados dessa consulta serão extraídos do Universo BO SIGCON- Entrada.
+- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio
+
+Tabelas:
+| Armazém BO- SIAFI     | Dimensão SIAFI| PdT | Tooltip - PdT           | Exibição da Coluna
+|-------------------------------|---|-------------------------|--------------------|---|
+| Número Empenho| | Município           | Nome do município que recebeu o recurso   |default
+| Valor Despesa Empenhada             | | Valor Empenhado       | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |default
+| Valor Despesa Liquidada            | | Valor Liquidado      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue        |default
+| Valor Pago Financeiro           | | Valor Pago          | Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária |default
+
+![image](https://user-images.githubusercontent.com/52920939/148783968-6ac2ab08-2b08-47e7-a996-466cd63981ec.png)
+
+
+**Por Receita**: Os dados dessa consulta serão extraídos do Universo BO SIGCON- Entrada.
+- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio
+
+Tabelas:
+| Armazém BO- SIAFI     | Dimensão SIAFI| PdT | Tooltip - PdT           | Exibição da Coluna
+|-------------------------------|---|-------------------------|--------------------|---|
+| Número Empenho| | Classificação da Receita           | Classificação criada a fim de possibilitar a identificação detalhada dos recursos que ingressam nos cofres públicos. Os números representam, da esquerda para direita: categoria econômica, origem da receita; espécie da receita, desdobramento 1 da receita; desdobramento 2 da receita, desdobramento 3 da receita, tipo da receita |default
+| Valor Despesa Empenhada             | | Item da Receita       | Detalhamento da classificação orçamentária da receita referente ao tipo de receita |default
+| Valor Despesa Liquidada            | | Subitem da Receita      | Detalhamento da classificação orçamentária da receita referente ao item de receita |default
+| Valor Pago Financeiro           | | Fonte de Recurso          | Indica a origem do dinheiro arrecadado. Combina a origem do dinheiro às despesas orçamentárias. Esta vinculação visa demonstrar o montante de dinheiro que já está comprometido com o atendimento de determinadas finalidades, e aquele que pode ser livremente alocado |default
+| Valor Despesa Empenhada             | | Valor Previsto Inicial       | Valor estimado da arrecadação para o ano consultado, previsto na Lei Orçamentária Anual (LOA) |default
+| Valor Despesa Liquidada            | | Valor Previsto Atualizado     | Valor estimado inicial para arrecadação no ano consultado, previsto da Lei Orçamentária Anual, atualizado ao longo do ano |default
+| Valor Pago Financeiro           | | Valor Arrecadado          | Valor financeiro que entrou nos cofres públicos no período consultado |default
+
+![image](https://user-images.githubusercontent.com/52920939/148783938-35f2b895-feb0-4cb5-8577-6e3b635f9123.png)
 
 
 **Formulário de Detalhamento**: Os dados dessa consulta serão extraídos do Universo BO SIAFI
