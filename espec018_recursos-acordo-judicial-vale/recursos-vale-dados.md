@@ -125,9 +125,9 @@ Tabelas:
 | Armazém BO- SIAFI     | Dimensão SIAFI| PdT | Tooltip - PdT           | Exibição da Coluna
 |-------------------------------|---|-------------------------|--------------------|---|
 | Classificação Receita - Formatado | | Classificação da Receita           | Classificação criada a fim de possibilitar a identificação detalhada dos recursos que ingressam nos cofres públicos. Os números representam, da esquerda para direita: categoria econômica, origem da receita; espécie da receita, desdobramento 1 da receita; desdobramento 2 da receita, desdobramento 3 da receita, tipo da receita |default
-| xxxxxxx| | Item da Receita       | Detalhamento da classificação orçamentária da receita referente ao tipo de receita |default
-| xxxxxxx            | | Subitem da Receita      | Detalhamento da classificação orçamentária da receita referente ao item de receita |default
-| xxxxxxx           | | Fonte de Recurso          | Indica a origem do dinheiro arrecadado. Combina a origem do dinheiro às despesas orçamentárias. Esta vinculação visa demonstrar o montante de dinheiro que já está comprometido com o atendimento de determinadas finalidades, e aquele que pode ser livremente alocado |default
+| Item Receita - Descrição | | Item da Receita       | Detalhamento da classificação orçamentária da receita referente ao tipo de receita |default
+| Subitem Receita - Descrição    | | Subitem da Receita      | Detalhamento da classificação orçamentária da receita referente ao item de receita |default
+| Fonte de Recurso - Descrição   | | Fonte de Recurso          | Indica a origem do dinheiro arrecadado. Combina a origem do dinheiro às despesas orçamentárias. Esta vinculação visa demonstrar o montante de dinheiro que já está comprometido com o atendimento de determinadas finalidades, e aquele que pode ser livremente alocado |default
 | Valor Despesa Empenhada             | | Valor Previsto Inicial       | Valor estimado da arrecadação para o ano consultado, previsto na Lei Orçamentária Anual (LOA) |default
 | Valor Despesa Liquidada            | | Valor Previsto Atualizado     | Valor estimado inicial para arrecadação no ano consultado, previsto da Lei Orçamentária Anual, atualizado ao longo do ano |default
 | Valor Arrecadado Líquido           | | Valor Arrecadado          | Valor financeiro que entrou nos cofres públicos no período consultado |default
