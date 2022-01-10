@@ -112,7 +112,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 * Os valores TOTAL GERAL e o SUBTOTAL serão exibidos na tabela de resultados de acordo com o comportamento do usuário:
 
   * **TOTAL GERAL:** quando o usuário não aplicar nenhum filtro na tabela ou quanto todos os dados forem exibidos em uma única página, ou seja, sem paginação;
-  * **SUBTOTAL:** quando o usuário aplicar qualquer filtros na tabela através da barra de pesquisa ou quando houver paginação no tabela de resultado, ou seja, houver mais de uma página de resultado.
+  * **SUBTOTAL:** quando o usuário aplicar qualquer filtro na tabela através da barra de pesquisa ou quando houver paginação na tabela de resultado, ou seja, houver mais de uma página de resultado.
 
 * O usuário poderá solicitar a exibição dos dados com código e descrição. Ao clicar no botão '*Exibir código e descrição*' uma nova coluna será adicionada a esquerda de cada coluna que tenha a descrição.
 
@@ -123,7 +123,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 
  * Cabeçalho fixo - Fixer Header (eg. Consulta de Remuneração do PdT);
  * Rolagem horizontal - Horizontal Scroll. Quando o número de colunas ultrapassar o limite da página o PdT deve possibilizar a rolagem horizontal;
- * Colunas movíveis e classificáveis conforme ocorre atualmente;
+ * Colunas movéis e classificáveis conforme ocorre atualmente;
  * Paginação e seleção da quantidade de linhas a serem exibidas, conforme ocorre atualmente;
  * O texto deve ser ajustável nas colunas, ou seja, caso seja necessário pode haver quebra de linha;
  * A tabela apresentará campos clicáveis (com link) que irá direcionar o usuário para o formulário de detalhamento ou para o próximo nível da consulta.
@@ -156,9 +156,9 @@ A barra de pesquisa deve aceitar várias formas de preenchimento dos dados:
 #### Leiaute - Formulário de Detalhamento
 <a href="#top">(inicio)</a>
 
-Ao clicar no campo clicável da tabela de resultados e o usuário for direcionado para o formulário de detalhamento, esse será composto pelos seguintes atributos:
+Ao clicar no campo clicável da tabela de resultados e o usuário será direcionado para o formulário de detalhamento, que será composto pelos seguintes atributos:
 
-* As tabelas que compõe o formulário de detalhamento será exibidas em formato de guias (eg. [*Tabs*](https://www.w3schools.com/howto/howto_js_tabs.asp))
+* As tabelas que compõe o formulário de detalhamento serão exibidas em formato de guias (eg. [*Tabs*](https://www.w3schools.com/howto/howto_js_tabs.asp))
 
 * O usuário poderá exportar as informações do formulário de detalhamento ao clicar no botão '*Exportar*'.
          Definir se a exportação será em pdf ou tabela
