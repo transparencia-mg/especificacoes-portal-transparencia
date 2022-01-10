@@ -81,7 +81,7 @@ Tabela 1º nível
 | Valor Pago Financeiro           | | Valor Pago          | Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária  |default
 | Valor Despesa Liquidada             | |Valor Liquidado em Restos a Pagar       | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue referente a exercícios anteriores                    |default
 | Valor Pago Processado + Valor Pago não processado           | |Valor Pago em Restos a Pagar     | Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços realizados em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária.                   |default
-| Valor Pago Financeiro           | | Valor Total Pago         | Valor total pago efetuado através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços, incluído os valores pago em restos a pagar. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária.                  |default
+| Valor Pago Financeiro           | | Valor Total Pago         | Valor total pago efetuado através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços, incluído os valores pagos em restos a pagar. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária.                  |default
 
 
 ![](static/imagens/tabela-orgao-1nivel.png)
@@ -90,15 +90,15 @@ Tabela 2º nível
 
 | Armazém BO- SIAFI     | Dimensão SIAFI| PdT | Tooltip - PdT           | Exibição da Coluna
 |-------------------------------|---|-------------------------|--------------------|---|
-| Número Empenho| |Empenho           |  |default
-|  CNPJ_CPF Credor - Formatado    | |CNPJ/ CPF  Favorecido           |                  | default
-|   Razão Social Credor   | | Favorecido                   |                    |default
-| Valor Despesa Empenhada             | | Valor Empenhado       |                    |default
-| Valor Despesa Liquidada            | | Valor Liquidado      |                    |default
-| Valor Pago Financeiro           | | Valor Pago          |                    |default
-| Valor Despesa Liquidada             | |Valor Liquidado em Restos a Pagar       |                    |default
-| Valor Pago Processado + Valor Pago não processado           | |Valor Pago em Restos a Pagar     |                    |default
-| Valor Pago Financeiro           | | Valor Total Pago         |                  |default
+| Número Empenho| |Empenho           | Número de identificação do documento de empenho   |default
+|  CNPJ_CPF Credor - Formatado    | |CNPJ/ CPF  Favorecido           | Número de identificação: Pessoa Física (CPF) e Pessoa Jurídica (CNPJ) | default
+|   Razão Social Credor   | | Favorecido                   | Nome de quem recebeu recursos públicos estaduais pela prestação de serviço ou entrega do produto. Ex: prefeituras, servidores, empresas, entidades do terceiro setor, etc.  |default
+| Valor Despesa Empenhada             | | Valor Empenhado       | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |default
+| Valor Despesa Liquidada            | | Valor Liquidado      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue        |default
+| Valor Pago Financeiro           | | Valor Pago          | Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária |default
+| Valor Despesa Liquidada             | |Valor Liquidado em Restos a Pagar       | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue referente a exercícios anteriores |default
+| Valor Pago Processado + Valor Pago não processado           | |Valor Pago em Restos a Pagar     | Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços realizados em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária. |default
+| Valor Pago Financeiro           | | Valor Total Pago         | Valor total pago efetuado através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços, incluído os valores pagos em restos a pagar. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária. |default
 
 ![](static/imagens/tabela-empenho.png)
 
