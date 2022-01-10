@@ -105,7 +105,7 @@ Tabela 2º nível
 
 **Formulário de Detalhamento**: Os dados dessa consulta serão extraídos do Universo BO SIAFI
 
-Tabela Classificação Orçamentária
+- Tabela Classificação Orçamentária
 
 | Armazém BO- SIAFI     | Dimensão SIAFI| PdT |  Observações
 |-------------------------------|---|-------------------------|--------------------|
@@ -123,7 +123,14 @@ Tabela Classificação Orçamentária
 |Procedência - Código Procedência - Descrição| | Indicador de Procedência e Uso         |  |  
 |Fonte Recurso - Código Fonte Recurso - Descrição| | Fonte Recurso         |  |
 
+- Tela da Classificação Orçamentária - PDT
+
+![image](https://user-images.githubusercontent.com/52920939/148776231-4dea4a15-42c5-4626-8eb0-916f3250a80c.png)
+
+
 ###### Tabela Empenho
+
+- Tabela do Empenho
 
 | Armazém BO- SIAFI     | Dimensão SIAFI| PdT |  Observações
 |-------------------------------|---|-------------------------|--------------------|
@@ -145,7 +152,16 @@ Tabela Classificação Orçamentária
 | | |   Tipo      |  Inscrição em Restos a Pagar
 | | |   Valor Inscrito      |  Inscrição em Restos a Pagar
 
+- Telas do Empenho - PDT
+
+![image](https://user-images.githubusercontent.com/52920939/148776192-5319e930-b8a8-481d-89c9-5e551c9e7513.png)
+
+![image](https://user-images.githubusercontent.com/52920939/148775545-e494f5ff-5baf-438f-bf78-3639ee752524.png)
+
+
 ###### Tabela Liquidação
+
+- Tabela Liquidação
 
 | Armazém BO- SIAFI     | Dimensão SIAFI| PdT |  Observações
 |-------------------------------|---|-------------------------|--------------------|
@@ -158,7 +174,14 @@ Tabela Classificação Orçamentária
 | CNPJ_CPF Credor - Formatado   Razão Social Credor | |  Favorecido |  Liquidação em Restos a Pagar
 | | |   Valor Inscrito      |  Liquidação em Restos a Pagar
 
+- Tela da Liquidação - PDT
+
+![image](https://user-images.githubusercontent.com/52920939/148775719-252e77a3-cfde-46d2-8926-f4fe4054cc36.png)
+
+
 ###### Tabela Pagamento
+
+- Tabela Pagamento
 
 | Armazém BO- SIAFI     | Dimensão SIAFI| PdT |  Observações
 |-------------------------------|---|-------------------------|--------------------|
@@ -173,7 +196,13 @@ Tabela Classificação Orçamentária
 | CNPJ_CPF Credor - Formatado   Razão Social Credor | |  Favorecido | em Restos a Pagar
 | | |   Valor Pago    |  Pagamento em Restos a Pagar
 
+- Telas do Pagamento - PDT
+
+![image](https://user-images.githubusercontent.com/52920939/148775790-f2ace5c3-7fb8-4777-9549-53b5c0ab5129.png)
+
 ###### Tabela Outras Informações
+
+- Tabela Outras Informações
 
 | Campo Armazém BO  | Dimensão SIAFI| PdT |  Observações
 |-------------------------------|---|-------------------------|--------------------|
@@ -192,3 +221,8 @@ Tabela Classificação Orçamentária
 | | |Situação do Convênio / Parceria       |
 | | |Vigência Atualizada        |
 | | |Título do Convênio / Parceria        |
+
+- Tela Outras Informações
+
+![image](https://user-images.githubusercontent.com/52920939/148776063-1c3f2d5b-544a-4659-92ce-32620863fcb2.png)
+
