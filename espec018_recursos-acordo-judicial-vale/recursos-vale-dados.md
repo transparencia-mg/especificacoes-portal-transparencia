@@ -76,12 +76,12 @@ Tabela 1º nível
 | ContratoConvênio Entrada | |Código SIAFI            | Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |default
 | Unidade Orçamentária-Código      | |Código Órgão            |    Código da Unidade Orçamentária responsável pelo Projeto                | ao acionar o botão '*Exibir código e descrição*''
 | Unidade Orçamentária-Nome        | | Órgão                   |    Descrição da Unidade Orçamentária responsável pelo Projeto                |default
-| Valor Despesa Empenhada             | | Valor Empenhado       |                    |default
-| Valor Despesa Liquidada            | | Valor Liquidado      |                    |default
-| Valor Pago Financeiro           | | Valor Pago          |                    |default
-| Valor Despesa Liquidada             | |Valor Liquidado em Restos a Pagar       |                    |default
-| Valor Pago Processado + Valor Pago não processado           | |Valor Pago em Restos a Pagar     |                    |default
-| Valor Pago Financeiro           | | Valor Total Pago         |                  |default
+| Valor Despesa Empenhada             | | Valor Empenhado       | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |default
+| Valor Despesa Liquidada            | | Valor Liquidado      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue       |default
+| Valor Pago Financeiro           | | Valor Pago          | Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária  |default
+| Valor Despesa Liquidada             | |Valor Liquidado em Restos a Pagar       | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue referente a exercícios anteriores                    |default
+| Valor Pago Processado + Valor Pago não processado           | |Valor Pago em Restos a Pagar     | Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços realizados em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária.                   |default
+| Valor Pago Financeiro           | | Valor Total Pago         | Valor total pago efetuado através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços, incluído os valores pago em restos a pagar. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária.                  |default
 
 
 ![](static/imagens/tabela-orgao-1nivel.png)
