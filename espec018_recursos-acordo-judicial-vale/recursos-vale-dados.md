@@ -217,11 +217,11 @@ Tabelas:
 
 | Armazém BO- SIAFI     | Dimensão SIAFI| PdT |  Observações
 |-------------------------------|---|-------------------------|--------------------|
-| | |Data de Registro         |
-| | |Número do Documento         |  
-|||Situação da Ordem de Pagamento|
+| Data Registro | |Data de Registro         |
+| Número Docto Pagamento | |Número do Documento         |  
+| Situação Ordem Pagamento - Descrição ||Situação da Ordem de Pagamento|
 | CNPJ_CPF Credor - Formatado   Razão Social Credor ||  Favorecido
-| | |Valor Pago       |   
+| Valor Pago Financeiro | |Valor Pago       |   
 | | | Data de Registro        |  Pagamento em Restos a Pagar
 | | |   Número do documento     |  Pagamento em Restos a Pagar
 |||Situação da Ordem de Pagamento| Pagamento em Restos a Pagar
