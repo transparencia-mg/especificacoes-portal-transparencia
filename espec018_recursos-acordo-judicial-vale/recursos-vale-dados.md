@@ -52,7 +52,7 @@ O texto desse campo poderá sem incluído/alterado pela equipe DTA por meio da �
 #### Tipo de Consultas
 
 **Por Projeto**: Os dados dessa consulta serão extraídos do Universo BO SIGCON- Entrada.
-- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio
+- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio > TELA PROJETO
 
 Tabelas:
 
@@ -69,7 +69,7 @@ Tabelas:
 
 
 **Por Órgão**: Os dados dessa consulta serão extraídos do Universo BO SIAFI
-- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio
+- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio > TELA ÓRGÃO - nível 1
 
 Tabela 1º nível
 
@@ -89,6 +89,7 @@ Tabela 1º nível
 ![](static/imagens/tabela-orgao-1nivel.png)
 
 Tabela 2º nível
+- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio > TELA ÓRGÃO - nível 2
 
 | Armazém BO- SIAFI     | Dimensão SIAFI| PdT | Tooltip - PdT           | Exibição da Coluna
 |-------------------------------|---|-------------------------|--------------------|---|
@@ -106,7 +107,7 @@ Tabela 2º nível
 ![](static/imagens/tabela-empenho.png)
 
 **Por Município**: Os dados dessa consulta serão extraídos do Universo BO SIGCON- Entrada.
-- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio
+- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio >MUNICIPIOS
 
 Tabelas:
 | Armazém BO- SIAFI     | Dimensão SIAFI| PdT | Tooltip - PdT           | Exibição da Coluna
@@ -120,7 +121,7 @@ Tabelas:
 
 
 **Por Receita**: Os dados dessa consulta serão extraídos do Universo BO SIGCON- Entrada.
-- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio
+- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio > RECEITA
 
 Tabelas:
 | Armazém BO- SIAFI     | Dimensão SIAFI| PdT | Tooltip - PdT           | Exibição da Coluna
@@ -139,6 +140,7 @@ Tabelas:
 **Formulário de Detalhamento**: Os dados dessa consulta serão extraídos do Universo BO SIAFI
 
 - Tabela Classificação Orçamentária
+- Armazém BO - CONSULTA tmp> recursos-vale> despesa > CLASSIFICAÇÃO ORÇAMENTÁRIA
 
 | Armazém BO- SIAFI     | Dimensão SIAFI| PdT |  Observações
 |-------------------------------|---|-------------------------|--------------------|
@@ -164,6 +166,7 @@ Tabelas:
 ###### Tabela Empenho
 
 - Tabela do Empenho
+- Armazém BO - CONSULTA tmp> recursos-vale> despesa > FORMULÁRIO EMPENHO
 
 | Armazém BO- SIAFI     | Dimensão SIAFI| PdT |  Observações
 |-------------------------------|---|-------------------------|--------------------|
@@ -195,6 +198,7 @@ Tabelas:
 ###### Tabela Liquidação
 
 - Tabela Liquidação
+- Armazém BO - CONSULTA tmp> recursos-vale> despesa > FORMULÁRIO LIQUIDAÇÃO
 
 | Armazém BO- SIAFI     | Dimensão SIAFI| PdT |  Observações
 |-------------------------------|---|-------------------------|--------------------|
@@ -215,6 +219,7 @@ Tabelas:
 ###### Tabela Pagamento
 
 - Tabela Pagamento
+- Armazém BO - CONSULTA tmp> recursos-vale> despesa > FORMULÁRIO PAGAMENTO
 
 | Armazém BO- SIAFI     | Dimensão SIAFI| PdT |  Observações
 |-------------------------------|---|-------------------------|--------------------|
@@ -236,6 +241,9 @@ Tabelas:
 ###### Tabela Outras Informações
 
 - Tabela Outras Informações
+- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio > TABELA OUTRAS INFORMAÇÕES
+- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio > PROCESSO DE COMPRA E CONTRATO
+
 
 | Campo Armazém BO  | Dimensão SIAFI| PdT |  Observações
 |-------------------------------|---|-------------------------|--------------------|
