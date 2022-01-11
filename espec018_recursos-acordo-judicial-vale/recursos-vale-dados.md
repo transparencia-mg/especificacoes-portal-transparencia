@@ -197,10 +197,10 @@ Tabelas:
 
 | Armazém BO- SIAFI     | Dimensão SIAFI| PdT |  Observações
 |-------------------------------|---|-------------------------|--------------------|
-| | |Data de Registro         | |
+| Data Registro Doc Liquidação  | |Data de Registro         | |
 | | |Número do Documento      | |
 | CNPJ_CPF Credor - Formatado   Razão Social Credor | |  Favorecido
-| | |Valor Liquidado        |   
+| Valor Despesa Liquidada | |Valor Liquidado        |   
 | | | Data de Registro        |  Liquidação em Restos a Pagar
 | | |  Número do documento     |  Liquidação em Restos a Pagar
 | CNPJ_CPF Credor - Formatado   Razão Social Credor | |  Favorecido |  Liquidação em Restos a Pagar
