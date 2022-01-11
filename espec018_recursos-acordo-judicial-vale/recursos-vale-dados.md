@@ -128,9 +128,9 @@ Tabelas:
 | Item Receita - Descrição | | Item da Receita       | Detalhamento da classificação orçamentária da receita referente ao tipo de receita |default
 | Subitem Receita - Descrição    | | Subitem da Receita      | Detalhamento da classificação orçamentária da receita referente ao item de receita |default
 | Fonte de Recurso - Descrição   | | Fonte de Recurso          | Indica a origem do dinheiro arrecadado. Combina a origem do dinheiro às despesas orçamentárias. Esta vinculação visa demonstrar o montante de dinheiro que já está comprometido com o atendimento de determinadas finalidades, e aquele que pode ser livremente alocado |default
-| Valor Despesa Empenhada             | | Valor Previsto Inicial       | Valor estimado da arrecadação para o ano consultado, previsto na Lei Orçamentária Anual (LOA) |default
-| Valor Despesa Liquidada            | | Valor Previsto Atualizado     | Valor estimado inicial para arrecadação no ano consultado, previsto da Lei Orçamentária Anual, atualizado ao longo do ano |default
-| Valor Arrecadado Líquido           | | Valor Arrecadado          | Valor financeiro que entrou nos cofres públicos no período consultado |default
+| Valor Previsto Inicial             | | Valor Previsto Inicial       | Valor estimado da arrecadação para o ano consultado, previsto na Lei Orçamentária Anual (LOA) |default
+| Valor Previsto Atualizado           | | Valor Previsto Atualizado     | Valor estimado inicial para arrecadação no ano consultado, previsto da Lei Orçamentária Anual, atualizado ao longo do ano |default
+| Valor Efetivado Ajustado           | | Valor Arrecadado          | Valor financeiro que entrou nos cofres públicos no período consultado |default
 
 ![image](https://user-images.githubusercontent.com/52920939/148783938-35f2b895-feb0-4cb5-8577-6e3b635f9123.png)
 
@@ -238,7 +238,7 @@ Tabelas:
 
 | Campo Armazém BO  | Dimensão SIAFI| PdT |  Observações
 |-------------------------------|---|-------------------------|--------------------|
-| | |Número do Processo de Compra         | link para o processo de compra no PdT
+| Número Processo Compra SIAD | |Número do Processo de Compra         | link para o processo de compra no PdT
 | | |Data de Cadastramento do Processo         |
 | | |Procedimento de Contratação        |
 | | |Situação         |
