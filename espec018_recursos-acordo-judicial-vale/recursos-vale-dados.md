@@ -173,10 +173,10 @@ Tabelas:
 | CNPJ_CPF Credor - Formatado   Razão Social Credor | |  Favorecido       |  |
 | | | Descrição Histórico do Empenho        |  |
 | Valor Inicial Empenho| |    Valor Inicial Empenhado     |  |
-|Valor Despesa Empenhada | | Valor Empenhado Atualizado        |  |
-| | |  Data de Registro       |  Reforço do Empenho
+| Valor Despesa Empenhada | | Valor Empenhado Atualizado        |  |
+| Data Registro Doc Empenho | |  Data de Registro       |  Reforço do Empenho
 | | |  Número do documento       |  Reforço do Empenho
-|Valor Reforço Empenho | |   Valor  do reforço     | Reforço do Empenho
+| Valor Reforço Empenho | |   Valor  do reforço     | Reforço do Empenho
 | | | Data de Registro        |  Anulação do Empenho
 | | |  Número do documento        |  Anulação do Empenho
 | | |  Valor Anulado      |  Anulação do Empenho
