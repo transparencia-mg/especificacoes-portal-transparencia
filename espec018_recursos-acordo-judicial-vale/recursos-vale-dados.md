@@ -93,6 +93,7 @@ Tabela 2º nível
 | Armazém BO- SIAFI     | Dimensão SIAFI| PdT | Tooltip - PdT           | Exibição da Coluna
 |-------------------------------|---|-------------------------|--------------------|---|
 | Número Empenho| |Empenho           | Número de identificação do documento de empenho   |default
+| Data Registro Doc Empenho | |Data de Registro do Empenho          | Data de registro do documento de empenho   |default
 |  CNPJ_CPF Credor - Formatado    | |CNPJ/ CPF  Favorecido           | Número de identificação: Pessoa Física (CPF) e Pessoa Jurídica (CNPJ) | default
 |   Razão Social Credor   | | Favorecido                   | Nome de quem recebeu recursos públicos estaduais pela prestação de serviço ou entrega do produto. Ex: prefeituras, servidores, empresas, entidades do terceiro setor, etc.  |default
 | Valor Despesa Empenhada             | | Valor Empenhado       | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |default
