@@ -238,21 +238,21 @@ Tabelas:
 
 | Campo Armazém BO  | Dimensão SIAFI| PdT |  Observações
 |-------------------------------|---|-------------------------|--------------------|
-| Número Processo Compra SIAD | |Número do Processo de Compra         | link para o processo de compra no PdT
-| | |Data de Cadastramento do Processo         |
-| | |Procedimento de Contratação        |
-| | |Situação         |
-| | |Objeto         |
-| | |Número do Contrato        | link para o Contrato no Portal de Compras
-| | |Data de Publicação       |
-| | |Situação        |
-| | |Vigência Atualizada        |
-| | |Objeto         |
-| | |Número do Convênio / Parceria SIAFI       |link para o convênio no PdT
-| | |Data de Publicação       |
+| Número Processo -  Formatado | |Número do Processo de Compra         | link para o processo de compra no PdT
+| Data Criação Processo| |Data de Cadastramento do Processo         |
+| Procedimento Contratação - Detalhamento 1 | |Procedimento de Contratação        |
+| Situação Processo| |Situação         |
+| Objeto Processo| |Objeto         |
+| Número Contrato| |Número do Contrato        | link para o Contrato no Portal de Compras
+| Data Publicação Contrato| |Data de Publicação       |
+| Situação Contrato| |Situação        |
+| Data Término Vigência Contrato| |Vigência Atualizada        |
+| Objeto Contrato| |Objeto         |
+| Número Convênio | |Número do Convênio / Parceria SIAFI       |link para o convênio no PdT
+| Data Publicação Convênio | |Data de Publicação       |
 | | |Situação do Convênio / Parceria       |
-| | |Vigência Atualizada        |
-| | |Título do Convênio / Parceria        |
+| Data Final VigênciaConvênio | |Vigência Atualizada        |
+| Convênio - Título do Convênio | |Título do Convênio / Parceria        |
 
 - Tela Outras Informações
 
