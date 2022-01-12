@@ -259,7 +259,7 @@ Tabelas:
 | Objeto Contrato| |Objeto         |
 | Número Convênio | |Número do Convênio / Parceria SIAFI       |link para o convênio no PdT
 | Data Publicação Convênio | |Data de Publicação       |
-| | |Situação do Convênio / Parceria       |
+| | |Situação do Convênio / Parceria       | Sigcon Saída
 | Data Final VigênciaConvênio | |Vigência Atualizada        |
 | Convênio - Título do Convênio | |Título do Convênio / Parceria        |
 
