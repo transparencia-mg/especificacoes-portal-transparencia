@@ -178,15 +178,15 @@ Tabelas:
 | | | Descrição Histórico do Empenho        |  |
 | Valor Inicial Empenho| |    Valor Inicial Empenhado     |  |
 | Valor Despesa Empenhada | | Valor Empenhado Atualizado        |  |
-| | |  Data de Registro       |  Reforço do Empenho
+| Data Registro / Cancelamento Apropriação | |  Data de Registro       |  Reforço do Empenho
 | | |  Número do documento       |  Reforço do Empenho
 | Valor Reforço Empenho | |   Valor  do reforço     | Reforço do Empenho
-| | | Data de Registro        |  Anulação do Empenho
+| Data Registro / Cancelamento Apropriação | | Data de Registro        |  Anulação do Empenho
 | | |  Número do documento        |  Anulação do Empenho
 | Valor Anulação Empenho | |  Valor Anulado      |  Anulação do Empenho
-| | | Data de Registro        |  Inscrição em Restos a Pagar
+| Data Registro Doc Restos a Pagar | | Data de Registro        |  Inscrição em Restos a Pagar
 | | |   Tipo      |  Inscrição em Restos a Pagar
-| | |   Valor Inscrito      |  Inscrição em Restos a Pagar
+| valor inscrito processado” (BO) – valor cancelado processado (BO) + valor restabelecido processado | |   Valor Inscrito      |  Inscrição em Restos a Pagar
 
 - Telas do Empenho - PDT
 
@@ -206,7 +206,7 @@ Tabelas:
 | | |Número do Documento      | |
 | CNPJ_CPF Credor - Formatado   Razão Social Credor | |  Favorecido
 | Valor Despesa Liquidada | |Valor Liquidado        |   
-| | | Data de Registro        |  Liquidação em Restos a Pagar
+| Data Registro Doc Liquidação | | Data de Registro        |  Liquidação em Restos a Pagar
 | | |  Número do documento     |  Liquidação em Restos a Pagar
 | CNPJ_CPF Credor - Formatado   Razão Social Credor | |  Favorecido |  Liquidação em Restos a Pagar
 | | |   Valor Inscrito      |  Liquidação em Restos a Pagar
@@ -228,11 +228,11 @@ Tabelas:
 | Situação Ordem Pagamento - Descrição ||Situação da Ordem de Pagamento|
 | CNPJ_CPF Credor - Formatado   Razão Social Credor ||  Favorecido
 | Valor Pago Financeiro | |Valor Pago       |   
-| | | Data de Registro        |  Pagamento em Restos a Pagar
-| | |   Número do documento     |  Pagamento em Restos a Pagar
+| Data Registro Doc Restos a Pagar  | | Data de Registro        |  Pagamento em Restos a Pagar
+| Número Ordem Pagamento | |   Número do documento     |  Pagamento em Restos a Pagar
 |||Situação da Ordem de Pagamento| Pagamento em Restos a Pagar
 | CNPJ_CPF Credor - Formatado   Razão Social Credor | |  Favorecido | em Restos a Pagar
-| | |   Valor Pago    |  Pagamento em Restos a Pagar
+| valor pago processado (BO) + valor pago não processado (BO) | |   Valor Pago    |  Pagamento em Restos a Pagar
 
 - Telas do Pagamento - PDT
 
