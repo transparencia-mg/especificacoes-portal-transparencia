@@ -145,18 +145,18 @@ Tabelas:
 | Armazém BO- SIAFI     | Dimensão SIAFI| PdT |  Observações
 |-------------------------------|---|-------------------------|--------------------|
 | Unidade Orçamentária - Código Unidade Orçamentária - Nome| |Unidade Orçamentária           |  |
-| | |Unidade Executora           |  |
+| Unidade Executora - Código/Nome | |Unidade Executora           |  |
 | Função - Código   Função - Descrição| |Função           |  |
-|Subfunção - Código   Subfunção - Descrição|  |    Subfunção      |  |  
-|Programa - Código Programa - Descrição| |     Programa     |  |
-|Projeto_Atividade - Código Projeto_Atividade - Descrição| |  Ação (Projeto Atividade)        |  |  
-|Categoria Econômica Despesa -Código Categoria Econômica Despesa -Descrição| | Categoria Econômica          | |
-|Grupo Despesa - Código Grupo Despesa - Descrição| | Grupo Despesa         |  |  
-|Elemento Despesa - Código Elemento Despesa - Descrição| |   Elemento Despesa       |  |
-|Item Despesa - Código Item Despesa - Descrição| | Item Despesa         |  |  
-|Modalidade Aplicação - Código Modalidade Aplicação - Descrição| | Modalidade Aplicação         |  |
-|Procedência - Código Procedência - Descrição| | Indicador de Procedência e Uso         |  |  
-|Fonte Recurso - Código Fonte Recurso - Descrição| | Fonte Recurso         |  |
+| Subfunção - Código   Subfunção - Descrição|  |    Subfunção      |  |  
+| Programa - Código Programa - Descrição| |     Programa     |  |
+| Projeto_Atividade - Código Projeto_Atividade - Descrição| |  Ação (Projeto Atividade)        |  |  
+| Categoria Econômica Despesa -Código Categoria Econômica Despesa -Descrição| | Categoria Econômica          | |
+| Grupo Despesa - Código Grupo Despesa - Descrição| | Grupo Despesa         |  |  
+| Elemento Despesa - Código Elemento Despesa - Descrição| |   Elemento Despesa       |  |
+| Item Despesa - Código Item Despesa - Descrição| | Item Despesa         |  |  
+| Modalidade Aplicação - Código Modalidade Aplicação - Descrição| | Modalidade Aplicação         |  |
+| Procedência - Código Procedência - Descrição| | Indicador de Procedência e Uso         |  |  
+| Fonte Recurso - Código Fonte Recurso - Descrição| | Fonte Recurso         |  |
 
 - Tela da Classificação Orçamentária - PDT
 
@@ -178,12 +178,12 @@ Tabelas:
 | | | Descrição Histórico do Empenho        |  |
 | Valor Inicial Empenho| |    Valor Inicial Empenhado     |  |
 | Valor Despesa Empenhada | | Valor Empenhado Atualizado        |  |
-| Data Registro Doc Empenho | |  Data de Registro       |  Reforço do Empenho
-| | |  Número do documento       |  Reforço do Empenho
+| Data Reforço/Anulação | |  Data de Registro       |  Reforço do Empenho
+| Sequencial - Reforço| |  Número do documento       |  Reforço do Empenho
 | Valor Reforço Empenho | |   Valor  do reforço     | Reforço do Empenho
-| | | Data de Registro        |  Anulação do Empenho
-| | |  Número do documento        |  Anulação do Empenho
-| | |  Valor Anulado      |  Anulação do Empenho
+| Data Registro / Cancelamento Apropriação | | Data de Registro        |  Anulação do Empenho
+| Sequencial - Anulação | |  Número do documento        |  Anulação do Empenho
+| Valor Anulação Empenho | |  Valor Anulado      |  Anulação do Empenho
 | | | Data de Registro        |  Inscrição em Restos a Pagar
 | | |   Tipo      |  Inscrição em Restos a Pagar
 | | |   Valor Inscrito      |  Inscrição em Restos a Pagar
