@@ -178,11 +178,11 @@ Tabelas:
 | | | Descrição Histórico do Empenho        |  |
 | Valor Inicial Empenho| |    Valor Inicial Empenhado     |  |
 | Valor Despesa Empenhada | | Valor Empenhado Atualizado        |  |
-| Data Reforço/Anulação | |  Data de Registro       |  Reforço do Empenho
-| Sequencial - Reforço| |  Número do documento       |  Reforço do Empenho
+| | |  Data de Registro       |  Reforço do Empenho
+| | |  Número do documento       |  Reforço do Empenho
 | Valor Reforço Empenho | |   Valor  do reforço     | Reforço do Empenho
-| Data Registro / Cancelamento Apropriação | | Data de Registro        |  Anulação do Empenho
-| Sequencial - Anulação | |  Número do documento        |  Anulação do Empenho
+| | | Data de Registro        |  Anulação do Empenho
+| | |  Número do documento        |  Anulação do Empenho
 | Valor Anulação Empenho | |  Valor Anulado      |  Anulação do Empenho
 | | | Data de Registro        |  Inscrição em Restos a Pagar
 | | |   Tipo      |  Inscrição em Restos a Pagar
