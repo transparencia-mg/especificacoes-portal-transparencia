@@ -71,6 +71,36 @@ Navegação simplificada dos estágio da despesa e das informações sobre contr
 Coluna código do órgão inserida a esquerda
 ![image](https://user-images.githubusercontent.com/52920939/149562713-50b70e3d-1d8d-478c-a830-4d536bde6e5f.png)
 
+#### 7. FILTROS DOS ANOS
+    - RELATO: Usuário só consegue realizar a pesquisa de um ano de cada vez
+    - SOLUÇÃO:
+        - Permitir a pesquisa dos últimos períodos sem a limitação de filtros do ano pesquisado. Ex: pesquisar o período de 05/2020 a 04/2021, numa única pesquisa.
+- [ ] CONCLUÍDO
+
+###### Sugestão: 
+
+- Permitir o filtro de mês e ano juntos, podendo escolher um período maior do que 12 meses, não limitado a um único ano.
+
+![image](https://user-images.githubusercontent.com/52920939/149813916-9b9add82-b2ed-4f2a-a9dd-31cc889849ca.png)
+
+![image](https://user-images.githubusercontent.com/52920939/149814029-2b773092-56b9-4c3d-93ea-785ca3a10bc0.png)
+
+![image](https://user-images.githubusercontent.com/52920939/149814530-47e5baa2-f2bd-40f3-bdeb-c0148f0456a5.png)
+
+
+#### 8. FORMATO DA PESQUISA AVANÇADA
+    - RELATO: Pode melhorar cruzamento de informações e a criação de tabelas dinâmicas, possibilitar que dentro do site seja feita essa seleção cruzando informações. Melhorar a pesquisa avançada para que fique mais intuitiva a utilidade de cada campo. Não fica claro para o usuário o que acontece de fato quando seleciona o botão exibir na pesquisa avançada.
+    - SOLUÇÃO:
+        - Permitir a visualização dos itens selecionados, incluir adicionar ou remover colunas, incluir a opção filtro no canto esquerdo da página.
+- [ ] CONCLUÍDO
+
+###### Sugestão: 
+
+![image](https://user-images.githubusercontent.com/52920939/149814637-b43a7418-8828-4a18-88e7-da1c3e10a72a.png)
+
+![image](https://user-images.githubusercontent.com/52920939/149814823-76a01c58-6976-459d-9e06-94ceed16cbda.png)
+
+![image](https://user-images.githubusercontent.com/52920939/149814878-0d66ba5b-e626-4f17-ae71-8c0e8eb4bd8f.png)
 
 
 ## MELHORIAS GERAIS DO PORTAL
@@ -91,6 +121,8 @@ Coluna código do órgão inserida a esquerda
 - [ ] CONCLUÍDO    
 
 ###### Sugestão: 
+
+![image](https://user-images.githubusercontent.com/52920939/149813799-de427e14-d45a-4079-967a-ca958aa264b1.png)
 
 
 #### 3. CONSULTAS MAIS ACESSADAS DO PORTAL
