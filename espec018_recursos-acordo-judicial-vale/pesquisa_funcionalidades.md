@@ -164,7 +164,7 @@ Coluna código do órgão inserida a esquerda
 ![image](https://user-images.githubusercontent.com/52920939/150153062-7a74a9df-3e5a-49cd-a060-f86fd10f20ba.png)
 
 
-#### 10. PESQUISA PELO NÚMERO DO CONTRATO OU CONVÊNIO
+#### 11. PESQUISA PELO NÚMERO DO CONTRATO OU CONVÊNIO
 
 - [ ] CONCLUÍDO
 
@@ -174,17 +174,15 @@ Coluna código do órgão inserida a esquerda
         - Ao utilizar o filtro pelo número, ao digitar o número de um convênio ou contrato, será exibido todos os números que corresponda a sua pesquisa sem a limitação de ano.
 
 
-
 ###### Sugestão: 
-1. [Linhares](https://linhares-es.portaltp.com.br/consultas/documentos.aspx?id=8) - coluna documentos
 
-![image](https://user-images.githubusercontent.com/52920939/150153353-09e0ceb3-e298-46de-95a4-b5610efa1ebc.png)
+1. [Espírito Santo](https://transparencia.es.gov.br/Contratos) - permite a pesquisa por número sem especificar o ano
 
-2. [Espírito Santo](https://transparencia.es.gov.br/Contratos) - tabela anexos
-![image](https://user-images.githubusercontent.com/52920939/150153620-30a67aa1-70a0-46f9-9df2-45bb6d33d350.png)
+![image](https://user-images.githubusercontent.com/52920939/150177558-e167410b-c772-49ea-a5d6-fdff655db70d.png)
 
-![image](https://user-images.githubusercontent.com/52920939/150153062-7a74a9df-3e5a-49cd-a060-f86fd10f20ba.png)
+2. [Governo Federal](https://www.portaltransparencia.gov.br/contratos/consulta?paginacaoSimples=true&tamanhoPagina=&offset=&direcaoOrdenacao=asc&palavraChave=84524&orgaos=OS32000&colunasSelecionadas=linkDetalhamento%2CdataAssinatura%2CdataPublicacaoDOU%2CdataInicioVigencia%2CdataFimVigencia%2CorgaoSuperior%2CorgaoEntidadeVinculada%2CunidadeGestora%2CformaContratacao%2CgrupoObjetoContratacao%2CnumeroContrato%2CnomeFornecedor%2CcpfCnpjFornecedor%2Csituacao%2CvalorContratado) - permite a pesquisa por número sem especificar o ano
 
+![image](https://user-images.githubusercontent.com/52920939/150178114-1633f657-02ab-4c24-a92a-a0c7667b43b0.png)
 
 
 ## MELHORIAS GERAIS DO PORTAL
@@ -292,4 +290,60 @@ Coluna código do órgão inserida a esquerda
 1. [PORTALCGE](https://cge.mg.gov.br/)
 ![image](https://user-images.githubusercontent.com/52920939/150152069-ec7e1a9f-d136-49a6-9b0b-1c44bce60f56.png)
 
+
+#### 8. REORGANIZAÇÃO DOS MENUS
+
+- [ ] CONCLUÍDO
+
+    - RELATO: Falta de padronização na organização de todas as páginas de conteúdo do menu de acesso rápido. Dentro do menu “Sobre a cidadania fiscal” existe um menu lateral para organizar as informações dentro deste espaço. As informações do menu de acesso rápido possui uma lógica de organização que não fica clara para o usuário (consultas elaboradas e desenvolvidas pela CGE estão posicionadas embaixo da faixa vermelha e consultas que direcionam para sites internos estão posicionados na faixa amarela. Imagem de fundo dá sensação de completude na tela e não diz para o usuário que ele pode rolar a página para baixo.
+    - SOLUÇÃO:
+        - Reorganizar os menus por temas mais próximos;
+        - Permite a visualização do conteúdo do menu ao passar o mouse pelo menu, sem a necessidade de entrar no menu da consulta para visualizar as opções;
+        - Diferenciar consultas do portal e links relacionados a outros assuntos como Acesso à Informação e Portal de Dados Abertos;
+        - Trocar a tela de fundo do portal;
+
+###### Sugestão:
+1. [Espírito Santo](https://transparencia.es.gov.br/)
+![image](https://user-images.githubusercontent.com/52920939/150179407-00b1d8cc-7f11-452a-b284-ef5eac95045f.png)
+
+2. [LINHARES](https://linhares-es.portaltp.com.br/)
+![image](https://user-images.githubusercontent.com/52920939/150179532-6eca1870-74d1-4afa-935a-3617ea73c693.png)
+
+![image](https://user-images.githubusercontent.com/52920939/150179320-d0e0b06a-f313-4dac-809a-c7e59f918ec1.png)
+
+
+#### 9. REVISÃO DAS PÁGINAS DE CONTEÚDO
+
+- [ ] CONCLUÍDO
+
+    - RELATO: O menu "o que é o portal" contem informações sobre a lei de acesso à informação. Não existe explicação introdutória disponibilizada na página estática de todos os conteúdos do acesso rápido.
+        -Receita e Transferência de Impostos: vai direto para a consulta (não existe outra opção como em ‘despesas’ ou ´pessoal’;
+        -Convênios, Despesas e Dívida Pública: existe espaço em brancco para o texto estático explicar as opções de consultas em cada um 
+        -TCE/Obras Públicas: vai direto para o site do TC
+    - SOLUÇÃO:
+        - Revisar as páginas de conteúdo estático.
+        - Informar a data de atualização das páginas de conteúdo estático;
+        - Inserir link para Fale Conosco e Perguntas Frequentes
+
+
+###### Sugestão:
+1. [Prefeitura de Curitiba](https://www.transparencia.curitiba.pr.gov.br/conteudo/compras.aspx)
+![image](https://user-images.githubusercontent.com/52920939/150182030-b0d4e11e-c66d-4907-841a-bf128febe1aa.png)
+
+![image](https://user-images.githubusercontent.com/52920939/150181912-d2541dba-9f9b-4ae4-a8d9-41c2aef72d71.png)
+
+
+#### 10. TAMANHO, COR E FONTE
+
+- [ ] CONCLUÍDO
+
+    - RELATO: Fonte dos textos está pequena. Usuário achou que estava tudo muito vermelho e o contraste com a letra branca dificultava a leitura das informações. Usuária achou muito pequeno o ícone de csv e pdf. Usuária criticou o tamanho da letra.
+    
+    - SOLUÇÃO:
+        - Retirar o fundo vermelho do portal, respeitando as regras de acessbilidade;
+        - Aumentar o tamanho da fonte do portal;
+        - Destacar os ícones clicáveis;
+
+###### Sugestão:
+1. [Governo Eletrônico](http://emag.governoeletronico.gov.br/) - As recomendações do eMAG permitem que a implementação da acessibilidade digital seja conduzida de forma padronizada, de fácil implementação, coerente com as necessidades brasileiras e em conformidade com os padrões internacionais.
 
