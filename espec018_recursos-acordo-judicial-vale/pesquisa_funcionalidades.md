@@ -164,6 +164,29 @@ Coluna código do órgão inserida a esquerda
 ![image](https://user-images.githubusercontent.com/52920939/150153062-7a74a9df-3e5a-49cd-a060-f86fd10f20ba.png)
 
 
+#### 10. PESQUISA PELO NÚMERO DO CONTRATO OU CONVÊNIO
+
+- [ ] CONCLUÍDO
+
+    - RELATO: Usuário não consegue filtrar pelo número do convênio na pesquisa básica. Se os números dos convênios não repetirem, poderia fazer a pesquisa sem necessariamente informar o ano, pois não necessariamente o usuário sabe dessa informação.
+    - SOLUÇÃO:
+        - Incluir um filtro que permita consultar nas pesquisas de contratos e convênios pelo número do contrato sem a necessidade de evidenciar o ano pesquisado.
+        - Ao utilizar o filtro pelo número, ao digitar o número de um convênio ou contrato, será exibido todos os números que corresponda a sua pesquisa sem a limitação de ano.
+
+
+
+###### Sugestão: 
+1. [Linhares](https://linhares-es.portaltp.com.br/consultas/documentos.aspx?id=8) - coluna documentos
+
+![image](https://user-images.githubusercontent.com/52920939/150153353-09e0ceb3-e298-46de-95a4-b5610efa1ebc.png)
+
+2. [Espírito Santo](https://transparencia.es.gov.br/Contratos) - tabela anexos
+![image](https://user-images.githubusercontent.com/52920939/150153620-30a67aa1-70a0-46f9-9df2-45bb6d33d350.png)
+
+![image](https://user-images.githubusercontent.com/52920939/150153062-7a74a9df-3e5a-49cd-a060-f86fd10f20ba.png)
+
+
+
 ## MELHORIAS GERAIS DO PORTAL
 
 #### 1. BARRA DE ACESSIBILIDADE
