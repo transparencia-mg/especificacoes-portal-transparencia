@@ -38,15 +38,27 @@ A [Lei nº 23.830/2021](https://www.almg.gov.br/consulte/legislacao/completa/com
 
 Esse documento tem como base a criação de uma nova consulta para possibilitar o acompanhamento das ações desenvolvidas pelo governo do estado com recursos provenientes do acordo judicial firmado com a Vale .
 
-## Página Inicial da consulta - Pesquisa Básica
+## Pesquisa Básica - Tipo de Consultas
 <a href="#top">(inicio)</a>
 
-#### Tipo de Consultas
+### Por Projeto
+<a href="#top">(inicio)</a>
 
-**Por Projeto**: Os dados dessa consulta serão extraídos do Universo BO SIGCON- Entrada.
-- Armazém BO - SIAFI > CGE_Portal da Transparência > Recursos Vale> despesa vs convenio entrada> TELA PROJETO
+Os dados dessa consulta serão extraídos do Universo BO SIGCON- Entrada.
+- Armazém BO - SIAFI > CGE_Portal da Transparência > Recursos Vale> Tela Projeto
 
-Tabelas:
+
+**Filtros da Consulta:**
+
+| Armazém BO- SIGCON ENTRADA       | Filtro 
+|--------------------------|-----------------
+|Convênio Código | Usar os filtros que constam no amazém BO     
+
+------
+verificar se existe a possibilidade de ser criado novos Convênios, se sim teremos que ver como a DTA irá proceder quanto a esses filtros.
+-------
+
+**Campos da Tabela:**
 
 | Armazém BO- SIGCON ENTRADA       | PdT | Tooltip - PdT           | Exibição da Coluna
 |----------------------------------|-------------------------|--------------------|---|
@@ -58,21 +70,36 @@ Tabelas:
 
 ![](static/imagens/tabela-projeto.png)
 
+**Comportamento da Consulta:**
+
+- Quando o usuário clicar no campo Código SIAFI ele será direcionado para o 2º nível da consulta por órgão, ou seja, a tabela de empenhos.
 
 
-**Por Órgão**: Os dados dessa consulta serão extraídos do Universo BO SIAFI
-- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio > TELA ÓRGÃO - nível 1
+### Por Órgão
+<a href="#top">(inicio)</a>
+
+Os dados dessa consulta serão extraídos do Universo BO SIAFI
+- Armazém BO - CONSULTA tmp> recursos-vale> TELA ÓRGÃO 
+
+**Filtros da Consulta:**
+
+| Armazém BO- SIAFI       | Filtro 
+|--------------------------|-----------------
+|Convênio Código | Usar como filtro todos os Convênio Número Sequencial SIAFI listados na consulta Por Projeto extraídos do SIGCON-EntradaO     
+
+
+**Campos da Tabela:**
 
 Tabela 1º nível
 
 | Armazém BO- SIAFI     | Dimensão SIAFI| PdT | Tooltip - PdT           | Exibição da Coluna
 |-------------------------------|---|-------------------------|--------------------|---|
-| ContratoConvênio Entrada | |Código SIAFI            | Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |default
-| Unidade Orçamentária-Código      | |Código Órgão            |    Código da Unidade Orçamentária responsável pelo Projeto                | ao acionar o botão '*Exibir código e descrição*''
-| Unidade Orçamentária-Nome        | | Órgão                   |    Descrição da Unidade Orçamentária responsável pelo Projeto                |default
-| Valor Despesa Empenhada             | | Valor Empenhado       | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |default
-| Valor Despesa Liquidada            | | Valor Liquidado      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue       |default
-| Valor Pago Financeiro           | | Valor Pago          | Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária  |default
+| ContratoConvênio Entrada | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Código SIAFI            | Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |default
+| Unidade Orçamentária-Código      |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Código Órgão            |    Código da Unidade Orçamentária responsável pelo Projeto                | ao acionar o botão '*Exibir código e descrição*''
+| Unidade Orçamentária-Nome        | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Órgão                   |    Descrição da Unidade Orçamentária responsável pelo Projeto                |default
+| Valor Despesa Empenhada             |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Valor Empenhado       | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |default
+| Valor Despesa Liquidada            | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Valor Liquidado      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue       |default
+| Valor Pago Financeiro           |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Valor Pago          | Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária  |default
 | Valor Despesa Liquidada             | |Valor Liquidado em Restos a Pagar       | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue referente a exercícios anteriores                    |default
 | Valor Pago Processado + Valor Pago não processado           | |Valor Pago em Restos a Pagar     | Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços realizados em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária.                   |default
 | Valor Pago Financeiro           | | Valor Total Pago         | Valor total pago efetuado através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços, incluído os valores pagos em restos a pagar. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária.                  |default
