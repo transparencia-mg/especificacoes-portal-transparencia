@@ -41,18 +41,10 @@ Esse documento tem como base a criação de uma nova consulta para possibilitar 
 ## Página Inicial da consulta - Pesquisa Básica
 <a href="#top">(inicio)</a>
 
-### Texto explicativo
-<a href="#top">(inicio)</a>
-
-O texto desse campo poderá sem incluído/alterado pela equipe DTA por meio da área administrativa do Portal.
-
-### Barra de navegação - Menu Superior
-<a href="#top">(inicio)</a>
-
 #### Tipo de Consultas
 
 **Por Projeto**: Os dados dessa consulta serão extraídos do Universo BO SIGCON- Entrada.
-- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio > TELA PROJETO
+- Armazém BO - SIAFI > CGE_Portal da Transparência > Recursos Vale> despesa vs convenio entrada> TELA PROJETO
 
 Tabelas:
 
