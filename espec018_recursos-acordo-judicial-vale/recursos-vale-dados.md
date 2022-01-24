@@ -83,9 +83,10 @@ Os dados dessa consulta serão extraídos do Universo BO SIAFI
 
 **Filtros da Consulta:**
 
-| Armazém BO- SIAFI       | Filtro 
-|--------------------------|-----------------
-|Convênio Código | Usar como filtro todos os Convênio Número Sequencial SIAFI listados na consulta Por Projeto extraídos do SIGCON-EntradaO     
+| Armazém BO- SIAFI       | Filtro  | Dimensão SIAFI|
+|--------------------------|----------|-------
+|Contrato Convênio Entrada | Usar como filtro todos os Convênio Número Sequencial SIAFI listados na consulta Por Projeto extraídos do SIGCON-Entrada |   SIAFI - Execução Orçamentária da Despesa > Despesa Realizada  
+|Contrato Convênio Entrada  | Usar como filtro todos os Convênio Número Sequencial SIAFI listados na consulta Por Projeto extraídos do SIGCON-Entrada | SIAFI - Execução de Restos a Pagar > Restos a Pagar
 
 
 **Campos da Tabela:**
@@ -100,9 +101,9 @@ Tabela 1º nível
 | Valor Despesa Empenhada             |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Valor Empenhado       | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |default
 | Valor Despesa Liquidada            | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Valor Liquidado      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue       |default
 | Valor Pago Financeiro           |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Valor Pago          | Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária  |default
-| Valor Despesa Liquidada             | |Valor Liquidado em Restos a Pagar       | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue referente a exercícios anteriores                    |default
+| Valor Despesa Liquidada             |SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Liquidado em Restos a Pagar       | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue referente a exercícios anteriores                    |default
 | Valor Pago Processado + Valor Pago não processado           | |Valor Pago em Restos a Pagar     | Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços realizados em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária.                   |default
-| Valor Pago Financeiro           | | Valor Total Pago         | Valor total pago efetuado através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços, incluído os valores pagos em restos a pagar. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária.                  |default
+| Valor Pago Financeiro           | SIAFI - Execução de Restos a Pagar > Restos a Pagar| Valor Total Pago         | Valor total pago efetuado através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços, incluído os valores pagos em restos a pagar. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária.                  |default
 
 
 ![](static/imagens/tabela-orgao-1nivel.png)
