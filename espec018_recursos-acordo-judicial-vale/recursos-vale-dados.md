@@ -45,12 +45,12 @@ Esse documento tem como base a criação de uma nova consulta para possibilitar 
 <a href="#top">(inicio)</a>
 
 Os dados dessa consulta serão extraídos do Universo BO SIGCON- Entrada.
-- Armazém BO - SIAFI > CGE_Portal da Transparência > Recursos Vale> Tela Projeto
+- Armazém BO / Pastas públicas - SIAFI > CGE_Portal da Transparência > Recursos Vale> Tela Projeto
 
 
 **Filtros da Consulta:**
 
-| Armazém BO- SIGCON ENTRADA       | Filtro 
+| Armazém BO- SIGCON ENTRADA       | Filtro
 |--------------------------|-----------------
 |Convênio Código | Usar os filtros que constam no amazém BO     
 
@@ -72,59 +72,137 @@ verificar se existe a possibilidade de ser criado novos Convênios, se sim terem
 
 **Comportamento da Consulta:**
 
-- Quando o usuário clicar no campo Código SIAFI ele será direcionado para o 2º nível da consulta por órgão, ou seja, a tabela de empenhos.
+- Ao clicar no campo 'Código SIAFI' o usuário será direcionado para o 2º nível da consulta por órgão, ou seja, a tabela de empenhos. A consulta deverá exibir todos dos empenhos relacionados ao Código SIAFI selecionado independentemente do ano de registro do empenho.
 
 
 ### Por Órgão
 <a href="#top">(inicio)</a>
 
 Os dados dessa consulta serão extraídos do Universo BO SIAFI
-- Armazém BO - CONSULTA tmp> recursos-vale> TELA ÓRGÃO 
+- Armazém BO / Pastas públicas - SIAFI > CGE_Portal da Transparência > Recursos Vale> > TELA ÓRGÃO
 
 **Filtros da Consulta:**
 
-| Armazém BO- SIAFI       | Filtro  | Dimensão SIAFI|
-|--------------------------|----------|-------
-|Contrato Convênio Entrada | Usar como filtro todos os Convênio Número Sequencial SIAFI listados na consulta Por Projeto extraídos do SIGCON-Entrada |   SIAFI - Execução Orçamentária da Despesa > Despesa Realizada  
-|Contrato Convênio Entrada  | Usar como filtro todos os Convênio Número Sequencial SIAFI listados na consulta Por Projeto extraídos do SIGCON-Entrada | SIAFI - Execução de Restos a Pagar > Restos a Pagar
+|Dados| Armazém BO- SIAFI       |Dimensão SIAFI| Filtro  |
+|--|--------------------------|----------|-------
+| Despesa| Contrato Convênio Entrada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Usar como filtro todos os 'Convênio Número Sequencial SIAFI' listados na consulta Por Projeto extraídos do SIGCON-Entrada |     
+| Restos a Pagar| Contrato Convênio Entrada  | SIAFI - Execução de Restos a Pagar > Restos a Pagar | Usar como filtro todos os Convênio Número Sequencial SIAFI listados na consulta Por Projeto extraídos do SIGCON-Entrada
+| | Ano de Exercício  | SIAFI - Período Contábil |
 
 
 **Campos da Tabela:**
 
-Tabela 1º nível
+**Tabela 1º nível**
 
-| Armazém BO- SIAFI     | Dimensão SIAFI| PdT | Tooltip - PdT           | Exibição da Coluna
-|-------------------------------|---|-------------------------|--------------------|---|
-| ContratoConvênio Entrada | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Código SIAFI            | Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |default
-| Unidade Orçamentária-Código      |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Código Órgão            |    Código da Unidade Orçamentária responsável pelo Projeto                | ao acionar o botão '*Exibir código e descrição*''
-| Unidade Orçamentária-Nome        | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Órgão                   |    Descrição da Unidade Orçamentária responsável pelo Projeto                |default
-| Valor Despesa Empenhada             |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Valor Empenhado       | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |default
-| Valor Despesa Liquidada            | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Valor Liquidado      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue       |default
-| Valor Pago Financeiro           |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Valor Pago          | Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária  |default
-| Valor Despesa Liquidada             |SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Liquidado em Restos a Pagar       | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue referente a exercícios anteriores                    |default
-| Valor Pago Processado + Valor Pago não processado           | |Valor Pago em Restos a Pagar     | Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços realizados em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária.                   |default
-| Valor Pago Financeiro           | SIAFI - Execução de Restos a Pagar > Restos a Pagar| Valor Total Pago         | Valor total pago efetuado através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços, incluído os valores pagos em restos a pagar. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária.                  |default
+|Dados| Campo armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Tooltip - PdT           | Exibição da Coluna
+|--|------|---|---------------|------------|---|
+|Despesa| ContratoConvênio Entrada | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Código SIAFI            | Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |default
+|Despesa| Unidade Orçamentária-Código      |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Código Órgão            |    Código da Unidade Orçamentária responsável pelo Projeto                | ao acionar o botão '*Exibir código e descrição*''
+|Despesa| Unidade Orçamentária-Nome        | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Órgão                   |    Descrição da Unidade Orçamentária responsável pelo Projeto                |default
+|Despesa| Valor Despesa Empenhada             |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Valor Empenhado       | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |default
+|Despesa| Valor Despesa Liquidada            | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Valor Liquidado      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue       |default
+|Despesa| Valor Pago Financeiro           |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Valor Pago | Valor referente aos pagamentos efetuados, no exercício, através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária  |default
+|Restos a Pagar| Valor Despesa Liquidada             |SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Liquidado em Restos a Pagar       | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue referente a exercícios anteriores                    |default
+|Restos a Pagar| Valor Pago Processado + Valor Pago não processado |  SIAFI - Execução de Restos a Pagar > Restos a Pagar | Valor Pago em Restos a Pagar     | Valor pago referente a exercícios anteriores efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços realizados em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária. |default
+|Fórmula Portal|   | | Valor Total (Pago  + Pago RP )     |   Somatório dos valores pagos neste exercício e pagos em restos a pagar processados e não processados.           |default
 
+**Comportamento da Consulta:**
+
+- Ao clicar no campo 'Código SIAFI' o usuário será direcionado para o 2º nível da consulta, ou seja, tabela de empenhos.
 
 ![](static/imagens/tabela-orgao-1nivel.png)
 
-Tabela 2º nível
-- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio > TELA ÓRGÃO - nível 2
+____
 
-| Armazém BO- SIAFI     | Dimensão SIAFI| PdT | Tooltip - PdT           | Exibição da Coluna
-|-------------------------------|---|-------------------------|--------------------|---|
-| Número Empenho| |Empenho           | Número de identificação do documento de empenho   |default
-| Data Registro Doc Empenho | |Data de Registro do Empenho          | Data de registro do documento de empenho   |default
-|  CNPJ_CPF Credor - Formatado    | |CNPJ/ CPF  Favorecido           | Número de identificação: Pessoa Física (CPF) e Pessoa Jurídica (CNPJ) | default
-|   Razão Social Credor   | | Favorecido                   | Nome de quem recebeu recursos públicos estaduais pela prestação de serviço ou entrega do produto. Ex: prefeituras, servidores, empresas, entidades do terceiro setor, etc.  |default
-| Valor Despesa Empenhada             | | Valor Empenhado       | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |default
-| Valor Despesa Liquidada            | | Valor Liquidado      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue        |default
-| Valor Pago Financeiro           | | Valor Pago          | Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária |default
-| Valor Despesa Liquidada             | |Valor Liquidado em Restos a Pagar       | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue referente a exercícios anteriores |default
-| Valor Pago Processado + Valor Pago não processado           | |Valor Pago em Restos a Pagar     | Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços realizados em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária. |default
-| Valor Pago Financeiro           | | Valor Total Pago         | Valor total pago efetuado através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços, incluído os valores pagos em restos a pagar. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária. |default
+**Tabela 2º nível**
+- Armazém BO / Pastas públicas - SIAFI > CGE_Portal da Transparência > Recursos Vale > TELA ÓRGÃO - nível 2
+
+Ao clicar em algum dado do campo 'Código SIAFI' o usuário será direciona ao segundo nível da consulta, lista de empenhos correspondente ao código SIAFI selecionado.
+
+|Dados|  Campo Armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Tooltip - PdT           | Exibição da Coluna
+|--|-----------------------------|---|-------------------------|--------------------|---|
+|Despesa| Número Empenho| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada|Empenho           | Número de identificação do documento de empenho no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )  |default
+|Despesa| Data Registro Doc Empenho | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada|Data de Registro do Empenho  | Data de registro do documento de empenho   |default
+|Despesa|  CNPJ_CPF Credor - Formatado    |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |CNPJ/ CPF  Favorecido  | Número de identificação: Pessoa Física (CPF) e Pessoa Jurídica (CNPJ) | default
+| Despesa|  Razão Social Credor   |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Favorecido    | Nome de quem recebeu recursos públicos estaduais pela prestação de serviço ou entrega do produto. Ex: prefeituras, servidores, empresas, entidades do terceiro setor, etc.  |default
+| Despesa| Valor Despesa Empenhada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Valor Empenhado| Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |default
+| Despesa| Valor Despesa Liquidada  | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Valor Liquidado      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue        |default
+| Despesa| Valor Pago Financeiro  | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Valor Pago  | Valor referente aos pagamentos efetuados, no exercício, através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária |default
+|Restos a Pagar| Valor Despesa Liquidada   |SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Liquidado em Restos a Pagar       | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue referente a exercícios anteriores |default
+|Restos a Pagar| Valor Pago Processado + Valor Pago não processado |  SIAFI - Execução de Restos a Pagar > Restos a Pagar | Valor Pago em Restos a Pagar     | Valor pago referente a exercícios anteriores efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços realizados em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária. |default                 |default
+|Fórmula Portal|   | | Valor Total (Pago  + Pago RP )     |   Somatório dos valores pagos neste exercício e pagos em restos a pagar processados e não processados.           |default
+
+**Comportamento da Consulta:**
+
+- Ao clicar no campo 'Empenho' o usuário será direcionado o formulário de detalhamento.
 
 ![](static/imagens/tabela-empenho.png)
+
+
+**Formulário de Detalhamento**
+- Armazém BO / Pastas públicas - SIAFI > CGE_Portal da Transparência > Recursos Vale > Formulário de Detalhamento
+
+
+**1- Formulário Classificação Orçamentária**
+
+|Dados|  Campo Armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Observações
+|--|-----------------------------|---|-------------------------|----|
+|Despesa| Número Empenho| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Empenho           |
+|Despesa| Data Registro Doc Empenho | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Data de Registro|
+|Despesa| Unidade Orçamentária - Código/Nome | SIAFI - Unidade Orçamentária |Unidade Orçamentária| Código  e descrição no mesmo campo
+|Despesa| Unidade Executora - Código/Nome | SIAFI - Unidade Executora |Unidade Executora| Código e descrição no mesmo campo
+|Despesa| Função - Descrição| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Programa de Trabalho - Despesa |Função| Código e descrição no mesmo campo
+|Despesa| Função - Código| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Programa de Trabalho - Despesa || Código e descrição no mesmo campo
+|Despesa| Subfunção - Descrição| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Programa de Trabalho - Despesa |Subfunção| Código e descrição no mesmo campo
+|Despesa| Subfunção - Código| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Programa de Trabalho - Despesa || Código e descrição no mesmo campo
+|Despesa| Programa - Descrição| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Programa de Trabalho - Despesa |Programa| Código e descrição no mesmo campo
+|Despesa| Programa - Código| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Programa de Trabalho - Despesa || Código e descrição no mesmo campo
+|Despesa| Projeto_Atividade - Descrição| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Programa de Trabalho - Despesa |Ação (Projeto Atividade)| Código e descrição no mesmo campo
+|Despesa| Projeto_Atividade - Código| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Programa de Trabalho - Despesa || Código e descrição no mesmo campo
+|Despesa| Categoria Econômica Despesa - Desc| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Natureza da Despesa Realizada |Categoria Econômica da Despesa| Código e descrição no mesmo campo
+|Despesa| Categoria Econômica Despesa - Código| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Natureza da Despesa Realizada || Código e descrição no mesmo campo
+|Despesa| Grupo Despesa - Descrição| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Natureza da Despesa Realizada | Grupo de Despesa| Código e descrição no mesmo campo
+|Despesa| Grupo Despesa - Código| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Natureza da Despesa Realizada || Código e descrição no mesmo campo
+|Despesa| Modalidade de Aplicação - Descrição| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Natureza da Despesa Realizada | Modalidade de Aplicação| Código e descrição no mesmo campo
+|Despesa| Modalidade de Aplicação - Código| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Natureza da Despesa Realizada || Código e descrição no mesmo campo
+|Despesa| Elemento Despesa - Descrição| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Natureza da Despesa Realizada | Elemento de Despesa| Código e descrição no mesmo campo
+|Despesa| Elemento Despesa - Código| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Natureza da Despesa Realizada || Código e descrição no mesmo campo
+|Despesa| Item Despesa - Descrição| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Natureza da Despesa Realizada | Item de Despesa| Código e descrição no mesmo campo
+|Despesa| Item Despesa - Código| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Natureza da Despesa Realizada || Código e descrição no mesmo campo
+|Despesa| Fonte Recurso - Descrição| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP | Fonte de Recurso| Código e descrição no mesmo campo
+|Despesa| Fonte Recurso - Código| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP  || Código e descrição no mesmo campo
+|Despesa| Procedência - Descrição| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP | Indicador de Procedência e Uso (IPU)| Código e descrição no mesmo campo
+|Despesa| Procedência - Código| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP  || Código e descrição no mesmo campo
+
+
+![](static/imagens/formulario-classificacao-orcamentaria.png)
+
+_______
+
+**2- Formulário Empenho**
+
+|Dados|  Campo Armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Observações
+|--|-----------------------------|---|-------------------------|----|
+|Detalhamento do Empenho| Número Empenho| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Empenho|
+|Detalhamento do Empenho| Data Registro Doc Empenho | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Data de Registro||Despesa| Data Registro Doc Empenho | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Data de Registro|
+|Detalhamento do Empenho| Ano de Exercício | SIAFI - Período Contábil |Ano de Exercício|
+|Despesa |Tipo Empenho - Descrição| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Tipo de Empenho|
+|Detalhamento do Empenho|  CNPJ_CPF Credor - Formatado    |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada || Código e descrição no mesmo campo
+| Detalhamento do Empenho|  Razão Social Credor   |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | CNPJ/ CPF e Descrição do  Favorecido | Código e descrição no mesmo campo
+| Detalhamento do Empenho|  Valor Inicial Empenho   |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Valor inicial empenhado | | Despesa|     |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Valor Atualizado do Empenho (reforço e anulação |
+| Detalhamento do Empenho|  Valor Despesa Empenhada  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Valor atual do empenho (reforços e anulações) | |
+| Detalhamento do Empenho|    ||Descrição Histórico do Empenho |Integração entre Portal e SIAFI |
+| Reforço do Empenho|  Valor Reforço  Empenho |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Valor |
+| Reforço do Empenho|  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Nº do documento | Campo SIAFI não disponível para visualização da DTA. Trazer o campo já utilizado no formulário de detalhamento da despesa
+| Reforço do Empenho|  Data Reforço/Anulação |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Data de Registro |
+| Anulação do Empenho|  Valor Anulação Empenho  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Valor | |
+| Anulação do Empenho|  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Nº do documento | Campo SIAFI não disponível para visualização da DTA. Trazer o campo já utilizado no formulário de detalhamento da despesa.
+| Anulação do Empenho|  Data Reforço/Anulação |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Data de Registro |
+|Inscrição em Restos a Pagar| Data Registro Doc Empenho  | SIAFI - Execução de Restos a Pagar > Restos a Pagar > Dados do Empenho - Restos a Pagar |Data de Registro| Data de registro que o empenho foi inscrito em Restos a Pagar
+|Inscrição em Restos a Pagar|   |  | Tipo de Inscrição| Campo SIAFI não disponível para visualização da DTA. Trazer o campo já utilizado no formulário de detalhamento da consulta de Restos a pagar
+|Inscrição em Restos a Pagar|**soma** do Valor Inscrito Processado - Valor Cancelado Processado ou Valor Restabelecido Processado      **OU soma** do Valor Inscrito Não Processado - Valor Cancelado Não Processado + Valor Restabelecido Não Processado   |  SIAFI - Execução de Restos a Pagar > Restos a Pagar| Valor Inscrito| Cada linha deverá apresentar o valor corresponde ao tipo de inscrição em restos a pagar.
+
+
 
 **Por Município**: Os dados dessa consulta serão extraídos do Universo BO SIGCON- Entrada.
 - Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio >MUNICIPIOS
@@ -286,4 +364,3 @@ Tabelas:
 - Tela Outras Informações
 
 ![image](https://user-images.githubusercontent.com/52920939/148776063-1c3f2d5b-544a-4659-92ce-32620863fcb2.png)
-
