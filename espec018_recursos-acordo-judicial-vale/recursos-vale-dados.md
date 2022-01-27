@@ -48,7 +48,7 @@ Os dados dessa consulta serão extraídos do Universo BO SIGCON- Entrada.
 - Armazém BO / Pastas públicas - SIAFI > CGE_Portal da Transparência > Recursos Vale> Tela Projeto
 
 
-**Filtros da Consulta:**
+#### Filtros da Consulta
 
 | Armazém BO- SIGCON ENTRADA       | Filtro
 |--------------------------|-----------------
@@ -58,7 +58,7 @@ Os dados dessa consulta serão extraídos do Universo BO SIGCON- Entrada.
 verificar se existe a possibilidade de ser criado novos Convênios, se sim teremos que ver como a DTA irá proceder quanto a esses filtros.
 -------
 
-**Campos da Tabela:**
+#### Campos da Tabela
 
 | Armazém BO- SIGCON ENTRADA       | PdT | Tooltip - PdT           | Exibição da Coluna
 |----------------------------------|-------------------------|--------------------|---|
@@ -81,7 +81,7 @@ verificar se existe a possibilidade de ser criado novos Convênios, se sim terem
 Os dados dessa consulta serão extraídos do Universo BO SIAFI
 - Armazém BO / Pastas públicas - SIAFI > CGE_Portal da Transparência > Recursos Vale> > TELA ÓRGÃO
 
-**Filtros da Consulta:**
+#### Filtros da Consulta
 
 |Dados| Armazém BO- SIAFI       |Dimensão SIAFI| Filtro  |
 |--|--------------------------|----------|-------
@@ -90,9 +90,9 @@ Os dados dessa consulta serão extraídos do Universo BO SIAFI
 | | Ano de Exercício  | SIAFI - Período Contábil |
 
 
-**Campos da Tabela:**
+#### Campos da Tabela
 
-**Tabela 1º nível**
+##### Tabela 1º nível
 
 |Dados| Campo armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Tooltip - PdT           | Exibição da Coluna
 |--|------|---|---------------|------------|---|
@@ -106,15 +106,15 @@ Os dados dessa consulta serão extraídos do Universo BO SIAFI
 |Restos a Pagar| Valor Pago Processado + Valor Pago não processado |  SIAFI - Execução de Restos a Pagar > Restos a Pagar | Valor Pago em Restos a Pagar     | Valor pago referente a exercícios anteriores efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços realizados em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária. |default
 |Fórmula Portal|   | | Valor Total (Pago  + Pago RP )     |   Somatório dos valores pagos neste exercício e pagos em restos a pagar processados e não processados.           |default
 
+![](static/imagens/tabela-orgao-1nivel.png)
+
 **Comportamento da Consulta:**
 
 - Ao clicar no campo 'Código SIAFI' o usuário será direcionado para o 2º nível da consulta, ou seja, tabela de empenhos.
-
-![](static/imagens/tabela-orgao-1nivel.png)
-
 ____
 
-**Tabela 2º nível**
+##### Tabela 2º nível
+
 - Armazém BO / Pastas públicas - SIAFI > CGE_Portal da Transparência > Recursos Vale > TELA ÓRGÃO - nível 2
 
 Ao clicar em algum dado do campo 'Código SIAFI' o usuário será direciona ao segundo nível da consulta, lista de empenhos correspondente ao código SIAFI selecionado.
@@ -122,7 +122,7 @@ Ao clicar em algum dado do campo 'Código SIAFI' o usuário será direciona ao s
 |Dados|  Campo Armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Tooltip - PdT           | Exibição da Coluna
 |--|-----------------------------|---|-------------------------|--------------------|---|
 |Despesa| Número Empenho| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada|Empenho           | Número de identificação do documento de empenho no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )  |default
-|Despesa| Data Registro Doc Empenho | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada|Data de Registro do Empenho  | Data de registro do documento de empenho   |default
+|Despesa| Data Registro Doc Empenho | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Data de Registro do Empenho  | Data de registro do documento de empenho   |default
 |Despesa|  CNPJ_CPF Credor - Formatado    |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |CNPJ/ CPF  Favorecido  | Número de identificação: Pessoa Física (CPF) e Pessoa Jurídica (CNPJ) | default
 | Despesa|  Razão Social Credor   |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Favorecido    | Nome de quem recebeu recursos públicos estaduais pela prestação de serviço ou entrega do produto. Ex: prefeituras, servidores, empresas, entidades do terceiro setor, etc.  |default
 | Despesa| Valor Despesa Empenhada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Valor Empenhado| Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |default
@@ -132,16 +132,22 @@ Ao clicar em algum dado do campo 'Código SIAFI' o usuário será direciona ao s
 |Restos a Pagar| Valor Pago Processado + Valor Pago não processado |  SIAFI - Execução de Restos a Pagar > Restos a Pagar | Valor Pago em Restos a Pagar     | Valor pago referente a exercícios anteriores efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços realizados em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária. |default                 |default
 |Fórmula Portal|   | | Valor Total (Pago  + Pago RP )     |   Somatório dos valores pagos neste exercício e pagos em restos a pagar processados e não processados.           |default
 
+![](static/imagens/tabela-empenho.png)
+
 **Comportamento da Consulta:**
 
 - Ao clicar no campo 'Empenho' o usuário será direcionado o formulário de detalhamento.
 
-![](static/imagens/tabela-empenho.png)
 
+##### Formulário de Detalhamento
 
-**Formulário de Detalhamento**
 - Armazém BO / Pastas públicas - SIAFI > CGE_Portal da Transparência > Recursos Vale > Formulário de Detalhamento
 
+O formulário de detalhamento deverá exibir a inscrição, liquidação e pagamento dos valores em restos a pagar referente ao todos os exercícios.
+Exemplo:
+- Ano de registro do Empenho: 2020
+- Inscrição em Restos a Pagar: 2021
+- Reinscrito em Restos e Pagar: 2022
 
 **1- Formulário Classificação Orçamentária**
 
@@ -202,165 +208,150 @@ _______
 |Inscrição em Restos a Pagar|   |  | Tipo de Inscrição| Campo SIAFI não disponível para visualização da DTA. Trazer o campo já utilizado no formulário de detalhamento da consulta de Restos a pagar
 |Inscrição em Restos a Pagar|**soma** do Valor Inscrito Processado - Valor Cancelado Processado ou Valor Restabelecido Processado      **OU soma** do Valor Inscrito Não Processado - Valor Cancelado Não Processado + Valor Restabelecido Não Processado   |  SIAFI - Execução de Restos a Pagar > Restos a Pagar| Valor Inscrito| Cada linha deverá apresentar o valor corresponde ao tipo de inscrição em restos a pagar.
 
+![](static/imagens/formulario-empenho.png)
 
 
-**Por Município**: Os dados dessa consulta serão extraídos do Universo BO SIGCON- Entrada.
-- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio >MUNICIPIOS
+_______
 
-Tabelas:
-| Armazém BO- SIAFI     | Dimensão SIAFI| PdT | Tooltip - PdT           | Exibição da Coluna
-|-------------------------------|---|-------------------------|--------------------|---|
-| Município Credor - Descrição | | Município           | Nome do município que recebeu o recurso   |default
-| Valor Despesa Empenhada             | | Valor Empenhado       | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |default
-| Valor Despesa Liquidada            | | Valor Liquidado      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue        |default
-| Valor Pago Financeiro           | | Valor Pago          | Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária |default
-
-![image](https://user-images.githubusercontent.com/52920939/148783968-6ac2ab08-2b08-47e7-a996-466cd63981ec.png)
+**3- Formulário Liquidação**
 
 
-**Por Receita**: Os dados dessa consulta serão extraídos do Universo BO SIGCON- Entrada.
-- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio > RECEITA
+|Dados|  Campo Armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Observações
+|--|-----------------------------|---|-------------------------|----|
+|Detalhamento da Liquidação| | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Nº do documento| Campo SIAFI não disponível para visualização da DTA. Trazer o campo já utilizado no formulário de detalhamento da liquidação.
+|Detalhamento da Liquidação| Data Registro Doc Liquidação | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Data de Registro||Despesa| Data Registro Doc Empenho | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Data de Registro|
+|Detalhamento da Liquidação|  CNPJ_CPF Credor - Formatado    |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada || Código e descrição no mesmo campo
+| Detalhamento da Liquidação|  Razão Social Credor   |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | CNPJ/ CPF e Descrição do  Favorecido | Código e descrição no mesmo campo
+| Detalhamento da Liquidação|  Valor Despesa Liquidada   |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Valor Liquidado |
+|Liquidação em Restos a Pagar| Data Registro Doc Liquidação  | SIAFI - Execução de Restos a Pagar > Restos a Pagar > Dados da Liquidação - Restos a Pagar |Data de Registro| Data de registro que o restos a pagar não processado foi liquidado.
+|Liquidação em Restos a Pagar|  CNPJ_CPF Credor - Numérico   | SIAFI - Execução de Restos a Pagar > Restos a Pagar || Código e descrição no mesmo campo
+| Liquidação em Restos a Pagar|  Razão Social Credor   | SIAFI - Execução de Restos a Pagar > Restos a Pagar | CNPJ/ CPF e Descrição do  Favorecido | Código e descrição no mesmo campo
+| Liquidação em Restos a Pagar|  Valor Despesa Liquidada   |SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Liquidado RP| Valor liquidado do restos a pagar não processado
 
-Tabelas:
-| Armazém BO- SIAFI     | Dimensão SIAFI| PdT | Tooltip - PdT           | Exibição da Coluna
-|-------------------------------|---|-------------------------|--------------------|---|
-| Classificação Receita - Formatado | | Classificação da Receita           | Classificação criada a fim de possibilitar a identificação detalhada dos recursos que ingressam nos cofres públicos. Os números representam, da esquerda para direita: categoria econômica, origem da receita; espécie da receita, desdobramento 1 da receita; desdobramento 2 da receita, desdobramento 3 da receita, tipo da receita |default
-| Item Receita - Descrição | | Item da Receita       | Detalhamento da classificação orçamentária da receita referente ao tipo de receita |default
-| Subitem Receita - Descrição    | | Subitem da Receita      | Detalhamento da classificação orçamentária da receita referente ao item de receita |default
-| Fonte de Recurso - Descrição   | | Fonte de Recurso          | Indica a origem do dinheiro arrecadado. Combina a origem do dinheiro às despesas orçamentárias. Esta vinculação visa demonstrar o montante de dinheiro que já está comprometido com o atendimento de determinadas finalidades, e aquele que pode ser livremente alocado |default
-| Valor Previsto Inicial             | | Valor Previsto Inicial       | Valor estimado da arrecadação para o ano consultado, previsto na Lei Orçamentária Anual (LOA) |default
-| Valor Previsto Atualizado           | | Valor Previsto Atualizado     | Valor estimado inicial para arrecadação no ano consultado, previsto da Lei Orçamentária Anual, atualizado ao longo do ano |default
-| Valor Efetivado Ajustado           | | Valor Arrecadado          | Valor financeiro que entrou nos cofres públicos no período consultado |default
+![](static/imagens/formulario-liquidacao.png)
 
-![image](https://user-images.githubusercontent.com/52920939/148783938-35f2b895-feb0-4cb5-8577-6e3b635f9123.png)
+_______
 
-
-**Formulário de Detalhamento**: Os dados dessa consulta serão extraídos do Universo BO SIAFI
-
-- Tabela Classificação Orçamentária
-- Armazém BO - CONSULTA tmp> recursos-vale> despesa > CLASSIFICAÇÃO ORÇAMENTÁRIA
-
-| Armazém BO- SIAFI     | Dimensão SIAFI| PdT |  Observações
-|-------------------------------|---|-------------------------|--------------------|
-| Unidade Orçamentária - Código Unidade Orçamentária - Nome| |Unidade Orçamentária           |  |
-| Unidade Executora - Código/Nome | |Unidade Executora           |  |
-| Função - Código   Função - Descrição| |Função           |  |
-| Subfunção - Código   Subfunção - Descrição|  |    Subfunção      |  |  
-| Programa - Código Programa - Descrição| |     Programa     |  |
-| Projeto_Atividade - Código Projeto_Atividade - Descrição| |  Ação (Projeto Atividade)        |  |  
-| Categoria Econômica Despesa -Código Categoria Econômica Despesa -Descrição| | Categoria Econômica          | |
-| Grupo Despesa - Código Grupo Despesa - Descrição| | Grupo Despesa         |  |  
-| Elemento Despesa - Código Elemento Despesa - Descrição| |   Elemento Despesa       |  |
-| Item Despesa - Código Item Despesa - Descrição| | Item Despesa         |  |  
-| Modalidade Aplicação - Código Modalidade Aplicação - Descrição| | Modalidade Aplicação         |  |
-| Procedência - Código Procedência - Descrição| | Indicador de Procedência e Uso         |  |  
-| Fonte Recurso - Código Fonte Recurso - Descrição| | Fonte Recurso         |  |
-
-- Tela da Classificação Orçamentária - PDT
-
-![image](https://user-images.githubusercontent.com/52920939/148776231-4dea4a15-42c5-4626-8eb0-916f3250a80c.png)
+**4- Formulário Pagamento**
 
 
-###### Tabela Empenho
+|Dados|  Campo Armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Observações
+|--|-----------------------------|---|-------------------------|----|
+|Detalhamento do Pagamento| Data de Registro| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados da Ordem de Pagamento - Despesa| Data de Registro|
+|Detalhamento do Pagamento| Número Docto Pagamento | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados da Ordem de Pagamento - Despesa |Nº do documento|
+|Detalhamento do Pagamento| Situação Ordem de Pagamento - Descrição | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados da Ordem de Pagamento - Despesa |Situação da Ordem de Pagamento|
+|Detalhamento do Pagamento|  CNPJ_CPF Credor - Formatado    |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada || Código e descrição no mesmo campo
+| Detalhamento do Pagamento|  Razão Social Credor   |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | CNPJ/ CPF e Descrição do  Favorecido | Código e descrição no mesmo campo
+| Detalhamento do Pagamento|  Valor Pago Financeiro  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Valor Pago |
+|Pagamento em Restos a Pagar| Data Registro | SIAFI - Execução de Restos a Pagar > Restos a Pagar > Dados da Ordem de Pagamento - Restos a Pagar |Data de Registro| Data de registro que o restos a pagar foi pago.
+|Pagamento em Restos a Pagar| Número Ordem de Pagamento | SIAFI - Execução de Restos a Pagar > Restos a Pagar > Dados da Ordem de Pagamento - Restos a Pagar |Nº do documento|
+|Detalhamento do Pagamento| Situação Ordem de Pagamento - Descrição |  SIAFI - Execução de Restos a Pagar > Restos a Pagar > Dados da Ordem de Pagamento - Restos a Pagar |Situação da Ordem de Pagamento|
+|Pagamento em Restos a Pagar|  CNPJ_CPF Credor - Numérico   | SIAFI - Execução de Restos a Pagar > Restos a Pagar || Código e descrição no mesmo campo
+| Pagamento em Restos a Pagar|  Razão Social Credor   | SIAFI - Execução de Restos a Pagar > Restos a Pagar | CNPJ/ CPF e Descrição do  Favorecido | Código e descrição no mesmo campo
+| Pagamento em Restos a Pagar|  Valor Pago Processado ou Valor Pago não processado |SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Pago em RP |
 
-- Tabela do Empenho
-- Armazém BO - CONSULTA tmp> recursos-vale> despesa > FORMULÁRIO EMPENHO
+![](static/imagens/formulario-pagamento.png)
 
-| Armazém BO- SIAFI     | Dimensão SIAFI| PdT |  Observações
-|-------------------------------|---|-------------------------|--------------------|
-| Número Empenho| |Número do Empenho           |  |
-| Ano de Exercício| |  Ano de Exercício       |  |
-| Data Registro Doc Empenho| |  Data do Registro       |  |
-| Tipo Empenho - Descrição| | Tipo  de Empenho       |  |
-| CNPJ_CPF Credor - Formatado   Razão Social Credor | |  Favorecido       |  |
-| | | Descrição Histórico do Empenho        |  |
-| Valor Inicial Empenho| |    Valor Inicial Empenhado     |  |
-| Valor Despesa Empenhada | | Valor Empenhado Atualizado        |  |
-| Data Registro / Cancelamento Apropriação | |  Data de Registro       |  Reforço do Empenho
-| | |  Número do documento       |  Reforço do Empenho
-| Valor Reforço Empenho | |   Valor  do reforço     | Reforço do Empenho
-| Data Registro / Cancelamento Apropriação | | Data de Registro        |  Anulação do Empenho
-| | |  Número do documento        |  Anulação do Empenho
-| Valor Anulação Empenho | |  Valor Anulado      |  Anulação do Empenho
-| Data Registro Doc Restos a Pagar | | Data de Registro        |  Inscrição em Restos a Pagar
-| | |   Tipo      |  Inscrição em Restos a Pagar
-| valor inscrito processado” (BO) – valor cancelado processado (BO) + valor restabelecido processado | |   Valor Inscrito      |  Inscrição em Restos a Pagar
+_______
 
-- Telas do Empenho - PDT
-
-![image](https://user-images.githubusercontent.com/52920939/148776192-5319e930-b8a8-481d-89c9-5e551c9e7513.png)
-
-![image](https://user-images.githubusercontent.com/52920939/148775545-e494f5ff-5baf-438f-bf78-3639ee752524.png)
+**4- Formulário Outras Informações**
 
 
-###### Tabela Liquidação
+|Dados|  Campo Armazém BO     | Dimensão Armazém BO| Campo PdT | Observações
+|--|-----------------------------|---|-------------------------|----|
+|Dados do Processo de Compra| Número do Processo de Compra| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Número do Processo de Compra| Campo utilizado para cruzamento das informações empenho vs processo de compra. Ao identificar qual processo de compra está vinculado ao empenho os demais dados referente ao processo serão extraídos do Armazém SIADI - Portal de Compras - Módulo Compras
+|Dados do Processo de Compra| Data criação do Processo | Armazém SIADI - Portal de Compras - Módulo Compras > Data criação do Processo| Data de Cadastramento do Processo|
+|Dados do Processo de Compra| Procedimento de Contratação - Detalhamento 1 | Armazém SIADI - Portal de Compras - Módulo Compras > Procedimento de Contratação| Procedimento de Contratação|
+|Dados do Processo de Compra| Situação Processo | Armazém SIADI - Portal de Compras - Módulo Compras | Situação do Processo|
+|Dados do Processo de Compra| Objeto Processo | Armazém SIADI - Portal de Compras - Módulo Compras | Objeto do Processo|
+|Dados Contrato| Número Contrato| Armazém SIADI - Portal de Compras - Módulo Compras > Contrato | Número do Contrato|
+|Dados Contrato| Data Publicação Contrato | Armazém SIADI - Portal de Compras - Módulo Compras > Data Publicação Contrato| Data de Publicação|
+|Dados Contrato| Data Término Vigência Contrato | Armazém SIADI - Portal de Compras - Módulo Compras > Data Atualizada Término Vigência Contrato| Vigência atualizada |
+|Dados Contrato| Situação Contrato | Armazém SIADI - Portal de Compras - Módulo Compras > Contrato | Situação do Contrato|
+|Dados Contrato| Objeto Contrato | Armazém SIADI - Portal de Compras - Módulo Compras > Contrato | Objeto do Contrato|
+|Dados do Convênio  / Parceria de Saída Recursos| Contrato Convênio Saída| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados do Empenho - Despesa | Número do Convênio / Parceria SIAFI| Ao identificar que existe 'Contrato Convênio Saída' relacionado a um empenho deve-se realizar o cruzamento com a base de dados do Pdt consulta Convênio de Saída / Parceria de recursos e caso a informação conste na base de dados essas serão replicadas nesse formulário. Exemplo: Código SIAFI (Contrato Convênio Entrada) 9288133 >> Empenho (Número do Empenho) 367/2021 >> Número do Convênio / Parceria SIAFI (Contrato Convênio Saída) [9318584](https://www.transparencia.mg.gov.br/convenios/convenios-de-saida/convenios-conslivre-detalhesconv/2021/01-01-2021/31-12-2021/61691)
+|Dados do Convênio/Parceria de Saída Recursos| Data Publicação |PdT - Consulta Convênios / Parceria de Saída de Recursos | Data de Publicação|
+|Dados do Convênio/Parceria de Saída Recursos| Vigência atualizada | PdT - Consulta Convênios / Parceria de Saída de Recursos| Vigência atualizada |
+|Dados do Convênio/Parceria de Saída Recursos| Situação do Convênio / Parceria| PdT - Consulta Convênios / Parceria de Saída de Recursos | Situação do Convênio / Parceria|
+|Dados do Convênio/Parceria de Saída Recursos| Título do Convênio / Parceria | PdT - Consulta Convênios / Parceria de Saída de Recursos| Título do Convênio / Parceria|
 
-- Tabela Liquidação
-- Armazém BO - CONSULTA tmp> recursos-vale> despesa > FORMULÁRIO LIQUIDAÇÃO
+![](static/imagens/formulario-outras-informacoes.png)
 
-| Armazém BO- SIAFI     | Dimensão SIAFI| PdT |  Observações
-|-------------------------------|---|-------------------------|--------------------|
-| Data Registro Doc Liquidação  | |Data de Registro         | |
-| | |Número do Documento      | |
-| CNPJ_CPF Credor - Formatado   Razão Social Credor | |  Favorecido
-| Valor Despesa Liquidada | |Valor Liquidado        |   
-| Data Registro Doc Liquidação | | Data de Registro        |  Liquidação em Restos a Pagar
-| | |  Número do documento     |  Liquidação em Restos a Pagar
-| CNPJ_CPF Credor - Formatado   Razão Social Credor | |  Favorecido |  Liquidação em Restos a Pagar
-| | |   Valor Inscrito      |  Liquidação em Restos a Pagar
+**Comportamento da Consulta:**
 
-- Tela da Liquidação - PDT
+- Ao clicar no campo 'Número do Processo de Compra' o usuário será direcionado o formulário de detalhamento da consulta [Compras e Contratos](https://www.transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos/comprasecontratos-detalhe-proccompra/2021/20210101/20211231/352133).
 
-![image](https://user-images.githubusercontent.com/52920939/148775719-252e77a3-cfde-46d2-8926-f4fe4054cc36.png)
+- Ao clicar no campo 'Número do Contrato' o usuário poderá fazer o [download do contrato](https://www1.compras.mg.gov.br/contrato/gestaocontratos/arquivosContrato.html?idContrato=170153).
 
-
-###### Tabela Pagamento
-
-- Tabela Pagamento
-- Armazém BO - CONSULTA tmp> recursos-vale> despesa > FORMULÁRIO PAGAMENTO
-
-| Armazém BO- SIAFI     | Dimensão SIAFI| PdT |  Observações
-|-------------------------------|---|-------------------------|--------------------|
-| Data Registro | |Data de Registro         |
-| Número Docto Pagamento | |Número do Documento         |  
-| Situação Ordem Pagamento - Descrição ||Situação da Ordem de Pagamento|
-| CNPJ_CPF Credor - Formatado   Razão Social Credor ||  Favorecido
-| Valor Pago Financeiro | |Valor Pago       |   
-| Data Registro Doc Restos a Pagar  | | Data de Registro        |  Pagamento em Restos a Pagar
-| Número Ordem Pagamento | |   Número do documento     |  Pagamento em Restos a Pagar
-|||Situação da Ordem de Pagamento| Pagamento em Restos a Pagar
-| CNPJ_CPF Credor - Formatado   Razão Social Credor | |  Favorecido | em Restos a Pagar
-| valor pago processado (BO) + valor pago não processado (BO) | |   Valor Pago    |  Pagamento em Restos a Pagar
-
-- Telas do Pagamento - PDT
-
-![image](https://user-images.githubusercontent.com/52920939/148775790-f2ace5c3-7fb8-4777-9549-53b5c0ab5129.png)
-
-###### Tabela Outras Informações
-
-- Tabela Outras Informações
-- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio > TABELA OUTRAS INFORMAÇÕES
-- Armazém BO - CONSULTA tmp> recursos-vale> despesa vs convenio > PROCESSO DE COMPRA E CONTRATO
+- Ao clicar no campo 'Número do Convênio / Parceria SIAFI' o usuário será direcionado o formulário de detalhamento da consulta [Consulta Convênios / Parceria de Saída de Recursos](https://www.transparencia.mg.gov.br/convenios/convenios-de-saida/convenios-conslivre-detalhesconv/2021/01-01-2021/31-12-2021/61691)
 
 
-| Campo Armazém BO  | Dimensão SIAFI| PdT |  Observações
-|-------------------------------|---|-------------------------|--------------------|
-| Número Processo -  Formatado | |Número do Processo de Compra         | link para o processo de compra no PdT
-| Data Criação Processo| |Data de Cadastramento do Processo         |
-| Procedimento Contratação - Detalhamento 1 | |Procedimento de Contratação        |
-| Situação Processo| |Situação         |
-| Objeto Processo| |Objeto         |
-| Número Contrato| |Número do Contrato        | link para o Contrato no Portal de Compras
-| Data Publicação Contrato| |Data de Publicação       |
-| Situação Contrato| |Situação        |
-| Data Término Vigência Contrato| |Vigência Atualizada        |
-| Objeto Contrato| |Objeto         |
-| Número Convênio | |Número do Convênio / Parceria SIAFI       |link para o convênio no PdT
-| Data Publicação Convênio | |Data de Publicação       |
-| | |Situação do Convênio / Parceria       | Sigcon Saída
-| Data Final VigênciaConvênio | |Vigência Atualizada        |
-| Convênio - Título do Convênio | |Título do Convênio / Parceria        |
+_______
+### Por Município
+<a href="#top">(inicio)</a>
 
-- Tela Outras Informações
+Os dados dessa consulta serão extraídos do Universo BO SIAFI.
+- Armazém BO / Pastas públicas - SIAFI > CGE_Portal da Transparência > Recursos Vale> Tela Município
 
-![image](https://user-images.githubusercontent.com/52920939/148776063-1c3f2d5b-544a-4659-92ce-32620863fcb2.png)
+
+#### Filtros da Consulta
+
+| Armazém BO- SIAFI       | Filtro
+|--------------------------|-----------------
+|Contrato Convênio Entrada | 9288130    
+
+
+#### Campos da Tabela
+
+|Dados| Campo armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Tooltip - PdT           | Exibição da Coluna
+|-|------|---|---------------|------------|---|
+|Município |Município Credor - Descrição| SIAFI - Execução Orçamentária da Despesa - Despesa Realizada > Credor - Despesa |Município |Nome do Município que recebeu os repasses do Acordo Judicial conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021|*default*
+|Município |Número Empenho| SIAFI - Execução Orçamentária da Despesa - Despesa Realizada|Empenho| Número de identificação do documento de empenho no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|*default*|
+|Município |Data Registro| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados da Ordem de Pagamento - Despesa| Data de Registro|Data de Registro do Pagamento no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|*default*|
+|Município |Situação Ordem de Pagamento - Descrição |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados da Ordem de Pagamento - Despesa |Situação da Ordem de Pagamento| Situação da Ordem de Pagament conforme consta no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|*default*|
+|Município |Valor Pago Financeiro| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Valor Pago| Valor referente aos repasses efetuados conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021 do Acordo Judicial|*default*|
+
+![](static/imagens/tabela-municipio.png)
+
+
+
+______
+### Por Receita
+<a href="#top">(inicio)</a>
+
+Os dados dessa consulta serão extraídos do Universo BO SIAFI.
+- Armazém BO / Pastas públicas - SIAFI > CGE_Portal da Transparência > Recursos Vale> Tela Receita
+
+
+#### Filtros da Consulta
+
+| Armazém BO- SIAFI       | Filtro
+|--------------------------|-----------------
+|Fonte de Recurso| 95
+Classificação Receita - Formatado| 2990.00.1.1.02.000
+
+
+#### Campos da Tabela
+
+|Dados| Campo armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Tooltip - PdT           | Exibição da Coluna
+|-| -|---|---------------|------------|---|
+|Receita| Ano de Exercício |SIAFI - Período Contábil|Ano de Exercício |Ano de exercício que ocorreu a arrecadação|*default*|
+|Receita |Classificação Receita - Formatado |SIAFI - Execução Orçamentária da Receita > Receita Orçamentária > Classificação Receita Orçamentária a partir de 2018 > |Código da Classificação Receita|Classificação criada a fim de possibilitar a identificação detalhada dos recursos que ingressam nos cofres públicos. Os números representam, da esquerda para a direita: categoria econômica; origem da receita; espécie da receita; desdobramento 1 da receita, desdobramento 2 da receita, desdobramento 3 da receita, tipo da receita| ao acionar o botão 'Exibir código e descrição'|
+|Receita| Classificação Receita - Descrição |SIAFI - Execução Orçamentária da Receita > Receita Orçamentária > Classificação Receita Orçamentária a partir de 2018|Classificação Receita |Descrição da identificação detalhada dos recursos que ingressam nos cofres públicos |*default*|
+|Receita| Fonte de Recurso - Código |SIAFI - Execução Orçamentária da Receita > Receita Orçamentária > Classificação Receita Orçamentária a partir de 2018|Código da Fonte de Recurso||ao acionar o botão 'Exibir código e descrição'|
+|Receita| Fonte de Recurso -  |SIAFI - Execução Orçamentária da Receita > Receita Orçamentária > Classificação Receita Orçamentária a partir de 2018|Fonte de Recurso |Indica a origem do dinheiro arrecadado. Combina a origem do dinheiro às despesas orçamentárias. Esta vinculação visa demonstrar o montante de dinheiro que já está comprometido com o atendimento de determinadas finalidades, e aquele que pode ser livremente alocado.|*default*|
+|Receita| Valor Previsto Inicial |SIAFI - Execução Orçamentária da Receita > Receita Orçamentária > Classificação Receita Orçamentária a partir de 2018| Valor Previsto Inicial| Valor estimado da arrecadação para o ano consultado, previsto na Lei Orçamentária Anual (LOA)|*default*|
+|Receita|  Valor Previsto Atualizado|SIAFI - Execução Orçamentária da Receita > Receita Orçamentária > Classificação Receita Orçamentária a partir de 2018|Valor Previsto Atualizado| Valor estimado inicial para arrecadação no ano consultado, previsto na Lei Orçamentária Anual, atualizado ao longo do ano.|*default*
+|Receita| Valor Efetivado Ajustado |SIAFI - Execução Orçamentária da Receita > Receita Orçamentária > Classificação Receita Orçamentária a partir de 2018|Valor Arrecadado| Valor financeiro que entrou nos cofres públicos no período consultado|*default*
+
+![](static/imagens/tabela-receita.png)
+
+#### Ponto de Destaque
+
+A pesquisa básica deve permitir que novas informações possam ser incluídas através da integração de fontes estáticas, ou seja, fonte que não seja o Armazém BO.
+
+
+## Monte sua pesquisa - Pesquisa Avançada
+<a href="#top">(inicio)</a>
+
+Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas da pesquisa básica, porém será necessário verificar a granularidade para os devidos cruzamentos.
