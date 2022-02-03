@@ -14,9 +14,9 @@ output:
 <a href="#top">(inicio)</a>
 
 Atualmente a informação da coluna “Valor a pagar” da consulta do Portal de Transparência é construída através do cálculo:
-Valor Inscrito Processado + Valor Inscrito Não Processado – Valor Pago no Ano, porém quando ocorre retenções a soma não reflete o valor correto do saldo a pagar em restos a pagar.
+Valor Inscrito Processado + Valor Inscrito Não Processado – Valor Pago no Ano, porém quando ocorre retenções a soma não reflete o valor correto do saldo a pagar na consulta de restos a pagar.
 
-Com o objetivo de corrigir essa inconsistência no Portal, o correto seria que a coluna “Valor a pagar” extraísse as informações diretamente do Armazém SIAFI e que os valores retidos sejam exibidos para melhor compreensão do usuário.
+Com o objetivo de corrigir essa inconsistência no Portal, o correto é que a coluna “Valor a pagar” extraia as informações diretamente do Armazém SIAFI e que os valores retidos também sejam exibidos na consulta de restos a pagar para melhor compreensão do usuário.
 
 
 # Especificação
@@ -28,7 +28,7 @@ Com o objetivo de corrigir essa inconsistência no Portal, o correto seria que a
 
 | Campo SIAFI| Universo| Campo PdT | Tooltip | Observação
 |---|---|-|--|-|
-| Valor Liquidado Retido |  SIAFI > Execução de Restos a Pagar > Restos a Pagar | Valor Retido| Valor, em reais, de apropriação de retenção da despesa orçamentária contida no documento de obrigação liquidada a pagar.| A coluna será acrescida em todos os níveis
+| Valor Liquidado Retido |  SIAFI > Execução de Restos a Pagar > Restos a Pagar | Valor Retido| Valor, em reais, de apropriação de retenção da despesa orçamentária em favor de terceiros.| A coluna será acrescida em todos os níveis
 
 
 **2- Alterar a fórmula de cálculo da coluna "Valor a Pagar"**
