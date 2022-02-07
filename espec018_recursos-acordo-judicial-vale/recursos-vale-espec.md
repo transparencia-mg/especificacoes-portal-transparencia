@@ -36,7 +36,15 @@ A [Lei nº 23.830/2021](https://www.almg.gov.br/consulte/legislacao/completa/com
 # Especificação
 <a href="#top">(inicio)</a>
 
-Esse documento tem como base a criação de uma nova consulta para possibilitar o acompanhamento das ações desenvolvidas pelo Governo do Estado de Minas Gerais com recursos provenientes do acordo judicial firmado com a Vale.
+Esse documento tem como base a criação de uma nova consulta para possibilitar o acompanhamento das ações desenvolvidas pelo Governo do Estado de Minas Gerais com recursos provenientes do acordo judicial firmado com a Vale
+
+## Página Inicial 
+<a href="#top">(inicio)</a>
+
+Adequar a Página Inicial do Portal para recepcionar a nova consulta de transparência dos recursos da Vale. 
+
+- Criar de um quadro informativo (slideshow) que irá apresentar as novidades que forem lançadas no Portal;
+- Criar uma consulta (bloco) específico para disponibilizar as consultas de eventos extraordinários. Inicialmente esse menu será composto pela Consulta COVID e a Consulta do Acordo Judicial da Vale.
 
 ## Página Inicial da consulta - Pesquisa Básica
 <a href="#top">(inicio)</a>
