@@ -59,13 +59,13 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 
 Atributos do campo:
 
-* O usuário poderá exibir mais detalhes do texto ao clicar em "*Saiba Mais*" ou ocultar ao clicar "*Ocultar*". [eg. Leroy Merlin](https://www.leroymerlin.com.br/materiais-hidraulicos).
+* O usuário poderá exibir mais detalhes do texto ao clicar em "*Mais*" ou ocultar ao clicar "*Menos*". [eg. Leroy Merlin](https://www.leroymerlin.com.br/materiais-hidraulicos).
 * A funcionalidade deverá permitir a visualização de *tooltip* ao posicionar o mouse sobre uma palavra ou termo. [eg. tooltips](https://getbootstrap.com.br/docs/4.1/components/tooltips/)
 * Ao clicar sobre a palavra ou termo o PdT deverá abrir um um *pop-up* em forma de glossário. [eg. pop-up](https://www.usaspending.gov/)
 * O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA inclua ou altere os dados desse campo incluindo os *tooltips*.
 
 Exemplos:  
-- Saiba Mais
+- Menos
 ![](static/imagens/texto-explicativo.png)
 ____
 
@@ -83,7 +83,7 @@ ___
 A barra de navegação superior será composta pelos seguintes campos:
 
 * Ícones por tipo de consulta;
-* Período (mm/aaaa)
+* Período (dd/mm/aaaa)
 * Opção de *'Filtrar por'*;
 * Botão *'Monte sua consulta'*
 
@@ -97,12 +97,12 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 * Os ícones serão clicáveis. Quando o usuário posicionar o mouse sobre o ícone será exibido um *tooltip* com uma breve descrição da consulta.
 
-* O campo período será no formato **mm/aaaa** composto por início e fim (eg. 04/2021 a 12/2021);
+* O campo período será no formato **dd/mm/aaaa** composto por início e fim (eg. 01/04/2021 a 30/12/2021);
 * O comportamento da opção *'Filtrar por'* será conforme o tipo de consulta selecionada e como padrão será exibido a opção 'Todos'
   * **Por Projeto**: Ao selecionar essa opção o usuário poderá escolher o Projeto a ser exibido.
-  * **Por Órgão**: Ao selecionar esse tipo de consulta no campo *"Filtrar por"* o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ.
-  * **Por Receita**:
-  * **Transferência por Município**:
+  * **Por Órgão**: Ao selecionar esse tipo de consulta no campo *"Filtrar por"* o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados, conforme já ocorre atualmente no PdT.
+  * **Por Receita**: o usuário poderá escolher o Projeto a ser exibido.
+  * **Transferência por Município**: o usuário poderá escolher um Município ser exibido.
 
 ![](static/imagens/barra-navegacao-superior.png)
 
@@ -116,7 +116,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 * A data de atualização dos dados (*Dados atualizados em*), o período, o ícone *Exibir Gráfico* ou *Fechar Gráfico*, Download, Compartilhar serão exibidos acima do gráfico/tabela de resultados.
 
-* Como padrão os dados serão exibidos no formato de tabela e caso o usuário queira visualizar os dados em forma de gráfico deve clicar em '*Exibir Gráfico*'. Para retornar a exibição no formato tabela o usuário deve clicar em '*Fechar Gráfico*'
+* Como padrão os dados serão exibidos no formato de tabela e caso o usuário queira visualizar os dados em forma de gráfico deve clicar em '*Exibir Gráfico*' e os dados da tabela serão deslocados para baixo. Para retornar a exibição apenas no formato tabela o usuário deve clicar em '*Fechar Gráfico*'
 
 * A barra de pesquisa da tabela de resultado deverá retornar os dados a medida que o usuário for digitando. O atributo *placeholder* deve ser aplicado na barra de pesquisa.
 
@@ -133,11 +133,11 @@ A barra de navegação superior será composta pelos seguintes campos:
 ![](static/imagens/tabela-resultados-parte-superior.png)
 
 
-##### Estrutura de design das tabelas de resultados
+##### Estrutura de design das tabelas de resultados da Pesquisa básica
 
- * Cabeçalho fixo - Fixer Header (eg. Consulta de Remuneração do PdT);
+ * Cabeçalho fixo - Fixer Header ([eg. Consulta de Remuneração do PdT](https://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/202112/3/1094/4022/C/3569184/995/26150365));
  * Rolagem horizontal - Horizontal Scroll. Quando o número de colunas ultrapassar o limite da página o PdT deve possibilizar a rolagem horizontal;
- * Colunas movéis e classificáveis conforme ocorre atualmente;
+ * Colunas movíveis e classificáveis conforme ocorre atualmente;
  * Paginação e seleção da quantidade de linhas a serem exibidas, conforme ocorre atualmente;
  * O texto deve ser ajustável nas colunas, ou seja, caso seja necessário pode haver quebra de linha;
  * A tabela apresentará campos clicáveis (com link) que irá direcionar o usuário para o formulário de detalhamento ou para o próximo nível da consulta.
@@ -164,7 +164,7 @@ A barra de navegação superior será composta pelos seguintes campos:
  *O PdT deverá permitir que a equipe DTA inclua/altere a *url* desse campo através da área administrativa do Portal.                  
  * O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA decida se o campo Download Base Completa será exibido ou não na parte superior da tabela de resultado.
 
-##### Barra de pesquisa
+#### Barra de pesquisa
 
 A barra de pesquisa deve aceitar várias formas de preenchimento dos dados:
 
@@ -182,16 +182,107 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 - WhatsApp
 - Por e-mail
 
+#### Campos Pesquisa básica - Navegação por filtros
+
+###### Consulta por Projeto
+
+* 1º NÍVEL
+  - [Código SIAFI]() -> ao clicar o usuário será direcionado para o 2º nível
+  - Projeto
+  - Código Órgão -> apenas quando o usuário clicar em 'Exibir Código e Descrição'
+  - Órgão
+  - Valor Total
+
+![](static/imagens/tabela-projeto.png)
+
+* 2º NÍVEL
+  - Segundo nível da consulta por Órgão
+
+* 3º NÍVEL
+    - Formulário de Detalhamento
+
+###### Consulta por Órgão
+
+  * 1º NÍVEL
+    * [Código SIAFI]() -> ao clicar o usuário será direcionado para o 2º nível
+    * Código Órgão -> -> apenas quando o usuário clicar em 'Exibir Código e Descrição'           
+    * Órgão               
+    * Valor Despesa Empenhada            
+    * Valor Despesa Liquidada         
+    * Valor Pago
+    * Valor Liquidado em Restos a Pagar
+    * Valor Pago em Restos a Pagar
+    * Valor Total Pago     
+
+![](static/imagens/tabela-orgao-1nivel.png)
+
+  * 2º NÍVEL
+    * [Empenhos]() -> ao clicar o usuário será direcionado para o 3º nível
+    * Data de Registro do Empenho
+    * CNPJ/CPF Favorecido
+    * Favorecido
+    * Valor Despesa Empenhada            
+    * Valor Despesa Liquidada         
+    * Valor Pago
+    * Valor Liquidado em Restos a Pagar
+    * Valor Pago em Restos a Pagar
+    * Valor Total Pago
+
+![](static/imagens/tabela-empenho.png)
+
+  * 3º NÍVEL - Formulário de Detalhamento
+
+###### Consulta por Município
+
+  * 1º NÍVEL       
+    * Município           
+    * Empenho       
+    * Data de Registro do Pagamento
+    * Situação da Ordem de Pagamento
+    * Valor Pago
+
+![](static/imagens/tabela-municipio.png)
+
+###### Consulta por Receita
+
+  * 1º NÍVEL       
+    * Ano de Exercício     
+    * Código da Classificação da Receita -> apenas quando o usuário clicar em 'Exibir Código e Descrição'   
+    * Classificação da Receita
+    * Código da Fonte de Recurso -> apenas quando o usuário clicar em 'Exibir Código e Descrição'   
+    * Fonte de Recurso
+    * Valor Previsto Inicial
+    * Valor Previsto Atualizado
+    * Valor Arrecadado
+
+![](static/imagens/tabela-receita.png)
 
 #### Leiaute - Formulário de Detalhamento
 <a href="#top">(inicio)</a>
 
-Ao clicar no campo clicável da tabela de resultados e o usuário será direcionado para o formulário de detalhamento, que será composto pelos seguintes atributos:
+Ao clicar em campo clicável da tabela de resultados o usuário será direcionado para o formulário de detalhamento, que será composto pelos seguintes atributos:
 
 * As tabelas que compõe o formulário de detalhamento serão exibidas em formato de guias (eg. [*Tabs*](https://www.w3schools.com/howto/howto_js_tabs.asp))
 
-* O usuário poderá exportar as informações do formulário de detalhamento ao clicar no botão '*Exportar*'.
-         Definir se a exportação será em pdf ou tabela
+* O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão '*Download*'.
+A exportação em planilha (CSV) deverá ser em formato de tabela. Cada campo em uma coluna.
+
+##### Campos do formulário de detalhamento
+
+* Classificação Orçamentária
+ ![](static/imagens/formulario-classificacao-orcamentaria.png)
+
+* Empenho
+ ![](static/imagens/formulario-empenho.png)
+
+* Liquidação
+ ![](static/imagens/formulario-liquidacao.png)
+
+* Pagamento
+ ![](static/imagens/formulario-pagamento.png)
+
+* Outras Informações
+  ![](static/imagens/formulario-outras-informacoes.png)
 
 ## Monte sua consulta
 <a href="#top">(inicio)</a>
