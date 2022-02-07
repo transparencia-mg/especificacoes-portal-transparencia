@@ -24,7 +24,8 @@ ____
 
 2. É interessante o tooltip também aparecer quando o usuário passar o mouse na palavra. Lembrando que o Portal deverá permitir que por meio da área administrativa a equipe DTA inclua ou altere os dados desses campos.
 
-3. o ícone "Monte sua pesquisa" deverá ser posicionado em outro lugar. O formato apresentado dá a impressão que o usuário está construindo uma consulta dentro da pesquisa básica.
+3. O ícone "Monte sua pesquisa" deverá ser posicionado em outro lugar da tela, para não dar a impressão que o usuário está construindo uma consulta dentro da pesquisa básica.
+
 
 ![](static/imagens/wireframe-monte-sua-pesquisa.png)
 
@@ -33,15 +34,17 @@ ____
 ### Slide 5
 
 1. Alterar texto do botão Download:
-- PDF -> ao selecionar essa opção o arquivo PDF deverá ser aberto em outra aba do navegador
 - Planilha (CSV)
 - Base Completa
+
+2. Alterar a funcionalidade da opão PDF
+- PDF -> ao selecionar essa opção o arquivo PDF deverá ser aberto em outra aba do navegador
 
 Ver mais detalhes do comportamento da funcionalidade no documento de Especificação - Capítulo **Download dos dados**
 
 ![](static/imagens/wireframe-download.png)
 
-2.  A opção de 'Exibir Linhas' deverá ficar na parte superior da tabela como já ocorre atualmente.
+3.  A opção de 'Exibir Linhas' deverá ficar na parte superior da tabela como já ocorre atualmente.
 
 Assim caso a tabela seja extensa o usuário não precisa usar a barra de rolagem para escolher a quantidade de linhas.
 
@@ -57,27 +60,37 @@ Acrescentar a opção compartilhar pelo WhatsApp
 
 ### Slide 7
 
-A formulário de detalhamento no formato modal ficou interessante, porém é necessário que o usuário possa compartilhar a *url* dessa da dela. Nesse sentido, a opção deve ser:
-- possibilitar o compartilhamento desses dados, mesmo sendo no formato modal caso isso não venha a comprometer a execução do cronograma ou
+A formulário de detalhamento no formato modal ficou interessante, porém é necessário que o usuário possa compartilhar a *url* dessa tela. 
+Assim, sugere-se:
+- Possibilitar o compartilhamento desses dados, mesmo sendo no formato modal, caso isso não venha a comprometer a execução do cronograma, ou,
 
-- Manter o padrão, atualmente, adotado no Portal, ou seja, abrir os dados em outra aba sendo possível o usuário compartilhar a *url*
+- Manter o padrão, atualmente, adotado no Portal, ou seja, abrir os dados em outra aba, possibilitando ao usuário compartilhar a *url*
 
 ![](static/imagens/wireframe-modal-detalhe.png)
 
 ----
 ### Slide 12 / slide 17 /slide 26
 
-O botão aplicar, assim como os demais botões pesquisar/atualizar (tabela filtros aplicados) e aplicar (tabela 'adicionar/remover colunas') deverão ficar na parte superior.
+Todos os botões descritos abaixos devem estar localizados na parte superior da tela:
+1. Botão aplicar:
+2. Botão pesquisa/atualizar (tabela de filtros aplicados)
+3. Botão pesquisa/atualizar (tabela de filtros aplicados)
 
-Assim caso os filtros/tabelas sejam extensas o usuário não precisa usar a barra de rolagem para selecionar a opção.
+Assim caso os filtros/tabelas sejam extensos o usuário não precisa usar a barra de rolagem para selecionar as opções.
+
+1. Botão Aplicar
 
 ![](static/imagens/wireframe-aplicar-barra-lateral.png)
 
 --
 
+2. Botão pesquisa/atualizar (tabela de filtros aplicados)
+
 ![](static/imagens/wireframe-pesquisa-filtro-aplicado.png)
 
 --
+
+3. Botão pesquisa/atualizar (tabela de filtros aplicados)
 
 ![](static/imagens/wireframe-aplicar-add-remover-coluna.png)
 
@@ -85,10 +98,13 @@ Assim caso os filtros/tabelas sejam extensas o usuário não precisa usar a barr
 
 ### Slide 15
 
-- Acrescentar a opção todos. O usuário poderá combinar vários parâmetros para o mesmo filtro (selecionar mais de um item) ou selecionar a opção **[Todos]**.                      
-Ao selecionar [Todos], serão exibidos todos os parâmetros daquele filtro com a opção 'x' (excluir). O usuário poderá remover os parâmetros não desejados clicando no 'x'.
+1. Acrescentar a opção TODOS em cada filtro da consulta avançada.
 
-**Caso seja possível, gostaríamos que ao selecionar um filtro esse seja direcionado automaticamente a barra filtros aplicados, sem a necessidade do usuário clicar em 'aplicar'. **
+Assim, o usuário poderá combinar vários parâmetros para o mesmo filtro ao selecionar mais de um item ou selecionar a opção **[Todos]**.   
+
+Ao selecionar [Todos], serão exibidos todos os parâmetros daquele filtro com a opção 'x' (excluir) nos itens, podendo o usuário poderá remover os parâmetros não desejados clicando no 'x'.
+
+2. **Caso seja possível, ao selecionar um filtro no barra a esquerda, que o portal direcione automaticamente a opção escolhida paraa tela filtros aplicados, sem a necessidade do usuário clicar em 'aplicar'. **
 
 Detalhes do comportamento desse campos estão descritas no documento de especificação.
 
@@ -97,15 +113,15 @@ Detalhes do comportamento desse campos estão descritas no documento de especifi
 
 ### Slide 17
 
-Incluir a opção do usuário excluir um filtro selecionado no campos filtros aplicados.
+1. Incluir a opção do usuário excluir um filtro selecionado no campo filtros aplicados.
 
-Por exemplo, caso o usuário queira excluir o campo 'Órgãos' ele poderá fazer isso sem a necessidade de excluir os filtros um a um.
+Por exemplo, caso o usuário queira excluir o campo 'Órgãos' ele poderá fazer isso sem a necessidade de excluir os filtros um a um. Ele poderá excluir o campo "ÓRGÃO"
 
 ![](static/imagens/wireframe-filtros-aplicados.png)
 
 --
 ### Slide 19
 
-Excluir a opção Exibir Gráfico da consulta "monte sua pesquisa". A exibição de gráfico nesse nível da consulta não é possível devido a diversidade de informações.
+1. Excluir a opção Exibir Gráfico da consulta "monte sua pesquisa". A exibição de gráfico nesse nível da consulta não é possível devido a diversidade de informações.
 
 ![](static/imagens/wireframe-grafico-monte-sua-pesquisa.png)
