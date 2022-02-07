@@ -3,8 +3,7 @@
 Esse documento tem como objetivo alinhar/sugerir as alterações propostas pela PRODEMGE quanto a especificação da consulta Acordo Judicial da Vale.
 
 - [*URL Wireframe*](https://xd.adobe.com/view/64a90aea-4369-4d8d-b426-72f46590dbcd-31fa/screen/518fb455-60d2-4870-84d4-57c43f6c224a)
-- [Documentação Monte sua pesquisa](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec016_remodelagem-pesquisa-avancada/espec016_remodelagem-pesquisa-avancada/pesquisa-avandada-espec.md)
-- [Documentação layout](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/v1_layout_20220127/espec018_recursos-acordo-judicial-vale/recursos-vale-espec.md)
+- [Documentação layout](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/v2_layout_20220207/espec018_recursos-acordo-judicial-vale/recursos-vale-espec.md)
 - [Documentação Dados](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/v1_dados_20220127/espec018_recursos-acordo-judicial-vale/recursos-vale-dados.md)
 
 ## Comentários
@@ -35,9 +34,8 @@ ____
 
 1. Alterar texto do botão Download:
 - Planilha (CSV)
-- Base Completa
 
-2. Alterar a funcionalidade da opão PDF
+2. Alterar a funcionalidade da opção PDF
 - PDF -> ao selecionar essa opção o arquivo PDF deverá ser aberto em outra aba do navegador
 
 Ver mais detalhes do comportamento da funcionalidade no documento de Especificação - Capítulo **Download dos dados**
@@ -60,7 +58,7 @@ Acrescentar a opção compartilhar pelo WhatsApp
 
 ### Slide 7
 
-A formulário de detalhamento no formato modal ficou interessante, porém é necessário que o usuário possa compartilhar a *url* dessa tela. 
+O formulário de detalhamento no formato modal ficou interessante, porém é necessário que o usuário possa compartilhar a *url* dessa tela.
 Assim, sugere-se:
 - Possibilitar o compartilhamento desses dados, mesmo sendo no formato modal, caso isso não venha a comprometer a execução do cronograma, ou,
 
@@ -69,12 +67,12 @@ Assim, sugere-se:
 ![](static/imagens/wireframe-modal-detalhe.png)
 
 ----
-### Slide 12 / slide 17 /slide 26
+### Slide 15 / slide 17 /slide 26
 
-Todos os botões descritos abaixos devem estar localizados na parte superior da tela:
+Todos os botões descritos abaixo devem estar localizados na parte superior da tela:
 1. Botão aplicar:
 2. Botão pesquisa/atualizar (tabela de filtros aplicados)
-3. Botão pesquisa/atualizar (tabela de filtros aplicados)
+3. Botão aplicar (Adicionar/Remover Colunas)
 
 Assim caso os filtros/tabelas sejam extensos o usuário não precisa usar a barra de rolagem para selecionar as opções.
 
@@ -90,7 +88,7 @@ Assim caso os filtros/tabelas sejam extensos o usuário não precisa usar a barr
 
 --
 
-3. Botão pesquisa/atualizar (tabela de filtros aplicados)
+3. Botão aplicar (Adicionar/Remover Colunas)
 
 ![](static/imagens/wireframe-aplicar-add-remover-coluna.png)
 
@@ -102,9 +100,9 @@ Assim caso os filtros/tabelas sejam extensos o usuário não precisa usar a barr
 
 Assim, o usuário poderá combinar vários parâmetros para o mesmo filtro ao selecionar mais de um item ou selecionar a opção **[Todos]**.   
 
-Ao selecionar [Todos], serão exibidos todos os parâmetros daquele filtro com a opção 'x' (excluir) nos itens, podendo o usuário poderá remover os parâmetros não desejados clicando no 'x'.
+Ao selecionar [Todos], serão exibidos todos os parâmetros daquele filtro com a opção 'x' (excluir) nos itens, podendo o usuário  remover os parâmetros não desejados clicando no 'x'.
 
-2. **Caso seja possível, ao selecionar um filtro no barra a esquerda, que o portal direcione automaticamente a opção escolhida paraa tela filtros aplicados, sem a necessidade do usuário clicar em 'aplicar'. **
+2. Caso seja possível, ao selecionar um filtro no barra a esquerda, que o portal direcione automaticamente a opção escolhida para tela filtros aplicados, sem a necessidade do usuário clicar em 'aplicar'.
 
 Detalhes do comportamento desse campos estão descritas no documento de especificação.
 
