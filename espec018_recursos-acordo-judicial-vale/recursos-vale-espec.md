@@ -38,13 +38,16 @@ A [Lei nº 23.830/2021](https://www.almg.gov.br/consulte/legislacao/completa/com
 
 Esse documento tem como base a criação de uma nova consulta para possibilitar o acompanhamento das ações desenvolvidas pelo Governo do Estado de Minas Gerais com recursos provenientes do acordo judicial firmado com a Vale
 
-## Página Inicial 
+## Página Inicial
 <a href="#top">(inicio)</a>
 
-Adequar a Página Inicial do Portal para recepcionar a nova consulta de transparência dos recursos da Vale. 
+Adequar a Página Inicial do Portal para recepcionar a nova consulta de transparência dos recursos da Vale.
 
 - Criar de um quadro informativo (slideshow) que irá apresentar as novidades que forem lançadas no Portal;
 - Criar uma consulta (bloco) específico para disponibilizar as consultas de eventos extraordinários. Inicialmente esse menu será composto pela Consulta COVID e a Consulta do Acordo Judicial da Vale.
+
+Exemplo:
+- [*Slideshow* Portal de Transparência Santa Catarina](http://transparencia.sc.gov.br/)
 
 ## Página Inicial da consulta - Pesquisa Básica
 <a href="#top">(inicio)</a>
@@ -111,18 +114,21 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 * A pesquisa básica irá apresentar como padrão a tabela de resultados com os dados do exercício vigente e os dados da consulta 'Por Projeto'.
 
-* A data de atualização dos dados (*Dados atualizados em*), o período e o ícone *Exibir Gráfico* ou *Exibir Tabela* serão exibidos acima da tabela de resultados.
+* A data de atualização dos dados (*Dados atualizados em*), o período, o ícone *Exibir Gráfico* ou *Fechar Gráfico*, Download, Compartilhar serão exibidos acima do gráfico/tabela de resultados.
 
-* Como padrão os dados serão exibidos no formato de tabela e caso o usuário queira visualizar os dados em forma de gráfico deve clicar em '*Exibir Gráfico*'. Para retornar a exibição no formato tabela o usuário deve clicar em '*Exibir Tabela*'
+* Como padrão os dados serão exibidos no formato de tabela e caso o usuário queira visualizar os dados em forma de gráfico deve clicar em '*Exibir Gráfico*'. Para retornar a exibição no formato tabela o usuário deve clicar em '*Fechar Gráfico*'
 
 * A barra de pesquisa da tabela de resultado deverá retornar os dados a medida que o usuário for digitando. O atributo *placeholder* deve ser aplicado na barra de pesquisa.
+
+* A opção de 'Exibir linhas' (quantidade de linhas) será exibida na parte superior da tabela.
+
+* O usuário poderá solicitar a exibição dos dados com código e descrição. Ao clicar no botão '*Exibir código e descrição*' uma nova coluna será adicionada a esquerda de cada coluna que tenha a descrição.
 
 * Os valores TOTAL GERAL e o SUBTOTAL serão exibidos na tabela de resultados de acordo com o comportamento do usuário:
 
   * **TOTAL GERAL:** quando o usuário não aplicar nenhum filtro na tabela ou quanto todos os dados forem exibidos em uma única página, ou seja, sem paginação;
   * **SUBTOTAL:** quando o usuário aplicar qualquer filtro na tabela através da barra de pesquisa ou quando houver paginação na tabela de resultado, ou seja, houver mais de uma página de resultado.
 
-* O usuário poderá solicitar a exibição dos dados com código e descrição. Ao clicar no botão '*Exibir código e descrição*' uma nova coluna será adicionada a esquerda de cada coluna que tenha a descrição.
 
 ![](static/imagens/tabela-resultados-parte-superior.png)
 
@@ -144,14 +150,19 @@ A barra de navegação superior será composta pelos seguintes campos:
  * logo do Portal de Transparência no início da página e
  * *URL*, paginação e a data no fim da página.
  * O arquivo gerado irá exibir os mesmos dados apresentados na tela considerando todos os filtros aplicados e inclusive o TOTAL GERAL ou SUBTOTAL conforme o comportamento do usuário.
+ * ao selecionar essa opção o arquivo PDF deverá ser aberto em outra aba do navegador
 
 
-* **Download tabela:**
-Será exibido a tabela completa de todas as páginas no formato CSV, independente do filtro aplicado. O campo TOTAL GERAL também deverá ser exibido.      
- Exibir código e descrição em campos distintos, independente de o usuário selecionar a opção '*Exibir código e descrição*'
+* **Download Planilha (CSV):**
+ * Será exibido a tabela completa de todas as páginas no formato CSV, independente do filtro aplicado.
+ * O campo TOTAL GERAL também deverá ser exibido.      
+ * Exibir código e descrição em campos distintos, independente de o usuário selecionar a opção '*Exibir código e descrição*'
 
-* **Download base completa:** O usuário será direcionado para o conjunto de dados da respectiva consulta no Portal de Dados Abertos. O PdT deverá permitir que a equipe DTA inclua/altere a *url* desse campo através da área administrativa do Portal.                  
-O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA decida se o campo Download Base Completa será exibido ou não na parte superior da tabela de resultado.
+
+* **Download base completa:**
+ * O usuário será direcionado para o conjunto de dados da respectiva consulta no Portal de Dados Abertos.
+ *O PdT deverá permitir que a equipe DTA inclua/altere a *url* desse campo através da área administrativa do Portal.                  
+ * O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA decida se o campo Download Base Completa será exibido ou não na parte superior da tabela de resultado.
 
 ##### Barra de pesquisa
 
@@ -160,6 +171,17 @@ A barra de pesquisa deve aceitar várias formas de preenchimento dos dados:
 * Desconsiderar acentuação, letras maiúsculas/minúsculas;
 * Desconsiderar palavras intermediárias (ex.: Ao digitar “gestao pública”, um dos resultados será “Gestão da Administração Pública”);
 * O usuário poderá pesquisar por qualquer coluna na tabela de resultados.
+
+#### Compartilhar dados:
+<a href="#top">(inicio)</a>
+
+O usuário poderá Compartilhar os link dos dados nos seguintes canais, no mínimo:
+
+- Twitter
+- Facebook
+- WhatsApp
+- Por e-mail
+
 
 #### Leiaute - Formulário de Detalhamento
 <a href="#top">(inicio)</a>
