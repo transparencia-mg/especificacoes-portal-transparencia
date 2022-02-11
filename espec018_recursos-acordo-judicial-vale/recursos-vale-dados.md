@@ -45,18 +45,23 @@ Esse documento tem como base a criação de uma nova consulta para possibilitar 
 <a href="#top">(inicio)</a>
 
 Os dados dessa consulta serão extraídos do Universo BO SIGCON- Entrada.
-- Armazém BO / Pastas públicas - SIAFI > CGE_Portal da Transparência > Recursos Vale> Tela Projeto
+- Armazém BO / Pastas públicas - SIAFI > SUPORTE- SIAFI > CGE > Consulta Vale Recursos Vale> Tela Projeto
 
 
 #### Filtros da Consulta
 
+Essa consulta será plurianual, ou seja, o usuário irá visualizar todos os projetos e valores independente do ano de cadastro o Convênio Código.
+
+
 | Armazém BO- SIGCON ENTRADA       | Filtro
 |--------------------------|-----------------
-|Convênio Código | Usar os filtros que constam no amazém BO     
+|Convênio Código | Usar os filtros que constam no armazém BO     
 
-------
-verificar se existe a possibilidade de ser criado novos Convênios, se sim teremos que ver como a DTA irá proceder quanto a esses filtros.
--------
+
+***OBSERVAÇÃO IMPORTANTE***
+
+Deverá ser incluído no ETL uma regra que identifique caso surja algum outro projeto que não esteja incluído no mapa de carga do Portal
+
 
 #### Campos da Tabela
 
@@ -79,9 +84,11 @@ verificar se existe a possibilidade de ser criado novos Convênios, se sim terem
 <a href="#top">(inicio)</a>
 
 Os dados dessa consulta serão extraídos do Universo BO SIAFI
-- Armazém BO / Pastas públicas - SIAFI > CGE_Portal da Transparência > Recursos Vale> > TELA ÓRGÃO
+-  Armazém BO / Pastas públicas - SIAFI > SUPORTE- SIAFI > CGE > Consulta Vale Recursos Vale> TELA ÓRGÃO
 
 #### Filtros da Consulta
+
+Essa consulta será anual, ou seja, o usuário irá visualizar a execução do projeto conforme o período selecionado.
 
 |Dados| Armazém BO- SIAFI       |Dimensão SIAFI| Filtro  |
 |--|--------------------------|----------|-------
@@ -115,13 +122,13 @@ ____
 
 ##### Tabela 2º nível
 
-- Armazém BO / Pastas públicas - SIAFI > CGE_Portal da Transparência > Recursos Vale > TELA ÓRGÃO - nível 2
+- Armazém BO / Pastas públicas - SIAFI > SUPORTE- SIAFI > CGE > Consulta Vale Recursos Vale> TELA ÓRGÃO - nível 2
 
 Ao clicar em algum dado do campo 'Código SIAFI' o usuário será direciona ao segundo nível da consulta, lista de empenhos correspondente ao código SIAFI selecionado.
 
 |Dados|  Campo Armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Tooltip - PdT           | Exibição da Coluna
 |--|-----------------------------|---|-------------------------|--------------------|---|
-|Despesa| Número Empenho| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada|Empenho           | Número de identificação do documento de empenho no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )  |default
+|Despesa| Número Empenho| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Empenho           | Número de identificação do documento de empenho no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )  |default
 |Despesa| Data Registro Doc Empenho | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Data de Registro do Empenho  | Data de registro do documento de empenho   |default
 |Despesa|  CNPJ_CPF Credor - Formatado    |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |CNPJ/ CPF  Favorecido  | Número de identificação: Pessoa Física (CPF) e Pessoa Jurídica (CNPJ) | default
 | Despesa|  Razão Social Credor   |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Favorecido    | Nome de quem recebeu recursos públicos estaduais pela prestação de serviço ou entrega do produto. Ex: prefeituras, servidores, empresas, entidades do terceiro setor, etc.  |default
@@ -141,7 +148,7 @@ Ao clicar em algum dado do campo 'Código SIAFI' o usuário será direciona ao s
 
 ##### Formulário de Detalhamento
 
-- Armazém BO / Pastas públicas - SIAFI > CGE_Portal da Transparência > Recursos Vale > Formulário de Detalhamento
+- Armazém BO / Pastas públicas - SIAFI > SUPORTE- SIAFI > CGE > Consulta Vale Recursos Vale> > Formulário de Detalhamento
 
 O formulário de detalhamento deverá exibir a inscrição, liquidação e pagamento dos valores em restos a pagar referente ao todos os exercícios.
 Exemplo:
@@ -291,10 +298,12 @@ _______
 <a href="#top">(inicio)</a>
 
 Os dados dessa consulta serão extraídos do Universo BO SIAFI.
-- Armazém BO / Pastas públicas - SIAFI > CGE_Portal da Transparência > Recursos Vale> Tela Município
+- Armazém BO / Pastas públicas - SIAFI > SUPORTE- SIAFI > CGE > Consulta Vale Recursos Vale> Tela Município
 
 
 #### Filtros da Consulta
+
+Essa consulta será plurianual, ou seja, o usuário irá visualizar todos repasses referente ao Município independentemente do ano de repasse.
 
 | Armazém BO- SIAFI       | Filtro
 |--------------------------|-----------------
@@ -305,7 +314,7 @@ Os dados dessa consulta serão extraídos do Universo BO SIAFI.
 
 |Dados| Campo armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Tooltip - PdT           | Exibição da Coluna
 |-|------|---|---------------|------------|---|
-|Município |Ano de Exercício|Período Contábil|Ano de Exercício do Repasse|Ano de exercício que o repasse ocorreu|---|
+|Município |Ano de Exercício |Período Contábil| Ano do Repasse|Ano de exercício que o repasse ocorreu|---|
 |Município |Município Credor - Descrição| SIAFI - Execução Orçamentária da Despesa - Despesa Realizada > Credor - Despesa |Município |Nome do Município que recebeu os repasses do Acordo Judicial conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021|*default*
 |Município |Número Empenho| SIAFI - Execução Orçamentária da Despesa - Despesa Realizada|Empenho| Número de identificação do documento de empenho no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|*default*|
 |Município |Data Registro| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados da Ordem de Pagamento - Despesa| Data de Registro|Data de Registro do Pagamento no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|*default*|
@@ -314,17 +323,21 @@ Os dados dessa consulta serão extraídos do Universo BO SIAFI.
 
 ![](static/imagens/tabela-municipio.png)
 
+**Comportamento da Consulta:**
 
+- Ao clicar no campo 'Empenho' o usuário será direcionado o formulário de detalhamento referente ao empenho.
 
 ______
 ### Por Receita
 <a href="#top">(inicio)</a>
 
 Os dados dessa consulta serão extraídos do Universo BO SIAFI.
-- Armazém BO / Pastas públicas - SIAFI > CGE_Portal da Transparência > Recursos Vale> Tela Receita
+- Armazém BO / Pastas públicas - SIAFI > SUPORTE- SIAFI > CGE > Consulta Vale Recursos Vale> Tela Receita
 
 
 #### Filtros da Consulta
+
+Essa consulta será plurianual, ou seja, o usuário irá visualizar os valores arrecadados por ano.
 
 | Armazém BO- SIAFI       | Filtro
 |--------------------------|-----------------
@@ -347,7 +360,7 @@ Classificação Receita - Formatado| 2990.00.1.1.02.000
 
 ![](static/imagens/tabela-receita.png)
 
-#### Ponto de Destaque
+## Ponto de Destaque
 
 A pesquisa básica deve permitir que novas informações possam ser incluídas através da integração de fontes estáticas, ou seja, fonte que não seja o Armazém BO.
 
