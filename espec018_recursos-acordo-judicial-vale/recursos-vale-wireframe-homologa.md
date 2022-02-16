@@ -1,4 +1,20 @@
+---
+Título: "Homologa telas Wireframe"
+Contrato Manutenção: 15210010062019 (INF. 3951)
+Proposta comercial:
+output:
+  html_document:
+    theme: united
+    toc: yes
+  pdf_document:
+    toc: yes
+  word_document:
+    toc: yes
+---
+
+
 # Homologa telas Wireframe
+<a href="#top">(inicio)</a>
 
 Esse documento tem como objetivo alinhar/sugerir as alterações propostas pela PRODEMGE quanto a especificação da consulta Acordo Judicial da Vale.
 
@@ -52,8 +68,6 @@ O ícone "Monte sua pesquisa" deverá ser posicionado em outro lugar da tela, pa
 
 </div>
 ------
-
-
 
 ### Slide 5
 
@@ -237,7 +251,6 @@ A opção escolhida pela CGE refere-se  a versão expandida com as seguinte alte
 - O comportamento do 'exibir todos' e do símbolo serão os mesmos, ou seja, abrirá o popup com as opções de seleção.
 
 Na imagem abaixo tentei reproduzir a ideia:
-
 
 ![](static/imagens/wireframe-filtros-monte-sua-pesquisa.png)
 
