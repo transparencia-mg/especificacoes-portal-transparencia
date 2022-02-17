@@ -18,7 +18,7 @@ output:
 
 Esse documento tem como objetivo alinhar/sugerir as alterações propostas pela PRODEMGE quanto a especificação da consulta Acordo Judicial da Vale.
 
-- [*URL Wireframe Principal*](https://xd.adobe.com/view/64a90aea-4369-4d8d-b426-72f46590dbcd-31fa/)
+- [*URL Wireframe Principal*](https://xd.adobe.com/view/02b436a5-d7e4-4351-9045-adfc06183195-57e7/)
 - [*URL Wireframe glossario*](https://xd.adobe.com/view/41b82ff6-5d59-4deb-97eb-e834b1562853-14eb/)
 - [*URL Wireframe filtros*](https://xd.adobe.com/view/f683cb28-7a64-497d-93ff-9482bf27490c-a3d0/)
 - [Documentação layout](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec018_recusos-vale/espec018_recursos-acordo-judicial-vale/recursos-vale-espec.md)
@@ -73,8 +73,8 @@ O ícone "Monte sua pesquisa" deverá ser posicionado em outro lugar da tela, pa
 
 <div class="alert alert-success">
 
-OK
---
+**OK**
+
 1. Alterar texto do botão Download:
   - Planilha (CSV)
 
@@ -88,33 +88,33 @@ Ver mais detalhes do comportamento da funcionalidade no documento de Especifica�
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-CORRIGIR
---
-Deixar a opção 'Exibir Linhas' apenas na parte superior uma vez que o cabeçalho das colunas, o exibir linhas, pesquisar resultados terão a funcionalidade * Cabeçalho fixo - Fixer Header ([eg. Consulta de Remuneração do PdT](https://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/202112/3/1094/4022/C/3569184/995/26150365));
---
+**CORRIGIDO**
+
+~Deixar a opção 'Exibir Linhas' apenas na parte superior uma vez que o cabeçalho das colunas, o exibir linhas, pesquisar resultados terão a funcionalidade * Cabeçalho fixo - Fixer Header ([eg. Consulta de Remuneração do PdT](https://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/202112/3/1094/4022/C/3569184/995/26150365));~
+
 
 3.  A opção de 'Exibir Linhas' deverá ficar na parte superior da tabela como já ocorre atualmente.
 
 Assim caso a tabela seja extensa o usuário não precisa usar a barra de rolagem para escolher a quantidade de linhas.
 
-![](static/imagens/wireframe-exibir-linhas.png)
+![](static/imagens/wireframe-exibir-linhas-corrigido.png)
 
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-CORRIGIR
---
-Faltou acrescentar a opção de compartilhar WhatsApp
---
+**CORRIGIDO**
+
+~Faltou acrescentar a opção de compartilhar WhatsApp~
+
 3. Compartilhar Dados
 
 Acrescentar a opção compartilhar pelo WhatsApp
 
-![](static/imagens/wireframe-compartilhar.png)
+![](static/imagens/wireframe-compartilhar-corrigido.png)
 
   </div>
 ----
@@ -225,13 +225,13 @@ Ressaltamos que ao compartilhar a *url* da tabela de resultados do monte sua pes
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-### [Glossário](https://xd.adobe.com/view/41b82ff6-5d59-4deb-97eb-e834b1562853-14eb/screen/76fdb647-bd87-43c6-9e14-925ef33a2a10) Slide 2
+### [Glossário](https://xd.adobe.com/view/f7f4e297-6bb6-4315-9e73-7a2909b30452-a2a7/screen/145e7e82-ad85-40a5-b227-e0c8d0cac747)
 
 Reforçamos que ao clicar em um qualquer termo o usuário deverá ser direcionado diretamente para a palavra correspondente dentro do glossário.
 
-![](static/imagens/wireframe-glossario.png)
+![](static/imagens/wireframe-glossario-corrigida.png)
 
   </div>
 
@@ -241,14 +241,14 @@ Reforçamos que ao clicar em um qualquer termo o usuário deverá ser direcionad
 Alterar
 --
 
-### [Filtro Exibir](https://xd.adobe.com/view/f683cb28-7a64-497d-93ff-9482bf27490c-a3d0/screen/fc0a1e82-1c45-494e-b789-59df9034ebab)
+### [Filtro Exibir](https://xd.adobe.com/view/965f7297-a884-462e-af3c-902944963cb1-c30c/screen/f342f2a6-6869-4a32-98aa-c77e9fe30dd3)
 
 A opção escolhida pela CGE refere-se  a versão expandida com as seguinte alterações:
 
 - A opção 'exibir todos' deverá ficar dentro da barra horizontal conforme foi sugerido na versão compactada. Lembrando que o número referente ao quantitativo de opções possíveis deverá ser mantido.
 
-- Acrescentar o símbolo "..." ao da lado da lupa.
-- O comportamento do 'exibir todos' e do símbolo serão os mesmos, ou seja, abrirá o popup com as opções de seleção.
+- ~Acrescentar o símbolo "..." ao da lado da lupa. **OK**~
+- ~O comportamento do 'exibir todos' e do símbolo serão os mesmos, ou seja, abrirá o popup com as opções de seleção. **OK**~
 
 Na imagem abaixo tentei reproduzir a ideia:
 
