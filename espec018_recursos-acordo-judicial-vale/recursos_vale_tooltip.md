@@ -36,9 +36,32 @@ A [Lei nº 23.830/2021](https://www.almg.gov.br/consulte/legislacao/completa/com
 # Especificação - Monte sua Pesquisa
 <a href="#top">(inicio)</a>
 
-## MONTE SUA PESQUISA - TOOTLTIP
+## TEXTO DA PÁGINA INICIAL
 <a href="#top">(inicio)</a>
 
+## TOOLTIP DAS CONSULTAS PRÉ FORMATADAS
+<a href="#top">(inicio)</a>
+
+|Consulta                   |Tabela Armazém|Tabela PdT                 |tooltip                                                          |
+|---------------------------|--------------|---------------------------|-----------------------------------------------------------------|
+|Por Projeto                |              |Por Projeto                |Consulte os valores destinados a cada Projeto do Acordo Judicial |
+|Por Execução               |              |Por Execução               |Consulte a execução financeira de cada Projeto do Acordo Judicial|
+|Transferência por Município|              |Transferência por Município|Consulte as transferências realizadas para os municípios         |
+|Por Receita                |              |Por Receita                |Consulte os valores arrecadados pelo Acordo Judical              |
+|Início                     |              |Início                     |                                                                 |
+|Término                    |              |Término                    |                                                                 |
+|Escolha                    |              |Escolha                    |Selecione os filtros da sua consulta                             |
+|Pesquisar                  |              |Pesquisar                  |Exibe os dados pesquisados                                       |
+|Monte sua Pesquisa         |              |Monte sua Pesquisa         |Monte a sua consulta personalizada                               |
+
+## TOOLTIP DO BOTÃO MONTE SUA PESQUISA
+<a href="#top">(inicio)</a>
+
+## TOOLTIP DOS TERMOS DESTACADOS DENTRO DO TEXTO INICIAL
+<a href="#top">(inicio)</a>
+
+## TOOL TIP DOS FILTROS DA BARRA VERTICAL / MONTE SUA PESQUISA - TOOTLTIP
+<a href="#top">(inicio)</a>
 |Universo                                                       |Consulta       |Tabela Armazém                                       |Tabela PdT                                 |Tooltip                                                                                                                                                                                                                                                                                                                  |
 |--------------------------------------------------------|---------|--------------------------------------------|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Armazém BO- SIAFI                                       |Município|Data de Registro                            |Data de Registro do Pagamento       |Data de registro do pagamento                                                                                                                                                                                                                                                                                      |
@@ -133,18 +156,4 @@ A [Lei nº 23.830/2021](https://www.almg.gov.br/consulte/legislacao/completa/com
 
 
 
-## OUTROS DADOS - TOOTLTIP
-<a href="#top">(inicio)</a>
-
-|Consulta                   |Tabela Armazém|Tabela PdT                 |tooltip                                                          |
-|---------------------------|--------------|---------------------------|-----------------------------------------------------------------|
-|Por Projeto                |              |Por Projeto                |Consulte os valores destinados a cada Projeto do Acordo Judicial |
-|Por Execução               |              |Por Execução               |Consulte a execução financeira de cada Projeto do Acordo Judicial|
-|Transferência por Município|              |Transferência por Município|Consulte as transferências realizadas para os municípios         |
-|Por Receita                |              |Por Receita                |Consulte os valores arrecadados pelo Acordo Judical              |
-|Início                     |              |Início                     |                                                                 |
-|Término                    |              |Término                    |                                                                 |
-|Escolha                    |              |Escolha                    |Selecione os filtros da sua consulta                             |
-|Pesquisar                  |              |Pesquisar                  |Exibe os dados pesquisados                                       |
-|Monte sua Pesquisa         |              |Monte sua Pesquisa         |Monte a sua consulta personalizada                               |
 
