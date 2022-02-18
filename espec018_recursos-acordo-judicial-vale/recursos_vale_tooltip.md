@@ -130,3 +130,21 @@ A [Lei nº 23.830/2021](https://www.almg.gov.br/consulte/legislacao/completa/com
 |Armazém BO- SIAFI                                       |Receita  |Valor Previsto Atualizado                   |Valor Previsto Atualizado           |Valor estimado inicial para arrecadação no ano consultado, previsto na Lei Orçamentária Anual, atualizado ao longo do ano.                                                                                                                                                                                         |
 |Armazém BO- SIAFI                                       |Receita  |Valor Previsto Inicial                      |Valor Previsto Inicial              |Valor estimado da arrecadação para o ano consultado, previsto na Lei Orçamentária Anual (LOA)                                                                                                                                                                                                                      |
 
+
+
+
+## OUTROS DADOS - TOOTLTIP
+<a href="#top">(inicio)</a>
+
+|Consulta                   |Tabela Armazém|Tabela PdT                 |tooltip                                                          |
+|---------------------------|--------------|---------------------------|-----------------------------------------------------------------|
+|Por Projeto                |              |Por Projeto                |Consulte os valores destinados a cada Projeto do Acordo Judicial |
+|Por Execução               |              |Por Execução               |Consulte a execução financeira de cada Projeto do Acordo Judicial|
+|Transferência por Município|              |Transferência por Município|Consulte as transferências realizadas para os municípios         |
+|Por Receita                |              |Por Receita                |Consulte os valores arrecadados pelo Acordo Judical              |
+|Início                     |              |Início                     |                                                                 |
+|Término                    |              |Término                    |                                                                 |
+|Escolha                    |              |Escolha                    |Selecione os filtros da sua consulta                             |
+|Pesquisar                  |              |Pesquisar                  |Exibe os dados pesquisados                                       |
+|Monte sua Pesquisa         |              |Monte sua Pesquisa         |Monte a sua consulta personalizada                               |
+
