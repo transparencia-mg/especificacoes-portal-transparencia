@@ -53,25 +53,20 @@ Os dados dessa consulta serão extraídos do Universo BO SIGCON- Entrada.
 Essa consulta será plurianual, ou seja, o usuário irá visualizar todos os projetos e valores independente do ano de cadastro o Convênio Código.
 
 
-| Armazém BO- SIGCON ENTRADA       | Filtro
+|    Fonte de Dados    | URL
 |--------------------------|-----------------
-|Convênio Código | Usar os filtros que constam no armazém BO     
-
-
-***OBSERVAÇÃO IMPORTANTE***
-
-Deverá ser incluído no ETL uma regra que identifique caso surja algum outro projeto que não esteja incluído no mapa de carga do Portal
-
+|Portal de Dados Abertos|    
 
 #### Campos da Tabela
 
-| Armazém BO- SIGCON ENTRADA       | PdT | Tooltip - PdT           | Exibição da Coluna
-|----------------------------------|-------------------------|--------------------|---|
-| Convênio Número Sequencial SIAFI | Código SIAFI            | Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |default
-| Plano Trabalho Objeto            | Projeto                 | Descrição do Projeto conforme consta no Acordo de Reparação e de execução do Governo do Estado                 |default
+| Portal de Dados Abertos | PdT | Tooltip - PdT | Exibição da Coluna
+|------------|-----|--------------------|---|
+| Códiso SIAFI| Código SIAFI            | Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |default
+| Anexo         | Anexo      |          Anexo ao qual o Projeto se refere conforme o Acordo de Reparação e de execução do Governo do Estado.  conforme      |default| Projeto            | Projeto                 | Descrição do Projeto conforme consta no Acordo de Reparação e de execução do Governo do Estado                 |default
 | Unidade Orçamentária Código      | Código Órgão            |    Código da Unidade Orçamentária responsável pelo Projeto                | ao acionar o botão '*Exibir código e descrição*''
 | Unidade Orçamentária Nome        | Órgão                   |    Descrição da Unidade Orçamentária responsável pelo Projeto                |default
-| Valor Total Convênio             | Valor Total           |          Valor Total destinado ao projeto          |default
+| Valor Total do Projeto          | Valor Total    do Projeto       |          Valor Total destinado ao projeto          |default
+
 
 ![](static/imagens/tabela-projeto.png)
 
@@ -88,12 +83,12 @@ Os dados dessa consulta serão extraídos do Universo BO SIAFI
 
 #### Filtros da Consulta
 
-Essa consulta será anual, ou seja, o usuário irá visualizar a execução do projeto conforme o período selecionado.
+Essa consulta será anual, ou seja, o usuário irá visualizar a execução (Despesa e restos a Pagar) do projeto conforme o período selecionado.
 
 |Dados| Armazém BO- SIAFI       |Dimensão SIAFI| Filtro  |
 |--|--------------------------|----------|-------
-| Despesa| Contrato Convênio Entrada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Usar como filtro todos os 'Convênio Número Sequencial SIAFI' listados na consulta Por Projeto extraídos do SIGCON-Entrada |     
-| Restos a Pagar| Contrato Convênio Entrada  | SIAFI - Execução de Restos a Pagar > Restos a Pagar | Usar como filtro todos os Convênio Número Sequencial SIAFI listados na consulta Por Projeto extraídos do SIGCON-Entrada
+| Despesa| Contrato Convênio Entrada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Usar como filtro todos os 'Códigos SIAFI' listados na consulta Por Projeto |     
+| Restos a Pagar| Contrato Convênio Entrada  | SIAFI - Execução de Restos a Pagar > Restos a Pagar | UUsar como filtro todos os 'Códigos SIAFI' listados na consulta Por Projeto
 | | Ano de Exercício  | SIAFI - Período Contábil |
 
 
@@ -145,6 +140,7 @@ Ao clicar em algum dado do campo 'Código SIAFI' o usuário será direciona ao s
 
 - Ao clicar no campo 'Empenho' o usuário será direcionado o formulário de detalhamento.
 
+-----
 
 ##### Formulário de Detalhamento
 
@@ -369,3 +365,17 @@ A pesquisa básica deve permitir que novas informações possam ser incluídas a
 <a href="#top">(inicio)</a>
 
 Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas da pesquisa básica, porém será necessário verificar a granularidade para os devidos cruzamentos.
+
+|Filtro barra vertical| Filtro Tabela de resultado | Comportamento ao selecionar o filtro na barra vertical
+|--------|--|--------|
+|Período| não |- Como padrão o período será o do ano corrente até a última data de atualização<br> - Usuário é obrigado a selecionar o período<br>
+|Código SIAFI|sim ||
+|Órgão|sim ||
+|Código SIAFI|sim ||
+|Órgão|sim ||
+|Código SIAFI|sim ||
+|Órgão|sim |Esse campo deverá possibilitar a busca por nome ou descrição| 
+|Código SIAFI|sim ||
+|Órgão|sim ||
+|Código SIAFI|sim ||
+|Órgão|sim ||
