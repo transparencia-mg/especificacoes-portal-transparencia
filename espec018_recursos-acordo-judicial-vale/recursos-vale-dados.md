@@ -72,10 +72,10 @@ Essa consulta será plurianual, ou seja, o usuário irá visualizar todos os pro
 
 **Comportamento da Consulta:**
 
-- Ao clicar no campo 'Código SIAFI' o usuário será direcionado para o 2º nível da consulta por órgão, ou seja, a tabela de empenhos. A consulta deverá exibir todos dos empenhos relacionados ao Código SIAFI selecionado independentemente do ano de registro do empenho.
+- Ao clicar no campo 'Código SIAFI' o usuário será direcionado para o 2º nível da consulta por execução, ou seja, a tabela de empenhos. A consulta deverá exibir todos dos empenhos relacionados ao Código SIAFI selecionado independentemente do ano de registro do empenho.
 
 
-### Por Órgão
+### Por Execução
 <a href="#top">(inicio)</a>
 
 Os dados dessa consulta serão extraídos do Universo BO SIAFI
@@ -363,3 +363,5 @@ A pesquisa básica deve permitir que novas informações possam ser incluídas a
 
 ## Monte sua pesquisa - Pesquisa Avançada
 <a href="#top">(inicio)</a>
+
+Em elaboração.
