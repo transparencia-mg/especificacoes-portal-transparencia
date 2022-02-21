@@ -54,7 +54,7 @@ ____
 
 ### Slide 34
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 CORRIGIR
 --
@@ -120,7 +120,7 @@ Acrescentar a opção compartilhar pelo WhatsApp
 ----
 
 ### Slide 8
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 ATENÇÃO
 --
@@ -135,7 +135,7 @@ Assim, sugere-se:
 
 - Manter o padrão, atualmente, adotado no Portal, ou seja, abrir os dados em outra aba, possibilitando ao usuário compartilhar a *url*
 
-![](static/imagens/wireframe-modal-detalhe.png)
+![](static/imagens/wireframe-modal-detalhe-corrigido.png)
   </div>
 
 ----
@@ -217,7 +217,7 @@ Por exemplo, caso o usuário queira excluir o campo 'Órgãos' ele poderá fazer
 
 ### Slide 22
 
-<div class="alert alert-danger">
+<div class="alert alert-info">
 
 Ressaltamos que ao compartilhar a *url* da tabela de resultados do monte sua pesquisa o usuário estará compartilhando o resultado exibido, ou seja, caso ele salve o link e posteriormente decida consultar novamente todos os filtros já aplicados estarão presentes.
 
@@ -236,22 +236,20 @@ Reforçamos que ao clicar em um qualquer termo o usuário deverá ser direcionad
   </div>
 
 
-  <div class="alert alert-danger">
+  <div class="alert alert-success">
 
-Alterar
---
 
 ### [Filtro Exibir](https://xd.adobe.com/view/965f7297-a884-462e-af3c-902944963cb1-c30c/screen/f342f2a6-6869-4a32-98aa-c77e9fe30dd3)
 
 A opção escolhida pela CGE refere-se  a versão expandida com as seguinte alterações:
 
-- A opção 'exibir todos' deverá ficar dentro da barra horizontal conforme foi sugerido na versão compactada. Lembrando que o número referente ao quantitativo de opções possíveis deverá ser mantido.
+- ~A opção 'exibir todos' deverá ficar dentro da barra horizontal conforme foi sugerido na versão compactada. Lembrando que o número referente ao quantitativo de opções possíveis deverá ser mantido~ OK.
 
 - ~Acrescentar o símbolo "..." ao da lado da lupa. **OK**~
 - ~O comportamento do 'exibir todos' e do símbolo serão os mesmos, ou seja, abrirá o popup com as opções de seleção. **OK**~
 
 Na imagem abaixo tentei reproduzir a ideia:
 
-![](static/imagens/wireframe-filtros-monte-sua-pesquisa.png)
+![](static/imagens/wireframe-filtros-monte-sua-pesquisa-corrigido.png)
 
   </div>
