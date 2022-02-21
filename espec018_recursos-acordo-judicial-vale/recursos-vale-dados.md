@@ -363,19 +363,3 @@ A pesquisa básica deve permitir que novas informações possam ser incluídas a
 
 ## Monte sua pesquisa - Pesquisa Avançada
 <a href="#top">(inicio)</a>
-
-Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas da pesquisa básica, porém será necessário verificar a granularidade para os devidos cruzamentos.
-
-|Filtro barra vertical| Filtro Tabela de resultado | Comportamento ao selecionar o filtro na barra vertical
-|--------|--|--------|
-|Período| não |- Como padrão o período será o do ano corrente até a última data de atualização<br> - Usuário é obrigado a selecionar o período<br>
-|Código SIAFI|sim ||
-|Órgão|sim ||
-|Código SIAFI|sim ||
-|Órgão|sim ||
-|Código SIAFI|sim ||
-|Órgão|sim |Esse campo deverá possibilitar a busca por nome ou descrição| 
-|Código SIAFI|sim ||
-|Órgão|sim ||
-|Código SIAFI|sim ||
-|Órgão|sim ||
