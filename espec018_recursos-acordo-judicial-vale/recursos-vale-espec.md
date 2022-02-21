@@ -91,7 +91,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 * A pesquisa básica será composta, inicialmente, por 4 ícones de tipo de consultas:
   * Por projeto
-  * Por Órgão
+  * Por Execução
   * Por Receita
   * Transferência por Município
 
@@ -189,6 +189,7 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 * 1º NÍVEL
   - [Código SIAFI]() -> ao clicar o usuário será direcionado para o 2º nível
   - Projeto
+  - Anexo
   - Código Órgão -> apenas quando o usuário clicar em 'Exibir Código e Descrição'
   - Órgão
   - Valor Total
@@ -196,12 +197,12 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 ![](static/imagens/tabela-projeto.png)
 
 * 2º NÍVEL
-  - Segundo nível da consulta por Órgão
+  - Segundo nível da consulta por Execução
 
 * 3º NÍVEL
     - Formulário de Detalhamento
 
-###### Consulta por Órgão
+###### Consulta por Execução
 
   * 1º NÍVEL
     * [Código SIAFI]() -> ao clicar o usuário será direcionado para o 2º nível
@@ -234,7 +235,8 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 
 ###### Consulta por Município
 
-  * 1º NÍVEL       
+  * 1º NÍVEL  
+    * Ano      
     * Município           
     * Empenho       
     * Data de Registro do Pagamento
@@ -242,6 +244,12 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
     * Valor Pago
 
 ![](static/imagens/tabela-municipio.png)
+
+* 2º NÍVEL
+  - Segundo nível da consulta por Execução
+
+* 3º NÍVEL
+    - Formulário de Detalhamento
 
 ###### Consulta por Receita
 
