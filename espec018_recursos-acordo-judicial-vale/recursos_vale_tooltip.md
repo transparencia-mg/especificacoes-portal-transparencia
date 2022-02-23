@@ -90,7 +90,9 @@ Pronto para montar a sua própria consulta? Clique aqui e monte sua consulta por
 <a href="#top">(inicio)</a>
 
 IBGE - Instituto Brasileiro de Geografia e Estatistica - principal provedor de informações geográficas e estatísticas do Brasil.
+
 IPCA - Índice de preços no consumidor é usado para observar tendências de inflação. É calculado com base no preço médio necessário para comprar um conjunto de bens de consumo e serviços num país, comparando com períodos anteriores.
+
 Fonte de Recurso 95 - Recursos provenientes de compensações, indenizações e ressarcimentos originários da ocorrência de desastres socioambientais.
 
 
