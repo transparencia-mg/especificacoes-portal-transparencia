@@ -390,7 +390,7 @@ Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas 
 |Data Registro do Empenho |***NÃO*** | sim|
 |CNPJ/ CPF Favorecido<br>***Usar o atributo placeholder : Texto: 'apenas números'***|sim |sim|
 |Favorecido<br>***Usar o atributo placeholder : Texto: 'informe pelo menos 3 caracteres'***|sim |sim|
-|Data de Registro do Pagamento|sim | sim||
+|Data de Registro do Pagamento|***NÃO*** | sim||
 |Situação Ordem de Pagamento - Descrição| ***NÃO*** | sim||
 |Número Docto Pagamento|sim | sim||
 |Número do Processo de Compra|sim | sim||
