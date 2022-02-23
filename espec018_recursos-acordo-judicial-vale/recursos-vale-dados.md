@@ -314,7 +314,7 @@ Essa consulta será plurianual, ou seja, o usuário irá visualizar todos repass
 |Município |Município Credor - Descrição| SIAFI - Execução Orçamentária da Despesa - Despesa Realizada > Credor - Despesa |Município |Nome do Município que recebeu os repasses do Acordo Judicial conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021|*default*
 |Município |Número Empenho| SIAFI - Execução Orçamentária da Despesa - Despesa Realizada|Empenho| Número de identificação do documento de empenho no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|*default*|
 |Município |Data Registro| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados da Ordem de Pagamento - Despesa| Data de Registro|Data de Registro do Pagamento no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|*default*|
-|Município |Situação Ordem de Pagamento - Descrição |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados da Ordem de Pagamento - Despesa |Situação da Ordem de Pagamento| Situação da Ordem de Pagament conforme consta no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|*default*|
+|Município |Situação Ordem de Pagamento - Descrição |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados da Ordem de Pagamento - Despesa |Situação da Ordem de Pagamento| Situação da Ordem de Pagamento conforme consta no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|*default*|
 |Município |Valor Pago Financeiro| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Valor Pago| Valor referente aos repasses efetuados conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021 do Acordo Judicial|*default*|
 
 ![](static/imagens/tabela-municipio.png)
@@ -338,7 +338,7 @@ Essa consulta será plurianual, ou seja, o usuário irá visualizar os valores a
 | Armazém BO- SIAFI       | Filtro
 |--------------------------|-----------------
 |Fonte de Recurso| 95
-Classificação Receita - Formatado| 2990.00.1.1.02.000
+Classificação Receita - Formatado| 2990.00.1.1.02.000<br>1990.99.1.1.10.000
 
 
 #### Campos da Tabela
@@ -365,3 +365,95 @@ A pesquisa básica deve permitir que novas informações possam ser incluídas a
 <a href="#top">(inicio)</a>
 
 Em elaboração.
+
+
+Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas da pesquisa básica, porém será necessário verificar a granularidade para os devidos cruzamentos.
+
+|Campo PdT |Barra vertical| Tabela de resultado
+|----|--|-----|
+|Período|sim| ***NÃO*** |
+|Código SIAFI|sim|sim ||
+|Anexo|sim|sim ||
+|Projeto|sim|sim ||
+|Órgão|sim | sim||
+|Unidade Executora|sim | sim||
+|Função|sim | sim||
+|Subfunção|sim | sim||
+|Programa|sim | sim||
+|Ação|sim | sim||
+|Categoria Econômica da Despesa|sim | sim||
+|Grupo de Despesa|sim | sim||
+|Modalidade de Aplicação|sim | sim||
+|Elemento de Despesa|sim | sim||
+|Item de Despesa|sim | sim||
+|Fonte de Recurso|sim | sim||
+|Indicador de Procedência e Uso (IPU)|sim | sim||
+|Tipo Empenho - Descrição|***NÃO*** | sim||
+|Empenho|sim |sim|
+|Data Registro do Empenho |***NÃO*** | sim|
+|CNPJ/ CPF Favorecido<br>***Usar o atributo placeholder : Texto: 'apenas números'***|sim |sim|
+|Favorecido<br>***Usar o atributo placeholder : Texto: 'informe pelo menos 3 caracteres'***|sim |sim|
+|Data de Registro do Pagamento|sim | sim||
+|Situação Ordem de Pagamento - Descrição| ***NÃO*** | sim||
+|Número Docto Pagamento|sim | sim||
+|Número do Processo de Compra|sim | sim||
+|Data criação do Processo|***NÃO*** |sim|
+|Procedimento de Contratação|sim |sim|
+|Situação Processo|***NÃO*** |sim|
+|Objeto Processo|sim |sim|
+|Número Contrato // Convênio/Parceria de recurso de saída|sim |sim|
+|Data Publicação Contrato|***NÃO*** |sim|
+|Data Vigência Atualizada do Contrato|***NÃO*** |sim|
+|Data Publicação Convênio/ Parceria|***NÃO*** |sim|
+|Objeto Contrato|sim |sim|
+|Título do Convênio / Parceria|sim |sim|
+|Situação do Convênio / Parceria|***NÃO*** |sim|
+|Situação do Contrato|***NÃO*** |sim|
+|Valor Empenhado|***NÃO***|sim|
+|Valor Liquidado|***NÃO***|sim|
+|Valor Pago|***NÃO***|sim|
+|Valor Liquidado em Restos a Pagar|***NÃO***|sim|
+|Valor Pago em Restos a Pagar|***NÃO***|sim|
+|Valor Total Pago|***NÃO***|sim|
+
+
+Os campos referente aos códigos serão exibidos quando o usuário acionar o botão *Exibir código/descrição*  na extração/download dos dados.
+
+|Campo PdT (Códigos)
+|- |
+|Código Órgão|
+|Código Unidade Executora|
+|Código Função|
+|Código Subfunção
+|Código Programa
+|Código Ação|
+|Código Categoria Econômica da Despesa
+|Código Grupo de Despesa
+|Código Modalidade de Aplicação
+|Código Elemento de Despesa
+|Código Item de Despesa
+|Código Fonte de Recurso
+|Código Indicador de Procedência e Uso (IPU)
+
+
+Extração aparecer o período selecionado
+
+### Comportamento da consulta
+
+- Todos os campos da barra vertical poderão ser consultados por descrição ou código. Exemplo:[Consulta PdT Proposta Orçamentária](https://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada)
+-  Como padrão o período será o do ano corrente até a última data de atualização
+- As colunas referente a valores sempre serão exibidas como default;
+- Todos os filtros exibidos no campo *Filtros Aplicados* deverão ser exibidos na tabela de resultados
+- Quando o usuário selecionar a opção
+- Ao clicar no Número do Empenho, Número da Liquidação ou Número da Ordem de Pagamento o usuário será direcionado ao formulário de detalhamento do empenho completo (dados do empenho, liquidação e pagamento)
+
+O formulário de detalhamento podia contemplar todas as fases da despesa independente de qual formulário o usuário clicar. O ideal é que todos apresentem os mesmos dados que constam no formulário do número de empenho que é o mais completo.
+
+Colunas padrões da Tabela de Resultado
+A tabela de resultados irá exibir como padrão as colunas:
+
+Ano
+Órgão
+Valor Empenhado
+Valor Liquidado
+Valor Pago
