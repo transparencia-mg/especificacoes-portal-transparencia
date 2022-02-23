@@ -314,7 +314,7 @@ Essa consulta será plurianual, ou seja, o usuário irá visualizar todos repass
 |Município |Município Credor - Descrição| SIAFI - Execução Orçamentária da Despesa - Despesa Realizada > Credor - Despesa |Município |Nome do Município que recebeu os repasses do Acordo Judicial conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021|*default*
 |Município |Número Empenho| SIAFI - Execução Orçamentária da Despesa - Despesa Realizada|Empenho| Número de identificação do documento de empenho no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|*default*|
 |Município |Data Registro| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados da Ordem de Pagamento - Despesa| Data de Registro|Data de Registro do Pagamento no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|*default*|
-|Município |Situação Ordem de Pagamento - Descrição |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados da Ordem de Pagamento - Despesa |Situação da Ordem de Pagamento| Situação da Ordem de Pagament conforme consta no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|*default*|
+|Município |Situação Ordem de Pagamento - Descrição |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados da Ordem de Pagamento - Despesa |Situação da Ordem de Pagamento| Situação da Ordem de Pagamento conforme consta no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|*default*|
 |Município |Valor Pago Financeiro| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Valor Pago| Valor referente aos repasses efetuados conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021 do Acordo Judicial|*default*|
 
 ![](static/imagens/tabela-municipio.png)
@@ -338,7 +338,7 @@ Essa consulta será plurianual, ou seja, o usuário irá visualizar os valores a
 | Armazém BO- SIAFI       | Filtro
 |--------------------------|-----------------
 |Fonte de Recurso| 95
-Classificação Receita - Formatado| 2990.00.1.1.02.000
+Classificação Receita - Formatado| 2990.00.1.1.02.000<br>1990.99.1.1.10.000
 
 
 #### Campos da Tabela
@@ -364,6 +364,12 @@ A pesquisa básica deve permitir que novas informações possam ser incluídas a
 ## Monte sua pesquisa - Pesquisa Avançada
 <a href="#top">(inicio)</a>
 
+<<<<<<< HEAD
+=======
+Em elaboração.
+
+
+>>>>>>> 6f27a5b2e08b8f2c8dd422752c9ade9137c66641
 Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas da pesquisa básica, porém será necessário verificar a granularidade para os devidos cruzamentos.
 
 |Campo PdT |Barra vertical| Tabela de resultado
@@ -388,8 +394,13 @@ Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas 
 |Tipo Empenho - Descrição|***NÃO*** | sim||
 |Empenho|sim |sim|
 |Data Registro do Empenho |***NÃO*** | sim|
+<<<<<<< HEAD
 |CNPJ/ CPF Favorecido|sim |sim|
 |Favorecido|sim |sim|
+=======
+|CNPJ/ CPF Favorecido<br>***Usar o atributo placeholder : Texto: 'apenas números'***|sim |sim|
+|Favorecido<br>***Usar o atributo placeholder : Texto: 'informe pelo menos 3 caracteres'***|sim |sim|
+>>>>>>> 6f27a5b2e08b8f2c8dd422752c9ade9137c66641
 |Data de Registro do Pagamento|sim | sim||
 |Situação Ordem de Pagamento - Descrição| ***NÃO*** | sim||
 |Número Docto Pagamento|sim | sim||
@@ -400,6 +411,11 @@ Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas 
 |Objeto Processo|sim |sim|
 |Número Contrato // Convênio/Parceria de recurso de saída|sim |sim|
 |Data Publicação Contrato|***NÃO*** |sim|
+<<<<<<< HEAD
+=======
+|Data Vigência Atualizada do Contrato|***NÃO*** |sim|
+|Data Publicação Convênio/ Parceria|***NÃO*** |sim|
+>>>>>>> 6f27a5b2e08b8f2c8dd422752c9ade9137c66641
 |Objeto Contrato|sim |sim|
 |Título do Convênio / Parceria|sim |sim|
 |Situação do Convênio / Parceria|***NÃO*** |sim|
@@ -420,8 +436,13 @@ Os campos referente aos códigos serão exibidos quando o usuário acionar o bot
 |Código Unidade Executora|
 |Código Função|
 |Código Subfunção
+<<<<<<< HEAD
 |Programa
 |Ação|
+=======
+|Código Programa
+|Código Ação|
+>>>>>>> 6f27a5b2e08b8f2c8dd422752c9ade9137c66641
 |Código Categoria Econômica da Despesa
 |Código Grupo de Despesa
 |Código Modalidade de Aplicação
