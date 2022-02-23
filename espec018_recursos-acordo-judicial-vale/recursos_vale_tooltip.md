@@ -39,24 +39,24 @@ A [Lei nº 23.830/2021](https://www.almg.gov.br/consulte/legislacao/completa/com
 ## TEXTO DA PÁGINA INICIAL
 <a href="#top">(inicio)</a>
 
-Essa consulta tem por objetivo divulgar informações sobre os valores repassados ao Governo de Minas após a assinatura do Acordo Judicial de Reparação firmado entre o Governo de Minas, o Ministério Público de Minas Gerais (MPMG), o Ministério Público Federal (MPF) e a Defensoria Pública de Minas Gerais (DPMG) com a Vale S.A., sob mediação do Tribunal de Justiça de Minas Gerais (TJMG). 
+Essa consulta tem por objetivo divulgar informações sobre os valores repassados ao Estado de Minas Gerais por meio do Acordo Judicial de Reparação firmado entre o Governo de Minas, o Ministério Público de Minas Gerais (MPMG), o Ministério Público Federal (MPF) e a Defensoria Pública de Minas Gerais (DPMG) com a Vale S.A., sob mediação do Tribunal de Justiça de Minas Gerais (TJMG). 
 
 O Acordo foi assinado em 04 de fevereiro de 2021 e garantiu que a empresa Vale S.A. fosse responsabilizada pelos danos causados às regiões atingidas e à sociedade mineira pelo rompimento das barragens B-I, B-IV e B-IVA na Mina Córrego do Feijão, em Brumadinho, ocorrido em 25 de janeiro de 2019. 
 
 O Acordo Judicial visa reparar os danos decorrentes do rompimento das barragens da Vale S.A. em Brumadinho e conta com um valor inicial total de R$ 37.689.767.329,00 (trinta e sete bilhões, seiscentos e oitenta e nove milhões, setecentos e sessenta e sete mil, trezentos e vinte e nove reais).
 
-É necessário esclarecer que os valores constantes no Acordo de Reparação não serão, em sua integralidade, disponibilizados ao Governo de Minas. O documento define partes que são diferenciadas por: ‘Obrigações de Fazer da Vale’ (quando a empresa vai pagar e executar), ‘Obrigação de Pagar da Vale’ e ‘Recursos já executados com medidas emergenciais e início da reparação’.
+É importante esclarecer que os valores constantes no Acordo de Reparação não serão, em sua integralidade, disponibilizados ao Governo de Minas. Dos R$ 37,68 bilhões, apenas 
+R$ 11,06 bilhões efetivamente entrarão para os cofres do Estado. É esse o montante objeto da presente consulta as quais detalhamos em seguida. 
 
-Os recursos financeiros previstos para reparação que de fato entrarão para os cofres do Estado compreende cerca de R$ 11,06 bilhões dos R$ 37,68 bilhões e são os valores disponibilizados nessa consulta.
+As consultas criadas para dar transparência aos repasses e aos gastos realizados no Acordo Judicial de Reparação contemplam quatro diferentes escopos:
+1.	Consulta por Município: compreende o repasse de R$1.498.250.000,00 (um bilhão quatrocentos e noventa e oito milhões duzentos e cinquenta mil reais) para o fortalecimento dos serviços públicos e as melhorias de infraestrutura e de mobilidade nos municípios. As quantias foram determinadas proporcionalmente à população total, conforme dados de 2019 do [IBGE]. 
 
-As consultas criadas para dar transparência aos repasses e aos gastos realizados no Acordo Judicial de Reparação contemplam 4 diferentes escopos:
-1.	Consulta por Município: compreendem o repasse de R$1.498.250.000,00 (um bilhão quatrocentos e noventa e oito milhões duzentos e cinquenta mil reais) para o fortalecimento dos serviços públicos e as melhorias de infraestrutura e de mobilidade nos municípios. As quantias foram determinadas proporcionalmente à população total, conforme dados de 2019 do Instituto Brasileiro de Geografia e Estatística – IBGE. 
+2.	Consulta por Projeto: compreende a divulgação dos valores destinados aos Projetos previstos no Acordo Judicial de Reparação, seguindo cronograma de desembolso definido no Acordo e atualização prevista pelo [IPCA].
 
-2.	Consulta por Projeto: compreende a divulgação dos valores destinados aos Projetos previstos no Acordo Judicial de Reparação, seguindo cronograma de desembolso definido no Acordo e atualização prevista pelo IPCA.
+3. Consulta por Execução: é a consulta que permite a visualização dos gastos de cada projeto, contemplando nomes dos favorecidos e valores pagos. 
 
-3. Consulta por Execução: é a consulta que permite a visualização dos gastos de cada projeto, contemplando os nomes dos favorecidos e os valores pagos. 
-
-4. Consulta por Receita: é a visualização dos valores arrecadados em conta específica do Estado, bem como os seus respectivos valores de atualização monetária.
+4. Consulta por Receita: é a visualização dos valores arrecadados em conta específica do Estado, bem como os seus respectivos valores de atualização monetária. Importante esclarecer que nessa consulta estão contemplados as correções e atualizações monetárias da Fonte de Recurso 95 que compreende recursos recebidos por danos advindos de desastres
+socioambientais, não apenas relativos a esse Acordo Judicial.
 
 Outras informações sobre o Acordo Judicial de Reparação podem ser consultadas na página do [Comitê Pró-Brumadinho](https://www.mg.gov.br/pro-brumadinho).
 
@@ -69,7 +69,7 @@ Outras informações sobre o Acordo Judicial de Reparação podem ser consultada
 |Por Projeto                |              |Por Projeto                |Consulte os valores destinados a cada Projeto do Acordo Judicial |
 |Por Execução               |              |Por Execução               |Consulte a execução financeira de cada Projeto do Acordo Judicial|
 |Transferência por Município|              |Transferência por Município|Consulte as transferências realizadas para os municípios         |
-|Por Receita                |              |Por Receita                |Consulte os valores arrecadados pelo Acordo Judical              |
+|Por Receita                |              |Por Receita                |Consulte os valores arrecadados por danos advindos de desastres socioambientais       |
 |Início                     |              |Início                     |                                                                 |
 |Término                    |              |Término                    |                                                                 |
 |Escolha                    |              |Escolha                    |                                                                 |
@@ -89,6 +89,9 @@ Pronto para montar a sua própria consulta? Clique aqui e monte sua consulta por
 ## TOOLTIP DOS TERMOS DESTACADOS DENTRO DO TEXTO INICIAL
 <a href="#top">(inicio)</a>
 
+IBGE - Instituto Brasileiro de Geografia e Estatistica - principal provedor de informações geográficas e estatísticas do Brasil.
+IPCA - Índice de preços no consumidor é usado para observar tendências de inflação. É calculado com base no preço médio necessário para comprar um conjunto de bens de consumo e serviços num país, comparando com períodos anteriores.
+Fonte de Recurso 95 - Recursos provenientes de compensações, indenizações e ressarcimentos originários da ocorrência de desastres socioambientais.
 
 
 ## TOOL TIP DOS FILTROS DA BARRA VERTICAL / MONTE SUA PESQUISA - TOOTLTIP
