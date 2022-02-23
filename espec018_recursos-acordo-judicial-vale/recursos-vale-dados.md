@@ -364,4 +364,138 @@ A pesquisa básica deve permitir que novas informações possam ser incluídas a
 ## Monte sua pesquisa - Pesquisa Avançada
 <a href="#top">(inicio)</a>
 
-Em elaboração.
+Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas da pesquisa básica, porém será necessário verificar a granularidade para os devidos cruzamentos.
+
+|Campo PdT |Barra vertical| Tabela de resultado
+|----|--|-----|
+|Período|sim| ***NÃO*** |
+|Código SIAFI|sim|sim ||
+|Anexo|sim|sim ||
+|Projeto|sim|sim ||
+|Órgão|sim | sim||
+|Unidade Executora|sim | sim||
+|Função|sim | sim||
+|Subfunção|sim | sim||
+|Programa|sim | sim||
+|Ação|sim | sim||
+|Categoria Econômica da Despesa|sim | sim||
+|Grupo de Despesa|sim | sim||
+|Modalidade de Aplicação|sim | sim||
+|Elemento de Despesa|sim | sim||
+|Item de Despesa|sim | sim||
+|Fonte de Recurso|sim | sim||
+|Indicador de Procedência e Uso (IPU)|sim | sim||
+|Tipo Empenho - Descrição|***NÃO*** | sim||
+|Empenho|sim |sim|
+|Data Registro do Empenho |***NÃO*** | sim|
+|CNPJ/ CPF Favorecido|sim |sim|
+|Favorecido|sim |sim|
+|Data de Registro do Pagamento|sim | sim||
+|Situação Ordem de Pagamento - Descrição| ***NÃO*** | sim||
+|Número Docto Pagamento|sim | sim||
+|Número do Processo de Compra|sim | sim||
+|Data criação do Processo|***NÃO*** |sim|
+|Procedimento de Contratação|sim |sim|
+|Situação Processo|***NÃO*** |sim|
+|Objeto Processo|sim |sim|
+|Número Contrato // Convênio/Parceria de recurso de saída|sim |sim|
+|Data Publicação Contrato|***NÃO*** |sim|
+|Objeto Contrato|sim |sim|
+|Título do Convênio / Parceria|sim |sim|
+|Situação do Convênio / Parceria|***NÃO*** |sim|
+|Situação do Contrato|***NÃO*** |sim|
+|Valor Empenhado|***NÃO***|sim|
+|Valor Liquidado|***NÃO***|sim|
+|Valor Pago|***NÃO***|sim|
+|Valor Liquidado em Restos a Pagar|***NÃO***|sim|
+|Valor Pago em Restos a Pagar|***NÃO***|sim|
+|Valor Total Pago|***NÃO***|sim|
+
+
+Os campos referente aos códigos serão exibidos quando o usuário acionar o botão *Exibir código/descrição*  na extração/download dos dados.
+
+|Campo PdT (Códigos)
+|- |
+|Código Órgão|
+|Código Unidade Executora|
+|Código Função|
+|Código Subfunção
+|Programa
+|Ação|
+|Código Categoria Econômica da Despesa
+|Código Grupo de Despesa
+|Código Modalidade de Aplicação
+|Código Elemento de Despesa
+|Código Item de Despesa
+|Código Fonte de Recurso
+|Código Indicador de Procedência e Uso (IPU)
+
+
+Extração aparecer o período selecionado
+
+### Comportamento da consulta
+
+1. Todos os campos da barra vertical poderão ser consultados por descrição ou código. Exemplo: [Consulta PdT Proposta Orçamentária](https://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada)
+
+1. Como padrão o período será o do ano corrente até a última data de atualização
+1. A tabela apresentará colunas padrões independentemente de o usuário selecionar/aplicar algum filtro:
+
+***1º nível:***
+  - Valor empenhado
+  - valor Liquidado
+  - Valo pago
+  - Valor Liquidado em restos a pagar
+  - Valor Pago em restos a Pagar
+  - Valor Total pago
+
+
+  A tabela de resultados do 1º nível terá como opção o botão *Detalhar* o qual direcionará o usuário para a lista de empenhos (2º nível) conforme os filtros selecionados. Caso o usuário solicite a exibição da coluna empenho já no 1º nível e este for um valor único, o usuário será direcionado para o formulário de detalhamento relacionado ao empenho
+
+***2º nível:***
+
+  - empenho
+  - Data de registro do empenho
+  - Unidade orçamentárias
+  - Unidade Executora
+  - Favorecido
+  - CPF/CNPJ do Favorecido
+  - Valor empenhado
+  - valor Liquidado
+  - Valo pago
+  - Valor Liquidado em restos a pagar
+  - Valor Pago em restos a Pagar
+  - Valor Total pago
+
+O usuário poderá clicar no número do empenho para exibir o formulário de detalhamento do empenho.
+
+![](static/imagens/monte-sua-pesquisa-tb-resultados-1-nivel.png)
+
+![](static/imagens/monte-sua-pesquisa-tb-resultados-2-nivel.png)
+
+***Exceção:***     
+ Quando o usuário utilizar o filtro "***Número da Ordem de Pagamento***" na barra de filtros vertical as colunas abaixo deverão ser exibidas com formatação diferente das demais. Caso o filtro "***Número da Ordem de Pagamento*** seja retirado da barra de filtros aplicados a formatação e exibição dos valores dessas colunas seguirá o padrão.
+      - Valor empenhado
+      - Valo liquidado
+      - Valor liquidado em Restos a Pagar
+
+![](static/imagens/monte-sua-pesquisa-tb-resultados-OP.png)
+
+4. Opção exportar Planilha (CSV): exibir código e descrição em colunas distintas, independente de o usuário selecionar a opção código na tabela de resultado. O período selecionado deverá ser exibido na primeira coluna da planilha;
+
+5. Ao inserir qualquer coluna essas serão incluídas antes das colunas de valores. E caso seja incluída alguma coluna de valor essa será incluída ao final de todas as colunas
+
+5. O usuário poderá adicionar ou remover colunas - hide/show columns na tabela de resultados. Ao clicar em Adicionar/Remover colunas será exibido uma barra lateral a direta com todas as colunas que poderão ser adicionadas ou removidas (eg. Portal da Transparência Federal).
+
+6. O ícone Adicionar/Remover Colunas terá uma barra de pesquisa onde o usuário poderá digitar o filtro desejado.
+
+7. A tabela de resultados deverá apresentar todos os atributos das tabelas da pesquisa básica.
+
+
+
+
+
+
+
+
+
+-
