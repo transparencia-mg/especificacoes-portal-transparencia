@@ -62,10 +62,11 @@ Essa consulta será plurianual, ou seja, o usuário irá visualizar todos os pro
 | Portal de Dados Abertos | PdT | Tooltip - PdT | Exibição da Coluna
 |------------|-----|--------------------|---|
 | Códiso SIAFI| Código SIAFI            | Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |default
-| Anexo         | Anexo      |          Anexo ao qual o Projeto se refere conforme o Acordo de Reparação e de execução do Governo do Estado.  conforme      |default| Projeto            | Projeto                 | Descrição do Projeto conforme consta no Acordo de Reparação e de execução do Governo do Estado                 |default
-| Unidade Orçamentária Código      | Código Órgão            |    Código da Unidade Orçamentária responsável pelo Projeto                | ao acionar o botão '*Exibir código e descrição*''
+| Anexo         | Anexo      |          Anexo ao qual o Projeto se refere conforme o Acordo de Reparação      |default
+| Projeto     | Projeto                 | Descrição do Projeto conforme consta no Acordo de Reparação e de execução do Governo do Estado                 |default
+| Unidade Orçamentária Código      | Código Órgão            |    Código da Unidade Orçamentária responsável pelo Projeto                | ao acionar o botão '*Exibir código e descrição*'
 | Unidade Orçamentária Nome        | Órgão                   |    Descrição da Unidade Orçamentária responsável pelo Projeto                |default
-| Valor Total do Projeto          | Valor Total    do Projeto       |          Valor Total destinado ao projeto          |default
+| Valor Total do Projeto          | Valor Total    do Projeto       |          Valor destinado ao projeto com as devidas correções por meio da aplicação do IPCA         |default
 
 
 ![](static/imagens/tabela-projeto.png)
