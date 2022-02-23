@@ -101,7 +101,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 * O comportamento da opção *'Filtrar por'* será conforme o tipo de consulta selecionada e como padrão será exibido a opção 'Todos'
   * **Por Projeto**: Ao selecionar essa opção o usuário poderá escolher o Projeto a ser exibido.
   * **Por Órgão**: Ao selecionar esse tipo de consulta no campo *"Filtrar por"* o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados, conforme já ocorre atualmente no PdT.
-  * **Por Receita**: o usuário poderá escolher o Projeto a ser exibido.
+  * **Por Receita**:
   * **Transferência por Município**: o usuário poderá escolher um Município ser exibido.
 
 ![](static/imagens/barra-navegacao-superior.png)
@@ -181,6 +181,7 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 - Facebook
 - WhatsApp
 - Por e-mail
+- Copiar *url*
 
 #### Campos Pesquisa básica - Navegação por filtros
 
@@ -190,7 +191,7 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
   - [Código SIAFI]() -> ao clicar o usuário será direcionado para o 2º nível
   - Projeto
   - Anexo
-  - Código Órgão -> apenas quando o usuário clicar em 'Exibir Código e Descrição'
+  - Código Órgão -> apenas quando o usuário clicar em 'Exibir Código e Descrição
   - Órgão
   - Valor Total
 
@@ -218,7 +219,7 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 ![](static/imagens/tabela-orgao-1nivel.png)
 
   * 2º NÍVEL
-    * [Empenhos]() -> ao clicar o usuário será direcionado para o 3º nível
+    * [Empenho]() -> ao clicar o usuário será direcionado para o 3º nível
     * Data de Registro do Empenho
     * CNPJ/CPF Favorecido
     * Favorecido
@@ -238,7 +239,7 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
   * 1º NÍVEL  
     * Ano      
     * Município           
-    * Empenho       
+    * [Empenho]()       
     * Data de Registro do Pagamento
     * Situação da Ordem de Pagamento
     * Valor Pago
@@ -340,15 +341,14 @@ A pesquisa será composta pelos seguintes componentes:
 
 * A barra deslizante deverá listar os parâmetros selecionados com a opção ***['x']() (excluir)***. O usuário poderá remover os parâmetros não desejados clicando no ***['x']()***.
 
-* O usuário poderá combinar vários parâmetros para o mesmo filtro (selecionar mais de um item) ou selecionar a opção ***[Todos]***.
-* Ao selecionar ***[Todos]***, serão exibidos todos os parâmetros daquele filtro com a opção ***['x']() (excluir)***. O usuário poderá remover os parâmetros não desejados clicando no ***['x']()***.
+* O usuário poderá combinar vários parâmetros para o mesmo filtro (selecionar mais de um item) ou selecionar a opção ***[Exibir Todos]***.
+* Ao selecionar ***[Exibir Todos]***, abrirá uma tela modal exibindo todos os parâmetros daquele filtro com as opções *Selecionar tudo, Limpar Seleção, Inverter seleção*. O usuário poderá remover os parâmetros não desejados ao assinalar com tique a opção.  
+eg. [Slides 10](https://xd.adobe.com/view/965f7297-a884-462e-af3c-902944963cb1-c30c/screen/f342f2a6-6869-4a32-98aa-c77e9fe30dd3)
 
 ![](static/imagens/barra-deslizante2.png)
 
 ![](static/imagens/barra-deslizante1.png)
 
-
-* Ao finalizar a seleção o usuário deverá clicar em **Aplicar** ou em **Limpar** caso queira desmarcar todas as opções. Essa opção deverá está localizada na parte superior da barra.
 
 * Os botões **Aplicar/Limpar** devem ser estilisticamente diferenciados (eg. [*Differentiate button types*](https://medium.com/nextux/design-better-buttons-6b64eb7f13bc#aj%20la%20lb))
 
@@ -442,7 +442,7 @@ OBS: Os botões **Pesquisar/ Atualizar/Limpar** devem ser estilisticamente difer
 
 * As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remover Colunas*** podendo o usuário desativá-las.
 
-* Ao inserir qualquer coluna essas serão incluídas antes das colunas de valores. E caso seja incluída alguma coluna de valor essa será incluída ao final de todas as colunas.
+* Ao inserir qualquer coluna essas serão incluídas antes das colunas de valores. E caso seja incluída alguma coluna de valor o portal deverá manter a ordem da execução orçamentária (Valor empenhado, valor liquidado, valor pago, valor liquidado em RP, Valor Pago em RP, Valor Total Pago).
 
 ![](static/imagens/adicionar-remover-colunas.png)
 
