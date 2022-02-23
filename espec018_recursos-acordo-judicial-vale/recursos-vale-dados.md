@@ -364,12 +364,6 @@ A pesquisa básica deve permitir que novas informações possam ser incluídas a
 ## Monte sua pesquisa - Pesquisa Avançada
 <a href="#top">(inicio)</a>
 
-<<<<<<< HEAD
-=======
-Em elaboração.
-
-
->>>>>>> 6f27a5b2e08b8f2c8dd422752c9ade9137c66641
 Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas da pesquisa básica, porém será necessário verificar a granularidade para os devidos cruzamentos.
 
 |Campo PdT |Barra vertical| Tabela de resultado
@@ -394,13 +388,8 @@ Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas 
 |Tipo Empenho - Descrição|***NÃO*** | sim||
 |Empenho|sim |sim|
 |Data Registro do Empenho |***NÃO*** | sim|
-<<<<<<< HEAD
-|CNPJ/ CPF Favorecido|sim |sim|
-|Favorecido|sim |sim|
-=======
 |CNPJ/ CPF Favorecido<br>***Usar o atributo placeholder : Texto: 'apenas números'***|sim |sim|
 |Favorecido<br>***Usar o atributo placeholder : Texto: 'informe pelo menos 3 caracteres'***|sim |sim|
->>>>>>> 6f27a5b2e08b8f2c8dd422752c9ade9137c66641
 |Data de Registro do Pagamento|sim | sim||
 |Situação Ordem de Pagamento - Descrição| ***NÃO*** | sim||
 |Número Docto Pagamento|sim | sim||
@@ -411,11 +400,8 @@ Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas 
 |Objeto Processo|sim |sim|
 |Número Contrato // Convênio/Parceria de recurso de saída|sim |sim|
 |Data Publicação Contrato|***NÃO*** |sim|
-<<<<<<< HEAD
-=======
 |Data Vigência Atualizada do Contrato|***NÃO*** |sim|
 |Data Publicação Convênio/ Parceria|***NÃO*** |sim|
->>>>>>> 6f27a5b2e08b8f2c8dd422752c9ade9137c66641
 |Objeto Contrato|sim |sim|
 |Título do Convênio / Parceria|sim |sim|
 |Situação do Convênio / Parceria|***NÃO*** |sim|
@@ -436,13 +422,8 @@ Os campos referente aos códigos serão exibidos quando o usuário acionar o bot
 |Código Unidade Executora|
 |Código Função|
 |Código Subfunção
-<<<<<<< HEAD
-|Programa
-|Ação|
-=======
 |Código Programa
 |Código Ação|
->>>>>>> 6f27a5b2e08b8f2c8dd422752c9ade9137c66641
 |Código Categoria Econômica da Despesa
 |Código Grupo de Despesa
 |Código Modalidade de Aplicação
@@ -452,37 +433,38 @@ Os campos referente aos códigos serão exibidos quando o usuário acionar o bot
 |Código Indicador de Procedência e Uso (IPU)
 
 
-Extração aparecer o período selecionado
 
 ### Comportamento da consulta
 
-1. Todos os campos da barra vertical poderão ser consultados por descrição ou código. Exemplo: [Consulta PdT Proposta Orçamentária](https://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada)
+1. Todos os campos da barra vertical poderão ser consultados por descrição ou código, assim como ocorre na [Consulta PdT Proposta Orçamentária](https://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada) em que é possível digitar o nome ou a descrição nos filtros.
 
-1. Como padrão o período será o do ano corrente até a última data de atualização
-1. A tabela apresentará colunas padrões independentemente de o usuário selecionar/aplicar algum filtro:
+2. Como padrão o período a ser exibido será o do ano corrente até a data da atualização
+
+3. A tabela apresentará colunas com padrões independentemente, com a possiblidade de o usuário selecionar/aplicar algum filtro:
 
 ***1º nível:***
-  - Valor empenhado
+  - Valor Empenhado
   - valor Liquidado
-  - Valo pago
+  - Valo Pago
   - Valor Liquidado em restos a pagar
   - Valor Pago em restos a Pagar
   - Valor Total pago
 
 
-  A tabela de resultados do 1º nível terá como opção o botão *Detalhar* o qual direcionará o usuário para a lista de empenhos (2º nível) conforme os filtros selecionados. Caso o usuário solicite a exibição da coluna empenho já no 1º nível e este for um valor único, o usuário será direcionado para o formulário de detalhamento relacionado ao empenho
+A tabela de resultados do 1º nível terá como opção o botão *Detalhar* o qual direcionará o usuário para a lista de empenhos (2º nível) conforme os filtros selecionados e em seguida poderá ser direcionado para o formulário de detalhamento ao clicar em um dos empenhos da lista. 
+Caso o usuário solicite a exibição da coluna empenho já no 1º nível e este for um valor único, o usuário será direcionado para o formulário de detalhamento relacionado ao empenho.
 
 ***2º nível:***
 
-  - empenho
+  - Empenho
   - Data de registro do empenho
   - Unidade orçamentárias
   - Unidade Executora
   - Favorecido
   - CPF/CNPJ do Favorecido
-  - Valor empenhado
+  - Valor Empenhado
   - valor Liquidado
-  - Valo pago
+  - Valo Pago
   - Valor Liquidado em restos a pagar
   - Valor Pago em restos a Pagar
   - Valor Total pago
@@ -494,12 +476,16 @@ O usuário poderá clicar no número do empenho para exibir o formulário de det
 ![](static/imagens/monte-sua-pesquisa-tb-resultados-2-nivel.png)
 
 ***Exceção:***     
- Quando o usuário utilizar o filtro "***Número da Ordem de Pagamento***" na barra de filtros vertical as colunas abaixo deverão ser exibidas com formatação diferente das demais. Caso o filtro "***Número da Ordem de Pagamento*** seja retirado da barra de filtros aplicados a formatação e exibição dos valores dessas colunas seguirá o padrão.
+Quando o usuário utilizar o filtro "***Número da Ordem de Pagamento***" na barra de filtro vertical as colunas abaixo deverão ser exibidas em formato desabilitado, sem a exibição de dados: 
       - Valor empenhado
       - Valo liquidado
       - Valor liquidado em Restos a Pagar
-
+      
 ![](static/imagens/monte-sua-pesquisa-tb-resultados-OP.png)
+
+
+Caso o filtro "***Número da Ordem de Pagamento*** seja retirado da barra de filtros aplicados a formatação e exibição dos valores dessas colunas seguirá o padrão.
+
 
 4. Opção exportar Planilha (CSV): exibir código e descrição em colunas distintas, independente de o usuário selecionar a opção código na tabela de resultado. O período selecionado deverá ser exibido na primeira coluna da planilha;
 
@@ -507,16 +493,8 @@ O usuário poderá clicar no número do empenho para exibir o formulário de det
 
 5. O usuário poderá adicionar ou remover colunas - hide/show columns na tabela de resultados. Ao clicar em Adicionar/Remover colunas será exibido uma barra lateral a direta com todas as colunas que poderão ser adicionadas ou removidas (eg. Portal da Transparência Federal).
 
+![image](https://user-images.githubusercontent.com/52920939/155334538-e09d2c46-efd7-4554-9af2-95980bf3bf15.png)
+
 6. O ícone Adicionar/Remover Colunas terá uma barra de pesquisa onde o usuário poderá digitar o filtro desejado.
 
 7. A tabela de resultados deverá apresentar todos os atributos das tabelas da pesquisa básica.
-
-
-
-
-
-
-
-
-
--
