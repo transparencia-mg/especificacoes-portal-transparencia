@@ -41,6 +41,8 @@ Esse documento tem como base a criação de uma nova consulta para possibilitar 
 ## Pesquisa Básica - Tipo de Consultas
 <a href="#top">(inicio)</a>
 
+Para acessar o comportamento padrão da consulta básica acesse a [Especificação Layout - Consulta Básica](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec018_recusos-vale/espec018_recursos-acordo-judicial-vale/recursos-vale-espec.md)
+
 ### Por Projeto
 <a href="#top">(inicio)</a>
 
@@ -363,7 +365,7 @@ Classificação Receita - Formatado| 2990.00.1.1.02.000<br>1990.99.1.1.10.000
 
 Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas da pesquisa básica, porém será necessário verificar a granularidade para os devidos cruzamentos.
 
-|Campo PdT |Barra vertical| Tabela de resultado
+|Campo PdT |Barra vertical| Campos Adicionar/remover colunas
 |----|--|-----|
 |Período|sim| ***NÃO*** |
 |Código SIAFI|sim|sim ||
@@ -432,6 +434,10 @@ Os campos referente aos códigos serão exibidos quando o usuário acionar o bot
 
 ## Observações Gerais
 
+### Comportamento padrão da consulta
+
+[Ver Especificação Layout - Monte sua pesquisa](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec018_recusos-vale/espec018_recursos-acordo-judicial-vale/recursos-vale-espec.md)
+
 ### Barra de Navegação Vertical
 
 1. Todos os campos da barra vertical poderão ser consultados por descrição ou código, assim como ocorre na [Consulta PdT Proposta Orçamentária](https://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada) em que é possível digitar o nome ou a descrição nos filtros.
@@ -453,9 +459,12 @@ O [Portal da Transparência do Estado de São Paulo](www.fazenda.sp.gov.br/Sigeo
 
 ### Tabela de Resultados
 
-1. A tabela de resultados apresentará colunas com padrões independentemente, com a possiblidade de o usuário selecionar/aplicar algum filtro:
+1. A tabela de resultados apresentará colunas com padrões. 
+2. As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remover Colunas*** podendo o usuário desativá-las.
+3. Ao inserir qualquer coluna essas serão incluídas antes das colunas de valores. E caso seja incluída alguma coluna de valor o portal deverá manter a ordem da execução orçamentária (Valor empenhado, valor liquidado, valor pago, valor liquidado em RP, Valor Pago em RP, Valor Total Pago).
 
 ***1º nível:***
+  - [Detalhar]()
   - Valor Empenhado
   - valor Liquidado
   - Valo Pago
@@ -465,11 +474,11 @@ O [Portal da Transparência do Estado de São Paulo](www.fazenda.sp.gov.br/Sigeo
 
 
 A tabela de resultados do 1º nível terá como opção o botão *Detalhar* o qual direcionará o usuário para a lista de empenhos (2º nível) conforme os filtros selecionados e em seguida poderá ser direcionado para o formulário de detalhamento ao clicar em um dos empenhos da lista. 
-Caso o usuário solicite a exibição da coluna empenho já no 1º nível e este for um valor único, o usuário será direcionado para o formulário de detalhamento relacionado ao empenho.
+Caso o usuário solicite a exibição da coluna empenho já no 1º nível e este for um valor único, o usuário será direcionado diretamente para o formulário de detalhamento relacionado ao empenho.
 
 ***2º nível:***
 
-  - Empenho
+  - [Empenho]()
   - Data de registro do empenho
   - Unidade orçamentárias
   - Unidade Executora
@@ -482,7 +491,7 @@ Caso o usuário solicite a exibição da coluna empenho já no 1º nível e este
   - Valor Pago em restos a Pagar
   - Valor Total pago
 
-O usuário poderá clicar no número do empenho para exibir o formulário de detalhamento do empenho.
+O usuário poderá clicar no *número do empenho* para exibir o formulário de detalhamento relacionado ao empenho.
 
 ![](static/imagens/monte-sua-pesquisa-tb-resultados-1-nivel.png)
 
@@ -499,15 +508,6 @@ Quando o usuário utilizar o filtro "***Número da Ordem de Pagamento***" na bar
 
 Caso o filtro "***Número da Ordem de Pagamento*** seja retirado da barra de filtros aplicados a formatação e exibição dos valores dessas colunas seguirá o padrão.
 
-
 4. Opção exportar Planilha (CSV): exibir código e descrição em colunas distintas, independente de o usuário selecionar a opção código na tabela de resultado. O período selecionado deverá ser exibido na primeira coluna da planilha;
-
-5. Ao inserir qualquer coluna essas serão incluídas antes das colunas de valores. E caso seja incluída alguma coluna de valor essa será incluída ao final de todas as colunas
-
-5. O usuário poderá adicionar ou remover colunas - hide/show columns na tabela de resultados. Ao clicar em Adicionar/Remover colunas será exibido uma barra lateral a direta com todas as colunas que poderão ser adicionadas ou removidas (eg. Portal da Transparência Federal).
-
-![image](https://user-images.githubusercontent.com/52920939/155334538-e09d2c46-efd7-4554-9af2-95980bf3bf15.png)
-
-6. O ícone Adicionar/Remover Colunas terá uma barra de pesquisa onde o usuário poderá digitar o filtro desejado.
 
 7. A tabela de resultados deverá apresentar todos os atributos das tabelas da pesquisa básica.
