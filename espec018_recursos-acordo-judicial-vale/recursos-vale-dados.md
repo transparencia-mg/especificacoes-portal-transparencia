@@ -357,10 +357,6 @@ Classificação Receita - Formatado| 2990.00.1.1.02.000<br>1990.99.1.1.10.000
 
 ![](static/imagens/tabela-receita.png)
 
-## Ponto de Destaque
-
-A pesquisa básica deve permitir que novas informações possam ser incluídas através da integração de fontes estáticas, ou seja, fonte que não seja o Armazém BO.
-
 
 ## Monte sua pesquisa - Pesquisa Avançada
 <a href="#top">(inicio)</a>
@@ -386,25 +382,25 @@ Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas 
 |Item de Despesa|sim | sim||
 |Fonte de Recurso|sim | sim||
 |Indicador de Procedência e Uso (IPU)|sim | sim||
-|Tipo Empenho - Descrição|***NÃO*** | sim||
 |Empenho|sim |sim|
-|Data Registro do Empenho |***NÃO*** | sim|
-|CNPJ/ CPF Favorecido<br>***Usar o atributo placeholder : Texto: 'apenas números'***|sim |sim|
-|Favorecido<br>***Usar o atributo placeholder : Texto: 'informe pelo menos 3 caracteres'***|sim |sim|
-|Data de Registro do Pagamento|***NÃO*** | sim||
-|Situação Ordem de Pagamento - Descrição| ***NÃO*** | sim||
-|Número Docto Pagamento|sim | sim||
 |Número do Processo de Compra|sim | sim||
-|Data criação do Processo|***NÃO*** |sim|
 |Procedimento de Contratação|sim |sim|
-|Situação Processo|***NÃO*** |sim|
 |Objeto Processo|sim |sim|
 |Número Contrato // Convênio/Parceria de recurso de saída|sim |sim|
+|Objeto Contrato|sim |sim|
+|Título do Convênio / Parceria|sim |sim|
+|CNPJ/ CPF Favorecido<br>***Usar o atributo placeholder : Texto: 'apenas números'***|sim |sim|
+|Favorecido<br>***Usar o atributo placeholder : Texto: 'informe pelo menos 3 caracteres'***|sim |sim|
+|Número Docto Pagamento|sim | sim||
+|Data Registro do Empenho |***NÃO*** | sim|
+|Data de Registro do Pagamento|***NÃO*** | sim||
+|Tipo Empenho - Descrição|***NÃO*** | sim||
+|Situação Ordem de Pagamento - Descrição| ***NÃO*** | sim||
+|Data criação do Processo|***NÃO*** |sim|
+|Situação Processo|***NÃO*** |sim|
 |Data Publicação Contrato|***NÃO*** |sim|
 |Data Vigência Atualizada do Contrato|***NÃO*** |sim|
 |Data Publicação Convênio/ Parceria|***NÃO*** |sim|
-|Objeto Contrato|sim |sim|
-|Título do Convênio / Parceria|sim |sim|
 |Situação do Convênio / Parceria|***NÃO*** |sim|
 |Situação do Contrato|***NÃO*** |sim|
 |Valor Empenhado|***NÃO***|sim|
@@ -415,7 +411,7 @@ Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas 
 |Valor Total Pago|***NÃO***|sim|
 
 
-Os campos referente aos códigos serão exibidos quando o usuário acionar o botão *Exibir código/descrição*  na extração/download dos dados.
+Os campos referente aos códigos serão exibidos quando o usuário acionar o botão *Exibir código/descrição*  e na extração/download dos dados.
 
 |Campo PdT (Códigos)
 |- |
@@ -434,14 +430,30 @@ Os campos referente aos códigos serão exibidos quando o usuário acionar o bot
 |Código Indicador de Procedência e Uso (IPU)
 
 
+## Observações Gerais
 
-### Comportamento da consulta
+### Barra de Navegação Vertical
 
 1. Todos os campos da barra vertical poderão ser consultados por descrição ou código, assim como ocorre na [Consulta PdT Proposta Orçamentária](https://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada) em que é possível digitar o nome ou a descrição nos filtros.
+1. Como padrão o período a ser exibido será o do ano corrente até a data da atualização;
 
-2. Como padrão o período a ser exibido será o do ano corrente até a data da atualização
+### Barra de filtros
 
-3. A tabela apresentará colunas com padrões independentemente, com a possiblidade de o usuário selecionar/aplicar algum filtro:
+1. Ao selecionar o período específico a barra deslizante de cada filtro irá exibir como parâmetros apenas as classificações orçamentárias vigentes no ano. A exceção será para a consulta de Restos a Pagar, onde os parâmetros da barra deslizante irá refletir apenas as classificações orçamentárias inscritas em restos a pagar, e não a classificação orçamentária vigente no ano.
+
+1.A medida que o usuário selecionar um parâmetro de qualquer filtro automaticamente apenas as opções que possuem relacionamento com o parâmetro selecionado será exibida nos demais filtros.    
+
+Exemplo:   
+Ao selecionar o parâmetro '1521- Controladoria-Geral do Estado' no filtro *Órgão* e em seguida clicar no filtro *Programa* apenas os programas que tiveram execução na Controladoria-Geral do Estado naquele ano serão exibidos.
+
+O [Portal da Transparência do Estado de São Paulo](www.fazenda.sp.gov.br/SigeoLei131/Paginas/FlexConsDespesa.aspx) possui a funcionalidade citada acima.
+
+1. Casos os parâmetros selecionados não retornem nenhuma informação o PdT deverá apresentar uma mensagem informando que '*Não há dados a serem exibidos com os parâmetros selecionados.*''
+2. Os parâmetros selecionados na barra deslizante deverão ser exibidos na ordem que o usuário escolheu.
+
+### Tabela de Resultados
+
+1. A tabela de resultados apresentará colunas com padrões independentemente, com a possiblidade de o usuário selecionar/aplicar algum filtro:
 
 ***1º nível:***
   - Valor Empenhado
