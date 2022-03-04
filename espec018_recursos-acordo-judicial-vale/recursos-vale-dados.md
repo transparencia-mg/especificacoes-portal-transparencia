@@ -370,7 +370,7 @@ Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas 
 |Título do Convênio / Parceria|sim |sim|
 |CNPJ/ CPF Favorecido<br>***Usar o atributo placeholder : Texto: 'apenas números'***|sim |sim|
 |Favorecido<br>***Usar o atributo placeholder : Texto: 'informe pelo menos 3 caracteres'***|sim |sim|
-|Número docymento Pagamento|sim | sim||
+|Número documento Pagamento|sim | sim||
 |Data Registro do Empenho |***NÃO*** | sim|
 |Data de Registro do Pagamento|***NÃO*** | sim||
 |Tipo Empenho - Descrição|***NÃO*** | sim||
