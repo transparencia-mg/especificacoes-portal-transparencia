@@ -226,7 +226,7 @@ _______
 |Detalhamento do Pagamento|  CNPJ_CPF Credor - Formatado    |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada || Código e descrição no mesmo campo
 | Detalhamento do Pagamento|  Razão Social Credor   |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | CNPJ/ CPF e Descrição do  Favorecido | Código e descrição no mesmo campo
 | Detalhamento do Pagamento|  Valor Pago Financeiro  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Valor Pago |
-|Pagamento em Restos a Pagar| Data Registro | SIAFI - Execução de Restos a Pagar > Restos a Pagar > Dados da Ordem de Pagamento - Restos a Pagar |Data de Registro| Data de registro que o restos a pagar foi pago.
+|Pagamento em Restos a Pagar| Data Registro | SIAFI - Execução de Restos a Pagar > Restos a Pagar > Dados da Ordem de Pagamento - Restos a Pagar |Data de Registro do pagamento| Data de registro que o restos a pagar foi pago.
 |Pagamento em Restos a Pagar| Número Ordem de Pagamento | SIAFI - Execução de Restos a Pagar > Restos a Pagar > Dados da Ordem de Pagamento - Restos a Pagar |Nº do documento|
 |Detalhamento do Pagamento| Situação Ordem de Pagamento - Descrição |  SIAFI - Execução de Restos a Pagar > Restos a Pagar > Dados da Ordem de Pagamento - Restos a Pagar |Situação da Ordem de Pagamento|
 |Pagamento em Restos a Pagar|  CNPJ_CPF Credor - Numérico   | SIAFI - Execução de Restos a Pagar > Restos a Pagar || Código e descrição no mesmo campo
@@ -293,7 +293,7 @@ Essa consulta será plurianual, ou seja, o usuário irá visualizar todos repass
 |Município |Ano de Exercício |Período Contábil| Ano do Repasse|Ano de exercício que o repasse ocorreu|---|
 |Município |Município Credor - Descrição| SIAFI - Execução Orçamentária da Despesa - Despesa Realizada > Credor - Despesa |Município |Nome do Município que recebeu os repasses do Acordo Judicial conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021|*default*
 |Município |Número Empenho| SIAFI - Execução Orçamentária da Despesa - Despesa Realizada|Empenho| Número de identificação do documento de empenho no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|*default*|
-|Município |Data Registro| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados da Ordem de Pagamento - Despesa| Data de Registrodo pagamento|Data de Registro do Pagamento no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|*default*|
+|Município |Data Registro| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados da Ordem de Pagamento - Despesa| Data de Registro do pagamento|Data de Registro do Pagamento no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|*default*|
 |Município |Situação Ordem de Pagamento - Descrição |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados da Ordem de Pagamento - Despesa |Situação da Ordem de Pagamento| Situação da Ordem de Pagamento conforme consta no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|*default*|
 |Município |Valor Pago Financeiro| SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Valor Pago| Valor referente aos repasses efetuados conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021 do Acordo Judicial|*default*|
 
@@ -373,8 +373,8 @@ Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas 
 |Número documento Pagamento|sim | sim||
 |Data Registro do Empenho |***NÃO*** | sim|
 |Data de Registro do Pagamento|***NÃO*** | sim||
-|Tipo Empenho - Descrição|***NÃO*** | sim||
-|Situação Ordem de Pagamento - Descrição| ***NÃO*** | sim||
+|Tipo Empenho|***NÃO*** | sim||
+|Situação Ordem de Pagamento| ***NÃO*** | sim||
 |Data criação do Processo|***NÃO*** |sim|
 |Situação Processo|***NÃO*** |sim|
 |Data Publicação Contrato|***NÃO*** |sim|
