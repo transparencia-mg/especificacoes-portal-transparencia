@@ -10,35 +10,15 @@ output:
     toc: yes
 ---
 
-# Visão geral da demanda
+# Homologação das telas
 <a href="#top">(inicio)</a>
-
-Essa demanda visa a criação de uma seção no Portal da Transparência para possibilitar o acompanhamento das ações desenvolvidas pelo Governo do Estado de Minas Gerais com recursos provenientes do acordo judicial firmado com a Vale. Considerando a relevância e os valores envolvidos no acordo, a seção será um instrumento de transparência e prestação de contas a sociedade colocando em evidência a execução do acordo.
-
-Juntamente com a criação da nova seção será implementado no Portal da Transparência algumas necessidades dos usuários identificadas durante o projeto **Experiência do Usuário no Portal da Transparência**, realizado em abril de 2021, como por exemplo:
-
-- Alteração do Formulário de Detalhamento;
-- Pesquisa básica mais intuitiva e dinâmica;
-- Inclusão de novas informações;
-- Consolidação os dados de Despesa e RP em uma única consulta.
-
-
-# Motivação / contexto da demanda
-<a href="#top">(inicio)</a>
-
-O Governo de Minas, o Ministério Público de Minas Gerais (MPMG), o Ministério Público Federal (MPF) e a Defensoria Pública de Minas Gerais (DPMG) assinaram um termo de Medidas de Reparação, no dia 4 de fevereiro de 2021, que garante que a empresa Vale seja imediatamente responsabilizada pelos danos causados às regiões atingidas e à sociedade mineira pelo rompimento da barragem Mina Córrego do Feijão, em Brumadinho, no ano de 2019.
-
-O documento define “obrigações de fazer” e “obrigações de pagar” da Vale e prevê um total de recursos a serem aplicados em reparação socioambiental e socioeconômica de R$37.689.767.329,00 (trinta e sete bilhões, seiscentos e oitenta e nove milhões, setecentos e sessenta e sete mil, trezentos e vinte e nove reais). Destes, R$11.060.000.000,00 (onze bilhões e sessenta milhões) serão utilizados pelo Poder Executivo estadual para execução de projetos de mobilidade (anexo III), fortalecimento do serviço público (anexo IV), segurança hídrica (anexo II.3) e ressarcimento de despesas decorrentes da execução do referido Termo Judicial.
-
-A [Lei nº 23.830/2021](https://www.almg.gov.br/consulte/legislacao/completa/completa.html?tipo=LEI&num=23830&comp=&ano=2021), publicada em 28/07/2021, autorizou abertura de crédito suplementar ao orçamento do Estado em função dos recursos previstos no Termo de Reparação que deverão ser alocados conforme consta no Acordo Judicial.
-
 
 # Especificação
 <a href="#top">(inicio)</a>
 
 Esse documento tem como base a criação de uma nova consulta para possibilitar o acompanhamento das ações desenvolvidas pelo Governo do Estado de Minas Gerais com recursos provenientes do acordo judicial firmado com a Vale
 
-## Página Inicial
+## Página Inicial - OK
 <a href="#top">(inicio)</a>
 
 Adequar a Página Inicial do Portal para recepcionar a nova consulta de transparência dos recursos da Vale.
@@ -49,10 +29,19 @@ Adequar a Página Inicial do Portal para recepcionar a nova consulta de transpar
 Exemplo:
 - [*Slideshow* Portal de Transparência Santa Catarina](http://transparencia.sc.gov.br/)
 
+<div class="alert alert-success">
+
+OK
+
+![](static/imagens/homologa-pagina-inicial.png)
+
+![](static/imagens/homologa-pagina-inicial2.png)
+</div>
+
 ## Página Inicial da consulta - Pesquisa Básica
 <a href="#top">(inicio)</a>
 
-#### Texto explicativo
+#### Texto explicativo OK
 <a href="#top">(inicio)</a>
 
 Inclusão de um campo que irá trazer uma breve explicação do conteúdo da consulta.  
@@ -60,13 +49,18 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 Atributos do campo:
 
 * O usuário poderá exibir mais detalhes do texto ao clicar em "*Mais*" ou ocultar ao clicar "*Menos*". [eg. Leroy Merlin](https://www.leroymerlin.com.br/materiais-hidraulicos).
+
+<div class="alert alert-success">
+
+OK
+![](static/imagens/homologa-texto-explicativo.png)
+
+</div>
+
 * A funcionalidade deverá permitir a visualização de *tooltip* ao posicionar o mouse sobre uma palavra ou termo. [eg. tooltips](https://getbootstrap.com.br/docs/4.1/components/tooltips/)
 * Ao clicar sobre a palavra ou termo o PdT deverá abrir um um *pop-up* em forma de glossário. [eg. pop-up](https://www.usaspending.gov/)
 * O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA inclua ou altere os dados desse campo incluindo os *tooltips*.
 
-Exemplos:  
-- Menos
-![](static/imagens/texto-explicativo.png)
 ____
 
 - Tooltip de termos
@@ -80,12 +74,21 @@ ___
 #### Leiaute - Barra de navegação
 <a href="#top">(inicio)</a>
 
-A barra de navegação superior será composta pelos seguintes campos:
+A barra de navegação superior será composta pelos seguintes campos: **OK**
 
 * Ícones por tipo de consulta;
 * Período (dd/mm/aaaa)
 * Opção de *'Filtrar por'*;
 * Botão *'Monte sua consulta'*
+
+<div class="alert alert-success">
+
+OK
+
+![](static/imagens/homologa-pesquisa-basica2.png)
+![](static/imagens/homologa-pesquisa-basica.png)
+
+</div>
 
 ###### Observações:
 
@@ -99,8 +102,20 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 * O campo período será no formato **dd/mm/aaaa** composto por início e fim (eg. 01/04/2021 a 30/12/2021);
 * O comportamento da opção *'Filtrar por'* será conforme o tipo de consulta selecionada e como padrão será exibido a opção 'Todos'
+
   * **Por Projeto**: Ao selecionar essa opção o usuário poderá escolher o Projeto a ser exibido.
-  * **Por Órgão**: Ao selecionar esse tipo de consulta no campo *"Filtrar por"* o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados, conforme já ocorre atualmente no PdT.
+
+  * **Por Execução**: Ao selecionar esse tipo de consulta no campo *"Filtrar por"* o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados, conforme já ocorre atualmente no PdT.
+
+<div class="alert alert-danger">
+
+VERIFICAR
+--
+Não localizei na documentação o comportamento da **Consulta por Execução** citado acima
+
+</div>
+
+
   * **Por Receita**:
   * **Transferência por Município**: o usuário poderá escolher um Município ser exibido.
 
@@ -135,7 +150,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 ##### Estrutura de design das tabelas de resultados da Pesquisa básica
 
- * Cabeçalho fixo - Fixer Header ([eg. Consulta de Remuneração do PdT](https://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/202112/3/1094/4022/C/3569184/995/26150365));
+ * Cabeçalho fixo - *[Fixer Header](https://medium.com/nextux/design-better-data-tables-4ecc99d23356#86cf)* (eg. [Consulta de Remuneração do PdT](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/202103/1/1038/4158/C/3251081/986/23239313));
  * Rolagem horizontal - Horizontal Scroll. Quando o número de colunas ultrapassar o limite da página o PdT deve possibilizar a rolagem horizontal;
  * Colunas movíveis e classificáveis conforme ocorre atualmente;
  * Paginação e seleção da quantidade de linhas a serem exibidas, conforme ocorre atualmente;
@@ -152,17 +167,24 @@ A barra de navegação superior será composta pelos seguintes campos:
  * O arquivo gerado irá exibir os mesmos dados apresentados na tela considerando todos os filtros aplicados e inclusive o TOTAL GERAL ou SUBTOTAL conforme o comportamento do usuário.
  * ao selecionar essa opção o arquivo PDF deverá ser aberto em outra aba do navegador
 
-
 * **Download Planilha (CSV):**
  * Será exibido a tabela completa de todas as páginas no formato CSV, independente do filtro aplicado.
  * O campo TOTAL GERAL também deverá ser exibido.      
  * Exibir código e descrição em campos distintos, independente de o usuário selecionar a opção '*Exibir código e descrição*'
 
-
 * **Download base completa:**
  * O usuário será direcionado para o conjunto de dados da respectiva consulta no Portal de Dados Abertos.
  *O PdT deverá permitir que a equipe DTA inclua/altere a *url* desse campo através da área administrativa do Portal.                  
  * O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA decida se o campo Download Base Completa será exibido ou não na parte superior da tabela de resultado.
+
+ <div class="alert alert-danger">
+
+ As funcionalidades acima precisam constar na documentação?
+ --
+
+ ![](static/imagens/homoloda-download.png)
+
+  </div>
 
 #### Barra de pesquisa
 
@@ -172,7 +194,7 @@ A barra de pesquisa deve aceitar várias formas de preenchimento dos dados:
 * Desconsiderar palavras intermediárias (ex.: Ao digitar “gestao pública”, um dos resultados será “Gestão da Administração Pública”);
 * O usuário poderá pesquisar por qualquer coluna na tabela de resultados.
 
-#### Compartilhar dados:
+#### Compartilhar dados: OK
 <a href="#top">(inicio)</a>
 
 O usuário poderá Compartilhar os link dos dados nos seguintes canais, no mínimo:
@@ -182,6 +204,13 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 - WhatsApp
 - Por e-mail
 - Copiar *url*
+
+<div class="alert alert-success">
+
+OK
+![](static/imagens/homologa-compartilhar.png)
+
+ </div>
 
 #### Campos Pesquisa básica - Navegação por filtros
 
@@ -195,7 +224,21 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
   - Órgão
   - Valor Total
 
+
 ![](static/imagens/tabela-projeto.png)
+
+<div class="alert alert-danger">
+
+Alterar
+--
+- Ficou pendente a tabela Projeto e a descrição dos campos estão divergente dos especificados.
+Ver [Especificação dados - Campos Tabela Consulta por Projeto](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec018_recursos-acordo-judicial-vale/recursos-vale-dados.md#campos-da-tabela)
+- Faltou o comportamento quando o usuário clicar em Código SIAFI
+
+  ![](static/imagens/homologa-tabela-projeto.png)
+
+ </div>
+
 
 * 2º NÍVEL
   - Segundo nível da consulta por Execução
@@ -203,9 +246,11 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 * 3º NÍVEL
     - Formulário de Detalhamento
 
+
 ###### Consulta por Execução
 
-  * 1º NÍVEL
+  * 1º NÍVEL **OK**
+
     * [Código SIAFI]() -> ao clicar o usuário será direcionado para o 2º nível
     * Código Órgão -> -> apenas quando o usuário clicar em 'Exibir Código e Descrição'           
     * Órgão               
@@ -218,7 +263,7 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 
 ![](static/imagens/tabela-orgao-1nivel.png)
 
-  * 2º NÍVEL
+  * 2º NÍVEL **OK**
     * [Empenho]() -> ao clicar o usuário será direcionado para o 3º nível
     * Data de Registro do Empenho
     * CNPJ/CPF Favorecido
@@ -246,6 +291,18 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 
 ![](static/imagens/tabela-municipio.png)
 
+<div class="alert alert-danger">
+
+Alterar
+--
+- Faltou o comportamento quando o usuário clicar em empenho
+Ver [Especificação dados - Consulta por Município](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec018_recursos-acordo-judicial-vale/recursos-vale-dados.md#por-munic%C3%ADpio)
+
+
+![](static/imagens/homologa-tabela-municipio.png)
+
+ </div>
+
 * 2º NÍVEL
   - Segundo nível da consulta por Execução
 
@@ -266,6 +323,16 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 
 ![](static/imagens/tabela-receita.png)
 
+<div class="alert alert-danger">
+
+Alterar
+--
+- Tabela não confere com a especificação
+
+![](static/imagens/homologa-tabela-receita.png)
+
+</div>
+
 #### Leiaute - Formulário de Detalhamento
 <a href="#top">(inicio)</a>
 
@@ -276,7 +343,7 @@ Ao clicar em campo clicável da tabela de resultados o usuário será direcionad
 * O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão '*Download*'.
 A exportação em planilha (CSV) deverá ser em formato de tabela. Cada campo em uma coluna.
 
-##### Campos do formulário de detalhamento
+##### Campos do formulário de detalhamento OK
 
 * Classificação Orçamentária
  ![](static/imagens/formulario-classificacao-orcamentaria.png)
@@ -423,11 +490,11 @@ OBS: Os botões **Pesquisar/ Atualizar/Limpar** devem ser estilisticamente difer
 * Estrutura de design das tabelas de resultados:
   * Cabeçalho fixo - *[Fixer Header](https://medium.com/nextux/design-better-data-tables-4ecc99d23356#86cf)* (eg. [Consulta de Remuneração do PdT](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/202103/1/1038/4158/C/3251081/986/23239313));
 
-  ![](static/cabecalho-fixo1.gif)
+
 
   * Rolagem horizontal - *[Horizontal Scroll](https://medium.com/nextux/design-better-data-tables-4ecc99d23356#2dba)*. Quando o número de colunas ultrapassar o limite da página o PdT deve possibilizar a rolagem horizontal.
 
-  ![](static/rolagem-horizontal.gif)
+
 
   * Colunas movíveis e classificáveis conforme ocorre atualmente;
 
