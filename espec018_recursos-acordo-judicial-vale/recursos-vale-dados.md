@@ -45,7 +45,7 @@ Essa consulta será plurianual, ou seja, o usuário irá visualizar todos os pro
 | Projeto     | Projeto                 | Descrição do Projeto conforme consta no Acordo de Reparação e de execução do Governo do Estado                 |default
 | Unidade Orçamentária Código      | Código Órgão            |    Código da Unidade Orçamentária responsável pelo Projeto                | ao acionar o botão '*Exibir código e descrição*'
 | Unidade Orçamentária Nome        | Órgão                   |    Descrição da Unidade Orçamentária responsável pelo Projeto                |default
-| Valor Total do Projeto          | Valor Total    do Projeto       |          Valor destinado ao projeto com as devidas correções por meio da aplicação do IPCA         |default
+| Valor Total do Projeto          | Valor Total       |          Valor destinado ao projeto com as devidas correções por meio da aplicação do IPCA         |default
 
 
 ![](static/imagens/tabela-projeto.png)
