@@ -13,6 +13,12 @@ output:
 # Especificação tooltips
 <a href="#top">(inicio)</a>
 
+## Texto da Consultas
+**Eventos Extraordinários**: Encontre aqui as informações sobre os gastos, contratações e legislações referentes a eventos extraordinários ocorridos no Estado de Minas Gerais.
+**COVID 19**: Encontre aqui os gastos, repasses, contratações e legislações referentes ao enfrentamento da pandemia causada pela COVID-19
+**Eventos Extraordinários**: Encontre aqui os repasses, gastos e informações sobre o Acordo Judicial firmado com a Vale S.A.
+
+
 ## Texto página Inicial
 <a href="#top">(inicio)</a>
 
