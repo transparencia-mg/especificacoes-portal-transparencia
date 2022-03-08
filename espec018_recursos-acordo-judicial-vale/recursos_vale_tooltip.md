@@ -19,7 +19,7 @@ output:
 
 **COVID 19**: Encontre aqui os gastos, repasses, contratações e legislações referentes ao enfrentamento da pandemia causada pela COVID-19
 
-**Eventos Extraordinários**: Encontre aqui os repasses, gastos e informações sobre o Acordo Judicial firmado com a Vale S.A.
+**Acordo Judicial de Reparação da Vale**: Encontre aqui os repasses, gastos e informações sobre o Acordo Judicial firmado com a Vale S.A.
 
 
 ## Texto página Inicial
