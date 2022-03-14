@@ -24,16 +24,21 @@ Com o objetivo de corrigir essa inconsistência no Portal, o correto é que a co
 
 ## Consulta Restos a pagar
 
+<div class="alert alert-danger">
+  
 #### ITENS PARA CORREÇÃO
 
-**14- Incluir a coluna "Valor Retido" - consulta avançada** - **CORRIGIR**
+**1- Incluir a coluna "Valor Retido" - consulta avançada** - **CORRIGIR**
 
 **Não foi localizada a coluna Valor Retido na consulta avançada.**
 
 ![](static/consulta-avancada.png)
 
+</div>
 
 
+<div class="alert alert-success">
+  
 #### ITENS APROVADOS
 
 **1- Incluir a coluna "Valor Retido" - tela inicial** - **OK**
@@ -86,6 +91,6 @@ Com o objetivo de corrigir essa inconsistência no Portal, o correto é que a co
 ![](static/favorecido-elementoitemorgaodocumento.png)
 
 
-
+</div>
 
 
