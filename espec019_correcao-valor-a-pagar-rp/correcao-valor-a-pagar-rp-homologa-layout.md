@@ -24,7 +24,16 @@ Com o objetivo de corrigir essa inconsistência no Portal, o correto é que a co
 
 ## Consulta Restos a pagar
 
-**Corrigir o item do número 14 - consulta avançada**
+#### ITENS PARA CORREÇÃO
+
+**14- Incluir a coluna "Valor Retido" - consulta avançada** - **CORRIGIR**
+
+**Não foi localizada a coluna Valor Retido na consulta avançada.**
+
+![](static/consultavancada)
+
+
+#### ITENS APROVADORS
 
 **1- Incluir a coluna "Valor Retido" - tela inicial** - **OK**
 
@@ -43,7 +52,7 @@ Com o objetivo de corrigir essa inconsistência no Portal, o correto é que a co
 
 **4- Incluir a coluna "Valor Retido" - consulta por órgão - elemento item** - **OK**
 
-![](static/orgao-elementoitem.png)
+![](static/orgao-elemento-item.png)
 
 
 **5- Incluir a coluna "Valor Retido" - consulta por órgão - elemento item - empenho** - **OK**
@@ -56,45 +65,26 @@ Com o objetivo de corrigir essa inconsistência no Portal, o correto é que a co
 ![](static/favorecido.png)
 
 
-**7- Incluir a coluna "Valor Retido" - consulta por Favorecido - elemento item** - **OK**
-
-![](static/favorecido-elementoitem.png)
-
-
-**8- Incluir a coluna "Valor Retido" - consulta por Favorecido - elemento item - órgão** - **OK**
-
-![](static/favorecido-elementoitemorgao.png)
-
-
-**9- Incluir a coluna "Valor Retido" - consulta por Favorecido - elemento item - órgão documento** - **OK**
-
-![](static/favorecido-elementoitemorgaodocumento.png)
-
-
-**10- Incluir a coluna "Valor Retido" - consulta por favorecido - elemento** - **OK**
+**7- Incluir a coluna "Valor Retido" - consulta por Favorecido - elemento** - **OK**
 
 ![](static/favorecido-elemento.png)
 
 
-**11- Incluir a coluna "Valor Retido" - consulta por Favorecido - elemento item** - **OK**
+**8- Incluir a coluna "Valor Retido" - consulta por Favorecido - elemento item** - **OK**
 
 ![](static/favorecido-elementoitem.png)
 
 
-**12- Incluir a coluna "Valor Retido" - consulta por Favorecido - elemento item - órgão** - **OK**
+**9- Incluir a coluna "Valor Retido" - consulta por Favorecido - elemento item - órgão** - **OK**
 
 ![](static/favorecido-elementoitemorgao.png)
 
 
-**13- Incluir a coluna "Valor Retido" - consulta por Favorecido - elemento item - órgão documento** - **OK**
+**10- Incluir a coluna "Valor Retido" - consulta por Favorecido - elemento item - órgão documento** - **OK**
 
 ![](static/favorecido-elementoitemorgaodocumento.png)
 
 
-**14- Incluir a coluna "Valor Retido" - consulta avançada** - **CORRIGIR**
 
-**Não foi localizada a coluna Valor Retido na consulta avançada.**
-
-![](static/consultavançada)
 
 
