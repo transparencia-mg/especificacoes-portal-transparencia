@@ -30,7 +30,7 @@ Com o objetivo de corrigir essa inconsistência no Portal, o correto é que a co
 
 **Não foi localizada a coluna Valor Retido na consulta avançada.**
 
-![](static/consultaavancada.png)
+![](static/consulta-avancada.png)
 
 
 
