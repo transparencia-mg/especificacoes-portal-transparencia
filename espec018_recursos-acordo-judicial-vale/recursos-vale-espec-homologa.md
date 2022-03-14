@@ -13,6 +13,14 @@ output:
 # Homologação das telas
 <a href="#top">(inicio)</a>
 
+<div class="alert alert-warning">
+
+Observação
+--
+As principais funcionalidades descritas na documentação serão validadas quando a consulta for disponibilizada no ambiente de homologação.
+
+</div>
+
 # Especificação
 <a href="#top">(inicio)</a>
 
@@ -257,7 +265,7 @@ Ver [Especificação dados - Campos Tabela Consulta por Projeto](https://github.
     * Valor Despesa Empenhada            
     * Valor Despesa Liquidada         
     * Valor Pago
-    * Valor Liquidado em Restos a Pagar
+    * Valor Liquidado em RP
     * Valor Pago em Restos a Pagar
     * Valor Total Pago     
 
@@ -363,6 +371,14 @@ A exportação em planilha (CSV) deverá ser em formato de tabela. Cada campo em
 ## Monte sua consulta
 <a href="#top">(inicio)</a>
 
+<div class="alert alert-warning">
+
+Observação
+--
+As principais funcionalidades descritas na documentação serão validadas quando a consulta for disponibilizada no ambiente de homologação.
+
+</div>
+
 A pesquisa será composta pelos seguintes componentes:
 
 * Barra de navegação vertical com filtros;
@@ -395,6 +411,14 @@ A pesquisa será composta pelos seguintes componentes:
 ![](static/imagens/ocultar-exibir-barra.gif)
 
 * Ao clicar em qualquer filtro da barra de navegação será exibido uma outra barra de filtros onde o usuário deverá selecionar os parâmetros da pesquisa.  
+
+<div class="alert alert-success">
+
+Página inicial - Monte sua pesquisa OK
+
+![](static/imagens/homologa-monte-sua-pesquisa-inicial.png)
+
+</div>
 
 ### Barra deslizante para baixo
 <a href="#top">(inicio)</a>
@@ -467,6 +491,18 @@ OBS: Os botões **Pesquisar/ Atualizar/Limpar** devem ser estilisticamente difer
 
 * Caso o usuário selecione uma grande quantidade de filtros será acrescentado a opção *Ver mais* abaixo da lista de filtros.
 
+<div class="alert alert-success">
+
+OK
+
+![](static/imagens/homologa-filtros-aplicados2.png)
+
+
+![](static/imagens/homologa-filtros-aplicados.png)
+
+
+
+  </div>
 
 ### Tabela de resultados
 <a href="#top">(inicio)</a>

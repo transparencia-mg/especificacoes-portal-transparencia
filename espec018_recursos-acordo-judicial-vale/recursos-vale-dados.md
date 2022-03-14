@@ -84,7 +84,7 @@ Essa consulta será anual, ou seja, o usuário irá visualizar a execução (Des
 |Despesa| Valor Despesa Empenhada             |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Valor Empenhado       | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |default
 |Despesa| Valor Despesa Liquidada            | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Valor Liquidado      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue       |default
 |Despesa| Valor Pago Financeiro           |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Valor Pago | Valor referente aos pagamentos efetuados, no exercício, através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária  |default
-|Restos a Pagar| Valor Despesa Liquidada             |SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Liquidado em Restos a Pagar       | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue referente a exercícios anteriores                    |default
+|Restos a Pagar| Valor Despesa Liquidada             |SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Liquidado em RP      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue referente a exercícios anteriores                    |default
 |Restos a Pagar| -Valor Pago Processado<br> -Valor Pago não processado |  SIAFI - Execução de Restos a Pagar > Restos a Pagar | Valor Pago em Restos a Pagar     | Valor pago referente a exercícios anteriores efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços realizados em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária. |default
 |Fórmula Portal|   | | Valor Total Pago   | Somatório dos valores pagos neste exercício e pagos em restos a pagar processados e não processados.           |default
 
@@ -110,7 +110,7 @@ Ao clicar em algum dado do campo 'Código SIAFI' o usuário será direciona ao s
 | Despesa| Valor Despesa Empenhada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Valor Empenhado| Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |default
 | Despesa| Valor Despesa Liquidada  | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Valor Liquidado      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue        |default
 | Despesa| Valor Pago Financeiro  | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Valor Pago  | Valor referente aos pagamentos efetuados, no exercício, através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária |default
-|Restos a Pagar| Valor Despesa Liquidada   |SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Liquidado em Restos a Pagar       | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue referente a exercícios anteriores |default
+|Restos a Pagar| Valor Despesa Liquidada   |SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Liquidado em RP      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue referente a exercícios anteriores |default
 |Restos a Pagar| - Valor Pago Processado<br> - Valor Pago não processado |  SIAFI - Execução de Restos a Pagar > Restos a Pagar | Valor Pago em Restos a Pagar     | Valor pago referente a exercícios anteriores efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços realizados em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária. |default                 |default
 |Fórmula Portal|   | | Valor Total Pago   |   Somatório dos valores pagos neste exercício e pagos em restos a pagar processados e não processados.           |default
 
@@ -344,7 +344,8 @@ Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas 
 
 |Campo PdT |Barra vertical| Campos Adicionar/remover colunas
 |----|--|-----|
-|Período|sim| ***NÃO*** |
+|Período<br> ***(Data)***|sim| ***NÃO*** |
+|Período<br> ***(Apenas o ano)***|***NÃO***| sim |
 |Código SIAFI|sim|sim ||
 |Anexo|sim|sim ||
 |Projeto|sim|sim ||
@@ -385,7 +386,7 @@ Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas 
 |Valor Empenhado|***NÃO***|sim|
 |Valor Liquidado|***NÃO***|sim|
 |Valor Pago|***NÃO***|sim|
-|Valor Liquidado em Restos a Pagar|***NÃO***|sim|
+|Valor Liquidado em RP |***NÃO***|sim|
 |Valor Pago em Restos a Pagar|***NÃO***|sim|
 |Valor Total Pago|***NÃO***|sim|
 
@@ -436,7 +437,7 @@ O [Portal da Transparência do Estado de São Paulo](www.fazenda.sp.gov.br/Sigeo
 
 ### Tabela de Resultados
 
-1. A tabela de resultados apresentará colunas com padrões. 
+1. A tabela de resultados apresentará colunas com padrões.
 2. As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remover Colunas*** podendo o usuário desativá-las.
 3. Ao inserir qualquer coluna essas serão incluídas antes das colunas de valores. E caso seja incluída alguma coluna de valor o portal deverá manter a ordem da execução orçamentária (Valor empenhado, valor liquidado, valor pago, valor liquidado em RP, Valor Pago em RP, Valor Total Pago).
 
@@ -445,12 +446,12 @@ O [Portal da Transparência do Estado de São Paulo](www.fazenda.sp.gov.br/Sigeo
   - Valor Empenhado
   - valor Liquidado
   - Valo Pago
-  - Valor Liquidado em restos a pagar
+  - Valor Liquidado em RP
   - Valor Pago em restos a Pagar
   - Valor Total pago
 
 
-A tabela de resultados do 1º nível terá como opção o botão *Detalhar* o qual direcionará o usuário para a lista de empenhos (2º nível) conforme os filtros selecionados e em seguida poderá ser direcionado para o formulário de detalhamento ao clicar em um dos empenhos da lista. 
+A tabela de resultados do 1º nível terá como opção o botão *Detalhar* o qual direcionará o usuário para a lista de empenhos (2º nível) conforme os filtros selecionados e em seguida poderá ser direcionado para o formulário de detalhamento ao clicar em um dos empenhos da lista.
 Caso o usuário solicite a exibição da coluna empenho já no 1º nível e este for um valor único, o usuário será direcionado diretamente para o formulário de detalhamento relacionado ao empenho.
 
 ***2º nível:***
@@ -464,7 +465,7 @@ Caso o usuário solicite a exibição da coluna empenho já no 1º nível e este
   - Valor Empenhado
   - valor Liquidado
   - Valo Pago
-  - Valor Liquidado em restos a pagar
+  - Valor Liquidado em RP
   - Valor Pago em restos a Pagar
   - Valor Total pago
 
@@ -475,11 +476,11 @@ O usuário poderá clicar no *número do empenho* para exibir o formulário de d
 ![](static/imagens/monte-sua-pesquisa-tb-resultados-2-nivel.png)
 
 ***Exceção:***     
-Quando o usuário utilizar o filtro "***Número da Ordem de Pagamento***" na barra de filtro vertical as colunas abaixo deverão ser exibidas em formato desabilitado, sem a exibição de dados: 
+Quando o usuário utilizar o filtro "***Número da Ordem de Pagamento***" na barra de filtro vertical as colunas abaixo deverão ser exibidas em formato desabilitado, sem a exibição de dados:
       - Valor empenhado
       - Valo liquidado
-      - Valor liquidado em Restos a Pagar
-      
+      - Valor liquidado em RP
+
 ![](static/imagens/monte-sua-pesquisa-tb-resultados-OP.png)
 
 
