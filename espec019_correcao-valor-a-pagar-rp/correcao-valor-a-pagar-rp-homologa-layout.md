@@ -33,7 +33,8 @@ Com o objetivo de corrigir essa inconsistência no Portal, o correto é que a co
 ![](static/consultaavancada.png)
 
 
-#### ITENS APROVADORS
+
+#### ITENS APROVADOS
 
 **1- Incluir a coluna "Valor Retido" - tela inicial** - **OK**
 
