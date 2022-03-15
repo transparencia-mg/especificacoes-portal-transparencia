@@ -222,18 +222,24 @@ OK
 
 #### Campos Pesquisa básica - Navegação por filtros
 
+<div class="alert alert-info">
+
+**Alterações ocorridas após o envio da documentação**
+
+- Retirar Código do Órgão e Órgão do 1 nível e acrescentar no 2 nível da consulta;
+- Alterar nome Código SIAFI para Código Projeto em todas as consultas;
+
 ###### Consulta por Projeto
 
 * 1º NÍVEL
-  - [Código SIAFI]() -> ao clicar o usuário será direcionado para o 2º nível
+  - [Código Projeto]() -> ao clicar o usuário será direcionado para o 2º nível
   - Projeto
   - Anexo
-  - Código Órgão -> apenas quando o usuário clicar em 'Exibir Código e Descrição
-  - Órgão
-  - Valor Total
+  - Valor do Projeto
 
 
 ![](static/imagens/tabela-projeto.png)
+</div>
 
 <div class="alert alert-danger">
 
@@ -247,9 +253,28 @@ Ver [Especificação dados - Campos Tabela Consulta por Projeto](https://github.
 
  </div>
 
+<div class="alert alert-info">
+
+**Alterações ocorridas após o envio da documentação**
 
 * 2º NÍVEL
-  - Segundo nível da consulta por Execução
+
+  * [Empenho]() -> ao clicar o usuário será direcionado para o 3º nível
+  * Data de Registro do Empenho
+  * Código Órgão - > apenas quando o usuário clicar em 'Exibir Código e Descrição'         
+  * Órgão
+  * CNPJ/CPF Favorecido
+  * Favorecido
+  * Valor Despesa Empenhada            
+  * Valor Despesa Liquidada         
+  * Valor Pago
+  * Valor Liquidado em Restos a Pagar
+  * Valor Pago em Restos a Pagar
+  * Valor Total Pago
+
+![](static/imagens/tabela-projeto-2-nivel.png)
+
+ </div>
 
 * 3º NÍVEL
     - Formulário de Detalhamento
@@ -259,8 +284,8 @@ Ver [Especificação dados - Campos Tabela Consulta por Projeto](https://github.
 
   * 1º NÍVEL **OK**
 
-    * [Código SIAFI]() -> ao clicar o usuário será direcionado para o 2º nível
-    * Código Órgão -> -> apenas quando o usuário clicar em 'Exibir Código e Descrição'           
+    * [Código Projeto]() -> ao clicar o usuário será direcionado para o 2º nível
+    * Código Órgão -> apenas quando o usuário clicar em 'Exibir Código e Descrição'           
     * Órgão               
     * Valor Despesa Empenhada            
     * Valor Despesa Liquidada         
