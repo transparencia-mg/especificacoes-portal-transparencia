@@ -29,31 +29,32 @@ Os dados dessa consulta serão extraídos do Universo BO SIGCON- Entrada.
 
 #### Filtros da Consulta
 
-Essa consulta será plurianual, ou seja, o usuário irá visualizar todos os projetos e valores independente do ano de cadastro o Convênio Código.
+Essa consulta será plurianual, ou seja, o usuário irá visualizar todos os projetos e valores independente do ano.
 
 
 |    Fonte de Dados    | URL
 |--------------------------|-----------------
-|Portal de Dados Abertos|    
+|Portal de Dados Abertos|    https://homologa.cge.mg.gov.br/dataset/projetos-acordo-judicial-reparacao-vale
+
+Nota: Ess url será utilizada apenas para fins de testes.
 
 #### Campos da Tabela
 
 | Portal de Dados Abertos | PdT | Tooltip - PdT | Exibição da Coluna
 |------------|-----|--------------------|---|
-| Códiso SIAFI| Código SIAFI            | Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |default
-| Anexo         | Anexo      |          Anexo ao qual o Projeto se refere conforme o Acordo de Reparação      |default
+| Código Projeto| Código Projeto           | Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |default
 | Projeto     | Projeto                 | Descrição do Projeto conforme consta no Acordo de Reparação e de execução do Governo do Estado                 |default
-| Unidade Orçamentária Código      | Código Órgão            |    Código da Unidade Orçamentária responsável pelo Projeto                | ao acionar o botão '*Exibir código e descrição*'
-| Unidade Orçamentária Nome        | Órgão                   |    Descrição da Unidade Orçamentária responsável pelo Projeto                |default
-| Valor Total do Projeto          | Valor Total       |          Valor destinado ao projeto com as devidas correções por meio da aplicação do IPCA         |default
+| Anexo         | Anexo      |          Anexo ao qual o Projeto se refere conforme o Acordo de Reparação      |default
+| Valor do Projeto          | Valor do Projeto        |          Valor total destinado ao projeto          |default
 
 
 ![](static/imagens/tabela-projeto.png)
 
 **Comportamento da Consulta:**
 
-- Ao clicar no campo 'Código SIAFI' o usuário será direcionado para o 2º nível da consulta por execução, ou seja, a tabela de empenhos. A consulta deverá exibir todos dos empenhos relacionados ao Código SIAFI selecionado independentemente do ano de registro do empenho.
+- Ao clicar no campo 'Código Projeto' o usuário será direcionado para o 2º nível da consulta por execução, ou seja, a tabela de empenhos **com o acréscimo das colunas Código Órgão e Órgão**. A consulta deverá exibir todos dos empenhos relacionados ao Código Projeto selecionado independentemente do ano de registro do empenho.
 
+![](static/imagens/tabela-projeto-2-nivel.png)
 
 ### Por Execução
 <a href="#top">(inicio)</a>
@@ -67,8 +68,8 @@ Essa consulta será anual, ou seja, o usuário irá visualizar a execução (Des
 
 |Dados| Armazém BO- SIAFI       |Dimensão SIAFI| Filtro  |
 |--|--------------------------|----------|-------
-| Despesa| Contrato Convênio Entrada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Usar como filtro todos os 'Códigos SIAFI' listados na consulta Por Projeto |     
-| Restos a Pagar| Contrato Convênio Entrada  | SIAFI - Execução de Restos a Pagar > Restos a Pagar | UUsar como filtro todos os 'Códigos SIAFI' listados na consulta Por Projeto
+| Despesa| Contrato Convênio Entrada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Usar como filtro todos os 'Códigos Projeto' listados na consulta Por Projeto |     
+| Restos a Pagar| Contrato Convênio Entrada  | SIAFI - Execução de Restos a Pagar > Restos a Pagar | Usar como filtro todos os 'Códigos Projeto' listados na consulta Por Projeto
 | | Ano de Exercício  | SIAFI - Período Contábil |
 
 
@@ -78,7 +79,7 @@ Essa consulta será anual, ou seja, o usuário irá visualizar a execução (Des
 
 |Dados| Campo armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Tooltip - PdT           | Exibição da Coluna
 |--|------|---|---------------|------------|---|
-|Despesa| ContratoConvênio Entrada | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Código SIAFI            | Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |default
+|Despesa| ContratoConvênio Entrada | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Código Projeto            | Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |default
 |Despesa| Unidade Orçamentária-Código      |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Código Órgão            |    Código da Unidade Orçamentária responsável pelo Projeto                | ao acionar o botão '*Exibir código e descrição*''
 |Despesa| Unidade Orçamentária-Nome        | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Órgão                   |    Descrição da Unidade Orçamentária responsável pelo Projeto                |default
 |Despesa| Valor Despesa Empenhada             |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada | Valor Empenhado       | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |default
@@ -92,14 +93,14 @@ Essa consulta será anual, ou seja, o usuário irá visualizar a execução (Des
 
 **Comportamento da Consulta:**
 
-- Ao clicar no campo 'Código SIAFI' o usuário será direcionado para o 2º nível da consulta, ou seja, tabela de empenhos.
+- Ao clicar no campo 'Código Projeto' o usuário será direcionado para o 2º nível da consulta, ou seja, tabela de empenhos.
 ____
 
 ##### Tabela 2º nível
 
 - Armazém BO / Pastas públicas - SIAFI > SUPORTE- SIAFI > CGE > Consulta Vale Recursos Vale> TELA ÓRGÃO - nível 2
 
-Ao clicar em algum dado do campo 'Código SIAFI' o usuário será direciona ao segundo nível da consulta, lista de empenhos correspondente ao código SIAFI selecionado.
+Ao clicar em algum dado do campo 'Código Projeto' o usuário será direciona ao segundo nível da consulta, lista de empenhos correspondente ao código Projeto selecionado.
 
 |Dados|  Campo Armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Tooltip - PdT           | Exibição da Coluna
 |--|-----------------------------|---|-------------------------|--------------------|---|
@@ -346,8 +347,8 @@ Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas 
 |----|--|-----|
 |Período<br> ***(Data)***|sim| ***NÃO*** |
 |Período<br> ***(Apenas o ano)***|***NÃO***| sim |
-|Código SIAFI|sim|sim ||
-|Anexo|sim|sim ||
+|Código Projeto|sim|sim ||
+|Anexo|sim|**NÃO** ||
 |Projeto|sim|sim ||
 |Órgão|sim | sim||
 |Unidade Executora|sim | sim||
@@ -458,7 +459,7 @@ Caso o usuário solicite a exibição da coluna empenho já no 1º nível e este
 
   - [Empenho]()
   - Data de registro do empenho
-  - Unidade orçamentárias
+  - Unidade orçamentária
   - Unidade Executora
   - Favorecido
   - CPF/CNPJ do Favorecido
