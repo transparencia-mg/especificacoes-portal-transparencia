@@ -31,12 +31,13 @@ O Acordo foi assinado em 04 de fevereiro de 2021 e garantiu que a empresa Vale S
 
 O Acordo Judicial visa reparar os danos decorrentes do rompimento das barragens da Vale S.A. em Brumadinho e conta com um valor inicial total de R$ 37.689.767.329,00 (trinta e sete bilhões, seiscentos e oitenta e nove milhões, setecentos e sessenta e sete mil, trezentos e vinte e nove reais).
 
-É importante esclarecer que os valores constantes no Acordo de Reparação não serão, em sua integralidade, disponibilizados ao Governo de Minas. Dos R$ 37,68 bilhões, apenas
+É importante esclarecer que os valores constantes no Acordo Judicial de Reparação não serão, em sua integralidade, disponibilizados ao Governo de Minas. Dos R$ 37,68 bilhões, apenas
 R$ 11,06 bilhões efetivamente entrarão para os cofres do Estado. É esse o montante objeto da presente consulta as quais detalhamos em seguida.
 
 As consultas criadas para dar transparência aos repasses e aos gastos realizados no Acordo Judicial de Reparação contemplam quatro diferentes escopos:
 
-1.	**Consulta por Projeto**: compreende a divulgação dos valores destinados aos Projetos previstos no Acordo Judicial de Reparação, seguindo cronograma de desembolso definido no Acordo e atualização prevista pelo [IPCA](a "Índice Nacional de Preços ao Consumidor Amplo.").
+1.	**Consulta por Projeto**: compreende a divulgação dos valores destinados aos Projetos previstos no Acordo Judicial de Reparação, seguindo cronograma de desembolso definido no Acordo e atualizados conforme deliberações do Conselho Superior do Comitê Gestor Pró-Brumadinho no uso das atribuições conferidas pelo [Decreto nº
+48.183/2021](https://www.almg.gov.br/consulte/legislacao/completa/completa.html?tipo=DEC&num=48183&comp=&ano=2021).
 
 1. **Consulta por Execução:** é a consulta que permite a visualização dos gastos de cada projeto, contemplando nomes dos [favorecidos](a "Nome de identificação da pessoa física ou jurídica que recebeu recursos públicos estaduais pela prestação de serviço ou pela entrega do produto.).") e valores pagos.
 
@@ -53,8 +54,6 @@ Outras informações sobre o Acordo Judicial de Reparação podem ser consultada
 Ao clicar em qualquer termo destacado o usuário será direcionado para o termo especifico dentro do glossário do Portal.
 
 * **IBGE:** Instituto Brasileiro de Geografia e Estatística. Principal provedor de informações geográficas e estatísticas do Brasil.
-
-* **IPCA:** Índice Nacional de Preços ao Consumidor Amplo. Esse índice de preços é usado para observar tendências de inflação.
 
 * **Fonte de Recurso:** Permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, fundo ou despesa.
 * **Favorecido**: Nome de identificação da pessoa física ou jurídica que recebeu recursos públicos estaduais pela prestação de serviço ou pela entrega do produto
