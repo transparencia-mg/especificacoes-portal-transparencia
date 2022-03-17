@@ -75,11 +75,7 @@ Ao clicar em qualquer termo destacado o usuário será direcionado para o termo 
 ## Texto do botão Monte sua pesquisa
 <a href="#top">(inicio)</a>
 
-Monte aqui uma nova consulta por conta própria selecionando os filtros desejados.
-
-ou
-
-Pronto para montar a sua própria consulta? Clique aqui e monte sua consulta por conta própria.
+Monte aqui uma nova consulta com informações detalhadas por meio de várias combinações. 
 
 ## Tooltip dos filtros da barra vertical
 <a href="#top">(inicio)</a>
