@@ -31,8 +31,7 @@ O Acordo foi assinado em 04 de fevereiro de 2021 e garantiu que a empresa Vale S
 
 O Acordo Judicial visa reparar os danos decorrentes do rompimento das barragens da Vale S.A. em Brumadinho e conta com um valor inicial total de R$ 37.689.767.329,00 (trinta e sete bilhões, seiscentos e oitenta e nove milhões, setecentos e sessenta e sete mil, trezentos e vinte e nove reais).
 
-É importante esclarecer que os valores constantes no Acordo Judicial de Reparação não serão, em sua integralidade, disponibilizados ao Governo de Minas. Dos R$ 37,68 bilhões, apenas
-R$ 11,06 bilhões efetivamente entrarão para os cofres do Estado. É esse o montante objeto da presente consulta as quais detalhamos em seguida.
+É importante esclarecer que os valores constantes no Acordo Judicial de Reparação não serão, em sua integralidade, disponibilizados ao Governo de Minas. Dos R$ 37,68 bilhões, apenas R$ 11,06 bilhões efetivamente entrarão para os cofres do Estado. É esse o montante objeto da presente consulta as quais detalhamos em seguida.
 
 As consultas criadas para dar transparência aos repasses e aos gastos realizados no Acordo Judicial de Reparação contemplam quatro diferentes escopos:
 
@@ -75,7 +74,44 @@ Ao clicar em qualquer termo destacado o usuário será direcionado para o termo 
 ## Texto do botão Monte sua pesquisa
 <a href="#top">(inicio)</a>
 
-Monte aqui uma nova consulta com informações detalhadas por meio de várias combinações. 
+Monte aqui uma nova consulta com informações detalhadas por meio de várias combinações.
+
+## Tooltip tabelas da pesquisa básica
+<a href="#top">(inicio)</a>
+
+| Tabela | Tooltip - PdT | Consulta      
+|------------|---|-
+|Anexo      |  Anexo ou cláusula ao qual o Projeto se refere conforme o Acordo Judicial de Reparação da Vale. |- Projeto
+|Ano do Repasse| Ano de exercício que o repasse ocorreu| - Município
+|CNPJ/ CPF  Favorecido  | Número de identificação: Pessoa Física (CPF) e Pessoa Jurídica (CNPJ) |- Projeto<br> - Execução
+|Ano de Exercício|Ano de exercício que ocorreu a arrecadação| - Receita
+|Código da Classificação Receita|Classificação criada a fim de possibilitar a identificação detalhada dos recursos que ingressam nos cofres públicos. Os números representam, da esquerda para a direita: categoria econômica; origem da receita; espécie da receita; desdobramento 1 da receita, desdobramento 2 da receita, desdobramento 3 da receita, tipo da receita|- Receita
+|Classificação Receita|Descrição da identificação detalhada dos recursos que ingressam nos cofres públicos|- Receita
+|Código da Fonte de Recurso|| - Receita
+| Código Projeto           | Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) | - Projeto<br> - Execução
+|Código Órgão    |    Código da Unidade Orçamentária responsável pelo Projeto.| - Projeto<br> - Execução       
+|Data Registro do Empenho |Data de registro do documento de empenho| - Projeto<br> - Execução
+| Data de Registro do pagamento |Data de Registro do Pagamento no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |- Município
+| Empenho           | Número de identificação do documento de empenho no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )| - Projeto<br> - Execução<br> - Município
+| Favorecido    | Nome de quem recebeu recursos públicos estaduais pela prestação de serviço ou entrega do produto. Ex: prefeituras, servidores, empresas, entidades do terceiro setor, etc. | - Projeto<br> - Execução
+|Fonte de Recurso|Indica a origem do dinheiro arrecadado. Combina a origem do dinheiro às despesas orçamentárias. Esta vinculação visa demonstrar o montante de dinheiro que já está comprometido com o atendimento de determinadas finalidades, e aquele que pode ser livremente alocado| - Receita
+|Município |Nome do Município que recebeu os repasses do Acordo Judicial conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021| - Município
+|Órgão                   |    Descrição da Unidade Orçamentária responsável pelo Projeto | - Projeto<br> - Execução                
+|Projeto                 | Descrição do Projeto conforme consta no Acordo de Reparação e de execução do Governo do Estado |- Projeto
+|Situação da Ordem de Pagamento| Situação da Ordem de Pagamento conforme consta no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )| - Município
+|Valor do Projeto        |   Valor total destinado ao projeto | - Projeto         
+|Valor Empenhado       | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor | - Projeto<br> - Execução
+| Valor Liquidado      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue | - Projeto<br> - Execução
+|Valor Pago | Valor referente aos repasses efetuados conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021 do Acordo Judicial|     - Município
+|Valor Pago | Valor referente aos pagamentos efetuados, no exercício, através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária  | - Projeto<br> - Execução
+|Valor Liquidado em RP   | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue referente a exercícios anteriores    | - Projeto<br> - Execução                 
+| Valor Pago em Restos a Pagar     | Valor pago referente a exercícios anteriores efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços realizados em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária. | - Projeto<br> - Execução
+|Valor Total Pago   | Somatório dos valores pagos neste exercício e pagos em restos a pagar processados e não processados.     | - Projeto<br> - Execução       
+|Valor Previsto Inicial|Valor estimado da arrecadação para o ano consultado, previsto na Lei Orçamentária Anual (LOA)|- Receita
+|Valor Previsto Atualizado|Valor estimado inicial para arrecadação no ano consultado, previsto na Lei Orçamentária Anual, atualizado ao longo do ano.|- Receita
+|Valor Arrecadado|Valor financeiro que entrou nos cofres públicos no período consultado| - Receita
+
+
 
 ## Tooltip dos filtros da barra vertical
 <a href="#top">(inicio)</a>
@@ -84,7 +120,7 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 |-|-
 |Período |Período da consulta
 |Código SIAFI  |Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais)
-|Anexo  |Anexo ao qual o Projeto se refere conforme o Acordo de Reparação     
+|Anexo  |Anexo ou cláusula ao qual o Projeto se refere conforme o Acordo Judicial de Reparação  da Vale   
 |Projeto| Descrição do Projeto conforme consta no Acordo Judicial de Reparação                                             
 |Órgão |Descrição da Unidade Orçamentária responsável pelo Projeto                                                                         
 |Unidade Executora |Descrição da Unidade Executora responsável pelo Projeto    
@@ -105,11 +141,11 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 |CNPJ/ CPF Favorecido                |Número de identificação da pessoa física (CPF) ou da pesssoa jurídica (CNPJ).
 |Favorecido     |Nome de identificação da pessoa física ou jurídica que recebeu recursos públicos estaduais pela prestação de serviço ou pela entrega do produto
 |Objeto do Processo  |Descrição do objeto do processo de compra
-|Título do Convênio / Parceria              
+|Título do Convênio / Parceria| Título do convênio / parceria de tra              
 |Número do documento do pagamento | Número de identificação do documento de pagamento no SIAFI-MG
 
 
-## Tooltip tabela de resultados
+## Tooltip tabela de resultados Monte sua pesquisa
 
 Os tooltips da tabela de resultado deverá ser o mesmo já utilizado nas tabelas das consultas pré-formatadas.
 
@@ -117,5 +153,4 @@ Abaixo acrescenta-se os campos que não constam nas consultas pré-formatadas.
 
 |Filtro|Tooltip
 |-|-
-|Data de Registro do Pagamento|Data de Registro do Pagamento no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )
 |Tipo Empenho |Descrição do tipo de empenho: global, estimado, ordinário, extra-orçamentário.
