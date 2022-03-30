@@ -81,35 +81,35 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 
 | Tabela | Tooltip - PdT | Consulta      
 |------------|---|-
-|Anexo      |  Anexo ou cláusula ao qual o Projeto se refere conforme o Acordo Judicial de Reparação da Vale. |- Projeto
-|Ano do Repasse| Ano de exercício que o repasse ocorreu| - Município
-|CNPJ/ CPF  Favorecido  | Número de identificação: Pessoa Física (CPF) e Pessoa Jurídica (CNPJ) |- Projeto<br> - Execução
-|Ano de Exercício|Ano de exercício que ocorreu a arrecadação| - Receita
-|Código da Classificação Receita|Classificação criada a fim de possibilitar a identificação detalhada dos recursos que ingressam nos cofres públicos. Os números representam, da esquerda para a direita: categoria econômica; origem da receita; espécie da receita; desdobramento 1 da receita, desdobramento 2 da receita, desdobramento 3 da receita, tipo da receita|- Receita
-|Classificação Receita|Descrição da identificação detalhada dos recursos que ingressam nos cofres públicos|- Receita
-|Código da Fonte de Recurso|| - Receita
-| Código Projeto           | Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) | - Projeto<br> - Execução
-|Código Órgão    |    Código da Unidade Orçamentária responsável pelo Projeto.| - Projeto<br> - Execução       
-|Data Registro do Empenho |Data de registro do documento de empenho| - Projeto<br> - Execução
-| Data de Registro do pagamento |Data de Registro do Pagamento no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |- Município
-| Empenho           | Número de identificação do documento de empenho no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )| - Projeto<br> - Execução<br> - Município
-| Favorecido    | Nome de quem recebeu recursos públicos estaduais pela prestação de serviço ou entrega do produto. Ex: prefeituras, servidores, empresas, entidades do terceiro setor, etc. | - Projeto<br> - Execução
-|Fonte de Recurso|Indica a origem do dinheiro arrecadado. Combina a origem do dinheiro às despesas orçamentárias. Esta vinculação visa demonstrar o montante de dinheiro que já está comprometido com o atendimento de determinadas finalidades, e aquele que pode ser livremente alocado| - Receita
-|Município |Nome do Município que recebeu os repasses do Acordo Judicial conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021| - Município
-|Órgão                   |    Descrição da Unidade Orçamentária responsável pelo Projeto | - Projeto<br> - Execução                
-|Projeto                 | Descrição do Projeto conforme consta no Acordo de Reparação e de execução do Governo do Estado |- Projeto
-|Situação da Ordem de Pagamento| Situação da Ordem de Pagamento conforme consta no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )| - Município
-|Valor do Projeto        |   Valor total destinado ao projeto | - Projeto         
-|Valor Empenhado       | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor | - Projeto<br> - Execução
-| Valor Liquidado      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue | - Projeto<br> - Execução
-|Valor Pago | Valor referente aos repasses efetuados conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021 do Acordo Judicial|     - Município
-|Valor Pago | Valor referente aos pagamentos efetuados, no exercício, através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária  | - Projeto<br> - Execução
-|Valor Liquidado em RP   | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue referente a exercícios anteriores    | - Projeto<br> - Execução                 
-| Valor Pago em Restos a Pagar     | Valor pago referente a exercícios anteriores efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços realizados em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária. | - Projeto<br> - Execução
-|Valor Total Pago   | Somatório dos valores pagos neste exercício e pagos em restos a pagar processados e não processados.     | - Projeto<br> - Execução       
-|Valor Previsto Inicial|Valor estimado da arrecadação para o ano consultado, previsto na Lei Orçamentária Anual (LOA)|- Receita
-|Valor Previsto Atualizado|Valor estimado inicial para arrecadação no ano consultado, previsto na Lei Orçamentária Anual, atualizado ao longo do ano.|- Receita
-|Valor Arrecadado|Valor financeiro que entrou nos cofres públicos no período consultado| - Receita
+|Anexo      |  Anexo ou cláusula ao qual o Projeto se refere conforme o Acordo Judicial de Reparação da Vale. | Projeto
+|Ano do Repasse| Ano de exercício que o repasse ocorreu|  Município
+|CNPJ/ CPF  Favorecido  | Número de identificação: Pessoa Física (CPF) e Pessoa Jurídica (CNPJ) | Projeto<br>  Execução
+|Ano de Exercício|Ano de exercício que ocorreu a arrecadação|  Receita
+|Código da Classificação Receita|Classificação criada a fim de possibilitar a identificação detalhada dos recursos que ingressam nos cofres públicos. Os números representam, da esquerda para a direita: categoria econômica; origem da receita; espécie da receita; desdobramento 1 da receita, desdobramento 2 da receita, desdobramento 3 da receita, tipo da receita| Receita
+|Classificação Receita|Descrição da identificação detalhada dos recursos que ingressam nos cofres públicos| Receita
+|Código da Fonte de Recurso||  Receita
+| Código Projeto           | Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |  Projeto<br>  Execução
+|Código Órgão    |    Código da Unidade Orçamentária responsável pelo Projeto.| Projeto<br>  Execução       
+|Data Registro do Empenho |Data de registro do documento de empenho|  Projeto<br>  Execução
+| Data de Registro do pagamento |Data de Registro do Pagamento no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) | Município
+| Empenho           | Número de identificação do documento de empenho no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|  Projeto<br>  Execução<br>  Município
+| Favorecido    | Nome de quem recebeu recursos públicos estaduais pela prestação de serviço ou entrega do produto. Ex: prefeituras, servidores, empresas, entidades do terceiro setor, etc. |  Projeto<br>  Execução
+|Fonte de Recurso|Indica a origem do dinheiro arrecadado. Combina a origem do dinheiro às despesas orçamentárias. Esta vinculação visa demonstrar o montante de dinheiro que já está comprometido com o atendimento de determinadas finalidades, e aquele que pode ser livremente alocado|  Receita
+|Município |Nome do Município que recebeu os repasses do Acordo Judicial conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021|  Município
+|Órgão                   |    Descrição da Unidade Orçamentária responsável pelo Projeto | Projeto<br> Execução                
+|Projeto                 | Descrição do Projeto conforme consta no Acordo de Reparação e de execução do Governo do Estado | Projeto
+|Situação da Ordem de Pagamento| Situação da Ordem de Pagamento conforme consta no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|  Município
+|Valor do Projeto        |   Valor total destinado ao projeto |  Projeto         
+|Valor Empenhado       | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |  Projeto<br>  Execução
+| Valor Liquidado      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue |  Projeto<br>  Execução
+|Valor Pago | Valor referente aos repasses efetuados conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021 do Acordo Judicial|      Município
+|Valor Pago | Valor referente aos pagamentos efetuados, no exercício, através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária  |  Projeto<br>  Execução
+|Valor Liquidado em RP   | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue referente a exercícios anteriores    |  Projeto<br>  Execução                 
+| Valor Pago em Restos a Pagar     | Valor pago referente a exercícios anteriores efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços realizados em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária. |  Projeto<br>  Execução
+|Valor Total Pago   | Somatório dos valores pagos neste exercício e pagos em restos a pagar processados e não processados.     |  Projeto<br>  Execução       
+|Valor Previsto Inicial|Valor estimado da arrecadação para o ano consultado, previsto na Lei Orçamentária Anual (LOA)| Receita
+|Valor Previsto Atualizado|Valor estimado inicial para arrecadação no ano consultado, previsto na Lei Orçamentária Anual, atualizado ao longo do ano.| Receita
+|Valor Arrecadado|Valor financeiro que entrou nos cofres públicos no período consultado|  Receita
 
 
 
