@@ -1,12 +1,14 @@
 ---
 contrato_manutencao: nº 15210010062019 (INF. 3951)
-proposta_comercial:
-mantis:
+proposta_comercial: null
+mantis: null
 pull_request: '[]()'
 titulo: Transparência dos recursos da Vale - Acordo Judicial 04/02/2021
 output:
   html_document:
     theme: united
+    toc: yes
+  word_document:
     toc: yes
 ---
 
@@ -62,22 +64,17 @@ Atributos do campo:
 
 OK
 ![](static/imagens/homologa-texto-explicativo.png)
+--
 
-</div>
+
 
 * A funcionalidade deverá permitir a visualização de *tooltip* ao posicionar o mouse sobre uma palavra ou termo. [eg. tooltips](https://getbootstrap.com.br/docs/4.1/components/tooltips/)
 * Ao clicar sobre a palavra ou termo o PdT deverá abrir um um *pop-up* em forma de glossário. [eg. pop-up](https://www.usaspending.gov/)
 * O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA inclua ou altere os dados desse campo incluindo os *tooltips*.
 
-____
+![](static/imagens/homologa-texto-explicativo2.png)
 
-- Tooltip de termos
-![](static/imagens/texto-explicativo-ocultar.png)
-___
-
-- Pop-up
-![](static/imagens/texto-explicativo-glossario.png)
-
+</div>
 
 #### Leiaute - Barra de navegação
 <a href="#top">(inicio)</a>
@@ -113,13 +110,13 @@ OK
 
   * **Por Projeto**: Ao selecionar essa opção o usuário poderá escolher o Projeto a ser exibido.
 
-  * **Por Execução**: Ao selecionar esse tipo de consulta no campo *"Filtrar por"* o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados, conforme já ocorre atualmente no PdT.
+  * **Por Execução**: Ao selecionar esse tipo de consulta no campo *"Filtrar por"* o usuário poderá escolher se a busca será realizada pelo nome do Favorecido, pelo CPF/CNPJ ou Órgão. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados, conforme já ocorre atualmente no PdT.
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-VERIFICAR
---
-Não localizei na documentação o comportamento da **Consulta por Execução** citado acima
+OK
+
+![](static/imagens/homologa-tabela-execucao2.png)
 
 </div>
 
@@ -222,12 +219,7 @@ OK
 
 #### Campos Pesquisa básica - Navegação por filtros
 
-<div class="alert alert-info">
 
-**Alterações ocorridas após o envio da documentação**
-
-- Retirar Código do Órgão e Órgão do 1 nível e acrescentar no 2 nível da consulta;
-- Alterar nome Código SIAFI para Código Projeto em todas as consultas;
 
 ###### Consulta por Projeto
 
@@ -239,23 +231,20 @@ OK
 
 
 ![](static/imagens/tabela-projeto.png)
-</div>
 
-<div class="alert alert-danger">
 
-Alterar
+<div class="alert alert-success">
+
+OK
 --
-- Ficou pendente a tabela Projeto e a descrição dos campos estão divergente dos especificados.
-Ver [Especificação dados - Campos Tabela Consulta por Projeto](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec018_recursos-acordo-judicial-vale/recursos-vale-dados.md#campos-da-tabela)
-- Faltou o comportamento quando o usuário clicar em Código SIAFI
 
   ![](static/imagens/homologa-tabela-projeto.png)
 
  </div>
 
-<div class="alert alert-info">
+<div class="alert alert-success">
 
-**Alterações ocorridas após o envio da documentação**
+OK
 
 * 2º NÍVEL
 
@@ -272,7 +261,7 @@ Ver [Especificação dados - Campos Tabela Consulta por Projeto](https://github.
   * Valor Pago em Restos a Pagar
   * Valor Total Pago
 
-![](static/imagens/tabela-projeto-2-nivel.png)
+![](static/imagens/homologa-tabela-projeto-2-nivel.png)
 
  </div>
 
@@ -324,13 +313,9 @@ Ver [Especificação dados - Campos Tabela Consulta por Projeto](https://github.
 
 ![](static/imagens/tabela-municipio.png)
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Alterar
---
-- Faltou o comportamento quando o usuário clicar em empenho
-Ver [Especificação dados - Consulta por Município](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec018_recursos-acordo-judicial-vale/recursos-vale-dados.md#por-munic%C3%ADpio)
-
+OK
 
 ![](static/imagens/homologa-tabela-municipio.png)
 
@@ -356,11 +341,9 @@ Ver [Especificação dados - Consulta por Município](https://github.com/transpa
 
 ![](static/imagens/tabela-receita.png)
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Alterar
---
-- Tabela não confere com a especificação
+OK
 
 ![](static/imagens/homologa-tabela-receita.png)
 

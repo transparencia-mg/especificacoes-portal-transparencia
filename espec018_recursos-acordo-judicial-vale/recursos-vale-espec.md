@@ -100,7 +100,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 * O campo período será no formato **dd/mm/aaaa** composto por início e fim (eg. 01/04/2021 a 30/12/2021);
 * O comportamento da opção *'Filtrar por'* será conforme o tipo de consulta selecionada e como padrão será exibido a opção 'Todos'
   * **Por Projeto**: Ao selecionar essa opção o usuário poderá escolher o Projeto a ser exibido.
-  * **Por Órgão**: Ao selecionar esse tipo de consulta no campo *"Filtrar por"* o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados, conforme já ocorre atualmente no PdT.
+  * **Por Órgão**: Ao selecionar esse tipo de consulta no campo *"Filtrar por"* o usuário poderá escolher se a busca será realizada pelo nome do Favorecido, pelo CPF/CNPJ ou Órgão. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados, conforme já ocorre atualmente no PdT.
   * **Por Receita**:
   * **Transferência por Município**: o usuário poderá escolher um Município ser exibido.
 
@@ -188,17 +188,29 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 ###### Consulta por Projeto
 
 * 1º NÍVEL
-  - [Código SIAFI]() -> ao clicar o usuário será direcionado para o 2º nível
+  - [Código Projeto]() -> ao clicar o usuário será direcionado para o 2º nível
   - Projeto
   - Anexo
-  - Código Órgão -> apenas quando o usuário clicar em 'Exibir Código e Descrição
-  - Órgão
   - Valor Total
 
 ![](static/imagens/tabela-projeto.png)
 
 * 2º NÍVEL
-  - Segundo nível da consulta por Execução
+
+  * [Empenho]() -> ao clicar o usuário será direcionado para o 3º nível
+  * Data de Registro do Empenho
+  * Código Órgão - > apenas quando o usuário clicar em 'Exibir Código e Descrição'         
+  * Órgão
+  * CNPJ/CPF Favorecido
+  * Favorecido
+  * Valor Despesa Empenhada            
+  * Valor Despesa Liquidada         
+  * Valor Pago
+  * Valor Liquidado em Restos a Pagar
+  * Valor Pago em Restos a Pagar
+  * Valor Total Pago
+
+  ![](static/imagens/tabela-projeto-2-nivel.png)
 
 * 3º NÍVEL
     - Formulário de Detalhamento
@@ -206,13 +218,13 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 ###### Consulta por Execução
 
   * 1º NÍVEL
-    * [Código SIAFI]() -> ao clicar o usuário será direcionado para o 2º nível
+    * [Código Projeto]() -> ao clicar o usuário será direcionado para o 2º nível
     * Código Órgão -> -> apenas quando o usuário clicar em 'Exibir Código e Descrição'           
     * Órgão               
     * Valor Despesa Empenhada            
     * Valor Despesa Liquidada         
     * Valor Pago
-    * Valor Liquidado em Restos a Pagar
+    * Valor Liquidado em RP
     * Valor Pago em Restos a Pagar
     * Valor Total Pago     
 
