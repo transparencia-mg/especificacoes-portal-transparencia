@@ -80,9 +80,9 @@ A Remodelagem deverá ser nos moldes da pesquisa 'Acordo Judicial de Reparação
 
 
 - Compra e Patrimônio
- - Compras e Contratos
- - Gestão da Frota
- -  Patrimônio
+  - Compras e Contratos
+  - Gestão da Frota
+  -  Patrimônio
 
 
 - Dívida Pública
