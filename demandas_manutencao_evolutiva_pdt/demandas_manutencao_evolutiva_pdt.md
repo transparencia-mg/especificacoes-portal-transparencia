@@ -1,12 +1,12 @@
-# Demandas de manutenção evolutiva do Projeto Experiência do Usuário no PdT
+# Demandas de manutenção evolutiva para intervenções no Portal de Transparência
 
-A fim de permitir ao cidadão a inserção em um contexto participativo na gestão pública, a Controladoria Geral do Estado, por meio da Diretoria Central de Transparência Ativa - DTA e em parceria com Laboratório de Inovação (LAB.MG) - SEPLAG realizaram o "Projeto Experiência do Usuário no Portal da Transparência".
+A fim de permitir ao cidadão a inserção em um contexto participativo na gestão pública, a Controladoria Geral do Estado, por meio da Diretoria Central de Transparência Ativa - DTA e em parceria com Laboratório de Inovação (LAB.MG) - SEPLAG realizaram em 2021 o "Projeto Experiência do Usuário no Portal da Transparência".
 
-O Projeto teve como objetivo, dentre outros, entender melhor as demandas dos usuários e identificar oportunidades de melhorias nas interfaces das informações disponibilizadas atualmente no site.
+O Projeto teve como objetivo, dentre outros, entender melhor as demandas dos usuários fazendo com que os mesmos se sintam satisfeitos em usar o as funcionalidades do PdT. Sendo assim foi preciso estudar, compreender e avaliar todo comportamento do usuário, levando em consideração uma serie de aspectos como usabilidade, fluidez e etc.
 
-O projeto foi dividido em etapas sequenciais que visam o entendimento do problema à implementação das soluções propostas, seguidas por uma manutenção evolutiva das soluções.
+O projeto foi dividido em etapas sequenciais que visou o entendimento do problema à implementação das soluções propostas, seguidas por uma manutenção evolutiva das soluções.
 
-A identificação das principais necessidades serão objeto de elaboração de especificações que serão disponibilizadas a PRODEMGE para que possam ser implementadas. Inicialmente serão analisadas as seguintes intervenções:
+A identificação das principais necessidades estão sendo objeto de elaboração de especificações que serão disponibilizadas a PRODEMGE para que possam ser implementadas.
 
 ### Remodelagem da Página Inicial
 
@@ -38,6 +38,61 @@ Obs: A primeira consulta a compor esse painel será a consulta que dará transpa
 Exemplo: [Portal de Transparência de Santa Catarina](http://www.transparencia.sc.gov.br/)
 ![](static/painel.png)
 
+
+## Remodelagem da Pesquisa Básica e Avançada
+
+A Remodelagem deverá ser nos moldes da pesquisa 'Acordo Judicial de Reparação da Vale' nas seguintes consultas:
+- COVID-19
+  - Compras - Programa de enfrentamento COVID 19.
+
+
+- Despesa
+  - Despesa;
+  - Restos a Pagar
+
+
+- Receita;
+
+- Planejamento e Resultados
+  - Proposta Orçamentária
+  - Emendas Orçamentária
+  - Alteração Orçamentária
+  - Obras Orçadas
+  - Crédito Orçamentário
+  - PPAG Consolidado
+  - PPAG por Programa
+
+
+- Pessoal
+  - Despesa com Pessoal
+  - Remuneração dos Servidores
+  - Diárias
+  - Viagens
+  - Concursos Realizados
+
+
+- Convênios e Parcerias
+  - Convênios de Entrada
+  - Convênio de Saída
+
+
+- Transferência de Impostos a Municípios
+
+
+- Compra e Patrimônio
+ - Compras e Contratos
+ - Gestão da Frota
+ -  Patrimônio
+
+
+- Dívida Pública
+
+Nessa remodelagem deve-se considerar a alteração dos formulários de detalhamento com a adição de novos dados e a criação de uma pesquisa avançada na consultas Concursos Realizados e  Diárias.
+
+
+## Favorecido da Consulta de Diárias
+
+
 ## Partição dos anos
 
 O Portal de Transparência deverá permitir que o cidadão busque informações, na pesquisa avançada, por mais de um exercício simultaneamente.
@@ -48,6 +103,7 @@ Exemplo: [Portal de Transparência de Linhares](https://linhares-es.portaltp.com
 
 
 ## Inclusão de Informações
+
  - Inclusão do número da Nota Fiscal;
  - incluir a vigência do Contrato nas tabelas - Consulta de Compras e Contratos
  - Criar uma nova opção "Carreiras" dentro do menu de acesso rápido
@@ -74,19 +130,7 @@ Exemplo:
 
 ![](static/programa-execu-orcamentaria.png)
 
-## Remodelagem da Pesquisa Básica
-
-- Incluir campo que direcione o usuário para os dados.mg;
-- Incluir filtro no cabeçalho nas colunas;
-- Melhorar a identificação da informação que é clicável tanto nas tabelas como no formulário de detalhamento;
-- Alterar a tipografia de todas as consultas (alterar tamanho e cor da fonte);
-- Formulário de Detalhamento:
-  - Alterar o design/layout de forma que ele fique mais compreensível;
-    - [Portal de Transparência de Linhares](https://linhares-es.portaltp.com.br/consultas/detalhes/empenho.aspx?id=33964993)
-![](static/formulario-detalhamento.png)
-
-
-- Remodelagem das páginas intermediárias de forma que o conteúdo fique próximos aos assuntos relacionados, como exemplo, ao acessar a consulta de Despesa tanto o manual como as perguntas frequentes relacionadas ao tema serão exibidas na mesma tela.
+#
 
 ### Inclusão da barra de dúvidas e canais de atendimento
 
