@@ -14,46 +14,67 @@ O objetivo é torná-la autoexplicativa. Para isso, tanto o design a quanto nave
 
 A página inicial deve reduzir ao máximo os pontos intermediários de interação para que, com poucos cliques, os usuários cheguem às informações desejadas permitindo assim que ele veja claramente quais dados estão disponíveis. Abaixo segue as principais intervenções:
 
-- Alterar e melhorar a navegabilidade do menu superior e do menu de acesso rápido:
-  - permitir que o usuário tenha acesso rápido a itens específicos do PdT - eg. 	Menu no formato *dropdown*;
+1) Alterar e melhorar a navegabilidade do menu superior e do menu de acesso rápido:
+  - Alteração do menu superior, reorganizando as informações para possibilitar o acesso a todo conteúdo de forma mais rápida.  eg. 	Menu no formato *dropdown*;
+
   - diferenciar quais informações são internas (eg. consulta do PdT - Despesas) e quais são externas (eg. Obras Públicas)
+    - Criar novos ícones para as consulta;
+  - Inclusão de barra de acessibilidade;
+  -
 
-
-- Reorganizar as informações da página inicial:
+2) Reorganizar as informações da página inicial:
   - Alterar a cor de fundo;
   - Criar menu de acesso rápido (consultas mais acessadas);
-  - Consolidar os canais de atendimento em uma única seção.
+  - Centralização dos canais de atendimento.
+  - Alteração do menu de acesso de rápido de forma que o usuário visualize todos os dados com menor número de cliques possíveis;
+  - Reorganização da área de notícias
 
 
-- Barra de Busca:
+3) Barra de Busca:
   - o campo deve possibilitar que um determinado dado seja encontrado
  de forma mais rápida e por vários caminhos possíveis;
   - inclusão da ferramenta *placeholder* indicando o que o usuário pode buscar, como órgão, Município, CNPJ de empresa conveniada ou nome de servidor.
 
 
-- Criação de um painel para destacar consultas que serão elaboradas para atender demandas de eventos extraordinários.
+4) Permitir que por meio da área administrativa do Portal a equipe DTA consiga alterar / acrescentar quais informações serão exibidas no painel de destaque da página inicial.
 
-Obs: A primeira consulta a compor esse painel será a consulta que dará transparência a execução do Acordo Judicial firmado entre o Estado e a Vale referente ao desastre de Brumadinho.
+5) Criação do Mapa do site
+O mapa do sítio deve ser disponibilizado em forma de lista hierárquica (utilizando os elementos de lista do HTML), podendo conter quantos níveis forem necessários
 
-Exemplo: [Portal de Transparência de Santa Catarina](http://www.transparencia.sc.gov.br/)
-![](static/painel.png)
+6) Barra de inicial fixa ao rolar a página
+
+7) Fale Conosco:
+- inserir o link de dúvidas frequentes na página do formulário do fale conosco e o link do fale conosco próximo ao dúvidas frequentes.
+
+8) Canal de Feedback
 
 
-## Remodelagem da Pesquisa Básica e Avançada
+## Remodelagem das páginas intermediarias do Portal
+
+As páginas intermediárias deverão seguir o mesmo padrão das páginas intermediarias do menu de acesso rápido;
+
+Todas as consultas deverão ter página intermediarias inclusive aquelas que possuem apenas uma sessão, como por exemplo a consulta da Receita.
+
+A área administrativa do Portal deverá permitir que a DTA altere o conteúdo de todas as páginas intermediárias.
+
+
+> Pensar na questão da data de atualização do conteúdo estático das páginas intermediarias
+
+## Remodelagem da Pesquisa Básica
 
 A Remodelagem deverá ser nos moldes da pesquisa 'Acordo Judicial de Reparação da Vale' nas seguintes consultas:
-- COVID-19
-  - Compras - Programa de enfrentamento COVID 19.
 
+1) COVID-19    
+- Compras - Programa de enfrentamento COVID 19.
 
-- Despesa
-  - Despesa;
-  - Restos a Pagar
+2) Despesa  
+- Despesa;
+- Restos a Pagar;
+- Mapa de Investimento;
 
+3) Receita
 
-- Receita;
-
-- Planejamento e Resultados
+4) Planejamento e Resultados
   - Proposta Orçamentária
   - Emendas Orçamentária
   - Alteração Orçamentária
@@ -63,7 +84,7 @@ A Remodelagem deverá ser nos moldes da pesquisa 'Acordo Judicial de Reparação
   - PPAG por Programa
 
 
-- Pessoal
+5) Pessoal
   - Despesa com Pessoal
   - Remuneração dos Servidores
   - Diárias
@@ -71,24 +92,32 @@ A Remodelagem deverá ser nos moldes da pesquisa 'Acordo Judicial de Reparação
   - Concursos Realizados
 
 
-- Convênios e Parcerias
+6) Convênios e Parcerias
   - Convênios de Entrada
   - Convênio de Saída
 
+7) Transferência de Impostos a Municípios
 
-- Transferência de Impostos a Municípios
-
-
-- Compra e Patrimônio
+8) Compra e Patrimônio
   - Compras e Contratos
   - Gestão da Frota
   -  Patrimônio
 
 
-- Dívida Pública
+9) Dívida Pública
+
+10)
+
 
 Nessa remodelagem deve-se considerar a alteração dos formulários de detalhamento com a adição de novos dados e a criação de uma pesquisa avançada na consultas Concursos Realizados e  Diárias.
 
+Outras intervenções:
+
+melhorar texto:
+- A área administrativa do Portal deverá permitir que a equipe DTA altere o texto explicativo nas pesquisa básica, bem como os termos que ficarão em destaque
+
+
+## Remodelagem da Pesquisa avançada
 
 ## Favorecido da Consulta de Diárias
 
