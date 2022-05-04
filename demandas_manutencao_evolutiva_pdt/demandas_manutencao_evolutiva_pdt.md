@@ -15,12 +15,12 @@ O objetivo é torná-la autoexplicativa. Para isso, tanto o design a quanto nave
 A página inicial deve reduzir ao máximo os pontos intermediários de interação para que, com poucos cliques, os usuários cheguem às informações desejadas permitindo assim que ele veja claramente quais dados estão disponíveis. Abaixo segue as principais intervenções:
 
 1) Alterar e melhorar a navegabilidade do menu superior e do menu de acesso rápido:
-  - Alteração do menu superior, reorganizando as informações para possibilitar o acesso a todo conteúdo de forma mais rápida.  eg. 	Menu no formato *dropdown*;
 
+  - Alteração do menu superior, reorganizando as informações para possibilitar o acesso a todo conteúdo de forma mais rápida.  eg. 	Menu no formato *dropdown*;
   - diferenciar quais informações são internas (eg. consulta do PdT - Despesas) e quais são externas (eg. Obras Públicas)
-    - Criar novos ícones para as consulta;
+  - Criar novos ícones para as consulta;
   - Inclusão de barra de acessibilidade;
-  -
+
 
 2) Reorganizar as informações da página inicial:
   - Alterar a cor de fundo;
@@ -39,7 +39,7 @@ A página inicial deve reduzir ao máximo os pontos intermediários de interaç�
 4) Permitir que por meio da área administrativa do Portal a equipe DTA consiga alterar / acrescentar quais informações serão exibidas no painel de destaque da página inicial.
 
 5) Criação do Mapa do site
-O mapa do sítio deve ser disponibilizado em forma de lista hierárquica (utilizando os elementos de lista do HTML), podendo conter quantos níveis forem necessários
+- O mapa do sítio deve ser disponibilizado em forma de lista hierárquica (utilizando os elementos de lista do HTML), podendo conter quantos níveis forem necessários
 
 6) Barra de inicial fixa ao rolar a página
 
@@ -103,13 +103,12 @@ A Remodelagem deverá ser nos moldes da pesquisa 'Acordo Judicial de Reparação
   - Gestão da Frota
   -  Patrimônio
 
-
 9) Dívida Pública
+ - Execução da Dívida
 
-10)
 
+A remodelagem deve-se considerar a alteração dos formulários de detalhamento de todas as consultas com as seguintes novas funcionalidades:
 
-Nessa remodelagem deve-se considerar a alteração dos formulários de detalhamento com a adição de novos dados e a criação de uma pesquisa avançada na consultas Concursos Realizados e  Diárias.
 
 Outras intervenções:
 
@@ -118,6 +117,26 @@ melhorar texto:
 
 
 ## Remodelagem da Pesquisa avançada
+
+A remodelagem e a elaboração da pesquisa avançada deverá ser nos moldes da pesquisa avançada da consulta 'Acordo Judicial de Reparação da Vale'.
+
+- Remodelagem
+  - Despesa
+  - Restos a pagar
+  - Receita
+  - Proposta Orçamentária
+  - Alteração Orçamentária
+  - Crédito Orçamentário
+  - Obras Orçadas
+
+
+- Elaboração
+  - Concursos Realizados
+  - Diárias
+    # Emendas
+    # PPAG
+
+
 
 ## Favorecido da Consulta de Diárias
 
