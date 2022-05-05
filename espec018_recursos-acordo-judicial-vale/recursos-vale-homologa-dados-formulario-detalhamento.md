@@ -17,14 +17,25 @@ output:
 
 <div class="alert alert-warning">
 
-## Consulta por Projeto
+## FORMULÁRIO DE DETALHAMENTO
 <a href="#top">(inicio)</a>
 
-### Nível 1
+### Classificação Orçamentária
 
-Não consta a coluna Anexo no primeiro nível da consulta - verificar a planilha do conjunto de dados.
+![image](https://user-images.githubusercontent.com/52920939/166938516-af189f30-e230-4a36-87f2-bf33f7977b3c.png)
 
-![](static/imagens/tela_nivel_projeto.png)
+Foi realizada a conferência dos dados do Portal com os dados do Armazém BO.
+
+Foram identificados erros nos seguintes itens:
+  - Na modalidade de Aplicação foi informado o elemento de despesa
+  - No Elemento de Despesa foi informado o item de despesa
+  - No Item de Despesa foi informado a modalidade de aplicação
+
+Abaixo foram identificadas as colunas com erros
+![image](https://user-images.githubusercontent.com/52920939/166940111-9efb3fe0-bf2b-4749-8fd0-7aa1c9ded7ae.png)
+
+ 
+
 
 
 #### Observação:
