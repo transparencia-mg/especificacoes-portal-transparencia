@@ -13,14 +13,26 @@ output:
 # Especificação tooltips
 <a href="#top">(inicio)</a>
 
+<div class="alert alert-success">
+
+OK
+--
+
 ## Texto da Consultas
 
 **Eventos Extraordinários**: Encontre aqui as informações sobre os gastos, contratações e legislações referentes a eventos extraordinários ocorridos no Estado de Minas Gerais.
 
+![](static/imagens/homologacao/tooltip-evento-extraordinario.png)
+
 **COVID 19**: Encontre aqui os gastos, repasses, contratações e legislações referentes ao enfrentamento da pandemia causada pela COVID-19
+
+![](static/imagens/homologacao/tooltip-covid.png)
 
 **Acordo Judicial de Reparação da Vale**: Encontre aqui os repasses, gastos e informações sobre o Acordo Judicial firmado com a Vale S.A.
 
+![](static/imagens/homologacao/tooltip-vale.png)
+
+ </div>
 
 ## Texto página Inicial
 <a href="#top">(inicio)</a>
@@ -35,8 +47,19 @@ O Acordo Judicial visa reparar os danos decorrentes do rompimento das barragens 
 
 As consultas criadas para dar transparência aos repasses e aos gastos realizados no Acordo Judicial de Reparação contemplam quatro diferentes escopos:
 
-1.	**Consulta por Projeto**: compreende a divulgação dos valores destinados aos Projetos previstos no Acordo Judicial de Reparação, seguindo cronograma de desembolso definido no Acordo e atualizados conforme deliberações do Conselho Superior do Comitê Gestor Pró-Brumadinho no uso das atribuições conferidas pelo [Decreto nº
-48.183/2021](https://www.almg.gov.br/consulte/legislacao/completa/completa.html?tipo=DEC&num=48183&comp=&ano=2021).
+<div class="alert alert-danger">
+
+Corrigir
+--
+1- Colocar um espaço entre os itens
+
+2- retirar o texto destacado na imagem
+
+3- O lik deverá ficar sobre toda o texto Decreto nº 48.183/2021 e não apenas sobre o números
+
+-----
+
+1.	**Consulta por Projeto**: compreende a divulgação dos valores destinados aos Projetos previstos no Acordo Judicial de Reparação, seguindo cronograma de desembolso definido no Acordo e atualizados conforme deliberações do Conselho Superior do Comitê Gestor Pró-Brumadinho no uso das atribuições conferidas pelo [Decreto nº 48.183/2021](https://www.almg.gov.br/consulte/legislacao/completa/completa.html?tipo=DEC&num=48183&comp=&ano=2021).
 
 1. **Consulta por Execução:** é a consulta que permite a visualização dos gastos de cada projeto, contemplando nomes dos [favorecidos](a "Nome de identificação da pessoa física ou jurídica que recebeu recursos públicos estaduais pela prestação de serviço ou pela entrega do produto.).") e valores pagos.
 
@@ -46,21 +69,47 @@ As consultas criadas para dar transparência aos repasses e aos gastos realizado
 
 Outras informações sobre o Acordo Judicial de Reparação podem ser consultadas na página do [Comitê Pró-Brumadinho](https://www.mg.gov.br/pro-brumadinho).
 
+
+![](static/imagens/homologacao/tooltip-texto-explicativo.png)
+
+ </div>
+
 ### Tooltip dos termos destacados dentro do texto inicial
 <a href="#top">(inicio)</a>
 
+<div class="alert alert-success">
+
+OK
+--
 
 Ao clicar em qualquer termo destacado o usuário será direcionado para o termo especifico dentro do glossário do Portal.
 
 * **IBGE:** Instituto Brasileiro de Geografia e Estatística. Principal provedor de informações geográficas e estatísticas do Brasil.
 
+![](static/imagens/homologacao/tooltip-IBGE.png)
+
 * **Fonte de Recurso:** Permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, fundo ou despesa.
+
+![](static/imagens/homologacao/tooltip-fonte-recurso.png)
+
 * **Favorecido**: Nome de identificação da pessoa física ou jurídica que recebeu recursos públicos estaduais pela prestação de serviço ou pela entrega do produto
+
+![](static/imagens/homologacao/tooltip-favorecido.png)
+
 * **Valores arrecadados:** Valor financeiro que entrou nos cofres públicos no período consultado
 
+![](static/imagens/homologacao/tooltip-valores-arrecadados.png)
+
+</div>
 
 ## Tooltip das consultas pré-formatadas
 <a href="#top">(inicio)</a>
+
+
+<div class="alert alert-danger">
+
+Corrigir - Tooltip do ícone Execução
+--
 
 |Consulta     |tooltip                                                          
 |----------|--------------|
@@ -70,6 +119,9 @@ Ao clicar em qualquer termo destacado o usuário será direcionado para o termo 
 |Por Receita        |Consulte os valores arrecadados por danos advindos de desastres socioambientais |
 |Pesquisar  |Exibe os dados pesquisados      |
 
+![](static/imagens/homologacao/tooltip-execucao.png)
+
+</div>
 
 ## Texto do botão Monte sua pesquisa
 <a href="#top">(inicio)</a>
