@@ -50,3 +50,15 @@ output:
 ![image](https://user-images.githubusercontent.com/52920939/166983991-967346e9-b3e0-4dd7-b9f7-f12564222517.png)
   
 ![image](https://user-images.githubusercontent.com/52920939/166984031-a775a4ca-db27-4a6a-891c-992de9813c82.png)
+  
+  
+#### 4. Outras situações da Ordem de Pagamento:
+
+- Foram identificadas 3 outras situações de ordem de pagamento que não constam no Armazém, todas referentes a municípios ou repasses que não fazem parte do escopo 9288130:
+  - situação paga
+  - situação pendente de transmissão aos bancos
+  - situação sujeita a compensação bancária
+  
+  ![image](https://user-images.githubusercontent.com/52920939/166984440-a52b1fcb-f9b2-492e-825c-62a5aad79fb9.png)
+
+  
