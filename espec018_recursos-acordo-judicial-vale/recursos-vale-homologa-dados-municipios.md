@@ -51,7 +51,8 @@ output:
   
 ![image](https://user-images.githubusercontent.com/52920939/166984031-a775a4ca-db27-4a6a-891c-992de9813c82.png)
   
-  
+#### OBSERVAÇÃO: As operações canceladas e as operações cancelados pelo operador devem ser retiradas, obedecendo o critério utilizado na consulta de despesa:
+
 #### 4. Outras situações da Ordem de Pagamento:
 
 - Foram identificadas 3 outras situações de ordem de pagamento que não constam no Armazém, todas referentes a municípios ou repasses que não fazem parte do escopo 9288130:
