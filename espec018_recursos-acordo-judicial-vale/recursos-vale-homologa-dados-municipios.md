@@ -20,65 +20,33 @@ output:
 ## CONSULTA MUNICÍPIOS
 <a href="#top">(inicio)</a>
 
-## Projeto 9288134 - Empenho 43
-  
+
 ### ERROS
-### 1. Classificação Orçamentária
+### Nível 1
 
-![image](https://user-images.githubusercontent.com/52920939/166938516-af189f30-e230-4a36-87f2-bf33f7977b3c.png)
-
-Foi realizada a conferência dos dados do Portal com os dados do Armazém BO.
-
-Foram identificados erros nos seguintes itens:
-  - Na modalidade de Aplicação foi informado o elemento de despesa
-  - No Elemento de Despesa foi informado o item de despesa
-  - No Item de Despesa foi informado a modalidade de aplicação
-
-Abaixo foram identificadas as colunas com erros
-![image](https://user-images.githubusercontent.com/52920939/166940111-9efb3fe0-bf2b-4749-8fd0-7aa1c9ded7ae.png)
-
- 
-### 2. Empenho
-
-![image](https://user-images.githubusercontent.com/52920939/166941929-a8f4e6bd-93e2-4830-9ca6-91a2696f8345.png)
-
-Foi realizada a conferência dos dados do Portal com os dados do Armazém BO.
+#### 1. Situação acatada pelo banco:
+- foram identificados pagamento para outros municípios que não fazem parte do projeto 9288130: alguns empenhos de Belo Horizonte, empenhos para Curitiba, Rio de Janeiro, São Paulo e outros sem informação de municípios
   
-Não foi identificado os dados referentes a anulação do empenho 43
-
-![image](https://user-images.githubusercontent.com/52920939/166942541-51c168c9-45ca-4af1-8a79-5fe03f538794.png)
-
-
-### 3. Outras informações
+![image](https://user-images.githubusercontent.com/52920939/166979792-7e380570-a8b0-4a70-8a7f-35ca3ed5d4d0.png)
   
-![image](https://user-images.githubusercontent.com/52920939/166943937-94f17afc-f3bd-48a3-a7ba-b3000a5b26c4.png)
-
-Foi realizada a conferência dos dados do Portal com os dados do Armazém BO - não foram localizados os dados do contrato 4963
-  
-![image](https://user-images.githubusercontent.com/52920939/166946576-9dc0fa12-8a15-4884-bc1a-a35a5dcdaef1.png)
-  
-Também não foram localizados os dados do convênio/parceria de saída de recursos
- 
-![image](https://user-images.githubusercontent.com/52920939/166971268-3d76999f-a2fa-42fc-b4e5-f0ebb9801091.png)
-
+![image](https://user-images.githubusercontent.com/52920939/166981060-52816a75-a2fd-41bb-a79b-6b158c78cde9.png)
 
   
+ #### 2. Cancelada:
   
-
-### ABAS SEM ERRO
-### 1. Liquidação
-
-![image](https://user-images.githubusercontent.com/52920939/166942679-39d4598a-308b-49b6-a744-ca1f93cde4e6.png)
-
-Foi realizada a conferência dos dados do Portal com os dados do Armazém BO - não havia dados de liquidação nesse empenho
+- Foram identificados pagamento para o município de Belo Horizonte que não faz parte do projeto 9288130.
   
-![image](https://user-images.githubusercontent.com/52920939/166942841-c539c70d-f3cf-4a74-a733-07485ef8db71.png)
-
-
-### 2. Pagamento
+![image](https://user-images.githubusercontent.com/52920939/166982214-b7441578-f1fe-4b9f-9565-fa384a7bef9c.png)
   
-![image](https://user-images.githubusercontent.com/52920939/166942967-69c815ef-2f4e-4576-9dc7-050c28f4e0ab.png)
-
-Foi realizada a conferência dos dados do Portal com os dados do Armazém BO - não havia dados de pagamento nesse empenho
+- Consta também valores para a coluna Valor Pago Financeiro, sem que por terem sido canceladas, eles valores aparecem zerados no Armazém BO.
   
-![image](https://user-images.githubusercontent.com/52920939/166943143-ad50c52a-fa87-4aaf-b54d-cd35fdbf7376.png)
+  
+#### 3. Cancelada pelo Operador
+  
+- Foram identificados pagamento para outros municípios que não fazem parte do projeto 9288130: alguns empenhos de Belo Horizonte, empenhos para Curitiba, Montes Claros, Rio de Janeiro, São Paulo e outros sem informação de municípios
+  
+![image](https://user-images.githubusercontent.com/52920939/166983950-ceb969b3-c9f0-4cb4-9443-44c65dbfbd6c.png)
+  
+![image](https://user-images.githubusercontent.com/52920939/166983991-967346e9-b3e0-4dd7-b9f7-f12564222517.png)
+  
+![image](https://user-images.githubusercontent.com/52920939/166984031-a775a4ca-db27-4a6a-891c-992de9813c82.png)
