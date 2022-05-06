@@ -82,3 +82,57 @@ Foi realizada a conferência dos dados do Portal com os dados do Armazém BO - n
 Foi realizada a conferência dos dados do Portal com os dados do Armazém BO - não havia dados de pagamento nesse empenho
   
 ![image](https://user-images.githubusercontent.com/52920939/166943143-ad50c52a-fa87-4aaf-b54d-cd35fdbf7376.png)
+  
+  
+## Projeto 9288138 - Empenho 317
+  
+### 1. Classificação orçamentária
+  
+  - Mesmo erro relatado acima, troca dos dados das colunas 
+      - Na modalidade de Aplicação foi informado o elemento de despesa
+      - No Elemento de Despesa foi informado o item de despesa
+      - No Item de Despesa foi informado a modalidade de aplicação
+  
+### 2. Empenho 
+  
+  ![image](https://user-images.githubusercontent.com/52920939/167129754-c192c0de-dbd9-430c-8968-7bb3058ea3a6.png)
+
+  - Não consta os dados da inscrição em Restos a Pagar no Portal - no armazém já possui esses dados.  
+  
+  ![image](https://user-images.githubusercontent.com/52920939/167129708-9b934e19-01b9-4a99-b218-2c243ac26103.png)
+
+### 3. Liquidação
+  
+  ![image](https://user-images.githubusercontent.com/52920939/167129828-d0ef6b1b-26e0-49ee-83c4-68a166bf7a34.png)
+
+  - Não consta os dados da inscrição em Restos a Pagar no Portal - no armazém já possui esses dados.  
+  
+  ![image](https://user-images.githubusercontent.com/52920939/167129877-e0c4ff1a-07c1-4115-ba9a-06267506ba39.png)
+  
+
+### 4. Pagamento
+  
+![image](https://user-images.githubusercontent.com/52920939/167129947-fbbf54c1-fabc-4f4e-8d35-190356ebcf44.png)
+
+  - Não consta os dados da inscrição em Restos a Pagar no Portal - no armazém já possui esses dados.  
+  
+![image](https://user-images.githubusercontent.com/52920939/167129956-14e91155-0ff7-40cb-9151-21c96f5483bb.png)
+  
+  
+### 5. Outras Informações
+  
+  ![image](https://user-images.githubusercontent.com/52920939/167130013-a158a3f4-367f-42cd-8c1c-f766a087e4bd.png)
+  
+  - Informação incorreta referente ao número de contrato associado ao empenho 317. O contrato 9316087 refere-se ao empenho 314 da empresa Gracio do Brasil Proteção Balística Eireli. O empenho 317 deve trazer a informação referente ao contrato 9316088
+  
+  Observação: O processo de compra de ambos os contratos são o mesmo, mas os contratos são diferentes.
+  
+  ![image](https://user-images.githubusercontent.com/52920939/167130215-c56ee5ea-d5c8-434e-9b0f-ee0b8ba448b1.png)
+
+  
+  
+
+  
+
+  
+  
