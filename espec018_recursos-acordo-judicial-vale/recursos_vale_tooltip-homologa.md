@@ -108,8 +108,8 @@ Ao clicar em qualquer termo destacado o usuário será direcionado para o termo 
 
 <div class="alert alert-danger">
 
-Corrigir - Tooltip do ícone Execução
---
+**Corrigir** - Tooltip do ícone Execução
+
 
 |Consulta     |tooltip                                                          
 |----------|--------------|
@@ -126,14 +126,22 @@ Corrigir - Tooltip do ícone Execução
 ## Texto do botão Monte sua pesquisa
 <a href="#top">(inicio)</a>
 
+<div class="alert alert-success">
+
+**OK**
+
 Monte aqui uma nova consulta com informações detalhadas por meio de várias combinações.
+
+</div>
 
 ## Tooltip tabelas da pesquisa básica
 <a href="#top">(inicio)</a>
 
+**Ainda não foi liberado para homologação**
+
 | Tabela | Tooltip - PdT | Consulta      
 |------------|---|-
-|Anexo      |  Anexo ou cláusula ao qual o Projeto se refere conforme o Acordo Judicial de Reparação da Vale. | Projeto
+|**OK** Anexo      |  Anexo ou cláusula ao qual o Projeto se refere conforme o Acordo Judicial de Reparação da Vale. | Projeto
 |Ano do Repasse| Ano de exercício que o repasse ocorreu|  Município
 |CNPJ/ CPF  Favorecido  | Número de identificação: Pessoa Física (CPF) e Pessoa Jurídica (CNPJ) | Projeto<br>  Execução
 |Ano de Exercício|Ano de exercício que ocorreu a arrecadação|  Receita
@@ -164,14 +172,29 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 |Valor Arrecadado|Valor financeiro que entrou nos cofres públicos no período consultado|  Receita
 
 
-
 ## Tooltip dos filtros da barra vertical
 <a href="#top">(inicio)</a>
+
+<div class="alert alert-danger">
+
+
+* Alterar o nome em todos os campos que constar Convênio/Parceria recurso de saída para **Convênio/Parceria de saída de recursos**
+
+* **Tooltips pendentes**
+
+  * Número Contrato / Convênio/Parceria de saída de recursos: Número de identificação do Contrato ou do Convênio/Parceria de saída de recursos no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais)
+  * Objeto do Contrato: Descrição do objeto do contrato
+  * Título do Convênio / Parceria: Descrição do título do Convênio/Parceria de saída de recursos.
+
+</div>
+
+
+<div class="alert alert-success">
 
 |Filtro|Tooltip
 |-|-
 |Período |Período da consulta
-|Código SIAFI  |Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais)
+|Código Projeto  |Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais)
 |Anexo  |Anexo ou cláusula ao qual o Projeto se refere conforme o Acordo Judicial de Reparação  da Vale   
 |Projeto| Descrição do Projeto conforme consta no Acordo Judicial de Reparação                                             
 |Órgão |Descrição da Unidade Orçamentária responsável pelo Projeto                                                                         
@@ -192,10 +215,10 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 |Procedimento de Contratação         |Indica a modalidade de licitação (ex. concorrência, dispensa de licitação, leilão e etc.)
 |CNPJ/ CPF Favorecido                |Número de identificação da pessoa física (CPF) ou da pesssoa jurídica (CNPJ).
 |Favorecido     |Nome de identificação da pessoa física ou jurídica que recebeu recursos públicos estaduais pela prestação de serviço ou pela entrega do produto
-|Objeto do Processo  |Descrição do objeto do processo de compra
-|Título do Convênio / Parceria| Título do convênio / parceria de tra              
+|Objeto do Processo  |Descrição do objeto do processo de compra        
 |Número do documento do pagamento | Número de identificação do documento de pagamento no SIAFI-MG
 
+</div>
 
 ## Tooltip tabela de resultados Monte sua pesquisa
 

@@ -15,10 +15,12 @@ output:
 
 Esse documento tem como base a criação de uma nova consulta para possibilitar o acompanhamento das ações desenvolvidas pelo governo do estado com recursos provenientes do acordo judicial firmado com a Vale .
 
+
 ## Pesquisa Básica - Tipo de Consultas
 <a href="#top">(inicio)</a>
 
 Para acessar o comportamento padrão da consulta básica acesse a [Especificação Layout - Consulta Básica](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec018_recusos-vale/espec018_recursos-acordo-judicial-vale/recursos-vale-espec.md)
+
 
 ### Por Projeto
 <a href="#top">(inicio)</a>
@@ -28,7 +30,6 @@ Os dados dessa consulta serão extraídos do Universo BO SIGCON- Entrada.
 
 
 #### Filtros da Consulta
-
 Essa consulta será plurianual, ou seja, o usuário irá visualizar todos os projetos e valores independente do ano.
 
 
@@ -40,13 +41,16 @@ Nota: Ess url será utilizada apenas para fins de testes.
 
 #### Campos da Tabela
 
+
+
+
+
 | Portal de Dados Abertos | PdT | Tooltip - PdT | Exibição da Coluna
 |------------|-----|--------------------|---|
 | Código Projeto| Código Projeto           | Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |default
-| Projeto     | Projeto                 | Descrição do Projeto conforme consta no Acordo de Reparação e de execução do Governo do Estado                 |default
+| Projeto     | Projeto               | Descrição do Projeto conforme consta no Acordo de Reparação e de execução do Governo do Estado                 |default
 | Anexo         | Anexo      |          Anexo ao qual o Projeto se refere conforme o Acordo de Reparação      |default
-| Valor do Projeto          | Valor do Projeto        |          Valor total destinado ao projeto          |default
-
+| Valor do Projeto          | Valor do Projeto        |          Valor total destinado ao projeto         |default
 
 ![](static/imagens/tabela-projeto.png)
 
@@ -55,6 +59,7 @@ Nota: Ess url será utilizada apenas para fins de testes.
 - Ao clicar no campo 'Código Projeto' o usuário será direcionado para o 2º nível da consulta por execução, ou seja, a tabela de empenhos **com o acréscimo das colunas Código Órgão e Órgão**. A consulta deverá exibir todos dos empenhos relacionados ao Código Projeto selecionado independentemente do ano de registro do empenho.
 
 ![](static/imagens/tabela-projeto-2-nivel.png)
+
 
 ### Por Execução
 <a href="#top">(inicio)</a>
@@ -95,6 +100,8 @@ Essa consulta será anual, ou seja, o usuário irá visualizar a execução (Des
 
 - Ao clicar no campo 'Código Projeto' o usuário será direcionado para o 2º nível da consulta, ou seja, tabela de empenhos.
 ____
+
+
 
 ##### Tabela 2º nível
 
