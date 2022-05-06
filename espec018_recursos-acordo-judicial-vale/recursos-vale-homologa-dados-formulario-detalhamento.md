@@ -129,7 +129,8 @@ Foi realizada a conferência dos dados do Portal com os dados do Armazém BO - n
   
   ![image](https://user-images.githubusercontent.com/52920939/167130215-c56ee5ea-d5c8-434e-9b0f-ee0b8ba448b1.png)
 
-  
+  ![WhatsApp Image 2022-05-06 at 09 17 17](https://user-images.githubusercontent.com/52920939/167130512-f37bf4a3-ad1a-44a0-831d-9f3a5e7f5c1f.jpeg)
+
   
 
   
