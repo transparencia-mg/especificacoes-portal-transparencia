@@ -106,9 +106,9 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 ###### Observações:
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-Trocar o nome das consultas
+CORRIGIDO   ~Trocar o nome das consultas~
 --
 * A pesquisa básica será composta, inicialmente, por 4 ícones de tipo de consultas:
   * Projeto
@@ -120,16 +120,59 @@ Trocar o nome das consultas
 
 </div>
 
+
+<div class="alert alert-danger">
+
+**CORRIGIR**
+
+Os dados do gráfico de área (Consulta por Execução) não estão sendo exibidos na totalidade devido a formatação.
+
+![](static/imagens/homologacao/grafico-area.png)
+
+
+</div>
+
+
+<div class="alert alert-danger">
+
+**CORRIGIR**
+
+A formatação da tabela não exibe todos os dados. Como por exemplos o R$ da frase:'Valores em R$'
+
+![](static/imagens/homologacao/formatacao-tabela-R$.gif)
+
+</div>
+
+* Os ícones serão clicáveis. Quando o usuário posicionar o mouse sobre o ícone será exibido um *tooltip* com uma breve descrição da consulta.
+
+<div class="alert alert-danger">
+
+**CORRIGIR**
+
+A funcionalidade de exibição do tooltip estava funcionando, porém na versão do dia 09/05 ela foi desabilitada.
+
+</div>
+
 <div class="alert alert-success">
-
-
-* **OK** Os ícones serão clicáveis. Quando o usuário posicionar o mouse sobre o ícone será exibido um *tooltip* com uma breve descrição da consulta.
 
 * **OK** O campo período será no formato **dd/mm/aaaa** composto por início e fim (eg. 01/04/2021 a 30/12/2021);
 
 ![](static/imagens/homologacao/layout-homologa-nomes-data.png)
 
 </div>
+
+<div class="alert alert-danger">
+
+**CORRIGIR**
+
+Erro relatado dia 09/05
+
+Não está sendo possível selecionar o ano de pesquisa na da dd/mm/aaaa. O usuário deve conseguir selecionar o ano ou digitar. O Pdt permite a escolha apenas 'setinha'
+
+![](static/imagens/homologacao/navegar-data.png)
+
+</div>
+
 
 <div class="alert alert-success">
 
@@ -162,11 +205,13 @@ Trocar o nome das consultas
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-**Corrigir**
+**CORRIGIDO**
 
-  3- A descrição dos órgãos na caixa de busca deve obedecer o mesmo padrão já adotado no Portal, ou seja, apenas as primeiras letras em maiúsculo.
+  ~3- A descrição dos órgãos na caixa de busca deve obedecer o mesmo padrão já adotado no Portal, ou seja, apenas as primeiras letras em maiúsculo.~
+
+![](static/imagens/homologacao/tabela-orgao-caixa-alta.png)
 
 </div>
 
