@@ -1,7 +1,7 @@
 ---
 contrato_manutencao: nº 15210010062019 (INF. 3951)
 Link html: http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec018_recursos-acordo-judicial-vale/recursos-vale-tooltip-parte1.html
-mantis:0165256
+mantis: 0165256
 pull_request: '[]()'
 titulo: Transparência dos recursos da Vale - Acordo Judicial 04/02/2021
 output:
@@ -16,40 +16,41 @@ output:
 Esse documento tem como base a criação de uma nova consulta para possibilitar o acompanhamento das ações desenvolvidas pelo governo do estado com recursos provenientes do acordo judicial firmado com a Vale .
 
 
-### Por Projeto
+### 1. Por Projeto
 
-#### Campos da Tabela
+#### 1.1 Campos da Tabela
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-**CORRIGIR**
+**CORRIGIDO**
 
-- Alterar a palavra 'Nome' para **Projeto**
-- Alterar a palavra 'Valor Total' para **Valor do Projeto**
-- Alterar tooltip do campo **Valor do Projeto**
+- ~Alterar a palavra 'Nome' para **Projeto**~
+- ~Alterar a palavra 'Valor Total' para **Valor do Projeto**~
+- ~Alterar tooltip do campo **Valor do Projeto**~
 
 ![](static/imagens/homologacao/tooltip-valor-projeto.png)
 
+</div>
 
 | Portal de Dados Abertos | PdT | Tooltip - PdT | Exibição da Coluna
 |------------|-----|--------------------|---|
 | Código Projeto| Código Projeto           | Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |default
-| Projeto     | Projeto **CORRIGIR**                 | Descrição do Projeto conforme consta no Acordo de Reparação e de execução do Governo do Estado                 |default
+| Projeto     | Projeto                | Descrição do Projeto conforme consta no Acordo de Reparação e de execução do Governo do Estado                 |default
 | Anexo         | Anexo      |          Anexo ao qual o Projeto se refere conforme o Acordo de Reparação      |default
-| Valor do Projeto          | Valor do Projeto        |          Valor total destinado ao projeto **CORRIGIR**         |default
-
-</div>
+| Valor do Projeto          | Valor do Projeto        |          Valor total destinado ao projeto         |default
 
 
-### Por Execução
+
+
+### 2. Por Execução
 <a href="#top">(inicio)</a>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-**CORRIGIR**
+**CORRIGIDO**
 
-- Corrigir tooltip do campo órgão, valor pago e valor total pago
-- Alterar nomde do valor total a pagar para  **Valor total pago**
+- ~Corrigir tooltip do campo órgão, valor pago e valor total pago~
+- ~Alterar nomde do valor total a pagar para  **Valor total pago**~
 
 ![](static/imagens/homologacao/tooltip-orgao.png)
 
@@ -58,7 +59,9 @@ Esse documento tem como base a criação de uma nova consulta para possibilitar 
 ![](static/imagens/homologacao/tooltip-valor-total-pago.png)
 
 
-##### Tabela 1º nível
+</div>
+
+##### 2.2 Tabela 1º nível
 
 |Dados| Campo armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Tooltip - PdT           | Exibição da Coluna
 |--|------|---|---------------|------------|---|
@@ -72,9 +75,9 @@ Esse documento tem como base a criação de uma nova consulta para possibilitar 
 |Restos a Pagar| -Valor Pago Processado<br> -Valor Pago não processado |  SIAFI - Execução de Restos a Pagar > Restos a Pagar | Valor Pago em Restos a Pagar     | Valor pago referente a exercícios anteriores efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços realizados em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária. |default
 |Fórmula Portal|   | | Valor Total Pago   | Somatório dos valores pagos neste exercício e pagos em restos a pagar processados e não processados.           |default
 
-</div>
 
-##### Tabela 2º nível
+
+##### 2.3 Tabela 2º nível
 
 
 |Dados|  Campo Armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Tooltip - PdT           | Exibição da Coluna
@@ -91,20 +94,25 @@ Esse documento tem como base a criação de uma nova consulta para possibilitar 
 |Fórmula Portal|   | | Valor Total Pago   |   Somatório dos valores pagos neste exercício e pagos em restos a pagar processados e não processados.           |default
 
 _______
-### Por Município
+### 3. Por Município
 <a href="#top">(inicio)</a>
 
 
+<div class="alert alert-success">
+
+- ~Corrigir tooltip do campo município~
+
+![](static/imagens/homologacao/tooltip-municipio.png)
+
+</div>
+
 <div class="alert alert-danger">
 
-**CORRIGIR**
+**NÃO CORRIGIDO**
 
-- Corrigir tooltip do campo município
 - Corrigir tooltip do Valor Pago: Valor referente aos repasses efetuados conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021 do Acordo Judicial.
 
  **OBS: Lembrando que o tooltip desse valor pago é para apenas essa consulta de município**
-
-![](static/imagens/homologacao/tooltip-municipio.png)
 
 ![](static/imagens/homologacao/tooltip-valor-pago-municipio.png)
 
@@ -122,17 +130,18 @@ _______
 </div>
 
 ______
-### Por Receita
+### 4. Por Receita
 <a href="#top">(inicio)</a>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-**CORRIGIR**
+**CORRIGIDO**
 
-- Corrigir tooltip do campo classificação da Receita
+- ~Corrigir tooltip do campo classificação da Receita~
 
 ![](static/imagens/homologacao/tooltip-receita.png)
 
+</div>
 
 |Dados| Campo armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Tooltip - PdT           | Exibição da Coluna
 |-| -|---|---------------|------------|---|

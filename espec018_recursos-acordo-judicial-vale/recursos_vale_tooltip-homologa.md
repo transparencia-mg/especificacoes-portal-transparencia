@@ -1,7 +1,7 @@
 ---
 contrato_manutencao: nº 15210010062019 (INF. 3951)
 Link html: http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec018_recursos-acordo-judicial-vale/recursos_vale_tooltip-homologa.html
-mantis:0165256
+mantis: 0165256
 pull_request: '[]()'
 titulo: Transparência dos recursos da Vale - Acordo Judicial 04/02/2021
 output:
@@ -15,10 +15,9 @@ output:
 
 <div class="alert alert-success">
 
-OK
---
+**OK**
 
-## Texto da Consultas
+## 1.2 Texto da Consultas
 
 **Eventos Extraordinários**: Encontre aqui as informações sobre os gastos, contratações e legislações referentes a eventos extraordinários ocorridos no Estado de Minas Gerais.
 
@@ -34,7 +33,7 @@ OK
 
  </div>
 
-## Texto página Inicial
+## 1.3 Texto página Inicial
 <a href="#top">(inicio)</a>
 
 Essa consulta tem por objetivo divulgar informações sobre os valores repassados ao Estado de Minas Gerais por meio do Acordo Judicial de Reparação firmado entre o Governo de Minas, o Ministério Público de Minas Gerais (MPMG), o Ministério Público Federal (MPF) e a Defensoria Pública de Minas Gerais (DPMG) com a Vale S.A., sob mediação do Tribunal de Justiça de Minas Gerais (TJMG).
@@ -47,18 +46,6 @@ O Acordo Judicial visa reparar os danos decorrentes do rompimento das barragens 
 
 As consultas criadas para dar transparência aos repasses e aos gastos realizados no Acordo Judicial de Reparação contemplam quatro diferentes escopos:
 
-<div class="alert alert-danger">
-
-Corrigir
---
-1- Colocar um espaço entre os itens
-
-2- retirar o texto destacado na imagem
-
-3- O lik deverá ficar sobre toda o texto Decreto nº 48.183/2021 e não apenas sobre o números
-
------
-
 1.	**Consulta por Projeto**: compreende a divulgação dos valores destinados aos Projetos previstos no Acordo Judicial de Reparação, seguindo cronograma de desembolso definido no Acordo e atualizados conforme deliberações do Conselho Superior do Comitê Gestor Pró-Brumadinho no uso das atribuições conferidas pelo [Decreto nº 48.183/2021](https://www.almg.gov.br/consulte/legislacao/completa/completa.html?tipo=DEC&num=48183&comp=&ano=2021).
 
 1. **Consulta por Execução:** é a consulta que permite a visualização dos gastos de cada projeto, contemplando nomes dos [favorecidos](a "Nome de identificação da pessoa física ou jurídica que recebeu recursos públicos estaduais pela prestação de serviço ou pela entrega do produto.).") e valores pagos.
@@ -69,18 +56,28 @@ Corrigir
 
 Outras informações sobre o Acordo Judicial de Reparação podem ser consultadas na página do [Comitê Pró-Brumadinho](https://www.mg.gov.br/pro-brumadinho).
 
+<div class="alert alert-success">
+
+**CORRIGIDO**
+
+1- ~Colocar um espaço entre os itens~
+
+2-~retirar o texto destacado na imagem~
+
+3- ~O link deverá ficar sobre toda o texto Decreto nº 48.183/2021 e não apenas sobre o números~
 
 ![](static/imagens/homologacao/tooltip-texto-explicativo.png)
 
  </div>
 
-### Tooltip dos termos destacados dentro do texto inicial
+
+### 1.3.1 Tooltip dos termos destacados dentro do texto inicial
 <a href="#top">(inicio)</a>
 
 <div class="alert alert-success">
 
-OK
---
+**OK**
+
 
 Ao clicar em qualquer termo destacado o usuário será direcionado para o termo especifico dentro do glossário do Portal.
 
@@ -102,14 +99,17 @@ Ao clicar em qualquer termo destacado o usuário será direcionado para o termo 
 
 </div>
 
-## Tooltip das consultas pré-formatadas
+## 1.4 Tooltip das consultas pré-formatadas
 <a href="#top">(inicio)</a>
 
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-**Corrigir** - Tooltip do ícone Execução
+**Corrigido** - ~Tooltip do ícone Execução~
 
+![](static/imagens/homologacao/tooltip-execucao.png)
+
+</div>
 
 |Consulta     |tooltip                                                          
 |----------|--------------|
@@ -119,11 +119,7 @@ Ao clicar em qualquer termo destacado o usuário será direcionado para o termo 
 |Por Receita        |Consulte os valores arrecadados por danos advindos de desastres socioambientais |
 |Pesquisar  |Exibe os dados pesquisados      |
 
-![](static/imagens/homologacao/tooltip-execucao.png)
-
-</div>
-
-## Texto do botão Monte sua pesquisa
+## 1.5 Texto do botão Monte sua pesquisa
 <a href="#top">(inicio)</a>
 
 <div class="alert alert-success">
@@ -134,7 +130,7 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 
 </div>
 
-## Tooltip tabelas da pesquisa básica
+## 1.6 Tooltip tabelas da pesquisa básica
 <a href="#top">(inicio)</a>
 
 **Ainda não foi liberado para homologação**
@@ -142,43 +138,43 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 | Tabela | Tooltip - PdT | Consulta      
 |------------|---|-
 |**OK** Anexo      |  Anexo ou cláusula ao qual o Projeto se refere conforme o Acordo Judicial de Reparação da Vale. | Projeto
-|Ano do Repasse| Ano de exercício que o repasse ocorreu|  Município
-|CNPJ/ CPF  Favorecido  | Número de identificação: Pessoa Física (CPF) e Pessoa Jurídica (CNPJ) | Projeto<br>  Execução
-|Ano de Exercício|Ano de exercício que ocorreu a arrecadação|  Receita
-|Código da Classificação Receita|Classificação criada a fim de possibilitar a identificação detalhada dos recursos que ingressam nos cofres públicos. Os números representam, da esquerda para a direita: categoria econômica; origem da receita; espécie da receita; desdobramento 1 da receita, desdobramento 2 da receita, desdobramento 3 da receita, tipo da receita| Receita
-|Classificação Receita|Descrição da identificação detalhada dos recursos que ingressam nos cofres públicos| Receita
+|**OK** Ano do Repasse| Ano de exercício que o repasse ocorreu|  Município
+|**OK** CNPJ/ CPF  Favorecido  | Número de identificação: Pessoa Física (CPF) e Pessoa Jurídica (CNPJ) | Projeto<br>  Execução
+|**OK** Ano de Exercício|Ano de exercício que ocorreu a arrecadação|  Receita
+|**OK** Código da Classificação Receita|Classificação criada a fim de possibilitar a identificação detalhada dos recursos que ingressam nos cofres públicos. Os números representam, da esquerda para a direita: categoria econômica; origem da receita; espécie da receita; desdobramento 1 da receita, desdobramento 2 da receita, desdobramento 3 da receita, tipo da receita| Receita
+|**OK** Classificação Receita|Descrição da identificação detalhada dos recursos que ingressam nos cofres públicos| Receita
 |Código da Fonte de Recurso||  Receita
-| Código Projeto           | Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |  Projeto<br>  Execução
-|Código Órgão    |    Código da Unidade Orçamentária responsável pelo Projeto.| Projeto<br>  Execução       
-|Data Registro do Empenho |Data de registro do documento de empenho|  Projeto<br>  Execução
-| Data de Registro do pagamento |Data de Registro do Pagamento no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) | Município
-| Empenho           | Número de identificação do documento de empenho no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|  Projeto<br>  Execução<br>  Município
-| Favorecido    | Nome de quem recebeu recursos públicos estaduais pela prestação de serviço ou entrega do produto. Ex: prefeituras, servidores, empresas, entidades do terceiro setor, etc. |  Projeto<br>  Execução
-|Fonte de Recurso|Indica a origem do dinheiro arrecadado. Combina a origem do dinheiro às despesas orçamentárias. Esta vinculação visa demonstrar o montante de dinheiro que já está comprometido com o atendimento de determinadas finalidades, e aquele que pode ser livremente alocado|  Receita
-|Município |Nome do Município que recebeu os repasses do Acordo Judicial conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021|  Município
-|Órgão                   |    Descrição da Unidade Orçamentária responsável pelo Projeto | Projeto<br> Execução                
+| **OK** Código Projeto           | Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |  Projeto<br>  Execução
+|**OK** Código Órgão    |    Código da Unidade Orçamentária responsável pelo Projeto.| Projeto<br>  Execução       
+|**OK** Data Registro do Empenho |Data de registro do documento de empenho|  Projeto<br>  Execução
+| **OK** Data de Registro do pagamento |Data de Registro do Pagamento no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) | Município
+| **OK** Empenho           | Número de identificação do documento de empenho no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|  Projeto<br>  Execução<br>  Município
+|**OK**  Favorecido    | Nome de quem recebeu recursos públicos estaduais pela prestação de serviço ou entrega do produto. Ex: prefeituras, servidores, empresas, entidades do terceiro setor, etc. |  Projeto<br>  Execução
+|**OK** Fonte de Recurso|Indica a origem do dinheiro arrecadado. Combina a origem do dinheiro às despesas orçamentárias. Esta vinculação visa demonstrar o montante de dinheiro que já está comprometido com o atendimento de determinadas finalidades, e aquele que pode ser livremente alocado|  Receita
+|**OK** Município |Nome do Município que recebeu os repasses do Acordo Judicial conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021|  Município
+|**OK** Órgão                   |    Descrição da Unidade Orçamentária responsável pelo Projeto | Projeto<br> Execução                
 |Projeto                 | Descrição do Projeto conforme consta no Acordo de Reparação e de execução do Governo do Estado | Projeto
-|Situação da Ordem de Pagamento| Situação da Ordem de Pagamento conforme consta no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|  Município
+|**OK** Situação da Ordem de Pagamento| Situação da Ordem de Pagamento conforme consta no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|  Município
 |Valor do Projeto        |   Valor total destinado ao projeto |  Projeto         
-|Valor Empenhado       | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |  Projeto<br>  Execução
-| Valor Liquidado      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue |  Projeto<br>  Execução
+|**OK** Valor Empenhado       | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |  Projeto<br>  Execução
+|**OK**  Valor Liquidado      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue |  Projeto<br>  Execução
 |Valor Pago | Valor referente aos repasses efetuados conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021 do Acordo Judicial|      Município
-|Valor Pago | Valor referente aos pagamentos efetuados, no exercício, através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária  |  Projeto<br>  Execução
-|Valor Liquidado em RP   | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue referente a exercícios anteriores    |  Projeto<br>  Execução                 
-| Valor Pago em Restos a Pagar     | Valor pago referente a exercícios anteriores efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços realizados em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária. |  Projeto<br>  Execução
-|Valor Total Pago   | Somatório dos valores pagos neste exercício e pagos em restos a pagar processados e não processados.     |  Projeto<br>  Execução       
-|Valor Previsto Inicial|Valor estimado da arrecadação para o ano consultado, previsto na Lei Orçamentária Anual (LOA)| Receita
-|Valor Previsto Atualizado|Valor estimado inicial para arrecadação no ano consultado, previsto na Lei Orçamentária Anual, atualizado ao longo do ano.| Receita
-|Valor Arrecadado|Valor financeiro que entrou nos cofres públicos no período consultado|  Receita
+|**OK** Valor Pago | Valor referente aos pagamentos efetuados, no exercício, através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária  |  Projeto<br>  Execução
+|**OK** Valor Liquidado em RP   | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue referente a exercícios anteriores    |  Projeto<br>  Execução                 
+|**OK**  Valor Pago em Restos a Pagar     | Valor pago referente a exercícios anteriores efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa, referente a produtos e serviços realizados em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária. |  Projeto<br>  Execução
+|**OK** Valor Total Pago   | Somatório dos valores pagos neste exercício e pagos em restos a pagar processados e não processados.     |  Projeto<br>  Execução       
+|**OK** Valor Previsto Inicial|Valor estimado da arrecadação para o ano consultado, previsto na Lei Orçamentária Anual (LOA)| Receita
+|**OK** Valor Previsto Atualizado|Valor estimado inicial para arrecadação no ano consultado, previsto na Lei Orçamentária Anual, atualizado ao longo do ano.| Receita
+|**OK** Valor Arrecadado|Valor financeiro que entrou nos cofres públicos no período consultado|  Receita
 
 
-## Tooltip dos filtros da barra vertical
+## 1.7 Tooltip dos filtros da barra vertical
 <a href="#top">(inicio)</a>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 
-* Alterar o nome em todos os campos que constar Convênio/Parceria recurso de saída para **Convênio/Parceria de saída de recursos**
+* ~Alterar o nome em todos os campos que constar Convênio/Parceria recurso de saída para **Convênio/Parceria de saída de recursos**~
 
 * **Tooltips pendentes**
 
@@ -220,7 +216,12 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 
 </div>
 
-## Tooltip tabela de resultados Monte sua pesquisa
+## 1.8 Tooltip tabela de resultados Monte sua pesquisa
+
+<div class="alert alert-danger">
+
+**Não foi implementado o tooltip desse Item**
+
 
 Os tooltips da tabela de resultado deverá ser o mesmo já utilizado nas tabelas das consultas pré-formatadas.
 
@@ -229,3 +230,5 @@ Abaixo acrescenta-se os campos que não constam nas consultas pré-formatadas.
 |Filtro|Tooltip
 |-|-
 |Tipo Empenho |Descrição do tipo de empenho: global, estimado, ordinário, extra-orçamentário.
+
+</div>
