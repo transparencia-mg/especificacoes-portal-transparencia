@@ -13,10 +13,12 @@ output:
 ---
 
 # Homologação do Layout
+<a href="#top">(inicio)</a>
 
 [Ambiente de Homologação](https://age7-novo.homologacao.prodemge.gov.br/)
 
-## Página Inicial
+## 1. Página Inicial
+<a href="#top">(inicio)</a>
 
 Adequar a Página Inicial do Portal para recepcionar a nova consulta de transparência dos recursos da Vale.
 
@@ -40,19 +42,23 @@ Teremos acesso através do joomla para alterar o conteúdo abaixo? Se não é pr
 
  </div>
 
-## Página Inicial da consulta - Pesquisa Básica
+## 2. Página Inicial da consulta - Pesquisa Básica
+<a href="#top">(inicio)</a>
 
-#### Texto explicativo
+#### 2.1 Texto explicativo
+<a href="#top">(inicio)</a>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-O texto do título da consulta está muito próximo do ícone de Menu. Será que podemos colocar uma quebra de linha para melhor visualização. Não tenho uma opinião formada sobre isso. Seria interessante acionar a área de design.
+**CORRIGIDO**
+
+~O texto do título da consulta está muito próximo do ícone de Menu. Será que podemos colocar uma quebra de linha para melhor visualização. Não tenho uma opinião formada sobre isso. Seria interessante acionar a área de design.~
 
 ![](static/imagens/homologacao/layout-homologa-texto-pesquisa-basica.png)
 
  </div>
 
- ______________________
+
 
 <div class="alert alert-success">
 
@@ -70,9 +76,11 @@ Atributos do campo:
 
  </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-**A formatação escolhida (colorido cinza) para destacar os termos está um pouco apagada. Favor verificar com a área de design outra opção.**
+**CORRIGIDO**
+
+~A formatação escolhida (colorido cinza) para destacar os termos está um pouco apagada. Favor verificar com a área de design outra opção.~
 
 * A funcionalidade deverá permitir a visualização de *tooltip* ao posicionar o mouse sobre uma palavra ou termo. [eg. tooltips](https://getbootstrap.com.br/docs/4.1/components/tooltips/)  
 
@@ -82,8 +90,17 @@ Atributos do campo:
 
 <div class="alert alert-danger">
 
-**Deslocar o glossário para a parte direita da tela, conforme solicitado em reunião e homologado nas telas wireframe.**
+**CORRIGIR** 10/05/2021
 
+Ao deslocar o glossário para direita o botão de acessibilidade está atrapalhando a leitura do texto em alguns caso. Vide imagem abaixo. Sugiro que a formatação utilizada seja a mesma do termo "Favorecido"
+
+![](static/imagens/homologacao/glossario.gif)
+
+</div>
+
+<div class="alert alert-success">
+
+~Deslocar o glossário para a parte direita da tela, conforme solicitado em reunião e homologado nas telas wireframe.~
 
 * Ao clicar sobre a palavra ou termo o PdT deverá abrir um um *pop-up* em forma de glossário. [eg. pop-up](https://www.usaspending.gov/)
 
@@ -94,7 +111,8 @@ Atributos do campo:
 * O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA inclua ou altere os dados desse campo incluindo os *tooltips*.
 
 
-#### Leiaute - Barra de navegação
+#### 2.3 Leiaute - Barra de navegação
+<a href="#top">(inicio)</a>
 
 A barra de navegação superior será composta pelos seguintes campos:
 
@@ -102,7 +120,6 @@ A barra de navegação superior será composta pelos seguintes campos:
 * Período (dd/mm/aaaa)
 * Opção de *'Filtrar por'*;
 * Botão *'Monte sua consulta'*
-
 
 ###### Observações:
 
@@ -121,35 +138,15 @@ CORRIGIDO   ~Trocar o nome das consultas~
 </div>
 
 
-<div class="alert alert-danger">
-
-**CORRIGIR**
-
-Os dados do gráfico de área (Consulta por Execução) não estão sendo exibidos na totalidade devido a formatação.
-
-![](static/imagens/homologacao/grafico-area.png)
-
-
-</div>
-
-
-<div class="alert alert-danger">
-
-**CORRIGIR**
-
-A formatação da tabela não exibe todos os dados. Como por exemplos o R$ da frase:'Valores em R$'
-
-![](static/imagens/homologacao/formatacao-tabela-R$.gif)
-
-</div>
-
 * Os ícones serão clicáveis. Quando o usuário posicionar o mouse sobre o ícone será exibido um *tooltip* com uma breve descrição da consulta.
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-**CORRIGIR**
+**CORRIGIDO**
 
-A funcionalidade de exibição do tooltip estava funcionando, porém na versão do dia 09/05 ela foi desabilitada.
+~A funcionalidade de exibição do tooltip estava funcionando, porém na versão do dia 09/05 ela foi desabilitada.~
+
+![](static/imagens/homologacao/layout-homologa-titulos.png)
 
 </div>
 
@@ -163,13 +160,14 @@ A funcionalidade de exibição do tooltip estava funcionando, porém na versão 
 
 <div class="alert alert-danger">
 
-**CORRIGIR**
-
-Erro relatado dia 09/05
+**CORRIGIR** 10/05/2022
 
 Não está sendo possível selecionar o ano de pesquisa na da dd/mm/aaaa. O usuário deve conseguir selecionar o ano ou digitar. O Pdt permite a escolha apenas 'setinha'
 
 ![](static/imagens/homologacao/navegar-data.png)
+---
+
+![](static/imagens/homologacao/data-ano.gif)
 
 </div>
 
@@ -189,19 +187,20 @@ Não está sendo possível selecionar o ano de pesquisa na da dd/mm/aaaa. O usu�
 
 **Corrigir**
 
-  1- Ao escolher o nome de um órgão não é exibido nenhum resultado, mesmo havendo dados referente ao órgão selecionado.
 
-![](static/imagens/homologacao/execucao-orgao.gif)
+**O erro foi corrigido parcialmente.** Ao escolher o nome de um órgão não é exibido nenhum resultado, mesmo havendo dados referente ao órgão selecionado.
+
+**NOVO ERRO** Quando é selecionado apenas um exercício  a exibição dos dados são apresentadas corretamente, mas quando seleciona mais de um exercício os dados não são exibidos
+
+![](static/imagens/homologacao/orgao-mais-um-exercicio.gif)
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-**Corrigir**
+**Corrigido**
 
-  2- Ao selecionar um favorecido por nome ou CPF/CNPJ o portal apresenta erro. Esse erro é mesmo já relatado no issues;
-
-![](static/imagens/homologacao/execucao-favorecido.gif)
+~Ao selecionar um favorecido por nome ou CPF/CNPJ o portal apresenta erro. Esse erro é mesmo já relatado no issues;~
 
 </div>
 
@@ -219,11 +218,20 @@ Não está sendo possível selecionar o ano de pesquisa na da dd/mm/aaaa. O usu�
 
 * **Por Receita**:
 
-Corrigir
---
-O campo filtro não apresenta as opções
+**CORRIGIR** 10/05/2021
 
-![](static/imagens/homologacao/receita-filtro.png)
+Ao selecionar a consulta Por receita a formatação do campo data é perdida
+
+![](static/imagens/homologacao/data-receita.png)
+
+</div>
+
+<div class="alert alert-success">
+
+**Corrigido**
+
+Não terá a opção de filtra, pois possui apenas uma classificação.
+~O campo filtro não apresenta as opções~
 
 </div>
 
@@ -233,14 +241,16 @@ O campo filtro não apresenta as opções
 
 </div>
 
-<div class="alert alert-danger">
+#### 2.4 Cabeçalho da Planilha
+<a href="#top">(inicio)</a>
 
-**CORRIGIR - Cabeçalho da Planilha**
+<div class="alert alert-success">
 
+**CORRIGIDO**
 
-1- Ao selecionar a consulta por projeto o período não será exibido, pois a consulta é atemporal.
+~1- Ao selecionar a consulta por projeto o período não será exibido, pois a consulta é atemporal.~
 
-2- O texto a ser exibido não é Projeto da Vale e sim apenas **Projeto**
+~2- O texto a ser exibido não é Projeto da Vale e sim apenas **Projeto**~
 
 
 ![](static/imagens/homologacao/cabecalho-projeto.png)
@@ -249,22 +259,46 @@ O campo filtro não apresenta as opções
 
 <div class="alert alert-danger">
 
-3- Como o filtro Órgão da consulta execução não está funcionando não é possível verificar se os valores exibidos estão corretos
+**CORRIGIR**
 
-4- Ao selecionar o filtro "Favorecido por nome" ou "Favorecido por CPF/CNPJ" a informação não é exibida
+1 O texto que deverá ser exibido ao selecionar o filtro órgão é "Órgão" e não execução.
+
+![](static/imagens/homologacao/cabecalho-orgao.png)
+
+
+2- A mesma correção deverá ser implementada ao utilizar o filtro Favorecido por nome ou Favorecido por CPF/CNPJ.
+
+**SEGUIR O MESMO PADRÃO ADOTADO NA CONSULTA DE DESPESA DO PDT**
 
 ![](static/imagens/homologacao/cabecalho-execucao-fvorecido-nome.png)
+
+
+3- O caminho da consulta não está sendo exibido no Cabeçalho. A mesma lógica deve ser adotata nas migalha da parte superior
+
+![](static/imagens/homologacao/cabecalho-consulta-basica.gif)
 
 </div>
 
 <div class="alert alert-danger">
 
-5 - Apenas a informação Municípios deve ser exibida;
-6- Ao selecionar um municipio a informação não é exibida
+**CORRIGIR**
+
+Nesse campo filtro deve ser exibido apenas dados (Municípios) que correspondem a execução (repasse). Atualmente o campo filtro está exibindo Municípios até mesmo de outros estados.
+
+![](static/imagens/homologacao/municipio-outro-estado.png)
+
+</div>
+
+<div class="alert alert-success">
+
+**CORRIGIDO**
+
+~5 - Apenas a informação Municípios deve ser exibida;~
+~6- Ao selecionar um municipio a informação não é exibida~
 
 ![](static/imagens/homologacao/cabecalho-municipio.png)
 
-![](static/imagens/homologacao/cabecalho-municipio-filtro.png)
+############ PAREI AQUI
 
 </div>
 
@@ -276,6 +310,19 @@ O campo filtro não apresenta as opções
 
 
 #### Leiaute - Tabelas navegação
+
+
+
+<div class="alert alert-danger">
+
+**CORRIGIR** 10/05/2021
+
+A formatação da tabela não exibe todos os dados. Como por exemplos o R$ da frase:'Valores em R$'
+
+![](static/imagens/homologacao/formatacao-tabela-R$.gif)
+
+</div>
+
 
 * A tabela de resultado levará em consideração os parâmetros dos filtros aplicados.
 
@@ -298,6 +345,19 @@ O campo filtro não apresenta as opções
 
 
 </div>
+
+
+<div class="alert alert-danger">
+
+**CORRIGIR**
+
+Os dados do gráfico de área (Consulta por Execução) não estão sendo exibidos na totalidade devido a formatação.
+
+![](static/imagens/homologacao/grafico-area.png)
+
+
+</div>
+
 
 * **OK** Como padrão os dados serão exibidos no formato de tabela e caso o usuário queira visualizar os dados em forma de gráfico deve clicar em '*Exibir Gráfico*' e os dados da tabela serão deslocados para baixo. Para retornar a exibição apenas no formato tabela o usuário deve clicar em '*Fechar Gráfico*'
 
