@@ -126,7 +126,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 <div class="alert alert-success">
 
 CORRIGIDO   ~Trocar o nome das consultas~
---
+
 * A pesquisa básica será composta, inicialmente, por 4 ícones de tipo de consultas:
   * Projeto
   * Execução
@@ -298,20 +298,16 @@ Nesse campo filtro deve ser exibido apenas dados (Municípios) que correspondem 
 
 ![](static/imagens/homologacao/cabecalho-municipio.png)
 
-############ PAREI AQUI
 
 </div>
 
 <div class="alert alert-danger">
 
-7- Como não há informações no filtro  da consulta por receita não é possível verificar se os valores exibidos estão corretos.
 
 </div>
 
 
-#### Leiaute - Tabelas navegação
-
-
+#### 2.5 Leiaute - Tabelas navegação
 
 <div class="alert alert-danger">
 
@@ -332,7 +328,7 @@ A formatação da tabela não exibe todos os dados. Como por exemplos o R$ da fr
 
 <div class="alert alert-danger">
 
-**Verificar**
+**VERIFICAR**
 
 1- Foi solicitado que os campos Download, Compartilhar fossem exibidos acima do gráfico/tabela, porém ao solicitar a exibição do gráfico a informação se perde na parte superior e o usuário pode não perceber que os dados podem ser baixados.
 É possível colocar esses campos próximo a tabela?
@@ -351,13 +347,12 @@ A formatação da tabela não exibe todos os dados. Como por exemplos o R$ da fr
 
 **CORRIGIR**
 
-Os dados do gráfico de área (Consulta por Execução) não estão sendo exibidos na totalidade devido a formatação.
+Os dados do gráfico de área (Consulta por Execução/ Receita/ Município) não estão sendo exibidos na totalidade devido a formatação.
 
 ![](static/imagens/homologacao/grafico-area.png)
 
 
 </div>
-
 
 * **OK** Como padrão os dados serão exibidos no formato de tabela e caso o usuário queira visualizar os dados em forma de gráfico deve clicar em '*Exibir Gráfico*' e os dados da tabela serão deslocados para baixo. Para retornar a exibição apenas no formato tabela o usuário deve clicar em '*Fechar Gráfico*'
 
@@ -365,24 +360,70 @@ Os dados do gráfico de área (Consulta por Execução) não estão sendo exibid
 
 ![](static/imagens/homologacao/campo-busca.gif)
 
-* **OK** A opção de 'Exibir linhas' (quantidade de linhas) será exibida na parte superior da tabela.
+* A opção de 'Exibir linhas' (quantidade de linhas) será exibida na parte superior da tabela.
+
+<div class="alert alert-danger">
+
+**CORRIGIR** 10/05/2021
+
+A opção 'exibir linhas' não está respeitando o selecionado pelo usuário.
+Por exemplo no detalhamento do Projeto 9288130 ao selecionar a opção 100 linhas todas as linhas estão sendo exibidas.
+
+</div>
+
+<div class="alert alert-danger">
+
+**CORRIGIR** 10/05/2021
+
+**Formatação da Tabelas**
+1. Por Projeto - 1 nível: O conteúdo da coluna 'Anexo' deve ser alinhado à esquerda
+2. Por Projeto / execução - 2 nível:
+3. Município: Coluna 'Situação da ordem de pagamento' alinhar a esquerda
+4. Receita: Coluna 'classificação da receita' alinhar a esquerda
+
+![](static/imagens/homologacao/projeto-alinhar-esquerda.png)
+
+</div>
 
 * O usuário poderá solicitar a exibição dos dados com código e descrição. Ao clicar no botão '*Exibir código e descrição*' uma nova coluna será adicionada a esquerda de cada coluna que tenha a descrição.
 
 <div class="alert alert-danger">
 
-**Corrigir**
+**CORRIGIR** 10/05/2021
 
+* **Campo 'exibir/oculta código'**
 
-1 - A funcionalidade Exibir Código não está funcionado na consulta por Execução.
+1. Por projeto - 1 nível: Ao clicar em 'exibir/oculta código' a coluna descrição do projeto é ocultada, nesse caso nenhuma coluna deverá ser ocultada;
+2. Por projeto e Por execução - 2 nível: a opção não funciona
 
-2 - Na consulta de receita o padrão é exibir o código apenas quando o usuário marcar a opção '*Exibir código e descrição*'
+3. Por Transferência por município: conforme especificação não é para ter o código do Município. Então nesse caso a funcionalidade deverá ficar sempre marcada e nenhuma coluna deverá ser ocultada.
+
+4. Receita: o código da fonte de recurso não está sendo exibido/ocultado
+
+![](static/imagens/homologacao/exibir-ocultar-codigo.gif)
 
 </div>
 
-* **OK** Os valores TOTAL GERAL e o SUBTOTAL serão exibidos na tabela de resultados de acordo com o comportamento do usuário:
+
+
+* Os valores TOTAL GERAL e o SUBTOTAL serão exibidos na tabela de resultados de acordo com o comportamento do usuário:
 
   * **TOTAL GERAL:** quando o usuário não aplicar nenhum filtro na tabela ou quanto todos os dados forem exibidos em uma única página, ou seja, sem paginação;
-  * **SUBTOTAL:** quando o usuário aplicar qualquer filtro na tabela através da barra de pesquisa ou quando houver paginação na tabela de resultado, ou seja, houver mais de uma página de resultado.
+
+<div class="alert alert-danger">
+
+  **CORRIGIR** 10/05/2021
+
+  A opção SUBTOTAL só deve aparecer quando for aplicado algum filtro ou houver paginação dos dados
+
+  ![](static/imagens/homologacao/subtotal-paginacao.png)
+
+</div>
+
+<div class="alert alert-success">
+
+  * **SUBTOTAL:** quando o usuário aplicar qualquer filtro na tabela através da barra de pesquisa ou quando houver paginação na tabela de resultado, ou seja, houver mais de uma página de resultado. **OK**
 
 ![](static/imagens/homologacao/subtotal.png)
+
+</div>

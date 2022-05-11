@@ -1,6 +1,6 @@
 ---
 contrato_manutencao: nº 15210010062019 (INF. 3951)
-Link html: http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec018_recursos-acordo-judicial-vale/recursos-vale-homologa-layout-parte2.html
+Link html: http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec018_recursos-acordo-judicial-vale/recursos-vale-homologa-layout-parte1.html
 mantis: 165193
 pull_request: '[]()'
 titulo: Transparência dos recursos da Vale - Acordo Judicial 04/02/2021
@@ -12,11 +12,12 @@ output:
     toc: yes
 ---
 
+
 # Homologação do Layout - parte 2
 <a href="#top">(inicio)</a>
 
 
-##### Estrutura de design das tabelas de resultados da Pesquisa básica
+##### 1.Estrutura de design das tabelas de resultados da Pesquisa básica
 
 <div class="alert alert-success">
 
@@ -26,37 +27,33 @@ output:
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
+**CORRIGIDO**
 
  * Rolagem horizontal - Horizontal Scroll. Quando o número de colunas ultrapassar o limite da página o PdT deve possibilizar a rolagem horizontal;
 
+- ~A funcionalidade não está funcionado;~ CORRIGIDO
 
-- A funcionalidade não está funcionado;
-- Se não existe paginação o valor subtotal não precisa ser exibido
-
-![](static/imagens/homologacao/paginacao.gif)
+![](static/imagens/homologacao/paginacao.png)
 
  </div>
 
 <div class="alert alert-success">
 
-OK
---
 
- *  **OK** Colunas movíveis e classificáveis conforme ocorre atualmente;
- * **OK** Paginação e seleção da quantidade de linhas a serem exibidas, conforme ocorre atualmente;
- *  **OK** O texto deve ser ajustável nas colunas, ou seja, caso seja necessário pode haver quebra de linha;
+*  **OK** Colunas movíveis e classificáveis conforme ocorre atualmente;
+*  **OK** O texto deve ser ajustável nas colunas, ou seja, caso seja necessário pode haver quebra de linha;
 
-  </div>
+</div>
+
+*  Paginação e seleção da quantidade de linhas a serem exibidas, conforme ocorre atualmente;
 
 * A tabela apresentará campos clicáveis (com link) que irá direcionar o usuário para o formulário de detalhamento ou para o próximo nível da consulta.
-
 
 <div class="alert alert-danger">
 
 * Os campos clicáveis serão destacados conforme o layout já adotado pelo PdT e terão a imagem de uma lupa.
-
 
 **CORRGIR**
 
@@ -69,27 +66,73 @@ OK
 
   </div>
 
+<div class="alert alert-success">
+
+**CORRIGIDO**
+
+ ~1- O título do gráfico da consulta de município está como 'Sem informação'~
+
+![](static/imagens/homologacao/titulo-grafico.png)
+
+</div>
+
+<div class="alert alert-success">
+
+OK
+
+![](static/imagens/homologacao/grafico-projeto-todos.png)
+
+![](static/imagens/homologacao/grafico-projeto-filtro.png)
+
+![](static/imagens/homologacao/grafico-orgao-filtro.png)
+
+![](static/imagens/homologacao/grafico-municipio.png)
+
+![](static/imagens/homologacao/grafico-receita.png)
+
+</div>
+
 <div class="alert alert-danger">
 
 **CORRIGIR**
 
- 1- O título do gráfico da consulta de município está como 'Sem informação'
+1- Nome do título do gráfico de Execução para Órgãos
 
-![](static/imagens/homologacao/titulo-grafico.png)
+2- No segundo nível da consulta (Empenhos) o gráfico deverá exibir apenas a descrição do Favorecido, como ocorre atualmente
 
-----
+3- Ao clicar no gráfico o usuário é direcionado a página inicial da consulta
+
+![](static/imagens/homologacao/grafico-orgao.png)
+
+![](static/imagens/homologacao/grafico-favorecido.png)
+
+![](static/imagens/homologacao/grafico-favorecido-erro.gif)
+
+</div>
+
+
+<div class="alert alert-danger">
+
+**CORRIGIR**
+1. Ao clicar no gráfico o usuário não está sendo direcionado ao próximo nível
+
+![](static/imagens/homologacao/grafico-avanca-nivel.gif)
+
+  </div>
+
+<div class="alert alert-danger">
+
+**CORRIGIR**
+
 2- Alinhar nome do órgão a esquerda da tela
 
 ![](static/imagens/homologacao/alinhar-nome-orgao.png)
 
----
+</div>
 
-3- A tabela do segundo nível da consulta está desformatada.
+<div class="alert alert-danger">
 
-![](static/imagens/homologacao/tabela-desformatada.png)
-
----
-
+**CORRIGIR**
 
 4- Ao selecionar um projeto pelo código na consulta de execução tanto a arvoré quanto o cabeçalho deve exibir além do nome do projeto o código, pois caso o usuário clique no projeto 9288133 e nesses campos apresentar apenas a descrição ele poderá ficar perdido onde está realmente.
 
@@ -128,17 +171,34 @@ OK
 
 **CORRIGIR**
 
-1- Não está funcionando - O campo TOTAL GERAL também deverá ser exibido
-2- Não está funcionando Exibir código e descrição em campos distintos, independente de o usuário selecionar a opção '*Exibir código e descrição*'
+1- Não está funcionando - O campo TOTAL GERAL também deverá ser exibido;
 
 ![](static/imagens/homologacao/csv-execucao.png)
-
-
  </div>
 
- * **OK** Será exibido a tabela completa de todas as páginas no formato CSV, independente do filtro aplicado.
- * O campo TOTAL GERAL também deverá ser exibido.  Não    
+<div class="alert alert-success">
+
+**CORRIGIDO**
+
+~2- Não está funcionando Exibir código e descrição em campos distintos, independente de o usuário selecionar a opção '*Exibir código e descrição*'~
+
+</div>
+
+<div class="alert alert-danger">
+
+**CORRIGIR**
+
+Será exibido a tabela completa de todas as páginas no formato CSV, independente do filtro aplicado, conforme documentação
+
+![](static/imagens/homologacao/download-csv.gif)
+
+</div>
+
+
+ * Será exibido a tabela completa de todas as páginas no formato CSV, independente do filtro aplicado.
+ * O campo TOTAL GERAL também deverá ser exibido.
  * Exibir código e descrição em campos distintos, independente de o usuário selecionar a opção '*Exibir código e descrição*'
+
 
 * **Download base completa:**
 
@@ -147,7 +207,7 @@ OK
 **CORRIGIR**
 
 Iremos informar o link do dataset para direcionamento.
-Como ainda não temos o dataset de todos os conjuntos, o usuário será direcionado para o conjunto principal da consultado
+Como ainda não temos o dataset de todos os conjuntos, o usuário será direcionado para o conjunto principal da consulta.
 
 </div>
 
@@ -189,13 +249,13 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
   - Valor do Projeto
 
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-**CORRIGIR**
+**CORRIGIDO**
 
-1- Está faltando a coluna anexo
+~1- Está faltando a coluna anexo~
 
-2- Corrigir o nome da coluna para 'Valor do Projeto'
+~2- Corrigir o nome da coluna para 'Valor do Projeto'~
 
 ![](static/imagens/homologacao/tabela-projeto.png)
 
@@ -220,9 +280,11 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 
 <div class="alert alert-danger">
 
-**CORRIGIR**
+**CORRIGIDO PARCIALMENTE**
 
-1- A funcionalidade 'exibir código/descrição' não está aparecendo na tela
+Corrigido Parcialmente, já relatado em outro campo da homologação
+
+~1- A funcionalidade 'exibir código/descrição' não está aparecendo na tela~
 
 
 ![](static/imagens/homologacao/atributos-tabela.png)
@@ -246,12 +308,12 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
     * Valor Pago em Restos a Pagar
     * Valor Total Pago     
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-**CORRIGIR**
+**CORRIGIDO**
 
-- Esta faltando o código do órgão ao selecionar o campo 'Exibir código/descrição'
-- Corrigir o texto da coluna "Valor total pago" e não valor a pagar
+- ~Esta faltando o código do órgão ao selecionar o campo 'Exibir código/descrição'~
+- ~Corrigir o texto da coluna "Valor total pago" e não valor a pagar~
 
 ![](static/imagens/homologacao/tabela-orgao.png)
 
@@ -274,7 +336,7 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 **CORRIGIR**
 
 - O segundo nível da consulta por execução não possui a coluna órgão;
-- Corrigir o texto da coluna "Valor total pago" e não valor a pagar
+- ~Corrigir o texto da coluna "Valor total pago" e não valor a pagar~ CORRIGIDO
 
 ![](static/imagens/homologacao/tabela-orgao-segundo-nivel.png)
 
@@ -307,14 +369,25 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 
 </div>
 
-* 2º NÍVEL
+
 
 <div class="alert alert-danger">
 
-**CORRIGIR**
+**CORRIGIR** 10/05/2022
 
-- Ao clicar no número do empenho o usuário deverá ser direcionado diretamente para o formulário de detalhamento.    
+* Não existe código do município nessa tabela
 
+![](static/imagens/homologacao/municipio-codigo.png)
+
+</div>
+
+* 2º NÍVEL
+
+<div class="alert alert-success">
+
+**CORRIGIDO**
+
+- ~Ao clicar no número do empenho o usuário deverá ser direcionado diretamente para o formulário de detalhamento.~   
 
 </div>
 
