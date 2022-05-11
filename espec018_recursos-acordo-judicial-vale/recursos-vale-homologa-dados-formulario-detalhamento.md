@@ -22,44 +22,43 @@ output:
 
 ## Projeto 9288134 - Empenho 43
   
-### ERROS
-### 1. Classificação Orçamentária
+### 
+### 1. Classificação Orçamentária - CORRIGIDO
 
-![image](https://user-images.githubusercontent.com/52920939/166938516-af189f30-e230-4a36-87f2-bf33f7977b3c.png)
-
+![image](https://user-images.githubusercontent.com/52920939/167891137-836d78d5-d681-4da3-b28f-2304fcdc2ed5.png)
+  
 Foi realizada a conferência dos dados do Portal com os dados do Armazém BO.
 
-Foram identificados erros nos seguintes itens:
-  - Na modalidade de Aplicação foi informado o elemento de despesa
-  - No Elemento de Despesa foi informado o item de despesa
-  - No Item de Despesa foi informado a modalidade de aplicação
+Foram CORRIGIDOS OS ERROS de troca de dados nos seguintes itens:
+  - Na modalidade de Aplicação 
+  - No Elemento de Despesa 
+  - No Item de Despesa 
 
-Abaixo foram identificadas as colunas com erros
-![image](https://user-images.githubusercontent.com/52920939/166940111-9efb3fe0-bf2b-4749-8fd0-7aa1c9ded7ae.png)
+Abaixo foram identificadas as colunas CORRIGIDAS
+![image](https://user-images.githubusercontent.com/52920939/167891391-456b702f-9ead-4581-9edf-77997c422689.png)
 
  
-### 2. Empenho
+### 2. Empenho - CORRIGIDO
 
-![image](https://user-images.githubusercontent.com/52920939/166941929-a8f4e6bd-93e2-4830-9ca6-91a2696f8345.png)
+![image](https://user-images.githubusercontent.com/52920939/167892885-4a5d512d-adc9-4e57-8dbe-9abd7c06b91d.png)
 
 Foi realizada a conferência dos dados do Portal com os dados do Armazém BO.
   
-Não foi identificado os dados referentes a anulação do empenho 43
+Foram identificado os dados referentes a anulação do empenho 43
 
-![image](https://user-images.githubusercontent.com/52920939/166942541-51c168c9-45ca-4af1-8a79-5fe03f538794.png)
+![image](https://user-images.githubusercontent.com/52920939/167892749-19f29bbb-a4b7-4e1d-94b0-9754bf81ef20.png)
 
 
-### 3. Outras informações
+### 3. Outras informações - CORRIGIDO
   
-![image](https://user-images.githubusercontent.com/52920939/166943937-94f17afc-f3bd-48a3-a7ba-b3000a5b26c4.png)
+![image](https://user-images.githubusercontent.com/52920939/167893033-288b3fec-ddea-44a8-b5ba-78b3cf53b339.png)
 
-Foi realizada a conferência dos dados do Portal com os dados do Armazém BO - não foram localizados os dados do contrato 4963
+Foi realizada a conferência dos dados do Portal com os dados do Armazém BO - 
   
-![image](https://user-images.githubusercontent.com/52920939/166946576-9dc0fa12-8a15-4884-bc1a-a35a5dcdaef1.png)
+![image](https://user-images.githubusercontent.com/52920939/167894548-966f7d65-7e86-47a7-852c-062f2159edb9.png)
   
-Também não foram localizados os dados do convênio/parceria de saída de recursos
- 
-![image](https://user-images.githubusercontent.com/52920939/166971268-3d76999f-a2fa-42fc-b4e5-f0ebb9801091.png)
+
+
 
 
   
@@ -68,20 +67,20 @@ Também não foram localizados os dados do convênio/parceria de saída de recur
 ### ABAS SEM ERRO
 ### 1. Liquidação
 
-![image](https://user-images.githubusercontent.com/52920939/166942679-39d4598a-308b-49b6-a744-ca1f93cde4e6.png)
+![image](https://user-images.githubusercontent.com/52920939/167892946-587b35fe-7f62-43cb-b2b1-928059511e2b.png)
 
 Foi realizada a conferência dos dados do Portal com os dados do Armazém BO - não havia dados de liquidação nesse empenho
   
-![image](https://user-images.githubusercontent.com/52920939/166942841-c539c70d-f3cf-4a74-a733-07485ef8db71.png)
+![image](https://user-images.githubusercontent.com/52920939/167893113-71205704-374b-4779-aba2-342cd20f98ff.png)
 
 
 ### 2. Pagamento
   
-![image](https://user-images.githubusercontent.com/52920939/166942967-69c815ef-2f4e-4576-9dc7-050c28f4e0ab.png)
+![image](https://user-images.githubusercontent.com/52920939/167892976-548cea1c-0b7c-4402-9f03-6126e44de405.png)
 
 Foi realizada a conferência dos dados do Portal com os dados do Armazém BO - não havia dados de pagamento nesse empenho
   
-![image](https://user-images.githubusercontent.com/52920939/166943143-ad50c52a-fa87-4aaf-b54d-cd35fdbf7376.png)
+![image](https://user-images.githubusercontent.com/52920939/167893157-cdeba2f8-2452-44af-a74a-cd97da4267e3.png)
   
   
 ## Projeto 9288138 - Empenho 317
