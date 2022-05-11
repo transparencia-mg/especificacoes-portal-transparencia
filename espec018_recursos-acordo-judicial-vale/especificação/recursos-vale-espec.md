@@ -66,7 +66,9 @@ Atributos do campo:
 
 Exemplos:  
 - Menos
+
 ![](static/imagens/texto-explicativo.png)
+
 ____
 
 - Tooltip de termos
