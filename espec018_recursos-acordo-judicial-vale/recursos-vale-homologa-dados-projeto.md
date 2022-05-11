@@ -43,11 +43,6 @@ Ao clicar no nível 1, aparece a mensagem de erro abaixo
 
 ![](static/imagens/erro_nivel_projeto.png)
 
-#### Observação 2 - OK
-  
-Os dados do nível 1 do portal não coincidem com os dados da tabela do comitê disponível no homologa dos dados MG
-
-Verificar a planilha do conjunto de dados - https://homologa.cge.mg.gov.br/dataset/acordo-judicial-reparacao-vale/resource/136b4fd6-a892-4467-a997-4a846d823487
   
 ### Nível 2  
   
