@@ -1,6 +1,6 @@
 ---
 contrato_manutencao: nº 15210010062019 (INF. 3951)
-proposta_comercial: null
+Link consulta: http://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec018_recursos-acordo-judicial-vale/recursos-vale-homologa-layout-parte3.html
 mantis: null
 pull_request: '[]()'
 titulo: Transparência dos recursos da Vale - Acordo Judicial 04/02/2021

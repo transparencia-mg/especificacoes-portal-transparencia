@@ -427,3 +427,11 @@ Por exemplo no detalhamento do Projeto 9288130 ao selecionar a opção 100 linha
 ![](static/imagens/homologacao/subtotal.png)
 
 </div>
+
+<div class="alert alert-danger">
+
+**ALTERAR**
+
+Alterar nome inicial da consulta para "Acordo Judicial de Reparação do Vale"
+
+</div>
