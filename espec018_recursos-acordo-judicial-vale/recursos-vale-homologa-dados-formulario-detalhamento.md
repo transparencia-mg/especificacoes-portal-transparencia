@@ -85,49 +85,62 @@ Foi realizada a conferência dos dados do Portal com os dados do Armazém BO - n
   
 ## Projeto 9288138 - Empenho 317
   
-### 1. Classificação orçamentária
+### 1. Classificação orçamentária - CORRIGIDO
   
-  - Mesmo erro relatado acima, troca dos dados das colunas 
+  ![image](https://user-images.githubusercontent.com/52920939/167895209-d44fe7a4-882f-4b93-ba9f-48cf54db3daa.png)
+  
+  - Mesmo erro relatado acima, troca dos dados das colunas - ERROS CORRIGIDOS
       - Na modalidade de Aplicação foi informado o elemento de despesa
       - No Elemento de Despesa foi informado o item de despesa
       - No Item de Despesa foi informado a modalidade de aplicação
   
-### 2. Empenho 
+  ![image](https://user-images.githubusercontent.com/52920939/167895909-b90db25c-832e-4641-b410-26ffe00d0833.png)
+
   
-  ![image](https://user-images.githubusercontent.com/52920939/167129754-c192c0de-dbd9-430c-8968-7bb3058ea3a6.png)
+### 2. Empenho CORRIGIDO
+  
+  ![image](https://user-images.githubusercontent.com/52920939/167895254-15cf700f-13b6-4d46-8f78-0656b5228655.png)
+
+  - Não consta os dados da inscrição em Restos a Pagar no Portal - no armazém já possui esses dados - CORRIGIDOS
+  
+  ![image](https://user-images.githubusercontent.com/52920939/167897102-9ee1f232-a1ae-48bf-a942-55706d28c3b9.png)
+  
+
+### 3. Liquidação - AINDA COMO SEM OS DADOS DE LIQUIDAÇÃO EM RESTOS A PAGAR
+  
+  ![image](https://user-images.githubusercontent.com/52920939/167897421-03abf894-dbd4-4b92-b7de-efe1dd9fc69a.png)
 
   - Não consta os dados da inscrição em Restos a Pagar no Portal - no armazém já possui esses dados.  
   
-  ![image](https://user-images.githubusercontent.com/52920939/167129708-9b934e19-01b9-4a99-b218-2c243ac26103.png)
-
-### 3. Liquidação
-  
-  ![image](https://user-images.githubusercontent.com/52920939/167129828-d0ef6b1b-26e0-49ee-83c4-68a166bf7a34.png)
-
-  - Não consta os dados da inscrição em Restos a Pagar no Portal - no armazém já possui esses dados.  
-  
-  ![image](https://user-images.githubusercontent.com/52920939/167129877-e0c4ff1a-07c1-4115-ba9a-06267506ba39.png)
+  ![image](https://user-images.githubusercontent.com/52920939/167897333-e7c888b8-ac09-4d49-b412-fa453cca592a.png)
   
 
-### 4. Pagamento
+### 4. Pagamento - CORRIGIDO
   
-![image](https://user-images.githubusercontent.com/52920939/167129947-fbbf54c1-fabc-4f4e-8d35-190356ebcf44.png)
-
-  - Não consta os dados da inscrição em Restos a Pagar no Portal - no armazém já possui esses dados.  
+  ![image](https://user-images.githubusercontent.com/52920939/167898039-c151d967-d8ee-47e0-97b2-ca135ccf22c1.png)
   
-![image](https://user-images.githubusercontent.com/52920939/167129956-14e91155-0ff7-40cb-9151-21c96f5483bb.png)
+  - Não consta os dados da inscrição em Restos a Pagar no Portal - no armazém já possui esses dados.  - DADOS FORAM CORRIGIDOS
+  
+![image](https://user-images.githubusercontent.com/52920939/167897984-06cb2c2c-916e-4214-ae28-095237b0872c.png)
   
   
-### 5. Outras Informações
+### 5. Outras Informações - CORRIGIDO
   
-  ![image](https://user-images.githubusercontent.com/52920939/167130013-a158a3f4-367f-42cd-8c1c-f766a087e4bd.png)
+![image](https://user-images.githubusercontent.com/52920939/167898408-4fef3dbb-4e35-421a-912d-2061bd060a0f.png)
   
-  - Informação incorreta referente ao número de contrato associado ao empenho 317. O contrato 9316087 refere-se ao empenho 314 da empresa Gracio do Brasil Proteção Balística Eireli. O empenho 317 deve trazer a informação referente ao contrato 9316088
+  - Informação incorreta referente ao número de contrato associado ao empenho 317. O contrato 9316087 refere-se ao empenho 314 da empresa Gracio do Brasil Proteção Balística Eireli. O empenho 317 deve trazer a informação referente ao contrato 9316088 - DADOS CORRIDIGODS
   
   Observação: O processo de compra de ambos os contratos são o mesmo, mas os contratos são diferentes.
   
-  ![image](https://user-images.githubusercontent.com/52920939/167130215-c56ee5ea-d5c8-434e-9b0f-ee0b8ba448b1.png)
+  EMPENHO 314
+  
+  ![image](https://user-images.githubusercontent.com/52920939/167898597-0d2d87b2-66af-4aa8-ad97-f258aa855c6a.png)
+  
+  EMPENHO 317
+  
+  ![image](https://user-images.githubusercontent.com/52920939/167898737-bb4b10f2-131e-49d6-8fd3-5d55ca517087.png)
 
+  
   ![WhatsApp Image 2022-05-06 at 09 17 17](https://user-images.githubusercontent.com/52920939/167130512-f37bf4a3-ad1a-44a0-831d-9f3a5e7f5c1f.jpeg)
 
   
