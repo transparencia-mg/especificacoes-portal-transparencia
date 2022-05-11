@@ -20,27 +20,14 @@ output:
 
 <a href="#top">(inicio)</a>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-**CORRIGIR**
+**CORRIGIDO**
 
-**Como padrão ao clicar em monte sua pesquisa a barra de filtro lateral deverá vir ativada.**
-
-![](static/imagens/homologacao/monte-sua-pesquisa.gif)
+~Como padrão ao clicar em monte sua pesquisa a barra de filtro lateral deverá vir ativada~
 
 </div>
 
-
-<div class="alert alert-danger">
-
-**CORRIGIR**
-
-A visualização entre as migalhas e o texto explicativo não está boa. Na minha opinião está dando a impressão que  texto explicativo é uma continuidade das migalhas.
-
-
-![](static/imagens/homologacao/migalhas-texto-explicativo.png)
-
-</div>
 
 A pesquisa será composta pelos seguintes componentes:
 
@@ -60,42 +47,69 @@ A pesquisa será composta pelos seguintes componentes:
 
 ![](static/imagens/homologacao/descricao-filtro.png)
 
-* Todos os campos da barra vertical poderão ser consultados por descrição ou código, assim como ocorre na [Consulta Avançada do PdT - Proposta Orçamentária](https://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada) em que é possível digitar o nome ou a descrição nos filtros.
-* A lista de filtros será localizada a esquerda da tela. Caso a quantidade de filtros ultrapasse o limite da tela deverá ser utilizado a barra de rolagem.
+</div>
+
+<div class="alert alert-success">
+
+* **OK** Todos os campos da barra vertical poderão ser consultados por descrição ou código, assim como ocorre na [Consulta Avançada do PdT - Proposta Orçamentária](https://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada) em que é possível digitar o nome ou a descrição nos filtros.
+
+* **OK** A lista de filtros será localizada a esquerda da tela. Caso a quantidade de filtros ultrapasse o limite da tela deverá ser utilizado a barra de rolagem.
 [Ver filtros - Especificação Dados](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec018_recusos-vale/espec018_recursos-acordo-judicial-vale/recursos-vale-dados.md)
 
-![](static/imagens/barra-navegacao-vertical.gif)
+![](static/imagens/homologacao/busca-campo-barra-vertical.gif)
+
+</div>
+
+<div class="alert alert-danger">
+
+**CORRIGIR**
+
+No campo busca ao pesquisar por um item e seleciona-lo e logo em seguida buscar por outro item e também selecioná-lo o item anterior já selecionado é desmarcado na barra de pesquisa e no campo filtros aplicados.
+
+![](static/imagens/homologacao/selecao-filtro.gif)
+</div>
 
 * O usuário poderá realizar a busca de qualquer filtro na **barra de pesquisa**. A barra de pesquisa deverá possuir atributo [placeholder](https://www.w3schools.com/tags/att_input_placeholder.asp) para facilitar ou indicar como o campo deverá sem preenchido.
 
+<div class="alert alert-danger">
+
+**CORRIGIR**
+
+A barra de pesquisa não está ignorando as palavras acentuadas.
+Por exemplo ao busca pela palavra 'Órgão' só é aceito a busca se a palavra for acentuada
+
+![](static/imagens/homologacao/barra-pesquisa-acento.png)
+
+</div>
+
+
 * Alguns filtros da barra de navegação também deverão possuir atributos *placeholder*.
+
+<div class="alert alert-success">
+
+OK
 
 * A barra de navegação poderá ser **ocultada/exibida** ([*collapsed Sidebar*](https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp)) a partir dos comandos (eg. [Portal de Transparência Federal](http://www.portaltransparencia.gov.br/despesas/programa-e-acao?ordenarPor=programa&direcao=asc))
 
     *	Ocultada => ao clicar no símbolo **[<<]** ou no botão **[<< Ocultar Filtros]**;
     * Exibida => ao clicar no botão **[<< Exibir Filtros]**
 
+</div>
+
 **OBS**: Ao ocultar a barra de navegação vertical dos demais conteúdos (tabela de resultados, campos aplicados e etc) serão reajustados na página.
 
-![](static/imagens/ocultar-exibir-barra.gif)
-
-* Ao clicar em qualquer filtro da barra de navegação será exibido uma outra barra de filtros onde o usuário deverá selecionar os parâmetros da pesquisa.  
-
-<div class="alert alert-success">
-
-Página inicial - Monte sua pesquisa OK
-
-![](static/imagens/homologa-monte-sua-pesquisa-inicial.png)
-
-</div>
+* **OK** Ao clicar em qualquer filtro da barra de navegação será exibido uma outra barra de filtros onde o usuário deverá selecionar os parâmetros da pesquisa.  
 
 ### Barra deslizante para baixo
 <a href="#top">(inicio)</a>
 
-* A barra deslizante só será exibida se o usuário clicar em algum filtro  da barra de navegação vertical.
-* A barra deslizante será **ocultada** ao clicar em outro filtro.
+* **OK** A barra deslizante só será exibida se o usuário clicar em algum filtro  da barra de navegação vertical.
+* **OK** A barra deslizante será **ocultada** ao clicar em outro filtro.
 
-* Quando a barra deslizante for ocultada e as opções forem selecionadas a seção em que o utilizador se encontra deverá apresentar a quantidade de filtros foram selecionados. Exemplo tela wireframe proposta pela Prodemge [Slides 13 e 16](https://xd.adobe.com/view/64a90aea-4369-4d8d-b426-72f46590dbcd-31fa/screen/649d572d-e66a-466a-afae-96ed268ab76c)
+* **OK** Quando a barra deslizante for ocultada e as opções forem selecionadas a seção em que o utilizador se encontra deverá apresentar a quantidade de filtros foram selecionados. Exemplo tela wireframe proposta pela Prodemge [Slides 13 e 16](https://xd.adobe.com/view/64a90aea-4369-4d8d-b426-72f46590dbcd-31fa/screen/649d572d-e66a-466a-afae-96ed268ab76c)
+
+![](static/imagens/homologacao/filtros.png)
+
 
 * Ao clicar sob a **barra de pesquisa** será exibido uma lista suspensa com todos os parâmetros referente ao filtro. Para selecionar o parâmetro desejado o usuário poderá usar a barra de rolagem ou a barra de pesquisa.  
 
@@ -105,10 +119,28 @@ Página inicial - Monte sua pesquisa OK
 * Ao selecionar ***[Exibir Todos]***, abrirá uma tela modal exibindo todos os parâmetros daquele filtro com as opções *Selecionar tudo, Limpar Seleção, Inverter seleção*. O usuário poderá remover os parâmetros não desejados ao assinalar com tique a opção.  
 eg. [Slides 10](https://xd.adobe.com/view/965f7297-a884-462e-af3c-902944963cb1-c30c/screen/f342f2a6-6869-4a32-98aa-c77e9fe30dd3)
 
-![](static/imagens/barra-deslizante2.png)
+<div class="alert alert-danger">
+
+**CORRIGIR**
+
+Ficou acordado durante a homologação das tela wireframe que o número de itens possíveis de filtro deveria ser exibido. Exemplo: Exbir Todos (80)
+
+![](static/imagens/homologa-monte-sua-pesquisa-inicial.png)
+
+---
+
+![](static/imagens/homologacao/exibir-todos.png)
+
+</div>
 
 
-* Os botões **Aplicar/Limpar** devem ser estilisticamente diferenciados (eg. [*Differentiate button types*](https://medium.com/nextux/design-better-buttons-6b64eb7f13bc#aj%20la%20lb))
+* **OK** Os botões **Aplicar/Limpar** devem ser estilisticamente diferenciados (eg. [*Differentiate button types*](https://medium.com/nextux/design-better-buttons-6b64eb7f13bc#aj%20la%20lb))
+
+<div class="alert alert-danger">
+
+**VERIFICAR**
+
+**Essa funcionalidade não foi aplicada**
 
 * Ao selecionar o período específico a barra deslizante de cada filtro irá exibir como parâmetros apenas as classificações orçamentárias vigentes no ano. A exceção será para a consulta de Restos a Pagar, onde os parâmetros da barra deslizante irá refletir apenas as classificações orçamentárias inscritas em restos a pagar, e não a classificação orçamentária vigente no ano.
 
@@ -118,21 +150,42 @@ Exemplo:
 Ao selecionar o parâmetro '1521- Controladoria-Geral do Estado' no filtro *Órgão* e em seguida clicar no filtro *Programa* apenas os programas que tiveram execução na Controladoria-Geral do Estado naquele ano serão exibidos.
 
 O [Portal da Transparência do Estado de São Paulo](www.fazenda.sp.gov.br/SigeoLei131/Paginas/FlexConsDespesa.aspx) possui a funcionalidade citada acima.
+</div>
 
-* Todos os parâmetros selecionados serão exibidos no campo **Filtros Aplicados**.
+* **OK** Todos os parâmetros selecionados serão exibidos no campo **Filtros Aplicados**.
 
 
 ### Filtros Aplicados
 <a href="#top">(inicio)</a>
 
+<div class="alert alert-success">
+
+OK
+
 * O usuário poderá **ocultar/exibir** o conteúdo do campo filtros aplicados a partir do comandos: (eg. [Portal de Transparência Federal](http://www.portaltransparencia.gov.br/despesas/programa-e-acao?ordenarPor=programa&direcao=asc) ).
 
   * **[^]**: Exibi o conteúdo do campo;
   * **[v]**: Oculta o conteúdo do campo. Ao ocultar os dados do campo os demais conteúdos da tela serão ajustados na página.
-  .
-![](static/imagens/filtros-aplicados.gif)
+
+</div>
+
+<div class="alert alert-danger">
+
+**CORRIGIR**
+
+Só é possível a seleção da data pela setinha.
 
 * Como padrão o filtro **Período** será exibido no campo filtros aplicados. O período exibido será o dd/mm/aaaa inicial do exercício vigente até o dd/mm/aaaa da última atualização dos dados.
+
+</div>
+
+<div class="alert alert-danger">
+
+**CORRIGIR**
+
+O botão atualizar não está funcionado
+
+---
 
 * O campo filtro aplicados será composto pelos botões: Pesquisar, Atualizar e Limpar tudo localizados na parte superior:
 
@@ -143,35 +196,38 @@ O [Portal da Transparência do Estado de São Paulo](www.fazenda.sp.gov.br/Sigeo
 
 OBS: Os botões **Pesquisar/ Atualizar/Limpar** devem ser estilisticamente diferenciados (eg. [*Differentiate button types*](https://medium.com/nextux/design-better-buttons-6b64eb7f13bc#aj%20la%20lb))
 
-* O usuário poderá excluir um filtro por completo. Por exemplo, caso o usuário queira excluir o campo 'Órgãos' ele poderá fazer isso sem a necessidade de excluir os filtros um a um. Ele poderá excluir o campo "ÓRGÃO"
+</div>
 
-![](static/imagens/limpar-filtros-aplicados.png)
+<div class="alert alert-success">
+
+* **OK**
+
+O usuário poderá excluir um filtro por completo. Por exemplo, caso o usuário queira excluir o campo 'Órgãos' ele poderá fazer isso sem a necessidade de excluir os filtros um a um. Ele poderá excluir o campo "ÓRGÃO"
+
+![](static/imagens/homologacao/limpar-filtros-aplicados.png)
+
+</div>
 
 * Casos os parâmetros selecionados não retornem nenhuma informação o PdT deverá apresentar uma mensagem informando que '*Não há dados a serem exibidos com os parâmetros selecionados.*''
 
-* Os parâmetros selecionados na barra deslizante deverão ser exibidos na ordem que o usuário escolheu.
+* **OK** Os parâmetros selecionados na barra deslizante deverão ser exibidos na ordem que o usuário escolheu.
 
-* Todos os parâmetros serão representados no campo filtros aplicados da seguinte forma:
+* **OK** Todos os parâmetros serão representados no campo filtros aplicados da seguinte forma:
   * **Filtro** (*nome do filtro*): **Parâmentro** (*nome do parâmetro*)-(**[X]()**)(*excluir*);
 
-![](static/imagens/parametros-filtros-aplicados.png)
 
-* À medida que o usuário for incluindo parâmetros na pesquisa a tabela de resultados será deslocada para baixo quando ultrapassar o limite da tela (eg. [Portal de Transparência Federal](http://www.portaltransparencia.gov.br/despesas/programa-e-acao?ordenarPor=programa&direcao=asc)).
+*  À medida que o usuário for incluindo parâmetros na pesquisa a tabela de resultados será deslocada para baixo quando ultrapassar o limite da tela (eg. [Portal de Transparência Federal](http://www.portaltransparencia.gov.br/despesas/programa-e-acao?ordenarPor=programa&direcao=asc)).
 
-* Caso o usuário selecione uma grande quantidade de filtros será acrescentado a opção *Ver mais* abaixo da lista de filtros.
+* **OK** Caso o usuário selecione uma grande quantidade de filtros será acrescentado a opção *Ver mais* abaixo da lista de filtros.
 
 <div class="alert alert-success">
 
 OK
 
-![](static/imagens/homologa-filtros-aplicados2.png)
+![](static/imagens/homologacao/ver-mais-filtros.png)
 
 
-![](static/imagens/homologa-filtros-aplicados.png)
-
-
-
-  </div>
+</div>
 
 ### Tabela de resultados
 <a href="#top">(inicio)</a>
@@ -180,7 +236,7 @@ OK
 
 * A tabela apresentará colunas padrões que serão exibidas independentemente de o usuário selecionar/aplicar algum filtro. [Ver especificação dados](https://github.com/transparencia-mg/especificacoes-portal-transparencia/edit/espec018_recusos-vale/espec018_recursos-acordo-judicial-vale/recursos-vale-dados.md).
 
-* A data de atualização dos dados, e a opção de compartilhamento serão exibidos acima da tabela de resultados.
+* **OK** A data de atualização dos dados, e a opção de compartilhamento serão exibidos acima da tabela de resultados.
 
 * Os valores **TOTAL GERAL** e o **SUBTOTAL** serão exibidos na tabela de resultados de acordo com o comportamento do usuário:
 
@@ -190,18 +246,35 @@ OK
 
 * A tabela de resultados não exibirá os campos **TOTAL GERAL** e o **SUBTOTAL** quando não houver dados referentes a valores.
 
-* A **barra de pesquisa** da tabela de resultado deverá retornar os dados da tabela que estão exibidos. A medida que o usuário for digitando os dados a busca será acionada. O atributo *placeholder*: deve ser aplicado na barra de pesquisa.
+<div class="alert alert-danger">
+
+**CORRIGIR**
+
+A tabela de resultados não está exibindo o valor total e nem subtotal conforme descrito acima
+
+![](static/imagens/homologacao/tabela-resultados-pesquisa-avancada.png)
+
+
+</div>
+
+
+* **OK** A **barra de pesquisa** da tabela de resultado deverá retornar os dados da tabela que estão exibidos. A medida que o usuário for digitando os dados a busca será acionada. O atributo *placeholder*: deve ser aplicado na barra de pesquisa.
 
 * Estrutura de design das tabelas de resultados:
   * Cabeçalho fixo - *[Fixer Header](https://medium.com/nextux/design-better-data-tables-4ecc99d23356#86cf)* (eg. [Consulta de Remuneração do PdT](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/202103/1/1038/4158/C/3251081/986/23239313));
 
 
-
   * Rolagem horizontal - *[Horizontal Scroll](https://medium.com/nextux/design-better-data-tables-4ecc99d23356#2dba)*. Quando o número de colunas ultrapassar o limite da página o PdT deve possibilizar a rolagem horizontal.
 
-
-
   * Colunas movíveis e classificáveis conforme ocorre atualmente;
+
+<div class="alert alert-danger">
+
+  **CORRIGIR**
+
+As colunas não estão movíveis
+
+</div>
 
   * Paginação e seleção da quantidade de linhas a serem exibidas, conforme ocorre atualmente;
   * O texto deve ser ajustável nas colunas, ou seja, caso seja necessário pode haver quebra de linha;
@@ -210,13 +283,22 @@ OK
 
 * Ao exibir ou ocultar alguma coluna a tabela de resultados será atualizada automaticamente (eg.[Column Toggle Table](https://ux.stackexchange.com/questions/110077/best-practices-to-allow-user-to-hide-show-columns-in-a-data-table/110079#110079)).
 
-![](static/imagens/acrescentar-remover-colunas1.gif)
-
 * O ícone **Adicionar/Remover Colunas** além dos filtros pré-determinados pela DTA terá uma barra de pesquisa onde o usuário poderá digitar o filtro desejado.
 
-* As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remover Colunas*** podendo o usuário desativá-las.
 
-* Ao inserir qualquer coluna essas serão incluídas antes das colunas de valores. E caso seja incluída alguma coluna de valor o portal deverá manter a ordem da execução orçamentária (Valor empenhado, valor liquidado, valor pago, valor liquidado em RP, Valor Pago em RP, Valor Total Pago).
+<div class="alert alert-danger">
+
+  **CORRIGIR**
+
+1- O ícone 'exibir/ocultar código' não está funcionando
+
+2- Não está sendo exibido a opção marcar/desmarcar todos
+
+</div>
+
+* **OK** As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remover Colunas*** podendo o usuário desativá-las.
+
+* **OK** Ao inserir qualquer coluna essas serão incluídas antes das colunas de valores. E caso seja incluída alguma coluna de valor o portal deverá manter a ordem da execução orçamentária (Valor empenhado, valor liquidado, valor pago, valor liquidado em RP, Valor Pago em RP, Valor Total Pago).
 
 ![](static/imagens/adicionar-remover-colunas.png)
 
@@ -224,7 +306,16 @@ OK
 
 * Os campos clicáveis serão destacados conforme o layout já adotado pelo PdT e terão a imagem de uma lupa.
 
+<div class="alert alert-danger">
 
+**CORRIGIR**
+
+O Cabeçalho e a coluna da tabela modal com os empenhos não estão fixas
+
+![](static/imagens/homologacao/cabecalho-modal.png)
+
+
+</div>
 
 #### Download dos dados:
 
@@ -240,8 +331,43 @@ Seguir o padrão da pesquisa básica
 
 * Todos os filtros selecionados serão exibidos na tabela de resultado.
 
+<div class="alert alert-danger">
+
+**CORRIGIR**
+
+- Os filtros selecionados na barra vertical e filtros aplicados não estão sendo exibidos na tabela de resultados
+
+![](static/imagens/homologacao/filtros-aplicados-tabela.gif)
+
+
+</div>
+
+
 * A exibição de código e descrição será diferente em cada seção:
 
  * Barra de pesquisa e filtros aplicados: exibir código e descrição no mesmo campo (eg. [Proposta Orçamentára - PdT MG](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada));
  * Tabela de resultado: exibir apenas descrição. Os códigos serão exibidos apenas se o usuário adicionar a coluna;
+
+<div class="alert alert-danger">
+
+ **CORRIGIR**
+
+ - Ao selecionar a opção no campo 'adcionar/remover colunas' o código do item está sendo exibido automaticamente
+
+
+
+ </div>
+
+
  * Opção exportar CSV.: exibir código e descrição em campos distintos, independente de o usuário selecionar a opção código na tabela de resultado.
+
+
+ <div class="alert alert-danger">
+
+ **CORRIGIR**
+
+ A visualização entre as migalhas e o texto explicativo não está boa. Na minha opinião está dando a impressão que  texto explicativo é uma continuidade das migalhas.
+
+  ![](static/imagens/homologacao/migalhas-texto-explicativo.png)
+
+ </div>

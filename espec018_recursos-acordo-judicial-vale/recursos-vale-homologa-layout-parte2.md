@@ -55,7 +55,7 @@ output:
 
 * Os campos clicáveis serão destacados conforme o layout já adotado pelo PdT e terão a imagem de uma lupa.
 
-**CORRGIR**
+**CORRIGIR**
 
 1- Em algumas páginas é exibido uma lupa em outras um olho. Padronizar para LUPA.
 2- O campos clicáveis não estão em destaque
@@ -100,7 +100,9 @@ OK
 
 2- No segundo nível da consulta (Empenhos) o gráfico deverá exibir apenas a descrição do Favorecido, como ocorre atualmente
 
-3- Ao clicar no gráfico o usuário é direcionado a página inicial da consulta
+3- Ao clicar no gráfico o usuário é direcionado a página inicial da consulta.
+
+4- O gráfico não está representando o mesmo caminho das tabelas
 
 ![](static/imagens/homologacao/grafico-orgao.png)
 
