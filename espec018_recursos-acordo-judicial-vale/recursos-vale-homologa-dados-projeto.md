@@ -43,13 +43,13 @@ Ao clicar no nível 1, aparece a mensagem de erro abaixo
 
 ![](static/imagens/erro_nivel_projeto.png)
 
-#### Observação 2 - CORRIGIR
+#### Observação 2 - CORRIGIDO
   
-O primeiro nível da consulta não está coincidindo com os dados que estão disponíveis no homologa do portal de dados abertos.
+O primeiro nível da consulta não está coincidindo com os dados que estão disponíveis no homologa do portal de dados abertos. - CORRIGIDO
 
 Verificar a planilha do conjunto de dados - https://homologa.cge.mg.gov.br/dataset/acordo-judicial-reparacao-vale/resource/136b4fd6-a892-4467-a997-4a846d823487
 
-  ![image](https://user-images.githubusercontent.com/52920939/167886906-659de68e-5030-4c81-82e6-d7b395b9c305.png)
+  ![image](https://user-images.githubusercontent.com/52920939/168074299-6e868630-958f-4912-9af4-7c574400ab27.png)
 
   
 ### Nível 2  
