@@ -218,10 +218,13 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 
 ## 1.8 Tooltip tabela de resultados Monte sua pesquisa
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-**Não foi implementado o tooltip desse Item**
 
+CORRIGIDO
+~Não foi implementado o tooltip desse Item~
+
+![](static/imagens/homologacao/tipo-empenho.png)
 
 Os tooltips da tabela de resultado deverá ser o mesmo já utilizado nas tabelas das consultas pré-formatadas.
 

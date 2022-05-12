@@ -106,11 +106,11 @@ _______
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-**NÃO CORRIGIDO**
+**CORRIGIDO**
 
-- Corrigir tooltip do Valor Pago: Valor referente aos repasses efetuados conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021 do Acordo Judicial.
+~Corrigir tooltip do Valor Pago: Valor referente aos repasses efetuados conforme art. 5º e anexo V da Lei Estadual nº 23.830/2021 do Acordo Judicial~
 
  **OBS: Lembrando que o tooltip desse valor pago é para apenas essa consulta de município**
 
