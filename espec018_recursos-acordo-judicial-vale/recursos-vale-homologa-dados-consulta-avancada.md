@@ -84,10 +84,33 @@ No entanto, ao solicitar o detalhamento, consta número de contrato para esse pr
   
 Ao escolher um Favorecido, e clicar em pesquisar e em seguida detalhar, o portal abriu a caixa de diálogo com dados da página inicial
   
+  SITUAÇÃO 1
+  
  - FILTRO APLICADO
+  
   ![image](https://user-images.githubusercontent.com/52920939/168071825-0b7eea7f-fa1e-4bfa-95e7-536dc981de59.png)
 
   - RESULTADO DA CONSULTA
+  
   ![image](https://user-images.githubusercontent.com/52920939/168071757-ae886c94-82d1-4c47-854e-ffff096df56b.png)
+  
+  SITUAÇÃO 2
+  FILTROS APLICADOS: 
+  
+  ![image](https://user-images.githubusercontent.com/52920939/168078077-dd06d01c-bd9b-40a8-8727-e2fc13454d06.png)
+
+  RESULTADO DA CONSULTA:
+  
+  ![image](https://user-images.githubusercontent.com/52920939/168078180-6561a24f-3896-417e-8f60-41958fc8329d.png)
+  
+  
+  ### 5. SAIR
+  Quando clicar em sair após a aplicação de um filtro, a página retorna para um erro. O correto é voltar para a página da consulta avançada.
+  
+  ![image](https://user-images.githubusercontent.com/52920939/168078283-602de1c0-8bf4-4eae-94cf-0e51e66271b6.png)
+
+  
+
+  
 
 
