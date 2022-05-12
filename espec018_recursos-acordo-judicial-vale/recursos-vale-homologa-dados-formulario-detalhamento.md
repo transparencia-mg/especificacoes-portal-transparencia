@@ -106,11 +106,11 @@ Foi realizada a conferência dos dados do Portal com os dados do Armazém BO - n
   ![image](https://user-images.githubusercontent.com/52920939/167897102-9ee1f232-a1ae-48bf-a942-55706d28c3b9.png)
   
 
-### 3. Liquidação - AINDA COMO SEM OS DADOS DE LIQUIDAÇÃO EM RESTOS A PAGAR
+### 3. Liquidação - CORRIGIDO
   
-  ![image](https://user-images.githubusercontent.com/52920939/167897421-03abf894-dbd4-4b92-b7de-efe1dd9fc69a.png)
+![image](https://user-images.githubusercontent.com/52920939/168068835-9268fb7a-5789-48ac-b36f-5ce1b77040be.png)
 
-  - Não consta os dados da inscrição em Restos a Pagar no Portal - no armazém já possui esses dados.  
+  - Não consta os dados da inscrição em Restos a Pagar no Portal - no armazém já possui esses dados.  DADOS FORAM CORRIGIDOS
   
   ![image](https://user-images.githubusercontent.com/52920939/167897333-e7c888b8-ac09-4d49-b412-fa453cca592a.png)
   
