@@ -22,6 +22,7 @@ output:
 
  
 ### RELATO DOS ERROS
+  
 ### 1. FILTROS 
   
 * A medida que o usuário selecionar um parâmetro de qualquer filtro automaticamente apenas as opções que possuem relacionamento com o parâmetro selecionado será exibida nos demais filtros. Nos testes realizados foi verificado que esta funcionalidade não está ativa.
@@ -103,8 +104,30 @@ Ao escolher um Favorecido, e clicar em pesquisar e em seguida detalhar, o portal
   
   ![image](https://user-images.githubusercontent.com/52920939/168078180-6561a24f-3896-417e-8f60-41958fc8329d.png)
   
+  ### 5. TABELA DE RESULTADOS TRAZ EMPENHOS DE OUTROS ANOS
   
-  ### 5. SAIR
+  Ao filtrar o dado órgão 1521 - Controladoria Geral do Estado - no ano de 2022
+  
+  ![image](https://user-images.githubusercontent.com/52920939/168090958-ea497bd1-c98f-422b-9d4a-76d5e683bf5b.png)
+
+  A tabela de resultados traz o empenho referente ao ano de 2021.
+  
+  ![image](https://user-images.githubusercontent.com/52920939/168091014-18bd9db1-f366-4841-8eff-4883da7225c5.png)
+
+  
+  
+  ### 6. SEM INFORMAÇÕES DO PROCESSO DE COMPRA
+  
+  No projeto 9288155, foi verificado que a consulta não trouxe as informações referente ao processo de compra vinculado ao empenho 237/2022.
+  
+  TELA DA CONSULTA
+  ![image](https://user-images.githubusercontent.com/52920939/168090033-46d8980c-b64c-44e2-b65a-bef89e4206a7.png)
+
+  TELA DO PROCESSO DE COMPRA
+  ![image](https://user-images.githubusercontent.com/52920939/168090233-36ddc3ce-7769-4b8e-b3a7-6a4bfc95d169.png)
+
+  
+  ### 7. SAIR
   Quando clicar em sair após a aplicação de um filtro, a página retorna para um erro. O correto é voltar para a página da consulta avançada.
   
   ![image](https://user-images.githubusercontent.com/52920939/168078283-602de1c0-8bf4-4eae-94cf-0e51e66271b6.png)
