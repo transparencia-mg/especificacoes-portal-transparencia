@@ -22,130 +22,58 @@ output:
 
 ## Projeto 9288134 - Empenho 43
   
-### 
-### 1. Classificação Orçamentária - CORRIGIDO
-
-![image](https://user-images.githubusercontent.com/52920939/167891137-836d78d5-d681-4da3-b28f-2304fcdc2ed5.png)
+### RELATO DOS ERROS
+### 1. FILTROS 
   
-Foi realizada a conferência dos dados do Portal com os dados do Armazém BO.
+* A medida que o usuário selecionar um parâmetro de qualquer filtro automaticamente apenas as opções que possuem relacionamento com o parâmetro selecionado será exibida nos demais filtros. Nos testes realizados foi verificado que esta funcionalidade não está ativa.
+  
+Exemplo: Ao selecionar o parâmetro projeto, apenas os dados daquele projeto devem estar disponíveis para seleção. Os demais devem estar inativados ou não devem aparecer. 
+  
+  - Foi selecionado o filtro 9288144, nesse caso deve estar habilitado ou aparecendo apenas o anexo IV.
+  
+  ![image](https://user-images.githubusercontent.com/52920939/168069982-9601af3e-da2a-40c3-a425-481ce28c3e23.png)
 
-Foram CORRIGIDOS OS ERROS de troca de dados nos seguintes itens:
-  - Na modalidade de Aplicação 
-  - No Elemento de Despesa 
-  - No Item de Despesa 
+  - Foi selecionado o filtro 9288144, nesse caso deve estar habilitado ou aparecendo apenas o órgão polícia civil. 
+  
+  ![image](https://user-images.githubusercontent.com/52920939/168070150-fb0f31fe-79bb-4d21-88ce-df876ff75ef7.png)
 
-Abaixo foram identificadas as colunas CORRIGIDAS
-![image](https://user-images.githubusercontent.com/52920939/167891391-456b702f-9ead-4581-9edf-77997c422689.png)
+O mesmo comportamento foi identificado nos demais filtros
+  
+### 2. EXIBIÇÃO DA CONSULTA
+  
+ * Ao aplicar os filtros e clicar em pesquisar não esta sendo exibindo na tela final os dados consultados.
+  
+Exemplo: No exemplo abaixo foi solicitado a exibição dos filtros: Projeto, Órgão e Função. Mas a consulta retorno apenas o período e valores. 
+  
+  - FITLROS APLICADOS:
+  
+  ![image](https://user-images.githubusercontent.com/52920939/168070612-9c68f6dc-f9a3-45b0-b0c9-3b32d6d80d2a.png)
 
+  - RESULTADO DA CONSULTA
+  ![image](https://user-images.githubusercontent.com/52920939/168070496-5e8044cf-990a-4077-bfff-62e57d48f5c7.png)
+
+  
+### 3. EXIBIR / OCULTAR CÓDIGO
+  
+ * Ao selecionar o botão exibir/ocultar código o portal não está apresentando diferença. O comportamento esta sendo o de exibir o código selecionando ou não o botão. 
+  
+- Ao selecionar o botão os códigos devem ser exibidos, colocando-se um coluna a esquerda.
  
-### 2. Empenho - CORRIGIDO
+  ![image](https://user-images.githubusercontent.com/52920939/168071132-a55695d7-de06-40f8-a9b3-936e0e78c89a.png)
 
-![image](https://user-images.githubusercontent.com/52920939/167892885-4a5d512d-adc9-4e57-8dbe-9abd7c06b91d.png)
-
-Foi realizada a conferência dos dados do Portal com os dados do Armazém BO.
+ - Ao retirar o marcador do botão os códigos e as colunas devem desaparecer da coluna. Esse comportamento também deve ser o comportamento padrão.
   
-Foram identificado os dados referentes a anulação do empenho 43
-
-![image](https://user-images.githubusercontent.com/52920939/167892749-19f29bbb-a4b7-4e1d-94b0-9754bf81ef20.png)
-
-
-### 3. Outras informações - CORRIGIDO
+  ![image](https://user-images.githubusercontent.com/52920939/168071312-4e0c1d7c-9159-4dae-b783-3f3a27f7ca52.png)
   
-![image](https://user-images.githubusercontent.com/52920939/167893033-288b3fec-ddea-44a8-b5ba-78b3cf53b339.png)
+  
+  ### 4. SEM RESULTADO
+  
+  Ao escolher um beneficiário aleatório, e clicar em pesquisar e em seguida detalhar, o portal abriu a caixa de diálogo com dados da página inicial
+  
+  - FILTRO APLICADO
+  ![image](https://user-images.githubusercontent.com/52920939/168071825-0b7eea7f-fa1e-4bfa-95e7-536dc981de59.png)
 
-Foi realizada a conferência dos dados do Portal com os dados do Armazém BO - 
-  
-![image](https://user-images.githubusercontent.com/52920939/167894548-966f7d65-7e86-47a7-852c-062f2159edb9.png)
-  
+  - RESULTADO DA CONSULTA
+  ![image](https://user-images.githubusercontent.com/52920939/168071757-ae886c94-82d1-4c47-854e-ffff096df56b.png)
 
 
-
-
-  
-  
-
-### ABAS SEM ERRO
-### 1. Liquidação
-
-![image](https://user-images.githubusercontent.com/52920939/167892946-587b35fe-7f62-43cb-b2b1-928059511e2b.png)
-
-Foi realizada a conferência dos dados do Portal com os dados do Armazém BO - não havia dados de liquidação nesse empenho
-  
-![image](https://user-images.githubusercontent.com/52920939/167893113-71205704-374b-4779-aba2-342cd20f98ff.png)
-
-
-### 2. Pagamento
-  
-![image](https://user-images.githubusercontent.com/52920939/167892976-548cea1c-0b7c-4402-9f03-6126e44de405.png)
-
-Foi realizada a conferência dos dados do Portal com os dados do Armazém BO - não havia dados de pagamento nesse empenho
-  
-![image](https://user-images.githubusercontent.com/52920939/167893157-cdeba2f8-2452-44af-a74a-cd97da4267e3.png)
-  
-  
-## Projeto 9288138 - Empenho 317
-  
-### 1. Classificação orçamentária - CORRIGIDO
-  
-  ![image](https://user-images.githubusercontent.com/52920939/167895209-d44fe7a4-882f-4b93-ba9f-48cf54db3daa.png)
-  
-  - Mesmo erro relatado acima, troca dos dados das colunas - ERROS CORRIGIDOS
-      - Na modalidade de Aplicação foi informado o elemento de despesa
-      - No Elemento de Despesa foi informado o item de despesa
-      - No Item de Despesa foi informado a modalidade de aplicação
-  
-  ![image](https://user-images.githubusercontent.com/52920939/167895909-b90db25c-832e-4641-b410-26ffe00d0833.png)
-
-  
-### 2. Empenho CORRIGIDO
-  
-  ![image](https://user-images.githubusercontent.com/52920939/167895254-15cf700f-13b6-4d46-8f78-0656b5228655.png)
-
-  - Não consta os dados da inscrição em Restos a Pagar no Portal - no armazém já possui esses dados - CORRIGIDOS
-  
-  ![image](https://user-images.githubusercontent.com/52920939/167897102-9ee1f232-a1ae-48bf-a942-55706d28c3b9.png)
-  
-
-### 3. Liquidação - CORRIGIDO
-  
-![image](https://user-images.githubusercontent.com/52920939/168068835-9268fb7a-5789-48ac-b36f-5ce1b77040be.png)
-
-  - Não consta os dados da inscrição em Restos a Pagar no Portal - no armazém já possui esses dados.  DADOS FORAM CORRIGIDOS
-  
-  ![image](https://user-images.githubusercontent.com/52920939/167897333-e7c888b8-ac09-4d49-b412-fa453cca592a.png)
-  
-
-### 4. Pagamento - CORRIGIDO
-  
-  ![image](https://user-images.githubusercontent.com/52920939/167898039-c151d967-d8ee-47e0-97b2-ca135ccf22c1.png)
-  
-  - Não consta os dados da inscrição em Restos a Pagar no Portal - no armazém já possui esses dados.  - DADOS FORAM CORRIGIDOS
-  
-![image](https://user-images.githubusercontent.com/52920939/167897984-06cb2c2c-916e-4214-ae28-095237b0872c.png)
-  
-  
-### 5. Outras Informações - CORRIGIDO
-  
-![image](https://user-images.githubusercontent.com/52920939/167898408-4fef3dbb-4e35-421a-912d-2061bd060a0f.png)
-  
-  - Informação incorreta referente ao número de contrato associado ao empenho 317. O contrato 9316087 refere-se ao empenho 314 da empresa Gracio do Brasil Proteção Balística Eireli. O empenho 317 deve trazer a informação referente ao contrato 9316088 - DADOS CORRIDIGODS
-  
-  Observação: O processo de compra de ambos os contratos são o mesmo, mas os contratos são diferentes.
-  
-  EMPENHO 314
-  
-  ![image](https://user-images.githubusercontent.com/52920939/167898597-0d2d87b2-66af-4aa8-ad97-f258aa855c6a.png)
-  
-  EMPENHO 317
-  
-  ![image](https://user-images.githubusercontent.com/52920939/167898737-bb4b10f2-131e-49d6-8fd3-5d55ca517087.png)
-
-  
-  ![WhatsApp Image 2022-05-06 at 09 17 17](https://user-images.githubusercontent.com/52920939/167130512-f37bf4a3-ad1a-44a0-831d-9f3a5e7f5c1f.jpeg)
-
-  
-
-  
-
-  
-  
