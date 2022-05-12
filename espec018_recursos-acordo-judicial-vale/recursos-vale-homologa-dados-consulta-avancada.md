@@ -65,11 +65,26 @@ Exemplo: No exemplo abaixo foi solicitado a exibição dos filtros: Projeto, Ór
   ![image](https://user-images.githubusercontent.com/52920939/168071312-4e0c1d7c-9159-4dae-b783-3f3a27f7ca52.png)
   
   
-  ### 4. SEM RESULTADO
   
-  Ao escolher um beneficiário aleatório, e clicar em pesquisar e em seguida detalhar, o portal abriu a caixa de diálogo com dados da página inicial
+### 4. NÚMERO DE CONTRATO NÃO É EXIBIDO NO RESULTADO DA CONSULTA
   
-  - FILTRO APLICADO
+ * Ao selecionar o número de um contrato na consulta o mesmo não aparece na tela de resultados.
+  
+- Exemplo: Foi selecionado o projeto 9288169 - na tela da consulta a coluna está vazia.
+  
+![image](https://user-images.githubusercontent.com/52920939/168076024-6053d7e0-4c15-4eb9-8854-21bfb7f9493a.png)
+
+No entanto, ao solicitar o detalhamento, consta número de contrato para esse projeto 
+  
+![image](https://user-images.githubusercontent.com/52920939/168076145-059c24c4-c42a-482a-b4ea-4033711f2e8c.png)
+
+  
+
+### 4. FILTRO SEM NENHUM RESULTADO
+  
+Ao escolher um Favorecido, e clicar em pesquisar e em seguida detalhar, o portal abriu a caixa de diálogo com dados da página inicial
+  
+ - FILTRO APLICADO
   ![image](https://user-images.githubusercontent.com/52920939/168071825-0b7eea7f-fa1e-4bfa-95e7-536dc981de59.png)
 
   - RESULTADO DA CONSULTA
