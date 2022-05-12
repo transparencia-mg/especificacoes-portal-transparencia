@@ -12,12 +12,15 @@ output:
     toc: yes
 ---
 
-# Homologação do Layout
+# **ERROS PENDENTES DE CORREÇÃO E/OU VERIFICAÇÃO**
+
+
+#### Homologação do Layout
 <a href="#top">(inicio)</a>
 
 [Ambiente de Homologação](https://age7-novo.homologacao.prodemge.gov.br/)
 
-## 1. Página Inicial
+#### 1. Página Inicial
 <a href="#top">(inicio)</a>
 
 Adequar a Página Inicial do Portal para recepcionar a nova consulta de transparência dos recursos da Vale.
@@ -34,7 +37,7 @@ Adequar a Página Inicial do Portal para recepcionar a nova consulta de transpar
 
 <div class="alert alert-danger">
 
-**Dúvida**
+**AGUARDANDO ACESSO A ÁREA ADMINISTRATIVA PARA ALTERAR**
 
 Teremos acesso através do joomla para alterar o conteúdo abaixo? Se não é preciso retirar esse texto. Se sim, fazemos essa alteração por aqui mesmos
 
@@ -42,7 +45,7 @@ Teremos acesso através do joomla para alterar o conteúdo abaixo? Se não é pr
 
  </div>
 
-## 2. Página Inicial da consulta - Pesquisa Básica
+#### 2. Página Inicial da consulta - Pesquisa Básica
 <a href="#top">(inicio)</a>
 
 #### 2.1 Texto explicativo
@@ -56,9 +59,7 @@ Teremos acesso através do joomla para alterar o conteúdo abaixo? Se não é pr
 
 ![](static/imagens/homologacao/layout-homologa-texto-pesquisa-basica.png)
 
- </div>
-
-
+</div>
 
 <div class="alert alert-success">
 
@@ -90,7 +91,11 @@ Atributos do campo:
 
 <div class="alert alert-danger">
 
-**CORRIGIR** 10/05/2021
+GLOSSÁRIO
+--
+<a href="#top">(inicio)</a>
+
+**CORRIGIR** 12/05/2022
 
 Ao deslocar o glossário para direita o botão de acessibilidade está atrapalhando a leitura do texto em alguns caso. Vide imagem abaixo. Sugiro que a formatação utilizada seja a mesma do termo "Favorecido"
 
@@ -160,6 +165,10 @@ CORRIGIDO   ~Trocar o nome das consultas~
 
 <div class="alert alert-danger">
 
+SELEÇÃO DA DATA
+--
+<a href="#top">(inicio)</a>
+
 **CORRIGIR** 10/05/2022
 
 Não está sendo possível selecionar o ano de pesquisa na da dd/mm/aaaa. O usuário deve conseguir selecionar o ano ou digitar. O Pdt permite a escolha apenas 'setinha'
@@ -183,17 +192,29 @@ Não está sendo possível selecionar o ano de pesquisa na da dd/mm/aaaa. O usu�
   * **Por Execução**: Ao selecionar esse tipo de consulta no campo *"Filtrar por"* o usuário poderá escolher se a busca será realizada pelo nome do Favorecido, pelo CPF/CNPJ ou Órgão. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados, conforme já ocorre atualmente no PdT.
 
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-**Corrigir**
+**Corrigido**
 
+~O erro foi corrigido parcialmente.** Ao escolher o nome de um órgão não é exibido nenhum resultado, mesmo havendo dados referente ao órgão selecionado.~
 
-**O erro foi corrigido parcialmente.** Ao escolher o nome de um órgão não é exibido nenhum resultado, mesmo havendo dados referente ao órgão selecionado.
-
-**NOVO ERRO** Quando é selecionado apenas um exercício  a exibição dos dados são apresentadas corretamente, mas quando seleciona mais de um exercício os dados não são exibidos
+~Quando é selecionado apenas um exercício  a exibição dos dados são apresentadas corretamente, mas quando seleciona mais de um exercício os dados não são exibidos~
 
 ![](static/imagens/homologacao/orgao-mais-um-exercicio.gif)
 
+</div>
+
+<div class="alert alert-danger">
+
+O RESULTADO DA CONSULTA NÃO CORRESPONDE AO PERÍODO SELECIONADO
+--
+<a href="#top">(inicio)</a>
+
+Ao selecionar apenas o período de 2022 para o órgão Controladoria Geral do Estado a tabela de resultados apresenta valores zerados e quando é clicado no detalhamento os empenhos listados correspondem ao exercício de 2021.
+
+Quando não houver execução do órgão no período selecionado não deve exibir dados nem zerados.
+
+![](static/imagens/homologacao/empenho-nao-corresponde-periodo.gif)
 </div>
 
 <div class="alert alert-success">
@@ -215,6 +236,10 @@ Não está sendo possível selecionar o ano de pesquisa na da dd/mm/aaaa. O usu�
 </div>
 
 <div class="alert alert-danger">
+
+FORMATAÇÃO DO PERÍODO
+--
+<a href="#top">(inicio)</a>
 
 * **Por Receita**:
 
@@ -259,6 +284,10 @@ Não terá a opção de filtra, pois possui apenas uma classificação.
 
 <div class="alert alert-danger">
 
+TEXTO DO CABEÇALHO
+--
+<a href="#top">(inicio)</a>
+
 **CORRIGIR**
 
 1 O texto que deverá ser exibido ao selecionar o filtro órgão é "Órgão" e não execução.
@@ -281,7 +310,11 @@ Não terá a opção de filtra, pois possui apenas uma classificação.
 
 <div class="alert alert-danger">
 
-**CORRIGIR**
+LISTA DE MUNICÍPIOS NO CAMPO FILTRO
+--
+<a href="#top">(inicio)</a>
+
+**NÃO CORRIGIDO CORRIGIDO** 12/05/2022
 
 Nesse campo filtro deve ser exibido apenas dados (Municípios) que correspondem a execução (repasse). Atualmente o campo filtro está exibindo Municípios até mesmo de outros estados.
 
@@ -301,15 +334,13 @@ Nesse campo filtro deve ser exibido apenas dados (Municípios) que correspondem 
 
 </div>
 
-<div class="alert alert-danger">
-
-
-</div>
-
-
 #### 2.5 Leiaute - Tabelas navegação
 
 <div class="alert alert-danger">
+
+FORMATAÇÃO DA TABELA DE RESULTADOS
+--
+<a href="#top">(inicio)</a>
 
 **CORRIGIR** 10/05/2021
 
@@ -328,6 +359,10 @@ A formatação da tabela não exibe todos os dados. Como por exemplos o R$ da fr
 
 <div class="alert alert-danger">
 
+POSICIONAMENTO DOS BOTÕES DOWNLOAD E Compartilhar
+--
+<a href="#top">(inicio)</a>
+
 **VERIFICAR**
 
 1- Foi solicitado que os campos Download, Compartilhar fossem exibidos acima do gráfico/tabela, porém ao solicitar a exibição do gráfico a informação se perde na parte superior e o usuário pode não perceber que os dados podem ser baixados.
@@ -344,6 +379,10 @@ A formatação da tabela não exibe todos os dados. Como por exemplos o R$ da fr
 
 
 <div class="alert alert-danger">
+
+EXIBIÇÃO DO GRÁFICO
+--
+<a href="#top">(inicio)</a>
 
 **CORRIGIR**
 
@@ -364,14 +403,24 @@ Os dados do gráfico de área (Consulta por Execução/ Receita/ Município) nã
 
 <div class="alert alert-danger">
 
+EXIBIÇÃO DAS LINHAS
+--
+<a href="#top">(inicio)</a>
+
 **CORRIGIR** 10/05/2021
 
 A opção 'exibir linhas' não está respeitando o selecionado pelo usuário.
 Por exemplo no detalhamento do Projeto 9288130 ao selecionar a opção 100 linhas todas as linhas estão sendo exibidas.
 
+![](static/imagens/homologacao/exibir-linhas.gif)
+
 </div>
 
 <div class="alert alert-danger">
+
+FORMATAÇÃO
+--
+<a href="#top">(inicio)</a>
 
 **CORRIGIR** 10/05/2021
 
@@ -389,11 +438,17 @@ Por exemplo no detalhamento do Projeto 9288130 ao selecionar a opção 100 linha
 
 <div class="alert alert-danger">
 
-**CORRIGIR** 10/05/2021
 
-* **Campo 'exibir/oculta código'**
+EXIBIR/OCULTAR FILTROS
+--
+<a href="#top">(inicio)</a>
 
-1. Por projeto - 1 nível: Ao clicar em 'exibir/oculta código' a coluna descrição do projeto é ocultada, nesse caso nenhuma coluna deverá ser ocultada;
+**NÃO CORRIGIDO** 10/05/2022
+
+**Campo 'exibir/oculta código'**
+
+
+1. ~**CORRIGIDO**Por projeto - 1 nível: Ao clicar em 'exibir/oculta código' a coluna descrição do projeto é ocultada, nesse caso nenhuma coluna deverá ser ocultada;~
 2. Por projeto e Por execução - 2 nível: a opção não funciona
 
 3. Por Transferência por município: conforme especificação não é para ter o código do Município. Então nesse caso a funcionalidade deverá ficar sempre marcada e nenhuma coluna deverá ser ocultada.
@@ -404,19 +459,21 @@ Por exemplo no detalhamento do Projeto 9288130 ao selecionar a opção 100 linha
 
 </div>
 
-
-
 * Os valores TOTAL GERAL e o SUBTOTAL serão exibidos na tabela de resultados de acordo com o comportamento do usuário:
 
   * **TOTAL GERAL:** quando o usuário não aplicar nenhum filtro na tabela ou quanto todos os dados forem exibidos em uma única página, ou seja, sem paginação;
 
 <div class="alert alert-danger">
 
-  **CORRIGIR** 10/05/2021
+SUBTOTAL
+--
+<a href="#top">(inicio)</a>
 
-  A opção SUBTOTAL só deve aparecer quando for aplicado algum filtro ou houver paginação dos dados
+**NÃO CORRIGIDO** 10/05/2022
 
-  ![](static/imagens/homologacao/subtotal-paginacao.png)
+A opção SUBTOTAL só deve aparecer quando for aplicado algum filtro ou houver paginação dos dados
+
+![](static/imagens/homologacao/subtotal-paginacao.png)
 
 </div>
 
@@ -429,9 +486,3 @@ Por exemplo no detalhamento do Projeto 9288130 ao selecionar a opção 100 linha
 </div>
 
 <div class="alert alert-danger">
-
-**ALTERAR**
-
-Alterar nome inicial da consulta para "Acordo Judicial de Reparação do Vale"
-
-</div>

@@ -11,12 +11,13 @@ output:
   word_document:
     toc: yes
 ---
+# **ERROS PENDENTES DE CORREÇÃO E/OU VERIFICAÇÃO**
 
-# Homologação do Layout - parte 3
+#### Homologação do Layout - parte 3
 <a href="#top">(inicio)</a>
 
 
-## Monte sua consulta
+#### Monte sua consulta
 
 <a href="#top">(inicio)</a>
 
@@ -28,14 +29,13 @@ output:
 
 </div>
 
-
 A pesquisa será composta pelos seguintes componentes:
 
 * Barra de navegação vertical com filtros;
 * Filtros Aplicados;
 * Tabela de Resultado;
 
-### Barra de Navegação Vertical
+#### Barra de Navegação Vertical
 <a href="#top">(inicio)</a>
 
  Atributos da barra de navegação vertical:
@@ -62,7 +62,11 @@ A pesquisa será composta pelos seguintes componentes:
 
 <div class="alert alert-danger">
 
-**CORRIGIR**
+SELEÇÃO DOS FILTROS NA BARRA DE PESQUISA
+--
+<a href="#top">(inicio)</a>
+
+**CORRIGIR** 11/05/2022
 
 No campo busca ao pesquisar por um item e seleciona-lo e logo em seguida buscar por outro item e também selecioná-lo o item anterior já selecionado é desmarcado na barra de pesquisa e no campo filtros aplicados.
 
@@ -73,9 +77,14 @@ No campo busca ao pesquisar por um item e seleciona-lo e logo em seguida buscar 
 
 <div class="alert alert-danger">
 
+BARRA DE PESQUISA NÃO IGNORA ACENTUAÇÃO e OUTROS
+--
+<a href="#top">(inicio)</a>
+
 **CORRIGIR**
 
-A barra de pesquisa não está ignorando as palavras acentuadas.
+A barra de pesquisa dos filtros não está ignorando as palavras acentuadas e a barra de busca deslizante está ignorando a busca em caixa alta.
+
 Por exemplo ao busca pela palavra 'Órgão' só é aceito a busca se a palavra for acentuada
 
 ![](static/imagens/homologacao/barra-pesquisa-acento.png)
@@ -100,7 +109,7 @@ OK
 
 * **OK** Ao clicar em qualquer filtro da barra de navegação será exibido uma outra barra de filtros onde o usuário deverá selecionar os parâmetros da pesquisa.  
 
-### Barra deslizante para baixo
+#### Barra deslizante para baixo
 <a href="#top">(inicio)</a>
 
 * **OK** A barra deslizante só será exibida se o usuário clicar em algum filtro  da barra de navegação vertical.
@@ -111,15 +120,20 @@ OK
 ![](static/imagens/homologacao/filtros.png)
 
 
-* Ao clicar sob a **barra de pesquisa** será exibido uma lista suspensa com todos os parâmetros referente ao filtro. Para selecionar o parâmetro desejado o usuário poderá usar a barra de rolagem ou a barra de pesquisa.  
+* **OK** Ao clicar sob a **barra de pesquisa** será exibido uma lista suspensa com todos os parâmetros referente ao filtro. Para selecionar o parâmetro desejado o usuário poderá usar a barra de rolagem ou a barra de pesquisa.  
 
-* A barra deslizante deverá listar os parâmetros selecionados com a opção ***['x']() (excluir)***. O usuário poderá remover os parâmetros não desejados clicando no ***['x']()***.
+* **OK** A barra deslizante deverá listar os parâmetros selecionados com a opção ***['x']() (excluir)***. O usuário poderá remover os parâmetros não desejados clicando no ***['x']()***.
 
 * O usuário poderá combinar vários parâmetros para o mesmo filtro (selecionar mais de um item) ou selecionar a opção ***[Exibir Todos]***.
+
 * Ao selecionar ***[Exibir Todos]***, abrirá uma tela modal exibindo todos os parâmetros daquele filtro com as opções *Selecionar tudo, Limpar Seleção, Inverter seleção*. O usuário poderá remover os parâmetros não desejados ao assinalar com tique a opção.  
 eg. [Slides 10](https://xd.adobe.com/view/965f7297-a884-462e-af3c-902944963cb1-c30c/screen/f342f2a6-6869-4a32-98aa-c77e9fe30dd3)
 
 <div class="alert alert-danger">
+
+BARRA DESLIZANTE- OPÇÃO EXIBIR TODOS
+--
+<a href="#top">(inicio)</a>
 
 **CORRIGIR**
 
@@ -138,6 +152,10 @@ Ficou acordado durante a homologação das tela wireframe que o número de itens
 
 <div class="alert alert-danger">
 
+PARÂMETROS DOS FILTROS
+--
+<a href="#top">(inicio)</a>
+
 **VERIFICAR**
 
 **Essa funcionalidade não foi aplicada**
@@ -155,7 +173,7 @@ O [Portal da Transparência do Estado de São Paulo](www.fazenda.sp.gov.br/Sigeo
 * **OK** Todos os parâmetros selecionados serão exibidos no campo **Filtros Aplicados**.
 
 
-### Filtros Aplicados
+#### Filtros Aplicados
 <a href="#top">(inicio)</a>
 
 <div class="alert alert-success">
@@ -171,6 +189,10 @@ OK
 
 <div class="alert alert-danger">
 
+SELEÇÃO DE DATA
+--
+<a href="#top">(inicio)</a>
+
 **CORRIGIR**
 
 Só é possível a seleção da data pela setinha.
@@ -180,6 +202,10 @@ Só é possível a seleção da data pela setinha.
 </div>
 
 <div class="alert alert-danger">
+
+BOTÃO ATUALIZAR
+--
+<a href="#top">(inicio)</a>
 
 **CORRIGIR**
 
@@ -198,6 +224,21 @@ OBS: Os botões **Pesquisar/ Atualizar/Limpar** devem ser estilisticamente difer
 
 </div>
 
+<div class="alert alert-danger">
+
+BOTÃO SAIR
+--
+<a href="#top">(inicio)</a>
+
+**CORRIGIR**
+
+Ao o clicar no botão sair o usuário é direcionar para
+uma página de ERRO
+
+![](static/imagens/homologacao/botao-sair.png)
+
+</div>
+
 <div class="alert alert-success">
 
 * **OK**
@@ -208,7 +249,7 @@ O usuário poderá excluir um filtro por completo. Por exemplo, caso o usuário 
 
 </div>
 
-* Casos os parâmetros selecionados não retornem nenhuma informação o PdT deverá apresentar uma mensagem informando que '*Não há dados a serem exibidos com os parâmetros selecionados.*''
+* **OK** Casos os parâmetros selecionados não retornem nenhuma informação o PdT deverá apresentar uma mensagem informando que '*Não há dados a serem exibidos com os parâmetros selecionados.*''
 
 * **OK** Os parâmetros selecionados na barra deslizante deverão ser exibidos na ordem que o usuário escolheu.
 
@@ -229,7 +270,7 @@ OK
 
 </div>
 
-### Tabela de resultados
+#### Tabela de resultados
 <a href="#top">(inicio)</a>
 
 * A tabela de resultado levará em consideração os parâmetros do campo filtros aplicados.
@@ -247,6 +288,10 @@ OK
 * A tabela de resultados não exibirá os campos **TOTAL GERAL** e o **SUBTOTAL** quando não houver dados referentes a valores.
 
 <div class="alert alert-danger">
+
+SUBTOTAL TABELA RESULTADO - MONTE SUA PESQUISA
+--
+<a href="#top">(inicio)</a>
 
 **CORRIGIR**
 
@@ -270,14 +315,40 @@ A tabela de resultados não está exibindo o valor total e nem subtotal conforme
 
 <div class="alert alert-danger">
 
+MOVER COLUNAS
+--
+<a href="#top">(inicio)</a>
+
   **CORRIGIR**
 
 As colunas não estão movíveis
 
 </div>
 
-  * Paginação e seleção da quantidade de linhas a serem exibidas, conforme ocorre atualmente;
-  * O texto deve ser ajustável nas colunas, ou seja, caso seja necessário pode haver quebra de linha;
+<div class="alert alert-danger">
+
+BARRA FIXA TABELA DE RESULTADOS - MONTE SUA PESQUISA
+--
+<a href="#top">(inicio)</a>
+
+Ao rolar a página para baixo a formatação do cabeçalho das colunas se perde.
+
+![](static/imagens/homologacao/barra-fixa-tabela-resultados.gif)
+
+</div>
+
+<div class="alert alert-danger">
+
+EXIBIR/OCULTA CÓDIGO - MONTE SUA PESQUISA
+--
+<a href="#top">(inicio)</a>
+
+Não esta funcionando
+
+</div>
+
+* Paginação e seleção da quantidade de linhas a serem exibidas, conforme ocorre atualmente;
+* O texto deve ser ajustável nas colunas, ou seja, caso seja necessário pode haver quebra de linha;
 
 * O usuário poderá adicionar ou remover colunas - [*hide/show columns*](https://ux.stackexchange.com/a/110079) na tabela de resultados. Ao clicar em **Adicionar/Remover colunas** será exibido uma barra lateral a direta com todas as colunas que poderão ser adicionadas ou removidas (eg. [Portal da Transparência Federal](http://www.portaltransparencia.gov.br/despesas/consulta?ordenarPor=mesAno&direcao=desc)).
 
@@ -288,11 +359,15 @@ As colunas não estão movíveis
 
 <div class="alert alert-danger">
 
-  **CORRIGIR**
+ADICIONAR E REMOVER COLUNAS - MONTE SUA PESQUISA
+--
+<a href="#top">(inicio)</a>
 
-1- O ícone 'exibir/ocultar código' não está funcionando
+**CORRIGIR**
 
-2- Não está sendo exibido a opção marcar/desmarcar todos
+Não está sendo exibido a opção marcar/desmarcar todos no campo adicionar/remover colunas
+
+![](static/imagens/homologacao/adcionar-remover-colunas.png)
 
 </div>
 
@@ -308,6 +383,27 @@ As colunas não estão movíveis
 
 <div class="alert alert-danger">
 
+DETALHAR - MONTE SUA PESQUISA
+--
+<a href="#top">(inicio)</a>
+
+**CORRIGIR**
+
+- Ao clicar no campo detalhar o usuário está sendo direcionado para a página inicial do PDT.
+
+- O botão detalhar deve seguir o padrão do PDT (lupa)
+
+[LINK PDT](https://age7-novo.homologacao.prodemge.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarConsultaLivre&amp;jform[ID_UNIDADE_ORC][0]=2351&amp;jform[ID_UNIDADE_ORC][1]=2469&amp;jform[datainicio]=01/01/2022&amp;jform[datafim]=31/12/2022&amp;jform[colunas]=PERIODO,CD_PROJETO,PROJETO,ORGAO,UNIDADE_EXEC,FUNCAO,SUBFUNCAO,PROGRAMA,ACAO,CATEG_ECON,GRUPO,MODALIDADE_APLIC,ELEMENTO,ITEM,FONTE,PROCEDENCIA,NR_EMPENHO,NR_PROCESSO,PROCEDIMENTO,OBJETO_PROCESSO,CD_CONVENIO,OBJETO_CONTRATO,TITULO_CONVENIO,CNPJ_CPF,FAVORECIDO,NR_PAGAMENTO,DT_EMPENHO,DT_PAGAMENTO,TIPO_EMPENHO,SITUACAO_OP,DT_PROCESSO,SITUACAO_PROCESSO,DT_PUB_CONTRATO,DT_VIGENCIA_ATUAL,DT_PUB_CONVENIO,SIT_CONVENIO,SIT_CONTRATO,VR_EMPENHADO,VR_LIQUIDADO,VR_PAGO,VR_LIQUIDADO_RP,VR_PAGO_RP,VR_PAGO_TOTAL&amp;jform[codigo]=0)
+![](static/imagens/homologacao/botao-detalhar-monte-sua-pesquisa.gif)
+
+</div>
+
+<div class="alert alert-danger">
+
+CABEÇALHO DA TABELA MODAL - MONTE SUA PESQUISA
+--
+<a href="#top">(inicio)</a>
+
 **CORRIGIR**
 
 O Cabeçalho e a coluna da tabela modal com os empenhos não estão fixas
@@ -321,7 +417,19 @@ O Cabeçalho e a coluna da tabela modal com os empenhos não estão fixas
 
 Seguir o padrão da pesquisa básica
 
-### Observações gerais:
+<div class="alert alert-danger">
+
+DOWNLOAD - MONTE SUA PESQUISA
+--
+<a href="#top">(inicio)</a>
+
+**CORRIGIR**
+
+Não está funcionado na pesquisa avançada
+
+</div>
+
+#### Observações gerais:
 
 * Todas as **barras de pesquisa** devem aceitar várias formas de preenchimento dos dados.
   * Autocompletar (*autocomplete* ) desde a primeira letra (eg. [Portal de Transparência MG](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada));
@@ -329,9 +437,25 @@ Seguir o padrão da pesquisa básica
   * Desconsiderar palavras intermediárias (ex.: Ao digitar “gestao pública”, um dos resultados será “Gestão da Administração Pública”);
   * O usuário poderá pesquisar código ou descrição das classificações orçamentárias (eg. [Proposta Orçamentára - PdT MG](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada)).   
 
+<div class="alert alert-danger">
+
+BARRA DE PESQUISA - MONTE SUA PESQUISA E BÁSICA
+--
+<a href="#top">(inicio)</a>
+
+Como já mencionado algumas barras de pesquisa não estão respeitando o solicitado.
+
+</div>
+
+
+
 * Todos os filtros selecionados serão exibidos na tabela de resultado.
 
 <div class="alert alert-danger">
+
+FILTROS SELECIONADOS VS TABELA DE RESULTADO
+--
+<a href="#top">(inicio)</a>
 
 **CORRIGIR**
 
@@ -343,31 +467,60 @@ Seguir o padrão da pesquisa básica
 </div>
 
 
-* A exibição de código e descrição será diferente em cada seção:
+* **ok** A exibição de código e descrição será diferente em cada seção:
 
- * Barra de pesquisa e filtros aplicados: exibir código e descrição no mesmo campo (eg. [Proposta Orçamentára - PdT MG](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada));
- * Tabela de resultado: exibir apenas descrição. Os códigos serão exibidos apenas se o usuário adicionar a coluna;
+ * **OK** Barra de pesquisa e filtros aplicados: exibir código e descrição no mesmo campo (eg. [Proposta Orçamentára - PdT MG](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada));
+ * **OK** Tabela de resultado: exibir apenas descrição. Os códigos serão exibidos apenas se o usuário adicionar a coluna;
 
 <div class="alert alert-danger">
 
+ADICIONAR/REMOVER COLUNAS - CÓDIGOS
+--
+<a href="#top">(inicio)</a>
+
  **CORRIGIR**
 
- - Ao selecionar a opção no campo 'adcionar/remover colunas' o código do item está sendo exibido automaticamente
-
-
+ - Ao selecionar a opção no campo 'adIcionar/remover colunas' o código do item está sendo exibido automaticamente
 
  </div>
 
+<div class="alert alert-danger">
+
+DOWNLOAD CSV - MONTE SUA PESQUISA
+ --
+ <a href="#top">(inicio)</a>
+
+**Não é possível verificar pois a extração em csv não está funcionado**
 
  * Opção exportar CSV.: exibir código e descrição em campos distintos, independente de o usuário selecionar a opção código na tabela de resultado.
 
+ </div>
 
  <div class="alert alert-danger">
+
+PÁGINA INICIAL - MIGALHAS
+--
+<a href="#top">(inicio)</a>
 
  **CORRIGIR**
 
  A visualização entre as migalhas e o texto explicativo não está boa. Na minha opinião está dando a impressão que  texto explicativo é uma continuidade das migalhas.
 
-  ![](static/imagens/homologacao/migalhas-texto-explicativo.png)
+![](static/imagens/homologacao/migalhas-texto-explicativo.png)
+
+ </div>
+
+
+<div class="alert alert-danger">
+
+FAVORECIDO - CAMPO BUSCA
+--
+<a href="#top">(inicio)</a>
+
+**CORRIGIR**
+
+Não é possível buscar o favorecido no campo
+
+![](static/imagens/homologacao/favorecido-campo-busca.png)
 
  </div>

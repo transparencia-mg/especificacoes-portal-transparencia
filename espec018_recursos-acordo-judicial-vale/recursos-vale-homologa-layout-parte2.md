@@ -12,8 +12,10 @@ output:
     toc: yes
 ---
 
+# **ERROS PENDENTES DE CORREÇÃO E/OU VERIFICAÇÃO**
 
-# Homologação do Layout - parte 2
+
+##### Homologação do Layout - parte 2
 <a href="#top">(inicio)</a>
 
 
@@ -53,12 +55,14 @@ output:
 
 <div class="alert alert-danger">
 
-* Os campos clicáveis serão destacados conforme o layout já adotado pelo PdT e terão a imagem de uma lupa.
+CAMPOS CLICÁVEIS
+--
+<a href="#top">(inicio)</a>
 
-**CORRIGIR**
+Os campos clicáveis serão destacados conforme o layout já adotado pelo PdT e terão a imagem de uma lupa.
 
 1- Em algumas páginas é exibido uma lupa em outras um olho. Padronizar para LUPA.
-2- O campos clicáveis não estão em destaque
+2- O campos clicáveis não estão em destaque, conforme ocorre atualmente no pdt. Assim o usuário poderá clicar tanto na lupa como no código o projeto, como por exemplo.
 
 ![](static/imagens/homologacao/lupa.png)
 
@@ -94,7 +98,11 @@ OK
 
 <div class="alert alert-danger">
 
-**CORRIGIR**
+NAVEGAÇÃO PELOS GRÁFICOS
+--
+<a href="#top">(inicio)</a>
+
+**CORRIGIR** 11/05/2022
 
 1- Nome do título do gráfico de Execução para Órgãos
 
@@ -102,31 +110,31 @@ OK
 
 3- Ao clicar no gráfico o usuário é direcionado a página inicial da consulta.
 
-4- O gráfico não está representando o mesmo caminho das tabelas
+4- Os gráficos não estão representando o mesmo caminho das tabelas
 
 ![](static/imagens/homologacao/grafico-orgao.png)
+--
 
 ![](static/imagens/homologacao/grafico-favorecido.png)
+--
 
 ![](static/imagens/homologacao/grafico-favorecido-erro.gif)
+--
+
+![](static/imagens/homologacao/grafico-avanca-nivel.gif)
 
 </div>
 
 
 <div class="alert alert-danger">
 
-**CORRIGIR**
-1. Ao clicar no gráfico o usuário não está sendo direcionado ao próximo nível
+FORMATAÇÃO DAS TABELAS
+--
+<a href="#top">(inicio)</a>
 
-![](static/imagens/homologacao/grafico-avanca-nivel.gif)
+**CORRIGIR** 10/05/2022
 
-  </div>
-
-<div class="alert alert-danger">
-
-**CORRIGIR**
-
-2- Alinhar nome do órgão a esquerda da tela
+Alinhar nome do órgão a esquerda da tela
 
 ![](static/imagens/homologacao/alinhar-nome-orgao.png)
 
@@ -134,9 +142,13 @@ OK
 
 <div class="alert alert-danger">
 
+MIGALHAS / CABEÇALHO
+--
+<a href="#top">(inicio)</a>
+
 **CORRIGIR**
 
-4- Ao selecionar um projeto pelo código na consulta de execução tanto a arvoré quanto o cabeçalho deve exibir além do nome do projeto o código, pois caso o usuário clique no projeto 9288133 e nesses campos apresentar apenas a descrição ele poderá ficar perdido onde está realmente.
+ao selecionar um projeto pelo código na consulta de execução tanto a árvore quanto o cabeçalho deve exibir além do nome do projeto o código, pois caso o usuário clique no projeto 9288133 e nesses campos apresentar apenas a descrição ele poderá ficar perdido onde está realmente.
 
 ![](static/imagens/homologacao/arvore-execucao.png)
 
@@ -148,6 +160,10 @@ OK
 * **Download PDF:** O documento gerado em PDF deverá exibir:
 
 <div class="alert alert-danger">
+
+DOWNLOAD PDF
+--
+<a href="#top">(inicio)</a>
 
 **CORRIGIR**
 
@@ -171,6 +187,10 @@ OK
 
 <div class="alert alert-danger">
 
+DOWNLOAD CSV
+--
+<a href="#top">(inicio)</a>
+
 **CORRIGIR**
 
 1- Não está funcionando - O campo TOTAL GERAL também deverá ser exibido;
@@ -188,6 +208,10 @@ OK
 
 <div class="alert alert-danger">
 
+DOWNLOADO CSV - DADOS COMPLETOS
+--
+<a href="#top">(inicio)</a>
+
 **CORRIGIR**
 
 Será exibido a tabela completa de todas as páginas no formato CSV, independente do filtro aplicado, conforme documentação
@@ -199,12 +223,16 @@ Será exibido a tabela completa de todas as páginas no formato CSV, independent
 
  * Será exibido a tabela completa de todas as páginas no formato CSV, independente do filtro aplicado.
  * O campo TOTAL GERAL também deverá ser exibido.
- * Exibir código e descrição em campos distintos, independente de o usuário selecionar a opção '*Exibir código e descrição*'
+ * **OK** Exibir código e descrição em campos distintos, independente de o usuário selecionar a opção '*Exibir código e descrição*'
 
 
 * **Download base completa:**
 
 <div class="alert alert-danger">
+
+DOWNLOADO BASE COMPLETA
+--
+<a href="#top">(inicio)</a>
 
 **CORRIGIR**
 
@@ -280,19 +308,6 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
   * Valor Total Pago
 
 
-<div class="alert alert-danger">
-
-**CORRIGIDO PARCIALMENTE**
-
-Corrigido Parcialmente, já relatado em outro campo da homologação
-
-~1- A funcionalidade 'exibir código/descrição' não está aparecendo na tela~
-
-
-![](static/imagens/homologacao/atributos-tabela.png)
-
- </div>
-
 * 3º NÍVEL
     - Formulário de Detalhamento
 
@@ -335,7 +350,11 @@ Corrigido Parcialmente, já relatado em outro campo da homologação
 
 <div class="alert alert-danger">
 
-**CORRIGIR**
+COLUNAS A MAIS NA TABELA - EXECUÇÃO 2 NÍVEL
+--
+<a href="#top">(inicio)</a>
+
+**CORRIGIR** 10/05/2021
 
 - O segundo nível da consulta por execução não possui a coluna órgão;
 - ~Corrigir o texto da coluna "Valor total pago" e não valor a pagar~ CORRIGIDO
@@ -362,20 +381,21 @@ Corrigido Parcialmente, já relatado em outro campo da homologação
 
 <div class="alert alert-danger">
 
+FORMATAÇÃO DA TABELA
+--
+<a href="#top">(inicio)</a>
+
 **CORRIGIR**
 
 - Alinhar situação da ordem de pagamento a esquerda      
 
 ![](static/imagens/homologacao/tela-municipio-alinhar-coluna.png)
 
-
 </div>
 
+<div class="alert alert-success">
 
-
-<div class="alert alert-danger">
-
-**CORRIGIR** 10/05/2022
+**CORRIGIDO** 10/05/2022
 
 * Não existe código do município nessa tabela
 
@@ -410,9 +430,13 @@ Corrigido Parcialmente, já relatado em outro campo da homologação
 
 <div class="alert alert-danger">
 
-**CORRIGIR**
+FALTA COLUNAS NA TABELA DE RESULTADOS
+--
+<a href="#top">(inicio)</a>
 
-- Ao Código da fonte de recurso não está sendo exibido
+**CORRIGIR** 10/05/2022
+
+O Código da fonte de recurso não está sendo exibido
 
 ![](static/imagens/homologacao/tela-receita-código.png)
 
@@ -436,6 +460,10 @@ A exportação em planilha (CSV) deverá ser em formato de tabela. Cada campo em
 
 <div class="alert alert-danger">
 
+FORMATAÇÃO FORMULÁRIO DE DETALHAMENTO
+--
+<a href="#top">(inicio)</a>
+
 **CORRIGIR**
 
  - Alterar nome de  Classificação para **Classificação Orçamentária**
@@ -452,6 +480,10 @@ A exportação em planilha (CSV) deverá ser em formato de tabela. Cada campo em
 
 
  <div class="alert alert-danger">
+
+ FORMATAÇÃO FORMULÁRIO DE DETALHAMENTO - EMPENHO
+ --
+ <a href="#top">(inicio)</a>
 
  **CORRIGIR**
 
@@ -480,9 +512,15 @@ A exportação em planilha (CSV) deverá ser em formato de tabela. Cada campo em
 
 <div class="alert alert-danger">
 
+FORMATAÇÃO FORMULÁRIO DE DETALHAMENTO - PAGAMENTO
+--
+<a href="#top">(inicio)</a>
+
  **CORRIGIR**
 
-  - A quebra de linha no campo valor pago não é interessante, já que existe a quebra no favorecido acredito que podemos manter o valor pago sem quebra de linha.
+A quebra de linha no campo valor pago não é interessante, já que existe a quebra no favorecido acredito que podemos manter o valor pago sem quebra de linha.
+
+[LINK DO PDT](https://age7-novo.homologacao.prodemge.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarEmpenho&ano=&dataInicio=01/01/2022&dataFim=31/12/2022&consulta=2&filtro=5&id_projeto=5)
 
 
 ![](static/imagens/homologacao/formulario-pagamento.png).
@@ -495,7 +533,11 @@ A exportação em planilha (CSV) deverá ser em formato de tabela. Cada campo em
 
 <div class="alert alert-danger">
 
-   **CORRIGIR**
+CAMPOS TROCADOS FORMULÁRIO DE DETALHAMENTO
+--
+<a href="#top">(inicio)</a>
+
+**CORRIGIR**
 
 - Os campos estão trocados
 - Se não há informações de convênios o formulário deve permanecer sem dados.
@@ -506,6 +548,10 @@ A exportação em planilha (CSV) deverá ser em formato de tabela. Cada campo em
 
 
 <div class="alert alert-danger">
+
+EXPORTAÇÃO FORMULÁRIO DE DETALHAMENTO CSV
+--
+<a href="#top">(inicio)</a>
 
 **CORRIGIR**
 
