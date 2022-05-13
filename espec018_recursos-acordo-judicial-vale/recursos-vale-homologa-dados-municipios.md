@@ -24,7 +24,7 @@ output:
 ### ERROS
 ### Nível 1
 
-#### 1. Situação acatada pelo banco:
+#### 1. Situação acatada pelo banco: CORRIGIDO
 - foram identificados pagamento para outros municípios que não fazem parte do projeto 9288130: alguns empenhos de Belo Horizonte, empenhos para Curitiba, Rio de Janeiro, São Paulo e outros sem informação de municípios
   
 ![image](https://user-images.githubusercontent.com/52920939/166979792-7e380570-a8b0-4a70-8a7f-35ca3ed5d4d0.png)
@@ -32,7 +32,7 @@ output:
 ![image](https://user-images.githubusercontent.com/52920939/166981060-52816a75-a2fd-41bb-a79b-6b158c78cde9.png)
 
   
- #### 2. Cancelada:
+ #### 2. Cancelada: CORRIGIDO
   
 - Foram identificados pagamento para o município de Belo Horizonte que não faz parte do projeto 9288130.
   
@@ -41,19 +41,17 @@ output:
 - Consta também valores para a coluna Valor Pago Financeiro, sem que por terem sido canceladas, eles valores aparecem zerados no Armazém BO.
   
   
-#### 3. Cancelada pelo Operador
+#### 3. Cancelada pelo Operador CORRIGIDO
   
-- Foram identificados pagamento para outros municípios que não fazem parte do projeto 9288130: alguns empenhos de Belo Horizonte, empenhos para Curitiba, Montes Claros, Rio de Janeiro, São Paulo e outros sem informação de municípios
+- Foram identificados pagamento para outros municípios que não fazem parte do projeto 9288130: alguns empenhos de Belo Horizonte, empenhos para Curitiba, Montes Claros, Rio de Janeiro, São Paulo e outros sem informação de municípios - CORRIGIDO
   
-![image](https://user-images.githubusercontent.com/52920939/166983950-ceb969b3-c9f0-4cb4-9443-44c65dbfbd6c.png)
+![image](https://user-images.githubusercontent.com/52920939/168293434-37a6698d-cd91-40be-be41-6759e5405f77.png)
   
-![image](https://user-images.githubusercontent.com/52920939/166983991-967346e9-b3e0-4dd7-b9f7-f12564222517.png)
-  
-![image](https://user-images.githubusercontent.com/52920939/166984031-a775a4ca-db27-4a6a-891c-992de9813c82.png)
-  
-#### OBSERVAÇÃO: As operações canceladas e as operações cancelados pelo operador devem ser retiradas, obedecendo o critério utilizado na consulta de despesa:
 
-#### 4. Outras situações da Ordem de Pagamento:
+  
+#### OBSERVAÇÃO: As operações canceladas e as operações cancelados pelo operador devem ser retiradas, obedecendo o critério utilizado na consulta de despesa - CORRIGIDO
+
+#### 4. Outras situações da Ordem de Pagamento: CORRIGIDO
 
 - Foram identificadas 3 outras situações de ordem de pagamento que não constam no Armazém, todas referentes a municípios ou repasses que não fazem parte do escopo 9288130:
   - situação paga
