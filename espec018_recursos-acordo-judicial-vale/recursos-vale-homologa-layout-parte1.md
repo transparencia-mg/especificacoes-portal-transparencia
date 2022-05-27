@@ -89,17 +89,19 @@ Atributos do campo:
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 GLOSSÁRIO
---
+
 <a href="#top">(inicio)</a>
 
-**CORRIGIR** 12/05/2022
+**CORRIGIDO** 26/05/2022
 
-Ao deslocar o glossário para direita o botão de acessibilidade está atrapalhando a leitura do texto em alguns caso. Vide imagem abaixo. Sugiro que a formatação utilizada seja a mesma do termo "Favorecido"
+~Ao deslocar o glossário para direita o botão de acessibilidade está atrapalhando a leitura do texto em alguns caso. Vide imagem abaixo. Sugiro que a formatação utilizada seja a mesma do termo "Favorecido"~
 
-![](static/imagens/homologacao/glossario.gif)
+O botão de acessibilidade foi deslocado para a esquerda
+
+![](static/imagens/homologacao/glossario.png)
 
 </div>
 
@@ -163,24 +165,6 @@ CORRIGIDO   ~Trocar o nome das consultas~
 
 </div>
 
-<div class="alert alert-danger">
-
-SELEÇÃO DA DATA
---
-<a href="#top">(inicio)</a>
-
-**CORRIGIR** 10/05/2022
-
-Não está sendo possível selecionar o ano de pesquisa na da dd/mm/aaaa. O usuário deve conseguir selecionar o ano ou digitar. O Pdt permite a escolha apenas 'setinha'
-
-![](static/imagens/homologacao/navegar-data.png)
----
-
-![](static/imagens/homologacao/data-ano.gif)
-
-</div>
-
-
 <div class="alert alert-success">
 
 * O comportamento da opção *'Filtrar por'* será conforme o tipo de consulta selecionada e como padrão será exibido a opção 'Todos'
@@ -235,15 +219,15 @@ Quando não houver execução do órgão no período selecionado não deve exibi
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-FORMATAÇÃO DO PERÍODO
---
+~FORMATAÇÃO DO PERÍODO~
+
 <a href="#top">(inicio)</a>
 
 * **Por Receita**:
 
-**CORRIGIR** 10/05/2021
+**CORRIGIDO** 26/05/2021
 
 Ao selecionar a consulta Por receita a formatação do campo data é perdida
 
@@ -282,25 +266,35 @@ Não terá a opção de filtra, pois possui apenas uma classificação.
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-TEXTO DO CABEÇALHO
---
+~TEXTO DO CABEÇALHO~
+
 <a href="#top">(inicio)</a>
 
-**CORRIGIR**
+**CORRIGIDO**
 
 1 O texto que deverá ser exibido ao selecionar o filtro órgão é "Órgão" e não execução.
 
 ![](static/imagens/homologacao/cabecalho-orgao.png)
 
+</div>
+
+<div class="alert alert-danger">
 
 2- A mesma correção deverá ser implementada ao utilizar o filtro Favorecido por nome ou Favorecido por CPF/CNPJ.
+
+**NÃO CORRIGIDO**
 
 **SEGUIR O MESMO PADRÃO ADOTADO NA CONSULTA DE DESPESA DO PDT**
 
 ![](static/imagens/homologacao/cabecalho-execucao-fvorecido-nome.png)
 
+</div>
+
+<div class="alert alert-danger">
+
+**VERIFICAR, MAS INICIALMENTE ESTÁ CORRETO**
 
 3- O caminho da consulta não está sendo exibido no Cabeçalho. A mesma lógica deve ser adotata nas migalha da parte superior
 
@@ -308,15 +302,14 @@ TEXTO DO CABEÇALHO
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 LISTA DE MUNICÍPIOS NO CAMPO FILTRO
---
-<a href="#top">(inicio)</a>
 
-**NÃO CORRIGIDO CORRIGIDO** 12/05/2022
 
-Nesse campo filtro deve ser exibido apenas dados (Municípios) que correspondem a execução (repasse). Atualmente o campo filtro está exibindo Municípios até mesmo de outros estados.
+**CORRIGIDO** 26/05/2022
+
+~Nesse campo filtro deve ser exibido apenas dados (Municípios) que correspondem a execução (repasse). Atualmente o campo filtro está exibindo Municípios até mesmo de outros estados.~
 
 ![](static/imagens/homologacao/municipio-outro-estado.png)
 
@@ -336,17 +329,17 @@ Nesse campo filtro deve ser exibido apenas dados (Municípios) que correspondem 
 
 #### 2.5 Leiaute - Tabelas navegação
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-FORMATAÇÃO DA TABELA DE RESULTADOS
---
-<a href="#top">(inicio)</a>
+~FORMATAÇÃO DA TABELA DE RESULTADOS~
 
-**CORRIGIR** 10/05/2021
+**CORRIGIDO** 26/05/2021
 
-A formatação da tabela não exibe todos os dados. Como por exemplos o R$ da frase:'Valores em R$'
+~A formatação da tabela não exibe todos os dados. Como por exemplos o R$ da frase:'Valores em R$'~
 
-![](static/imagens/homologacao/formatacao-tabela-R$.gif)
+O texto 'Valores em R$' foi deslocado para a esquerda da tela
+
+![](static/imagens/homologacao/formatacao-tabela-R$.png)
 
 </div>
 
@@ -357,20 +350,18 @@ A formatação da tabela não exibe todos os dados. Como por exemplos o R$ da fr
 
 * A data de atualização dos dados (*Dados atualizados em*), o período, o ícone *Exibir Gráfico* ou *Fechar Gráfico*, Download, Compartilhar serão exibidos acima do gráfico/tabela de resultados.
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-POSICIONAMENTO DOS BOTÕES DOWNLOAD E Compartilhar
---
-<a href="#top">(inicio)</a>
+~POSICIONAMENTO DOS BOTÕES DOWNLOAD E Compartilhar~
 
-**VERIFICAR**
-
-1- Foi solicitado que os campos Download, Compartilhar fossem exibidos acima do gráfico/tabela, porém ao solicitar a exibição do gráfico a informação se perde na parte superior e o usuário pode não perceber que os dados podem ser baixados.
+1- **CORRIGIDO** ~Foi solicitado que os campos Download, Compartilhar fossem exibidos acima do gráfico/tabela, porém ao solicitar a exibição do gráfico a informação se perde na parte superior e o usuário pode não perceber que os dados podem ser baixados.~
 É possível colocar esses campos próximo a tabela?
 
-2- Como teremos apenas uma opção de gráfico não é preciso colocar o campo 'gráfico área'
+![](static/imagens/homologacao/botoes-tabela.png)
 
-3- O gráfico da consulta por Projeto não está exibindo os dados que constam na tabela
+2- **CORRIGIDO** ~Como teremos apenas uma opção de gráfico não é preciso colocar o campo 'gráfico área'~
+
+3- **CORRIGIDO** ~O gráfico da consulta por Projeto não está exibindo os dados que constam na tabela~
 
 ![](static/imagens/homologacao/grafico-projeto.png)
 
@@ -378,15 +369,15 @@ POSICIONAMENTO DOS BOTÕES DOWNLOAD E Compartilhar
 </div>
 
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-EXIBIÇÃO DO GRÁFICO
---
+~EXIBIÇÃO DO GRÁFICO~
+
 <a href="#top">(inicio)</a>
 
-**CORRIGIR**
+**CORRIGIDO** 26/05/2022
 
-Os dados do gráfico de área (Consulta por Execução/ Receita/ Município) não estão sendo exibidos na totalidade devido a formatação.
+~Os dados do gráfico de área (Consulta por Execução/ Receita/ Município) não estão sendo exibidos na totalidade devido a formatação.~
 
 ![](static/imagens/homologacao/grafico-area.png)
 
@@ -401,59 +392,53 @@ Os dados do gráfico de área (Consulta por Execução/ Receita/ Município) nã
 
 * A opção de 'Exibir linhas' (quantidade de linhas) será exibida na parte superior da tabela.
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 EXIBIÇÃO DAS LINHAS
---
-<a href="#top">(inicio)</a>
 
-**CORRIGIR** 10/05/2021
 
-A opção 'exibir linhas' não está respeitando o selecionado pelo usuário.
-Por exemplo no detalhamento do Projeto 9288130 ao selecionar a opção 100 linhas todas as linhas estão sendo exibidas.
+**CORRIGIDO** 26/05/2021
+
+~A opção 'exibir linhas' não está respeitando o selecionado pelo usuário.
+Por exemplo no detalhamento do Projeto 9288130 ao selecionar a opção 100 linhas todas as linhas estão sendo exibidas.~
 
 ![](static/imagens/homologacao/exibir-linhas.gif)
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 FORMATAÇÃO
---
-<a href="#top">(inicio)</a>
 
-**CORRIGIR** 10/05/2021
+**CORRIGIDO** 26/05/2021
 
 **Formatação da Tabelas**
-1. Por Projeto - 1 nível: O conteúdo da coluna 'Anexo' deve ser alinhado à esquerda
-2. Por Projeto / execução - 2 nível:
-3. Município: Coluna 'Situação da ordem de pagamento' alinhar a esquerda
-4. Receita: Coluna 'classificação da receita' alinhar a esquerda
+1. OK Por Projeto - 1 nível: O conteúdo da coluna 'Anexo' deve ser alinhado à esquerda
+2. OK Por Projeto / execução - 2 nível:
+3. OK Município: Coluna 'Situação da ordem de pagamento' alinhar a esquerda
+4. OK Receita: Coluna 'classificação da receita' alinhar a esquerda
 
-![](static/imagens/homologacao/projeto-alinhar-esquerda.png)
+![](static/imagens/homologacao/formatacao-esquerda.gif)
 
 </div>
 
 * O usuário poderá solicitar a exibição dos dados com código e descrição. Ao clicar no botão '*Exibir código e descrição*' uma nova coluna será adicionada a esquerda de cada coluna que tenha a descrição.
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 
 EXIBIR/OCULTAR FILTROS
---
-<a href="#top">(inicio)</a>
 
-**NÃO CORRIGIDO** 10/05/2022
+**CORRIGIDO** 26/05/2022
 
 **Campo 'exibir/oculta código'**
 
-
 1. ~**CORRIGIDO**Por projeto - 1 nível: Ao clicar em 'exibir/oculta código' a coluna descrição do projeto é ocultada, nesse caso nenhuma coluna deverá ser ocultada;~
-2. Por projeto e Por execução - 2 nível: a opção não funciona
+2. OK ~Por projeto e Por execução - 2 nível: a opção não funciona~
 
-3. Por Transferência por município: conforme especificação não é para ter o código do Município. Então nesse caso a funcionalidade deverá ficar sempre marcada e nenhuma coluna deverá ser ocultada.
+3. ~Por Transferência por município: conforme especificação não é para ter o código do Município. Então nesse caso a funcionalidade deverá ficar sempre marcada e nenhuma coluna deverá ser ocultada.~
 
-4. Receita: o código da fonte de recurso não está sendo exibido/ocultado
+4.  ~Receita: o código da fonte de recurso não está sendo exibido/ocultado~
 
 ![](static/imagens/homologacao/exibir-ocultar-codigo.gif)
 
@@ -469,7 +454,7 @@ SUBTOTAL
 --
 <a href="#top">(inicio)</a>
 
-**NÃO CORRIGIDO** 10/05/2022
+**NÃO CORRIGIDO** 10/05/2022 // 26/05/2022
 
 A opção SUBTOTAL só deve aparecer quando for aplicado algum filtro ou houver paginação dos dados
 
@@ -485,4 +470,20 @@ A opção SUBTOTAL só deve aparecer quando for aplicado algum filtro ou houver 
 
 </div>
 
-<div class="alert alert-danger">
+
+<div class="alert alert-success">
+
+DATA
+
+
+
+**CORRIGIDO** 26/05/2022
+
+~Não está sendo possível selecionar o ano de pesquisa na da dd/mm/aaaa. O usuário deve conseguir selecionar o ano ou digitar. O Pdt permite a escolha apenas 'setinha'~
+
+![](static/imagens/homologacao/navegar-data.png)
+---
+
+
+
+</div>

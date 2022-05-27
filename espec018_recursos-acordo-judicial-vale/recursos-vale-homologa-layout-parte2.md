@@ -53,22 +53,19 @@ output:
 
 * A tabela apresentará campos clicáveis (com link) que irá direcionar o usuário para o formulário de detalhamento ou para o próximo nível da consulta.
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 CAMPOS CLICÁVEIS
---
-<a href="#top">(inicio)</a>
 
-Os campos clicáveis serão destacados conforme o layout já adotado pelo PdT e terão a imagem de uma lupa.
 
-1- Em algumas páginas é exibido uma lupa em outras um olho. Padronizar para LUPA.
-2- O campos clicáveis não estão em destaque, conforme ocorre atualmente no pdt. Assim o usuário poderá clicar tanto na lupa como no código o projeto, como por exemplo.
+~Os campos clicáveis serão destacados conforme o layout já adotado pelo PdT e terão a imagem de uma lupa.~
+
+~1- Em algumas páginas é exibido uma lupa em outras um olho. Padronizar para LUPA.~
+~2- O campos clicáveis não estão em destaque, conforme ocorre atualmente no pdt. Assim o usuário poderá clicar tanto na lupa como no código o projeto, como por exemplo.~
 
 ![](static/imagens/homologacao/lupa.png)
 
-![](static/imagens/homologacao/olho.png)
-
-  </div>
+</div>
 
 <div class="alert alert-success">
 
@@ -96,43 +93,36 @@ OK
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 NAVEGAÇÃO PELOS GRÁFICOS
---
-<a href="#top">(inicio)</a>
 
-**CORRIGIR** 11/05/2022
+**CORRIGIDO** 27/05/2022
 
-1- Nome do título do gráfico de Execução para Órgãos
+1- OK ~Nome do título do gráfico de Execução para Órgãos~
 
-2- No segundo nível da consulta (Empenhos) o gráfico deverá exibir apenas a descrição do Favorecido, como ocorre atualmente
+![](static/imagens/homologacao/navegação-1.png)
 
-3- Ao clicar no gráfico o usuário é direcionado a página inicial da consulta.
+2- OK ~No segundo nível da consulta (Empenhos) o gráfico deverá exibir apenas a descrição do Favorecido, como ocorre atualmente~
 
-4- Os gráficos não estão representando o mesmo caminho das tabelas
+![](static/imagens/homologacao/navegação-2.png)
 
-![](static/imagens/homologacao/grafico-orgao.png)
---
 
-![](static/imagens/homologacao/grafico-favorecido.png)
---
+3- OK ~Ao clicar no gráfico o usuário é direcionado a página inicial da consulta.~
 
-![](static/imagens/homologacao/grafico-favorecido-erro.gif)
---
+4- OK ~Os gráficos não estão representando o mesmo caminho das tabelas~
+
 
 ![](static/imagens/homologacao/grafico-avanca-nivel.gif)
 
 </div>
 
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 FORMATAÇÃO DAS TABELAS
---
-<a href="#top">(inicio)</a>
 
-**CORRIGIR** 10/05/2022
+**CORRIGIDO** 26/05/2022
 
 Alinhar nome do órgão a esquerda da tela
 
@@ -165,7 +155,7 @@ DOWNLOAD PDF
 --
 <a href="#top">(inicio)</a>
 
-**CORRIGIR**
+**Não CORRIGIDO** 27/05/22 (O BOTÃO NÃO ESTÁ FUNCIONANDO)
 
 1-  A URL* não está sendo exibida
 
@@ -348,15 +338,14 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
     * Valor Pago em Restos a Pagar
     * Valor Total Pago
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 COLUNAS A MAIS NA TABELA - EXECUÇÃO 2 NÍVEL
---
-<a href="#top">(inicio)</a>
 
-**CORRIGIR** 10/05/2021
 
-- O segundo nível da consulta por execução não possui a coluna órgão;
+**CORRIGIDO** 26/05/2021
+
+- ~O segundo nível da consulta por execução não possui a coluna órgão;~
 - ~Corrigir o texto da coluna "Valor total pago" e não valor a pagar~ CORRIGIDO
 
 ![](static/imagens/homologacao/tabela-orgao-segundo-nivel.png)
@@ -379,15 +368,13 @@ COLUNAS A MAIS NA TABELA - EXECUÇÃO 2 NÍVEL
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 FORMATAÇÃO DA TABELA
---
-<a href="#top">(inicio)</a>
 
-**CORRIGIR**
+**CORRIGIDO** 27/05/22
 
-- Alinhar situação da ordem de pagamento a esquerda      
+- ~Alinhar situação da ordem de pagamento a esquerda~      
 
 ![](static/imagens/homologacao/tela-municipio-alinhar-coluna.png)
 
@@ -428,15 +415,13 @@ FORMATAÇÃO DA TABELA
     * Valor Previsto Atualizado
     * Valor Arrecadado
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 FALTA COLUNAS NA TABELA DE RESULTADOS
---
-<a href="#top">(inicio)</a>
 
-**CORRIGIR** 10/05/2022
+**CORRIGIDO** 27/05/2022
 
-O Código da fonte de recurso não está sendo exibido
+~O Código da fonte de recurso não está sendo exibido~
 
 ![](static/imagens/homologacao/tela-receita-código.png)
 
@@ -467,34 +452,35 @@ FORMATAÇÃO FORMULÁRIO DE DETALHAMENTO
 **CORRIGIR**
 
  - Alterar nome de  Classificação para **Classificação Orçamentária**
- - Alterar nome de empenho para **Número do Empenho**
- - A ordem dos campos deve ser a mesma solicitada
+            **O Nome alterado foi o errado**
+ - OK ~Alterar nome de empenho para **Número do Empenho**~
+ - OK ~A ordem dos campos deve ser a mesma solicitada~
 
 ![](static/imagens/homologacao/formulario-classificacao.png)
 
-</div>
+Correção do dia 26/05/22
+![](static/imagens/homologacao/formulario-classificacaov2.png)
 
+</div>
 
 * Empenho
  ![](static/imagens/formulario-empenho.png)
 
 
- <div class="alert alert-danger">
+ <div class="alert alert-success">
 
  FORMATAÇÃO FORMULÁRIO DE DETALHAMENTO - EMPENHO
- --
- <a href="#top">(inicio)</a>
 
- **CORRIGIR**
+ **CORRIGIDO** 27/05/22
 
-  - A ordem dos campos deve ser a mesma solicitada;
-  - Colocar os dados alinhados
+  - ~A ordem dos campos deve ser a mesma solicitada;~
+  - ~Colocar os dados alinhados~
 
 ![](static/imagens/homologacao/formulario-empenho.png)
 
 </div>
 
- <div class="alert alert-success">
+<div class="alert alert-success">
 
  OK
  --
@@ -510,18 +496,15 @@ FORMATAÇÃO FORMULÁRIO DE DETALHAMENTO
 * Pagamento
  ![](static/imagens/formulario-pagamento.png)
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 FORMATAÇÃO FORMULÁRIO DE DETALHAMENTO - PAGAMENTO
---
-<a href="#top">(inicio)</a>
 
- **CORRIGIR**
+ **CORRIGIDO**
 
-A quebra de linha no campo valor pago não é interessante, já que existe a quebra no favorecido acredito que podemos manter o valor pago sem quebra de linha.
+~A quebra de linha no campo valor pago não é interessante, já que existe a quebra no favorecido acredito que podemos manter o valor pago sem quebra de linha.~
 
 [LINK DO PDT](https://age7-novo.homologacao.prodemge.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarEmpenho&ano=&dataInicio=01/01/2022&dataFim=31/12/2022&consulta=2&filtro=5&id_projeto=5)
-
 
 ![](static/imagens/homologacao/formulario-pagamento.png).
 
@@ -531,21 +514,19 @@ A quebra de linha no campo valor pago não é interessante, já que existe a que
   ![](static/imagens/formulario-outras-informacoes.png)
 
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 CAMPOS TROCADOS FORMULÁRIO DE DETALHAMENTO
---
-<a href="#top">(inicio)</a>
 
-**CORRIGIR**
 
-- Os campos estão trocados
-- Se não há informações de convênios o formulário deve permanecer sem dados.
+**CORRIGIDO**
+
+- ~Os campos estão trocados~
+- ~Se não há informações de convênios o formulário deve permanecer sem dados.~
 
 ![](static/imagens/homologacao/formulario-outras-informacoes.png)
 
  </div>
-
 
 <div class="alert alert-danger">
 
