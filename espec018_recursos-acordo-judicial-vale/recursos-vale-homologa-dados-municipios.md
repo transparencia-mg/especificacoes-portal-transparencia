@@ -17,47 +17,30 @@ output:
 
 <div class="alert alert-warning">
 
-## CONSULTA MUNICÍPIOS
+## CONSULTA MUNICÍPIOS - OK
 <a href="#top">(inicio)</a>
 
 
-### ERROS
-### Nível 1
+### Nível 1 - OK
+  
+![image](https://user-images.githubusercontent.com/52920939/171021918-d41284c6-cf86-4900-b39b-f00216919e1e.png)
 
-#### 1. Situação acatada pelo banco: CORRIGIDO
-- foram identificados pagamento para outros municípios que não fazem parte do projeto 9288130: alguns empenhos de Belo Horizonte, empenhos para Curitiba, Rio de Janeiro, São Paulo e outros sem informação de municípios
-  
-![image](https://user-images.githubusercontent.com/52920939/166979792-7e380570-a8b0-4a70-8a7f-35ca3ed5d4d0.png)
-  
-![image](https://user-images.githubusercontent.com/52920939/166981060-52816a75-a2fd-41bb-a79b-6b158c78cde9.png)
 
-  
- #### 2. Cancelada: CORRIGIDO
-  
-- Foram identificados pagamento para o município de Belo Horizonte que não faz parte do projeto 9288130.
-  
-![image](https://user-images.githubusercontent.com/52920939/166982214-b7441578-f1fe-4b9f-9565-fa384a7bef9c.png)
-  
-- Consta também valores para a coluna Valor Pago Financeiro, sem que por terem sido canceladas, eles valores aparecem zerados no Armazém BO.
+#### 1. Situação acatada pelo banco - 2021
   
   
-#### 3. Cancelada pelo Operador CORRIGIDO
+![image](https://user-images.githubusercontent.com/52920939/171022066-158118e8-f20a-4cd1-81c8-c2243a3e2a88.png)
   
-- Foram identificados pagamento para outros municípios que não fazem parte do projeto 9288130: alguns empenhos de Belo Horizonte, empenhos para Curitiba, Montes Claros, Rio de Janeiro, São Paulo e outros sem informação de municípios - CORRIGIDO
+ 
+#### 2. Situação acatada pelo banco - 2022
   
-![image](https://user-images.githubusercontent.com/52920939/168293434-37a6698d-cd91-40be-be41-6759e5405f77.png)
+![image](https://user-images.githubusercontent.com/52920939/171022033-d92e9531-e85c-46fc-a48d-24427c8e43a0.png)
   
+  
+### Nível 2 - OK
 
-  
-#### OBSERVAÇÃO: As operações canceladas e as operações cancelados pelo operador devem ser retiradas, obedecendo o critério utilizado na consulta de despesa - CORRIGIDO
+![image](https://user-images.githubusercontent.com/52920939/171022274-b447e0fa-80a3-484d-9276-94fadf073971.png)
 
-#### 4. Outras situações da Ordem de Pagamento: CORRIGIDO
-
-- Foram identificadas 3 outras situações de ordem de pagamento que não constam no Armazém, todas referentes a municípios ou repasses que não fazem parte do escopo 9288130:
-  - situação paga
-  - situação pendente de transmissão aos bancos
-  - situação sujeita a compensação bancária
-  
-  ![image](https://user-images.githubusercontent.com/52920939/166984440-a52b1fcb-f9b2-492e-825c-62a5aad79fb9.png)
+![image](https://user-images.githubusercontent.com/52920939/171022196-9137ba24-0cf0-4ddc-a503-5325f0ca774e.png)
 
   
