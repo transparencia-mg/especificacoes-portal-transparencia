@@ -487,13 +487,20 @@ BOTÕES DA TABELA MODAL
 --
 <a href="#top">(inicio)</a>
 
+**NÃO CORRIGIDO** 30/05/2022
+
+**O botão de quantidades 'Exibir linhas não está sendo exibido'**
+
 1- A tabela não está exibindo os botões de download, compartilhar, pesquisa e linhas;
 
 2- Sugiro aumentar a largura da tabela
 
+
+
 ![](static/imagens/homologacao/tabela-modal-botoes-principais.png)
 
 </div>
+
 
 ***Exceção:***     
 Quando o usuário utilizar o filtro "***Número da Ordem de Pagamento***" na barra de filtro vertical as colunas abaixo deverão ser exibidas em formato desabilitado, sem a exibição de dados:
@@ -522,13 +529,11 @@ Não está funcionado. Comportamento descrito acima
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 CPF DESCARACTERIZADO
---
-<a href="#top">(inicio)</a>
 
-Todos os CPF devem ser descaracterizados conforme já ocorre em todas as consultas do PDT
+~Todos os CPF devem ser descaracterizados conforme já ocorre em todas as consultas do PDT~
 ![](static/imagens/homologacao/cpf-anonimizado.png)
 
 </div>
