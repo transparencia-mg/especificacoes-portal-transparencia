@@ -25,31 +25,12 @@ output:
   
 #### 1. Coluna Anexo - OK
   
-Não consta a coluna Anexo no primeiro nível da consulta - verificar a planilha do conjunto de dados - https://homologa.cge.mg.gov.br/dataset/acordo-judicial-reparacao-vale/resource/136b4fd6-a892-4467-a997-4a846d823487
-
 ![](static/imagens/tela_nivel_projeto.png)
 
 
 #### 2. Coluna PROJETO - OK
   
-Foi retirada a coluna projeto após as alterações da primeira homologação.
-  
-  ![image](https://user-images.githubusercontent.com/52920939/167872239-3bbee479-41e6-40ff-98c4-910a84427bcb.png)
-
-  
-#### Observação 1 - OK
-
-Ao clicar no nível 1, aparece a mensagem de erro abaixo
-
-![](static/imagens/erro_nivel_projeto.png)
-
-#### Observação 2 - CORRIGIDO
-  
-O primeiro nível da consulta não está coincidindo com os dados que estão disponíveis no homologa do portal de dados abertos. - CORRIGIDO
-
-Verificar a planilha do conjunto de dados - https://homologa.cge.mg.gov.br/dataset/acordo-judicial-reparacao-vale/resource/136b4fd6-a892-4467-a997-4a846d823487
-
-  ![image](https://user-images.githubusercontent.com/52920939/168074299-6e868630-958f-4912-9af4-7c574400ab27.png)
+![image](https://user-images.githubusercontent.com/52920939/167872239-3bbee479-41e6-40ff-98c4-910a84427bcb.png)
 
   
 ### Nível 2  
@@ -57,14 +38,22 @@ Verificar a planilha do conjunto de dados - https://homologa.cge.mg.gov.br/datas
 
 Foi realizada a conferência dos dados do Portal com os dados do Armazém BO e foram identificados erros nos dados dos empenhos, liquidações e pagamentos.
 
-##### PROJETO 9288134 (detalhamento na planilha) - OS DADOS FORAM CORRIGIDOS
+##### PROJETO 9288143 (detalhamento na planilha) - ERRO
 
-- Dados incorretos baixados do armazém BO – foram localizados vários empenhos com erro (43, 44, 46, 90, 109, 146, 148, 150 e 200)
+- Não foram localizados os empenhos referentes ao ano de 2021 (empenhos 36, 37, 38 e 44, todos de 2021)
   
-![image](https://user-images.githubusercontent.com/52920939/167887141-37d473b2-7ac6-439e-9784-2672eecbe32e.png)
+![image](https://user-images.githubusercontent.com/52920939/171012692-0e1d6699-37e2-4576-bc3f-89126bbc7652.png)
+
+![image](https://user-images.githubusercontent.com/52920939/171012361-9878f67e-b12b-4930-9e39-5c0edd127091.png)
 
 
-##### PROJETO 9288143 (detalhamento na planilha) - OS DADOS FORAM CORRIGIDOS
-- Dados incorretos baixados do armazém BO – foram localizados vários empenhos com erro (33, 35, 36, 37, 38, 44, 45, 46, 47, 48, 49)
+
+##### PROJETO 9288134 (detalhamento na planilha) - ERRO
+
+- Não foram localizados alguns empenhos referentes ao ano de 2021 (empenhos 109, 146, 148, 150 e 200, todos de 2021)
+- As informações sobre despesa empenhada, despesa liquidada e valor pago financeiro do portal, também não coincidiram com os dados do armazém.
   
-![image](https://user-images.githubusercontent.com/52920939/167887067-e82fea91-66c4-46cb-bc33-8d2d89b5abcb.png)
+![image](https://user-images.githubusercontent.com/52920939/171012640-d458bb4d-69c6-4840-bfcd-21db5300f265.png)
+  
+![image](https://user-images.githubusercontent.com/52920939/171012782-7d65a0ef-e112-42fc-9bdd-e39fac1b03e9.png)
+
