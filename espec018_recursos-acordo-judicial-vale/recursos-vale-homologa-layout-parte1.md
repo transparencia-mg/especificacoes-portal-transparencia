@@ -35,9 +35,9 @@ Adequar a Página Inicial do Portal para recepcionar a nova consulta de transpar
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-**AGUARDANDO ACESSO A ÁREA ADMINISTRATIVA PARA ALTERAR**
+**Acesso concedido**
 
 Teremos acesso através do joomla para alterar o conteúdo abaixo? Se não é preciso retirar esse texto. Se sim, fazemos essa alteração por aqui mesmos
 
@@ -292,11 +292,11 @@ Não terá a opção de filtra, pois possui apenas uma classificação.
 
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-**VERIFICAR, MAS INICIALMENTE ESTÁ CORRETO**
+Quando abrir a tabela modal não é preciso a migalha da consulta.
 
-3- O caminho da consulta não está sendo exibido no Cabeçalho. A mesma lógica deve ser adotata nas migalha da parte superior
+~O caminho da consulta não está sendo exibido no Cabeçalho. A mesma lógica deve ser adotata nas migalha da parte superior~
 
 ![](static/imagens/homologacao/cabecalho-consulta-basica.gif)
 
