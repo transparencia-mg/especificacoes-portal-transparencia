@@ -139,6 +139,13 @@ Ao escolher um Favorecido, e clicar em pesquisar e em seguida detalhar, o portal
   ![image](https://user-images.githubusercontent.com/52920939/168078283-602de1c0-8bf4-4eae-94cf-0e51e66271b6.png)
 
   
+  ### 8. BOTÃO LIMPAR FILTRO - NOVO ERRO
+  Quando clicamos em limpar filtro, o botão apenas limpa os dados que estão na tela de filtros, e não realiza a limpeza do menu lateral a esquerda.
+  
+  Após realizar uma consulta, utilizei a opção limpar filtro. Os dados foram limpados da exibição, mas ao retornar para a pesquisa por código de projeto, o projeto q   estava selecionado, permaneceu com a seleção
+  
+  
+![image](https://user-images.githubusercontent.com/52920939/171464921-2ae58ec8-7d68-43f8-aa89-a87330ccd747.png)
 
   
 
