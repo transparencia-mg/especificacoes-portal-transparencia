@@ -489,13 +489,13 @@ BOTÕES DA TABELA MODAL
 
 **NÃO CORRIGIDO** 30/05/2022
 
-**O botão de quantidades 'Exibir linhas não está sendo exibido'**
+~O botão de quantidades 'Exibir linhas não está sendo exibido'~
 
-1- A tabela não está exibindo os botões de download, compartilhar, pesquisa e linhas;
+~1- A tabela não está exibindo os botões de download, compartilhar, pesquisa e linhas;~
 
-2- Sugiro aumentar a largura da tabela
+~2- Sugiro aumentar a largura da tabela~
 
-
+Está faltando o botão exibir linhas apenas
 
 ![](static/imagens/homologacao/tabela-modal-botoes-principais.png)
 

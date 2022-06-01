@@ -443,20 +443,18 @@ A exportação em planilha (CSV) deverá ser em formato de tabela. Cada campo em
  ![](static/imagens/formulario-classificacao-orcamentaria.png)
 
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 FORMATAÇÃO FORMULÁRIO DE DETALHAMENTO
---
-<a href="#top">(inicio)</a>
 
-**CORRIGIR**
+
+**CORRIGIDO**
 
  - Alterar nome de  Classificação para **Classificação Orçamentária**
             **O Nome alterado foi o errado**
  - OK ~Alterar nome de empenho para **Número do Empenho**~
  - OK ~A ordem dos campos deve ser a mesma solicitada~
 
-![](static/imagens/homologacao/formulario-classificacao.png)
 
 Correção do dia 26/05/22
 ![](static/imagens/homologacao/formulario-classificacaov2.png)
