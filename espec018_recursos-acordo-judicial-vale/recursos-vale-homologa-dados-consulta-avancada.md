@@ -72,16 +72,15 @@ Exemplo: No exemplo abaixo foi solicitado a exibição dos filtros: Projeto, Ór
   
   
   
-### 4. NÚMERO DE CONTRATO NÃO É EXIBIDO NO FILTRO DA CONSULTA - NÃO CORRIGIDO
+### 4. NÚMERO DE CONTRATO NÃO É EXIBIDO NO FILTRO DA CONSULTA - CORRIGIDO
     
  * Ao abrir o filtro de número de contrato o mesmo não aparece para seleção
   
 - Exemplo: Foi selecionado o projeto 9288169 - na tela do filtro não consta valor.
   
-![image](https://user-images.githubusercontent.com/52920939/171462022-4531ddb1-b4ee-451c-a986-c884bd8a5b97.png)
+![image](https://user-images.githubusercontent.com/52920939/171650367-61d74e85-fb75-41f8-a722-dbd32c88ce47.png)
 
-No entanto, ao solicitar o detalhamento, consta número de contrato para esse projeto 
-  
+ 
 ![image](https://user-images.githubusercontent.com/52920939/168076145-059c24c4-c42a-482a-b4ea-4033711f2e8c.png)
 
   
@@ -137,16 +136,6 @@ Ao escolher um Favorecido, e clicar em pesquisar e em seguida detalhar, o portal
   Quando clicar em sair após a aplicação de um filtro, a página retorna para um erro. O correto é voltar para a página da consulta avançada.
   
   ![image](https://user-images.githubusercontent.com/52920939/168078283-602de1c0-8bf4-4eae-94cf-0e51e66271b6.png)
-
-  
-  ### 8. BOTÃO LIMPAR FILTRO - NOVO ERRO
-  Quando clicamos em limpar filtro, o botão apenas limpa os dados que estão na tela de filtros, e não realiza a limpeza do menu lateral a esquerda.
-  
-  Após realizar uma consulta, utilizei a opção limpar filtro. Os dados foram limpados da exibição, mas ao retornar para a pesquisa por código de projeto, o projeto q   estava selecionado, permaneceu com a seleção
-  
-  
-![image](https://user-images.githubusercontent.com/52920939/171464921-2ae58ec8-7d68-43f8-aa89-a87330ccd747.png)
-
   
 
 

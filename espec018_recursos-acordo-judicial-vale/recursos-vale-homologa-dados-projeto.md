@@ -25,7 +25,7 @@ output:
   
 #### 1. Coluna Anexo - OK
   
-![](static/imagens/tela_nivel_projeto.png)
+![image](https://user-images.githubusercontent.com/52920939/171647904-eb69b2bd-c36f-4547-8332-dbdc846fa0a2.png)
 
 
 #### 2. Coluna PROJETO - OK
@@ -40,20 +40,33 @@ Foi realizada a conferência dos dados do Portal com os dados do Armazém BO e f
 
 ##### PROJETO 9288143 (detalhamento na planilha) - ERRO
 
-- Não foram localizados os empenhos referentes ao ano de 2021 (empenhos 36, 37, 38 e 44, todos de 2021)
+![image](https://user-images.githubusercontent.com/52920939/171648001-4b2cb2fa-636a-40b1-8b83-8f6b4501f132.png)
+
+
+##### PROJETO 9288152 (detalhamento na planilha) - ERRO
+
+- Erro nos valores de Restos a Pagar: Cancelamento - empenho 625
+  Valor a ser inscrito R$0,00
+  R$ 33.084,91 - R$33.084,91 = R$0,00
   
-![image](https://user-images.githubusercontent.com/52920939/171012692-0e1d6699-37e2-4576-bc3f-89126bbc7652.png)
+  ![image](https://user-images.githubusercontent.com/52920939/171648884-eb8eae38-9166-4b2e-80ce-fc26c5da19ff.png)
 
-![image](https://user-images.githubusercontent.com/52920939/171012361-9878f67e-b12b-4930-9e39-5c0edd127091.png)
+  ![image](https://user-images.githubusercontent.com/52920939/171648949-c7a9c8fe-b86a-47e8-b2e6-c5df785dd593.png)
 
+  ![image](https://user-images.githubusercontent.com/52920939/171649064-0ab17a5e-5329-4b17-91be-321fe3527e54.png)
 
-
-##### PROJETO 9288134 (detalhamento na planilha) - ERRO
-
-- Não foram localizados alguns empenhos referentes ao ano de 2021 (empenhos 109, 146, 148, 150 e 200, todos de 2021)
-- As informações sobre despesa empenhada, despesa liquidada e valor pago financeiro do portal, também não coincidiram com os dados do armazém.
   
-![image](https://user-images.githubusercontent.com/52920939/171012640-d458bb4d-69c6-4840-bfcd-21db5300f265.png)
+##### PROJETO 9288191 (detalhamento na planilha) - ERRO
+
+- Erro nos valores de Restos a Pagar: Cancelamento - empenho 14 (R$176.872,55 - R$124.658,34 = R$52214,21 - valor a ser inscrito)
+  E não R$53.519,57
   
-![image](https://user-images.githubusercontent.com/52920939/171012782-7d65a0ef-e112-42fc-9bdd-e39fac1b03e9.png)
+ ![image](https://user-images.githubusercontent.com/52920939/171648897-6fbe92cf-a1c2-4d74-8d06-ef300443d8d0.png)
+
+![image](https://user-images.githubusercontent.com/52920939/171648986-e7e259c6-8658-44b3-aaa6-01b6c152ee63.png)
+  
+  ![image](https://user-images.githubusercontent.com/52920939/171649226-e3ba02c9-48b9-4928-8385-795f6f33aa5f.png)
+
+
+
 
