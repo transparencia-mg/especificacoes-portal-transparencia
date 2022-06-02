@@ -71,12 +71,12 @@ O fato está acontecendo no cabeçalho de todas as consultas.
 
 Conforme sugestão, favor desabilitar o botão onde não há coluna a ser exibida.
 
-***Sugestão Prodemge***:
-
-> Nota: Sugiro que o botão exibir/oculta código fique desabilitado ou invisível nas consultas onde não há coluna de código a ser exibida. Assim que confirmado, podemos realizar o ajuste
+Sugestão Prodemge:
+Nota: Sugiro que o botão exibir/oculta código fique desabilitado ou invisível nas consultas onde não há coluna de código a ser exibida. Assim que confirmado, podemos realizar o ajuste
 
 ---
 ## Exibir/Ocultar filtros - Monte sua pesquisa
+
 
 Conforme solicitado os códigos dos filtros só devem ser exibidos quando o usuário clicar o botão 'Exibir/Ocultar filtros'. Na pesquisa avançada, ao selecionar um filtro tanto na barra vertical ou no campo "Adicionar/ Remover Colunas" a coluna de código está sendo exibida.
 
@@ -89,6 +89,8 @@ E ao tentar usar o botão 'Exibir/Ocultar filtros' esse não está respondendo a
 Não entendi a sua colocação.
 
 ![](static/imagens/homologacao/ocultar-exibir-monte-sua-pesquisa.gif)
+
+
 ---
 
 ## Subtotal
