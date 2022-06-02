@@ -1,4 +1,18 @@
+---
+contrato_manutencao: nº 15210010062019 (INF. 3951)
+Link html:
+mantis: 0165998
+pull_request: '[]()'
+titulo: Transparência dos recursos da Vale - Acordo Judicial 04/02/2021
+output:
+  html_document:
+    theme: united
+    toc: yes
+  word_document:
+    toc: yes
+---
 
+#### ERROS PENDENTES DE CORREÇÃO E/OU VERIFICAÇÃO
 
 ## O resultado da consulta não corresponde ao período selecionado
 
@@ -175,6 +189,17 @@ O exemplo abaixo demonstra que ao selecionar o órgão DEER esse possui 4 projet
 ![](static/imagens/homologacao/pdf-tabela-modal.png)
 
 ---
+## Download PDF
+
+Não entendi a sua resposta nesse item. Caso seja trabalhoso colocar o link no documento gerado em PDF pode desconsiderar essa solicitação. Assim a mesma será solicitada em intervenções futuras.
+
+>DOWNLOAD PDF
+1- A URL* não está sendo exibida
+2- o arquivo gerado em PDF não está sendo exibido em outra aba do navegador e sim está fazendo o downolad (mesmo comportamento do Portal atual/função de chama Download)
+Obs: O processo consiste em um download do PDf que é gerado em tempo real. Não há link para download e o mesmo será feito o download, como já é na versão atual do Portal.
+
+
+---
 ## Download CSV - Tabela Modal - Monte sua pesquisa
 
 - a extração em CSV está apresentando o valor SUBTOTAl e não o valor TOTAL
@@ -201,55 +226,10 @@ Os links quwe deverão ser usados quando o usuário clicar em download base comp
 * Demais consultas: https://dados.mg.gov.br/dataset
 
 ---
+## Exportação CSV - Formulário de detalhamento
 
-###### Exportação CSV - Formulário de detalhamento
-
-```
-Ao exportar o formulário de detalhamento o arquivo zipado esta vindo por tabela e não por bloco.
-Nota: Foi adotado o CSV por tabela pelo aspecto de variação de colunas em alguns casos. do contrário poderia gerar inconsistências, caso o usuário desejasse importar as informações.
-Ex: Aba Empenho possui 8 colunas de dados em Detalhe do Empenho, porém reforço, Anulação, e Inscrição e RP possuem 3 colunas.
-```
-
-- Os dados estão trocados na extração CSV - tabela empenho
-
-![](static/imagens/homologacao/csv-empenho.png)
-
----
-- o **Valor Total** na tabela gerada em CSV aparece como se fosse um outro reforço/Anulação.
-
-- O mesmo problema ocorre na extração da liquidação e e Pagamento
-
-![](static/imagens/homologacao/csv-empenho-reforço.png)
-
-![](static/imagens/homologacao/csv-empenho-anulacao.png)
-
-![](static/imagens/homologacao/csv-empenho-reforço2.png)
-
-----
-
-- o **Valor Total** na tabela gerada em CSV aparece como se fosse um outra inscrição/liquidação em RP;
-- O ano de exercício deverá ser 2022 nesse caso pois a inscrição refere-se a 2022 e não a 2021.
-- O mesmo fato ocorre na liquidação em RP e Pagamento em RP
-
-![](static/imagens/homologacao/csv-empenho-RP.png)
-
-![](static/imagens/homologacao/csv-empenho-RP2.png)
-
----
-- A extração em CVS está apresentando os valores nas colunas erradas;
-- O ano de exercício que deverá ser exibido é o ano de exercício do processo ou empenho????
-
-![](static/imagens/homologacao/csv-processo-compra.png)
-
-![](static/imagens/homologacao/csv-processo-compra2.png)
-
----
-
-- A tabela CVS contratos está desformatada.
-- verificar a extração na tabela convênios, pois não localizei nenhum empenho que pudesse testar.
-
-![](static/imagens/homologacao/csv-contrato.png)
-![](static/imagens/homologacao/csv-contrato2.png)
+Favor desabitar a opção "Exportar" para o formulário de detalhamento, pois a forma como está sendo exibido não atende o planejado.
+Essa funcionalidade será melhor estudada para futurar intervenções.
 
 ---
 ## Outras informações - Formulário de detalhamento
@@ -377,7 +357,6 @@ Conforme relatado no issues [#72](https://github.com/transparencia-mg/especifica
 
 ![](static/imagens/homologacao/compartilhar-link.gif)
 
-
 ---
 ## Formulário de detalhamento - Dados do Processo de Compra
 
@@ -385,3 +364,78 @@ Conforme relatado no issues [#72](https://github.com/transparencia-mg/especifica
 
 
 ![](static/imagens/homologacao/dados-processo-compra.png)
+
+---
+## Barra Vertical - CPF/CNPJ Favorecido
+
+Considerando que os dados de CPFs não podem estar visíveis em decorrência da LGPD. Solicitamos que seja realizado mudanças no campos 'CPF/CNPJ Favorecido' da barra de busca vertical.
+
+Abaixo segue 2 opções, valor avaliar qual a fácil de ser implementada:
+
+**OPÇÃO 1**
+- O campo 'CPF/CNPJ Favorecido' não deve possuir a opção do menu  *dropdown*. O usuário deverá digitar o valor desejado.
+- O campo deverá permitir a busca por mais de um valor, ou seja, o usuário poderá digitar mais de um valor.
+- Ao digitar um valor, o PDT irá fazer a busca no campo e trazer a informação descaracterizada (quando se tratar de CPF) no campo filtros aplicados,  barra vertical e tela selecionar todos.
+
+
+**OPÇÃO 2**
+
+- Os dados de CPF que estão no menu *dropdown* ou na tela exibir todos deverão ser exibidos descaracterizados. Porém, quando o usuário digitar algum valor nesse campo o PDT irá realizar a busca normalmente.
+- Os dados serão exibidos descaracterizados (quando se tratar de CPF) no campo filtros aplicados,  barra vertical e tela selecionar todos.
+
+
+## Monte sua pesquisa - tooltip tabela de resultados
+
+- Alterar o nome elemento para **Elemento de Despesa** e acrescentar o tooltip;
+- Alterar o nome Item para **Item de Despesa** e acrescentar o tooltip;
+- Alterar o nome Procedimento para **Procedimento de Contratação** e acrescentar o tooltip;
+- Acrescentar o tooltip no nome Identificador de Procedência e Uso; número do empenho, situação da ordem de pagamento
+- Alterar o nome Fonte para **Fonte de Recurso* e acrescentar o tooltip;
+
+## Barra Vertical - Filtro período
+
+O filtro período deve estar disposto na barra de navegação vertical e essa deve obedecer os critérios desse filtro.
+
+[Especificação - Dados](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec018_recursos-acordo-judicial-vale/especifica%C3%A7%C3%A3o/recursos-vale-dados.md#monte-sua-pesquisa---pesquisa-avan%C3%A7ada)
+
+---
+## Barra vertical - horizonte de cobertura
+
+O relato desse erro está detalhando no issues [#75](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/75)
+
+---
+## Tabela de Resultados - Monte sua pesquisa
+
+A tabela de resultados não está exibindo os dados referentes ao Procedimento de Contratação
+
+![](static/imagens/homologacao/tabela-procedimento-contratacao.png)
+
+---
+## Barra Vertical - Campo 'Número documento Pagamento'
+
+Ao clicar no campo "Número documento Pagamento" na barra vertical a caixa de diálogo para digitar o nome é expandida, porém permanece invisível.
+
+![](static/imagens/homologacao/ordem-pagamento-barra-vertical.gif)
+
+---
+## Formulário de Detalhamento -Histórico do empenhos
+
+A informação do histórico do empenho não está sendo exibida no formulário de detalhamento.
+
+
+## Tabela de Resultados - 'Número documento Pagamento'
+
+Ao selecionar o número de documento de Pagamento na barra vertical e clicar em pesquisar os resultados são exibidos corretamente na tabela de resultado, porém caso o usuário inclua a coluna 'empenho' através do botão "Adiciona/remover Colunas" o critério selecionado na barra vertical é desconsiderado.
+
+Assim a tabela de resultados apresenta todos os empenhos independente do número de documento de Pagamento escolhido anteriormente.
+
+![](static/imagens/homologacao/ordem-pagamento.gif)
+
+---
+## Tabela de Resultados - 'Valores Negativos'
+
+A tabela de resultado está apresentando valores negativos empenhado e liquidado.
+ 
+[Link PDT](https://age7-novo.homologacao.prodemge.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarConsultaLivre&jform%5BSQA_PAGAMENTO%5D%5B0%5D=23724248,23733702,23808281&jform%5Bdatainicio%5D=01/01/2022&jform%5Bdatafim%5D=27/05/2022&jform%5Bcodigo%5D=0&jform%5Bcolunas%5D=PERIODO,NR_PAGAMENTO,VR_EMPENHADO,VR_LIQUIDADO,VR_PAGO,VR_LIQUIDADO_RP,VR_PAGO_RP,VR_PAGO_TOTAL&jform%5Bpush%5D=NR_PAGAMENTO)
+
+![](static/imagens/homologacao/valor-negativo.png)
