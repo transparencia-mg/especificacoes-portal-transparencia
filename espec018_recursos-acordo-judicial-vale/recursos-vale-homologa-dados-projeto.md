@@ -30,7 +30,7 @@ output:
 
 #### 2. Coluna PROJETO - OK
   
-![image](https://user-images.githubusercontent.com/52920939/167872239-3bbee479-41e6-40ff-98c4-910a84427bcb.png)
+![image](https://user-images.githubusercontent.com/52920939/171852572-f476c65c-42a1-4d6d-a3b6-0d8517277ae7.png)
 
   
 ### Nível 2  
@@ -61,11 +61,11 @@ Foi realizada a conferência dos dados do Portal com os dados do Armazém BO e f
 - Erro nos valores de Restos a Pagar: Cancelamento - empenho 14 (R$176.872,55 - R$124.658,34 = R$52214,21 - valor a ser inscrito)
   E não R$53.519,57
   
- ![image](https://user-images.githubusercontent.com/52920939/171648897-6fbe92cf-a1c2-4d74-8d06-ef300443d8d0.png)
+![image](https://user-images.githubusercontent.com/52920939/171648897-6fbe92cf-a1c2-4d74-8d06-ef300443d8d0.png)
 
 ![image](https://user-images.githubusercontent.com/52920939/171648986-e7e259c6-8658-44b3-aaa6-01b6c152ee63.png)
   
-  ![image](https://user-images.githubusercontent.com/52920939/171649226-e3ba02c9-48b9-4928-8385-795f6f33aa5f.png)
+![image](https://user-images.githubusercontent.com/52920939/171649226-e3ba02c9-48b9-4928-8385-795f6f33aa5f.png)
 
 
 
