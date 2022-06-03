@@ -437,7 +437,16 @@ Assim a tabela de resultados apresenta todos os empenhos independente do número
 ## Tabela de Resultados - 'Valores Negativos'
 
 A tabela de resultado está apresentando valores negativos empenhado e liquidado.
- 
+
 [Link PDT](https://age7-novo.homologacao.prodemge.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarConsultaLivre&jform%5BSQA_PAGAMENTO%5D%5B0%5D=23724248,23733702,23808281&jform%5Bdatainicio%5D=01/01/2022&jform%5Bdatafim%5D=27/05/2022&jform%5Bcodigo%5D=0&jform%5Bcolunas%5D=PERIODO,NR_PAGAMENTO,VR_EMPENHADO,VR_LIQUIDADO,VR_PAGO,VR_LIQUIDADO_RP,VR_PAGO_RP,VR_PAGO_TOTAL&jform%5Bpush%5D=NR_PAGAMENTO)
 
 ![](static/imagens/homologacao/valor-negativo.png)
+
+---
+## Consulta Por Projeto - Mensagem
+
+Na consulta por Projeto ao clicar em um projeto que não possui execução o PDT exibe a seguinte frase: "Nenhum resultado encontrado". Essa mensagem passa a ideia que pode ser um erro.
+
+É possível nesse caso colocar outra mensagem: "Não existem dados de execução para esse projeto"
+
+![](static/imagens/homologacao/mensagem.png)
