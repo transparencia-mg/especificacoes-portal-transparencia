@@ -335,17 +335,6 @@ Todas as tabelas modais (pesquisa básica e avançada) deverão ser movíveis, e
 
 
 ---
-## Barra vertical - Contratos/Convênios
-
-A lista de contratos/convênio de saída não exibe todos os itens para seleção.
-Acredito que isso deve-se ao fato de os dados do contrato estar vinculado ao período de publicação.
-
-Opção 1- Colocar toda a base na busca
-
-Opção 2- Colocar o período na barra vertical
-
-
----
 ## Barra de rolagem vertical
 
 Conforme relatado no issues [#71](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/71) o O comportamento da barra de rolagem vertical não permite a visualização dos dados do início da tabela em todas as páginas da consulta
