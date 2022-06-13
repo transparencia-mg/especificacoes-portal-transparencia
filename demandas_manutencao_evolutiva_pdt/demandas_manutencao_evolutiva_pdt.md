@@ -136,9 +136,8 @@ A remodelagem e a elaboração da pesquisa avançada deverá seguir os moldes da
 - Elaboração
   - Concursos Realizados
   - Diárias
-    # Emendas
-    # PPAG
-
+  - Emendas
+  - PPAG
 
 
 ## Favorecido da Consulta de Diárias
