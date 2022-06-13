@@ -14,23 +14,36 @@ output:
 
 #### ERROS PENDENTES DE CORREÇÃO E/OU VERIFICAÇÃO
 
-## O resultado da consulta não corresponde ao período selecionado
 
-**Não corrigido** - Verificado em 26/05/2022
+<div class="alert alert-success">
+
+**CORRIGIDO** - Verificado em 13/06/2022
+--
+## O resultado da consulta não corresponde ao período selecionado
 
 Ao selecionar apenas o período de 2022 para o órgão Controladoria Geral do Estado a tabela de resultados apresenta valores zerados e quando é clicado no detalhamento os empenhos listados correspondem ao exercício de 2021.
 
 O empenho citado como exemplo apenas foi inscrito em RP em 2022 não havendo nenhuma execução referente a ele. Nesse sentido, ele deve ser exibido apenas quando houver liquidação e/ ou pagamento .
 
 ![](static/imagens/homologacao/empenho-nao-corresponde-periodo.gif)
-
+</div>
 ----
 
+<div class="alert alert-success">
+
+**CORRIGIDO** - Verificado em 13/06/2022
+--
 ## Trocar nome de 'todas' para 'todos', pois órgão é uma palavra masculina
 
 ![](static/imagens/homologacao/todas.png)
+</div>
 
 ---
+<div class="alert alert-danger">
+
+**CORRIGIDO PARCIALMENTE** - Verificado em 13/06/2022
+--
+A mensagem foi aplicada apenas no filtro "Favorecido por nome". Favor colocar a mensagem no filtro "Favorecido por CNPJ/CPF"
 
 ## Filtro favorecido da consulta por Execução
 
@@ -39,9 +52,15 @@ Ao clicar no filtro 'Favorecido por nome' ou Favorecido por CPF/CNPJ' e não esc
 Caso não seja possível a busca por todos os Favorecido o Portal deve apresentar uma mensagem informando que é preciso selecionar um favorecido, assim como ocorre atualmente nas consultas que se encontram em produção no PDT.
 
 ![](static/imagens/homologacao/filtro-favorecido.gif)
-
+</div>
 
 ---
+
+<div class="alert alert-success">
+
+**CORRIGIDO** - Verificado em 13/06/2022
+---
+
 ## Legenda da tabela ao selecionar o filtro favorecido
 
 Ao selecionar um Favorecido a legenda da tabela de resultados não está sendo exibida.
@@ -49,8 +68,13 @@ Ao selecionar um Favorecido a legenda da tabela de resultados não está sendo e
 Exemplo: [Consulta de Despesa](https://www.transparencia.mg.gov.br/despesa-estado/despesa/despesa-favorecidos/2022/01-01-2022/31-12-2022/0/CONSTRUTORA%20CENTRO%20LESTE%20ENGENHARIA/0/3)
 
 
-![](static/imagens/homologacao/filtro-favorecido-legenda.gif)
+![](static/imagens/homologacao/filtro-favorecido-legenda.png)
+</div>
+---
 
+<div class="alert alert-success">
+
+**CORRIGIDO** - Verificado em 13/06/2022
 ---
 
 ## Formatação dos textos
@@ -65,14 +89,23 @@ O fato está acontecendo no cabeçalho de todas as consultas.
 
 ![](static/imagens/homologacao/formatacao-anexo.png)
 
+</div>
 
 ---
+<div class="alert alert-success">
+
+**CORRIGIDO** - Verificado em 13/06/2022
+---
+
 ## Exibir/Ocultar filtros - pesquisa básica
 
 Conforme sugestão, favor desabilitar o botão onde não há coluna a ser exibida.
 
 Sugestão Prodemge:
 Nota: Sugiro que o botão exibir/oculta código fique desabilitado ou invisível nas consultas onde não há coluna de código a ser exibida. Assim que confirmado, podemos realizar o ajuste
+
+![](static/imagens/homologacao/ocultar-exibir-inativo.png)
+</div>
 
 ---
 ## Exibir/Ocultar filtros - Monte sua pesquisa
@@ -114,6 +147,12 @@ Exemplo 2 - Existe paginação, porém ao solicitar a exibição de todas as lin
 ![](static/imagens/homologacao/subtotal-paginacao2.gif)
 
 ---
+
+<div class="alert alert-success">
+
+**CORRIGIDO** - Verificado em 13/06/2022
+---
+
 ## Legenda do Gráfico
 
 **Consulta Por Execução - Gráfico de barras:** Trocar a legenda valor liquidado para "Valor Total Pago", pois o gráfico refere-se ao valor total Pago
@@ -124,14 +163,35 @@ Exemplo 2 - Existe paginação, porém ao solicitar a exibição de todas as lin
 **Consulta Transferência por Município - Gráfico de barras:** Trocar a legenda valor liquidado para "Valor Pago", pois o gráfico refere-se ao valor Pago.
 
 ![](static/imagens/homologacao/legenda-grafico2.png)
+</div>
 
+<div class="alert alert-danger">
+
+**CORRIGIDO PARCIALMENTE** - Verificado em 13/06/2022
+---
+Ficou pendente a correção do item 1 "*O gráfico deve-se referir a Classificação da Receita e não a Fonte de Recurso;*"
+
+![](static/imagens/homologacao/grafico-receita.png)
+
+---
 **Consulta Por Receita - Gráfico de barras:**
 
 1.  O gráfico deve-se referir a Classificação da Receita e não a Fonte de Recurso;
-2.  Trocar a legenda valor liquidado para "Valor Arrecadado".
+</div>
+<div class="alert alert-success">
+
+**CORRIGIDO** - Verificado em 13/06/2022
+---
 
 ![](static/imagens/homologacao/legenda-grafico3.png)
 
+</div>
+
+---
+
+<div class="alert alert-success">
+
+**CORRIGIDO** - Verificado em 13/06/2022
 ---
 
 ## Título do Gráfico
@@ -139,6 +199,7 @@ Exemplo 2 - Existe paginação, porém ao solicitar a exibição de todas as lin
 O título dos gráficos de barra devem ser 'Série Histórica'
 
 ![](static/imagens/homologacao/legenda-grafico4.png)
+</div>
 
 ---
 ## Valores do Gráfico
@@ -161,6 +222,11 @@ A funcionalidade foi aplicada apenas na consulta básica a pesquisa avançada ai
 
 
 ---
+<div class="alert alert-success">
+
+**CORRIGIDO** - Verificado em 13/06/2022
+---
+
 ## Migalhas / Cabeçalho
 
 **Não corrigido** - Verificado em 26/05/2022
@@ -171,7 +237,8 @@ Nesse questionamento foi realizado a alteração para exibição da descrição 
 
 O exemplo abaixo demonstra que ao selecionar o órgão DEER esse possui 4 projetos. Caso o usuário selecione algum projeto ele não saberá identificar pelo cabeçalho da tabela e migalha a qual projeto pertence a lista de empenhos. Assim é necessário retornar e fazer uma nova busca.
 
-![](static/imagens/homologacao/arvore-execucao.gif)
+![](static/imagens/homologacao/migalhas-codigo.png)
+</div>
 
 ----
 ## Download PDF - pesquisa básica
@@ -234,11 +301,18 @@ Favor desabitar a opção "Exportar" para o formulário de detalhamento, pois a 
 Essa funcionalidade será melhor estudada para futurar intervenções.
 
 ---
+<div class="alert alert-success">
+
+**CORRIGIDO** - Verificado em 13/06/2022
+---
+
 ## Outras informações - Formulário de detalhamento
 
 - O título da tabela está errado. Mudar parada 'Dados do Processo de Compra'
 
 ![](static/imagens/homologacao/outras-informacoes-processo-compra.png)
+
+</div>
 
 ---
 ## Filtro por Órgão
@@ -248,19 +322,29 @@ Ao selecionar o período de 01/01/2021 a 31/12/2021 e o órgão: 'Departamento d
 ![](static/imagens/homologacao/filtro-orgao-2021.gif)
 
 ---
-## Botão Sair
 
-**Não Corrigido** 30/05/2022
+<div class="alert alert-success">
+
+**CORRIGIDO** - Verificado em 13/06/2022
+---
+## Botão Sair
 
 - Ao clicar no botão sair a página do Portal apresenta erro
 
 ![](static/imagens/homologacao/botao-sair.gif)
+</div>
 
+---
+
+<div class="alert alert-success">
+
+**CORRIGIDO** - Verificado em 13/06/2022
 ---
 ## Adicionar/Remover colunas - Marcar/Desmarcar todos
 O botão até foi incluído, porém ele deve ser estilisticamente diferente dos filtros
 
 ![](static/imagens/homologacao/adcionar-remover-colunas.png)
+</div>
 
 ---
 ## Tabela Modal - Monte sua pesquisa
@@ -305,26 +389,43 @@ A depender do filtro que o usuário está usando ao clicar no botão detalhar el
 ![](static/imagens/homologacao/detalhar-monte-sua-pesquisa.gif)
 
 ---
+<div class="alert alert-success">
+
+**CORRIGIDO** - Verificado em 13/06/2022
+---
+
 ## Paginação tabela de resultados - Monte sua pesquisa
 
  A tabela de resultados do "Monte sua pesquisa" não está exibindo a opção de selecionar a quantidade de linhas, conforme padrão adotado nessa consulta
 
 ![](static/imagens/homologacao/paginacao-monte-sua-pesquisa.png)
+</div>
 
 ---
+<div class="alert alert-success">
+
+**CORRIGIDO** - Verificado em 13/06/2022
+---
+
 ## Subtotal/Total - tabela de resultados - Monte sua pesquisa
 
  A tabela de resultados não exibirá os campos TOTAL GERAL e o SUBTOTAL quando não houver dados referentes a valores.
 
 ![](static/imagens/homologacao/tabela-resultados-total-subtotal.png)
+</div>
 
+---
+
+<div class="alert alert-success">
+
+**CORRIGIDO** - Verificado em 13/06/2022
 ---
 ## Formatação - tabela de resultados - Monte sua pesquisa
 
 A formatação do cabeçalho da tabela deve ser alinhado à esquerda.
 
 ![](static/imagens/homologacao/formatacao-esquerda-monte-sua-pesquisa.png)
-
+</div>
 
 ---
 ## Tabelas modais - movíveis
@@ -335,11 +436,17 @@ Todas as tabelas modais (pesquisa básica e avançada) deverão ser movíveis, e
 
 
 ---
+<div class="alert alert-success">
+
+**CORRIGIDO** - Verificado em 13/06/2022
+---
+
 ## Barra de rolagem vertical
 
 Conforme relatado no issues [#71](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/71) o O comportamento da barra de rolagem vertical não permite a visualização dos dados do início da tabela em todas as páginas da consulta
 
 ![](static/imagens/homologacao/barra-rolagem-vertical.gif)
+</div>
 
 ---
 ## Compartilhar
@@ -349,12 +456,17 @@ Conforme relatado no issues [#72](https://github.com/transparencia-mg/especifica
 ![](static/imagens/homologacao/compartilhar-link.gif)
 
 ---
+<div class="alert alert-success">
+
+**CORRIGIDO** - Verificado em 13/06/2022
+---
+
 ## Formulário de detalhamento - Dados do Processo de Compra
 
 -Nome incorreto para seção Dados do Processo de Compra no formulário de detalhamento [#73](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/73)
 
-
-![](static/imagens/homologacao/dados-processo-compra.png)
+![](static/imagens/homologacao/dad.png)
+</div>
 
 ---
 ## Barra Vertical - CPF/CNPJ Favorecido
@@ -374,6 +486,11 @@ Abaixo segue 2 opções, valor avaliar qual a fácil de ser implementada:
 - Os dados de CPF que estão no menu *dropdown* ou na tela exibir todos deverão ser exibidos descaracterizados. Porém, quando o usuário digitar algum valor nesse campo o PDT irá realizar a busca normalmente.
 - Os dados serão exibidos descaracterizados (quando se tratar de CPF) no campo filtros aplicados,  barra vertical e tela selecionar todos.
 
+---
+<div class="alert alert-success">
+
+**CORRIGIDO** - Verificado em 13/06/2022
+---
 
 ## Monte sua pesquisa - tooltip tabela de resultados
 
@@ -383,11 +500,23 @@ Abaixo segue 2 opções, valor avaliar qual a fácil de ser implementada:
 - Acrescentar o tooltip no nome Identificador de Procedência e Uso; número do empenho, situação da ordem de pagamento
 - Alterar o nome Fonte para **Fonte de Recurso* e acrescentar o tooltip;
 
+
+![](static/imagens/homologacao/tooltip-monte-sua-consulta.gif)
+
+
+</div>
+
+<div class="alert alert-success">
+
+**Essa implementação será realizada em uma nova intervenção no PDT**
+---
+
 ## Barra Vertical - Filtro período
 
 O filtro período deve estar disposto na barra de navegação vertical e essa deve obedecer os critérios desse filtro.
 
 [Especificação - Dados](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec018_recursos-acordo-judicial-vale/especifica%C3%A7%C3%A3o/recursos-vale-dados.md#monte-sua-pesquisa---pesquisa-avan%C3%A7ada)
+</div>
 
 ---
 ## Barra vertical - horizonte de cobertura
@@ -439,3 +568,14 @@ Na consulta por Projeto ao clicar em um projeto que não possui execução o PDT
 É possível nesse caso colocar outra mensagem: "Não existem dados de execução para esse projeto"
 
 ![](static/imagens/homologacao/mensagem.png)
+
+--
+
+## A legenda da tabela
+
+A legenda da tabela deve obedecer a navegação realizada pelo usuário.
+Exemplo:
+
+O usuário selecionou um órgão e em seguida selecionou um projeto. Nesse caso a legenda deve exibir o passa a passo realizado pelo usuário conforme ocorre atualmente nas demais consultas do Portal.
+
+![](static/imagens/homologacao/legenda-tabela.gif)
