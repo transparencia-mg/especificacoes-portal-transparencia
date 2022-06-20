@@ -189,17 +189,21 @@ O exemplo abaixo demonstra que ao selecionar o órgão DEER esse possui 4 projet
 ![](static/imagens/homologacao/migalhas-codigo.png)
 </div>
 
+<div class="alert alert-success">
 
 ## 12. Download PDF - pesquisa básica
 
-**Não corrigido** - Verificado em 26/05/2022
+**CORRIGIDO** - Verificado em 20/06/2022
+
 
 - A correção foi aplicada apenas na consulta avançada. Na pesquisa básica não está funcionando.
 - Não é possível verificar as funcionalidades, pois o download na pesquisa básica não está funcionando.
 
 ![](static/imagens/homologacao/download-pdf.gif)
+</div>
 
 ---
+
 ## 13. Download PDF - Tabela Modal - Monte sua pesquisa
 
 - Os valores de subtotal e total não estão sendo exibidos na extração em PDF.
@@ -225,14 +229,18 @@ Obs: O processo consiste em um download do PDf que é gerado em tempo real. Não
 ![](static/imagens/homologacao/csv-tabela-modal.png)
 
 ---
+
+<div class="alert alert-success">
+
 ## 16. Download CSV - Pesquisa básica
 
-**Não corrigido** - Verificado em 26/05/2022
+**CORRIGIDO** - Verificado em 20/06/2022
 
 - A correção foi aplicada apenas na consulta avançada. Na pesquisa básica não está funcionando.
 - Não é possível verificar as funcionalidades, pois o download na pesquisa básica não está funcionando.
 
 ![](static/imagens/homologacao/download-csv2.gif)
+</div>
 
 ---
 ## 17. Download Base Completa
@@ -403,18 +411,23 @@ Conforme relatado no issues [#71](https://github.com/transparencia-mg/especifica
 </div>
 
 ---
+
+<div class="alert alert-danger">
+
 ## 34.Compartilhar
-O botão copiar não está funcionado para testar a correção
+
+**CORRIGIDO PARCIALMENTE** - Verificado em 20/06/2022 => O link copiado não está funcionado dentro do formulário de detalhamento por meio da pesquisa avançada. Ver gif abaixo
 
 Conforme relatado no issues [#72](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/72) o Link do Compartilhar > Copiar Link não abre o detalhamento em novo formulário de acesso
 
-![](static/imagens/homologacao/compartilhar-link.gif)
+![](static/imagens/homologacao/compartilhar-link2.gif)
+</div>
 
 ---
 <div class="alert alert-success">
 
 ## 35. Formulário de detalhamento - Dados do Processo de Compra
-**CORRIGIDO** - Verificado em 13/06/2022
+**CORRIGIDO PARCIALMENTE** - Verificado em 13/06/2022
 ---
 -Nome incorreto para seção Dados do Processo de Compra no formulário de detalhamento [#73](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/73)
 
@@ -422,24 +435,27 @@ Conforme relatado no issues [#72](https://github.com/transparencia-mg/especifica
 </div>
 
 ---
+
+<div class="alert alert-danger">
+
 ## 36.Barra Vertical - CPF/CNPJ Favorecido
+**CORRIGIDO PARCIALMENTE** - Verificado em 20/06/2022
+--
 
-Considerando que os dados de CPFs não podem estar visíveis em decorrência da LGPD. Solicitamos que seja realizado mudanças no campos 'CPF/CNPJ Favorecido' da barra de busca vertical.
+Considerando a opção 2 aplicada temos as seguinte ressalva a ser corrigida:
 
-Abaixo segue 2 opções, valor avaliar qual a fácil de ser implementada:
-
-**OPÇÃO 1**
-- O campo 'CPF/CNPJ Favorecido' não deve possuir a opção do menu  *dropdown*. O usuário deverá digitar o valor desejado.
-- O campo deverá permitir a busca por mais de um valor, ou seja, o usuário poderá digitar mais de um valor.
-- Ao digitar um valor, o PDT irá fazer a busca no campo e trazer a informação descaracterizada (quando se tratar de CPF) no campo filtros aplicados,  barra vertical e tela selecionar todos.
-
+Não é possível a busca pelo número completo do CPF. O que percebemos é que a busca está ocultado os 5 primeiros dígitos. Sendo assim o PDT só retorna algum resultado se o usuário digitar a partir do sexto caracter do CPF.
 
 **OPÇÃO 2**
 
 - Os dados de CPF que estão no menu *dropdown* ou na tela exibir todos deverão ser exibidos descaracterizados. Porém, quando o usuário digitar algum valor nesse campo o PDT irá realizar a busca normalmente.
 - Os dados serão exibidos descaracterizados (quando se tratar de CPF) no campo filtros aplicados,  barra vertical e tela selecionar todos.
 
+![](static/imagens/homologacao/opcao2-cpf.gif)
+
+</div>
 ---
+
 <div class="alert alert-success">
 
 ## 37. Monte sua pesquisa - tooltip tabela de resultados
@@ -469,10 +485,17 @@ O filtro período deve estar disposto na barra de navegação vertical e essa de
 </div>
 
 ---
+<div class="alert alert-danger">
+
 ## 39. Barra vertical - horizonte de cobertura
+
+**CORRIGIDO PARCIALMENTE** - Verificado em 20/06/2022 -> ver explicação no issues
+--
+
 
 O relato desse erro está detalhando no issues [#75](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/75)
 
+</div>
 ---
 
 <div class="alert alert-success">
@@ -515,14 +538,19 @@ Assim a tabela de resultados apresenta todos os empenhos independente do número
 ![](static/imagens/homologacao/ordem-pagamento.gif)
 
 ---
+
+<div class="alert alert-success">
+
 ## 44. Tabela de Resultados - 'Valores Negativos'
 
+**CORRIGIDO** - Verificado em 20/06/2022
+--
 A tabela de resultado está apresentando valores negativos empenhado e liquidado.
 
 [Link PDT](https://age7-novo.homologacao.prodemge.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarConsultaLivre&jform%5BSQA_PAGAMENTO%5D%5B0%5D=23724248,23733702,23808281&jform%5Bdatainicio%5D=01/01/2022&jform%5Bdatafim%5D=27/05/2022&jform%5Bcodigo%5D=0&jform%5Bcolunas%5D=PERIODO,NR_PAGAMENTO,VR_EMPENHADO,VR_LIQUIDADO,VR_PAGO,VR_LIQUIDADO_RP,VR_PAGO_RP,VR_PAGO_TOTAL&jform%5Bpush%5D=NR_PAGAMENTO)
 
 ![](static/imagens/homologacao/valor-negativo.png)
-
+</div>
 ---
 ## 45.Consulta Por Projeto - Mensagem
 
@@ -536,7 +564,7 @@ Na consulta por Projeto ao clicar em um projeto que não possui execução o PDT
 
 # Itens não verificados (enumerados) no mantis:
 
-## Exibir/Ocultar filtros - Monte sua pesquisa
+## 46. Exibir/Ocultar filtros - Monte sua pesquisa
 
 Conforme solicitado os códigos dos filtros só devem ser exibidos quando o usuário clicar o botão 'Exibir/Ocultar filtros'. Na pesquisa avançada, ao selecionar um filtro tanto na barra vertical ou no campo "Adicionar/ Remover Colunas" a coluna de código está sendo exibida.
 
@@ -553,7 +581,7 @@ Não entendi a sua colocação.
 
 ---
 
-## Subtotal
+## 47. Subtotal
 
 **Não corrigido** - Verificado em 26/05/2022
 
@@ -576,9 +604,10 @@ Exemplo 2 - Existe paginação, porém ao solicitar a exibição de todas as lin
 ---
 
 
-# Novo item identificado na conferência do dia 15/06/2022:
+# Novos itens identificados na conferência do dia 15/06/2022:
 
-## A legenda da tabela
+
+## 48. A legenda da tabela
 
 A legenda da tabela deve obedecer a navegação realizada pelo usuário.
 Exemplo:
@@ -586,3 +615,27 @@ Exemplo:
 O usuário selecionou um órgão e em seguida selecionou um projeto. Nesse caso a legenda deve exibir o passa a passo realizado pelo usuário conforme ocorre atualmente nas demais consultas do Portal.
 
 ![](static/imagens/homologacao/legenda-tabela.gif)
+
+----
+## 49. Tabela modal - linha a mais
+
+Na tabela modal que lista os empenhos na pesquisa
+
+![](static/imagens/homologacao/linha-a-mais.png)
+
+----
+## 50. Barra Vertical - Favorecido
+
+Ao digitar mais de um valor na busca o filtro não está funcionando.
+
+Exemplo: Quando digita apenas 'Francisco' o campo busca funciona corretamente, porém ao acrescentar as palavras 'Ana de' a busca não está funcionando.
+
+![](static/imagens/homologacao/favorecido.busca.gif)
+
+----
+
+## 51. Botão Exportar - Formulário de detalhamento
+
+O botão exportar deve ser retirado de todos os formulários de detalhamento, uma vez que não essa funcionalidade está desativada.[link](https://age7-novo.homologacao.prodemge.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarMunicipios&amp;ano=&amp;dataInicio=01/01/2022&amp;dataFim=31/12/2022&amp;consulta=3&amp;filtro=#;14630828)
+
+![](static/imagens/homologacao/exportar-formulario-detalhamento.png)
