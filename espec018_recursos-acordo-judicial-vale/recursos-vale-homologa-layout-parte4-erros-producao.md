@@ -1,0 +1,202 @@
+---
+contrato_manutencao: nº 15210010062019 (INF. 3951)
+Link html: https://htmlpreview.github.io/?https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec018_recursos-acordo-judicial-vale/recursos-vale-homologa-layout-parte4.html
+mantis: 0165998
+pull_request: '[]()'
+titulo: Transparência dos recursos da Vale - Acordo Judicial 04/02/2021
+output:
+  html_document:
+    theme: united
+    toc: yes
+  word_document:
+    toc: yes
+---
+
+#### ERROS PENDENTES DE CORREÇÃO E/OU VERIFICAÇÃO
+
+<div class="alert alert-danger">
+
+## 3.Filtro favorecido da consulta por Execução
+**CORRIGIDO PARCIALMENTE** - Verificado em 13/06/2022
+--
+A mensagem foi aplicada apenas no filtro "Favorecido por nome". Favor colocar a mensagem no filtro "Favorecido por CNPJ/CPF"
+Ao clicar no filtro 'Favorecido por nome' ou Favorecido por CPF/CNPJ' e não escolher nenhum favorecido e clicar em pesquisar o usuário é direcionado para a página inicial da consulta Por Execução sem nenhuma mensagem.
+
+Caso não seja possível a busca por todos os Favorecido o Portal deve apresentar uma mensagem informando que é preciso selecionar um favorecido, assim como ocorre atualmente nas consultas que se encontram em produção no PDT.
+
+![](static/imagens/homologacao/filtro-favorecido.gif)
+</div>
+
+---
+
+## 7. Legenda do Gráfico
+
+<div class="alert alert-danger">
+
+**Consulta Por Receita - Gráfico de barras:**
+**CORRIGIDO PARCIALMENTE** - Verificado em 13/06/2022
+---
+Ficou pendente a correção do item 1 "*O gráfico deve-se referir a Classificação da Receita e não a Fonte de Recurso;*"
+
+1.  O gráfico deve-se referir a Classificação da Receita e não a Fonte de Recurso;
+![](static/imagens/homologacao/grafico-receita.png)
+</div>
+
+---
+<div class="alert alert-danger">
+
+## 13. Download PDF - Tabela Modal - Monte sua pesquisa
+
+**O botão não está funcionando para fazermos os testes** - Verificado em 21/06/2022
+--
+
+- Os valores de subtotal e total não estão sendo exibidos na extração em PDF.
+
+![](static/imagens/homologacao/pdf-tabela-modal.png)
+
+----
+
+![](static/imagens/homologacao/pdf-tabela-modal.gif)
+</div>
+
+
+---
+
+## 15.Download CSV - Tabela Modal - Monte sua pesquisa
+
+- a extração em CSV está apresentando o valor SUBTOTAl e não o valor TOTAL
+
+![](static/imagens/homologacao/csv-tabela-modal.png)
+
+---
+<div class="alert alert-danger">
+
+## 27. Detalhar - Monte sua pesquisa
+O erro ainda está ocorrendo - verificado 15/06/2022 [link](https://age7-novo.homologacao.prodemge.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarConsultaLivre&amp;jform[ID_UNIDADE_ORC][0]=2351&amp;jform[datainicio]=01/01/2022&amp;jform[datafim]=31/05/2022&amp;jform[codigo]=0&amp;jform[colunas]=PERIODO,ORGAO,VR_EMPENHADO,VR_LIQUIDADO,VR_PAGO,VR_LIQUIDADO_RP,VR_PAGO_RP,VR_PAGO_TOTAL&amp;jform[push]=ORGAO#:64a8e1d9a461b69bfb57fe9958f975df)
+--
+A depender do filtro que o usuário está usando ao clicar no botão detalhar ele é direcionado para a página inicial do PdT
+
+- [Detalhar - com erro](https://age7-novo.homologacao.prodemge.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarConsultaLivre&jform%5BID_FAVORECIDO%5D%5B0%5D=923681&jform%5Bdatainicio%5D=01/01/2022&jform%5Bdatafim%5D=27/05/2022&jform%5Bcodigo%5D=0&jform%5Bcolunas%5D=PERIODO,FAVORECIDO,VR_EMPENHADO,VR_LIQUIDADO,VR_PAGO,VR_LIQUIDADO_RP,VR_PAGO_RP,VR_PAGO_TOTAL&jform%5Bpush%5D=FAVORECIDO)
+- [Detalhar sem erro](https://age7-novo.homologacao.prodemge.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarConsultaLivre&amp;jform[ID_PROJETO][0]=3&amp;jform[ID_PROJETO][1]=1&amp;jform[datainicio]=01/01/2022&amp;jform[datafim]=31/05/2022&amp;jform[codigo]=0&amp;jform[colunas]=PERIODO,PROJETO&amp;jform[push]=PROJETO)
+
+![](static/imagens/homologacao/detalhar-monte-sua-pesquisa.gif)
+</div>
+---
+
+<div class="alert alert-danger">
+
+## 34.Compartilhar
+
+**CORRIGIDO PARCIALMENTE** - Verificado em 20/06/2022 => O link copiado não está funcionado dentro do formulário de detalhamento por meio da pesquisa avançada. Ver gif abaixo
+
+Conforme relatado no issues [#72](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/72) o Link do Compartilhar > Copiar Link não abre o detalhamento em novo formulário de acesso
+
+![](static/imagens/homologacao/compartilhar-link2.gif)
+</div>
+
+---
+
+<div class="alert alert-danger">
+
+## 36.Barra Vertical - CPF/CNPJ Favorecido
+**CORRIGIDO PARCIALMENTE** - Verificado em 20/06/2022
+--
+
+Considerando a opção 2 aplicada temos as seguinte ressalva a ser corrigida:
+
+Não é possível a busca pelo número completo do CPF. O que percebemos é que a busca está ocultado os 5 primeiros dígitos. Sendo assim o PDT só retorna algum resultado se o usuário digitar a partir do sexto caracter do CPF.
+
+**OPÇÃO 2**
+
+- Os dados de CPF que estão no menu *dropdown* ou na tela exibir todos deverão ser exibidos descaracterizados. Porém, quando o usuário digitar algum valor nesse campo o PDT irá realizar a busca normalmente.
+- Os dados serão exibidos descaracterizados (quando se tratar de CPF) no campo filtros aplicados,  barra vertical e tela selecionar todos.
+
+![](static/imagens/homologacao/opcao2-cpf.gif)
+
+</div>
+---
+
+<div class="alert alert-danger">
+
+## 39. Barra vertical - horizonte de cobertura
+
+**CORRIGIDO PARCIALMENTE** - Verificado em 20/06/2022 -> ver explicação no issues
+--
+
+
+O relato desse erro está detalhando no issues [#75](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/75)
+
+</div>
+
+----
+
+# Itens não verificados (enumerados) no mantis:
+
+
+---
+<div class="alert alert-danger">
+
+## 46. Subtotal
+
+**Não corrigido** - Verificado em 26/05/2022
+
+Conforme documentação a opção SUBTOTAL só deve aparecer quando for aplicado algum filtro ou houver paginação dos dados.
+
+Exemplo 1 - Não existe paginação, porém ao usar algum filtro a opção subtotal não é exibida.
+
+Exemplo 2 - Existe paginação, porém ao solicitar a exibição de todas as linhas o valor subtotal ainda é exibido.
+
+
+**Exemplo 1**
+
+![](static/imagens/homologacao/subtotal-paginacao.gif)
+
+
+**Exemplo 2**
+
+![](static/imagens/homologacao/subtotal-paginacao2.gif)
+</div>
+---
+
+# Novos itens identificados na conferência do dia 15/06/2022:
+
+<div class="alert alert-danger">
+
+## 48. A legenda da tabela
+
+**NÃO CORRIGIDO** verificado dia 21/06/2022
+--
+
+A legenda da tabela deve obedecer a navegação realizada pelo usuário.
+Exemplo:
+
+O usuário selecionou um órgão e em seguida selecionou um projeto. Nesse caso a legenda deve exibir o passa a passo realizado pelo usuário conforme ocorre atualmente nas demais consultas do Portal.
+
+![](static/imagens/homologacao/legenda-tabela.gif)
+</div>
+
+----
+<div class="alert alert-danger">
+
+## 51. Botão Exportar - Formulário de detalhamento
+
+**CORRIGIR** verificado dia 21/06/202203
+--
+ - Retirar o botão exportar do formulário de empenho da consulta Transferência por Município.
+--
+------
+
+O botão exportar deve ser retirado de todos os formulários de detalhamento, uma vez que não essa funcionalidade está desativada.[link](https://age7-novo.homologacao.prodemge.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarMunicipios&amp;ano=&amp;dataInicio=01/01/2022&amp;dataFim=31/12/2022&amp;consulta=3&amp;filtro=#;14630828)
+
+![](static/imagens/homologacao/exportar-formulario-municipio.png)
+
+</div>
+
+# Novos itens identificados na conferência do dia 21/06/2022:
+
+## 52. Falta colunas na tabela modal - monte sua pesquisa
+
+A tabela modal que lista os empenhos na consulta avançada não está apresentando as colunas definidas como padrão. Esse problema ocorreu na dispobinilização da última versão do dia 20/06/2022.[Ver documentação](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec018_recursos-acordo-judicial-vale/especifica%C3%A7%C3%A3o/recursos-vale-dados.md#tabela-de-resultados)
+
+
+![](static/imagens/homologacao/tabela-modal-colunas.gif)

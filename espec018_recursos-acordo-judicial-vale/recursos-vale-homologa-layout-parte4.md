@@ -203,15 +203,28 @@ O exemplo abaixo demonstra que ao selecionar o órgão DEER esse possui 4 projet
 </div>
 
 ---
+<div class="alert alert-danger">
 
 ## 13. Download PDF - Tabela Modal - Monte sua pesquisa
+
+**O botão não está funcionando para fazermos os testes** - Verificado em 21/06/2022
+--
 
 - Os valores de subtotal e total não estão sendo exibidos na extração em PDF.
 
 ![](static/imagens/homologacao/pdf-tabela-modal.png)
 
+----
+
+![](static/imagens/homologacao/pdf-tabela-modal.gif)
+</div>
+
 ---
+<div class="alert alert-success">
+
 ## 14. Download PDF
+
+**CORRIGIDO**
 
 Não entendi a sua resposta nesse item. Caso seja trabalhoso colocar o link no documento gerado em PDF pode desconsiderar essa solicitação. Assim a mesma será solicitada em intervenções futuras.
 
@@ -219,6 +232,10 @@ Não entendi a sua resposta nesse item. Caso seja trabalhoso colocar o link no d
 1- A URL* não está sendo exibida
 2- o arquivo gerado em PDF não está sendo exibido em outra aba do navegador e sim está fazendo o downolad (mesmo comportamento do Portal atual/função de chama Download)
 Obs: O processo consiste em um download do PDf que é gerado em tempo real. Não há link para download e o mesmo será feito o download, como já é na versão atual do Portal.
+
+![](static/imagens/homologacao/pdf-link.png)
+</div>
+----
 
 
 ---
@@ -243,13 +260,21 @@ Obs: O processo consiste em um download do PDf que é gerado em tempo real. Não
 </div>
 
 ---
+<div class="alert alert-success">
+
 ## 17. Download Base Completa
+
+**CORRIGIDO** verificado dia 21/06/202203
+--
 
 Os links que deverão ser usados quando o usuário clicar em download base completa
 
 * Consulta por Projeto - 1 nível: https://dados.mg.gov.br/dataset/acordo-judicial-reparacacao-vale-projetos
 
 * Demais consultas: https://dados.mg.gov.br/dataset
+
+![](static/imagens/homologacao/download-base-completa.gif)
+</div>
 
 ---
 <div class="alert alert-success">
@@ -309,37 +334,60 @@ O botão até foi incluído, porém ele deve ser estilisticamente diferente dos 
 ![](static/imagens/homologacao/adcionar-remover-colunas.png)
 </div>
 
----
+-----
+<div class="alert alert-success">
+
 ## 23.Tabela Modal - Monte sua pesquisa
+
+**CORRIGIDO** verificado dia 21/06/2022
 
 - O Cabeçalho da tabela modal não está fixo;
 - A exibição para selecionar a quantidade de linhas não está na tabela
 
 ![](static/imagens/homologacao/cabecalho-modal.gif)
+</div>
 
 ---
+<div class="alert alert-success">
+
 ## 24.Tabela Modal - Formatação
+
+**CORRIGIDO** verificado dia 21/06/2022
+--
 
 - Verificar formatação da tabela modal - [monte sua pesquisa](https://age7-novo.homologacao.prodemge.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarConsultaLivre&amp;jform[ID_PROJETO][0]=3&amp;jform[ID_PROJETO][1]=1&amp;jform[datainicio]=01/01/2022&amp;jform[datafim]=31/05/2022&amp;jform[codigo]=0&amp;jform[colunas]=PERIODO,PROJETO,VR_EMPENHADO,VR_LIQUIDADO,VR_PAGO,VR_LIQUIDADO_RP,VR_PAGO_RP,VR_PAGO_TOTAL&amp;jform[push]=PROJETO)
 
 ![](static/imagens/homologacao/formatacao-tabela-modal.gif)
+</div>
 
 ---
+<div class="alert alert-danger">
+
 ## 25.Lista de empenhos - Monte sua pesquisa
+
+**O ERRO AINDA OCORRE** verificado dia 21/06/2022
+--
 
 - Ao clicar em algum empenho na tabela modal o portal apresenta ERRO
 
 ![](static/imagens/homologacao/lista-empenho-tabela-modal.gif)
+</div>
 
 ---
+<div class="alert alert-info">
+
 ## 26. Barra de Pesquisa - Tabela de Resultados - Monte sua pesquisa
+
+Resposta Prodemge:
+>Nota: o filtro utilizado nas tabelas é controlado pelo DataTables. Foi observado que mesmo aplicando recursos para normalização de caracteres tais como C ou invés de Ç, o mesmo não surtiu efeito. Foi utilizado inclusive recursos e plug-ins disponíveis pelo desenvolvedor. No caso, há a probabilidade de ser um bug da versão atualmente utilizada. Pode ser estudada uma atualização e testes a serem realizados em uma versão futura do Portal. Atualizar a versão neste momento pode acarretar em problemas dos quais não haverá tempo hábil para solução.
+
 
 Como já mencionado algumas barras de pesquisa não estão respeitando o solicitado.
 
 Ao escrever a palavra 'construc' com o "C" sem o cedinha a busca não é realizada.
 
-
 ![](static/imagens/homologacao/barra-pesquisa-ç.gif)
+</div>
 
 ---
 <div class="alert alert-danger">
@@ -368,8 +416,6 @@ A depender do filtro que o usuário está usando ao clicar no botão detalhar el
 ---
 <div class="alert alert-success">
 
-
-
 ## 29.Subtotal/Total - tabela de resultados - Monte sua pesquisa
 **CORRIGIDO** - Verificado em 13/06/2022
 ---
@@ -392,12 +438,21 @@ A formatação do cabeçalho da tabela deve ser alinhado à esquerda.
 </div>
 
 ---
+<div class="alert alert-danger">
+
 ## 31.Tabelas modais - movíveis
 
+**VERIFICAR** Verificado em 21/06/2022
+--
+* A funcionalidade até foi aplicada, mas é preciso que ao clicar na tabela modal a mesma apresente o símbolo de mover assim como ocorre na consulta de Remuneração.
+Da forma que foi implementada não oferece indicativo que é possível mover a tabela modal.
+
+---
 Todas as tabelas modais (pesquisa básica e avançada) deverão ser movíveis, ex. [PDT Remuneração](https://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/202203/2/1064/3978/C/3968566/1001/27364479)
 
 ![](static/imagens/homologacao/tabelas-modais.gif)
 
+</div>
 
 ---
 <div class="alert alert-success">
@@ -510,13 +565,21 @@ A tabela de resultados não está exibindo os dados referentes ao Procedimento d
 </div>
 ---
 
+<div class="alert alert-success">
+
 ## 41.Barra Vertical - Campo 'Número documento Pagamento'
+
+**CORRIGIDO** - Verificado em 20/06/2022
+--
 
 Ao clicar no campo "Número documento Pagamento" na barra vertical a caixa de diálogo para digitar o nome é expandida, porém permanece invisível.
 
 ![](static/imagens/homologacao/ordem-pagamento-barra-vertical.gif)
 
+</div>
+
 ---
+
 <div class="alert alert-success">
 
 ## 42. Formulário de Detalhamento -Histórico do empenhos
@@ -529,13 +592,20 @@ A informação do histórico do empenho não está sendo exibida no formulário 
 
 </div>
 
+----
+
+<div class="alert alert-success">
+
 ## 43.Tabela de Resultados - 'Número documento Pagamento'
+**CORRIGIDO** - Verificado em 20/06/2022
+--
 
 Ao selecionar o número de documento de Pagamento na barra vertical e clicar em pesquisar os resultados são exibidos corretamente na tabela de resultado, porém caso o usuário inclua a coluna 'empenho' através do botão "Adiciona/remover Colunas" o critério selecionado na barra vertical é desconsiderado.
 
 Assim a tabela de resultados apresenta todos os empenhos independente do número de documento de Pagamento escolhido anteriormente.
 
 ![](static/imagens/homologacao/ordem-pagamento.gif)
+</div>
 
 ---
 
@@ -551,21 +621,31 @@ A tabela de resultado está apresentando valores negativos empenhado e liquidado
 
 ![](static/imagens/homologacao/valor-negativo.png)
 </div>
----
-## 45.Consulta Por Projeto - Mensagem
 
+---
+<div class="alert alert-success">
+
+## 45.Consulta Por Projeto - Mensagem
+**CORRIGIDO** - Verificado em 20/06/2022
+--
 Na consulta por Projeto ao clicar em um projeto que não possui execução o PDT exibe a seguinte frase: "Nenhum resultado encontrado". Essa mensagem passa a ideia que pode ser um erro.
 
 É possível nesse caso colocar outra mensagem: "Não existem dados de execução para esse projeto"
 
 ![](static/imagens/homologacao/mensagem.png)
+</div>
+
 
 --
 
 # Itens não verificados (enumerados) no mantis:
 
-## 46. Exibir/Ocultar filtros - Monte sua pesquisa
+<div class="alert alert-success">
 
+## 47. Exibir/Ocultar filtros - Monte sua pesquisa
+
+**CORRIGIDO** - Verificado em 20/06/2022
+--
 Conforme solicitado os códigos dos filtros só devem ser exibidos quando o usuário clicar o botão 'Exibir/Ocultar filtros'. Na pesquisa avançada, ao selecionar um filtro tanto na barra vertical ou no campo "Adicionar/ Remover Colunas" a coluna de código está sendo exibida.
 
 E ao tentar usar o botão 'Exibir/Ocultar filtros' esse não está respondendo ao comando.
@@ -578,10 +658,12 @@ Não entendi a sua colocação.
 
 ![](static/imagens/homologacao/ocultar-exibir-monte-sua-pesquisa.gif)
 
+</div>
 
 ---
+<div class="alert alert-danger">
 
-## 47. Subtotal
+## 46. Subtotal
 
 **Não corrigido** - Verificado em 26/05/2022
 
@@ -600,6 +682,7 @@ Exemplo 2 - Existe paginação, porém ao solicitar a exibição de todas as lin
 **Exemplo 2**
 
 ![](static/imagens/homologacao/subtotal-paginacao2.gif)
+</div>
 
 ---
 
@@ -607,7 +690,12 @@ Exemplo 2 - Existe paginação, porém ao solicitar a exibição de todas as lin
 # Novos itens identificados na conferência do dia 15/06/2022:
 
 
+<div class="alert alert-danger">
+
 ## 48. A legenda da tabela
+
+**NÃO CORRIGIDO** verificado dia 21/06/2022
+--
 
 A legenda da tabela deve obedecer a navegação realizada pelo usuário.
 Exemplo:
@@ -615,27 +703,52 @@ Exemplo:
 O usuário selecionou um órgão e em seguida selecionou um projeto. Nesse caso a legenda deve exibir o passa a passo realizado pelo usuário conforme ocorre atualmente nas demais consultas do Portal.
 
 ![](static/imagens/homologacao/legenda-tabela.gif)
-
+</div>
 ----
+<div class="alert alert-success">
+
 ## 49. Tabela modal - linha a mais
+**CORRIGIDO** verificado dia 21/06/2022
+--
 
 Na tabela modal que lista os empenhos na pesquisa
 
 ![](static/imagens/homologacao/linha-a-mais.png)
+</div>
 
 ----
+<div class="alert alert-info">
+
 ## 50. Barra Vertical - Favorecido
+
+Mensagem prodemge
+
+>Nota: A funcionalidade foi ajustada conforme solicitado. Para que haja pesquisa através dos valores a "sensibilidade" da pesquisa foi ampliada.
+>
+>Ex.: o nome Francisco Ana de Queiroz pode ser localizado se a pesquisa for feita pelo termo "Francisco Queiroz", não importando o posicionamento das palavras no nome.
+Quando se adiciona um termo simples como "de", a busca será ampla e mostrará todos os registros que contenham esse termo, o que pode ter posicionado a visualização do nome mais abaixo na lista.
+Em termos gerais, a pesquisa atual localiza por "Francisco" OU "Ana" OU "de".
 
 Ao digitar mais de um valor na busca o filtro não está funcionando.
 
 Exemplo: Quando digita apenas 'Francisco' o campo busca funciona corretamente, porém ao acrescentar as palavras 'Ana de' a busca não está funcionando.
 
 ![](static/imagens/homologacao/favorecido.busca.gif)
+</div>
 
 ----
+div class="alert alert-danger">
 
 ## 51. Botão Exportar - Formulário de detalhamento
 
+**CORRIGIR** verificado dia 21/06/202203
+--
+ - Retirar o botão exportar do formulário de empenho da consulta Transferência por Município.
+--
+------
+
 O botão exportar deve ser retirado de todos os formulários de detalhamento, uma vez que não essa funcionalidade está desativada.[link](https://age7-novo.homologacao.prodemge.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarMunicipios&amp;ano=&amp;dataInicio=01/01/2022&amp;dataFim=31/12/2022&amp;consulta=3&amp;filtro=#;14630828)
 
-![](static/imagens/homologacao/exportar-formulario-detalhamento.png)
+![](static/imagens/homologacao/exportar-formulario-municipio.png)
+
+</div>
