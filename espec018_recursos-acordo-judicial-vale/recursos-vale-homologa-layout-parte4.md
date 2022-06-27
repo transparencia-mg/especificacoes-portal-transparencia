@@ -38,10 +38,10 @@ O empenho citado como exemplo apenas foi inscrito em RP em 2022 não havendo nen
 </div>
 
 ---
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 ## 3.Filtro favorecido da consulta por Execução
-**CORRIGIDO PARCIALMENTE** - Verificado em 13/06/2022
+**CORRIGIDO** - Verificado em 27/06/2022
 --
 A mensagem foi aplicada apenas no filtro "Favorecido por nome". Favor colocar a mensagem no filtro "Favorecido por CNPJ/CPF"
 Ao clicar no filtro 'Favorecido por nome' ou Favorecido por CPF/CNPJ' e não escolher nenhum favorecido e clicar em pesquisar o usuário é direcionado para a página inicial da consulta Por Execução sem nenhuma mensagem.
@@ -114,10 +114,10 @@ Nota: Sugiro que o botão exibir/oculta código fique desabilitado ou invisível
 ![](static/imagens/homologacao/legenda-grafico2.png)
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 **Consulta Por Receita - Gráfico de barras:**
-**CORRIGIDO PARCIALMENTE** - Verificado em 13/06/2022
+**CORRIGIDO** - Verificado em 27/06/2022
 ---
 Ficou pendente a correção do item 1 "*O gráfico deve-se referir a Classificação da Receita e não a Fonte de Recurso;*"
 
@@ -203,11 +203,11 @@ O exemplo abaixo demonstra que ao selecionar o órgão DEER esse possui 4 projet
 </div>
 
 ---
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 ## 13. Download PDF - Tabela Modal - Monte sua pesquisa
 
-**O botão não está funcionando para fazermos os testes** - Verificado em 21/06/2022
+**CORRIGIDO** - Verificado em 27/06/2022
 --
 
 - Os valores de subtotal e total não estão sendo exibidos na extração em PDF.
@@ -237,14 +237,14 @@ Obs: O processo consiste em um download do PDf que é gerado em tempo real. Não
 </div>
 ----
 
+<div class="alert alert-danger">
 
----
 ## 15.Download CSV - Tabela Modal - Monte sua pesquisa
 
 - a extração em CSV está apresentando o valor SUBTOTAl e não o valor TOTAL
 
 ![](static/imagens/homologacao/csv-tabela-modal.png)
-
+</div>
 ---
 
 <div class="alert alert-success">
@@ -361,16 +361,16 @@ O botão até foi incluído, porém ele deve ser estilisticamente diferente dos 
 </div>
 
 ---
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 ## 25.Lista de empenhos - Monte sua pesquisa
 
-**O ERRO AINDA OCORRE** verificado dia 21/06/2022
+**CORRIGIDO** verificado dia 27/06/2022
 --
 
 - Ao clicar em algum empenho na tabela modal o portal apresenta ERRO
 
-![](static/imagens/homologacao/lista-empenho-tabela-modal.gif)
+![](static/imagens/homologacao/detalhar-monte-sua-pesquisa.gif)
 </div>
 
 ---
@@ -390,10 +390,13 @@ Ao escrever a palavra 'construc' com o "C" sem o cedinha a busca não é realiza
 </div>
 
 ---
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 ## 27. Detalhar - Monte sua pesquisa
-O erro ainda está ocorrendo - verificado 15/06/2022 [link](https://age7-novo.homologacao.prodemge.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarConsultaLivre&amp;jform[ID_UNIDADE_ORC][0]=2351&amp;jform[datainicio]=01/01/2022&amp;jform[datafim]=31/05/2022&amp;jform[codigo]=0&amp;jform[colunas]=PERIODO,ORGAO,VR_EMPENHADO,VR_LIQUIDADO,VR_PAGO,VR_LIQUIDADO_RP,VR_PAGO_RP,VR_PAGO_TOTAL&amp;jform[push]=ORGAO#:64a8e1d9a461b69bfb57fe9958f975df)
+
+**CORRIGIDO** verificado dia 27/06/2022
+
+[link](https://age7-novo.homologacao.prodemge.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarConsultaLivre&amp;jform[ID_UNIDADE_ORC][0]=2351&amp;jform[datainicio]=01/01/2022&amp;jform[datafim]=31/05/2022&amp;jform[codigo]=0&amp;jform[colunas]=PERIODO,ORGAO,VR_EMPENHADO,VR_LIQUIDADO,VR_PAGO,VR_LIQUIDADO_RP,VR_PAGO_RP,VR_PAGO_TOTAL&amp;jform[push]=ORGAO#:64a8e1d9a461b69bfb57fe9958f975df)
 --
 A depender do filtro que o usuário está usando ao clicar no botão detalhar ele é direcionado para a página inicial do PdT
 
@@ -471,7 +474,7 @@ Conforme relatado no issues [#71](https://github.com/transparencia-mg/especifica
 
 ## 34.Compartilhar
 
-**CORRIGIDO PARCIALMENTE** - Verificado em 20/06/2022 => O link copiado não está funcionado dentro do formulário de detalhamento por meio da pesquisa avançada. Ver gif abaixo
+**Não Corrigido** - Verificado em 27/06/2022 => O link copiado não está funcionado dentro do formulário de detalhamento por meio da pesquisa avançada. Ver gif abaixo
 
 Conforme relatado no issues [#72](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/72) o Link do Compartilhar > Copiar Link não abre o detalhamento em novo formulário de acesso
 
@@ -482,7 +485,7 @@ Conforme relatado no issues [#72](https://github.com/transparencia-mg/especifica
 <div class="alert alert-success">
 
 ## 35. Formulário de detalhamento - Dados do Processo de Compra
-**CORRIGIDO PARCIALMENTE** - Verificado em 13/06/2022
+**CORRIGIDO** - Verificado em 13/06/2022
 ---
 -Nome incorreto para seção Dados do Processo de Compra no formulário de detalhamento [#73](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/73)
 
@@ -494,7 +497,8 @@ Conforme relatado no issues [#72](https://github.com/transparencia-mg/especifica
 <div class="alert alert-danger">
 
 ## 36.Barra Vertical - CPF/CNPJ Favorecido
-**CORRIGIDO PARCIALMENTE** - Verificado em 20/06/2022
+
+**NÃO CORRIGIDO** - Verificado em 27/06/2022 - O erro ainda persiste
 --
 
 Considerando a opção 2 aplicada temos as seguinte ressalva a ser corrigida:
@@ -661,11 +665,11 @@ Não entendi a sua colocação.
 </div>
 
 ---
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 ## 46. Subtotal
 
-**Não corrigido** - Verificado em 26/05/2022
+**corrigido** - Verificado em 27/06/22
 
 Conforme documentação a opção SUBTOTAL só deve aparecer quando for aplicado algum filtro ou houver paginação dos dados.
 
@@ -737,7 +741,8 @@ Exemplo: Quando digita apenas 'Francisco' o campo busca funciona corretamente, p
 </div>
 
 ----
-div class="alert alert-danger">
+
+<div class="alert alert-success">
 
 ## 51. Botão Exportar - Formulário de detalhamento
 
@@ -750,5 +755,27 @@ div class="alert alert-danger">
 O botão exportar deve ser retirado de todos os formulários de detalhamento, uma vez que não essa funcionalidade está desativada.[link](https://age7-novo.homologacao.prodemge.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarMunicipios&amp;ano=&amp;dataInicio=01/01/2022&amp;dataFim=31/12/2022&amp;consulta=3&amp;filtro=#;14630828)
 
 ![](static/imagens/homologacao/exportar-formulario-municipio.png)
+
+</div>
+
+# Novos itens identificados na conferência do dia 21/06/2022:
+
+
+<div class="alert alert-danger">
+
+## 52. Falta colunas na tabela modal - monte sua pesquisa
+
+Verificado dia 27/06/2022
+--
+Ao clicar na lupa e ir para a tabela modal dos empenhos essa tabela não está exibindo por exemplo a coluna Valor Empenhado, Valor Pago, valor Pago em RP, Órgão, Unidade Executora, CNPJ favorecido
+--
+
+
+A tabela modal que lista os empenhos na consulta avançada não está apresentando as colunas definidas como padrão. Esse problema ocorreu na dispobinilização da última versão do dia 20/06/2022.[Ver documentação](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec018_recursos-acordo-judicial-vale/especifica%C3%A7%C3%A3o/recursos-vale-dados.md#tabela-de-resultados)
+
+
+![](static/imagens/homologacao/falta-coluna-tabela-modal.png)
+
+![](static/imagens/homologacao/tabela-modal-colunas.gif)
 
 </div>
