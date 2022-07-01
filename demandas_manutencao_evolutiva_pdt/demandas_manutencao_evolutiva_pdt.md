@@ -51,6 +51,8 @@ A página inicial deve reduzir ao máximo os pontos intermediários de interaç�
 8) Canal de Feedback
   - Criar uma funcionalidade para permitir a avaliação dos usuários
 
+9) Corrigir a lentidão na pesquisa avançada da consulta Receita Pública
+
 ## Remodelagem das páginas intermediárias do Portal
 
 As páginas intermediárias deverão seguir o mesmo padrão das páginas intermediarias do menu de acesso rápido;
@@ -211,8 +213,3 @@ Exemplo: [Portal de Transparência Distrito Federal](http://www.transparencia.df
 
 ![](static/feedback2.png)
 
-### Transparência Pró-Brumadinho
-
-Elaboração de uma consulta para possibilitar o acompanhamento das ações desenvolvidas pelo governo do estado com recursos provenientes do acordo judicial firmado com a Vale. A nova consulta será um instrumento de transparência e prestação de contas.
-
-A consulta irá apresentar todas as etapas da Programação e Execução Orçamentária dos recursos provenientes do acordo judicial.
