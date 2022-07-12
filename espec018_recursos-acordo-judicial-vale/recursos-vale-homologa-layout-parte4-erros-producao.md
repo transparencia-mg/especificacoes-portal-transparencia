@@ -60,13 +60,18 @@ Ficou pendente a correção do item 1 "*O gráfico deve-se referir a Classifica�
 </div>
 
 ---
+<div class="alert alert-success">
 
 ## 15.Download CSV - Tabela Modal - Monte sua pesquisa
+
+**CORRIGIDO** Verificado dia 12/07/2022
+--
 
 - a extração em CSV está apresentando o valor SUBTOTAl e não o valor TOTAL
 
 ![](static/imagens/homologacao/csv-tabela-modal.png)
 
+</div>
 ---
 <div class="alert alert-success">
 
@@ -89,6 +94,12 @@ A depender do filtro que o usuário está usando ao clicar no botão detalhar el
 
 ## 31.Tabelas modais - movíveis
 
+**CORRIGIR** verificado dia 12/07/2022
+--
+
+O símbolo (cruz) de mover ainda não está sendo exibido. Ver imagem comparativa entre a consulta da Vale e a Consulta de Remuneração
+
+---
 **VERIFICAR** Verificado em 21/06/2022
 --
 * A funcionalidade até foi aplicada, mas é preciso que ao clicar na tabela modal a mesma apresente o símbolo de mover assim como ocorre na consulta de Remuneração.
@@ -106,6 +117,14 @@ Todas as tabelas modais (pesquisa básica e avançada) deverão ser movíveis, e
 
 ## 34.Compartilhar
 
+**Corrigido parcialmente** 12/07/2022
+--
+Em verificação ocorrida no dia 12/07/2022 a correção foi aplicada apenas na pesquisa básica. A pesquisa avançada ainda encontra-se com o problema - ver imagem abaixo:
+
+![](static/imagens/homologacao/compartilhar-12-07.gif)
+---
+
+
 **Não Corrigido** - Verificado em 27/06/2022 => O link copiado não está funcionado dentro do formulário de detalhamento por meio da pesquisa avançada. Ver gif abaixo
 
 Conforme relatado no issues [#72](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/72) o Link do Compartilhar > Copiar Link não abre o detalhamento em novo formulário de acesso
@@ -116,10 +135,10 @@ verificado no dia 27/06/202203
 
 ---
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 ## 36.Barra Vertical - CPF/CNPJ Favorecido
-**NÃO CORRIGIDO** - Verificado em 27/06/2022 - O erro ainda persiste
+**CORRIGIDO** - Verificado em 12/07/2022
 --
 
 Considerando a opção 2 aplicada temos as seguinte ressalva a ser corrigida:
@@ -140,8 +159,10 @@ Não é possível a busca pelo número completo do CPF. O que percebemos é que 
 
 ## 39. Barra vertical - horizonte de cobertura
 
-**CORRIGIDO PARCIALMENTE** - Verificado em 20/06/2022 -> ver explicação no issues
+**CORRIGIDO PARCIALMENTE** - Verificado em 12/07/2022 -> Não é possível a conferência, pois ao selecionar os itens o usuário é direcionado para a página inicial
 --
+
+![](static/imagens/homologacao/erro-item-39.gif)
 
 
 O relato desse erro está detalhando no issues [#75](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/75)
@@ -177,15 +198,16 @@ Exemplo 2 - Existe paginação, porém ao solicitar a exibição de todas as lin
 
 ## 48. A legenda da tabela
 
-**NÃO CORRIGIDO** verificado dia 21/06/2022
+**CORRIGIDO PARCIALMENTE** verificado dia 12/07/2022
 --
 
-A legenda da tabela deve obedecer a navegação realizada pelo usuário.
-Exemplo:
+Ao clicar na consulta 'Por execução' e selecionar um órgão no filtro a legenda está exibindo: **Projeto: Advocacia Geral do Estado**
 
-O usuário selecionou um órgão e em seguida selecionou um projeto. Nesse caso a legenda deve exibir o passa a passo realizado pelo usuário conforme ocorre atualmente nas demais consultas do Portal.
+E também o órgão não está sendo exibido na migalha.
 
+Ver imagem abaixo
 ![](static/imagens/homologacao/legenda-tabela.gif)
+
 </div>
 
 ----
@@ -212,17 +234,16 @@ O botão exportar deve ser retirado de todos os formulários de detalhamento, um
 
 ## 52. Falta colunas na tabela modal - monte sua pesquisa
 
-Verificado dia 27/06/2022
+**CORRIDIDO PARCIALMENTE**Verificado dia 12/07/22
 --
-Ao clicar na lupa e ir para a tabela modal dos empenhos essa tabela não está exibindo por exemplo a coluna Valor Empenhado, Valor Pago, valor Pago em RP, Órgão, Unidade Executora, CNPJ favorecido
+Na tabela está faltando a coluna **Órgão**
 --
 
-
-A tabela modal que lista os empenhos na consulta avançada não está apresentando as colunas definidas como padrão. Esse problema ocorreu na dispobinilização da última versão do dia 20/06/2022.[Ver documentação](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec018_recursos-acordo-judicial-vale/especifica%C3%A7%C3%A3o/recursos-vale-dados.md#tabela-de-resultados)
+[Ver documentação](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec018_recursos-acordo-judicial-vale/especifica%C3%A7%C3%A3o/recursos-vale-dados.md#tabela-de-resultados)
 
 
 ![](static/imagens/homologacao/falta-coluna-tabela-modal.png)
 
-![](static/imagens/homologacao/tabela-modal-colunas.gif)
+
 
 </div>
