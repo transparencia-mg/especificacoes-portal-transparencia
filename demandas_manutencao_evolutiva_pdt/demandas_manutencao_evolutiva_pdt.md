@@ -10,6 +10,8 @@ A identificação das principais necessidades estão sendo objeto de elaboraçã
 
 ### ORDEM DE PRIORIDADDE
 
+## Despesa de Pessoal
+
 ## Remuneração
  
  - Incluir a funcionalidade de número de admissão como chave primária na tabela do portal para não perder o histórico do servidor quando o mesmo trocar de nome ou alterar carga horária
@@ -34,14 +36,6 @@ A remodelagem e a elaboração da pesquisa avançada deverá seguir os moldes da
   - Diárias
   - Emendas
   - PPAG
-
-## Partição dos anos
-
-O Portal de Transparência deverá permitir que o cidadão busque informações, na pesquisa avançada, por mais de um exercício simultaneamente, a exemplo do modelo implantado na Pesquisa Avançada da Consulta da Vale.
-
-Por exemplo, na consulta de despesa, o usuário poderá comparar dados de programa, função, UO, Ação e etc entre exercícios distintos, bem como poderá pesquisar os valores pagos a um determinado credor em um intervalo de tempo.
-
-Exemplo: [Portal de Transparência de Linhares](https://linhares-es.portaltp.com.br/consultas/despesas/empenhos.aspx)
 
 ## Remodelagem da Página Inicial
 
@@ -141,6 +135,13 @@ A remodelagem deve considerar a alteração dos formulários de detalhamento de 
   - uma aba para cada conjunto de informações (classificação orçamentária, empenho, liquidação, pagamento, outras informações)
   - visualização dos dados de despesa e restos a pagar de acordo agrupados por estágio de despesa (empenho, liquidação e pagamento)
 
+## Partição dos anos
+
+O Portal de Transparência deverá permitir que o cidadão busque informações, na pesquisa avançada, por mais de um exercício simultaneamente, a exemplo do modelo implantado na Pesquisa Avançada da Consulta da Vale.
+
+Por exemplo, na consulta de despesa, o usuário poderá comparar dados de programa, função, UO, Ação e etc entre exercícios distintos, bem como poderá pesquisar os valores pagos a um determinado credor em um intervalo de tempo.
+
+Exemplo: [Portal de Transparência de Linhares](https://linhares-es.portaltp.com.br/consultas/despesas/empenhos.aspx)
 
 ## Consolidar os dados de Despesa e RP em uma única consulta
 
