@@ -12,11 +12,16 @@ A identificação das principais necessidades estão sendo objeto de elaboraçã
 
 ## Despesa de Pessoal
 
+## [Consulta de Despesa](https://www.transparencia.mg.gov.br/estado-pessoal/despesa-com-pessoal)
+
+ - Alterar a forma de disponibilização da despesa com pessoal do Portal da Transparência, alinhando para que as informações estejam coerentes com os dados disponibilizados pela Secretaria de Fazenda
+
 ## Remuneração
  
  - Incluir a funcionalidade de número de admissão como chave primária na tabela do portal para não perder o histórico do servidor quando o mesmo trocar de nome ou alterar carga horária
  - Criar uma nova opção "Carreiras" dentro do menu de acesso rápido na consulta de Remuneração
- - Inserir no Portal a lista de todos os servidores por carreira independente da remuneração;
+ - Inserir no Portal a lista de todos os servidores por carreira independente da remuneração
+ - Disponibilização dos descontos alinhados com os dados disponibilizados pelo TCE/MG
 
 ## Remodelagem da Pesquisa Avançada
 
@@ -151,6 +156,10 @@ Exemplo:
 - [Portal de Transparência Distrito Federal](http://www.transparencia.df.gov.br/#/despesas/acao)
 
 - [Portal de Transparência Federal](http://www.portaltransparencia.gov.br/despesas/orgao?ordenarPor=orgaoSuperior&direcao=asc)
+
+## Restos a Pagar
+
+ - Alterar a consulta (fórmula de cálculo das colunas) para alinhar com as informações com os dados disponibilizados pela Secretaria de EStado de Fazendo no Relatório Resumido de Execução Orçamentária - [RREO](http://www.fazenda.mg.gov.br/governo/contadoria_geral/lrf/2021/).
 
 ## Contratos
 
