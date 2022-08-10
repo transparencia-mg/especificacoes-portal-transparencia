@@ -67,7 +67,7 @@ Além de listar todos os empenhos, o Portal deverá incluir uma coluna ANO entre
 ![image](https://user-images.githubusercontent.com/52920939/171876354-91911fb8-a5f8-4617-b5ec-5d0f8c8f61f9.png)
  
 
-##### Correção 3: ocultar empenhos sem execução
+##### Correção 3: ocultar empenhos sem execução - DESCONSIDERAR
 Deverão ser listados apenas os empenhos que possuem execução nas colunas existentes do Portal. Caso algum empenho apareça zerado, essa linha do Portal não deverá ser exibida.
 
 Exemplo: Empenho 237 da Controladoria Geral do Estado (projeto 9288155). Como não há execução nas colunas do Portal, essa linha não deverá ser exibida para esse projeto.
