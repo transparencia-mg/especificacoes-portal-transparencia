@@ -14,7 +14,7 @@ output:
 
 ### CONSULTA POR PROJETO
 
-#### 1.1 ERRO – RESTOS A PAGAR
+#### 1.1 ERRO – RESTOS A PAGAR - CORRIGIDO
 
 Foram identificadas inconsistências ao comparar os dados do portal com os dados do armazém BO.
 
@@ -22,20 +22,20 @@ Ao filtrar os dados de 01/01/2022 a 31/12/2022 ou utilizar o filtro 01/01/2021 a
 
 Foram identificados erros nos seguintes projetos:
 
-##### Erro 1 - 9288133 – 2022 (todas as colunas de Restos a Pagar)
+##### Erro 1 - 9288133 – 2022 (todas as colunas de Restos a Pagar) - CORRIGIDO
 	- vários empenhos (erro no cálculo da Despesa Liquidada)
   
 ![image](https://user-images.githubusercontent.com/52920939/171876085-c6f06620-35a3-4a46-8b44-22aed92e749f.png)
 
  
-##### Erro 2 - 9288152 – 2022 (erro na coluna Valor Despesa Liquidada – Restos a Pagar)
+##### Erro 2 - 9288152 – 2022 (erro na coluna Valor Despesa Liquidada – Restos a Pagar) - CORRIGIDO
 	- empenho 625  (erro no cálculo da Despesa Liquidada) 
   
 ![image](https://user-images.githubusercontent.com/52920939/171876127-c53f36c8-47c9-4051-b4e3-059772842110.png)
 
 ![image](https://user-images.githubusercontent.com/52920939/171876182-9b0bc953-a75b-4c99-b856-b1dbf70010ed.png)
 
-##### Erro 3 - 9288191 – 2022 (erro na coluna Valor Despesa Liquidada – Restos a Pagar)
+##### Erro 3 - 9288191 – 2022 (erro na coluna Valor Despesa Liquidada – Restos a Pagar) - CORRIGIDO
 	- empenho 14 (erro no cálculo da Despesa Liquidada)
  
 ![image](https://user-images.githubusercontent.com/52920939/171876229-cd428ca5-6825-4cbd-8eb7-30bc025fde85.png)
