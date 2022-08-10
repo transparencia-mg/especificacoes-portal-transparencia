@@ -125,43 +125,45 @@ Verificar o item - Correção 3: ocultar empenhos sem execução
 
 ### 3. CONSULTA AVANÇADA
 
-#### 3.1 ERRO NA EXIBIÇÃO DO DETALHAMENTO DO EMPENHO
+#### 3.1 ERRO NA EXIBIÇÃO DO DETALHAMENTO DO EMPENHO - CORRIGIDO
 
 Ao clicar para exibir os empenhos de um projeto, o link do portal não apresentando os dados;
  
 ![image](https://user-images.githubusercontent.com/52920939/171876661-b16c6221-18a1-4a96-8632-6b80320d9cf0.png)
 
-#### 3.2 EXIBIR/OCULTAR CÓDIGO 
+#### 3.2 EXIBIR/OCULTAR CÓDIGO - CORRIGIDO
 
 Ao selecionar o botão exibir/ocultar código o portal não está apresentando diferença. O comportamento está sendo o de exibir o código selecionando ou não o botão.
  
 ![image](https://user-images.githubusercontent.com/52920939/171876695-1372337a-0e0f-4ca8-b5c5-b504c56efc3a.png)
 
  
-#### 3.3 ADICIONAR/REMOVER COLUNAS
+#### 3.3 ADICIONAR/REMOVER COLUNAS - CORRIGIDO
 O botão adicionar ou remover colunas não está habilitado
  
 ![image](https://user-images.githubusercontent.com/52920939/171876729-90240ec4-dfea-49aa-9fa1-a37088c1f143.png)
 
 
-#### 3.4 OCULTAR EMPENHOS SEM EXECUÇÃO
+#### 3.4 OCULTAR EMPENHOS SEM EXECUÇÃO - CORRIGIDO
 Verificar o item - Correção 3: ocultar empenhos sem execução
 Ao filtro o dado órgão 1521 – Controladoria Geral do Estado – ano de 2022, a consulta traz informações do empenho 237 que ainda não teve execução.
 
 ![image](https://user-images.githubusercontent.com/52920939/171876776-fd717e45-5c83-4067-90f8-d16f8c40999b.png)
 
-#### 3.5 BOTÃO SAIR
+#### 3.5 BOTÃO SAIR - CORRIGIDO
 Quando clicamos em sair após a aplicação de um filtro, a página retorna para um erro. O correto é voltar para a página inicial da consulta da Vale.
  
 ![image](https://user-images.githubusercontent.com/52920939/171876803-62e05d2b-49b2-45a8-83da-6f2f42da970d.png)
 
-#### 3.6 BOTÃO LIMPAR TUDO
+#### 3.6 INCLUIR A FUNCIONALIDADE DE LIMPAR FILTRO
 Quando clicamos no botão LIMPAR TUDO, o botão limpa os dados da exibição, mas não tem limpado os dados dos filtros selecionados.
 Exemplo: cliquei em limpar tudo, e ao voltar no código projeto, o último projeto permaneceu selecionado.
  
 ![image](https://user-images.githubusercontent.com/52920939/171876836-bdacacea-a93a-4459-8e18-762baa606310.png)
+
+É necessário criar um botão limpar filtros.
  
-### 4. CONSULTA POR MUNICIPIO
+### 4. CONSULTA POR MUNICIPIO - CORRIGIDO		
 
 Foram identificados empenhos na consulta por munícipio que não possuem informações de execução.
 Nesse caso, os empenhos não deverão ser aparecer na consulta.
