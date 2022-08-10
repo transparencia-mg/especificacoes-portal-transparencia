@@ -61,8 +61,8 @@ Utilize o mesmo comportamento adotado na consulta avançada.
 
 
  
-##### Correção 2: acrescentar coluna PERÍODO
-Além de listar todos os empenhos, o Portal deverá incluir uma coluna PERÍODO entre a coluna Empenho e a coluna Data de Registro do Empenho.
+##### Correção 2: acrescentar coluna ANO - CORRIGIDO
+Além de listar todos os empenhos, o Portal deverá incluir uma coluna ANO entre a coluna Empenho e a coluna Data de Registro do Empenho.
 
 ![image](https://user-images.githubusercontent.com/52920939/171876354-91911fb8-a5f8-4617-b5ec-5d0f8c8f61f9.png)
  
