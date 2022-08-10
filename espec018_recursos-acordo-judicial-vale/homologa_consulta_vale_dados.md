@@ -83,7 +83,7 @@ Verificar o item relatado na consulta por projeto – 1.1 – ERRO – RESTOS A 
 
 #### 2.2 LISTA DA EXECUÇÃO DOS PROJETOS – NÍVEL 1- CORRIGIDO
 
-##### Situação: FILTRO COM MAIS DE 1 ANO
+##### Situação: FILTRO COM MAIS DE 1 ANO - CORRIGIDO
 Ao selecionar no filtro de período, a opção com mais de 1 ano, o portal deverá apresentar o somatório dos dados de execução do filtro selecionado, e não a linha duplicada. 
 
 ![image](https://user-images.githubusercontent.com/52920939/171876420-d07bc0df-12bc-4f41-93f8-8e5c163236bd.png)
@@ -91,11 +91,11 @@ Ao selecionar no filtro de período, a opção com mais de 1 ano, o portal dever
 ![image](https://user-images.githubusercontent.com/52920939/171876459-c3ff90aa-46cc-42b4-8641-291c95c2fa15.png)
 
 
-#### 2.3 ERRO – LISTA DE EMPENHOS – consulta nível 2
+#### 2.3 ERRO – LISTA DE EMPENHOS – consulta nível 2 - CORRIGIDO
 
 Na consulta por execução, a lista de empenhos deve ter comportamentos distintos conforme o período da consulta selecionada.
 
-##### Situação 1 – Filtro dentro de um mesmo ano.
+##### Situação 1 – Filtro dentro de um mesmo ano - CORRIGIDO
 
 Ao selecionar o filtro de período, por exemplo 01/01/2021 a 31/12/2021, devem ser listados todos os empenhos referentes ao ano selecionado com a execução somente daquele ano.
 
@@ -103,7 +103,7 @@ Exemplo 9288138 – empenhos 01/01/2021 a 31/12/2021 – dados apresentados apen
 
 ![image](https://user-images.githubusercontent.com/52920939/171876512-ea57ef76-9387-44ad-94bf-4a904fe4f94c.png)
  
-##### Situação 2 – Filtro com mais de um ano.
+##### Situação 2 – Filtro com mais de um ano - CORRIGIDO
 
 Ao selecionar o filtro de período, por exemplo 01/01/2021 a 31/12/2022, devem ser listados todos os empenhos referentes ao ano selecionado, adotando o comportamento de exibição de linhas para cada ano da execução do empenho e não o comportamento de somatório desses empenhos.
 
@@ -119,7 +119,7 @@ Utilize o mesmo comportamento adotado na consulta avançada.
 ![image](https://user-images.githubusercontent.com/52920939/171876619-b21811ae-d6f0-4464-a14d-57684cd66bc5.png)
 
 
-#### 2.4 OCULTAR EMPENHOS SEM EXECUÇÃO
+#### 2.4 OCULTAR EMPENHOS SEM EXECUÇÃO - DESCONSIDERAR
 Verificar o item - Correção 3: ocultar empenhos sem execução
 
 
