@@ -77,11 +77,11 @@ Exemplo: Empenho 237 da Controladoria Geral do Estado (projeto 9288155). Como n�
  
 ### CONSULTA POR EXECUÇÃO
 
-#### 2.1 ERRO – RESTOS A PAGAR
+#### 2.1 ERRO – RESTOS A PAGAR - CORRIGIDO
 
 Verificar o item relatado na consulta por projeto – 1.1 – ERRO – RESTOS A PAGAR
 
-#### 2.2 LISTA DA EXECUÇÃO DOS PROJETOS – NÍVEL 1- 
+#### 2.2 LISTA DA EXECUÇÃO DOS PROJETOS – NÍVEL 1- CORRIGIDO
 
 ##### Situação: FILTRO COM MAIS DE 1 ANO
 Ao selecionar no filtro de período, a opção com mais de 1 ano, o portal deverá apresentar o somatório dos dados de execução do filtro selecionado, e não a linha duplicada. 
