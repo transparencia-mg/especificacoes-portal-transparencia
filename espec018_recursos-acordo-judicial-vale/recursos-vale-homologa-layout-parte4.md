@@ -446,20 +446,19 @@ A formatação do cabeçalho da tabela deve ser alinhado à esquerda.
 </div>
 
 ---
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 ## 31.Tabelas modais - movíveis
 
-**CORRIGIR** verificado dia 12/07/2022
+**CORRIGIDO** Verificado em 10/08/2022
 --
 
 O símbolo (cruz) de mover ainda não está sendo exibido. Ver imagem comparativa entre a consulta da Vale e a Consulta de Remuneração
 
----
-**VERIFICAR** Verificado em 21/06/2022
+
 --
-* A funcionalidade até foi aplicada, mas é preciso que ao clicar na tabela modal a mesma apresente o símbolo de mover assim como ocorre na consulta de Remuneração.
-Da forma que foi implementada não oferece indicativo que é possível mover a tabela modal.
+* ~A funcionalidade até foi aplicada, mas é preciso que ao clicar na tabela modal a mesma apresente o símbolo de mover assim como ocorre na consulta de Remuneração.
+Da forma que foi implementada não oferece indicativo que é possível mover a tabela modal.~
 
 ---
 Todas as tabelas modais (pesquisa básica e avançada) deverão ser movíveis, ex. [PDT Remuneração](https://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/202203/2/1064/3978/C/3968566/1001/27364479)
@@ -480,11 +479,11 @@ Conforme relatado no issues [#71](https://github.com/transparencia-mg/especifica
 
 ---
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 ## 34.Compartilhar
 
-**Corrigido parcialmente** 12/07/2022
+**Corrigido** - Verificado em 10/08/2022
 --
 Em verificação ocorrida no dia 12/07/2022 a correção foi aplicada apenas na pesquisa básica. A pesquisa avançada ainda encontra-se com o problema - ver imagem abaixo:
 
@@ -561,14 +560,14 @@ O filtro período deve estar disposto na barra de navegação vertical e essa de
 </div>
 
 ---
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 ## 39. Barra vertical - horizonte de cobertura
 
-**CORRIGIDO PARCIALMENTE** - Verificado em 12/07/2022 -> Não é possível a conferência, pois ao selecionar os itens o usuário é direcionado para a página inicial
+**CORRIGIDO** - Verificado em 10/08/22->
 --
 
-![](static/imagens/homologacao/erro-item-39.gif)
+![](static/imagens/homologacao/filtro-vertical.gif)
 
 
 O relato desse erro está detalhando no issues [#75](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/75)
@@ -712,13 +711,18 @@ Exemplo 2 - Existe paginação, porém ao solicitar a exibição de todas as lin
 
 # Novos itens identificados na conferência do dia 15/06/2022:
 
-
 <div class="alert alert-danger">
 
 ## 48. A legenda da tabela
 
-**CORRIGIDO PARCIALMENTE** verificado dia 12/07/2022
+**CORRIGIDO PARCIALMENTE** verificado dia 10/08/22
 --
+
+A legenda da tabela foi corrigida porém a correção impactou no título do gráfico
+
+![](static/imagens/homologacao/titulo-grafico2.png)
+
+**CORRIGIDO**
 
 Ao clicar na consulta 'Por execução' e selecionar um órgão no filtro a legenda está exibindo: **Projeto: Advocacia Geral do Estado**
 
@@ -784,10 +788,13 @@ O botão exportar deve ser retirado de todos os formulários de detalhamento, um
 
 ## 52. Falta colunas na tabela modal - monte sua pesquisa
 
-**CORRIDIDO PARCIALMENTE** Verificado dia 12/07/22
---
-Na tabela está faltando a coluna **Órgão**
---
+**NÃO CORRIGIDO** Verificado dia 10/08/2022
+
+1- a tabela está faltando a coluna **Órgão**
+
+2- Com a atualização do dia 10/08 o seguinte erro apareceu: O cabeçalho da coluna foi alterado, a solicitação era que fosse incluído e a coluna ano, mas a data de registro do empenho deveria ser mantida.
+
+
 
 [Ver documentação](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec018_recursos-acordo-judicial-vale/especifica%C3%A7%C3%A3o/recursos-vale-dados.md#tabela-de-resultados)
 
