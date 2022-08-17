@@ -18,7 +18,10 @@ A identificação das principais necessidades estão sendo objeto de elaboraçã
 
 ## [Consulta de Compras](https://www.transparencia.mg.gov.br/compras-e-patrimonio)
  
- - Link as informações de autorização de serviço e ordem de serviço do Portal de Compras para o Portal da Transparência assim como foi feito nos processos de compras que possuem Contratos;
+ - Link as informações de autorização de serviço e ordem de serviço do Portal de Compras para o Portal da Transparência assim como foi feito nos processos de compras que possuem Contratos. Exemplo: PROCESSO CGE 1521001 000011/2022
+
+https://www1.compras.mg.gov.br/processocompra/processo/abaHistoricoOsAf.html?aba=abaHistoricoOsAf&id=612610&metodo=visualizar
+
  - Incluir o link sobre os dados de despesa: linkar processo de compras com dados de despesa.
  
 ## Remuneração
