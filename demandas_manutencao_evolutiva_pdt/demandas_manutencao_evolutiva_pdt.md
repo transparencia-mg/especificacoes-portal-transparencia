@@ -16,6 +16,11 @@ A identificação das principais necessidades estão sendo objeto de elaboraçã
 
  - Alterar a forma de disponibilização da despesa com pessoal do Portal da Transparência, alinhando para que as informações estejam coerentes com os dados disponibilizados pela Secretaria de Fazenda
 
+## [Consulta de Compras](https://www.transparencia.mg.gov.br/compras-e-patrimonio)
+ 
+ - Link as informações de autorização de serviço e ordem de serviço do Portal de Compras para o Portal da Transparência assim como foi feito nos processos de compras que possuem Contratos;
+ - Incluir o link sobre os dados de despesa: linkar processo de compras com dados de despesa.
+ 
 ## Remuneração
  
  - Incluir a funcionalidade de número de admissão como chave primária na tabela do portal para não perder o histórico do servidor quando o mesmo trocar de nome ou alterar carga horária
