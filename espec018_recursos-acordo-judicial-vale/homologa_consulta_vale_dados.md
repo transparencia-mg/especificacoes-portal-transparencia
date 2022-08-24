@@ -43,7 +43,7 @@ Foram identificados erros nos seguintes projetos:
 ![image](https://user-images.githubusercontent.com/52920939/171876255-aeead151-43cf-4d8d-a7a1-0392e22678ba.png)
 
 
-#### 1.2 ERRO – LISTA DOS EMPENHOS NO NÍVEL 2
+#### 1.2 ERRO – LISTA DOS EMPENHOS NO NÍVEL 2 - CORRIGIDO
 
 Ao clicar em um projeto, o nível 2 da consulta apresenta a lista de empenhos. No entanto, o portal está considerando apenas os empenhos que tiveram execução no ano de 2022.
 
@@ -52,7 +52,7 @@ Para essa consulta, o portal deve listar todos os empenhos referentes ao projeto
 E em cada linha deve ser informada apenas os dados a que se refere o ano da linha.
 - Projeto 9288134
  
-![image](https://user-images.githubusercontent.com/52920939/171876296-b43ef78c-e0be-43e5-aae3-7c7089918a39.png)
+![image](https://user-images.githubusercontent.com/52920939/186486453-651ca1f5-c34b-46b3-a9d2-3facd864b716.png)
 
 
 Utilize o mesmo comportamento adotado na consulta avançada.
