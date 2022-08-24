@@ -491,12 +491,15 @@ Em verificação ocorrida no dia 12/07/2022 a correção foi aplicada apenas na 
 ---
 
 
-**Não Corrigido** - Verificado em 27/06/2022 => O link copiado não está funcionado dentro do formulário de detalhamento por meio da pesquisa avançada. Ver gif abaixo
+**Corrigido** - Verificado em 24/08/2022 => O link copiado não está funcionado dentro do formulário de detalhamento por meio da pesquisa avançada. Ver gif abaixo
 
 Conforme relatado no issues [#72](https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/72) o Link do Compartilhar > Copiar Link não abre o detalhamento em novo formulário de acesso
 
-verificado no dia 27/06/202203
+verificado no dia 27/06/2022
 ![](static/imagens/homologacao/compartilhar-link2.gif)
+  
+verificado no dia 24/08/2022 - correção realizada
+![](static/imagens/homologacao/compartilhar-link3.gif)
 </div>
 ---
 <div class="alert alert-success">
@@ -711,16 +714,17 @@ Exemplo 2 - Existe paginação, porém ao solicitar a exibição de todas as lin
 
 # Novos itens identificados na conferência do dia 15/06/2022:
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 ## 48. A legenda da tabela
 
-**CORRIGIDO PARCIALMENTE** verificado dia 10/08/22
+**CORRIGIDO** verificado dia 24/08/2022
 --
 
 A legenda da tabela foi corrigida porém a correção impactou no título do gráfico
 
-![](static/imagens/homologacao/titulo-grafico2.png)
+![image](https://user-images.githubusercontent.com/52920939/186432522-b2edaa50-5a1f-48de-a13a-6cfa4204747d.png)
+
 
 **CORRIGIDO**
 
@@ -784,22 +788,20 @@ O botão exportar deve ser retirado de todos os formulários de detalhamento, um
 # Novos itens identificados na conferência do dia 21/06/2022:
 
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
 ## 52. Falta colunas na tabela modal - monte sua pesquisa
 
-**NÃO CORRIGIDO** Verificado dia 10/08/2022
+**CORRIGIDO** Verificado dia 24/08/2022
 
 1- a tabela está faltando a coluna **Órgão**
 
 2- Com a atualização do dia 10/08 o seguinte erro apareceu: O cabeçalho da coluna foi alterado, a solicitação era que fosse incluído e a coluna ano, mas a data de registro do empenho deveria ser mantida.
 
-
-
 [Ver documentação](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec018_recursos-acordo-judicial-vale/especifica%C3%A7%C3%A3o/recursos-vale-dados.md#tabela-de-resultados)
 
+![image](https://user-images.githubusercontent.com/52920939/186433048-75925283-460f-4475-84b4-066877231953.png)
 
-![](static/imagens/homologacao/falta-coluna-tabela-modal.png)
 
 
 
