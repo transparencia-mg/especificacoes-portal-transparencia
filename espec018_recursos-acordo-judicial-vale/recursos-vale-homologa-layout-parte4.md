@@ -499,7 +499,7 @@ verificado no dia 27/06/2022
 ![](static/imagens/homologacao/compartilhar-link2.gif)
   
 verificado no dia 24/08/2022 - correção realizada
-![](static/imagens/homologacao/compartilhar-link3.gif)
+![](static/imagens/compartilhar-link3.webcam)
 </div>
 ---
 <div class="alert alert-success">
