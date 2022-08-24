@@ -806,6 +806,15 @@ O botão exportar deve ser retirado de todos os formulários de detalhamento, um
 ![image](https://user-images.githubusercontent.com/52920939/186433048-75925283-460f-4475-84b4-066877231953.png)
 
 
+# Novos itens identificados na conferência do dia 24/08/2022:
 
+
+<div class="alert alert-danger">
+
+## 53. Filtro da consulta execução aparece todas as opções
+
+1- Na consulta por execução (nível 1) ao selecionar um filtro, por exemplo "Controladoria Geral do Estado" e clicar em pesquisar, o portal exibe os dados de todos os órgão. 
+
+![image](static/imagens/homologacao/filtro_orgao.png)
 
 </div>
