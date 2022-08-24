@@ -499,7 +499,8 @@ verificado no dia 27/06/2022
 ![](static/imagens/homologacao/compartilhar-link2.gif)
   
 verificado no dia 24/08/2022 - correção realizada
-![](static/imagens/compartilhar-link3.webm)
+![](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec018_recursos-acordo-judicial-vale/static/imagens/compartilhar-link3.webm)
+  
 </div>
 ---
 <div class="alert alert-success">
