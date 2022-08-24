@@ -499,9 +499,9 @@ verificado no dia 27/06/2022
 ![](static/imagens/homologacao/compartilhar-link2.gif)
   
 verificado no dia 24/08/2022 - correção realizada
-![image](imagens/homologacao/compartilhar_link3.gif)
+![](static/imagens/homologacao/compartilhar_link3.gif)
 
-Link copiado: [teste compartilhar pesquisa avançada](https://age7-novo.homologacao.prodemge.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarConsultaLivre&amp;jform[ID_FONTE][0]=4&amp;jform[datainicio]=01/01/2021&amp;jform[datafim]=23/08/2022&amp;jform[codigo]=0&amp;jform[colunas]=PERIODO,FONTE,VR_EMPENHADO,VR_LIQUIDADO,VR_PAGO,VR_LIQUIDADO_RP,VR_PAGO_RP,VR_PAGO_TOTAL&amp;jform[push]=FONTE#:234447be010492eaf6b50abc5d92c8a6)
+
   
 </div>
 ---
@@ -827,7 +827,7 @@ O botão exportar deve ser retirado de todos os formulários de detalhamento, um
 
 Ao clicar na opção limpar filtro da consulta avançada, o portal limpa o filtro apenas dos dados exibidos no painel, mas ao retornar na barra vertical, os filtros permanecem selecionados.
   
-![image](static/imagens/homologacao/filtros_avancada.png)
+![](static/imagens/homologacao/filtros_avancada.gif)
 
 
 
