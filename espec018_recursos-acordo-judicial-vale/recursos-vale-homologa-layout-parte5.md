@@ -810,24 +810,23 @@ O botão exportar deve ser retirado de todos os formulários de detalhamento, um
 
   ----
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
 
-## 53. Filtro da consulta execução aparece todas as opções
+## 53. Filtro da consulta execução aparece todas as opções - CORRIGIDO VERFIICADO EM 30/08/2022
 
 1- Na consulta por execução (nível 1) ao selecionar um filtro, por exemplo "Controladoria Geral do Estado" e clicar em pesquisar, o portal exibe os dados de todos os órgão. 
 
-![image](static/imagens/homologacao/filtro_orgao.png)
+![image](https://user-images.githubusercontent.com/52920939/187423102-792e31dc-999d-4fdb-8e20-36cb4294483e.png)
 
 
   ----
-  
-<div class="alert alert-info">
+ <div class="alert alert-success">
 
-## 54. Limpar Filtro - consulta avançada
+## 54. Limpar Filtro - consulta avançada - CORRRIGIDO VERIFICADO EM 30/08/2022
 
 Ao clicar na opção limpar filtro da consulta avançada, o portal limpa o filtro apenas dos dados exibidos no painel, mas ao retornar na barra vertical, os filtros permanecem selecionados.
   
-![](static/imagens/homologacao/filtros_avancada.gif)
+![image](https://user-images.githubusercontent.com/52920939/187423048-94715228-6720-476d-8730-201498205249.png)
 
 
 
