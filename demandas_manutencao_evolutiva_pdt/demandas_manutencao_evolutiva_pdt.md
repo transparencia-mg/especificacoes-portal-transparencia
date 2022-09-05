@@ -156,6 +156,13 @@ Por exemplo, na consulta de despesa, o usuário poderá comparar dados de progra
 
 Exemplo: [Portal de Transparência de Linhares](https://linhares-es.portaltp.com.br/consultas/despesas/empenhos.aspx)
 
+## Consulta de Convênios de Entrada
+
+Incluir na consulta de convênios de entrada, um item referente a data do repasse.
+A inclusão será realizada alterando o layout do formulário de detalhamento e incluindo o item do SIAFI - Data Registro Doc Arrecadação
+![image](https://user-images.githubusercontent.com/52920939/188449968-37862f4f-a151-404c-9c5a-9812e04dd1d2.png)
+
+
 ## Consolidar os dados de Despesa e RP em uma única consulta
 
 Remodelagem das consultas despesas e restos a pagar de forma que as todas as etapas (empenho, liquidação, pagamento do exercício corrente e pagamento dos valores inscritos em RP) sejam apresentadas em uma única consulta.
