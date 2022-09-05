@@ -158,9 +158,12 @@ Exemplo: [Portal de Transparência de Linhares](https://linhares-es.portaltp.com
 
 ## Consulta de Convênios de Entrada
 
-Incluir na consulta de convênios de entrada, um item referente a data do repasse.
+- Incluir na consulta de convênios de entrada, um item referente a data do repasse.
 A inclusão será realizada alterando o layout do formulário de detalhamento e incluindo o item do SIAFI - Data Registro Doc Arrecadação
 ![image](https://user-images.githubusercontent.com/52920939/188449968-37862f4f-a151-404c-9c5a-9812e04dd1d2.png)
+
+- Atualmente o PDT apresenta apenas os convênios de entrada com Plano de Trabalho SIAFI tipo: Convênio de entrada, porém existem outros tipos. Verificar a transparência desses outros tipos.
+![image](https://user-images.githubusercontent.com/53793354/188454054-9434e31a-a27c-435a-9b46-ad5635ea734a.png)
 
 
 ## Consolidar os dados de Despesa e RP em uma única consulta
