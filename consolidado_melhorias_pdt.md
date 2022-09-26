@@ -29,6 +29,8 @@ Exemplo: Candidato Carlos Henrique de Oliveira -Edital SEPLAG/SED nº 08/2013 -
 ## Despesa de Pessoal
 
 ## Vale
+#### Problema 1:
+Trocar a ordem das colunas para: Valor empenhado, Valor Liquidado, Valor Liquidado RP, Valor Pago, Valor Pago RP, Valor Total Pago
 
 ## PPAG
 
