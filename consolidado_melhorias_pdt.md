@@ -23,6 +23,12 @@ Exemplo: Candidato Carlos Henrique de Oliveira -Edital SEPLAG/SED nº 08/2013 -
 ## Convênio de Entrada
 
 ## Convênio de Saída
+#### Problema 1: 
+Alguns valores dos convênios que estão no PDT estão classificados como "recurso de emenda parlamentar", mas deveriam estar classificados como "recurso concedente". As divergências ocorrem porque o  campo "VALOR PARLAMENTAR ATUAL' do sistema transacional SIGCON-SAÍDA é utilizado tanto  para recursos de emendas parlamentares e para convênios celebrados com recursos concedentede uma fonte especifica. Como o PDT extrai a informação diretamente do SIGCON não é possível atualmente fazer essa diferenciação entre os valores pois na view disponibilizada eles estão na mesma categoria.
+
+Nesse sentido, segundo ainda a SEGOV será necessário é alterar alguma regra de leitura do dado no momento da disponibilização no Portal.
+
+[Detalhes do problema](https://trello.com/c/uFIGPEC1/1081)
 
 ## Remuneração
 
