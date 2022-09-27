@@ -18,12 +18,12 @@ A identificação das principais necessidades estão sendo objeto de elaboraçã
 
 ## [Consulta de Compras](https://www.transparencia.mg.gov.br/compras-e-patrimonio)
  
- - Link as informações de autorização de serviço e ordem de serviço do Portal de Compras para o Portal da Transparência assim como foi feito nos processos de compras que possuem Contratos. Exemplo: PROCESSO CGE 1521001 000011/2022
-
-https://www1.compras.mg.gov.br/processocompra/processo/abaHistoricoOsAf.html?aba=abaHistoricoOsAf&id=612610&metodo=visualizar
-
- - Incluir o link sobre os dados de despesa: linkar processo de compras com dados de despesa.
+ 1 - Acrescentarinformações de autorização de serviço e ordem de serviço para os processos que não possuem Contrato. [Ver detalhes](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/consolidado_melhorias_pdt/consolidado_melhorias_pdt.md#problema-1-1)
  
+ 2- Apresentar toda execução do Processo de Compra. [Ver detalhes](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/consolidado_melhorias_pdt/consolidado_melhorias_pdt.md#problema-2)
+
+3- Alterar o link do Edital do Processo de Compra. [Ver detalhes](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/consolidado_melhorias_pdt/consolidado_melhorias_pdt.md#problema-3)
+
 ## Remuneração
  
  - Incluir a funcionalidade de número de admissão como chave primária na tabela do portal para não perder o histórico do servidor quando o mesmo trocar de nome ou alterar carga horária
