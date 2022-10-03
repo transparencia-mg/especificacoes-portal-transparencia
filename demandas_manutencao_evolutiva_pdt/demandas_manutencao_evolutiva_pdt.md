@@ -2,9 +2,7 @@
 
 ## Despesa de Pessoal
 
-## Consulta de Despesa
-
- - Alterar a forma de disponibilização da despesa com pessoal do Portal da Transparência, alinhando para que as informações estejam coerentes com os dados disponibilizados pela Secretaria de Fazenda
+1- Alterar a forma de disponibilização da despesa com pessoal do Portal da Transparência, alinhando para que as informações estejam coerentes com os dados disponibilizados pela Secretaria de Fazenda
 
 ## Remuneração
  
