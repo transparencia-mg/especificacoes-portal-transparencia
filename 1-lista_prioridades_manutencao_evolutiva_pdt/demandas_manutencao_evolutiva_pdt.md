@@ -1,6 +1,6 @@
 # Ordem de prioridades das demandas de manutenção evolutiva para intervenções no Portal de Transparência
 
-## 1- Dívida Pública
+## Dívida Pública
 
 - [ ] 1-  Alterar o mapa de carga da consulta execução da Dívida Pública conforme estabelecido pela equipe responsável da SEF. [Ver detalhes]()
 
