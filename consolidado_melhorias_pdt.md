@@ -136,7 +136,7 @@ Para solucionar esse problma será preciso alterar o credor beneficiário da Di�
 Foi questionado pela equipe da SEF - Diretoria Central de Gestão da Dívida Pública  que os valores publicados no portal da Transparência, ano 2021, referentes aos valores da Dívida Pública do Estado MG encontram divergentes dos valores publicados no portal da dívida.
 Nesse sentido a DTA realizou um comparativo entre as informações disponibilizadas pela SEF e PDT e foi identificado a utilização de outros filtros(campos) diferente dos utilizados pela DTA.
 
-A nova especificação conforme dados da SEF está disponível em []().
+A nova especificação conforme dados da SEF está disponível em - [Especificação](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec021_divida-publica/espec021_divida-publica/especificacao-divida-publica.md) <br>.
 
 ## Layout - Pesquisa Avançada
 
