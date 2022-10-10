@@ -107,6 +107,13 @@ Essa opção pode ser incluída na remodelagem das página intermediárias
 #### Problema 1:
 Atualmente a consulta de despesa de pessoal d PDT encontra-se divergente da dados disponibilizados pela Secretaria de Fazenda. Nesse sentido será necessário a intervenção nessa consulta
 
+Ajustamos os dados da consulta no armazém e passando a apresentar todas as despesas do Grupo Despesa: Pessoal e Encargos Sociais, a consulta evidenciou um valor bem mais próximo do que o divulgado no [Relatório de Gestão Fiscal de 2021](http://www.fazenda.mg.gov.br/governo/contadoria_geral/gestaofiscal/ano2021/):
+![image](https://user-images.githubusercontent.com/52920939/194880144-b3c04eb7-7f2c-4284-8592-dfb076da3b7c.png)
+
+Necessitando agora entender quais os elementos itens de despesa devem ser descartados da consulta do portal.
+![image](https://user-images.githubusercontent.com/52920939/194880260-083f3661-d792-48c5-a179-44269fc9f2a6.png)
+![image](https://user-images.githubusercontent.com/52920939/194880318-e3594ad6-15be-4e8c-9657-642057a660a1.png)
+
 
 ## Acordo Judicial de Reparação da Vale
 <a href="#top">(inicio)</a>
