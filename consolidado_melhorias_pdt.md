@@ -1,12 +1,12 @@
 # Consolidado de melhorias a serem implementadas no Portal de Transparência
 
-A fim de permitir ao cidadão a inserção em um contexto participativo na gestão pública, a Controladoria Geral do Estado, por meio da Diretoria Central de Transparência Ativa - DTA e em parceria com Laboratório de Inovação (LAB.MG) - SEPLAG realizaram em 2021 o "Projeto Experiência do Usuário no Portal da Transparência".
+## Dívida Pública
+<a href="#top">(inicio)</a>
 
-O Projeto teve como objetivo, dentre outros, entender melhor as demandas dos usuários fazendo com que os mesmos se sintam satisfeitos em usar as funcionalidades do PdT. Sendo assim foi preciso estudar, compreender e avaliar todo comportamento do usuário, levando em consideração uma serie de aspectos como usabilidade, fluidez e etc.
+Foi questionado pela equipe da SEF - Diretoria Central de Gestão da Dívida Pública  que os valores publicados no portal da Transparência, ano 2021, referentes aos valores da Dívida Pública do Estado MG encontram divergentes dos valores publicados no portal da dívida.
+Nesse sentido a DTA realizou um comparativo entre as informações disponibilizadas pela SEF e PDT e foi identificado a utilização de outros filtros(campos) diferente dos utilizados pela DTA.
 
-O projeto foi dividido em etapas sequenciais que visou o entendimento do problema à implementação das soluções propostas, seguidas por uma manutenção evolutiva das soluções.
-
-A identificação das principais necessidades estão sendo objeto de elaboração de especificações que serão disponibilizadas a PRODEMGE para que possam ser implementadas.
+A nova especificação conforme dados da SEF está disponível em - [Especificação](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec021_divida-publica/espec021_divida-publica/especificacao-divida-publica.md) <br>.
 
 ## Concursos Realizados
 <a href="#top">(inicio)</a>
@@ -129,14 +129,6 @@ Para solucionar esse problma será preciso alterar o credor beneficiário da Di�
 
 ## Viagens
 <a href="#top">(inicio)</a>
-
-## Dívida Pública
-<a href="#top">(inicio)</a>
-
-Foi questionado pela equipe da SEF - Diretoria Central de Gestão da Dívida Pública  que os valores publicados no portal da Transparência, ano 2021, referentes aos valores da Dívida Pública do Estado MG encontram divergentes dos valores publicados no portal da dívida.
-Nesse sentido a DTA realizou um comparativo entre as informações disponibilizadas pela SEF e PDT e foi identificado a utilização de outros filtros(campos) diferente dos utilizados pela DTA.
-
-A nova especificação conforme dados da SEF está disponível em - [Especificação](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec021_divida-publica/espec021_divida-publica/especificacao-divida-publica.md) <br>.
 
 ## Layout - Pesquisa Avançada
 
