@@ -68,7 +68,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 * No campo da data o usuário poderá selecionar ou digitar a data na caixa.
 * O campo período será no formato **dd/mm/aaaa** composto por início e fim (eg. 01/04/2021 a 30/12/2021);<br><br>
 
-
+![](static/formato-data.gif)
 
 ## Leiaute - Tabelas navegação
 <a href="#top">(inicio)</a>
