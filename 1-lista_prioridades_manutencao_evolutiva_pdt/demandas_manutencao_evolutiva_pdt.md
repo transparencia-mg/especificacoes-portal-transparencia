@@ -7,6 +7,11 @@
        - [Detalhes da discussão](https://github.com/transparencia-mg/especificacoes-portal-transparencia/edit/lista_prioridades_manutencao_evolutiva_pdt/1-lista_prioridades_manutencao_evolutiva_pdt/demandas_manutencao_evolutiva_pdt.md)<br>
        - [Reuniões]()
 
+## Convênio de Saída
+
+- [ ] 1-  Alterar regra de leitura dos dados no momento da disponibilização no Portal para adequar os valores dos recursos de emendas parlamentares e convênios celebrados com recursos concedentes conforme definido pela equipe gestora do SIGCON-SAÍDA<br>
+       - [Demanda SEGOV](https://trello.com/c/uFIGPEC1/1081)
+
 ## Despesa de Pessoal
 
 - [ ] 1 - Alterar a forma de disponibilização da despesa com pessoal do Portal da Transparência, alinhando para que as informações estejam coerentes com os dados disponibilizados pela Secretaria de Fazenda
