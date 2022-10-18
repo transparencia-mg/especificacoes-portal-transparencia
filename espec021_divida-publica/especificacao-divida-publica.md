@@ -109,21 +109,21 @@ A barra de navegação superior será composta pelos seguintes campos:
 <a href="#top">(inicio)</a>
 
 * **Download PDF:** O documento gerado em PDF deverá exibir:
- * logo do Portal de Transparência no início da página e
- * *URL*, paginação e a data no fim da página.
- * O arquivo gerado irá exibir os mesmos dados apresentados na tela considerando todos os filtros aplicados e inclusive o TOTAL GERAL ou SUBTOTAL conforme o comportamento do usuário.
- * ao selecionar essa opção o arquivo PDF deverá ser aberto em outra aba do navegador
+  * logo do Portal de Transparência no início da página e
+  * *URL*, paginação e a data no fim da página.
+  * O arquivo gerado irá exibir os mesmos dados apresentados na tela considerando todos os filtros aplicados e inclusive o TOTAL GERAL ou SUBTOTAL conforme o comportamento do usuário.
+  * ao selecionar essa opção o arquivo PDF deverá ser aberto em outra aba do navegador
 
 
 * **Download Planilha (CSV):**
- * Será exibido a tabela completa de todas as páginas no formato CSV, independente do filtro aplicado.
- * Exibir código e descrição em campos distintos, independente de o usuário selecionar a opção '*Exibir código e descrição*'
+  * Será exibido a tabela completa de todas as páginas no formato CSV, independente do filtro aplicado.
+  * Exibir código e descrição em campos distintos, independente de o usuário selecionar a opção '*Exibir código e descrição*'
 
 
 * **Download base completa:**
- * O usuário será direcionado para o conjunto de dados da respectiva consulta no Portal de Dados Abertos.
- *O PdT deverá permitir que a equipe DTA inclua/altere a *url* desse campo através da área administrativa do Portal.                  
- * O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA decida se o campo Download Base Completa será exibido ou não no botão 'Download'
+  * O usuário será direcionado para o conjunto de dados da respectiva consulta no Portal de Dados Abertos.
+  *O PdT deverá permitir que a equipe DTA inclua/altere a *url* desse campo através da área administrativa do Portal.                  
+  * O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA decida se o campo Download Base Completa será exibido ou não no botão 'Download'
 
 ### Barra de pesquisa
 
@@ -150,23 +150,28 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
   - [Tipo]() -> ao clicar o usuário será direcionado para o 2º nível
   - Juros e Encargos da Dívida
   - Amortização da Dívida
-  - Total Realizado<br>
+  - Valor Total Liquidado<br>
 
+![image](https://user-images.githubusercontent.com/53793354/196471656-c57a815e-b03f-43b2-88a6-af4d6ce26d07.png)
 
 * 2º NÍVEL
   - [Credor]() -> ao clicar o usuário será direcionado para o 3º nível
   - CNPJ
   - Juros e Encargos da Dívida
   - Amortização da Dívida
-  - Total Realizado<br>
+  - Valor Total Liquidado<br>
 
+![image](https://user-images.githubusercontent.com/53793354/196471951-e972e04f-f18d-41bc-a135-0f6bf44874e5.png)
 
 * 3º NÍVEL
   - Número do contrato
   - Número SIAFI
   - Juros e Encargos da Dívida
   - Amortização da Dívida
-  - Total Realizado<br>
+  - Valor Total Liquidado<br>
+  
+![image](https://user-images.githubusercontent.com/53793354/196472097-b515f944-ffea-4ca2-ae36-5d3e2cc2dd18.png)
+
 
 ## Campos Pesquisa básica - Navegação por filtros
 <a href="#top">(inicio)</a>
@@ -197,7 +202,7 @@ Essa consulta será anual, ou seja, o usuário irá visualizar a execução da D
 | Projeto_Atividade - Descrição |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Programa de Trabalho - Despesa| Tipo |   
 | Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |  - Amortização da Dívida
 | Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |  - Juros e Encargos da Dívida
-| Valor Despesa Liquidada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Total Realizado | Valor despesa liquidada referente ao somatório dos juros e encargos da dívida mais a amortização da dívida
+| Valor Despesa Liquidada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Valor Total Liquidado | Valor despesa liquidada referente ao somatório dos juros e encargos da dívida mais a amortização da dívida
 
 * **2º NÍVEL**
 
@@ -212,7 +217,7 @@ A navegabilidade para o segundo nível irá ocorre apenas nos projetos atividade
 | CNPJ_CPF Credor Numérico |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Credor - Despesa| CNPJ |
 | Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa | Amortização da Dívida
 | Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |   Juros e Encargos da Dívida
-| Valor Despesa Liquidada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Total Realizado| Valor despesa liquidada referente ao somatório dos juros e encargos da dívida mais a amortização da dívida
+| Valor Despesa Liquidada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Valor Total Liquidado| Valor despesa liquidada referente ao somatório dos juros e encargos da dívida mais a amortização da dívida
 
 * **3º NÍVEL**
 
@@ -224,4 +229,4 @@ A navegabilidade para o segundo nível irá ocorre apenas nos projetos atividade
 | Contrato Convênio Entrada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados do Empenho - Despesa| Número SIAFI|
 | Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa | Amortização da Dívida
 | Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |   Juros e Encargos da Dívida
-| Valor Despesa Liquidada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Total Realizado| Valor despesa liquidada referente ao somatório dos juros e encargos da dívida mais a amortização da dívida
+| Valor Despesa Liquidada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Valor Total Liquidado| Valor despesa liquidada referente ao somatório dos juros e encargos da dívida mais a amortização da dívida
