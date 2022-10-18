@@ -11,7 +11,7 @@
 ## Convênio de Saída
 
 - [ ] 1-  Alterar regra de leitura dos dados no momento da disponibilização no Portal para adequar os valores dos recursos de emendas parlamentares e convênios celebrados com recursos concedentes conforme definido pela equipe gestora do SIGCON-SAÍDA<br>
-       - [Demanda SEGOV](https://trello.com/c/uFIGPEC1/1081)
+       - [Acompanhamento trello](https://trello.com/c/uFIGPEC1/1081)
 
 ## Despesa de Pessoal
 
