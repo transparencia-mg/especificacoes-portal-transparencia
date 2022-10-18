@@ -154,30 +154,33 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 
 
 * 2º NÍVEL
-  * [Credor]() -> ao clicar o usuário será direcionado para o 3º nível
+  - [Credor]() -> ao clicar o usuário será direcionado para o 3º nível
   - CNPJ
   - Juros e Encargos da Dívida
   - Amortização da Dívida
   - Total Realizado<br>
 
+
 * 3º NÍVEL
-- Número do contrato
-- Número SIAFI
-- Juros e Encargos da Dívida
-- Amortização da Dívida
-- Total Realizado<br>
+  - Número do contrato
+  - Número SIAFI
+  - Juros e Encargos da Dívida
+  - Amortização da Dívida
+  - Total Realizado<br>
 
 ## Campos Pesquisa básica - Navegação por filtros
 <a href="#top">(inicio)</a>
 
 Os dados dessa consulta serão extraídos do Universo BO SIAFI:
-  * Armazém BO / Pastas públicas - SIAFI > SUPORTE- SIAFI > CGE > Consulta Vale Recursos Vale> TELA ÓRGÃO
+  * Armazém BO / Pastas públicas - SIAFI > SUPORTE- SIAFI > CGE > Nova-espec-divida-publica
 
 #### Filtros da Consulta
 
-* 1º NÍVEL
+* **1º NÍVEL**
 
 Essa consulta será anual, ou seja, o usuário irá visualizar a execução da Dívida Pública conforme o período selecionado.
+
+=>> Consulta BO: 1º nível - Tipo
 
 | Armazém BO- SIAFI |Dimensão SIAFI| Filtro  |
 |----|----------|------------|
@@ -194,4 +197,31 @@ Essa consulta será anual, ou seja, o usuário irá visualizar a execução da D
 | Projeto_Atividade - Descrição |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Programa de Trabalho - Despesa| Tipo |   
 | Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |  - Amortização da Dívida
 | Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |  - Juros e Encargos da Dívida
-| Valor Despesa Liquidada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Total Realizado
+| Valor Despesa Liquidada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Total Realizado | Valor despesa liquidada referente ao somatório dos juros e encargos da dívida mais a amortização da dívida
+
+* **2º NÍVEL**
+
+=>> Consulta BO: 2º nível - Dívida Interna ou Dívida Externa
+
+**Observação:**      
+A navegabilidade para o segundo nível irá ocorre apenas nos projetos atividades:<br> - Gestão da Dívida Fundada Contratual Externa e<br>  - Gestão da Dívida Fundada Contratual Interna
+
+| Armazém BO- SIAFI |Dimensão SIAFI| Campo PDT| Tooltip - PDT|
+|----|----------|------------|----------|
+| Razão Social do Credor |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Credor - Despesa| Credor |   
+| CNPJ_CPF Credor Numérico |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Credor - Despesa| CNPJ |
+| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa | Amortização da Dívida
+| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |   Juros e Encargos da Dívida
+| Valor Despesa Liquidada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Total Realizado| Valor despesa liquidada referente ao somatório dos juros e encargos da dívida mais a amortização da dívida
+
+* **3º NÍVEL**
+
+=>> Consulta BO: 3º nível -Contratos
+
+| Armazém BO- SIAFI |Dimensão SIAFI| Campo PDT| Tooltip - PDT|
+|----|----------|------------|----------|
+| Num Ref Contrato Convênio Entrada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados do Empenho - Despesa| Número do Contrato |   
+| Contrato Convênio Entrada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados do Empenho - Despesa| Número SIAFI|
+| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa | Amortização da Dívida
+| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |   Juros e Encargos da Dívida
+| Valor Despesa Liquidada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Total Realizado| Valor despesa liquidada referente ao somatório dos juros e encargos da dívida mais a amortização da dívida
