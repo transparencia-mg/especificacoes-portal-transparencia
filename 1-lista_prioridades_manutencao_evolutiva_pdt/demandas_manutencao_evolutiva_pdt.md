@@ -5,7 +5,8 @@
 - [ ] 1-  Alterar o mapa de carga da consulta execução da Dívida Pública conforme estabelecido pela equipe responsável da SEF.<br> 
        - [Especificação](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec021_divida-publica/espec021_divida-publica/especificacao-divida-publica.md) <br>
        - [Detalhes da discussão](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/consolidado_manutencao_evolutiva_pdt/consolidado_melhorias_pdt.md)<br>
-       - [Reuniões](https://github.com/transparencia-mg/notas-reunioes/blob/master/notas/2022-XX_XX%20pauta_CGE-SEF%20-%20DIVIDA_PUBLICA.md)
+       - [Reuniões](https://github.com/transparencia-mg/notas-reunioes/blob/master/notas/2022-XX_XX%20pauta_CGE-SEF%20-%20DIVIDA_PUBLICA.md)<br>
+       - [Acompanhamento no trello](https://trello.com/c/PMROoPKi/1080-verificar-valores-da-consulta-execu%C3%A7%C3%A3o-da-d%C3%ADvida-p%C3%BAbica-e-escrever-nova-especifica%C3%A7%C3%A3o)
 
 ## Convênio de Saída
 
