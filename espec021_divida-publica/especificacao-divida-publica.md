@@ -47,13 +47,15 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 
 >A [`Dívida Pública`]((a "Compromissos financeiros assumidos pelo governo, podem ser dívida pública interna (entidade pública dentro do país) e dívida pública externa (entidade pública no exterior).") pode ser conceituada como o conjunto de obrigações financeiras do Estado decorrente da necessidade de captação de recursos para execução de políticas públicas.
 >
-> A gestão da dívida pública estadual está fundamentada em um arcabouço jurídico-orçamentária que confere legitimidade ao processo de atendimento das necessidades de financiamento do governo e corrobora o compromisso da Subsecretaria do Tesouro Estadual – STE, inserida na estrutura organizacional da Secretaria de Estado de Fazenda de Minas Gerais de Minas Gerais - SEF/MG, de minimizar o custo da dívida em uma perspectiva de médio e longo prazos, visando assegurar a sustentabilidade do endividamento
+> A gestão da dívida pública estadual está fundamentada em um arcabouço jurídico-orçamentária que confere legitimidade ao processo de atendimento das necessidades de financiamento do governo e corrobora o compromisso da Subsecretaria do Tesouro Estadual – STE, inserida na estrutura organizacional da Secretaria de Estado de Fazenda de Minas Gerais de Minas Gerais - SEF/MG, de minimizar o custo da dívida em uma perspectiva de médio e longo prazo, visando assegurar a sustentabilidade do endividamento.
 >
->No âmbito da Secretaria de Estado da Fazenda, o [Decreto Estadual nº 47.794/19](https://www.almg.gov.br/consulte/legislacao/completa/completa-nova-min.html?tipo=DEC&num=47794&comp=&ano=2019&texto=consolidado#texto) estabeleceu a gestão do endividamento estatal como competência da Subsecretaria do Tesouro Estadual – STE, por meio da Superintendência Central de Governança de Ativos e da Dívida Pública – SCGOV.
+> No âmbito da Secretaria de Estado da Fazenda, o [Decreto Estadual nº 47.794/19](https://www.almg.gov.br/consulte/legislacao/completa/completa-nova-min.html?tipo=DEC&num=47794&comp=&ano=2019&texto=consolidado#texto) estabeleceu a gestão do endividamento estatal como competência da Subsecretaria do Tesouro Estadual – STE, por meio da Superintendência Central de Governança de Ativos e da Dívida Pública – SCGOV.
+> 
+> Outras informações sobre as obrigações financeiras do Estado podem ser consultadas no [Portal da Dívida Pública - SEF/MG](http://www.fazenda.mg.gov.br/tesouro-estadual/divida-publica/portal-da-divida-publica-estadual/).
 
 ##### Tooltip dos termos destacados dentro do texto inicial
 
-- Compromissos financeiros assumidos pelo governo, podem ser dívida pública interna (entidade pública dentro do país) e dívida pública externa (entidade pública no exterior).
+- Compromissos financeiros assumidos pelo governo. Esses compromissos se dividem em dívida pública interna (entidade pública dentro do país) e dívida pública externa (entidade pública no exterior).
 
 **Observação:**<br> Ao clicar em qualquer termo destacado o usuário será direcionado para o termo especifico dentro do glossário do Portal.
 
@@ -85,7 +87,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 * Como padrão os dados serão exibidos no formato de tabela e caso o usuário queira visualizar os dados em forma de gráfico deve clicar em '*Exibir Gráfico*' e os dados da tabela serão deslocados para baixo. Para retornar a exibição apenas no formato tabela o usuário deve clicar em '*Fechar Gráfico*'
 
-* A opção de 'Exibir linhas' (quantidade de linhas) será exibida na parte superior da tabela.
+* A opção de 'Linhas' (quantidade de linhas) será exibida na parte superior da tabela.
 
 * Os valores TOTAL GERAL e o SUBTOTAL serão exibidos na tabela de resultados de acordo com o comportamento do usuário:
 
@@ -128,7 +130,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 * **Download base completa:**
   * O usuário será direcionado para o conjunto de dados da respectiva consulta no Portal de Dados Abertos.
-  *O PdT deverá permitir que a equipe DTA inclua/altere a *url* desse campo através da área administrativa do Portal.                  
+  * O PdT deverá permitir que a equipe DTA inclua/altere a *url* desse campo através da área administrativa do Portal.                  
   * O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA decida se o campo Download Base Completa será exibido ou não no botão 'Download'
 
 ### Barra de pesquisa
@@ -206,7 +208,7 @@ Essa consulta será anual, ou seja, o usuário irá visualizar a execução da D
 | Armazém BO- SIAFI |Dimensão SIAFI| Campo PDT| Tooltip - PDT|
 |----|----------|------------|----------|
 | Projeto_Atividade - Descrição |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Programa de Trabalho - Despesa| Tipo |   
-| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |  Amortização da Dívida| Amortização efetiva do principal da dívida pública contratual, interna eexterna e outros compromissos assumidos
+| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |  Amortização da Dívida| Amortização efetiva do principal da dívida pública contratual, interna e externa e outros compromissos assumidos
 | Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |Juros e Encargos da Dívida| Taxas, Comissões, prêmios, e outros encargos com operações de crédito internas e externas e outros compromissos assumidos
 | Valor Despesa Liquidada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Valor Total Liquidado | Valor despesa liquidada referente ao somatório dos juros e encargos da dívida mais a amortização da dívida
 
