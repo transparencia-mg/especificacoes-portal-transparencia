@@ -18,7 +18,7 @@ Essa demanda visa alterar o mapa de carga da consulta execução da Dívida Púb
 # Motivação / contexto da demanda
 <a href="#top">(inicio)</a>
 
-Foi questionado pela equipe da SEF - Diretoria Central de Gestão da Dívida Pública que os dados publicados no portal da Transparência, ano 2021, referentes aos valores da Dívida Pública do Estado MG encontram divergentes dos valores publicados no portal da dívida.
+Foi questionado pela equipe da SEF - Diretoria Central de Gestão da Dívida Pública que os dados publicados no portal da Transparência, ano 2021, referentes aos valores da Dívida Pública do Estado MG encontram divergentes dos valores publicados no [Portal da Dívida Pública](http://www.fazenda.mg.gov.br/tesouro-estadual/divida-publica/portal-da-divida-publica-estadual/).
 
 # Especificação
 <a href="#top">(inicio)</a>
@@ -49,7 +49,7 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 >
 > A gestão da dívida pública estadual está fundamentada em um arcabouço jurídico-orçamentária que confere legitimidade ao processo de atendimento das necessidades de financiamento do governo e corrobora o compromisso da Subsecretaria do Tesouro Estadual – STE, inserida na estrutura organizacional da Secretaria de Estado de Fazenda de Minas Gerais de Minas Gerais - SEF/MG, de minimizar o custo da dívida em uma perspectiva de médio e longo prazos, visando assegurar a sustentabilidade do endividamento
 >
->No âmbito da Secretaria de Estado da Fazenda, o Decreto Estadual nº 47.794/19 estabeleceu a gestão do endividamento estatal como competência da Subsecretaria do Tesouro Estadual – STE, por meio da Superintendência Central de Governança de Ativos e da Dívida Pública – SCGOV.
+>No âmbito da Secretaria de Estado da Fazenda, o [Decreto Estadual nº 47.794/19](https://www.almg.gov.br/consulte/legislacao/completa/completa-nova-min.html?tipo=DEC&num=47794&comp=&ano=2019&texto=consolidado#texto) estabeleceu a gestão do endividamento estatal como competência da Subsecretaria do Tesouro Estadual – STE, por meio da Superintendência Central de Governança de Ativos e da Dívida Pública – SCGOV.
 
 ##### Tooltip dos termos destacados dentro do texto inicial
 
@@ -79,7 +79,9 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 * A pesquisa básica irá apresentar como padrão a tabela de resultados com os dados do exercício vigente.
 
-* A data de atualização dos dados (*Dados atualizados em*), o período, o ícone *Exibir Gráfico* ou *Fechar Gráfico*, Download, Compartilhar serão exibidos acima do gráfico/tabela de resultados.(MELHORAR)
+* A data de atualização dos dados (*Dados atualizados em*), o período, o ícone *Exibir Gráfico* ou *Fechar Gráfico*, Download, Compartilhar serão exibidos acima do gráfico/tabela de resultados, assim como ocorre na consulta do Acordo Judicial de Reparação da Vale:
+
+![image](https://user-images.githubusercontent.com/52920939/196715269-7a603f03-4233-4eb3-9b64-4f5e724cff82.png)
 
 * Como padrão os dados serão exibidos no formato de tabela e caso o usuário queira visualizar os dados em forma de gráfico deve clicar em '*Exibir Gráfico*' e os dados da tabela serão deslocados para baixo. Para retornar a exibição apenas no formato tabela o usuário deve clicar em '*Fechar Gráfico*'
 
