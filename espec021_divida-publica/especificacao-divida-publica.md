@@ -29,12 +29,12 @@ Esse documento tem como base a alteração do mapa de carga da consulta 'Execuç
 ## Página Inicial - Pesquisa Básica
 <a href="#top">(inicio)</a>
 
-## Texto explicativo
+### Texto explicativo
 <a href="#top">(inicio)</a>
 
 Inclusão de um campo que irá trazer uma breve explicação do conteúdo da consulta.
 
-##### Atributos do campo<br><br> Exemplo: [Página Inicial - Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=)
+#### Atributos do campo<br><br> Exemplo: [Página Inicial - Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=)
 
 
 1. O usuário poderá exibir mais detalhes do texto ao clicar em ***Mais*** ou ocultar ao clicar ***Menos***;
@@ -45,13 +45,17 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 
 ##### Texto Introdutório
 
->A dívida pública pode ser conceituada como o conjunto de obrigações financeiras do Estado decorrente da necessidade de captação de recursos para execução de políticas públicas.
+>A [`Dívida Pública`]((a "Compromissos financeiros assumidos pelo governo, podem ser dívida pública interna (entidade pública dentro do país) e dívida pública externa (entidade pública no exterior).") pode ser conceituada como o conjunto de obrigações financeiras do Estado decorrente da necessidade de captação de recursos para execução de políticas públicas.
 >
 > A gestão da dívida pública estadual está fundamentada em um arcabouço jurídico-orçamentária que confere legitimidade ao processo de atendimento das necessidades de financiamento do governo e corrobora o compromisso da Subsecretaria do Tesouro Estadual – STE, inserida na estrutura organizacional da Secretaria de Estado de Fazenda de Minas Gerais de Minas Gerais - SEF/MG, de minimizar o custo da dívida em uma perspectiva de médio e longo prazos, visando assegurar a sustentabilidade do endividamento
 >
 >No âmbito da Secretaria de Estado da Fazenda, o Decreto Estadual nº 47.794/19 estabeleceu a gestão do endividamento estatal como competência da Subsecretaria do Tesouro Estadual – STE, por meio da Superintendência Central de Governança de Ativos e da Dívida Pública – SCGOV.
 
-##### Tooltip de termos
+##### Tooltip dos termos destacados dentro do texto inicial
+
+- Compromissos financeiros assumidos pelo governo, podem ser dívida pública interna (entidade pública dentro do país) e dívida pública externa (entidade pública no exterior).
+
+**Observação:**<br> Ao clicar em qualquer termo destacado o usuário será direcionado para o termo especifico dentro do glossário do Portal.
 
 
 ## Leiaute - Barra de navegação
@@ -63,7 +67,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 * Fim (dd/mm/aaaa)
 * Botão *'Pesquisar'*
 
-##### Atributos do campo<br><br>Exemplo: [Portal de Transparêcia ES](https://transparencia.es.gov.br/Despesa)
+#### Atributos do campo<br><br>Exemplo: [Portal de Transparêcia ES](https://transparencia.es.gov.br/Despesa)
 
 * No campo da data o usuário poderá selecionar ou digitar a data na caixa.
 * O campo período será no formato **dd/mm/aaaa** composto por início e fim (eg. 01/04/2021 a 30/12/2021);<br><br>
@@ -169,7 +173,7 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
   - Juros e Encargos da Dívida
   - Amortização da Dívida
   - Valor Total Liquidado<br>
-  
+
 ![image](https://user-images.githubusercontent.com/53793354/196472097-b515f944-ffea-4ca2-ae36-5d3e2cc2dd18.png)
 
 
@@ -200,8 +204,8 @@ Essa consulta será anual, ou seja, o usuário irá visualizar a execução da D
 | Armazém BO- SIAFI |Dimensão SIAFI| Campo PDT| Tooltip - PDT|
 |----|----------|------------|----------|
 | Projeto_Atividade - Descrição |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Programa de Trabalho - Despesa| Tipo |   
-| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |  - Amortização da Dívida
-| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |  - Juros e Encargos da Dívida
+| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |  Amortização da Dívida| Amortização efetiva do principal da dívida pública contratual, interna eexterna e outros compromissos assumidos
+| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |Juros e Encargos da Dívida| Taxas, Comissões, prêmios, e outros encargos com operações de crédito internas e externas e outros compromissos assumidos
 | Valor Despesa Liquidada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Valor Total Liquidado | Valor despesa liquidada referente ao somatório dos juros e encargos da dívida mais a amortização da dívida
 
 * **2º NÍVEL**
@@ -213,11 +217,11 @@ A navegabilidade para o segundo nível irá ocorre apenas nos projetos atividade
 
 | Armazém BO- SIAFI |Dimensão SIAFI| Campo PDT| Tooltip - PDT|
 |----|----------|------------|----------|
-| Razão Social do Credor |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Credor - Despesa| Credor |   
-| CNPJ_CPF Credor Numérico |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Credor - Despesa| CNPJ |
-| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa | Amortização da Dívida
-| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |   Juros e Encargos da Dívida
-| Valor Despesa Liquidada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Valor Total Liquidado| Valor despesa liquidada referente ao somatório dos juros e encargos da dívida mais a amortização da dívida
+| Razão Social do Credor |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Credor - Despesa| Credor |Entidades, governos e pessoas nacionais e estrangeiras com as quais o governo estadual contrai dívidas   
+| CNPJ_CPF Credor Numérico |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Credor - Despesa| CNPJ |Número de identificação do credor - Cadastro nacional de pessoa jurídica (CNPJ).
+| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa | Amortização da Dívida|Amortização efetiva do principal da dívida pública contratual, interna e externa e outros compromissos assumidos
+| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |Juros e Encargos da Dívida|Taxas, Comissões, prêmios, e outros encargos com operações de crédito internas e externas e outros compromissos assumidos
+|Valor Despesa Liquidada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Valor Total Liquidado| Valor despesa liquidada referente ao somatório dos juros e encargos da dívida mais a amortização da dívida
 
 * **3º NÍVEL**
 
@@ -225,8 +229,8 @@ A navegabilidade para o segundo nível irá ocorre apenas nos projetos atividade
 
 | Armazém BO- SIAFI |Dimensão SIAFI| Campo PDT| Tooltip - PDT|
 |----|----------|------------|----------|
-| Num Ref Contrato Convênio Entrada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados do Empenho - Despesa| Número do Contrato |   
-| Contrato Convênio Entrada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados do Empenho - Despesa| Número SIAFI|
-| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa | Amortização da Dívida
-| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |   Juros e Encargos da Dívida
+| Num Ref Contrato Convênio Entrada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados do Empenho - Despesa| Número do Contrato |  Número que identifica o instrumento de contratação 
+| Contrato Convênio Entrada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados do Empenho - Despesa| Número SIAFI|Número de identificação no SIAFI (Sistema Integrado de Administração Financeira)
+| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa | Amortização da Dívida|Amortização efetiva do principal da dívida pública contratual, interna e externa e outros compromissos assumidos
+| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |   Juros e Encargos da Dívida|Taxas, Comissões, prêmios, e outros encargos com operações de crédito internas e externas e outros compromissos assumidos
 | Valor Despesa Liquidada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Valor Total Liquidado| Valor despesa liquidada referente ao somatório dos juros e encargos da dívida mais a amortização da dívida
