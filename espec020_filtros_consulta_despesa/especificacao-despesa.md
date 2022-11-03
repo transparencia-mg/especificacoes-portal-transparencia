@@ -161,7 +161,18 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 ## Pesquisa básica - Navegação por filtros
 <a href="#top">(inicio)</a>
 
-* 1º NÍVEL
+#### CONSULTA POR ÓRGÃO
+
+Essa consulta será composta por 5 níveis:
+_______
+  1º nível - [Órgão]()<br>
+  2º nível - Órgão > [Função]()<br>
+  3º nível - Órgão > Função > [Favorecido]()<br>
+  4º nível - Órgão > Função > Favorecido > [Empenho]()<br>
+  5º nível - Órgão > Função > Favorecido > Empenho > Formulário de Detalhamento<br>
+___________
+
+##### 1º NÍVEL
   - Código do Órgão
   - [Órgão]() -> ao clicar o usuário será direcionado para o 2º nível
   - Valor Empenhado
@@ -169,17 +180,20 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-
-* 2º NÍVEL
-    - Código da Função
-    - [Função]() -> ao clicar o usuário será direcionado para o 3º nível
-    - Valor Empenhado
-    - Valor Liquidado
-    - Valor Pago
-    - Valor Pago de Restos a Pagar<br>
+![image](https://user-images.githubusercontent.com/53793354/199799065-42663642-8260-4e73-8e59-a0c29df55663.png)
 
 
-* 3º NÍVEL
+##### 2º NÍVEL
+  - Código do Função
+  - [Função]() -> ao clicar o usuário será direcionado para o 3º nível
+  - Valor Empenhado
+  - Valor Liquidado
+  - Valor Pago
+  - Valor Pago de Restos a Pagar<br>
+
+![image](https://user-images.githubusercontent.com/53793354/199799449-3be5de65-f206-47ed-a1c5-7ac9f08afaa5.png)
+
+##### 3º NÍVEL
   - [Favorecido]() -> ao clicar o usuário será direcionado para o 4º nível
   - CPF / CNPJ
   - Valor Empenhado
@@ -187,8 +201,9 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
+![image](https://user-images.githubusercontent.com/53793354/199799582-286fad32-df4f-4d0c-a500-f89f6cc64330.png)
 
-* 4º NÍVEL
+##### 4º NÍVEL
   - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
   - Data de registro do Empenho
   - Valor Empenhado
@@ -196,17 +211,44 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
+![image](https://user-images.githubusercontent.com/53793354/199799697-df36a478-3c93-4807-8eba-c134f31dbdee.png)
 
-## Leiaute - Formulário de Detalhamento
-<a href="#top">(inicio)</a>
+##### 5º NÍVEL
 
-Ao clicar em campo clicável da tabela de resultados o usuário será direcionado para o formulário de detalhamento, que será composto pelos seguintes atributos:
+Ao clicar no número do empenho o usuário será direcionado para o formulário de detalhamento, que será composto pelos seguintes atributos:
 
 * As tabelas que compõe o formulário de detalhamento serão exibidas em formato de guias (eg. Tabs)
+* O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'. 
 
-* O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'. A exportação em planilha (CSV) deverá ser em formato de tabela. Cada campo em uma coluna.
+#### CONSULTA POR FUNÇÃO
 
+Essa consulta será composta por 4 níveis:
+_______
+  1º nível - [Função]()<br>
+  2º nível - Função > [Favorecido]()<br>
+  3º nível - Função > Favorecido > [Empenho]()<br>
+  4º nível - Função > Favorecido > Empenho > Formulário de Detalhamento<br>
+___________
 
+#### CONSULTA POR PROGRAMA
+
+Essa consulta será composta por 5 níveis:
+_______
+  1º nível - [Programa]()<br>
+  2º nível - Programa > [Ação]()<br>
+  3º nível - Programa > Ação > [Favorecido]()<br>
+  4º nível - Programa > Ação > Favorecido > [Empenho]() ><br>
+  5º nível - Programa > Ação > Favorecido > Empenho > Formulário de Detalhamento<br>
+___________
+
+#### CONSULTA POR FAVORECIDO (NOME E CPF/CNPJ)
+
+Essa consulta será composta por 5 níveis:
+_______
+  1º nível - [Favorecido]()<br>
+  2º nível - Favorecido > [Empenho]()<br>
+  3º nível - Favorecido > Empenho > Formulário de Detalhamento<br>
+___________
 
 ## Campos Pesquisa básica - Navegação por filtros
 <a href="#top">(inicio)</a>
@@ -218,9 +260,9 @@ Os dados dessa consulta serão extraídos do Universo BO SIAFI:
 
 * **1º NÍVEL**
 
-Essa consulta será anual, ou seja, o usuário irá visualizar a execução da Dívida Pública conforme o período selecionado.
+Essa consulta será anual, ou seja, o usuário irá visualizar a execução da Despesa conforme o período selecionado.
 
-=>> Consulta BO: 1º nível - Tipo
+=>> Consulta BO: 1º nível - Órgão
 
 | Armazém BO- SIAFI |Dimensão SIAFI| Filtro  |
 |----|----------|------------|
@@ -234,34 +276,21 @@ Essa consulta será anual, ou seja, o usuário irá visualizar a execução da D
 
 | Armazém BO- SIAFI |Dimensão SIAFI| Campo PDT| Tooltip - PDT|
 |----|----------|------------|----------|
-| Projeto_Atividade - Descrição |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Programa de Trabalho - Despesa| Tipo |   
-| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |  Amortização da Dívida| Amortização efetiva do principal da dívida pública contratual, interna eexterna e outros compromissos assumidos
-| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |Juros e Encargos da Dívida| Taxas, Comissões, prêmios, e outros encargos com operações de crédito internas e externas e outros compromissos assumidos
-| Valor Despesa Liquidada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Valor Total Liquidado | Valor despesa liquidada referente ao somatório dos juros e encargos da dívida mais a amortização da dívida
+
 
 * **2º NÍVEL**
 
-=>> Consulta BO: 2º nível - Dívida Interna ou Dívida Externa
+=>> Consulta BO: 2º nível - 
 
-**Observação:**      
-A navegabilidade para o segundo nível irá ocorre apenas nos projetos atividades:<br> - Gestão da Dívida Fundada Contratual Externa e<br>  - Gestão da Dívida Fundada Contratual Interna
 
 | Armazém BO- SIAFI |Dimensão SIAFI| Campo PDT| Tooltip - PDT|
 |----|----------|------------|----------|
-| Razão Social do Credor |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Credor - Despesa| Credor |Entidades, governos e pessoas nacionais e estrangeiras com as quais o governo estadual contrai dívidas   
-| CNPJ_CPF Credor Numérico |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Credor - Despesa| CNPJ |Número de identificação do credor - Cadastro nacional de pessoa jurídica (CNPJ).
-| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa | Amortização da Dívida|Amortização efetiva do principal da dívida pública contratual, interna e externa e outros compromissos assumidos
-| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |Juros e Encargos da Dívida|Taxas, Comissões, prêmios, e outros encargos com operações de crédito internas e externas e outros compromissos assumidos
-|Valor Despesa Liquidada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Valor Total Liquidado| Valor despesa liquidada referente ao somatório dos juros e encargos da dívida mais a amortização da dívida
+
 
 * **3º NÍVEL**
 
-=>> Consulta BO: 3º nível -Contratos
+=>> Consulta BO: 3º nível 
 
 | Armazém BO- SIAFI |Dimensão SIAFI| Campo PDT| Tooltip - PDT|
 |----|----------|------------|----------|
-| Num Ref Contrato Convênio Entrada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados do Empenho - Despesa| Número do Contrato |  Número que identifica o instrumento de contratação
-| Contrato Convênio Entrada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados do Empenho - Despesa| Número SIAFI|Número de identificação no SIAFI (Sistema Integrado de Administração Financeira)
-| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa | Amortização da Dívida|Amortização efetiva do principal da dívida pública contratual, interna e externa e outros compromissos assumidos
-| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |   Juros e Encargos da Dívida|Taxas, Comissões, prêmios, e outros encargos com operações de crédito internas e externas e outros compromissos assumidos
-| Valor Despesa Liquidada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada |Valor Total Liquidado| Valor despesa liquidada referente ao somatório dos juros e encargos da dívida mais a amortização da dívida
+
