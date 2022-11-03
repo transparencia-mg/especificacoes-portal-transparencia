@@ -15,7 +15,7 @@
 
 ## Despesa de Pessoal
 
-- [ ] 1 - Alterar a forma de disponibilização da despesa com pessoal do Portal da Transparência, alinhando para que as informações estejam coerentes com os dados disponibilizados pelo Sistema de Administração de Pessoal - SISAP do Estado de Minas Gerais.
+- [ ] 1 - Alterar a forma de disponibilização da despesa com pessoal do Portal da Transparência, alinhando para que as informações estejam coerentes com os dados disponibilizados pela Secretaria de Estado de Fazenda. 
 
 ## Remuneração
  
