@@ -33,25 +33,19 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 #### Atributos do campo<br><br> Exemplo: [Página Inicial - Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=)
 
 
-1. O usuário poderá exibir mais detalhes do texto ao clicar em ***Mais*** ou ocultar ao clicar ***Menos***;
-2. A funcionalidade deverá permitir a visualização de *tooltip* ao posicionar o mouse sobre uma palavra ou termo;
-3. Ao clicar sobre a palavra ou termo o PdT deverá abrir um um *pop-up* em forma de glossário. [eg. pop-up](https://www.usaspending.gov/)
-4. O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA inclua ou altere os dados desse campo incluindo os *tooltips*.
+1. Seguir o padrão adotado na consulta Acordo Judicial de Reparação da Vale
+2. O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA inclua ou altere os dados desse campo incluindo os *tooltips*.
 
 
 ##### Texto Introdutório
 
->A [`Dívida Pública`]((a "Compromissos financeiros assumidos pelo governo, podem ser dívida pública interna (entidade pública dentro do país) e dívida pública externa (entidade pública no exterior).") pode ser conceituada como o conjunto de obrigações financeiras do Estado decorrente da necessidade de captação de recursos para execução de políticas públicas.
 >
-> A gestão da dívida pública estadual está fundamentada em um arcabouço jurídico-orçamentária que confere legitimidade ao processo de atendimento das necessidades de financiamento do governo e corrobora o compromisso da Subsecretaria do Tesouro Estadual – STE, inserida na estrutura organizacional da Secretaria de Estado de Fazenda de Minas Gerais de Minas Gerais - SEF/MG, de minimizar o custo da dívida em uma perspectiva de médio e longo prazos, visando assegurar a sustentabilidade do endividamento
->
->No âmbito da Secretaria de Estado da Fazenda, o Decreto Estadual nº 47.794/19 estabeleceu a gestão do endividamento estatal como competência da Subsecretaria do Tesouro Estadual – STE, por meio da Superintendência Central de Governança de Ativos e da Dívida Pública – SCGOV.
 
 ##### Tooltip dos termos destacados dentro do texto inicial
 
-- Compromissos financeiros assumidos pelo governo, podem ser dívida pública interna (entidade pública dentro do país) e dívida pública externa (entidade pública no exterior).
+-
 
-**Observação:**<br> Ao clicar em qualquer termo destacado o usuário será direcionado para o termo especifico dentro do glossário do Portal.
+- **Observação:**<br> Ao clicar em qualquer termo destacado o usuário será direcionado para o termo especifico dentro do glossário do Portal.
 
 
 ## Leiaute - Barra de navegação
@@ -59,23 +53,44 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 
 A barra de navegação superior será composta pelos seguintes campos:
 
-* Início (dd/mm/aaaa)
-* Fim (dd/mm/aaaa)
-* Botão *'Pesquisar'*
+* Ícones por tipo de Consulta;
+* Período;
+* Opção de *'Filtrar por'*;
+* Botão *'Monte sua consulta'*
 
-#### Atributos do campo<br><br>Exemplo: [Portal de Transparêcia ES](https://transparencia.es.gov.br/Despesa)
+#### Atributos do campo<br>
 
-* No campo da data o usuário poderá selecionar ou digitar a data na caixa.
 * O campo período será no formato **dd/mm/aaaa** composto por início e fim (eg. 01/04/2021 a 30/12/2021);<br><br>
+* No campo da data o usuário poderá selecionar ou digitar a data na caixa.<br>Exemplo: [Portal de Transparêcia ES](https://transparencia.es.gov.br/Despesa)
 
 ![](static/formato-data.gif)
+
+* A pesquisa básica será composta por 4 ícones de tipo de consultas:
+  * Órgão: xxxxxxxx
+  * Função: xxxxxxxx
+  * Programa: xxxxxxx
+  * Favorecido: xxxxxx
+
+
+* Os ícones serão clicáveis. Quando o usuário posicionar o mouse sobre o ícone será exibido um tooltip com uma breve descrição da consulta.
+
+* O comportamento da opção *'Filtro'* será conforme o tipo de consulta selecionada e como padrão será exibido a opção 'Todos':
+  - Órgão, Função, Programa: padrão já adotado no PdT
+  ![](static/filtros.png)
+
+  - Favorecido: Ao selecionar esse tipo de consulta o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados, conforme já ocorre atualmente no PdT.
+![](static/filtro-favorecido.png)
+
+## Leiaute - Cabeçalho da tabelas
+<a href="#top">(inicio)</a>
+
+* A data de atualização dos dados (*Dados atualizados em*), o período, o ícone *Exibir Gráfico* ou *Fechar Gráfico*, Download, Compartilhar serão exibidos acima do gráfico/tabela de resultados.(MELHORAR)
+
 
 ## Leiaute - Tabelas navegação
 <a href="#top">(inicio)</a>
 
-* A pesquisa básica irá apresentar como padrão a tabela de resultados com os dados do exercício vigente.
-
-* A data de atualização dos dados (*Dados atualizados em*), o período, o ícone *Exibir Gráfico* ou *Fechar Gráfico*, Download, Compartilhar serão exibidos acima do gráfico/tabela de resultados.(MELHORAR)
+* A pesquisa básica irá apresentar como padrão a tabela de resultados com os dados do exercício vigente por Órgão.
 
 * Como padrão os dados serão exibidos no formato de tabela e caso o usuário queira visualizar os dados em forma de gráfico deve clicar em '*Exibir Gráfico*' e os dados da tabela serão deslocados para baixo. Para retornar a exibição apenas no formato tabela o usuário deve clicar em '*Fechar Gráfico*'
 
@@ -101,8 +116,8 @@ A barra de navegação superior será composta pelos seguintes campos:
 <a href="#top">(inicio)</a>
 
 * O Gráfico apresentado como padrão será o tipo Treemap (Gráfico área) com os dados do exercício vigente.
-* O usuário terá a opção de verificar série histórica da dívida pública ao clicar no gráfico de barra.
-* Os gráficos apresentaram os dados da coluna 'Total Realizado'
+* O usuário terá a opção de verificar série histórica ao clicar no gráfico de barra.
+* Os gráficos apresentaram os dados da coluna 'Valor Liquidado'
 
 
 ### Download dos dados:
@@ -147,30 +162,50 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 <a href="#top">(inicio)</a>
 
 * 1º NÍVEL
-  - [Tipo]() -> ao clicar o usuário será direcionado para o 2º nível
-  - Juros e Encargos da Dívida
-  - Amortização da Dívida
-  - Valor Total Liquidado<br>
+  - Código do Órgão
+  - [Órgão]() -> ao clicar o usuário será direcionado para o 2º nível
+  - Valor Empenhado
+  - Valor Liquidado
+  - Valor Pago
+  - Valor Pago de Restos a Pagar<br>
 
-![image](https://user-images.githubusercontent.com/53793354/196471656-c57a815e-b03f-43b2-88a6-af4d6ce26d07.png)
 
 * 2º NÍVEL
-  - [Credor]() -> ao clicar o usuário será direcionado para o 3º nível
-  - CNPJ
-  - Juros e Encargos da Dívida
-  - Amortização da Dívida
-  - Valor Total Liquidado<br>
+    - Código da Função
+    - [Função]() -> ao clicar o usuário será direcionado para o 3º nível
+    - Valor Empenhado
+    - Valor Liquidado
+    - Valor Pago
+    - Valor Pago de Restos a Pagar<br>
 
-![image](https://user-images.githubusercontent.com/53793354/196471951-e972e04f-f18d-41bc-a135-0f6bf44874e5.png)
 
 * 3º NÍVEL
-  - Número do contrato
-  - Número SIAFI
-  - Juros e Encargos da Dívida
-  - Amortização da Dívida
-  - Valor Total Liquidado<br>
+  - [Favorecido]() -> ao clicar o usuário será direcionado para o 4º nível
+  - CPF / CNPJ
+  - Valor Empenhado
+  - Valor Liquidado
+  - Valor Pago
+  - Valor Pago de Restos a Pagar<br>
 
-![image](https://user-images.githubusercontent.com/53793354/196472097-b515f944-ffea-4ca2-ae36-5d3e2cc2dd18.png)
+
+* 4º NÍVEL
+  - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
+  - Data de registro do Empenho
+  - Valor Empenhado
+  - Valor Liquidado
+  - Valor Pago
+  - Valor Pago de Restos a Pagar<br>
+
+
+## Leiaute - Formulário de Detalhamento
+<a href="#top">(inicio)</a>
+
+Ao clicar em campo clicável da tabela de resultados o usuário será direcionado para o formulário de detalhamento, que será composto pelos seguintes atributos:
+
+* As tabelas que compõe o formulário de detalhamento serão exibidas em formato de guias (eg. Tabs)
+
+* O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'. A exportação em planilha (CSV) deverá ser em formato de tabela. Cada campo em uma coluna.
+
 
 
 ## Campos Pesquisa básica - Navegação por filtros
