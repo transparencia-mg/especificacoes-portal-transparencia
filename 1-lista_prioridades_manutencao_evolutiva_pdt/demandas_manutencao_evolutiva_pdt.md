@@ -15,7 +15,7 @@
 
 ## Despesa de Pessoal
 
-- [ ] 1 - Alterar a forma de disponibilização da despesa com pessoal do Portal da Transparência, alinhando para que as informações estejam coerentes com os dados disponibilizados pela Secretaria de Fazenda
+- [ ] 1 - Alterar a forma de disponibilização da despesa com pessoal do Portal da Transparência, alinhando para que as informações estejam coerentes com os dados disponibilizados pelo Sistema de Administração de Pessoal - SISAP do Estado de Minas Gerais.
 
 ## Remuneração
  
@@ -75,7 +75,7 @@
 
 ## Restos a Pagar
 
-- [ ] 1- Alterar a consulta (fórmula de cálculo das colunas) para alinhar com as informações com os dados disponibilizados pela Secretaria de EStado de Fazendo no Relatório Resumido de Execução Orçamentária - [RREO](http://www.fazenda.mg.gov.br/governo/contadoria_geral/lrf/2021/).
+- [ ] 1- Alterar a consulta (fórmula de cálculo das colunas) para alinhar com as informações com os dados disponibilizados pela Secretaria de Estado de Fazenda no Relatório Resumido de Execução Orçamentária - [RREO](http://www.fazenda.mg.gov.br/governo/contadoria_geral/lrf/2021/).
 
 ## Possibilidade do usuário consultar todas as etapas da Programação Orçamentária
 
