@@ -161,15 +161,16 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 ## Pesquisa básica - Navegação por filtros
 <a href="#top">(inicio)</a>
 
-#### CONSULTA POR ÓRGÃO
+### CONSULTA POR ÓRGÃO
+<a href="#top">(inicio)</a>
 
 Essa consulta será composta por 5 níveis:
 _______
   1º nível - [Órgão]()<br>
-  2º nível - Órgão > [Função]()<br>
-  3º nível - Órgão > Função > [Favorecido]()<br>
-  4º nível - Órgão > Função > Favorecido > [Empenho]()<br>
-  5º nível - Órgão > Função > Favorecido > Empenho > Formulário de Detalhamento<br>
+  2º nível - Órgão > [Elemento]()<br>
+  3º nível - Órgão > Elemento > [Favorecido]()<br>
+  4º nível - Órgão > Elemento > Favorecido > [Empenho]()<br>
+  5º nível - Órgão > Elemento > Favorecido > Empenho > [Formulário de Detalhamento]()<br>
 ___________
 
 ##### 1º NÍVEL
@@ -180,18 +181,16 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-![image](https://user-images.githubusercontent.com/53793354/199799065-42663642-8260-4e73-8e59-a0c29df55663.png)
 
 
 ##### 2º NÍVEL
-  - Código do Função
-  - [Função]() -> ao clicar o usuário será direcionado para o 3º nível
+  - [Elemento]() -> ao clicar o usuário será direcionado para o 3º nível
   - Valor Empenhado
   - Valor Liquidado
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-![image](https://user-images.githubusercontent.com/53793354/199799449-3be5de65-f206-47ed-a1c5-7ac9f08afaa5.png)
+
 
 ##### 3º NÍVEL
   - [Favorecido]() -> ao clicar o usuário será direcionado para o 4º nível
@@ -201,7 +200,7 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-![image](https://user-images.githubusercontent.com/53793354/199799582-286fad32-df4f-4d0c-a500-f89f6cc64330.png)
+
 
 ##### 4º NÍVEL
   - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
@@ -211,26 +210,73 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-![image](https://user-images.githubusercontent.com/53793354/199799697-df36a478-3c93-4807-8eba-c134f31dbdee.png)
 
 ##### 5º NÍVEL
 
+ - Formulário de Detalhamento
+
 Ao clicar no número do empenho o usuário será direcionado para o formulário de detalhamento, que será composto pelos seguintes atributos:
+  * As tabelas que compõe o formulário de detalhamento serão exibidas em formato de guias (eg. Tabs)
+  * O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'.
 
-* As tabelas que compõe o formulário de detalhamento serão exibidas em formato de guias (eg. Tabs)
-* O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'. 
-
-#### CONSULTA POR FUNÇÃO
+### CONSULTA POR FUNÇÃO
+<a href="#top">(inicio)</a>
 
 Essa consulta será composta por 4 níveis:
 _______
   1º nível - [Função]()<br>
-  2º nível - Função > [Favorecido]()<br>
-  3º nível - Função > Favorecido > [Empenho]()<br>
-  4º nível - Função > Favorecido > Empenho > Formulário de Detalhamento<br>
+  2º nível - Função > [Subfunção]()<br>
+  3º nível - Função > Subfunção > [Favorecido]()<br>
+  4º nível - Função > Subfunção > Favorecido > [Empenho]()<br>
+  5º nível - Função > Subfunção > Favorecido > Empenho > [Formulário de Detalhamento]()<br>
 ___________
 
-#### CONSULTA POR PROGRAMA
+##### 1º NÍVEL
+  - Código da Função
+  - [Função]() -> ao clicar o usuário será direcionado para o 2º nível
+  - Valor Empenhado
+  - Valor Liquidado
+  - Valor Pago
+  - Valor Pago de Restos a Pagar<br>
+
+
+
+##### 2º NÍVEL
+  - Código do Subfunção
+  - [Subfunção]() -> ao clicar o usuário será direcionado para o 3º nível
+  - Valor Empenhado
+  - Valor Liquidado
+  - Valor Pago
+  - Valor Pago de Restos a Pagar<br>
+
+##### 3º NÍVEL
+  - [Favorecido]() -> ao clicar o usuário será direcionado para o 4º nível
+  - CPF / CNPJ
+  - Valor Empenhado
+  - Valor Liquidado
+  - Valor Pago
+  - Valor Pago de Restos a Pagar<br>
+
+
+
+##### 4º NÍVEL
+  - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
+  - Data de registro do Empenho
+  - Valor Empenhado
+  - Valor Liquidado
+  - Valor Pago
+  - Valor Pago de Restos a Pagar<br>
+
+
+##### 5º NÍVEL
+
+- Formulário de Detalhamento
+
+
+
+
+### CONSULTA POR PROGRAMA
+<a href="#top">(inicio)</a>
 
 Essa consulta será composta por 5 níveis:
 _______
@@ -241,7 +287,49 @@ _______
   5º nível - Programa > Ação > Favorecido > Empenho > Formulário de Detalhamento<br>
 ___________
 
-#### CONSULTA POR FAVORECIDO (NOME E CPF/CNPJ)
+##### 1º NÍVEL
+  - Código da Programa
+  - [Programa]() -> ao clicar o usuário será direcionado para o 2º nível
+  - Valor Empenhado
+  - Valor Liquidado
+  - Valor Pago
+  - Valor Pago de Restos a Pagar<br>
+
+
+
+##### 2º NÍVEL
+  - Código do Ação
+  - [Ação]() -> ao clicar o usuário será direcionado para o 3º nível
+  - Valor Empenhado
+  - Valor Liquidado
+  - Valor Pago
+  - Valor Pago de Restos a Pagar<br>
+
+##### 3º NÍVEL
+  - [Favorecido]() -> ao clicar o usuário será direcionado para o 4º nível
+  - CPF / CNPJ
+  - Valor Empenhado
+  - Valor Liquidado
+  - Valor Pago
+  - Valor Pago de Restos a Pagar<br>
+
+
+##### 4º NÍVEL
+  - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
+  - Data de registro do Empenho
+  - Valor Empenhado
+  - Valor Liquidado
+  - Valor Pago
+  - Valor Pago de Restos a Pagar<br>
+
+
+##### 5º NÍVEL
+
+- Formulário de Detalhamento
+
+
+### CONSULTA POR FAVORECIDO (NOME E CPF/CNPJ)
+<a href="#top">(inicio)</a>
 
 Essa consulta será composta por 5 níveis:
 _______
@@ -250,47 +338,34 @@ _______
   3º nível - Favorecido > Empenho > Formulário de Detalhamento<br>
 ___________
 
+##### 1º NÍVEL
+  - [Favorecido]() -> ao clicar o usuário será direcionado para o 4º nível
+  - CPF / CNPJ
+  - Valor Empenhado
+  - Valor Liquidado
+  - Valor Pago
+  - Valor Pago de Restos a Pagar<br>
+
+
+##### 2º NÍVEL
+  - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
+  - Data de registro do Empenho
+  - Valor Empenhado
+  - Valor Liquidado
+  - Valor Pago
+  - Valor Pago de Restos a Pagar<br>
+
+
+##### 3º NÍVEL
+
+- Formulário de Detalhamento
+
+
+
 ## Campos Pesquisa básica - Navegação por filtros
 <a href="#top">(inicio)</a>
 
 Os dados dessa consulta serão extraídos do Universo BO SIAFI:
-  * Armazém BO / Pastas públicas - SIAFI > SUPORTE- SIAFI > CGE > Nova-espec-divida-publica
+  * Armazém BO / ~tmp /nova-espec-despesa
 
 #### Filtros da Consulta
-
-* **1º NÍVEL**
-
-Essa consulta será anual, ou seja, o usuário irá visualizar a execução da Despesa conforme o período selecionado.
-
-=>> Consulta BO: 1º nível - Órgão
-
-| Armazém BO- SIAFI |Dimensão SIAFI| Filtro  |
-|----|----------|------------|
-| Ano de exercício |Período Contábil| Usar o período desejado |   
-| Tipo ContratoConvênio Entrada - Cod |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados do Empenho - Despesa| - 01- Divida Pública<br>- 00- Sem informação |  
-| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Natureza da Despesa Realizada| - 2- Juros e Encargos da Dívida<br>- 6- Amortização da Dívida
-| Elemento Despesa |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Natureza da Despesa Realizada |- 21- Juros sobre a Divida por Contrato<br> - 22- outros encargos sobre a dívida por contrato<br> - 71- Principal da dívida contratual resgatado
-
-
-#### Campos da Tabela
-
-| Armazém BO- SIAFI |Dimensão SIAFI| Campo PDT| Tooltip - PDT|
-|----|----------|------------|----------|
-
-
-* **2º NÍVEL**
-
-=>> Consulta BO: 2º nível - 
-
-
-| Armazém BO- SIAFI |Dimensão SIAFI| Campo PDT| Tooltip - PDT|
-|----|----------|------------|----------|
-
-
-* **3º NÍVEL**
-
-=>> Consulta BO: 3º nível 
-
-| Armazém BO- SIAFI |Dimensão SIAFI| Campo PDT| Tooltip - PDT|
-|----|----------|------------|----------|
-
