@@ -3,7 +3,7 @@ contrato_manutencao: nº  (INF. )
 proposta_comercial:
 mantis:
 pull_request: '[]()'
-titulo: Dívida Pública
+titulo: Despesa Pública
 output:
   html_document:
     theme: united
@@ -180,7 +180,8 @@ ___________
   - Valor Liquidado
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
-
+  
+  ![image](https://user-images.githubusercontent.com/53793354/200358592-fd3046ee-1c02-4cfc-b320-93a0bc1990bc.png)
 
 
 ##### 2º NÍVEL
@@ -190,6 +191,7 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
+  ![image](https://user-images.githubusercontent.com/53793354/200359119-2bc8ec40-da77-40d5-b455-fbc7092aaf0c.png)
 
 
 ##### 3º NÍVEL
@@ -200,6 +202,7 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
+  ![image](https://user-images.githubusercontent.com/53793354/200358491-87bb0982-39ab-4880-8c12-3b4f2a73d9d6.png)
 
 
 ##### 4º NÍVEL
@@ -209,6 +212,8 @@ ___________
   - Valor Liquidado
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
+
+![image](https://user-images.githubusercontent.com/53793354/200358187-8ece2a7c-6631-491c-9691-bc24b30a86de.png)
 
 
 ##### 5º NÍVEL
@@ -239,6 +244,7 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
+  ![image](https://user-images.githubusercontent.com/53793354/200358699-3acd5a01-9948-437c-96b6-fa2f06726f5a.png)
 
 
 ##### 2º NÍVEL
@@ -249,6 +255,9 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
+  ![image](https://user-images.githubusercontent.com/53793354/200358762-207b6b03-df53-471b-be0a-dd07e358c58f.png)
+
+  
 ##### 3º NÍVEL
   - [Favorecido]() -> ao clicar o usuário será direcionado para o 4º nível
   - CPF / CNPJ
@@ -257,6 +266,7 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
+  ![image](https://user-images.githubusercontent.com/53793354/200358449-0858169f-08d3-433c-bf94-31d3bbdfac3d.png) 
 
 
 ##### 4º NÍVEL
@@ -267,13 +277,12 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
+![image](https://user-images.githubusercontent.com/53793354/200358222-32287309-16be-48ea-92ef-fa941c975271.png)
+
 
 ##### 5º NÍVEL
 
 - Formulário de Detalhamento
-
-
-
 
 ### CONSULTA POR PROGRAMA
 <a href="#top">(inicio)</a>
@@ -295,6 +304,7 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
+  ![image](https://user-images.githubusercontent.com/53793354/200358865-cd1aee56-75a1-42c9-aa95-fafcda4db320.png)
 
 
 ##### 2º NÍVEL
@@ -305,6 +315,9 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
+  ![image](https://user-images.githubusercontent.com/53793354/200358964-74159e14-a951-4c49-b6a0-4bd377975681.png)
+
+
 ##### 3º NÍVEL
   - [Favorecido]() -> ao clicar o usuário será direcionado para o 4º nível
   - CPF / CNPJ
@@ -312,6 +325,8 @@ ___________
   - Valor Liquidado
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
+  
+  ![image](https://user-images.githubusercontent.com/53793354/200358390-eb905243-e139-4538-a84e-a006c4123d0d.png)
 
 
 ##### 4º NÍVEL
@@ -322,6 +337,7 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
+![image](https://user-images.githubusercontent.com/53793354/200358241-b7811142-0bee-4068-ad93-c3f3378bbf8a.png)
 
 ##### 5º NÍVEL
 
@@ -346,6 +362,8 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
+  ![image](https://user-images.githubusercontent.com/53793354/200358337-66705311-e9ed-432a-a373-ef1fdf8dbf7d.png)
+
 
 ##### 2º NÍVEL
   - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
@@ -355,6 +373,7 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
+  ![image](https://user-images.githubusercontent.com/53793354/200358252-cadc7f6c-cc98-45a7-808d-50b30195afcb.png)
 
 ##### 3º NÍVEL
 
