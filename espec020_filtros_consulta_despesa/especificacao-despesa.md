@@ -25,7 +25,7 @@ output:
 ## Página Inicial - Pesquisa Básica
 <a href="#top">(inicio)</a>
 
-### Texto explicativo
+### Texto explicativo da pesquisa básica
 <a href="#top">(inicio)</a>
 
 Inclusão de um campo que irá trazer uma breve explicação do conteúdo da consulta.
@@ -180,7 +180,7 @@ ___________
   - Valor Liquidado
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
-  
+
   ![image](https://user-images.githubusercontent.com/53793354/200358592-fd3046ee-1c02-4cfc-b320-93a0bc1990bc.png)
 
 
@@ -257,7 +257,7 @@ ___________
 
   ![image](https://user-images.githubusercontent.com/53793354/200358762-207b6b03-df53-471b-be0a-dd07e358c58f.png)
 
-  
+
 ##### 3º NÍVEL
   - [Favorecido]() -> ao clicar o usuário será direcionado para o 4º nível
   - CPF / CNPJ
@@ -266,7 +266,7 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-  ![image](https://user-images.githubusercontent.com/53793354/200358449-0858169f-08d3-433c-bf94-31d3bbdfac3d.png) 
+  ![image](https://user-images.githubusercontent.com/53793354/200358449-0858169f-08d3-433c-bf94-31d3bbdfac3d.png)
 
 
 ##### 4º NÍVEL
@@ -325,7 +325,7 @@ ___________
   - Valor Liquidado
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
-  
+
   ![image](https://user-images.githubusercontent.com/53793354/200358390-eb905243-e139-4538-a84e-a006c4123d0d.png)
 
 
