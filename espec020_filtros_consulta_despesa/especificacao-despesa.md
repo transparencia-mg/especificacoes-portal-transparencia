@@ -25,7 +25,7 @@ output:
 ## Página Inicial - Pesquisa Básica
 <a href="#top">(inicio)</a>
 
-### Texto explicativo da pesquisa básica
+### Texto explicativo 
 <a href="#top">(inicio)</a>
 
 Inclusão de um campo que irá trazer uma breve explicação do conteúdo da consulta.
