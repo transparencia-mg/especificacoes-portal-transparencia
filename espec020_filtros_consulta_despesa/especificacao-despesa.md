@@ -39,7 +39,9 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 
 ##### Texto Introdutório
 
->
+> Essa consulta tem por objetivo divulgar dados referentes as despesas empenhadas, liquidadas e pagas pelo Estado de Minas Gerais anualmente, extraídos do Sistema Integrado de Administração Financeira de Minas Gerais (SIAFI/MG). Os dados estão disponíveis desde o ano de 2022 e são atualizados diariamente (D+1).
+> Na consulta de Despesa estão disponíveis cinco filtros para facilitar a sua consulta: Consulta por órgão, Consulta por Função (cultura, educação, saúde, etc...), Consulta por Programa (de acordo com o previsto no PPAG - Plano Plurianual de Ação Governamental) e Consulta por Favorecido por nome e por CPF/CPNJ.
+> 
 
 ##### Tooltip dos termos destacados dentro do texto inicial
 
@@ -65,11 +67,12 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 ![](static/formato-data.gif)
 
-* A pesquisa básica será composta por 4 ícones de tipo de consultas:
+* A pesquisa básica será composta por 5 ícones de tipo de consultas:
   * Órgão: xxxxxxxx
   * Função: xxxxxxxx
   * Programa: xxxxxxx
-  * Favorecido: xxxxxx
+  * Favorecido por nome: xxxxxx
+  * Favorecido por CPF/CNPJ
 
 
 * Os ícones serão clicáveis. Quando o usuário posicionar o mouse sobre o ícone será exibido um tooltip com uma breve descrição da consulta.
