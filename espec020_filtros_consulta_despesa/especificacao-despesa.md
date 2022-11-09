@@ -74,6 +74,10 @@ A barra de navegação superior será composta pelos seguintes campos:
   * Favorecido por nome: xxxxxx
   * Favorecido por CPF/CNPJ
 
+![image](https://user-images.githubusercontent.com/52920939/200911425-f3030269-b3e2-48a3-b32e-77cb354b8714.png)
+
+![image](https://user-images.githubusercontent.com/52920939/200911471-bd94bbef-1d4b-4fbd-8973-3ebe6a13c82e.png)
+
 
 * Os ícones serão clicáveis. Quando o usuário posicionar o mouse sobre o ícone será exibido um tooltip com uma breve descrição da consulta.
 
