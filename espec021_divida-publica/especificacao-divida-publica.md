@@ -29,19 +29,17 @@ Esse documento tem como base a alteração do mapa de carga da consulta 'Execuç
 ## Página Inicial - Pesquisa Básica
 <a href="#top">(inicio)</a>
 
+A consulta irá apresentar dois tipos de dados a depender do período selecionado.
+
+Ao escolher o exercício da Execução da Dívida anterior de 2002 a 2017, o PDT deverá exibir apenas os dados da Dívida Contratual, conforme ocorre atualmente. Ao seleciona o exercício igual ou anterior a 2018, o Portal deverá exibir a além dos dados contratuais os valores referentes aos encargos, conforme detalhado na consulta do Campos BO.
+
+*Essa funcionalidade atualmente é utilizada na consulta da Receita Pública*
+
 ### Texto explicativo
 <a href="#top">(inicio)</a>
 
-Inclusão de um campo que irá trazer uma breve explicação do conteúdo da consulta.
-
-#### Atributos do campo<br><br> Exemplo: [Página Inicial - Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=)
-
-
-1. O usuário poderá exibir mais detalhes do texto ao clicar em ***Mais*** ou ocultar ao clicar ***Menos***;
-2. A funcionalidade deverá permitir a visualização de *tooltip* ao posicionar o mouse sobre uma palavra ou termo;
-3. Ao clicar sobre a palavra ou termo o PdT deverá abrir um um *pop-up* em forma de glossário. [eg. pop-up](https://www.usaspending.gov/)
-4. O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA inclua ou altere os dados desse campo incluindo os *tooltips*.
-
+Inclusão de um campo que irá trazer uma breve explicação do conteúdo da consulta.  
+*Exemplo: Consulta Acordo Judicial da Vale*
 
 ##### Texto Introdutório
 
@@ -50,12 +48,22 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 > A gestão da dívida pública estadual está fundamentada em um arcabouço jurídico-orçamentária que confere legitimidade ao processo de atendimento das necessidades de financiamento do governo e corrobora o compromisso da Subsecretaria do Tesouro Estadual – STE, inserida na estrutura organizacional da Secretaria de Estado de Fazenda de Minas Gerais de Minas Gerais - SEF/MG, de minimizar o custo da dívida em uma perspectiva de médio e longo prazo, visando assegurar a sustentabilidade do endividamento.
 >
 > No âmbito da Secretaria de Estado da Fazenda, o [Decreto Estadual nº 47.794/19](https://www.almg.gov.br/consulte/legislacao/completa/completa-nova-min.html?tipo=DEC&num=47794&comp=&ano=2019&texto=consolidado#texto) estabeleceu a gestão do endividamento estatal como competência da Subsecretaria do Tesouro Estadual – STE, por meio da Superintendência Central de Governança de Ativos e da Dívida Pública – SCGOV.
-> 
+>
 > Outras informações sobre as obrigações financeiras do Estado podem ser consultadas no [Portal da Dívida Pública - SEF/MG](http://www.fazenda.mg.gov.br/tesouro-estadual/divida-publica/portal-da-divida-publica-estadual/).
+
+
+
+#### Atributos do campo<br><br> Exemplo: [Página Inicial - Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=)
+
+
+1.  O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA inclua ou altere os dados desse campo incluindo os *tooltips*.
+2. O usuário poderá exibir mais detalhes do texto ao clicar em ***Mais*** ou ocultar ao clicar ***Menos***;
+3. A funcionalidade deverá permitir a visualização de *tooltip* ao posicionar o mouse sobre uma palavra ou termo;
+4. Ao clicar sobre a palavra ou termo o PdT deverá abrir um um *pop-up* em forma de glossário. [eg. pop-up](https://www.usaspending.gov/)
 
 ##### Tooltip dos termos destacados dentro do texto inicial
 
-- Compromissos financeiros assumidos pelo governo. Esses compromissos se dividem em dívida pública interna (entidade pública dentro do país) e dívida pública externa (entidade pública no exterior).
+- Dívida Pública: Compromissos financeiros assumidos pelo governo. Esses compromissos se dividem em dívida pública interna (entidade pública dentro do país) e dívida pública externa (entidade pública no exterior).
 
 **Observação:**<br> Ao clicar em qualquer termo destacado o usuário será direcionado para o termo especifico dentro do glossário do Portal.
 
@@ -110,7 +118,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 * O Gráfico apresentado como padrão será o tipo Treemap (Gráfico área) com os dados do exercício vigente.
 * O usuário terá a opção de verificar série histórica da dívida pública ao clicar no gráfico de barra.
-* Os gráficos apresentaram os dados da coluna 'Total Realizado'
+* Todos os gráficos da consulta irão buscar a coluna 'Total Realizado'
 
 
 ### Download dos dados:
@@ -144,7 +152,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 ### Compartilhar dados:
 <a href="#top">(inicio)</a>
 
-O usuário poderá Compartilhar os link dos dados nos seguintes canais, no mínimo:
+Todas as páginas da consulta deverão exibir ícones com links para compartilhamento dos dados nos seguintes canais, no mínimo:
 
 - Twitter
 - Facebook
@@ -154,7 +162,7 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 ## Pesquisa básica - Navegação por filtros
 <a href="#top">(inicio)</a>
 
-* 1º NÍVEL
+* **1º NÍVEL**
   - [Tipo]() -> ao clicar o usuário será direcionado para o 2º nível
   - Juros e Encargos da Dívida
   - Amortização da Dívida
@@ -162,7 +170,10 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 
 ![image](https://user-images.githubusercontent.com/53793354/196471656-c57a815e-b03f-43b2-88a6-af4d6ce26d07.png)
 
-* 2º NÍVEL
+***Observação:***    
+A navegabilidade para o segundo nível irá ocorre apenas para os projetos atividades:<br> - Gestão da Dívida Fundada Contratual Externa e<br>  - Gestão da Dívida Fundada Contratual Interna
+
+* **2º NÍVEL**
   - [Credor]() -> ao clicar o usuário será direcionado para o 3º nível
   - CNPJ
   - Juros e Encargos da Dívida
@@ -185,7 +196,7 @@ O usuário poderá Compartilhar os link dos dados nos seguintes canais, no míni
 <a href="#top">(inicio)</a>
 
 Os dados dessa consulta serão extraídos do Universo BO SIAFI:
-  * Armazém BO / Pastas públicas - SIAFI > SUPORTE- SIAFI > CGE > Nova-espec-divida-publica
+  * Armazém BO / Pastas públicas - SIAFI > SUPORTE- SIAFI > CGE > espec-divida-publica
 
 #### Filtros da Consulta
 
@@ -197,11 +208,18 @@ Essa consulta será anual, ou seja, o usuário irá visualizar a execução da D
 
 | Armazém BO- SIAFI |Dimensão SIAFI| Filtro  |
 |----|----------|------------|
-| Ano de exercício |Período Contábil| Usar o período desejado |   
-| Tipo ContratoConvênio Entrada - Cod |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados do Empenho - Despesa| - 01- Divida Pública<br>- 00- Sem informação |  
-| Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Natureza da Despesa Realizada| - 2- Juros e Encargos da Dívida<br>- 6- Amortização da Dívida
-| Elemento Despesa |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Natureza da Despesa Realizada |- 21- Juros sobre a Divida por Contrato<br> - 22- outros encargos sobre a dívida por contrato<br> - 71- Principal da dívida contratual resgatado
+| Ano de exercício<br> **(2002 e 2003)** |Período Contábil| Usar o período desejado |   
+| Projeto_Atividade - Descrição |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Programa de Trabalho - Despesa| Projeto Atividade Códigos:<br> -**7202:** Dívida Contratual Interna <br> -**7203:** Dívida Contratual Externa <br>
 
+| Armazém BO- SIAFI |Dimensão SIAFI| Filtro  |
+|----|----------|------------|
+| Ano de exercício<br> **(2004 e 2017)** |Período Contábil| Usar o período desejado |   
+| Projeto_Atividade - Descrição |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Programa de Trabalho - Despesa| Projeto Atividade Códigos:<br> -**7886:** Dívida Contratual Externa <br> -**7896:** Dívida Contratual Externa <br>
+
+| Armazém BO- SIAFI |Dimensão SIAFI| Filtro  |
+|----|----------|------------|
+| Ano de exercício<br> **(a partir de 2018)** |Período Contábil| Usar o período desejado |   
+| Unidade Orçamentária - Código |SIAFI - Unidade Orçamentária| Unidade Orçamentária - Código 1916
 
 #### Campos da Tabela
 
@@ -217,7 +235,7 @@ Essa consulta será anual, ou seja, o usuário irá visualizar a execução da D
 =>> Consulta BO: 2º nível - Dívida Interna ou Dívida Externa
 
 **Observação:**      
-A navegabilidade para o segundo nível irá ocorre apenas nos projetos atividades:<br> - Gestão da Dívida Fundada Contratual Externa e<br>  - Gestão da Dívida Fundada Contratual Interna
+Para os dados a partir de 2018 a navegabilidade para o segundo nível irá ocorre apenas nos projetos atividades:<br> - Gestão da Dívida Fundada Contratual Externa e<br>  - Gestão da Dívida Fundada Contratual Interna
 
 | Armazém BO- SIAFI |Dimensão SIAFI| Campo PDT| Tooltip - PDT|
 |----|----------|------------|----------|
@@ -233,7 +251,7 @@ A navegabilidade para o segundo nível irá ocorre apenas nos projetos atividade
 
 | Armazém BO- SIAFI |Dimensão SIAFI| Campo PDT| Tooltip - PDT|
 |----|----------|------------|----------|
-| Num Ref Contrato Convênio Entrada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados do Empenho - Despesa| Número do Contrato |  Número que identifica o instrumento de contratação 
+| Num Ref Contrato Convênio Entrada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados do Empenho - Despesa| Número do Contrato |  Número que identifica o instrumento de contratação
 | Contrato Convênio Entrada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > Dados do Empenho - Despesa| Número SIAFI|Número de identificação no SIAFI (Sistema Integrado de Administração Financeira)
 | Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa | Amortização da Dívida|Amortização efetiva do principal da dívida pública contratual, interna e externa e outros compromissos assumidos
 | Grupo Despesa - Descrição  |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada > GMIFP - Despesa |   Juros e Encargos da Dívida|Taxas, Comissões, prêmios, e outros encargos com operações de crédito internas e externas e outros compromissos assumidos
