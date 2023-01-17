@@ -13,12 +13,12 @@ output:
 # Visão geral da demanda
 <a href="#top">(inicio)</a>
 
-Essa demanda visa alterar o mapa de carga da consulta execução da Dívida Pública para alinhar dados do PDT com os dados disponibilizados no Portal da Dívida Pública Estadual.
+Essa demanda visa alterar o mapa de carga da consulta execução da Dívida Pública para compatibilizar os dados do PDT e do Portal da Dívida Pública Estadual.
 
 # Motivação / contexto da demanda
 <a href="#top">(inicio)</a>
 
-Foi questionado pela equipe da SEF - Diretoria Central de Gestão da Dívida Pública que os dados publicados no portal da Transparência, ano 2021, referentes aos valores da Dívida Pública do Estado MG encontram divergentes dos valores publicados no [Portal da Dívida Pública](http://www.fazenda.mg.gov.br/tesouro-estadual/divida-publica/portal-da-divida-publica-estadual/).
+A Diretoria Central de Gestão da Dívida Pública, da Secretaria de Estado de Fazenda - SEF, procurou à Diretoria Central de Transparência Atica - DCTA, para informar que os dados publicados no portal da Transparência encontram-se divergentes dos valores publicados no [Portal da Dívida Pública], período 2021. (http://www.fazenda.mg.gov.br/tesouro-estadual/divida-publica/portal-da-divida-publica-estadual/).
 
 # Especificação
 <a href="#top">(inicio)</a>
@@ -31,7 +31,7 @@ Esse documento tem como base a alteração do mapa de carga da consulta 'Execuç
 
 A consulta irá apresentar dois tipos de dados a depender do período selecionado.
 
-Ao escolher o exercício da Execução da Dívida anterior de 2002 a 2017, o PDT deverá exibir apenas os dados da Dívida Contratual, conforme ocorre atualmente. Ao seleciona o exercício igual ou anterior a 2018, o Portal deverá exibir a além dos dados contratuais os valores referentes aos encargos, conforme detalhado na consulta do Campos BO.
+Ao escolher o exercício da Execução da Dívida anterior de 2002 a 2017, o PDT deverá exibir apenas os dados da Dívida Contratual, conforme ocorre atualmente. Ao selecionar o exercício igual ou anterior a 2018, o Portal deverá exibir a além dos dados contratuais os valores referentes aos encargos, conforme detalhado na consulta do Campos BO.
 
 *Essa funcionalidade atualmente é utilizada na consulta da Receita Pública*
 
@@ -45,7 +45,7 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 
 >A [`Dívida Pública`]((a "Compromissos financeiros assumidos pelo governo, podem ser dívida pública interna (entidade pública dentro do país) e dívida pública externa (entidade pública no exterior).") pode ser conceituada como o conjunto de obrigações financeiras do Estado decorrente da necessidade de captação de recursos para execução de políticas públicas.
 >
-> A gestão da dívida pública estadual está fundamentada em um arcabouço jurídico-orçamentária que confere legitimidade ao processo de atendimento das necessidades de financiamento do governo e corrobora o compromisso da Subsecretaria do Tesouro Estadual – STE, inserida na estrutura organizacional da Secretaria de Estado de Fazenda de Minas Gerais de Minas Gerais - SEF/MG, de minimizar o custo da dívida em uma perspectiva de médio e longo prazo, visando assegurar a sustentabilidade do endividamento.
+> A gestão da dívida pública estadual está fundamentada em um arcabouço jurídico-orçamentário que confere legitimidade ao processo de atendimento das necessidades de financiamento do governo e corrobora o compromisso da Subsecretaria do Tesouro Estadual – STE, inserida na estrutura organizacional da Secretaria de Estado de Fazenda de Minas Gerais de Minas Gerais - SEF/MG, de minimizar o custo da dívida em uma perspectiva de médio e longo prazo, visando assegurar a sustentabilidade do endividamento.
 >
 > No âmbito da Secretaria de Estado da Fazenda, o [Decreto Estadual nº 47.794/19](https://www.almg.gov.br/consulte/legislacao/completa/completa-nova-min.html?tipo=DEC&num=47794&comp=&ano=2019&texto=consolidado#texto) estabeleceu a gestão do endividamento estatal como competência da Subsecretaria do Tesouro Estadual – STE, por meio da Superintendência Central de Governança de Ativos e da Dívida Pública – SCGOV.
 >
@@ -65,7 +65,7 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 
 - Dívida Pública: Compromissos financeiros assumidos pelo governo. Esses compromissos se dividem em dívida pública interna (entidade pública dentro do país) e dívida pública externa (entidade pública no exterior).
 
-**Observação:**<br> Ao clicar em qualquer termo destacado o usuário será direcionado para o termo especifico dentro do glossário do Portal.
+**Observação:**<br> Ao clicar em qualquer termo destacado o usuário será direcionado para o termo específico dentro do glossário do Portal.
 
 
 ## Leiaute - Barra de navegação
@@ -99,7 +99,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 * Os valores TOTAL GERAL e o SUBTOTAL serão exibidos na tabela de resultados de acordo com o comportamento do usuário:
 
-  * **TOTAL GERAL:** quando o usuário não aplicar nenhum filtro na tabela ou quanto todos os dados forem exibidos em uma única página, ou seja, sem paginação;
+  * **TOTAL GERAL:** quando o usuário não aplicar nenhum filtro na tabela ou quando todos os dados forem exibidos em uma única página, ou seja, sem paginação;
   * **SUBTOTAL:** quando o usuário aplicar qualquer filtro na tabela através da barra de pesquisa ou quando houver paginação na tabela de resultado, ou seja, houver mais de uma página de resultado.
 
 ### Estrutura de design das tabelas de resultados da Pesquisa básica
@@ -110,7 +110,7 @@ A barra de navegação superior será composta pelos seguintes campos:
  * Colunas movíveis e classificáveis conforme ocorre atualmente;
  * Paginação e seleção da quantidade de linhas a serem exibidas, conforme ocorre atualmente;
  * O texto deve ser ajustável nas colunas, ou seja, caso seja necessário pode haver quebra de linha;
- * A tabela apresentará campos clicáveis (com link) que irá direcionar o usuário para o próximo nível da consulta.
+ * A tabela apresentará campos clicáveis (com link) que irão direcionar o usuário para o próximo nível da consulta.
  * Os campos clicáveis serão destacados conforme o layout já adotado pelo PdT - [Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=).
 
 ### Leiaute - Gráficos
@@ -132,7 +132,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 
 * **Download Planilha (CSV):**
-  * Será exibido a tabela completa de todas as páginas no formato CSV, independente do filtro aplicado.
+  * Será exibida a tabela completa de todas as páginas no formato CSV, independente do filtro aplicado.
   * Exibir código e descrição em campos distintos, independente de o usuário selecionar a opção '*Exibir código e descrição*'
 
 
@@ -235,7 +235,7 @@ Essa consulta será anual, ou seja, o usuário irá visualizar a execução da D
 =>> Consulta BO: 2º nível - Dívida Interna ou Dívida Externa
 
 **Observação:**      
-Para os dados a partir de 2018 a navegabilidade para o segundo nível irá ocorre apenas nos projetos atividades:<br> - Gestão da Dívida Fundada Contratual Externa e<br>  - Gestão da Dívida Fundada Contratual Interna
+Para os dados a partir de 2018 a navegabilidade para o segundo nível irá ocorrer apenas nos projetos atividades:<br> - Gestão da Dívida Fundada Contratual Externa e<br>  - Gestão da Dívida Fundada Contratual Interna
 
 | Armazém BO- SIAFI |Dimensão SIAFI| Campo PDT| Tooltip - PDT|
 |----|----------|------------|----------|
