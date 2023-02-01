@@ -2,7 +2,7 @@
 
 ## Dívida Pública
 
-- [ ] 1-  Alterar o mapa de carga da consulta execução da Dívida Pública conforme estabelecido pela equipe responsável da SEF.<br> 
+- [Finalizado] 1-  Alterar o mapa de carga da consulta execução da Dívida Pública conforme estabelecido pela equipe responsável da SEF.<br> 
        - [Especificação](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec021_divida-publica/espec021_divida-publica/especificacao-divida-publica.md) <br>
        - [Detalhes da discussão](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/consolidado_manutencao_evolutiva_pdt/consolidado_melhorias_pdt.md)<br>
        - [Reuniões](https://github.com/transparencia-mg/notas-reunioes/blob/master/notas/2022-XX_XX%20pauta_CGE-SEF%20-%20DIVIDA_PUBLICA.md)<br>
@@ -10,7 +10,7 @@
 
 ## Convênio de Saída
 
-- [ ] 1-  Alterar regra de leitura dos dados no momento da disponibilização no Portal para adequar os valores dos recursos de emendas parlamentares e convênios celebrados com recursos concedentes conforme definido pela equipe gestora do SIGCON-SAÍDA<br>
+- [Finalizado ] 1-  Alterar regra de leitura dos dados no momento da disponibilização no Portal para adequar os valores dos recursos de emendas parlamentares e convênios celebrados com recursos concedentes conforme definido pela equipe gestora do SIGCON-SAÍDA<br>
        - [Acompanhamento trello](https://trello.com/c/uFIGPEC1/1081)
 
 ## Despesa de Pessoal
