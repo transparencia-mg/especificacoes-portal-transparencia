@@ -14,21 +14,15 @@ output:
 # Visão geral da Demanda
 <a href="#top">(inicio)</a>
 
-Essa demanda visa incluir no Portal da Transparência o modo de  Alto Contraste para permiter ao usuário inverter as cores do primerio plano e plano de fundo, bem como aumentar ou reduzir a fonte do texto, o que ajuda a destacar melhor o texto.
+Essa demanda visa incluir no Portal da Transparência os modos de  Alto Contraste e Alteração no tamanho da fonte de texto, que permitirão que os usuários possam inverter as cores do primerio plano e plano de fundo, bem como aumentar ou reduzir a fonte do texto.
 
 
 # Motivação / contexto da demanda
 <a href="#top">(inicio)</a>
 
-O Alto Contraste é uma ferramenta que deixa o fundo da página totalmente escuro e as letras mais claras, podendo também ser relacionado à troca do tamanho das fontes. Este recurso, utilizado principalmente por pessoas que possuem médio ou alto déficit de visão, bem como usuários que apresentam algum grau de daltonismo, permite aumentar o contraste das cores do texto e das imagens na tela, facilitando sua identificação.
+O Alto Contraste é uma ferramenta que deixa o fundo da página totalmente escuro e as letras mais claras, podendo também ser relacionado à troca do tamanho das fontes. Este recurso, utilizado principalmente por pessoas que possuem médio ou alto déficit de visão, permite aumentar o contraste das cores do texto e das imagens na tela, facilitando sua identificação.
 
-De acordo com o World Wide Web Consortium - W3C, um consórcio internacional no qual organizações filiadas trabalham juntas para desenvolver padrões para a web, as técnicas de acessibilidade na internet permite que cada pessoa possa “perceber, entender, navegar, interagir e contribuir para a web”.
-
-Nesse contexto, a acessibilidade de sites e aplicativos envolvem todas as condições necessárias para melhorar o acesso à internet, de pessoas com deficiências visuais, auditivas, físicas, de fala, cognitivas, neurológicas, entre outras. Ainda segundo a cartilha de acessibilidade do W3C Brasil, acessibilidade na web significa que pessoas com deficiência devem ser incluídas no ambiente digital. Ela também beneficia outros indivíduos que, ainda que não apresentem algum distúrbio, podem ter sua experiência de navegação prejudicada, como idosos.
-
-Assim, algumas combinações de cores podem ser fáceis de ler para algumas pessoas, difíceis ou quase impossíveis para outras. Isso geralmente se resume ao contraste de cores e a relação entre a luminância das cores do primeiro plano e do plano de fundo. 
-
-Diante disso, para possibilitar a igualdade de oportunidades para que diferentes tipos de pessoas, independentemente de suas situações, possam ter autonomia para utilizar o Portal de Transparência do Estado de Minasd Gerais, é necessário considerar a implementação de algumas ferramentas de acessibilidade, como o alto contraste e o aumento ou redução da fonte da página.
+Diante disso, para possibilitar a igualdade de oportunidades para que diferentes tipos de pessoas, independentemente de suas situações, possam ter autonomia para utilizar o Portal de Transparência do Estado de Minas Gerais, é necessário considerar a implementação de tais ferramentas de acessibilidade.
 
 
 # Especificação
@@ -37,7 +31,7 @@ Diante disso, para possibilitar a igualdade de oportunidades para que diferentes
 ## Página Inicial
 <a href="#top">(inicio)</a>
 
-Incluir em todas as páginas do Portal da Transparência, no canto superior esquerdo da página, a funcionalidade de Alto contraste, por meio do acionamento de botões.
+Incluir uma linha na parte superior do cabeçalho, na qual estarão contidos os botões referentes às fontes (aumentar,diminuir e manter o tamanho padrão) e alto contraste (conforme exemplificado no arquivo anexo - Nova Página).
 
 ### Localizações dos Botões
 
@@ -53,7 +47,7 @@ Nova Página
 
 ### Botão 1: Alto Contraste
 
-Botão acima da página "Alto Contraste", que ao ser acionado aplica os recursos de aumento de contraste em todas as páginas do Portal.
+Botão caracterizado geralmente por imagem (meia-lua, dentre outros) que identifique a alternância em "Alto Contraste" e que ao ser acionado aplica os recursos de aumento de contraste.
 
 ![image](https://user-images.githubusercontent.com/52920939/217844860-7c56ff80-ddf4-4d49-985d-56da99e6ea28.png)
 
