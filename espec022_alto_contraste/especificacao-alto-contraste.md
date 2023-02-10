@@ -41,8 +41,7 @@ Página Atual
 
 Nova Página
 
-![image](https://user-images.githubusercontent.com/52920939/217846279-f7f2d9df-1d86-4436-b728-710f83abf682.png)
-
+![Alto contraste](https://user-images.githubusercontent.com/108425431/218138302-5666ab49-2279-4adc-b59c-a9f3dae63947.png)
 
 
 ### Botão 1: Alto Contraste
@@ -63,32 +62,38 @@ Botão caracterizado geralmente por imagem (meia-lua, dentre outros) que identif
 ### Botão 2 - Aumentar Fonte
 <a href="#top">(inicio)</a>
 
-Incluir em todas as páginas do Portal da Transparência a funcionalidade de Aumentar Fonte, por meio de um botão acima da página "A+", que ao ser acionado aumenta o tamanho da fonte da página em que o usuário está navegando.
+A funcionalidade de Aumentar Fonte, também presente no cabelho fixo, por meio de um botão "A+", ao ser acionada aumentará o tamanho da fonte.
 
 ![image](https://user-images.githubusercontent.com/52920939/217845748-df9b244b-60de-407b-b0da-73b6a991dec0.png)
 
 - Ao passar o mouse sobre o local, deve aparecer o tool tip com a informação "Aumentar tamanho do texto"
 
+- Observação: O botão de "Aumentar Fonte" ao ser acionado, por estar presente no cabeçalho fixado, permanecerá ativo em qualquer navegação no Portal da Transparência, até que o usuário clique novamente no botão e desative a funcionalidade.
+
 
 ### Botão 3 - Reduzir Fonte
 <a href="#top">(inicio)</a>
 
-Incluir em todas as páginas do Portal da Transparência a funcionalidade de Aumentar Fonte, por meio de um botão acima da página "A-", que ao ser acionado reduz o tamanho da fonte da página em que o usuário está navegando.
+A funcionalidade de Reduzir Fonte, também presente no cabelho fixo, por meio de um botão "A-", ao ser acionada reduz o tamanho da fonte.
 
 ![image](https://user-images.githubusercontent.com/52920939/217845872-7a056fce-3cea-4e63-b2e5-7960ea1afbdd.png)
 
 - Ao passar o mouse sobre o local, deve aparecer o tool tip com a informação "Reduzir tamanho do texto"
 
+- Observação: O botão de "Reduzir Fonte" ao ser acionado, por estar presente no cabeçalho fixado, permanecerá ativo em qualquer navegação no Portal da Transparência, até que o usuário clique novamente no botão e desative a funcionalidade.
+
 
 ### Botão 4 - Tamanho Original da Fonte
 <a href="#top">(inicio)</a>
 
-Incluir em todas as páginas do Portal da Transparência a funcionalidade de Retornar ao Tamanho Original da Fonte, por meio de um botão acima da página "A=", que ao ser acionado retorna ao tamanho da fonte padrão da página em que o usuário está navegando.
+A funcionalidade de "Tamanho Original da Fonte", por meio de um botão acima da página "A=", ao ser acionada redimensiona o tamanho dos textos do sítio para a configuração padrão de 100% do seu navegador.
 
 ![image](https://user-images.githubusercontent.com/52920939/217845968-c4e7e078-3811-471e-8884-fe0a6e6b44ce.png)
 
 
 - Ao passar o mouse sobre o local, deve aparecer o tool tip com a informação "Retornar ao tamanho original do texto"
+
+- Observação: O botão de "Tamanho Original da Fonte" ao ser acionado, por estar presente no cabeçalho fixado, permanecerá ativo em qualquer navegação no Portal da Transparência, até que o usuário clique novamente no botão e desative a funcionalidade.
 
 
 
