@@ -57,7 +57,7 @@ Botão caracterizado geralmente por imagem (meia-lua, dentre outros) que identif
 
 ![image](https://user-images.githubusercontent.com/52920939/217845054-36b6c1af-72cb-4572-a47b-a545e57d4798.png)
 
-- Observação: A funcionalidade de Alto Constraste ao ser acionada, será aplicada a todas as páginas do portal da transparência em que o usuário navegar, sem a necessidade de acionar novamente o botão na página seguinte.
+- Observação: A funcionalidade de "Alto Constraste" ao ser acionada, por estar presente no cabeçalho fixado, permanecerá ativa em qualquer navegação no Portal da Transparência, até que o usuário clique no botão de "Alto Contraste" novamente e desative-a.
 
 
 ### Botão 2 - Aumentar Fonte
