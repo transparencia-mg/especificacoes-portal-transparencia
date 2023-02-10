@@ -1,13 +1,14 @@
 ---
 title: "Alto Contraste"
+Mantis: 
+contrato_manutencao: INF 4504 
 output:
   html_document:
     theme: united
     toc: yes
   word_document:
     toc: yes
-proposta_comercial: 
-contrato_manutencao: INF 4504 
+
 ---
 
 # Visão geral da Demanda
