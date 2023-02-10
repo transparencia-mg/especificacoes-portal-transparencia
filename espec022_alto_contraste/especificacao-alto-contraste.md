@@ -6,9 +6,8 @@ output:
     toc: yes
   word_document:
     toc: yes
-proposta_comercial: nº 
-pull_request: null
-contrato_manutencao: nº 
+proposta_comercial: 
+contrato_manutencao: INF 4504 
 ---
 
 # Visão geral da Demanda
@@ -20,26 +19,24 @@ Essa demanda visa incluir no Portal da Transparência o modo de  Alto Contraste 
 # Motivação / contexto da demanda
 <a href="#top">(inicio)</a>
 
+O Alto Contraste é uma ferramenta que deixa o fundo da página totalmente escuro e as letras mais claras, podendo também ser relacionado à troca do tamanho das fontes. Este recurso, utilizado principalmente por pessoas que possuem médio ou alto déficit de visão, bem como usuários que apresentam algum grau de daltonismo, permite aumentar o contraste das cores do texto e das imagens na tela, facilitando sua identificação.
+
 De acordo com o World Wide Web Consortium - W3C, um consórcio internacional no qual organizações filiadas trabalham juntas para desenvolver padrões para a web, as técnicas de acessibilidade na internet permite que cada pessoa possa “perceber, entender, navegar, interagir e contribuir para a web”.
 
-Nesse contexto, a acessibilidade de sites e aplicativos envolvem todas as condições necessárias para melhorar o acesso à internet, de pessoas com deficiências visuais, auditivas, físicas, de fala, cognitivas, neurológicas, entre outras.
-
-Segundo a cartilha de acessibilidade do W3C Brasil, acessibilidade na web significa que pessoas com deficiência devem ser incluídas no ambiente digital. Ela também beneficia outros indivíduos que, ainda que não apresentem algum distúrbio, podem ter sua experiência de navegação prejudicada, como idosos.
+Nesse contexto, a acessibilidade de sites e aplicativos envolvem todas as condições necessárias para melhorar o acesso à internet, de pessoas com deficiências visuais, auditivas, físicas, de fala, cognitivas, neurológicas, entre outras. Ainda segundo a cartilha de acessibilidade do W3C Brasil, acessibilidade na web significa que pessoas com deficiência devem ser incluídas no ambiente digital. Ela também beneficia outros indivíduos que, ainda que não apresentem algum distúrbio, podem ter sua experiência de navegação prejudicada, como idosos.
 
 Assim, algumas combinações de cores podem ser fáceis de ler para algumas pessoas, difíceis ou quase impossíveis para outras. Isso geralmente se resume ao contraste de cores e a relação entre a luminância das cores do primeiro plano e do plano de fundo. 
 
-Nesse cenário, para possibilitar a igualdade de oportunidades para que diferentes tipos de pessoas, independentemente de suas situações, possam ter autonomia para utilizar a web, é necessário considerar a implementação de algumas ferramentas de acessibilidade em sites ou aplicativos, como o alto contraste e o aumento ou redução da fonte da página.
-
-O Alto Contraste é uma ferramenta que deixa o fundo da página totalmente escuro e as letras mais claras, podendo também ser relacionado à troca do tamanho das fontes. Este recurso, utilizado principalmente por pessoas que possuem médio ou alto déficit de visão, bem como usuários que apresentam algum grau de daltonismo, permite aumentar o contraste das cores do texto e das imagens na tela, facilitando sua identificação.
+Diante disso, para possibilitar a igualdade de oportunidades para que diferentes tipos de pessoas, independentemente de suas situações, possam ter autonomia para utilizar o Portal de Transparência do Estado de Minasd Gerais, é necessário considerar a implementação de algumas ferramentas de acessibilidade, como o alto contraste e o aumento ou redução da fonte da página.
 
 
 # Especificação
 <a href="#top">(inicio)</a>
 
-## Alto Contraste
+## Página Inicial
 <a href="#top">(inicio)</a>
 
-Incluir em todas as páginas do Portal da Transparência, no canto esquerdo da página, a funcionalidade de Alto contraste, por meio do acionamento de botões.
+Incluir em todas as páginas do Portal da Transparência, no canto superior esquerdo da página, a funcionalidade de Alto contraste, por meio do acionamento de botões.
 
 ### Localizações dos Botões
 
