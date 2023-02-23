@@ -254,23 +254,23 @@ Ao clicar no número do empenho o usuário será direcionado para o formulário 
 
 * Classificação Orçamentária
 
- ![](static/imagens/formulario-classificacao-orcamentaria.png)
+ ![image](https://user-images.githubusercontent.com/52920939/220975235-7f14b579-66da-4574-b573-8c0b6c5363dc.png)
 
 * Empenho
 
- ![](static/imagens/formulario-empenho.png)
+ ![image](https://user-images.githubusercontent.com/52920939/220975171-f6f06fc4-d3d8-40ae-b9cb-68b2d3898bbf.png)
 
 * Liquidação
 
- ![](static/imagens/formulario-liquidacao.png)
+ ![image](https://user-images.githubusercontent.com/52920939/220975288-35fbd2c2-85bf-4976-bd6e-d3ea955d1ada.png)
 
 * Pagamento
 
- ![](static/imagens/formulario-pagamento.png)
+ ![image](https://user-images.githubusercontent.com/52920939/220975331-2532a423-f6b6-4bd1-8ecb-39dab9428796.png)
 
 * Outras Informações
 
-  ![](static/imagens/formulario-outras-informacoes.png)
+  ![image](https://user-images.githubusercontent.com/52920939/220975555-95c2866f-2523-4f99-a3de-1a907992d56d.png)
 
 ### CONSULTA POR FUNÇÃO
 <a href="#top">(inicio)</a>
