@@ -13,9 +13,16 @@ output:
 # Visão geral da demanda
 <a href="#top">(inicio)</a>
 
+Reestruturação da consulta de Despesa para incluir numa mesma consulta todas as informações de um mesmo empenho. A consulta incluirá dados da execução financeira do empenho, incluindo dados de restos a pagar, dados dos processos de compras, contratos e convênios vinculados.
 
 # Motivação / contexto da demanda
 <a href="#top">(inicio)</a>
+
+A alteração se faz necessária para atender a demandas dos usuários de realizar a pesquisa de várias informações dentro de uma única consulta.
+
+Atualmente no Portal da Transparência, para ter acesso a informações de execução financeira, incluindo restos a pagar, compras e contratos, o usuário precisa realizar a consulta em três locais diferentes (consulta de Despesa, consulta de Restos a Pagar, Consulta de Compras e Contratos, além da consulta de Convênios, quando for aplicável), sendo que nem sempre os dados são de fácil compreensão do usuário. 
+
+Para essa reestruturação, o objetivo será trazer todas as informações para uma mesma única consulta, além de tornar a consulta mais intuitiva, com possibilidade do usuário montar a sua consulta, incluir ou retirar colunas, além de reduzir a quantidade de cliques para chegar a informação desejada.
 
 
 # Especificação
@@ -39,9 +46,10 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 
 ##### Texto Introdutório
 
-> Essa consulta tem por objetivo divulgar dados referentes as despesas empenhadas, liquidadas e pagas pelo Estado de Minas Gerais anualmente, extraídos do Sistema Integrado de Administração Financeira de Minas Gerais (SIAFI/MG). Os dados estão disponíveis desde o ano de 2022 e são atualizados diariamente (D+1).
-> Na consulta de Despesa estão disponíveis cinco filtros para facilitar a sua consulta: Consulta por órgão, Consulta por Função (cultura, educação, saúde, etc...), Consulta por Programa (de acordo com o previsto no PPAG - Plano Plurianual de Ação Governamental) e Consulta por Favorecido por nome e por CPF/CPNJ.
-> 
+> Essa consulta tem por objetivo divulgar dados referentes as despesas empenhadas, liquidadas e pagas anualmente pelo Estado de Minas Gerais, extraídos do Sistema Integrado de Administração Financeira de Minas Gerais (SIAFI/MG). Os dados estão disponíveis desde o ano de 2002 e são atualizados diariamente (D+1). 
+> Na consulta, além de dados da execução financeira, será possível visualizar dados de Restos a Pagar, processos de compras vinculados ao empenho, e os contratos e convênios firmados.
+> Estão disponíveis ainda cinco filtros para facilitar a sua consulta: Consulta por órgão, Consulta por Função (cultura, educação, saúde, etc...), Consulta por Programa (de acordo com o previsto no PPAG - Plano Plurianual de Ação Governamental) e Consulta por Favorecido por nome e por CPF/CNPJ.
+
 
 ##### Tooltip dos termos destacados dentro do texto inicial
 
