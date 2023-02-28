@@ -74,26 +74,36 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 
 A barra de navegação superior será composta pelos seguintes campos:
 
-* Ícones por tipo de Consulta: Órgão, Favorecido, Programa e Função;
-* Período (01/04/2021 a 30/12/2021);
-* Opção de *'Filtrar por'*;
-* Botão *'Monte sua consulta'*
+  * Ícones por tipo de Consulta: Órgão, Favorecido, Programa e Função;
+  * Período (01/04/2021 a 30/12/2021);
+  * Opção de *'Filtrar por'*;
+  * Botão *'Monte sua consulta'*
 
- ``
- XXXXX COLOCAR imagem
- ``
+
+
+  ![image](https://user-images.githubusercontent.com/53793354/221941871-20900269-f7b9-4c19-8d11-203a6ca3a6b0.png)  
+
 
 ### Atributos do campo<br>
 **Exemplo: [Página Inicial - Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=)**
 
-1. O campo período será no formato **dd/mm/aaaa** composto por início e fim (eg. 01/04/2021 a 30/12/2021);<br>
-2. No campo da data o usuário poderá selecionar ou digitar a data na caixa. Exemplo: [Portal de Transparêcia ES](https://transparencia.es.gov.br/Despesa);<br>
 
-![](static/formato-data.gif)
+1. O campo período será no formato **dd/mm/aaaa** composto por início e fim (eg. 01/04/2021 a 30/12/2021). Como padrão o campo "Início/Fim" irá exibir exercício vigente até o dia da última atualização dos dados.
+2. No campo da data o usuário poderá selecionar ou digitar a data na caixa. Exemplo: [Portal de Transparêcia ES](https://transparencia.es.gov.br/Despesa);
+
+
+   ![](static/formato-data.gif)
 
 3. Os ícones serão clicáveis. Quando o usuário posicionar o mouse sobre o ícone será exibido um tooltip com uma breve descrição.
-Colocar imagem xxxxx
+    - Órgão: Consulte os valores por órgão (unidade orçamentária) responsável pela execução da despesa.
+    - Favorecido: Consulte a execução financeira através do nome ou CPF/CNPJ do favorecido.
+    - Programa: Consulte a execução pelo tipo de Programa.
+    - Função: Consulte a execução por área de atuação do governo. Exemplo: saúde, educação, transporte e etc.
 
+
+     ![image](https://user-images.githubusercontent.com/53793354/221942055-73c7b90c-8a4b-4053-83a9-b63febbfd33c.png)
+     
+     
 4. O comportamento do campo *'Filtro'* será conforme o tipo de consulta selecionada e como padrão será exibido a opção 'Todos':<br>
   - **Órgão, Função, Programa**: ao selecionar uma das opções o PDT irá permitir que o usuário selecione um item no campo filtro. Esse campo poderá ser selecionado através da barra de rolagem ou por digitação.
 
@@ -102,16 +112,23 @@ Colocar imagem xxxxx
   - **Favorecido**: Ao selecionar esse tipo de consulta o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados ([eg. Consulta PDT - Acordo Judicial da Vale]())
 
   ![](static/filtro-favorecido.png)
+  
+5. O campo *'Filtro'* deverá retornar os dados a medida que o usuário for digitando. O atributo placeholder deve ser aplicado.
+6. A consulta irá apresentar como padrão a tabela de resultado com os dados do exercício vigente da consulta 'Órgão'.
+7. As demais funcionalidades serão as mesmas já adotadas na consulta Acordo Judicial de Reparação da Vale'
 
-5. As demais funcionalidades serão as mesmas já adotadas na consulta Acordo Judicial de Reparação da Vale'
+
 
 ____________________________ PAREI AQUI (SILVIANA)
+------
 
-## Leiaute - Cabeçalho da tabelas
+
+
+## 3. Leiaute - Cabeçalho da tabelas
 <a href="#top">(inicio)</a>
 
-* A tabela de resultado levará em consideração os parâmetros dos filtros aplicados.
-* A data de atualização dos dados (*Dados atualizados em*), o período, o ícone *Exibir Gráfico* ou *Fechar Gráfico*, Download, Compartilhar serão exibidos acima do gráfico/tabela de resultados.
+1. A tabela de resultado levará em consideração os parâmetros dos filtros aplicados pelo usuário
+2. A data de atualização dos dados (*Dados atualizados em*), o período, o ícone *Exibir Gráfico* ou *Fechar Gráfico*, Download, Compartilhar serão exibidos acima do gráfico/tabela de resultados.
 
 
 ## Leiaute - Tabelas navegação
