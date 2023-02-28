@@ -1,9 +1,8 @@
 ---
-contrato_manutencao: nº  (INF. )
-proposta_comercial:
+contrato_manutencao: INF 4504
 mantis:
 pull_request: '[]()'
-titulo: Despesa Pública
+titulo: Atualização da Consulta Despesa Pública
 output:
   html_document:
     theme: united
@@ -28,35 +27,44 @@ Para essa reestruturação, o objetivo será trazer todas as informações para 
 # Especificação
 <a href="#top">(inicio)</a>
 
+Esse documento tem como base apresentar as alterações que deverão ser implementadas na pesquisa básica e avançada da consulta da Despesa Pública.
 
 ## Página Inicial - Pesquisa Básica
 <a href="#top">(inicio)</a>
 
-### Texto explicativo 
-<a href="#top">(inicio)</a>
+### Texto explicativo
 
-Inclusão de um campo que irá trazer uma breve explicação do conteúdo da consulta.
+Inclusão de um campo que irá trazer uma breve explicação do conteúdo da consulta.<br>
+*Exemplo: [Consulta Acordo Judicial da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale)*
 
 #### Atributos do campo<br><br> Exemplo: [Página Inicial - Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=)
 
-
-1. Seguir o padrão adotado na consulta Acordo Judicial de Reparação da Vale
-2. O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA inclua ou altere os dados desse campo incluindo os *tooltips*.
-
-
-##### Texto Introdutório
-
-> Essa consulta tem por objetivo divulgar dados referentes as despesas empenhadas, liquidadas e pagas anualmente pelo Estado de Minas Gerais, extraídos do Sistema Integrado de Administração Financeira de Minas Gerais (SIAFI/MG). Os dados estão disponíveis desde o ano de 2002 e são atualizados diariamente (D+1). 
-> Na consulta, além de dados da execução financeira, será possível visualizar dados de Restos a Pagar, processos de compras vinculados ao empenho, e os contratos e convênios firmados.
-> Estão disponíveis ainda cinco filtros para facilitar a sua consulta: Consulta por órgão, Consulta por Função (cultura, educação, saúde, etc...), Consulta por Programa (de acordo com o previsto no PPAG - Plano Plurianual de Ação Governamental) e Consulta por Favorecido por nome e por CPF/CNPJ.
+1. O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA inclua ou altere os dados desse campo incluindo os tooltips.
+2. O usuário poderá exibir mais detalhes do texto ao clicar em Mais ou ocultar ao clicar Menos;
+3. A funcionalidade deverá permitir a visualização de tooltip ao posicionar o mouse sobre uma palavra ou termo;
+4. Ao clicar sobre a palavra ou termo o PdT deverá abrir um pop-up em forma de glossário. [eg. pop-up](https://www.usaspending.gov/)
+![image](https://user-images.githubusercontent.com/53793354/221927921-62c48e74-3fdf-4595-b71a-d2cba0d8b615.png)
 
 
-##### Tooltip dos termos destacados dentro do texto inicial
+**Texto Introdutório**
 
--
+> A Despesa pública é a aplicação em dinheiro de recursos do Estado para custear os serviços de ordem pública ou para investir no próprio desenvolvimento econômico do estado. É o compromisso de gasto dos recursos públicos, autorizados pelo Poder competente, com a finalidade de atender a uma necessidade da coletividade prevista no orçamento.
+> 
+> A execução da despesa é realizada seguindo os estágios presentes na [Lei Federal nº 4.320/64](http://www.planalto.gov.br/Ccivil_03/leis/L4320.htm):
+> - [`Empenho`]((a ""): etapa em que o governo reserva o dinheiro que será pago quando o bem for entregue ou o serviço concluído;
+> - [`Liquidação`]((a ""): etapa em que se verifica se o governo recebeu aquilo que comprou. Ou seja, quando se confere que o bem foi entregue corretamente ou que a etapa da obra foi concluída como acordado e 
+> - [`Pagamento`]((a ""): caso esteja tudo certo com as fases anteriores, o governo pode fazer o pagamento, repassando o valor ao vendedor ou prestador de serviço. 
+> 
+> A presente consulta tem por objetivo divulgar a execução financeira e orçamentária do Estado de Minas Gerais através dos dados extraídos do [`SIAFI/MG`]((a ""). Os dados estão disponíveis desde o ano de 2002 e são atualizados diariamente (D+1).
+>
+> O Portal de Transparência do Estado de Minas Gerais traz informações sobre a execução da despesa em âmbito estadual, informações sobre os municípios mineiros devem ser obtidas diretamente no portal de transparência do município desejado, conforme determina a  [Lei Complementar nº 131](http://www.planalto.gov.br/ccivil_03/leis/lcp/lcp131.htm).
 
-- **Observação:**<br> Ao clicar em qualquer termo destacado o usuário será direcionado para o termo especifico dentro do glossário do Portal.
 
+**Tooltip dos termos destacados dentro do texto inicial**
+
+- SIAFI/MG: Sistema Integrado de Administração Financeira de Minas Gerais
+
+**Observação:**<br> Ao clicar em qualquer termo destacado o usuário será direcionado para o termo especifico dentro do glossário do Portal.
 
 ## Leiaute - Barra de navegação
 <a href="#top">(inicio)</a>
