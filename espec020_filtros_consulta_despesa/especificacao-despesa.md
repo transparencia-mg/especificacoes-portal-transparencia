@@ -75,10 +75,10 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 A barra de navegação superior será composta pelos seguintes campos:
 
   * Ícones por tipo de Consulta: Órgão, Favorecido, Programa e Função;
+  * Ano;
   * Período (01/04/2021 a 30/12/2021);
   * Opção de *'Filtrar por'*;
   * Botão *'Monte sua consulta'*
-
 
 
   ![image](https://user-images.githubusercontent.com/53793354/221941871-20900269-f7b9-4c19-8d11-203a6ca3a6b0.png)  
