@@ -32,21 +32,22 @@ Esse documento tem como base apresentar as alterações que deverão ser impleme
 ## Página Inicial - Pesquisa Básica
 <a href="#top">(inicio)</a>
 
-### Texto explicativo
+## 1. Texto explicativo
 
 Inclusão de um campo que irá trazer uma breve explicação do conteúdo da consulta.<br>
 *Exemplo: [Consulta Acordo Judicial da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale)*
 
-#### Atributos do campo<br><br> Exemplo: [Página Inicial - Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=)
+### Atributos do campo<br>
+***Exemplo: [Página Inicial - Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=)***
 
 1. O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA inclua ou altere os dados desse campo incluindo os tooltips.
-2. O usuário poderá exibir mais detalhes do texto ao clicar em Mais ou ocultar ao clicar Menos;
+2. O usuário poderá exibir mais detalhes do texto ao clicar em **Mais** ou ocultar ao clicar **Menos**;
 3. A funcionalidade deverá permitir a visualização de tooltip ao posicionar o mouse sobre uma palavra ou termo;
 4. Ao clicar sobre a palavra ou termo o PdT deverá abrir um pop-up em forma de glossário. [eg. pop-up](https://www.usaspending.gov/)
-![image](https://user-images.githubusercontent.com/53793354/221927921-62c48e74-3fdf-4595-b71a-d2cba0d8b615.png)
+   ![image](https://user-images.githubusercontent.com/53793354/221929369-65f86c35-99da-49ae-b6e7-3a4a56e44776.png)
 
 
-**Texto Introdutório**
+### Texto Introdutório
 
 > A Despesa pública é a aplicação em dinheiro de recursos do Estado para custear os serviços de ordem pública ou para investir no próprio desenvolvimento econômico do estado. É o compromisso de gasto dos recursos públicos, autorizados pelo Poder competente, com a finalidade de atender a uma necessidade da coletividade prevista no orçamento.
 > 
@@ -60,13 +61,13 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 > O Portal de Transparência do Estado de Minas Gerais traz informações sobre a execução da despesa em âmbito estadual, informações sobre os municípios mineiros devem ser obtidas diretamente no portal de transparência do município desejado, conforme determina a  [Lei Complementar nº 131](http://www.planalto.gov.br/ccivil_03/leis/lcp/lcp131.htm).
 
 
-**Tooltip dos termos destacados dentro do texto inicial**
+### Tooltip dos termos destacados dentro do texto inicial
 
 - SIAFI/MG: Sistema Integrado de Administração Financeira de Minas Gerais
 
 **Observação:**<br> Ao clicar em qualquer termo destacado o usuário será direcionado para o termo especifico dentro do glossário do Portal.
 
-## Leiaute - Barra de navegação
+## 2. Leiaute - Barra de navegação
 <a href="#top">(inicio)</a>
 
 A barra de navegação superior será composta pelos seguintes campos:
@@ -76,10 +77,12 @@ A barra de navegação superior será composta pelos seguintes campos:
 * Opção de *'Filtrar por'*;
 * Botão *'Monte sua consulta'*
 
-#### Atributos do campo<br>
+### Atributos do campo<br>
+***Exemplo: [Página Inicial - Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=)***
 
-* O campo período será no formato **dd/mm/aaaa** composto por início e fim (eg. 01/04/2021 a 30/12/2021);<br><br>
-* No campo da data o usuário poderá selecionar ou digitar a data na caixa.<br>Exemplo: [Portal de Transparêcia ES](https://transparencia.es.gov.br/Despesa)
+1- O campo período será no formato **dd/mm/aaaa** composto por início e fim (eg. 01/04/2021 a 30/12/2021);<br><br>
+2- No campo da data o usuário poderá selecionar ou digitar a data na caixa.<br>Exemplo: [Portal de Transparêcia ES](https://transparencia.es.gov.br/Despesa)
+3- As demais funcionalidades serão as mesmas já adotadas na consulta Acordo Judicial de Reparação da Vale'
 
 ![](static/formato-data.gif)
 
