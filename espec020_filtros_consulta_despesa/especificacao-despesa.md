@@ -80,8 +80,9 @@ A barra de navegação superior será composta pelos seguintes campos:
   * Opção de *'Filtrar por'*;
   * Botão *'Monte sua consulta'*
 
+![image](https://user-images.githubusercontent.com/53793354/221950181-bcab0ef7-f535-4495-94a4-4a66418ee89e.png)
 
-  ![image](https://user-images.githubusercontent.com/53793354/221941871-20900269-f7b9-4c19-8d11-203a6ca3a6b0.png)  
+
 
 
 ### Atributos do campo<br>
