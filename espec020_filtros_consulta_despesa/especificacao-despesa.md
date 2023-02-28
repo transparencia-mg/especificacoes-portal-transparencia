@@ -19,7 +19,7 @@ Reestruturação da consulta de Despesa para incluir numa mesma consulta todas a
 
 A alteração se faz necessária para atender a demandas dos usuários de realizar a pesquisa de várias informações dentro de uma única consulta.
 
-Atualmente no Portal da Transparência, para ter acesso a informações de execução financeira, incluindo restos a pagar, compras e contratos, o usuário precisa realizar a consulta em três locais diferentes (consulta de Despesa, consulta de Restos a Pagar, Consulta de Compras e Contratos, além da consulta de Convênios, quando for aplicável), sendo que nem sempre os dados são de fácil compreensão do usuário. 
+Atualmente no Portal da Transparência, para ter acesso a informações de execução financeira, incluindo restos a pagar, compras e contratos, o usuário precisa realizar a consulta em três locais diferentes (consulta de Despesa, consulta de Restos a Pagar, Consulta de Compras e Contratos, além da consulta de Convênios, quando for aplicável), sendo que nem sempre os dados são de fácil compreensão do usuário.
 
 Para essa reestruturação, o objetivo será trazer todas as informações para uma mesma única consulta, além de tornar a consulta mais intuitiva, com possibilidade do usuário montar a sua consulta, incluir ou retirar colunas, além de reduzir a quantidade de cliques para chegar a informação desejada.
 
@@ -44,18 +44,20 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 2. O usuário poderá exibir mais detalhes do texto ao clicar em **Mais** ou ocultar ao clicar **Menos**;
 3. A funcionalidade deverá permitir a visualização de tooltip ao posicionar o mouse sobre uma palavra ou termo;
 4. Ao clicar sobre a palavra ou termo o PdT deverá abrir um pop-up em forma de glossário. [eg. pop-up](https://www.usaspending.gov/)
+
+
    ![image](https://user-images.githubusercontent.com/53793354/221929369-65f86c35-99da-49ae-b6e7-3a4a56e44776.png)
 
 
 ### Texto Introdutório
 
 > A Despesa pública é a aplicação em dinheiro de recursos do Estado para custear os serviços de ordem pública ou para investir no próprio desenvolvimento econômico do estado. É o compromisso de gasto dos recursos públicos, autorizados pelo Poder competente, com a finalidade de atender a uma necessidade da coletividade prevista no orçamento.
-> 
+>
 > A execução da despesa é realizada seguindo os estágios presentes na [Lei Federal nº 4.320/64](http://www.planalto.gov.br/Ccivil_03/leis/L4320.htm):
 > - [`Empenho`]((a ""): etapa em que o governo reserva o dinheiro que será pago quando o bem for entregue ou o serviço concluído;
-> - [`Liquidação`]((a ""): etapa em que se verifica se o governo recebeu aquilo que comprou. Ou seja, quando se confere que o bem foi entregue corretamente ou que a etapa da obra foi concluída como acordado e 
-> - [`Pagamento`]((a ""): caso esteja tudo certo com as fases anteriores, o governo pode fazer o pagamento, repassando o valor ao vendedor ou prestador de serviço. 
-> 
+> - [`Liquidação`]((a ""): etapa em que se verifica se o governo recebeu aquilo que comprou. Ou seja, quando se confere que o bem foi entregue corretamente ou que a etapa da obra foi concluída como acordado e
+> - [`Pagamento`]((a ""): caso esteja tudo certo com as fases anteriores, o governo pode fazer o pagamento, repassando o valor ao vendedor ou prestador de serviço.
+>
 > A presente consulta tem por objetivo divulgar a execução financeira e orçamentária do Estado de Minas Gerais através dos dados extraídos do [`SIAFI/MG`]((a ""). Os dados estão disponíveis desde o ano de 2002 e são atualizados diariamente (D+1).
 >
 > O Portal de Transparência do Estado de Minas Gerais traz informações sobre a execução da despesa em âmbito estadual, informações sobre os municípios mineiros devem ser obtidas diretamente no portal de transparência do município desejado, conforme determina a  [Lei Complementar nº 131](http://www.planalto.gov.br/ccivil_03/leis/lcp/lcp131.htm).
@@ -63,7 +65,7 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 
 ### Tooltip dos termos destacados dentro do texto inicial
 
-- SIAFI/MG: Sistema Integrado de Administração Financeira de Minas Gerais
+- SIAFI/MG: Sistema Integrado de Administração Financeira de Minas Gerais.
 
 **Observação:**<br> Ao clicar em qualquer termo destacado o usuário será direcionado para o termo especifico dentro do glossário do Portal.
 
@@ -72,40 +74,38 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 
 A barra de navegação superior será composta pelos seguintes campos:
 
-* Ícones por tipo de Consulta;
-* Período;
+* Ícones por tipo de Consulta: Órgão, Favorecido, Programa e Função;
+* Período (01/04/2021 a 30/12/2021);
 * Opção de *'Filtrar por'*;
 * Botão *'Monte sua consulta'*
 
-### Atributos do campo<br>
-***Exemplo: [Página Inicial - Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=)***
+ ``
+ XXXXX COLOCAR imagem
+ ``
 
-1- O campo período será no formato **dd/mm/aaaa** composto por início e fim (eg. 01/04/2021 a 30/12/2021);<br><br>
-2- No campo da data o usuário poderá selecionar ou digitar a data na caixa.<br>Exemplo: [Portal de Transparêcia ES](https://transparencia.es.gov.br/Despesa)
-3- As demais funcionalidades serão as mesmas já adotadas na consulta Acordo Judicial de Reparação da Vale'
+### Atributos do campo<br>
+**Exemplo: [Página Inicial - Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=)**
+
+1. O campo período será no formato **dd/mm/aaaa** composto por início e fim (eg. 01/04/2021 a 30/12/2021);<br>
+2. No campo da data o usuário poderá selecionar ou digitar a data na caixa. Exemplo: [Portal de Transparêcia ES](https://transparencia.es.gov.br/Despesa);<br>
 
 ![](static/formato-data.gif)
 
-* A pesquisa básica será composta por 5 ícones de tipo de consultas:
-  * Órgão: xxxxxxxx
-  * Função: xxxxxxxx
-  * Programa: xxxxxxx
-  * Favorecido por nome: xxxxxx
-  * Favorecido por CPF/CNPJ
+3. Os ícones serão clicáveis. Quando o usuário posicionar o mouse sobre o ícone será exibido um tooltip com uma breve descrição.
+Colocar imagem xxxxx
 
-![image](https://user-images.githubusercontent.com/52920939/200911425-f3030269-b3e2-48a3-b32e-77cb354b8714.png)
+4. O comportamento do campo *'Filtro'* será conforme o tipo de consulta selecionada e como padrão será exibido a opção 'Todos':<br>
+  - **Órgão, Função, Programa**: ao selecionar uma das opções o PDT irá permitir que o usuário selecione um item no campo filtro. Esse campo poderá ser selecionado através da barra de rolagem ou por digitação.
 
-![image](https://user-images.githubusercontent.com/52920939/200911471-bd94bbef-1d4b-4fbd-8973-3ebe6a13c82e.png)
-
-
-* Os ícones serão clicáveis. Quando o usuário posicionar o mouse sobre o ícone será exibido um tooltip com uma breve descrição da consulta.
-
-* O comportamento da opção *'Filtro'* será conforme o tipo de consulta selecionada e como padrão será exibido a opção 'Todos':
-  - Órgão, Função, Programa: padrão já adotado no PdT
   ![](static/filtros.png)
 
-  - Favorecido: Ao selecionar esse tipo de consulta o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados, conforme já ocorre atualmente no PdT.
-![](static/filtro-favorecido.png)
+  - **Favorecido**: Ao selecionar esse tipo de consulta o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados ([eg. Consulta PDT - Acordo Judicial da Vale]())
+
+  ![](static/filtro-favorecido.png)
+
+5. As demais funcionalidades serão as mesmas já adotadas na consulta Acordo Judicial de Reparação da Vale'
+
+____________________________ PAREI AQUI (SILVIANA)
 
 ## Leiaute - Cabeçalho da tabelas
 <a href="#top">(inicio)</a>
@@ -152,7 +152,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 ### Download dos dados:
 <a href="#top">(inicio)</a>
 
-* **Download PDF:** 
+* **Download PDF:**
 
 O documento gerado em PDF deverá exibir:
   * logo do Portal de Transparência no início da página e
@@ -170,7 +170,7 @@ O documento gerado em CSV:
 
 * **Download base completa:**
 
-O download da base completa: 
+O download da base completa:
   * O usuário será direcionado para o conjunto de dados da respectiva consulta no Portal de Dados Abertos.
   * O PdT deverá permitir que a equipe DTA inclua/altere a *url* desse campo através da área administrativa do Portal.                  
   * O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA decida se o campo Download Base Completa será exibido ou não no botão 'Download'
