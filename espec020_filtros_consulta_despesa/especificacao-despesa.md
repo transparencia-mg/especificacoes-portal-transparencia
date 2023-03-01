@@ -29,6 +29,30 @@ Para essa reestruturação, o objetivo será trazer todas as informações para 
 
 Esse documento tem como objetivo apresentar as alterações que deverão ser implementadas na pesquisa básica e avançada da consulta da Despesa Pública.
 
+## Observações Gerais:
+
+1. Todas as páginas de consulta deverão exibir ícones com links para compartilhar as  consultas. O usuário poderá Compartilhar os link dos dados nos seguintes canais, no mínimo:
+
+* Twitter
+* Facebook
+* WhatsApp
+* Copiar url
+
+2. Todas as páginas deverão exibir cabeçalho da tabela para que o usuário identifique qual o caminho percorrido. Além do caminho percorrido pelo usuário o PDT deverá apresentar a data de atualização dos dados e o período selecionado.
+
+- Dados atualizados em:
+- Período:
+
+
+  ![](static/cabecalho_tabela.png)
+
+3. Todas as páginas deverão exibir as migalhas de pão (*Breadcrumbs navigation*):
+
+    ![](static/migalhas.png)
+
+4. Os ícones '*Exibir Gráfico*/*Ocultar Gráfico*', '*Download*' e '*Compartilhar*' serão exibidos acima do gráfico/tabela de resultados. Sendo que ao solicitar a exibição do gráfico o botão '*Download*' será  deslocado para depois do gráfico.
+Esse comportamento atualmente é adotado na consulta Acordo Judicial da Vale.
+
 ## Página Inicial - Pesquisa Básica
 <a href="#top">(inicio)</a>
 
@@ -46,7 +70,9 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 4. Ao clicar sobre a palavra ou termo o PdT deverá abrir um pop-up em forma de glossário. [eg. pop-up](https://www.usaspending.gov/)
 
 
-   ![image](https://user-images.githubusercontent.com/53793354/221929369-65f86c35-99da-49ae-b6e7-3a4a56e44776.png)
+
+
+![image](https://user-images.githubusercontent.com/53793354/221929369-65f86c35-99da-49ae-b6e7-3a4a56e44776.png)
 
 
 ### Texto Introdutório
@@ -77,23 +103,21 @@ A barra de navegação superior será composta pelos seguintes campos:
   * Ícones por tipo de Consulta: Órgão, Favorecido, Programa e Função;
   * Ano;
   * Período (01/04/2021 a 30/12/2021);
-  * Opção de *'Filtrar por'*;
+  * Opção de *'Filtro*;
   * Botão *'Monte sua consulta'*
 
 ![image](https://user-images.githubusercontent.com/53793354/221950181-bcab0ef7-f535-4495-94a4-4a66418ee89e.png)
 
-
-
-
 ### Atributos do campo<br>
-**Exemplo: [Página Inicial - Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=)**
+**Exemplo:** ***[Página Inicial - Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=)***
+
 
 
 1. O campo período será no formato **dd/mm/aaaa** composto por início e fim (eg. 01/04/2021 a 30/12/2021). Como padrão o campo "Início/Fim" irá exibir exercício vigente até o dia da última atualização dos dados.
 2. No campo da data o usuário poderá selecionar ou digitar a data na caixa. Exemplo: [Portal de Transparêcia ES](https://transparencia.es.gov.br/Despesa);
 
 
-   ![](static/formato-data.gif)
+![](static/formato-data.gif)
 
 3. Os ícones serão clicáveis. Quando o usuário posicionar o mouse sobre o ícone será exibido um tooltip com uma breve descrição.
     - Órgão: Consulte os valores por órgão (unidade orçamentária) responsável pela execução da despesa.
@@ -102,9 +126,9 @@ A barra de navegação superior será composta pelos seguintes campos:
     - Função: Consulte a execução por área de atuação do governo. Exemplo: saúde, educação, transporte e segurança pública.
 
 
-     ![image](https://user-images.githubusercontent.com/53793354/221942055-73c7b90c-8a4b-4053-83a9-b63febbfd33c.png)
-     
-     
+![image](https://user-images.githubusercontent.com/53793354/221942055-73c7b90c-8a4b-4053-83a9-b63febbfd33c.png)
+
+
 4. O comportamento do campo *'Filtro'* será conforme o tipo de consulta selecionada e como padrão será exibido a opção 'Todos':<br>
   - **Órgão, Função, Programa**: ao selecionar uma das opções o PDT irá permitir que o usuário selecione um item no campo filtro. Esse campo poderá ser selecionado através da barra de rolagem ou por digitação.
 
@@ -113,40 +137,26 @@ A barra de navegação superior será composta pelos seguintes campos:
   - **Favorecido**: Ao selecionar esse tipo de consulta o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados ([eg. Consulta PDT - Acordo Judicial da Vale]())
 
   ![](static/filtro-favorecido.png)
-  
+
 5. O campo *'Filtro'* deverá retornar os dados a medida que o usuário for digitando. O atributo placeholder deve ser aplicado.
 6. A consulta irá apresentar como padrão a tabela de resultado com os dados do exercício vigente da consulta 'Órgão'.
 7. As demais funcionalidades serão as mesmas já adotadas na consulta Acordo Judicial de Reparação da Vale'
 
 
-
-____________________________ PAREI AQUI (SILVIANA)
-------
-
-
-
-## 3. Leiaute - Cabeçalho da tabelas
+## 3. Leiaute - Tabelas navegação
 <a href="#top">(inicio)</a>
 
-1. A tabela de resultado levará em consideração os parâmetros dos filtros aplicados pelo usuário
-2. A data de atualização dos dados (*Dados atualizados em*), o período, o ícone *Exibir Gráfico* ou *Fechar Gráfico*, Download, Compartilhar serão exibidos acima do gráfico/tabela de resultados.
-
-
-## Leiaute - Tabelas navegação
-<a href="#top">(inicio)</a>
-
-* A pesquisa básica irá apresentar como padrão a tabela de resultados com os dados do exercício vigente por Órgão.
-
-* Como padrão os dados serão exibidos no formato de tabela e caso o usuário queira visualizar os dados em forma de gráfico deve clicar em '*Exibir Gráfico*' e os dados da tabela serão deslocados para baixo. Para retornar a exibição apenas no formato tabela o usuário deve clicar em '*Fechar Gráfico*'
-
-* A opção de 'Exibir linhas' (quantidade de linhas) será exibida na parte superior da tabela.
-
-* Os valores TOTAL GERAL e o SUBTOTAL serão exibidos na tabela de resultados de acordo com o comportamento do usuário:
+1. A tabela de resultado levará em consideração os parâmetros dos filtros aplicados pelo usuário.
+1. A pesquisa básica irá apresentar como padrão a tabela de resultados com os dados do exercício vigente por Órgão.
+1.  Como padrão os dados serão exibidos no formato de tabela e caso o usuário queira visualizar os dados em forma de gráfico deve clicar em '*Exibir Gráfico*' e os dados da tabela serão deslocados para baixo. Para retornar a exibição apenas no formato tabela o usuário deve clicar em '*Ocultar Gráfico*'
+1. A opção de 'Exibir linhas' (quantidade de linhas) será exibida na parte superior da tabela.
+1. O usuário poderá solicitar a exibição dos dados com código e descrição. Ao clicar no botão 'Exibir/Ocultar Código' uma nova coluna será adicionada a esquerda de cada coluna que tenha a descrição.
+1. Os valores TOTAL GERAL e o SUBTOTAL serão exibidos na tabela de resultados de acordo com o comportamento do usuário:
 
   * **TOTAL GERAL:** quando o usuário não aplicar nenhum filtro na tabela ou quanto todos os dados forem exibidos em uma única página, ou seja, sem paginação;
   * **SUBTOTAL:** quando o usuário aplicar qualquer filtro na tabela através da barra de pesquisa ou quando houver paginação na tabela de resultado, ou seja, houver mais de uma página de resultado.
 
-![](static/imagens/tabela-resultados-parte-superior.png)
+1. Todos os parâmetros apresentados acima, podem ser verificados na consulta do Portal *'Acordo Judicial da Vale'*.
 
 ### Estrutura de design das tabelas de resultados da Pesquisa básica
 <a href="#top">(inicio)</a>
@@ -162,9 +172,12 @@ ____________________________ PAREI AQUI (SILVIANA)
 ### Leiaute - Gráficos
 <a href="#top">(inicio)</a>
 
-* O Gráfico apresentado como padrão será o tipo Treemap (Gráfico área) com os dados do exercício vigente.
-* O usuário terá a opção de verificar série histórica ao clicar no gráfico de barra.
-* Os gráficos apresentaram os dados da coluna 'Valor Liquidado'
+* O Gráfico apresentado como padrão será o tipo Treemap (Gráfico área) com os dados do exercício vigente;
+* O usuário terá a opção de verificar série histórica ao clicar no gráfico de barra;
+* Os gráficos apresentaram os dados da coluna 'Valor Liquidado'.
+
+
+  ![](static/graficos.gif)
 
 
 ### Download dos dados:
@@ -178,43 +191,29 @@ O documento gerado em PDF deverá exibir:
   * O arquivo gerado irá exibir os mesmos dados apresentados na tela considerando todos os filtros aplicados e inclusive o TOTAL GERAL ou SUBTOTAL conforme o comportamento do usuário.
   * ao selecionar essa opção o arquivo PDF deverá ser aberto em outra aba do navegador
 
-
 * **Download Planilha (CSV):**
 
 O documento gerado em CSV:
   * Será exibido a tabela completa de todas as páginas no formato CSV, independente do filtro aplicado.
-  * Exibir código e descrição em campos distintos, independente de o usuário selecionar a opção '*Exibir código e descrição*'
-
+  * Exibir código e descrição em campos distintos, independente de o usuário selecionar a opção '*Exibir/Ocultar código*'
 
 * **Download base completa:**
 
 O download da base completa:
   * O usuário será direcionado para o conjunto de dados da respectiva consulta no Portal de Dados Abertos.
   * O PdT deverá permitir que a equipe DTA inclua/altere a *url* desse campo através da área administrativa do Portal.                  
-  * O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA decida se o campo Download Base Completa será exibido ou não no botão 'Download'
 
 ### Barra de pesquisa
 
-* A barra de pesquisa da tabela de resultado deverá retornar os dados a medida que o usuário for digitando. O atributo *placeholder* deve ser aplicado na barra de pesquisa.
-
-* A barra de pesquisa deve aceitar várias formas de preenchimento dos dados:
+1. A barra de pesquisa da tabela de resultado deverá retornar os dados a medida que o usuário for digitando. O atributo *placeholder* deve ser aplicado na barra de pesquisa.
+2. A barra de pesquisa deve aceitar várias formas de preenchimento dos dados:
   * Desconsiderar acentuação, letras maiúsculas/minúsculas;
   * Desconsiderar palavras intermediárias (ex.: Ao digitar “gestao pública”, um dos resultados será “Gestão da Administração Pública”);
   * O usuário poderá pesquisar por qualquer coluna na tabela de resultados.
 
-### Compartilhar dados:
+## 4. Pesquisa básica - Navegação por filtros
 <a href="#top">(inicio)</a>
 
-O usuário poderá Compartilhar os link dos dados nos seguintes canais, no mínimo:
-
-* Twitter
-* Facebook
-* WhatsApp
-* Por e-mail
-* Copiar url
-
-## Pesquisa básica - Navegação por filtros
-<a href="#top">(inicio)</a>
 
 ### CONSULTA POR ÓRGÃO
 <a href="#top">(inicio)</a>
@@ -229,14 +228,14 @@ _______
 ___________
 
 ##### 1º NÍVEL
-  - Código do Órgão
+  - Código do Órgão -> Apenas quando o usuário clicar em *'Exibir/Ocultar Código'*
   - [Órgão]() -> ao clicar o usuário será direcionado para o 2º nível
   - Valor Empenhado
   - Valor Liquidado
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-  ![image](https://user-images.githubusercontent.com/53793354/200358592-fd3046ee-1c02-4cfc-b320-93a0bc1990bc.png)
+![image](https://user-images.githubusercontent.com/53793354/200358592-fd3046ee-1c02-4cfc-b320-93a0bc1990bc.png)
 
 
 ##### 2º NÍVEL
@@ -246,7 +245,7 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-  ![image](https://user-images.githubusercontent.com/53793354/200359119-2bc8ec40-da77-40d5-b455-fbc7092aaf0c.png)
+![image](https://user-images.githubusercontent.com/53793354/200359119-2bc8ec40-da77-40d5-b455-fbc7092aaf0c.png)
 
 
 ##### 3º NÍVEL
@@ -257,18 +256,17 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-  ![image](https://user-images.githubusercontent.com/53793354/200358491-87bb0982-39ab-4880-8c12-3b4f2a73d9d6.png)
+![image](https://user-images.githubusercontent.com/53793354/200358491-87bb0982-39ab-4880-8c12-3b4f2a73d9d6.png)
 
 
 ##### 4º NÍVEL
   - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
   - Data de registro do Empenho
+  - Unidade Executora
   - Valor Empenhado
   - Valor Liquidado
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
-
-![image](https://user-images.githubusercontent.com/53793354/200358187-8ece2a7c-6631-491c-9691-bc24b30a86de.png)
 
 
 ##### 5º NÍVEL
@@ -276,8 +274,16 @@ ___________
  - Formulário de Detalhamento
 
 Ao clicar no número do empenho o usuário será direcionado para o formulário de detalhamento, que será composto pelos seguintes atributos:
-  * As tabelas que compõe o formulário de detalhamento serão exibidas em formato de guias (eg. Tabs)
+  * As tabelas que compõe o formulário de detalhamento serão exibidas em formato de guias
   * O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'.
+
+
+________________ PAREI AQUI - SILVIANA
+````
+# **Decidir será no formato modal ou Não**
+
+O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'. A exportação em planilha (CSV) deverá ser em formato de tabela. Cada campo em uma coluna.
+``````
 
 ###### Campos do formulário de detalhamento
 
