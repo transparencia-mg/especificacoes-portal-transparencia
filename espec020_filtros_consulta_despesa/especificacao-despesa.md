@@ -44,7 +44,7 @@ Esse documento tem como objetivo apresentar as alterações que deverão ser imp
 - Período:
 
 
-  ![](static/cabecalho_tabela.png)
+![](static/cabecalho_tabela.png)
 
 3. Todas as páginas deverão exibir as migalhas de pão (*Breadcrumbs navigation*):
 
@@ -161,13 +161,13 @@ A barra de navegação superior será composta pelos seguintes campos:
 ### Estrutura de design das tabelas de resultados da Pesquisa básica
 <a href="#top">(inicio)</a>
 
- * Cabeçalho fixo - Fixer Header ([eg. Consulta de Remuneração do PdT](https://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/202112/3/1094/4022/C/3569184/995/26150365));
- * Rolagem horizontal - Horizontal Scroll. Quando o número de colunas ultrapassar o limite da página o PdT deve possibilizar a rolagem horizontal;
- * Colunas movíveis e classificáveis conforme ocorre atualmente;
- * Paginação e seleção da quantidade de linhas a serem exibidas, conforme ocorre atualmente;
- * O texto deve ser ajustável nas colunas, ou seja, caso seja necessário pode haver quebra de linha;
- * A tabela apresentará campos clicáveis (com link) que irá direcionar o usuário para o próximo nível da consulta.
- * Os campos clicáveis serão destacados conforme o layout já adotado pelo PdT - [Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=).
+1. Cabeçalho fixo - Fixer Header ([eg. Consulta de Remuneração do PdT](https://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/202112/3/1094/4022/C/3569184/995/26150365));
+1. Rolagem horizontal - Horizontal Scroll. Quando o número de colunas ultrapassar o limite da página o PdT deve possibilizar a rolagem horizontal;
+1. Colunas movíveis e classificáveis conforme ocorre atualmente;
+1. Paginação e seleção da quantidade de linhas a serem exibidas, conforme ocorre atualmente;
+1. O texto deve ser ajustável nas colunas, ou seja, caso seja necessário pode haver quebra de linha;
+1. A tabela apresentará campos clicáveis (com link) que irá direcionar o usuário para o próximo nível da consulta.
+1. Os campos clicáveis serão destacados conforme o layout já adotado pelo PdT - [Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=).
 
 ### Leiaute - Gráficos
 <a href="#top">(inicio)</a>
@@ -176,8 +176,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 * O usuário terá a opção de verificar série histórica ao clicar no gráfico de barra;
 * Os gráficos apresentaram os dados da coluna 'Valor Liquidado'.
 
-
-  ![](static/graficos.gif)
+![](static/graficos.gif)
 
 
 ### Download dos dados:
@@ -268,6 +267,8 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
+![image](https://user-images.githubusercontent.com/53793354/222240159-6b60cd86-8482-47e4-9055-0547efd02acb.png)
+
 
 ##### 5º NÍVEL
 
@@ -355,12 +356,13 @@ ___________
 ##### 4º NÍVEL
   - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
   - Data de registro do Empenho
+  - Unidade Executora
   - Valor Empenhado
   - Valor Liquidado
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-![image](https://user-images.githubusercontent.com/53793354/200358222-32287309-16be-48ea-92ef-fa941c975271.png)
+![image](https://user-images.githubusercontent.com/53793354/222240202-d983cb56-1191-4666-aa48-0df4864f3d4b.png)
 
 
 ##### 5º NÍVEL
@@ -415,12 +417,13 @@ ___________
 ##### 4º NÍVEL
   - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
   - Data de registro do Empenho
+  - Unidade Executora
   - Valor Empenhado
   - Valor Liquidado
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-![image](https://user-images.githubusercontent.com/53793354/200358241-b7811142-0bee-4068-ad93-c3f3378bbf8a.png)
+![image](https://user-images.githubusercontent.com/53793354/222240258-bf01a336-22dc-4c57-be52-0f313f0e896d.png)
 
 ##### 5º NÍVEL
 
@@ -451,12 +454,13 @@ ___________
 ##### 2º NÍVEL
   - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
   - Data de registro do Empenho
+  - Unidade Executora
   - Valor Empenhado
   - Valor Liquidado
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-  ![image](https://user-images.githubusercontent.com/53793354/200358252-cadc7f6c-cc98-45a7-808d-50b30195afcb.png)
+  ![image](https://user-images.githubusercontent.com/53793354/222240321-e916fcfa-1235-479e-990d-33e122a02240.png)
 
 ##### 3º NÍVEL
 
