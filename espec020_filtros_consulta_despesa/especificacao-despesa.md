@@ -552,7 +552,19 @@ Ao selecionar o parâmetro '1521- Controladoria-Geral do Estado' no filtro *Órg
 
 * Os valores **TOTAL GERAL** e o **SUBTOTAL** serão exibidos na tabela de resultados de acordo com o comportamento do usuário. Conforme descrito na pesquisa básica
 * A **barra de pesquisa** da tabela de resultado deverá retornar os dados da tabela que estão exibidos. A medida que o usuário for digitando os dados a busca será acionada. O atributo *placeholder*: deve ser aplicado na barra de pesquisa.
-
+* O usuário poderá adicionar ou remover colunas - [*hide/show columns*](https://ux.stackexchange.com/a/110079) na tabela de resultados. Ao clicar em **Adicionar/Remover colunas** será exibido uma barra lateral a direta com todas as colunas que poderão ser adicionadas ou removidas.
+* Ao exibir ou ocultar alguma coluna a tabela de resultados será atualizada automaticamente (eg.[Column Toggle Table](https://ux.stackexchange.com/questions/110077/best-practices-to-allow-user-to-hide-show-columns-in-a-data-table/110079#110079)).
+* O ícone **Adicionar/Remover Colunas** além dos filtros pré-determinados pela DTA terá uma barra de pesquisa onde o usuário poderá digitar o filtro desejado.
+* As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remover Colunas*** podendo o usuário desativá-las.
+* Ao inserir qualquer coluna essas serão incluídas antes das colunas de valores. E caso seja incluída alguma coluna de valor o portal deverá manter a ordem da execução orçamentária (Valor empenhado, valor liquidado, valor pago, Valor Pago em Restos a Pagar).
+* Os campos clicáveis serão destacados conforme o layout já adotado  pelo PdT e terão a imagem de uma lupa. Para exibir mais informações o usuário deverá clicar na lupa da coluna "detalhar"
+  * O 1º nível terá como opção o botão Detalhar o qual direcionará o usuário para o segundo nível, conforme os filtros selecionados e em seguida poderá ser direcionado para o formulário de detalhamento ao clicar em um dos empenhos da lista.
+  * **OBS** Caso o usuário solicite a exibição da coluna empenho já no 1º nível e este for um valor único, o usuário será direcionado diretamente para o formulário de detalhamento relacionado ao empenho.
+* Todos os filtros selecionados serão exibidos na tabela de resultado.
+* A exibição de código e descrição será diferente em cada seção:
+ * Barra de pesquisa e filtros aplicados: exibir código e descrição no mesmo campo;
+ * Tabela de resultado: exibir apenas descrição. Os códigos serão exibidos apenas se o usuário adicionar a coluna código;
+ * Opção exportar CSV.: exibir código e descrição em campos distintos, independente de o usuário selecionar a opção código na tabela de resultado.
 * Estrutura de design das tabelas de resultados:
   * Cabeçalho fixo - *[Fixer Header](https://medium.com/nextux/design-better-data-tables-4ecc99d23356#86cf)* (eg. [Consulta de Remuneração do PdT](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/202103/1/1038/4158/C/3251081/986/23239313));
   * Rolagem horizontal - *[Horizontal Scroll](https://medium.com/nextux/design-better-data-tables-4ecc99d23356#2dba)*. Quando o número de colunas ultrapassar o limite da página o PdT deve possibilizar a rolagem horizontal.
@@ -560,23 +572,34 @@ Ao selecionar o parâmetro '1521- Controladoria-Geral do Estado' no filtro *Órg
   * Paginação e seleção da quantidade de linhas a serem exibidas, conforme ocorre atualmente;
   * O texto deve ser ajustável nas colunas, ou seja, caso seja necessário pode haver quebra de linha;
 
-* O usuário poderá adicionar ou remover colunas - [*hide/show columns*](https://ux.stackexchange.com/a/110079) na tabela de resultados. Ao clicar em **Adicionar/Remover colunas** será exibido uma barra lateral a direta com todas as colunas que poderão ser adicionadas ou removidas.
-* Ao exibir ou ocultar alguma coluna a tabela de resultados será atualizada automaticamente (eg.[Column Toggle Table](https://ux.stackexchange.com/questions/110077/best-practices-to-allow-user-to-hide-show-columns-in-a-data-table/110079#110079)).
-* O ícone **Adicionar/Remover Colunas** além dos filtros pré-determinados pela DTA terá uma barra de pesquisa onde o usuário poderá digitar o filtro desejado.
-* As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remover Colunas*** podendo o usuário desativá-las.
-* Ao inserir qualquer coluna essas serão incluídas antes das colunas de valores. E caso seja incluída alguma coluna de valor o portal deverá manter a ordem da execução orçamentária (Valor empenhado, valor liquidado, valor pago, Valor Pago em Restos a Pagar).
-* Os campos clicáveis serão destacados conforme o layout já adotado  pelo PdT e terão a imagem de uma lupa
-* Os campos clicáveis serão destacados conforme o layout já adotado pelo PdT e terão a imagem de uma lupa.
-* Para exibir mais informações o usuário deverá clicar na lupa da coluna "detalhar"
-* Todos os filtros selecionados serão exibidos na tabela de resultado.
-* A exibição de código e descrição será diferente em cada seção:
-
- * Barra de pesquisa e filtros aplicados: exibir código e descrição no mesmo campo;
- * Tabela de resultado: exibir apenas descrição. Os códigos serão exibidos apenas se o usuário adicionar a coluna código;
- * Opção exportar CSV.: exibir código e descrição em campos distintos, independente de o usuário selecionar a opção código na tabela de resultado.
-
-
-
 #### Download dos dados:
 
-Seguir o padrão da pesquisa básica
+  Seguir o padrão da pesquisa básica.
+  Opção exportar Planilha (CSV): exibir código e descrição em colunas distintas, independente de o usuário selecionar a opção código na tabela de resultado. O período selecionado deverá ser exibido na primeira coluna da planilha;
+
+### Níveis
+
+***1º nível:***
+
+* Detalhar
+* Valor Empenhado
+* valor Liquidado
+* Valo Pago
+* Valor Pago em restos a Pagar
+
+***2º nível:*** Essa tabela não será modal
+
+* Empenho
+* Data de registro do empenho
+* Unidade orçamentária
+* Unidade Executora
+* Favorecido
+* CPF/CNPJ do Favorecido
+* Valor Empenhado
+* valor Liquidado
+* Valo Pago
+* Valor Pago em restos a Pagar
+
+* O usuário poderá clicar no número do empenho para exibir o formulário de detalhamento relacionado ao empenho.
+* Exceção: Quando o usuário utilizar o filtro ***"Número da Ordem de Pagamento"*** na barra de filtro vertical as colunas abaixo deverão ser exibidas em formato desabilitado, sem a exibição de dados: Valor empenhado e Valor liquidado.
+* Caso o filtro "Número da Ordem de Pagamento seja retirado da barra de filtros aplicados a formatação e exibição dos valores dessas colunas seguirá o padrão.
