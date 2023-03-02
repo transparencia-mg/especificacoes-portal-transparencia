@@ -32,14 +32,14 @@ Esse documento tem como objetivo apresentar as alterações que deverão ser imp
 ## Observações Gerais:
 
 1. Todas as páginas de consulta deverão exibir ícones com links para compartilhar as  consultas. O usuário poderá Compartilhar os links dos dados nos seguintes canais, no mínimo:
-  * Twitter
-  * Facebook
-  * WhatsApp
-  * Copiar url
+     * Twitter
+     * Facebook
+     * WhatsApp
+     * Copiar url
 
 2. Todas as páginas deverão exibir cabeçalho da tabela para que o usuário identifique qual o caminho percorrido. Além do caminho percorrido pelo usuário o PDT deverá apresentar a data de atualização dos dados e o período selecionado.
-  * Dados atualizados em:
-  * Período:
+     * Dados atualizados em:
+     * Período:
 
 
 ![](static/cabecalho_tabela.png)
@@ -68,8 +68,8 @@ Esse comportamento atualmente é adotado na consulta Acordo Judicial da Vale.
 
 7. Todas as funcionalidades não exemplificadas segueram o mesmo padrão já adotado na consulta Acordo Judicial da Vale do Portal de Transparência.
 8. A descrição dos tooltips e os campos de cada tabela estão disponíveis em:
-  * [Especificação Tooltip](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/especificacao-despesa-tooltip.md)
-  * [Especificação Dados](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/especificacao-despesa.md)
+    * [Especificação Tooltip](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/especificacao-despesa-tooltip.md)
+   * [Especificação Dados](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/especificacao-despesa.md)
 
 ## Página Inicial - Pesquisa Básica
 <a href="#top">(inicio)</a>
@@ -98,12 +98,11 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 <a href="#top">(inicio)</a>
 
 A barra de navegação superior será composta pelos seguintes campos:
-
-  * Ícones por tipo de Consulta: Órgão, Favorecido, Programa e Função;
-  * Ano;
-  * Período (01/04/2021 a 30/12/2021);
-  * Opção de *'Filtro*;
-  * Botão *'Monte sua consulta'*
+    * Ícones por tipo de Consulta: Órgão, Favorecido, Programa e Função;
+    * Ano;
+    * Período (01/04/2021 a 30/12/2021);
+    * Opção de *'Filtro*;
+    * Botão *'Monte sua consulta'*
 
 ![image](https://user-images.githubusercontent.com/53793354/221950181-bcab0ef7-f535-4495-94a4-4a66418ee89e.png)
 
@@ -121,11 +120,11 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 
 4. O comportamento do campo *'Filtro'* será conforme o tipo de consulta selecionada e como padrão será exibido a opção 'Todos':<br>
-  - **Órgão, Função, Programa**: ao selecionar uma das opções o PDT irá permitir que o usuário selecione um item no campo filtro. Esse campo poderá ser selecionado através da barra de rolagem ou por digitação.
+     - **Órgão, Função, Programa**: ao selecionar uma das opções o PDT irá permitir que o usuário selecione um item no campo filtro. Esse campo poderá ser selecionado através da barra de rolagem ou por digitação.
 
   ![](static/filtros.png)
 
-  - **Favorecido**: Ao selecionar esse tipo de consulta o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados. 
+     - **Favorecido**: Ao selecionar esse tipo de consulta o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados. 
 
   ![](static/filtro-favorecido.png)
 
