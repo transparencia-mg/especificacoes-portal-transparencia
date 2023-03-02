@@ -56,6 +56,7 @@ Esse comportamento atualmente é adotado na consulta Acordo Judicial da Vale.
     * Desconsiderar acentuação, letras maiúsculas/minúsculas;
     * Desconsiderar palavras intermediárias (ex.: Ao digitar “gestao pública”, um dos resultados será “Gestão da Administração Pública”);
     * O usuário poderá pesquisar código ou descrição das classificações orçamentárias (eg. [Consulta Acordo Judicial da Vale - PdT MG](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.consultaLivre).  
+    *  O usuário poderá pesquisar por qualquer coluna na tabela de resultados.
 
 6. Estrutura de design de todas as tabelas de resultados da Pesquisa básica: 
     * Cabeçalho fixo - Fixer Header ([eg. Consulta de Remuneração do PdT](https://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/202112/3/1094/4022/C/3569184/995/26150365));
@@ -149,7 +150,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 7. Todos os parâmetros apresentados acima, podem ser verificados na consulta do Portal *'Acordo Judicial da Vale'*.
 
-
+![tabela-resultados-pesquisa-basica](https://user-images.githubusercontent.com/53793354/222518746-af453a54-590d-4454-8722-53f6230c770b.gif)
 
 ### Leiaute - Gráficos
 <a href="#top">(inicio)</a>
@@ -159,7 +160,6 @@ A barra de navegação superior será composta pelos seguintes campos:
 * Os gráficos apresentaram os dados da coluna 'Valor Liquidado'.
 
 ![](static/graficos.gif)
-
 
 ### Download dos dados:
 <a href="#top">(inicio)</a>
@@ -184,19 +184,12 @@ O download da base completa:
   * O usuário será direcionado para o conjunto de dados da respectiva consulta no Portal de Dados Abertos.
   * O PdT deverá permitir que a equipe DTA inclua/altere a *url* desse campo através da área administrativa do Portal.                  
 
-### Barra de pesquisa
-
-1. A barra de pesquisa da tabela de resultado deverá retornar os dados a medida que o usuário for digitando. O atributo *placeholder* deve ser aplicado na barra de pesquisa.
-2. A barra de pesquisa deve aceitar várias formas de preenchimento dos dados:
-  * Desconsiderar acentuação, letras maiúsculas/minúsculas;
-  * Desconsiderar palavras intermediárias (ex.: Ao digitar “gestao pública”, um dos resultados será “Gestão da Administração Pública”);
-  * O usuário poderá pesquisar por qualquer coluna na tabela de resultados.
-
 ## 4. Pesquisa básica - Navegação por filtros
 <a href="#top">(inicio)</a>
 
+_____ PAREI AQUI SILVIANA
 
-### CONSULTA POR ÓRGÃO
+### CONSULTA POR ÓRGÃO - Página Inicial
 <a href="#top">(inicio)</a>
 
 Essa consulta será composta por 5 níveis:
