@@ -124,7 +124,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 
   ![](static/filtros.png)
 
-     - **Favorecido**: Ao selecionar esse tipo de consulta o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados. 
+    - **Favorecido**: Ao selecionar esse tipo de consulta o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados. 
 
   ![](static/filtro-favorecido.png)
 
