@@ -61,8 +61,8 @@ Esse comportamento atualmente é adotado na consulta Acordo Judicial da Vale.
 
 6. Todas as funcionalidades não exemplificadas segueram o mesmo padrão já adotado na consulta Acordo Judicial da Vale do Portal de Transparência.
 7. A descrição dos tooltips e os campos de cada tabela estão disponíveis em:
-  * [Especificação Tooltip]()
-  * [Especificação Dados]()
+  * [Especificação Tooltip](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/especificacao-despesa-tooltip.md)
+  * [Especificação Dados](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/especificacao-despesa.md)
 
 ## Página Inicial - Pesquisa Básica
 <a href="#top">(inicio)</a>
@@ -80,13 +80,12 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 
 ![image](https://user-images.githubusercontent.com/53793354/221929369-65f86c35-99da-49ae-b6e7-3a4a56e44776.png)
 
+6. Ao clicar em qualquer termo destacado o usuário será direcionado para o termo especifico dentro do glossário do Portal.
+![image](https://user-images.githubusercontent.com/53793354/222512320-2b637eb1-9b0c-4891-8f5e-dded28d3c0c2.png)
 
 ### Texto explicativo
 
-- Ver [Especificação Tooltip]()
-
-**Observação:**<br> Ao clicar em qualquer termo destacado o usuário será direcionado para o termo especifico dentro do glossário do Portal.
-![image](https://user-images.githubusercontent.com/53793354/222512320-2b637eb1-9b0c-4891-8f5e-dded28d3c0c2.png)
+* Ver  [Especificação Tooltip](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/especificacao-despesa-tooltip.md)
 
 ## 2. Leiaute - Barra de navegação
 <a href="#top">(inicio)</a>
