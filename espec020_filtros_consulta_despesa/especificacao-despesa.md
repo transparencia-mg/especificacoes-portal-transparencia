@@ -164,25 +164,25 @@ A barra de navegação superior será composta pelos seguintes campos:
 ### Download dos dados:
 <a href="#top">(inicio)</a>
 
-* **Download PDF:**
+**Download PDF:**
 
-O documento gerado em PDF deverá exibir:
-  * logo do Portal de Transparência no início da página e
-  * *URL*, paginação e a data no fim da página.
-  * O arquivo gerado irá exibir os mesmos dados apresentados na tela considerando todos os filtros aplicados e inclusive o TOTAL GERAL ou SUBTOTAL conforme o comportamento do usuário.
-  * ao selecionar essa opção o arquivo PDF deverá ser aberto em outra aba do navegador
+* O documento gerado em PDF deverá exibir:
+    * logo do Portal de Transparência no início da página e
+    * *URL*, paginação e a data no fim da página.
+    * O arquivo gerado irá exibir os mesmos dados apresentados na tela considerando todos os filtros aplicados e inclusive o TOTAL GERAL ou SUBTOTAL conforme o comportamento do usuário.
+    * ao selecionar essa opção o arquivo PDF deverá ser aberto em outra aba do navegador
 
-* **Download Planilha (CSV):**
+**Download Planilha (CSV):**
 
-O documento gerado em CSV:
-  * Será exibido a tabela completa de todas as páginas no formato CSV, independente do filtro aplicado.
-  * Exibir código e descrição em campos distintos, independente de o usuário selecionar a opção '*Exibir/Ocultar código*'
+* O documento gerado em CSV:
+    * Será exibido a tabela completa de todas as páginas no formato CSV, independente do filtro aplicado.
+    * Exibir código e descrição em campos distintos, independente de o usuário selecionar a opção '*Exibir/Ocultar código*'
 
-* **Download base completa:**
+**Download base completa:**
 
-O download da base completa:
-  * O usuário será direcionado para o conjunto de dados da respectiva consulta no Portal de Dados Abertos.
-  * O PdT deverá permitir que a equipe DTA inclua/altere a *url* desse campo através da área administrativa do Portal.                  
+* O download da base completa:
+    * O usuário será direcionado para o conjunto de dados da respectiva consulta no Portal de Dados Abertos.
+    * O PdT deverá permitir que a equipe DTA inclua/altere a *url* desse campo através da área administrativa do Portal.                  
 
 ## 4. Pesquisa básica - Navegação por filtros
 <a href="#top">(inicio)</a>
