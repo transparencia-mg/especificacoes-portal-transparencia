@@ -31,7 +31,7 @@ Esse documento tem como objetivo apresentar as alterações que deverão ser imp
 
 ## Observações Gerais:
 
-1. Todas as páginas de consulta deverão exibir ícones com links para compartilhar as  consultas. O usuário poderá Compartilhar os link dos dados nos seguintes canais, no mínimo:
+1. Todas as páginas de consulta deverão exibir ícones com links para compartilhar as  consultas. O usuário poderá Compartilhar os links dos dados nos seguintes canais, no mínimo:
 
 * Twitter
 * Facebook
@@ -53,53 +53,40 @@ Esse documento tem como objetivo apresentar as alterações que deverão ser imp
 4. Os ícones '*Exibir Gráfico*/*Ocultar Gráfico*', '*Download*' e '*Compartilhar*' serão exibidos acima do gráfico/tabela de resultados. Sendo que ao solicitar a exibição do gráfico o botão '*Download*' será  deslocado para depois do gráfico.
 Esse comportamento atualmente é adotado na consulta Acordo Judicial da Vale.
 
-5. * Todas as **barras de pesquisa** devem aceitar várias formas de preenchimento dos dados.
-    * Autocompletar (*autocomplete* ) desde a primeira letra (eg. [Portal de Transparência MG](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada));
+5. Todas as **barras de pesquisa** devem aceitar várias formas de preenchimento dos dados.
+    * Autocompletar (*autocomplete* ) desde a primeira letra (eg. [Portal de Transparência MG](http://www.transparencia.mg.gov.br);
     * Desconsiderar acentuação, letras maiúsculas/minúsculas;
     * Desconsiderar palavras intermediárias (ex.: Ao digitar “gestao pública”, um dos resultados será “Gestão da Administração Pública”);
-    * O usuário poderá pesquisar código ou descrição das classificações orçamentárias (eg. [Proposta Orçamentára - PdT MG](http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria/proposta-orcamentaria/proposta-pesquisa-avancada)).  
+    * O usuário poderá pesquisar código ou descrição das classificações orçamentárias (eg. [Consulta Acordo Judicial da Vale - PdT MG](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.consultaLivre).  
+
+6. Todas as funcionalidades não exemplificadas segueram o mesmo padrão já adotado na consulta Acordo Judicial da Vale do Portal de Transparência.
+7. A descrição dos tooltips e os campos de cada tabela estão disponíveis em:
+  * [Especificação Tooltip]()
+  * [Especificação Dados]()
 
 ## Página Inicial - Pesquisa Básica
 <a href="#top">(inicio)</a>
 
-## 1. Texto explicativo
+## 1. Texto Introdutório
 
-Inclusão de um campo que irá trazer uma breve explicação do conteúdo da consulta.<br>
-*Exemplo: [Consulta Acordo Judicial da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale)*
+Inclusão de um campo que irá trazer uma breve explicação do conteúdo da consulta. *Exemplo: [Consulta Acordo Judicial da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale)*
 
 ### Atributos do campo<br>
-***Exemplo: [Página Inicial - Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=)***
 
 1. O PdT deverá permitir que por meio da área administrativa do Portal a equipe DTA inclua ou altere os dados o texto desse campo, incluindo os tooltips.
 2. O usuário poderá exibir mais detalhes do texto ao clicar em **Mais** ou ocultar ao clicar **Menos**;
 3. A funcionalidade deverá permitir a visualização de tooltip ao posicionar o mouse sobre uma palavra ou termo;
 4. Ao clicar sobre a palavra ou termo o PdT deverá abrir um pop-up em forma de glossário. [eg. pop-up](https://www.usaspending.gov/)
 
-
-
-
 ![image](https://user-images.githubusercontent.com/53793354/221929369-65f86c35-99da-49ae-b6e7-3a4a56e44776.png)
 
 
-### Texto Introdutório
+### Texto explicativo
 
-> A Despesa pública é a aplicação do dinheiro arrecadado pelo Estado por meio de impostos, taxas, transferências ou outras fontes para custear os serviços de ordem pública ou para investir no próprio desenvolvimento econômico do estado. É o compromisso de gasto dos recursos públicos, autorizados pelo Poder competente, com a finalidade de atender a uma necessidade da coletividade prevista no orçamento.
->
-> A execução da despesa é realizada seguindo os três estágios presentes na [Lei Federal nº 4.320/64](http://www.planalto.gov.br/Ccivil_03/leis/L4320.htm):
-> - [`Empenho`]((a ""): etapa em que o governo reserva o dinheiro que será pago quando o bem for entregue ou o serviço concluído;
-> - [`Liquidação`]((a ""): etapa em que se verifica se o governo recebeu aquilo que comprou. Ou seja, quando se confere que o bem foi entregue corretamente ou que a etapa da obra foi concluída como acordado; e,
-> - [`Pagamento`]((a ""): caso esteja tudo certo com as fases anteriores, o governo pode fazer o pagamento, repassando o valor ao fornecedor ou prestador de serviço.
->
-> Para acessar os dados da despesa pública, o Portal da Transparência traz informações sobre a execução financeira e orçamentária da despesa pública do Estado de Minas Gerais através dos dados extraídos do [`SIAFI/MG`]((a ""). Os dados estão disponíveis desde o ano de 2002 e são atualizados diariamente (D+1).
->
-> As informações dessa consulta de despesa incluem apenas as informações do Estado de Minas Gerais (Poder Executivo, Legislativo e Judiciário). As informações das despesas públicas dos municípios mineiros devem ser obtidas diretamente no portal de transparência do município desejado, conforme determina a [Lei Complementar nº 131](http://www.planalto.gov.br/ccivil_03/leis/lcp/lcp131.htm).
-
-
-### Tooltip dos termos destacados dentro do texto inicial
-
-- SIAFI/MG: Sistema Integrado de Administração Financeira de Minas Gerais.
+- Ver [Especificação Tooltip]()
 
 **Observação:**<br> Ao clicar em qualquer termo destacado o usuário será direcionado para o termo especifico dentro do glossário do Portal.
+![image](https://user-images.githubusercontent.com/53793354/222512320-2b637eb1-9b0c-4891-8f5e-dded28d3c0c2.png)
 
 ## 2. Leiaute - Barra de navegação
 <a href="#top">(inicio)</a>
@@ -115,8 +102,6 @@ A barra de navegação superior será composta pelos seguintes campos:
 ![image](https://user-images.githubusercontent.com/53793354/221950181-bcab0ef7-f535-4495-94a4-4a66418ee89e.png)
 
 ### Atributos do campo<br>
-**Exemplo:** ***[Página Inicial - Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=)***
-
 
 1. O campo período será no formato **dd/mm/aaaa** composto por início e fim (eg. 01/04/2021 a 30/12/2021). Como padrão o campo "Início/Fim" irá exibir exercício vigente até o dia da última atualização dos dados.
 2. No campo da data o usuário poderá selecionar ou digitar a data na caixa. Exemplo: [Portal de Transparêcia ES](https://transparencia.es.gov.br/Despesa);
