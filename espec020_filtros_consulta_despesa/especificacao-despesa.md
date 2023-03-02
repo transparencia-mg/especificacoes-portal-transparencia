@@ -59,8 +59,17 @@ Esse comportamento atualmente é adotado na consulta Acordo Judicial da Vale.
     * Desconsiderar palavras intermediárias (ex.: Ao digitar “gestao pública”, um dos resultados será “Gestão da Administração Pública”);
     * O usuário poderá pesquisar código ou descrição das classificações orçamentárias (eg. [Consulta Acordo Judicial da Vale - PdT MG](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.consultaLivre).  
 
-6. Todas as funcionalidades não exemplificadas segueram o mesmo padrão já adotado na consulta Acordo Judicial da Vale do Portal de Transparência.
-7. A descrição dos tooltips e os campos de cada tabela estão disponíveis em:
+6. Estrutura de design de todas as tabelas de resultados da Pesquisa básica: 
+  * Cabeçalho fixo - Fixer Header ([eg. Consulta de Remuneração do PdT](https://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/202112/3/1094/4022/C/3569184/995/26150365));
+  * Rolagem horizontal - Horizontal Scroll. Quando o número de colunas ultrapassar o limite da página o PdT deve possibilizar a rolagem horizontal;
+  * Colunas movíveis e classificáveis conforme ocorre atualmente;
+  * Paginação e seleção da quantidade de linhas a serem exibidas, conforme ocorre atualmente;
+  * O texto deve ser ajustável nas colunas, ou seja, caso seja necessário pode haver quebra de linha;
+  * A tabela apresentará campos clicáveis (com link) que irá direcionar o usuário para o próximo nível da consulta.
+  * Os campos clicáveis serão destacados conforme o layout já adotado pelo PdT - [Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=).
+
+7. Todas as funcionalidades não exemplificadas segueram o mesmo padrão já adotado na consulta Acordo Judicial da Vale do Portal de Transparência.
+8. A descrição dos tooltips e os campos de cada tabela estão disponíveis em:
   * [Especificação Tooltip](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/especificacao-despesa-tooltip.md)
   * [Especificação Dados](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/especificacao-despesa.md)
 
@@ -127,7 +136,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 7. As demais funcionalidades serão as mesmas já adotadas na consulta Acordo Judicial de Reparação da Vale'
 
 
-## 3. Leiaute - Tabelas navegação
+## 3. Leiaute - Tabelas de Resultados
 <a href="#top">(inicio)</a>
 
 1. A tabela de resultado levará em consideração os parâmetros dos filtros aplicados pelo usuário.
@@ -140,18 +149,9 @@ A barra de navegação superior será composta pelos seguintes campos:
   * **TOTAL GERAL:** quando o usuário não aplicar nenhum filtro na tabela ou quanto todos os dados forem exibidos em uma única página, ou seja, sem paginação;
   * **SUBTOTAL:** quando o usuário aplicar qualquer filtro na tabela através da barra de pesquisa ou quando houver paginação na tabela de resultado, ou seja, houver mais de uma página de resultado.
 
-1. Todos os parâmetros apresentados acima, podem ser verificados na consulta do Portal *'Acordo Judicial da Vale'*.
+7. Todos os parâmetros apresentados acima, podem ser verificados na consulta do Portal *'Acordo Judicial da Vale'*.
 
-### Estrutura de design das tabelas de resultados da Pesquisa básica
-<a href="#top">(inicio)</a>
 
-1. Cabeçalho fixo - Fixer Header ([eg. Consulta de Remuneração do PdT](https://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/202112/3/1094/4022/C/3569184/995/26150365));
-1. Rolagem horizontal - Horizontal Scroll. Quando o número de colunas ultrapassar o limite da página o PdT deve possibilizar a rolagem horizontal;
-1. Colunas movíveis e classificáveis conforme ocorre atualmente;
-1. Paginação e seleção da quantidade de linhas a serem exibidas, conforme ocorre atualmente;
-1. O texto deve ser ajustável nas colunas, ou seja, caso seja necessário pode haver quebra de linha;
-1. A tabela apresentará campos clicáveis (com link) que irá direcionar o usuário para o próximo nível da consulta.
-1. Os campos clicáveis serão destacados conforme o layout já adotado pelo PdT - [Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=).
 
 ### Leiaute - Gráficos
 <a href="#top">(inicio)</a>
