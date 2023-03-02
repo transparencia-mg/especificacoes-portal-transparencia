@@ -32,16 +32,14 @@ Esse documento tem como objetivo apresentar as alterações que deverão ser imp
 ## Observações Gerais:
 
 1. Todas as páginas de consulta deverão exibir ícones com links para compartilhar as  consultas. O usuário poderá Compartilhar os links dos dados nos seguintes canais, no mínimo:
-
-* Twitter
-* Facebook
-* WhatsApp
-* Copiar url
+  * Twitter
+  * Facebook
+  * WhatsApp
+  * Copiar url
 
 2. Todas as páginas deverão exibir cabeçalho da tabela para que o usuário identifique qual o caminho percorrido. Além do caminho percorrido pelo usuário o PDT deverá apresentar a data de atualização dos dados e o período selecionado.
-
-- Dados atualizados em:
-- Período:
+  * Dados atualizados em:
+  * Período:
 
 
 ![](static/cabecalho_tabela.png)
@@ -60,13 +58,13 @@ Esse comportamento atualmente é adotado na consulta Acordo Judicial da Vale.
     * O usuário poderá pesquisar código ou descrição das classificações orçamentárias (eg. [Consulta Acordo Judicial da Vale - PdT MG](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.consultaLivre).  
 
 6. Estrutura de design de todas as tabelas de resultados da Pesquisa básica: 
-  * Cabeçalho fixo - Fixer Header ([eg. Consulta de Remuneração do PdT](https://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/202112/3/1094/4022/C/3569184/995/26150365));
-  * Rolagem horizontal - Horizontal Scroll. Quando o número de colunas ultrapassar o limite da página o PdT deve possibilizar a rolagem horizontal;
-  * Colunas movíveis e classificáveis conforme ocorre atualmente;
-  * Paginação e seleção da quantidade de linhas a serem exibidas, conforme ocorre atualmente;
-  * O texto deve ser ajustável nas colunas, ou seja, caso seja necessário pode haver quebra de linha;
-  * A tabela apresentará campos clicáveis (com link) que irá direcionar o usuário para o próximo nível da consulta.
-  * Os campos clicáveis serão destacados conforme o layout já adotado pelo PdT - [Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=).
+    * Cabeçalho fixo - Fixer Header ([eg. Consulta de Remuneração do PdT](https://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/202112/3/1094/4022/C/3569184/995/26150365));
+   * Rolagem horizontal - Horizontal Scroll. Quando o número de colunas ultrapassar o limite da página o PdT deve possibilizar a rolagem horizontal;
+   * Colunas movíveis e classificáveis conforme ocorre atualmente;
+   * Paginação e seleção da quantidade de linhas a serem exibidas, conforme ocorre atualmente;
+   * O texto deve ser ajustável nas colunas, ou seja, caso seja necessário pode haver quebra de linha;
+   * A tabela apresentará campos clicáveis (com link) que irá direcionar o usuário para o próximo nível da consulta.
+   * Os campos clicáveis serão destacados conforme o layout já adotado pelo PdT - [Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=).
 
 7. Todas as funcionalidades não exemplificadas segueram o mesmo padrão já adotado na consulta Acordo Judicial da Vale do Portal de Transparência.
 8. A descrição dos tooltips e os campos de cada tabela estão disponíveis em:
