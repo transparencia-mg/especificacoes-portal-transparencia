@@ -108,13 +108,8 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 ![](static/formato-data.gif)
 
-3. Os ícones serão clicáveis. Quando o usuário posicionar o mouse sobre o ícone será exibido um tooltip com uma breve descrição.
-    - Órgão: Consulte os valores por órgão (unidade orçamentária) responsável pela execução da despesa.
-    - Favorecido: Consulte a execução financeira utilizando nome ou CPF/CNPJ do favorecido.
-    - Programa: Consulte a execução pelo tipo de Programa, conforme previsto na LOA.
-    - Função: Consulte a execução por área de atuação do governo. Exemplo: saúde, educação, transporte e segurança pública.
-
-
+3. Quando o usuário posicionar o mouse sobre o ícone será exibido um tooltip com uma breve descrição.
+  
 ![image](https://user-images.githubusercontent.com/53793354/221942055-73c7b90c-8a4b-4053-83a9-b63febbfd33c.png)
 
 
@@ -123,11 +118,11 @@ A barra de navegação superior será composta pelos seguintes campos:
 
   ![](static/filtros.png)
 
-  - **Favorecido**: Ao selecionar esse tipo de consulta o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados. A barra de pesquisa deverá possuir atributo [placeholder](https://www.w3schools.com/tags/att_input_placeholder.asp) para facilitar ou indicar como o campo deverá sem preenchido.
+  - **Favorecido**: Ao selecionar esse tipo de consulta o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados. 
 
   ![](static/filtro-favorecido.png)
 
-5. O campo *'Filtro'* deverá retornar os dados a medida que o usuário for digitando. O atributo placeholder deve ser aplicado.
+5. A barra de pesquisa do campo filtro deverá possuir atributo [placeholder](https://www.w3schools.com/tags/att_input_placeholder.asp) para facilitar ou indicar como o campo deverá sem preenchido e a informação deverá retornada a medida que o usuário for digitando. 
 6. A consulta irá apresentar como padrão a tabela de resultado com os dados do exercício vigente da consulta 'Órgão'.
 7. As demais funcionalidades serão as mesmas já adotadas na consulta Acordo Judicial de Reparação da Vale'
 
