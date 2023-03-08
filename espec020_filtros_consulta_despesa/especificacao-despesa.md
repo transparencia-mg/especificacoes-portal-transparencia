@@ -58,7 +58,7 @@ Esse comportamento atualmente é adotado na consulta Acordo Judicial da Vale.
     * O usuário poderá pesquisar código ou descrição das classificações orçamentárias (eg. [Consulta Acordo Judicial da Vale - PdT MG](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.consultaLivre).  
     *  O usuário poderá pesquisar por qualquer coluna na tabela de resultados.
 
-6. Estrutura de design de todas as tabelas de resultados da Pesquisa básica: 
+6. Estrutura de design de todas as tabelas de resultados da Pesquisa básica:
     * Cabeçalho fixo - Fixer Header ([eg. Consulta de Remuneração do PdT](https://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/202112/3/1094/4022/C/3569184/995/26150365));
    * Rolagem horizontal - Horizontal Scroll. Quando o número de colunas ultrapassar o limite da página o PdT deve possibilizar a rolagem horizontal;
    * Colunas movíveis e classificáveis conforme ocorre atualmente;
@@ -66,6 +66,9 @@ Esse comportamento atualmente é adotado na consulta Acordo Judicial da Vale.
    * O texto deve ser ajustável nas colunas, ou seja, caso seja necessário pode haver quebra de linha;
    * A tabela apresentará campos clicáveis (com link) que irá direcionar o usuário para o próximo nível da consulta.
    * Os campos clicáveis serão destacados conforme o layout já adotado pelo PdT - [Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=).
+   * Todos os termos das tabelas terão tooltip que serão exibidos quando o usuário passar o mouse o ícone de "?"
+
+   ![](static/tooltip-tabela.png)
 
 7. Todas as funcionalidades não exemplificadas segueram o mesmo padrão já adotado na consulta Acordo Judicial da Vale do Portal de Transparência.
 8. A descrição dos tooltips e os campos de cada tabela estão disponíveis em:
@@ -99,40 +102,47 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 <a href="#top">(inicio)</a>
 
 A barra de navegação superior será composta pelos seguintes campos:
-    * Ícones por tipo de Consulta: Órgão, Favorecido, Programa e Função;
-    * Ano;
-    * Período (01/04/2021 a 30/12/2021);
-    * Opção de *'Filtro*;
-    * Botão *'Monte sua consulta'*
+
+  * Ícones por tipo de Consulta: Órgão, Favorecido, Programa e Função;
+  * Ano;
+  * Período (01/04/2021 a 30/12/2021);
+  * Opção de *'Filtro*;
+  * Botão *'Monte sua consulta'*
 
 ![image](https://user-images.githubusercontent.com/53793354/221950181-bcab0ef7-f535-4495-94a4-4a66418ee89e.png)
 
 ### Atributos do campo<br>
 
 1. O campo período será no formato **dd/mm/aaaa** composto por início e fim (eg. 01/04/2021 a 30/12/2021). Como padrão o campo "Início/Fim" irá exibir exercício vigente até o dia da última atualização dos dados.
-2. No campo da data o usuário poderá selecionar ou digitar a data na caixa. Exemplo: [Portal de Transparêcia ES](https://transparencia.es.gov.br/Despesa);
+2. No campo da data o usuário poderá selecionar ou digitar a data na caixa.<br> Exemplo: [Portal de Transparêcia ES](https://transparencia.es.gov.br/Despesa);
 
 
 ![](static/formato-data.gif)
 
-3. Quando o usuário posicionar o mouse sobre o ícone será exibido um tooltip com uma breve descrição.
-  
+3. A busca poderá ser realizada por meio de 4 tipos de filtros:
+  * Órgão
+  * Favorecido (Nome ou CPF/CNPJ)
+  * Função
+  * Programa
+
+4. Quando o usuário posicionar o mouse sobre o ícone será exibido um tooltip com uma breve descrição.
+
 ![image](https://user-images.githubusercontent.com/53793354/221942055-73c7b90c-8a4b-4053-83a9-b63febbfd33c.png)
 
 
-4. O comportamento do campo *'Filtro'* será conforme o tipo de consulta selecionada e como padrão será exibido a opção 'Todos':<br>
-     - **Órgão, Função, Programa**: ao selecionar uma das opções o PDT irá permitir que o usuário selecione um item no campo filtro. Esse campo poderá ser selecionado através da barra de rolagem ou por digitação.
+5. O comportamento do campo *'Filtro'* será conforme o tipo de consulta selecionada e como padrão será exibido a opção 'Todos':<br>
+     - **Órgão, Função, Programa**:<br> Ao selecionar uma das opções o PDT irá permitir que o usuário selecione um item no campo filtro. Esse campo poderá ser selecionado através da barra de rolagem ou por digitação.
 
   ![](static/filtros.png)
 
 
-   * **Favorecido**: Ao selecionar esse tipo de consulta o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados. 
+   * **Favorecido**:<br> Ao selecionar esse tipo de consulta o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados.
 
   ![](static/filtro-favorecido.png)
 
-5. A barra de pesquisa do campo filtro deverá possuir atributo [placeholder](https://www.w3schools.com/tags/att_input_placeholder.asp) para facilitar ou indicar como o campo deverá sem preenchido e a informação deverá retornada a medida que o usuário for digitando. 
-6. A consulta irá apresentar como padrão a tabela de resultado com os dados do exercício vigente da consulta 'Órgão'.
-7. As demais funcionalidades serão as mesmas já adotadas na consulta Acordo Judicial de Reparação da Vale'
+6. A barra de pesquisa do campo filtro deverá possuir atributo [placeholder](https://www.w3schools.com/tags/att_input_placeholder.asp) para facilitar ou indicar como o campo deverá sem preenchido e a informação deverá retornada a medida que o usuário for digitando.<br> (Texto: *Digite o nome, parte do nome ou CPF/CNPJ*)
+
+7. As demais funcionalidades serão as mesmas já adotadas na consulta 'Acordo Judicial de Reparação da Vale'
 
 
 ## 3. Leiaute - Tabelas de Resultados
@@ -155,9 +165,10 @@ A barra de navegação superior será composta pelos seguintes campos:
 ### Leiaute - Gráficos
 <a href="#top">(inicio)</a>
 
-* O Gráfico apresentado como padrão será o tipo Treemap (Gráfico área) com os dados do exercício vigente;
 * O usuário terá a opção de verificar série histórica ao clicar no gráfico de barra;
 * Os gráficos apresentaram os dados da coluna 'Valor Liquidado'.
+* Todos os gráficos deverão apresentar títulos, conforme o usuário for navegando pela consulta.<br>
+Exemplo: Consulta de Despesa
 
 ![](static/graficos.gif)
 
@@ -187,7 +198,6 @@ A barra de navegação superior será composta pelos seguintes campos:
 ## 4. Pesquisa básica - Navegação por filtros
 <a href="#top">(inicio)</a>
 
-_____ PAREI AQUI SILVIANA
 
 ### CONSULTA POR ÓRGÃO - Página Inicial
 <a href="#top">(inicio)</a>
@@ -253,17 +263,18 @@ Ao clicar no número do empenho o usuário será direcionado para o formulário 
   * As tabelas que compõe o formulário de detalhamento serão exibidas em formato de guias
   * O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'.
 ````
-O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'. A exportação em planilha (CSV) deverá ser em formato de tabela. Cada campo em uma coluna.
+Olhar com Flavinha <O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'. A exportação em planilha (CSV) deverá ser em formato de tabela. Cada campo em uma coluna.>
 ``````
 
-###### Campos do formulário de detalhamento
+##### Campos do formulário de detalhamento
 
 * Classificação Orçamentária
 
-
+![](static/formulario_classificação.png)
 
 * Empenho
 
+![](static/formulario_empenho.png)
 
 
 * Liquidação
@@ -322,6 +333,7 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
+![](Static/tabela_3_favorecido_funcao.png)
 
 ##### 4º NÍVEL
   - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
@@ -383,8 +395,7 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-
-
+![](Static/tabela_3_favorecido_funcao.png)
 
 ##### 4º NÍVEL
   - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
@@ -434,6 +445,7 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
+![](Static/tabela_3_favorecido.png)
 
 ##### 3º NÍVEL
 
@@ -516,7 +528,7 @@ Ao selecionar o parâmetro '1521- Controladoria-Geral do Estado' no filtro *Órg
 
 * A tabela de resultado levará em consideração os parâmetros do campo filtros aplicados.
 * A tabela apresentará colunas padrões que serão exibidas independentemente de o usuário selecionar/aplicar algum filtro.
-  **COLOCAR AS COLUNAS PADRÕES**
+  **Ver [Especificação Dados](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/especificacao-despesa.md)**
 
 * A data de atualização dos dados, opção de compartilhamento e download serão exibidos acima da tabela de resultados.
 
@@ -524,52 +536,24 @@ Ao selecionar o parâmetro '1521- Controladoria-Geral do Estado' no filtro *Órg
 * A **barra de pesquisa** da tabela de resultado deverá retornar os dados da tabela que estão exibidos. A medida que o usuário for digitando os dados a busca será acionada. O atributo *placeholder*: deve ser aplicado na barra de pesquisa.
 * O usuário poderá adicionar ou remover colunas - [*hide/show columns*](https://ux.stackexchange.com/a/110079) na tabela de resultados. Ao clicar em **Adicionar/Remover colunas** será exibido uma barra lateral a direta com todas as colunas que poderão ser adicionadas ou removidas.
 * Ao exibir ou ocultar alguma coluna a tabela de resultados será atualizada automaticamente (eg.[Column Toggle Table](https://ux.stackexchange.com/questions/110077/best-practices-to-allow-user-to-hide-show-columns-in-a-data-table/110079#110079)).
+
 * O ícone **Adicionar/Remover Colunas** além dos filtros pré-determinados pela DTA terá uma barra de pesquisa onde o usuário poderá digitar o filtro desejado.
-* As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remover Colunas*** podendo o usuário desativá-las.
+
+* As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remover Colunas*** podendo o usuário desativá-las.<br> Ver [Especificação Dados](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/especificacao-despesa.md)
+
 * Ao inserir qualquer coluna essas serão incluídas antes das colunas de valores. E caso seja incluída alguma coluna de valor o portal deverá manter a ordem da execução orçamentária (Valor empenhado, valor liquidado, valor pago, Valor Pago em Restos a Pagar).
+
 * Os campos clicáveis serão destacados conforme o layout já adotado  pelo PdT e terão a imagem de uma lupa. Para exibir mais informações o usuário deverá clicar na lupa da coluna "detalhar"
-  * O 1º nível terá como opção o botão Detalhar o qual direcionará o usuário para o segundo nível, conforme os filtros selecionados e em seguida poderá ser direcionado para o formulário de detalhamento ao clicar em um dos empenhos da lista.
+  * O 1º nível terá como opção o botão Detalhar o qual direcionará o usuário para o segundo nível, conforme os filtros selecionados e em seguida poderá ser direcionado para o próximo nível e assim por diante. No caso especifico da Consulta de Despesa o último nível da consulta será sempre o formulário de detalhamento que será acessado após o usuário clicar em algum empenho.
   * **OBS** Caso o usuário solicite a exibição da coluna empenho já no 1º nível e este for um valor único, o usuário será direcionado diretamente para o formulário de detalhamento relacionado ao empenho.
+  * A única tabela que deverá ser exibida no estilo modal será o formulário de detalhamento. A navegação pelos níveis serão exibidas normalmente, conforme ocorre na pesquisa básica
+
 * Todos os filtros selecionados serão exibidos na tabela de resultado.
+
 * A exibição de código e descrição será diferente em cada seção:
- * Barra de pesquisa e filtros aplicados: exibir código e descrição no mesmo campo;
- * Tabela de resultado: exibir apenas descrição. Os códigos serão exibidos apenas se o usuário adicionar a coluna código;
- * Opção exportar CSV.: exibir código e descrição em campos distintos, independente de o usuário selecionar a opção código na tabela de resultado.
-* Estrutura de design das tabelas de resultados:
-  * Cabeçalho fixo - *[Fixer Header](https://medium.com/nextux/design-better-data-tables-4ecc99d23356#86cf)* (eg. [Consulta de Remuneração do PdT](http://www.transparencia.mg.gov.br/estado-pessoal/remuneracao-dos-servidores/remuneracao-faixa/202103/1/1038/4158/C/3251081/986/23239313));
-  * Rolagem horizontal - *[Horizontal Scroll](https://medium.com/nextux/design-better-data-tables-4ecc99d23356#2dba)*. Quando o número de colunas ultrapassar o limite da página o PdT deve possibilizar a rolagem horizontal.
-  * Colunas movíveis e classificáveis conforme ocorre atualmente;
-  * Paginação e seleção da quantidade de linhas a serem exibidas, conforme ocorre atualmente;
-  * O texto deve ser ajustável nas colunas, ou seja, caso seja necessário pode haver quebra de linha;
+  * Barra de pesquisa e filtros aplicados: exibir código e descrição no mesmo campo;
+  * Tabela de resultado: exibir apenas descrição. Os códigos serão exibidos apenas se o usuário adicionar a coluna código;
 
 #### Download dos dados:
-
-  Seguir o padrão da pesquisa básica.
-  Opção exportar Planilha (CSV): exibir código e descrição em colunas distintas, independente de o usuário selecionar a opção código na tabela de resultado. O período selecionado deverá ser exibido na primeira coluna da planilha;
-
-### Níveis
-
-***1º nível:***
-
-* Detalhar
-* Valor Empenhado
-* valor Liquidado
-* Valo Pago
-* Valor Pago em restos a Pagar
-
-***2º nível:*** Essa tabela não será modal
-
-* Empenho
-* Data de registro do empenho
-* Unidade orçamentária
-* Unidade Executora
-* Favorecido
-* CPF/CNPJ do Favorecido
-* Valor Empenhado
-* valor Liquidado
-* Valo Pago
-* Valor Pago em restos a Pagar
-
-* O usuário poderá clicar no número do empenho para exibir o formulário de detalhamento relacionado ao empenho.
-* Exceção: Quando o usuário utilizar o filtro ***"Número da Ordem de Pagamento"*** na barra de filtro vertical as colunas abaixo deverão ser exibidas em formato desabilitado, sem a exibição de dados: Valor empenhado e Valor liquidado.
-* Caso o filtro "Número da Ordem de Pagamento seja retirado da barra de filtros aplicados a formatação e exibição dos valores dessas colunas seguirá o padrão.
+  * Como regra geral seguir o padrão da pesquisa básica.
+  * Opção exportar Planilha (CSV): exibir código e descrição em colunas distintas, independente de o usuário selecionar a opção código na tabela de resultado. O período selecionado deverá ser exibido na primeira coluna da planilha;
