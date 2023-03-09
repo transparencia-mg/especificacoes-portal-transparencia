@@ -124,7 +124,7 @@ A barra de navegação superior será composta pelos seguintes campos:
   * Opção de *'Filtro*;
   * Botão *'Monte sua consulta'*
 
-![image](https://user-images.githubusercontent.com/52920939/224101522-4e0f297d-4118-4f19-b776-534f621cf190.png)
+![image](https://user-images.githubusercontent.com/52920939/224101919-2e9111a2-6cfd-45dd-b88d-72e8742adf6e.png)
 
 ### Atributos do campo<br>
 
@@ -134,26 +134,28 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 ![](static/formato-data.gif)
 
-3. A busca poderá ser realizada por meio de 4 tipos de filtros:
-  * Órgão
-  * Favorecido (Nome ou CPF/CNPJ)
-  * Função
-  * Programa
-
+3. A busca poderá ser realizada por meio de 5 tipos de filtros:
+  * Número do Convênio
+  * Tipo de Instrumento
+  * Concedente (Nome ou CPF/CNPJ)
+  * Proponente (Nome ou CPF/CNPJ)
+  * Situação
+  
 4. Quando o usuário posicionar o mouse sobre o ícone será exibido um tooltip com uma breve descrição.
 
-![image](https://user-images.githubusercontent.com/53793354/221942055-73c7b90c-8a4b-4053-83a9-b63febbfd33c.png)
+![image](https://user-images.githubusercontent.com/52920939/224103210-0ac973cb-ba9b-4be3-8ca2-075060ee5d32.png)
 
 
 5. O comportamento do campo *'Filtro'* será conforme o tipo de consulta selecionada e como padrão será exibido a opção 'Todos':<br>
-     - **Órgão, Função, Programa**:<br> Ao selecionar uma das opções o PDT irá permitir que o usuário selecione um item no campo filtro. Esse campo poderá ser selecionado através da barra de rolagem ou por digitação.
+
+
+  * **Número do Convênio, Tipo de Instrumento, Situação**:<br> Ao selecionar uma das opções o PDT irá permitir que o usuário selecione um item no campo filtro. Esse campo poderá ser selecionado através da barra de rolagem ou por digitação.
 
   ![](static/filtros.png)
 
-
-   * **Favorecido**:<br> Ao selecionar esse tipo de consulta o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados.
-
-  ![](static/filtro-favorecido.png)
+   * **Concedente ou Proponente**:<br> Ao selecionar esse tipo de consulta o usuário poderá escolher se a busca será realizada pelo nome do Concedente ou Proponente (cofnorme o filtro escolhido) ou pelo CPF/CNPJ. Nesse caso deverá ser exibido uma barra onde o usuário irá digitar os dados.
+   
+  ![image](https://user-images.githubusercontent.com/52920939/224106201-ad23d750-a4ba-491b-b7e7-b30149bff5de.png)
 
 6. A barra de pesquisa do campo filtro deverá possuir atributo [placeholder](https://www.w3schools.com/tags/att_input_placeholder.asp) para facilitar ou indicar como o campo deverá sem preenchido e a informação deverá retornada a medida que o usuário for digitando.<br> (Texto: *Digite o nome, parte do nome ou CPF/CNPJ*)
 
@@ -170,7 +172,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 1. O usuário poderá solicitar a exibição dos dados com código e descrição. Ao clicar no botão 'Exibir/Ocultar Código' uma nova coluna será adicionada a esquerda de cada coluna que tenha a descrição.
 1. Os valores TOTAL GERAL e o SUBTOTAL serão exibidos na tabela de resultados de acordo com o comportamento do usuário:
 
-  * **TOTAL GERAL:** quando o usuário não aplicar nenhum filtro na tabela ou quanto todos os dados forem exibidos em uma única página, ou seja, sem paginação;
+  * **TOTAL GERAL:** quando o usuário não aplicar nenhum filtro na tabela ou quando todos os dados forem exibidos em uma única página, ou seja, sem paginação;
   * **SUBTOTAL:** quando o usuário aplicar qualquer filtro na tabela através da barra de pesquisa ou quando houver paginação na tabela de resultado, ou seja, houver mais de uma página de resultado.
 
 7. Todos os parâmetros apresentados acima, podem ser verificados na consulta do Portal *'Acordo Judicial da Vale'*.
@@ -181,11 +183,11 @@ A barra de navegação superior será composta pelos seguintes campos:
 <a href="#top">(inicio)</a>
 
 * O usuário terá a opção de verificar série histórica ao clicar no gráfico de barra;
-* Os gráficos apresentaram os dados da coluna 'Valor Liquidado'.
+* Os gráficos apresentaram os dados da coluna 'Valor total do Convênio'.
 * Todos os gráficos deverão apresentar títulos, conforme o usuário for navegando pela consulta.<br>
-Exemplo: Consulta de Despesa
+Exemplo: Consulta de Despesa 
 
-![](static/graficos.gif)
+*****???????? 
 
 ### Download dos dados:
 <a href="#top">(inicio)</a>
