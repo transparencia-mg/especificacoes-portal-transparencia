@@ -92,5 +92,8 @@
 ## Implementação da ferramenta de feedback
 
 - [ ] 1- Implementação da ferramenta de feedback para o PdT, com o objetivo de coletar informações dos usuários do Portal sobre o que eles querem e o que eles precisam.
+- [ ] 2- Fazer denúncias sobre algum assunto
+![image](https://user-images.githubusercontent.com/52920939/224099920-0fd4d4b3-8149-414e-87f4-8b0e64db24f3.png)
+
 
 
