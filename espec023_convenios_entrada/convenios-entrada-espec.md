@@ -13,31 +13,36 @@ output:
 # Visão geral da demanda
 <a href="#top">(inicio)</a>
 
-Essa demanda visa ampliar a consulta de [Convênios de Entrada](https://www.transparencia.mg.gov.br/convenios/convenio-entrada) do Portal da Transparência para possibilitar a publicação de todos os tipos de instrumentos de convênios de entrada. Atualmente o portal da transparência disponibiliza apenas os dados de convênios do tipo Convênio.
+Essa demanda visa ampliar o escopo da consulta de [Convênios de Entrada](https://www.transparencia.mg.gov.br/convenios/convenio-entrada) do Portal da Transparência para possibilitar a publicação de todos os tipos de instrumentos de convênios de entrada.
 
-Juntamente com a ampliação do escopo da consulta, serão implementadas algumas aterações na consulta de convênios s identificadas durante o projeto **Experiência do Usuário no Portal da Transparência**, realizado em abril de 2021, como por exemplo:
+Juntamente com a ampliação do escopo da consulta de convênios de entrada, serão implementadas algumas aterações nas funcionalidades da consulta identificadas durante o projeto **Experiência do Usuário no Portal da Transparência**, realizado em abril de 2021, como por exemplo:
 
 - Alteração do Formulário de Detalhamento;
 - Pesquisa básica mais intuitiva e dinâmica;
 - Inclusão de novas informações;
-- Consolidação dos dados de compras e contratos vinculados ao convênio
-- Data do respasse da consulta
+- Possibilidade de montar a própria consulta
+- Consolidação dos dados de compras e contratos vinculados ao convênio;
+- Data do respasse da consulta.
 
 
 # Motivação / contexto da demanda
 <a href="#top">(inicio)</a>
 
-A alteração da consulta de convênios decorre de algumas mudanças identificadas no último ano que impactam a consulta do portal, quais são:
+A alteração da consulta de convênios decorre de algumas mudanças identificadas no último ano que impactam a consulta do portal, quais sejam:
 
-- necessidade de alinhar os dados da consulta de convênios, a consulta disponibilizada pelo portal da [Seplag/MG ](https://www.mg.gov.br/planejamento/pagina/planejamento-e-orcamento/gestao-de-convenios-de-entrada) com dados dos instrumentos de entrada (convênios, contratos de repasse, portarias, transferências especiais e acordos/ajustes), bem como os dados sobre a arrecadação e a execução dos recursos.
+- necessidade de alinhar os dados da consulta de convênios, com a consulta disponibilizada pelo portal da [SEPLAG/MG](https://www.mg.gov.br/planejamento/pagina/planejamento-e-orcamento/gestao-de-convenios-de-entrada). 
 
-- atender a avaliação da ATRICON (Associação dos Membros dos Tribunais de Contas do Brasil) avaliação dos órgãos Tribunais de Contas. A iniciativa tem como finalidade identificar pontos fortes e oportunidades de melhorias nas rotinas administrativas, de fiscalização e julgadoras, além de dar visibilidade às boas práticas desenvolvidas.ao ranking de 
+A consulta da SEPLAG/MG disponibliza além do instrumento denominado convênios, dados sobre outros tipos de instrumentos de entrada, como contratos de repasse, portarias, transferências especiais e acordos/ajustes), além de dados sobre arrecadação e execução dos recursos.
 
-- atender as necessidades dos usuários quanto a navegalidade do portal da Transparência identificadas durante o projeto **Experiência do Usuário no Portal da Transparência**, realizado em abril de 2021
+- atender a avaliação da ATRICON (Associação dos Membros dos Tribunais de Contas do Brasil) realizada em 2022, que identificou a falta do item data de repasse do valor ao convenente; e,
+
+- atender as necessidades dos usuários quanto a navegalidade do portal da Transparência identificadas durante o projeto **Experiência do Usuário no Portal da Transparência**, realizado em abril de 2021.
 
 
 # Especificação
 <a href="#top">(inicio)</a>
+
+Esse documento tem como objetivo apresentar as alterações que deverão ser implementadas na pesquisa básica e avançada da consulta de Convênios de Entrada.
 
 ## Observações Gerais:
 
@@ -62,10 +67,10 @@ A alteração da consulta de convênios decorre de algumas mudanças identificad
 Esse comportamento atualmente é adotado na consulta Acordo Judicial da Vale.
 
 5. Todas as **barras de pesquisa** devem aceitar várias formas de preenchimento dos dados.
-    * Autocompletar (*autocomplete* ) desde a primeira letra (eg. [Portal de Transparência MG](http://www.transparencia.mg.gov.br);
+    * Autocompletar (*autocomplete* ) desde a primeira letra, eg. [Portal de Transparência MG](http://www.transparencia.mg.gov.br);
     * Desconsiderar acentuação, letras maiúsculas/minúsculas;
     * Desconsiderar palavras intermediárias (ex.: Ao digitar “gestao pública”, um dos resultados será “Gestão da Administração Pública”);
-    * O usuário poderá pesquisar código ou descrição das classificações orçamentárias (eg. [Consulta Acordo Judicial da Vale - PdT MG](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.consultaLivre).  
+    * O usuário poderá pesquisar código ou descrição das classificações orçamentárias eg. [Consulta Acordo Judicial da Vale - PdT MG](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.consultaLivre).  
     *  O usuário poderá pesquisar por qualquer coluna na tabela de resultados.
 
 6. Estrutura de design de todas as tabelas de resultados da Pesquisa básica:
@@ -82,8 +87,8 @@ Esse comportamento atualmente é adotado na consulta Acordo Judicial da Vale.
 
 7. Todas as funcionalidades não exemplificadas segueram o mesmo padrão já adotado na consulta Acordo Judicial da Vale do Portal de Transparência.
 8. A descrição dos tooltips e os campos de cada tabela estão disponíveis em:
-    * [Especificação Tooltip](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/especificacao-despesa-tooltip.md)
-   * [Especificação Dados](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/especificacao-despesa.md)
+    * [Especificação Tooltip]()
+    * [Especificação Dados]()
 
 ## Página Inicial - Pesquisa Básica
 <a href="#top">(inicio)</a>
@@ -106,20 +111,20 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 
 ### Texto explicativo
 
-* Ver  [Especificação Tooltip](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/especificacao-despesa-tooltip.md)
+* Ver  [Especificação Tooltip]()
 
 ## 2. Leiaute - Barra de navegação
 <a href="#top">(inicio)</a>
 
 A barra de navegação superior será composta pelos seguintes campos:
 
-  * Ícones por tipo de Consulta: Órgão, Favorecido, Programa e Função;
+  * Ícones por tipo de Consulta: Número do Convênio, Tipo de Instrumento, Concedente (Nome e CNPJ), Proponente (Nome e CNPJ), Situação
   * Ano;
   * Período (01/04/2021 a 30/12/2021);
   * Opção de *'Filtro*;
   * Botão *'Monte sua consulta'*
 
-![image](https://user-images.githubusercontent.com/53793354/221950181-bcab0ef7-f535-4495-94a4-4a66418ee89e.png)
+![image](https://user-images.githubusercontent.com/52920939/224101522-4e0f297d-4118-4f19-b776-534f621cf190.png)
 
 ### Atributos do campo<br>
 
