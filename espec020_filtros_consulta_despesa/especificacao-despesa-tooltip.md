@@ -62,14 +62,57 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 
 | Campo | Tooltip - PdT |
 |------------|---|
+|Ação | Conjunto de operações das quais resulta a entrega de um produto que contribui para alcançar o objetivo de um programa                                                    
+| Categoria Econômica | Classificação da despesa quanto ao impacto econômico que ela gera, podendo ser corrente (funcionamento dos órgãos, pagamentos dos servidores, etc) ou de capital (obras, equipamentos, etc).|
+| CNPJ/CPF Favorito| Número de identificação: Pessoa Física (CPF) e Pessoa Jurídica (CNPJ)|
+| Código da função | Número identificador da função de acordo com a classificação funcional da despesa |
+| Código do programa | Número identificador do programa na classificação programática|
+| Código da subfunção | Número identificador da subfunção de acordo com a classificação funcional da despesa |
+| Código da Ação| Número identificador da ação (projeto atividade)na classificação programática|
+| Código Órgão | Código da Unidade Orçamentária que executa uma despesa.|
+| Código Unidade Executora | Código da Unidade Executora responsável pela execução da despesa |
+| Criação de dados do processo| Data de criação do processo de compra no SIAD-MG (Sistema Integrado de Administração de Materiais e Serviços) |
+| Data de Registro do Pagamento | Dados de registro do documento de pagamento no SIAFI-MG. O pagamento efetivo pode estar pendente de transmissão bancária e/ou a manipulação bancária |
+| Data Publicação Contrato| Data de publicação do contrato no IOF-MG (Imprensa Oficial do Estado de Minas Gerais)|
+| Data Publicação Convênio/Parceria| Data de publicação do convênio no SIGCON- Saída (Sistema de Gestão de Convênios e Parcerias)|
+| Registro de Dados do Empenho | Data de registro do documento de empenho no SIAFI-MG (SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais) |
+| Data Vigência Atualizada do Contrato | Dados de vigilância atualizados considerando todos os aditivos de prazo|
+| Elemento de Despesa | Identifica os objetos de gasto, tais como vencimentos, externas, material de consumo, subvenções sociais, obras e instalações e outros que a administração|
+| empenho                              | Número de identificação do documento de empenho no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais) |
+| Favorecido | Nome de quem recebeu recursos públicos estaduais pela prestação de serviço ou entrega do produto. Ex: prefeituras, servidores, empresas, entidades do terceiro setor, etc.|
+| Fonte de Recurso| Permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, fundo ou despesa. Combina a origem do dinheiro às despesas orçamentárias. Esta vinculação visa demonstrar o montante de dinheiro que já está comprometido com o atendimento de determinadas intenções, e aquele que pode ser livremente alocado. |
+|Fonte de Recurso - Portaria STN nº 710| Permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, fundo ou despesa conforme determina a Portaria nº 710/2021 da Secretaria de Tesouro Nacional
+| Função | Área de atuação do setor público nas quais são gastos os recursos, tais como saúde, educação, administração, transportes e etc. |
+| Grupo de Despesa| Classificação da despesa que agrega elementos de despesa quanto ao objeto do gasto (pessoal, juros, amortização da dívida, investimentos, etc.).|
+| Indicador de Procedência e Uso (IPU) | Identifica a origem e a utilização dos recursos. Ex.: se os recursos são para livre utilização, se foram transferidos de outra unidade orçamentária, se são para adesão a convênios, etc.|
+| Item de Despesa| Desdobramento do elemento de despesa (material gráfico, medicamentos, remédios, etc). |
+| Modalidade de Aplicação | Indica se os recursos são aplicados diretamente por órgãos ou entidades no âmbito da mesma esfera de Governo ou por outro ente da Federação.|
+| Número Contrato/Convênio/Parceria    | Número do contrato, convênio ou parceria registrado no SIAFI-MG   (SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais) |
+| Número do Processo de Compra | Número do Processo de compra no SIAD-MG (Sistema Integrado de Administração de Materiais e Serviços) | Número de identificação do documento de pagamento no SIAFI-MG ( SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais) |
+| Objeto Contrato | Descrição dos bens ou serviços que serão fornecidos pelo contratado|
+| Objeto Processo| Descrição do Objeto do processo de compra|
+| Órgão| Descrição da Unidade Orçamentária   responsável pela execução da despesa |
+| Procedimento de Contratação| Indica a modalidade de licitação (ex. competição, dispensa de licitação, leilão e etc)|
+| Programa | Instrumento de organização de ação governamental que integra o planejamento visando a concretização dos objetos pretendidos.|
+| Situação do Contrato | Situação do Contrato no SIAD-MG (Sistema Integrado de Administração de Materiais e Serviços)|
+| Situação do Convênio/Parceria| Número de identificação do Contrato ou do Convênio/Parceria de origem de recursos no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais) |
+| Situação Ordem de Pagamento| Situação da Ordem de Pagamento conforme consta no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais) |
+| Situação Processo| Situação do Processo de   Compra no SIAD-MG (Sistema Integrado de Administração de Materiais e Serviços)|
+| subfunção| Identifica a natureza básica das ações que se aglutinam em torno das funções|
+| Tipo Empenho| Descrição do tipo de esforço: global, estimado, ordinário, extraorçamentário.|
+| Título do Convênio/Parceria| Descrição do título do Convênio/Parceria de saída de recursos.|
+| Unidade Executora| Descrição da Unidade Executora responsável pela execução da despesa|
+| Valor Empenado | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |
+| Valor Liquidado| Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue |
+| valor pago| Valor referente aos pagamentos, no exercício, através de movimentações bancárias, escriturais e apropriação contabilizada da despesa. O pagamento efetivo pode estar pendente de transmissão bancária e/ou a manipulação bancária |
+| Valor Pago em Restos a Pagar | Valor pago no período seleciona, mas referente ao esforço realizado em exercícios anteriores. O pagamento efetivo pode estar pendente de transmissão bancária e/ou permissão a bancária.|
 
 
 ## Filtros da Barra Vertical
 <a href="#top">(inicio)</a>
 
 |Filtro|Tooltip
-|-|-
-||                                          
+|-|-                                  
 |Órgão |Descrição da Unidade Orçamentária responsável pelo Projeto                                                                         
 |Unidade Executora |Descrição da Unidade Executora responsável pelo Projeto    
 |Função |Descrição da área de atuação do setor público  
@@ -82,7 +125,7 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 |Elemento de Despesa| Identifica os objetos de gasto, tais como vencimentos, diárias, material de consumo, subvenções sociais, obras e instalações e outros que a administração pública utiliza para a consecução de seus fins.    
 |Item de Despesa  | Desdobramento do elemento de despesa (material gráfico, medicamentos, diárias, etc)      
 |Fonte de Recurso |Permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, fundo ou despesa.
-|Fonte de Recurso - 2023 |Permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, fundo ou despesa.
+|Fonte de Recurso - 2023 |Permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, fundo ou despesa conforme determina a Portaria nº 710/2021 da Secretaria de Tesouro Nacional
 |Indicador de Procedência e Uso (IPU)|Identifica a origem e a utilização dos recursos.    
 |Empenho  |Número de identificação do documento de empenho no SIAFI-MG   
 |Número do Processo de Compra       |Número identificador no processo de compra no Portal de Compras do Estado de Minas Gerais
@@ -97,9 +140,3 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 ## Tooltip tabela de resultados Monte sua pesquisa
 
 Os tooltips da tabela de resultado deverá ser o mesmo já utilizado nas tabelas das consultas pré-formatadas.
-
-Abaixo acrescenta-se os campos que não constam nas consultas pré-formatadas.
-
-|Filtro|Tooltip
-|-|-
-|Tipo Empenho |Descrição do tipo de empenho: global, estimado, ordinário, extra-orçamentário.
