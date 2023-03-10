@@ -187,7 +187,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 * Todos os gráficos deverão apresentar títulos, conforme o usuário for navegando pela consulta.<br>
 Exemplo: Consulta de Despesa 
 
-*****???????? 
+*****![](static/graficos.gif)
 
 ### Download dos dados:
 <a href="#top">(inicio)</a>
