@@ -62,37 +62,14 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 
 | Campo | Tooltip - PdT |
 |------------|---|
-Código Órgão    |    Código da Unidade Orçamentária que executou a despesa.|    
-|Órgão  |  Descrição da Unidade Orçamentária que executou a despesa
-|Elemento|	Identifica os objetos de gasto, tais como vencimentos, diárias, material de consumo, subvenções sociais, obras e instalações e outros que a administração pública utiliza para a consecução de seus fins.
-| Favorecido    | Nome de quem recebeu recursos públicos estaduais pela prestação de serviço ou entrega do produto. Ex: prefeituras, servidores, empresas, entidades do terceiro setor, etc. |
-|CNPJ/ CPF  Favorecido  | Número de identificação: Pessoa Física (CPF) e Pessoa Jurídica (CNPJ) |
-| Empenho | Número de identificação do documento de empenho no SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais )|
-|Data Registro do Empenho |Data de registro do documento de empenho|
-|Código da Unidade Executora| Código da Unidade Executora responsável pela execução da despesa
-|Unidade Executora| Descrição da Unidade Executora responsável pela execução da despesa
-|Código da Função| Número identificador da função de acordo com a classificação funcional da despesa
-|Função| Descrição da área de atuação do setor público
-|Código da Subfunção| Número identificador da subfunção de acordo com a classificação funcional da despesa
-|Subfunção |Descrição de uma partição da função, visando agregar determinado subconjunto de despesa
-|Programa| Instrumento de organização de ação governamental que integra o planejamento visando a concretização dos objetos pretendidos.
-|Código da Programa| Número identificador do programa na classificação programática
-|Código do Ação|  Número identificador da ação (projeto atividade)na classificação programática
-|Ação |Descrição do instrumento de programação para alcançar o objetivo de um programa.
-|Valor Empenhado       | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |  
-| Valor Liquidado      | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue |  
-|Valor Pago | Valor referente aos pagamentos efetuados, no exercício, através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária  
-| Valor Pago em Restos a Pagar     | Valor pago no período seleciona, mas referente a empenho realizado em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão bancária e/ou sujeita a compensação bancária.
+
 
 ## Filtros da Barra Vertical
 <a href="#top">(inicio)</a>
 
 |Filtro|Tooltip
 |-|-
-|Período |Período da consulta
-|Código SIAFI  |Código do Projeto no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais)
-|Anexo  |Anexo ou cláusula ao qual o Projeto se refere conforme o Acordo Judicial de Reparação  da Vale   
-|Projeto| Descrição do Projeto conforme consta no Acordo Judicial de Reparação                                             
+||                                          
 |Órgão |Descrição da Unidade Orçamentária responsável pelo Projeto                                                                         
 |Unidade Executora |Descrição da Unidade Executora responsável pelo Projeto    
 |Função |Descrição da área de atuação do setor público  
@@ -105,15 +82,16 @@ Código Órgão    |    Código da Unidade Orçamentária que executou a despesa
 |Elemento de Despesa| Identifica os objetos de gasto, tais como vencimentos, diárias, material de consumo, subvenções sociais, obras e instalações e outros que a administração pública utiliza para a consecução de seus fins.    
 |Item de Despesa  | Desdobramento do elemento de despesa (material gráfico, medicamentos, diárias, etc)      
 |Fonte de Recurso |Permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, fundo ou despesa.
+|Fonte de Recurso - 2023 |Permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, fundo ou despesa.
 |Indicador de Procedência e Uso (IPU)|Identifica a origem e a utilização dos recursos.    
 |Empenho  |Número de identificação do documento de empenho no SIAFI-MG   
 |Número do Processo de Compra       |Número identificador no processo de compra no Portal de Compras do Estado de Minas Gerais
 |Procedimento de Contratação         |Indica a modalidade de licitação (ex. concorrência, dispensa de licitação, leilão e etc.)
-|CNPJ/ CPF Favorecido                |Número de identificação da pessoa física (CPF) ou da pesssoa jurídica (CNPJ).
-|Favorecido     |Nome de identificação da pessoa física ou jurídica que recebeu recursos públicos estaduais pela prestação de serviço ou pela entrega do produto
-|Objeto do Processo  |Descrição do objeto do processo de compra
-|Título do Convênio / Parceria| Título do convênio / parceria de tra              
+|CNPJ/ CPF Favorecido |Número de identificação da pessoa física (CPF) ou da pesssoa jurídica (CNPJ).
+|Favorecido |Nome de identificação da pessoa física ou jurídica que recebeu recursos públicos estaduais pela prestação de serviço ou pela entrega do produto
 |Número do documento do pagamento | Número de identificação do documento de pagamento no SIAFI-MG
+|Empenho|Número de identificação do documento de empenho no SIAFI-MG
+|Número Contrato/Convênio/Parceria|Número de identificação do documento de pagamento no SIAFI-MG
 
 
 ## Tooltip tabela de resultados Monte sua pesquisa
