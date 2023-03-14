@@ -187,7 +187,8 @@ A barra de navegação superior será composta pelos seguintes campos:
 * Todos os gráficos deverão apresentar títulos, conforme o usuário for navegando pela consulta.<br>
 Exemplo: Consulta de Despesa 
 
-*****![](static/graficos.gif)
+![graficos](https://user-images.githubusercontent.com/52920939/225078061-b9a1d4eb-48c6-4514-92f1-d8b3112bec55.gif)
+
 
 ### Download dos dados:
 <a href="#top">(inicio)</a>
@@ -216,7 +217,7 @@ Exemplo: Consulta de Despesa
 <a href="#top">(inicio)</a>
 
 
-### CONSULTA POR ÓRGÃO - Página Inicial
+### CONSULTA POR NÚMERO DO CONVÊNIO - Página Inicial
 <a href="#top">(inicio)</a>
 
 Essa consulta será composta por 5 níveis:
@@ -229,12 +230,10 @@ _______
 ___________
 
 ##### 1º NÍVEL
-  - Código do Órgão
-  - [Órgão]() -> ao clicar o usuário será direcionado para o 2º nível
-  - Valor Empenhado
-  - Valor Liquidado
-  - Valor Pago
-  - Valor Pago de Restos a Pagar<br>
+  - [Número do Convênio]() -> ao clicar o usuário será direcionado para o 2º nível
+  - Objeto
+  - Valor Pago (valor total)
+
 
 ![image](https://user-images.githubusercontent.com/53793354/200358592-fd3046ee-1c02-4cfc-b320-93a0bc1990bc.png)
 
