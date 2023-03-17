@@ -417,7 +417,7 @@ ___________
 ### CONSULTA POR FAVORECIDO (NOME E CPF/CNPJ)
 <a href="#top">(inicio)</a>
 
-Essa consulta será composta por 5 níveis:
+Essa consulta será composta por 3 níveis:
 _______
   1º nível - [Favorecido]()<br>
   2º nível - Favorecido > [Empenho]()<br>
