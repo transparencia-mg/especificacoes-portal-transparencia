@@ -246,13 +246,12 @@ ___________
 ##### 4º NÍVEL
   - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
   - Data de registro do Empenho
-  - Unidade Executora
   - Valor Empenhado
   - Valor Liquidado
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-![image](https://user-images.githubusercontent.com/53793354/222240159-6b60cd86-8482-47e4-9055-0547efd02acb.png)
+![image](https://user-images.githubusercontent.com/53793354/225976978-08433f80-ad38-42db-add6-7fa7dc5a88b9.png)
 
 
 ##### 5º NÍVEL
@@ -339,13 +338,13 @@ ___________
 ##### 4º NÍVEL
   - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
   - Data de registro do Empenho
-  - Unidade Executora
   - Valor Empenhado
   - Valor Liquidado
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-![image](https://user-images.githubusercontent.com/53793354/222240202-d983cb56-1191-4666-aa48-0df4864f3d4b.png)
+![image](https://user-images.githubusercontent.com/53793354/225976859-3d1378d1-9134-40ae-b6c4-1accc71b130a.png)
+
 
 
 ##### 5º NÍVEL
@@ -401,13 +400,13 @@ ___________
 ##### 4º NÍVEL
   - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
   - Data de registro do Empenho
-  - Unidade Executora
   - Valor Empenhado
   - Valor Liquidado
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-![image](https://user-images.githubusercontent.com/53793354/222240258-bf01a336-22dc-4c57-be52-0f313f0e896d.png)
+![image](https://user-images.githubusercontent.com/53793354/225976711-22009c8c-796d-46bd-aae3-626578119991.png)
+
 
 ##### 5º NÍVEL
 
@@ -427,20 +426,19 @@ ___________
 ##### 1º NÍVEL
   - [Favorecido]() -> ao clicar o usuário será direcionado para o 4º nível
   - CPF / CNPJ
+  - Código do Órgão -> Apenas quando o usuário clicar em *'Exibir/Ocultar Código'*)
+  - Órgão
   - Valor Empenhado
   - Valor Liquidado
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-  ![image](https://user-images.githubusercontent.com/53793354/200358337-66705311-e9ed-432a-a373-ef1fdf8dbf7d.png)
+![image](https://user-images.githubusercontent.com/53793354/225976413-4d043f68-5d31-4c6e-81e4-40295b8f5a4f.png)
 
 
 ##### 2º NÍVEL
   - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
   - Data de registro do Empenho
-  - Código do Órgão -> Apenas quando o usuário clicar em *'Exibir/Ocultar Código'*)
-  - Órgão
-  - Unidade Executora
   - Valor Empenhado
   - Valor Liquidado
   - Valor Pago
