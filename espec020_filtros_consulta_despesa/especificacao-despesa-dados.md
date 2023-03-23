@@ -1,3 +1,12 @@
+# Especificação de dados
+
+Os dados dessa consulta serão extraídos dos Universos BO SIAFI, BO SIAD - Módulo Compras e SIGCON Saída:
+- Armazém BO / Pastas públicas - SIAFI > SUPORTE- SIAFI > CGE >
+
+## Filtros da Consulta
+
+### Consulta por Órgão
+
 _______
   1º nível - [Órgão]()<br>
   2º nível - Órgão > [Elemento]()<br>
@@ -5,27 +14,41 @@ _______
   4º nível - Órgão > Elemento > Favorecido > [Empenho]()<br>
   5º nível - Órgão > Elemento > Favorecido > Empenho > [Formulário de Detalhamento]()<br>
 ___________
+A consulta será anual, ou seja, o usuário irá visualizar a execução da Dívida Pública conforme o período selecionado.
+
+| Armazém BO- SIAFI |Dimensão SIAFI| Filtro |
+|----|----------|------------|
+| Ano de exercício<br> |Período Contábil| Usar o período desejado |  
+
 
 ##### 1º NÍVEL
-  - Código do Órgão
-  - [Órgão]() -> ao clicar o usuário será direcionado para o 2º nível
-  - Valor Empenhado
-  - Valor Liquidado
-  - Valor Pago
-  - Valor Pago de Restos a Pagar<br>
+
 
 ![image](https://user-images.githubusercontent.com/53793354/200358592-fd3046ee-1c02-4cfc-b320-93a0bc1990bc.png)
 
+#### Campos da Tabela
+
+|Campo PDT| Campo Armazém BO |Dimensão Armazém BO SIAFI| Exibição da Coluna| Observação
+|---------|------------------|------|---|-|
+| [Órgão]()| Unidade Orçamentária - Nome  |SIAFI - Unidade Orçamentária|
+ Código Órgão| Unidade Orçamentária - Código  |SIAFI - Unidade Orçamentária| ao acionar o botão *'Exibir/Ocultar Código'*|
+| Valor Empenhado | Valor Despesa Empenhada  |SIAFI - |
+| Valor Liquidado | Valor Despesa Liquidada  |SIAFI - |
+| Valor Pago | Valor Pago Financeiro  |SIAFI - |
+| Valor Pago em Restos a Pagar | Valor Despesa Empenhada  |SIAFI - || Verificar se existe o campo no BO|
 
 ##### 2º NÍVEL
-  - [Elemento]() -> ao clicar o usuário será direcionado para o 3º nível
-  - Valor Empenhado
-  - Valor Liquidado
-  - Valor Pago
-  - Valor Pago de Restos a Pagar<br>
 
 ![image](https://user-images.githubusercontent.com/53793354/200359119-2bc8ec40-da77-40d5-b455-fbc7092aaf0c.png)
 
+#### Campos da Tabela
+
+|Campo PDT| Campo Armazém BO |Dimensão Armazém BO SIAFI| Exibição da Coluna| Observação
+|---------|------------------|------|---|-|
+| [Elemento]()|   |SIAFI -|
+| ***Os campos referente a valores serão os mesmos do 1º nível***
+
+PAREI AQUI SILVIANA
 
 ##### 3º NÍVEL
   - [Favorecido]() -> ao clicar o usuário será direcionado para o 4º nível

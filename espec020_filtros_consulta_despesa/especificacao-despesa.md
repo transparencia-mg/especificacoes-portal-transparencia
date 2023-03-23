@@ -240,8 +240,7 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-![image](https://user-images.githubusercontent.com/53793354/200358491-87bb0982-39ab-4880-8c12-3b4f2a73d9d6.png)
-
+![](static/tabela_3_favorecido_orgão.png)
 
 ##### 4º NÍVEL
   - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
@@ -444,7 +443,7 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-![](Static/tabela_3_favorecido.png)
+![](static/empenho_favorecido.png)
 
 ##### 3º NÍVEL
 
