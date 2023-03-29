@@ -67,7 +67,7 @@ Cabe destacar que os dados deverão sem implementados apenas nas informações d
 
   Por exemplo, caso o usuário marque a opção adicionar "Fonte de Recurso" automaticamente a outra opção "Fonte de Recurso - Portaria STN 710" será selecionada.
 
-![image](https://user-images.githubusercontent.com/53793354/228532309-5db04122-9d43-4498-a6c8-183bddc10533.png)
+![image](https://user-images.githubusercontent.com/53793354/228558868-f4e7bb64-f9a9-48c1-8d24-4eda219d7156.png)
 
 
 ![image](https://user-images.githubusercontent.com/53793354/228532231-14fa5421-6779-4172-89c7-84d73219e363.png)
@@ -191,3 +191,6 @@ Cabe destacar que os dados deverão sem implementados apenas nas informações d
 ### Nota de Empenho - Formulário de detalhamento do Processo Compra
 
 * Favor se atentar para a alteração da ordem dos campos.
+
+![image](https://user-images.githubusercontent.com/53793354/228559021-5660dab6-98b1-4a0e-aebd-46dae96b6914.png)
+
