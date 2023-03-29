@@ -19,7 +19,7 @@ Inclusão de uma nova coluna denominada 'Fonte de Recurso - Portaria STN nº 710
 
 Foi solicitado pela SEPLAG a inclusão de uma nova coluna no Portal de Transparência que representasse a descrição/código das novas fontes de recursos para atender o disposto na Portaria STN nº 710/2021 do Governo Federal.
 
-Abaixo segue as 11 consultas impactadas pela alteração:
+Abaixo segue as 12 consultas impactadas pela alteração:
 - Receita
 - Despesa
 - Restos a pagar
@@ -31,6 +31,7 @@ Abaixo segue as 11 consultas impactadas pela alteração:
 - Diárias
 - Viagens
 - Programação e Execução do PPAG por Programa
+- Compras e Contratos
 
 
 # Especificação
