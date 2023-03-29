@@ -198,3 +198,18 @@ Cabe destacar que os dados deverão sem implementados apenas nas informações d
 
 ![image](https://user-images.githubusercontent.com/53793354/228559021-5660dab6-98b1-4a0e-aebd-46dae96b6914.png)
 
+# Tool tip
+
+Nas colunas acrescentadas, deverá aparecer o tooltip ao passar o mouse sobre o Ponto de Interrogação, assim como já ocorre nas demais colunas:
+
+![image](https://user-images.githubusercontent.com/52920939/228567608-4bf89b22-44f7-4814-84e9-204df37b5521.png)
+
+### Tooltip 1: Coluna Fonte de Financiamento - Portaria STN nº 710: 
+
+***Indica a classificação das fontes ou destinações de recursos estabelecidas pelo Governo Federal, conforme previsto na Portaria STN nº 710***
+
+### Tooltip 2: Código da Fonte de Financiamento - Portaria STN nº 710: 
+
+***Indica o código das fontes ou destinações de recursos estabelecidas pelo Governo Federal, conforme previsto na Portaria STN nº 710***
+
+
