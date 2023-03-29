@@ -117,7 +117,8 @@ Cabe destacar que os dados deverão sem implementados apenas nas informações d
 ## 5. Proposta Orçamentária
 
 ### Pesquisa básica
-![image](https://user-images.githubusercontent.com/53793354/228534157-cad938e6-8048-4ca6-8b64-608326389f65.png)
+![image](https://user-images.githubusercontent.com/53793354/228566125-dabbf162-318a-4916-bd0a-f45d797b329c.png)
+
 
 ### Pesquisa Avançada
 ![image](https://user-images.githubusercontent.com/53793354/228534110-6fb9e567-29cc-4398-ab12-7f6bff87a28c.png)
@@ -128,14 +129,15 @@ Cabe destacar que os dados deverão sem implementados apenas nas informações d
 
 ### Pesquisa básica
 
-![image](https://user-images.githubusercontent.com/53793354/228534304-6986301f-3222-4b7c-80bd-430021943d50.png)
+![image](https://user-images.githubusercontent.com/53793354/228566244-ee5e39b2-a384-4c32-aeaa-0e46899893e4.png)
 
 
 ## 7. Alteração Orçamentária
 
 ### Pesquisa básica
 
-![image](https://user-images.githubusercontent.com/53793354/228534938-e4c56878-4e85-43d6-8be2-31377d1db196.png)
+![image](https://user-images.githubusercontent.com/53793354/228566350-b1747cde-a9ce-46a4-98cf-bd1eb22d8c7c.png)
+
 
 ### Formulário de Detalhamento
 * Favor se atentar para a alteração da ordem dos campos.
@@ -150,7 +152,8 @@ Cabe destacar que os dados deverão sem implementados apenas nas informações d
 
 ### Pesquisa básica
 
-![image](https://user-images.githubusercontent.com/53793354/228535152-3cc49e7d-9820-4df4-ba74-1e369ff8cc3a.png)
+![image](https://user-images.githubusercontent.com/53793354/228566449-7df6dd5e-b40a-4ed5-9410-5258a9fa176f.png)
+
 
 
 ### Pesquisa Avançada
