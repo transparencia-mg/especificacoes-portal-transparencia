@@ -220,67 +220,47 @@ Exemplo: Consulta de Despesa
 ### CONSULTA POR NÚMERO DO CONVÊNIO - Página Inicial
 <a href="#top">(inicio)</a>
 
-Essa consulta será composta por 5 níveis:
+Essa consulta será composta por 3 níveis:
 _______
-  1º nível - [Órgão]()<br>
-  2º nível - Órgão > [Elemento]()<br>
-  3º nível - Órgão > Elemento > [Favorecido]()<br>
-  4º nível - Órgão > Elemento > Favorecido > [Empenho]()<br>
-  5º nível - Órgão > Elemento > Favorecido > Empenho > [Formulário de Detalhamento]()<br>
+  1º nível - [Número do Convênio SIGCON]()<br>
+  2º nível - Número do Convênio SIGCON > [Número do Empenho]()<br>
+  3º nível - Número do Convênio SIGCON > Número do Empenho > [Formulário de Detalhamento]()<br>
 ___________
 
 ##### 1º NÍVEL
-  - [Número do Convênio]() -> ao clicar o usuário será direcionado para o 2º nível
+  - Número Convênio SIAFI
+  - [Número Convênio SIGCON]() -> ao clicar o usuário será direcionado para o 2º nível
   - Objeto
-  - Valor Pago (valor total)
+  - Concedente
+  - Proponente
+  - Valor Total Convênio<br>
 
-
-![image](https://user-images.githubusercontent.com/53793354/200358592-fd3046ee-1c02-4cfc-b320-93a0bc1990bc.png)
-
+![image](https://user-images.githubusercontent.com/52920939/228627659-000b094a-0339-4e42-a67d-2aec9a3a576b.png)
 
 ##### 2º NÍVEL
-  - [Elemento]() -> ao clicar o usuário será direcionado para o 3º nível
+  - [Número do Empenho]() ->  ao clicar o usuário será direcionado para o formulário de detalhamento
+  - Ano
+  - Data de Registro do Empenho
+  - Órgão
+  - CNPJ/CPF Favorecido
   - Valor Empenhado
   - Valor Liquidado
+  - Valor Liquidado RP
   - Valor Pago
-  - Valor Pago de Restos a Pagar<br>
+  - Valor Pago RP
+  - Valor Total Pago<br>
 
-![image](https://user-images.githubusercontent.com/53793354/200359119-2bc8ec40-da77-40d5-b455-fbc7092aaf0c.png)
-
+![image](https://user-images.githubusercontent.com/52920939/228628356-f1573f73-3412-40d9-aa3e-dd5dbe20492a.png)
 
 ##### 3º NÍVEL
-  - [Favorecido]() -> ao clicar o usuário será direcionado para o 4º nível
-  - CPF / CNPJ
-  - Valor Empenhado
-  - Valor Liquidado
-  - Valor Pago
-  - Valor Pago de Restos a Pagar<br>
-
-![image](https://user-images.githubusercontent.com/53793354/200358491-87bb0982-39ab-4880-8c12-3b4f2a73d9d6.png)
-
-
-##### 4º NÍVEL
-  - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
-  - Data de registro do Empenho
-  - Unidade Executora
-  - Valor Empenhado
-  - Valor Liquidado
-  - Valor Pago
-  - Valor Pago de Restos a Pagar<br>
-
-![image](https://user-images.githubusercontent.com/53793354/222240159-6b60cd86-8482-47e4-9055-0547efd02acb.png)
-
-
-##### 5º NÍVEL
 
  - Formulário de Detalhamento
 
 Ao clicar no número do empenho o usuário será direcionado para o formulário de detalhamento, que será composto pelos seguintes atributos:
   * As tabelas que compõe o formulário de detalhamento serão exibidas em formato de guias
   * O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'.
-````
-Olhar com Flavinha <O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'. A exportação em planilha (CSV) deverá ser em formato de tabela. Cada campo em uma coluna.>
-``````
+  * O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'. 
+  * A exportação em planilha (CSV) deverá ser em formato de tabela. Cada campo em uma coluna.>
 
 ##### Campos do formulário de detalhamento
 
@@ -291,7 +271,6 @@ Olhar com Flavinha <O usuário poderá fazer o Download das informações do for
 * Empenho
 
 ![](static/formulario_empenho.png)
-
 
 * Liquidação
 
@@ -305,138 +284,125 @@ Olhar com Flavinha <O usuário poderá fazer o Download das informações do for
 
   ![image](https://user-images.githubusercontent.com/52920939/220975555-95c2866f-2523-4f99-a3de-1a907992d56d.png)
 
-### CONSULTA POR FUNÇÃO
+
+
+### CONSULTA POR CONCEDENTE
 <a href="#top">(inicio)</a>
 
-Essa consulta será composta por 5 níveis:
+Essa consulta será composta por 4 níveis:
 _______
-  1º nível - [Função]()<br>
-  2º nível - Função > [Subfunção]()<br>
-  3º nível - Função > Subfunção > [Favorecido]()<br>
-  4º nível - Função > Subfunção > Favorecido > [Empenho]()<br>
-  5º nível - Função > Subfunção > Favorecido > Empenho > [Formulário de Detalhamento]()<br>
+  1º nível - [CNPJ]()<br>
+  2º nível - CNPJ > [Número do Convênio SIGCON]()<br>
+  2º nível - Número do Convênio SIGCON > [Número do Empenho]()<br>
+  3º nível - Número do Convênio SIGCON > Número do Empenho > [Formulário de Detalhamento]()<br>
 ___________
 
 ##### 1º NÍVEL
-  - Código da Função
-  - [Função]() -> ao clicar o usuário será direcionado para o 2º nível
-  - Valor Empenhado
-  - Valor Liquidado
-  - Valor Pago
-  - Valor Pago de Restos a Pagar<br>
 
-![image](https://user-images.githubusercontent.com/53793354/200358699-3acd5a01-9948-437c-96b6-fa2f06726f5a.png)
+  - [CNPJ]() -> ao clicar o usuário será direcionado para o 2º nível
+  - Órgão Proponente
+  - Valor Concedente
+  - Valor Proponente
+  - Valor Total Convênio
+
+![image](https://user-images.githubusercontent.com/52920939/228630302-8bc5a97d-888a-420f-b672-99c74ae64527.png)
 
 
 ##### 2º NÍVEL
-  - Código do Subfunção
-  - [Subfunção]() -> ao clicar o usuário será direcionado para o 3º nível
-  - Valor Empenhado
-  - Valor Liquidado
-  - Valor Pago
-  - Valor Pago de Restos a Pagar<br>
 
-![image](https://user-images.githubusercontent.com/53793354/200358762-207b6b03-df53-471b-be0a-dd07e358c58f.png)
+  - Número Convênio SIAFI
+  - [Número Convênio SIGCON]() -> ao clicar o usuário será direcionado para o 2º nível
+  - Objeto
+  - Concedente
+  - Proponente
+  - Valor Total Convênio<br>
 
+![image](https://user-images.githubusercontent.com/52920939/228627659-000b094a-0339-4e42-a67d-2aec9a3a576b.png)
 
 ##### 3º NÍVEL
-  - [Favorecido]() -> ao clicar o usuário será direcionado para o 4º nível
-  - CPF / CNPJ
-  - Código do Órgão -> Apenas quando o usuário clicar em *'Exibir/Ocultar Código'*)
+  - [Número do Empenho]() ->  ao clicar o usuário será direcionado para o formulário de detalhamento
+  - Ano
+  - Data de Registro do Empenho
   - Órgão
+  - CNPJ/CPF Favorecido
   - Valor Empenhado
   - Valor Liquidado
+  - Valor Liquidado RP
   - Valor Pago
-  - Valor Pago de Restos a Pagar<br>
+  - Valor Pago RP
+  - Valor Total Pago<br>
 
-![](Static/tabela_3_favorecido_funcao.png)
+![image](https://user-images.githubusercontent.com/52920939/228628356-f1573f73-3412-40d9-aa3e-dd5dbe20492a.png)
 
 ##### 4º NÍVEL
-  - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
-  - Data de registro do Empenho
-  - Unidade Executora
+
+ - Formulário de Detalhamento
+
+
+
+
+### CONSULTA POR CONVENENTE
+<a href="#top">(inicio)</a>
+
+Essa consulta será composta por 4 níveis:
+_______
+  1º nível - [CNPJ]()<br>
+  2º nível - CNPJ > [Número do Convênio SIGCON]()<br>
+  2º nível - Número do Convênio SIGCON > [Número do Empenho]()<br>
+  3º nível - Número do Convênio SIGCON > Número do Empenho > [Formulário de Detalhamento]()<br>
+___________
+
+##### 1º NÍVEL
+
+  - [CNPJ]() -> ao clicar o usuário será direcionado para o 2º nível
+  - Órgão Proponente
+  - Valor Concedente
+  - Valor Proponente
+  - Valor Total Convênio
+
+![image](https://user-images.githubusercontent.com/52920939/228630302-8bc5a97d-888a-420f-b672-99c74ae64527.png)
+
+
+##### 2º NÍVEL
+
+  - Número Convênio SIAFI
+  - [Número Convênio SIGCON]() -> ao clicar o usuário será direcionado para o 2º nível
+  - Objeto
+  - Concedente
+  - Proponente
+  - Valor Total Convênio<br>
+
+![image](https://user-images.githubusercontent.com/52920939/228627659-000b094a-0339-4e42-a67d-2aec9a3a576b.png)
+
+##### 3º NÍVEL
+  - [Número do Empenho]() ->  ao clicar o usuário será direcionado para o formulário de detalhamento
+  - Ano
+  - Data de Registro do Empenho
+  - Órgão
+  - CNPJ/CPF Favorecido
   - Valor Empenhado
   - Valor Liquidado
+  - Valor Liquidado RP
   - Valor Pago
-  - Valor Pago de Restos a Pagar<br>
+  - Valor Pago RP
+  - Valor Total Pago<br>
 
-![image](https://user-images.githubusercontent.com/53793354/222240202-d983cb56-1191-4666-aa48-0df4864f3d4b.png)
+![image](https://user-images.githubusercontent.com/52920939/228628356-f1573f73-3412-40d9-aa3e-dd5dbe20492a.png)
 
+##### 4º NÍVEL
 
-##### 5º NÍVEL
+ - Formulário de Detalhamento
 
-- Formulário de Detalhamento
 
 ### CONSULTA POR PROGRAMA
 <a href="#top">(inicio)</a>
 
-Essa consulta será composta por 5 níveis:
+Essa consulta será composta por 4 níveis:
 _______
   1º nível - [Programa]()<br>
-  2º nível - Programa > [Ação]()<br>
-  3º nível - Programa > Ação > [Favorecido]()<br>
-  4º nível - Programa > Ação > Favorecido > [Empenho]() ><br>
-  5º nível - Programa > Ação > Favorecido > Empenho > Formulário de Detalhamento<br>
-___________
-
-##### 1º NÍVEL
-  - Código da Programa
-  - [Programa]() -> ao clicar o usuário será direcionado para o 2º nível
-  - Valor Empenhado
-  - Valor Liquidado
-  - Valor Pago
-  - Valor Pago de Restos a Pagar<br>
-
-![image](https://user-images.githubusercontent.com/53793354/200358865-cd1aee56-75a1-42c9-aa95-fafcda4db320.png)
-
-
-##### 2º NÍVEL
-  - Código do Ação
-  - [Ação]() -> ao clicar o usuário será direcionado para o 3º nível
-  - Valor Empenhado
-  - Valor Liquidado
-  - Valor Pago
-  - Valor Pago de Restos a Pagar<br>
-
-![image](https://user-images.githubusercontent.com/53793354/200358964-74159e14-a951-4c49-b6a0-4bd377975681.png)
-
-
-##### 3º NÍVEL
-  - [Favorecido]() -> ao clicar o usuário será direcionado para o 4º nível
-  - CPF / CNPJ
-  - Código do Órgão -> Apenas quando o usuário clicar em *'Exibir/Ocultar Código'*)
-  - Órgão
-  - Valor Empenhado
-  - Valor Liquidado
-  - Valor Pago
-  - Valor Pago de Restos a Pagar<br>
-
-![](Static/tabela_3_favorecido_funcao.png)
-
-##### 4º NÍVEL
-  - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
-  - Data de registro do Empenho
-  - Unidade Executora
-  - Valor Empenhado
-  - Valor Liquidado
-  - Valor Pago
-  - Valor Pago de Restos a Pagar<br>
-
-![image](https://user-images.githubusercontent.com/53793354/222240258-bf01a336-22dc-4c57-be52-0f313f0e896d.png)
-
-##### 5º NÍVEL
-
-- Formulário de Detalhamento
-
-
-### CONSULTA POR FAVORECIDO (NOME E CPF/CNPJ)
-<a href="#top">(inicio)</a>
-
-Essa consulta será composta por 5 níveis:
-_______
-  1º nível - [Favorecido]()<br>
-  2º nível - Favorecido > [Empenho]()<br>
-  3º nível - Favorecido > Empenho > Formulário de Detalhamento<br>
+  2º nível - Programa > [Número Convênio SIGCON]()<br>
+  3º nível - Programa > Número Convênio SIGCON > [Número Empenho]()<br>
+  4º nível - Programa > Número Convênio SIGCON > Número Empenho > [Formulário de Detalhamento]()<br>
 ___________
 
 ##### 1º NÍVEL
