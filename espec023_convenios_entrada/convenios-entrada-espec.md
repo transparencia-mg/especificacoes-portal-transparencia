@@ -228,6 +228,7 @@ _______
 ___________
 
 ##### 1º NÍVEL
+
   - Número Convênio SIAFI
   - [Número Convênio SIGCON]() -> ao clicar o usuário será direcionado para o 2º nível
   - Objeto
@@ -266,11 +267,11 @@ Ao clicar no número do empenho o usuário será direcionado para o formulário 
 
 * Classificação Orçamentária
 
-[[![](static/formulario_classificação.png)](https://user-images.githubusercontent.com/53793354/224129066-b9bbedc8-340c-4085-a14f-7c7f444d9b0c.png)](https://user-images.githubusercontent.com/53793354/224129066-b9bbedc8-340c-4085-a14f-7c7f444d9b0c.png)
+COLOCAR IMAGEM
 
 * Empenho
 
-https://raw.githubusercontent.com/transparencia-mg/especificacoes-portal-transparencia/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/static/formulario_empenho.png
+COLOCAR IMAGEM
 
 * Liquidação
 
@@ -291,10 +292,10 @@ https://raw.githubusercontent.com/transparencia-mg/especificacoes-portal-transpa
 
 Essa consulta será composta por 4 níveis:
 _______
-  1º nível - [CNPJ]()<br>
-  2º nível - CNPJ > [Número do Convênio SIGCON]()<br>
-  2º nível - Número do Convênio SIGCON > [Número do Empenho]()<br>
-  3º nível - Número do Convênio SIGCON > Número do Empenho > [Formulário de Detalhamento]()<br>
+  1º nível - [Concedente]()<br>
+  2º nível - Concedente > [Número do Convênio SIGCON]()<br>
+  3º nível - Concedente > Número do Convênio SIGCON > [Número do Empenho]()<br>
+  4º nível - Concedente > Número do Convênio SIGCON > Número do Empenho > [Formulário de Detalhamento]()<br>
 ___________
 
 ##### 1º NÍVEL
@@ -346,9 +347,9 @@ ___________
 Essa consulta será composta por 4 níveis:
 _______
   1º nível - [Órgão Proponente]()<br> 
-  2º nível - CNPJ > [Número do Convênio SIGCON]()<br>
-  2º nível - Número do Convênio SIGCON > [Número do Empenho]()<br>
-  3º nível - Número do Convênio SIGCON > Número do Empenho > [Formulário de Detalhamento]()<br>
+  2º nível - Órgão Proponente > [Número do Convênio SIGCON]()<br>
+  2º nível - Órgão Proponente > Número do Convênio SIGCON > [Número do Empenho]()<br>
+  3º nível - Órgão Proponente > Número do Convênio SIGCON > Número do Empenho > [Formulário de Detalhamento]()<br>
 ___________
 
 ##### 1º NÍVEL
@@ -374,6 +375,7 @@ ___________
 ![image](https://user-images.githubusercontent.com/52920939/228627659-000b094a-0339-4e42-a67d-2aec9a3a576b.png)
 
 ##### 3º NÍVEL
+
   - [Número do Empenho]() ->  ao clicar o usuário será direcionado para o formulário de detalhamento
   - Ano
   - Data de Registro do Empenho
