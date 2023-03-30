@@ -241,7 +241,7 @@ ___________
   - [Número do Empenho]() ->  ao clicar o usuário será direcionado para o formulário de detalhamento
   - Ano
   - Data de Registro do Empenho
-  - Órgão
+  - Nome do Favorecido (trocar na tabela)
   - CNPJ/CPF Favorecido
   - Valor Empenhado
   - Valor Liquidado
@@ -266,11 +266,11 @@ Ao clicar no número do empenho o usuário será direcionado para o formulário 
 
 * Classificação Orçamentária
 
-![](static/formulario_classificação.png)
+[[![](static/formulario_classificação.png)](https://user-images.githubusercontent.com/53793354/224129066-b9bbedc8-340c-4085-a14f-7c7f444d9b0c.png)](https://user-images.githubusercontent.com/53793354/224129066-b9bbedc8-340c-4085-a14f-7c7f444d9b0c.png)
 
 * Empenho
 
-![](static/formulario_empenho.png)
+https://raw.githubusercontent.com/transparencia-mg/especificacoes-portal-transparencia/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/static/formulario_empenho.png
 
 * Liquidação
 
@@ -299,8 +299,7 @@ ___________
 
 ##### 1º NÍVEL
 
-  - [CNPJ]() -> ao clicar o usuário será direcionado para o 2º nível
-  - Órgão Proponente
+  - [Concedente] -> ao clicar o usuário será direcionado para o 2º nível (trocar na tabela)
   - Valor Concedente
   - Valor Proponente
   - Valor Total Convênio
@@ -341,12 +340,12 @@ ___________
 
 
 
-### CONSULTA POR CONVENENTE
+### CONSULTA POR ÓRGÃO PROPONENTE
 <a href="#top">(inicio)</a>
 
 Essa consulta será composta por 4 níveis:
 _______
-  1º nível - [CNPJ]()<br>
+  1º nível - [Órgão Proponente]()<br> 
   2º nível - CNPJ > [Número do Convênio SIGCON]()<br>
   2º nível - Número do Convênio SIGCON > [Número do Empenho]()<br>
   3º nível - Número do Convênio SIGCON > Número do Empenho > [Formulário de Detalhamento]()<br>
@@ -354,8 +353,8 @@ ___________
 
 ##### 1º NÍVEL
 
-  - [CNPJ]() -> ao clicar o usuário será direcionado para o 2º nível
-  - Órgão Proponente
+  - [Órgão Proponente]() -> ao clicar o usuário será direcionado para o 2º nível (trocar na tabela)
+  - CNPJ (trocar na tabela)
   - Valor Concedente
   - Valor Proponente
   - Valor Total Convênio
@@ -406,32 +405,41 @@ _______
 ___________
 
 ##### 1º NÍVEL
-  - [Favorecido]() -> ao clicar o usuário será direcionado para o 4º nível
-  - CPF / CNPJ
-  - Valor Empenhado
-  - Valor Liquidado
-  - Valor Pago
-  - Valor Pago de Restos a Pagar<br>
+  - Código
+  - [Programa]() -> ao clicar o usuário será direcionado para o 2º nível
 
   ![image](https://user-images.githubusercontent.com/53793354/200358337-66705311-e9ed-432a-a373-ef1fdf8dbf7d.png)
 
 
 ##### 2º NÍVEL
-  - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
-  - Data de registro do Empenho
-  - Código do Órgão -> Apenas quando o usuário clicar em *'Exibir/Ocultar Código'*)
-  - Órgão
-  - Unidade Executora
-  - Valor Empenhado
-  - Valor Liquidado
-  - Valor Pago
-  - Valor Pago de Restos a Pagar<br>
 
-![](Static/tabela_3_favorecido.png)
+  - Número Convênio SIAFI
+  - [Número Convênio SIGCON]() -> ao clicar o usuário será direcionado para o 2º nível
+  - Objeto
+  - Concedente
+  - Proponente
+  - Valor Total Convênio<br>
+
+![image](https://user-images.githubusercontent.com/52920939/228627659-000b094a-0339-4e42-a67d-2aec9a3a576b.png)
 
 ##### 3º NÍVEL
+  - [Número do Empenho]() ->  ao clicar o usuário será direcionado para o formulário de detalhamento
+  - Ano
+  - Data de Registro do Empenho
+  - Órgão
+  - CNPJ/CPF Favorecido
+  - Valor Empenhado
+  - Valor Liquidado
+  - Valor Liquidado RP
+  - Valor Pago
+  - Valor Pago RP
+  - Valor Total Pago<br>
 
-- Formulário de Detalhamento
+![image](https://user-images.githubusercontent.com/52920939/228628356-f1573f73-3412-40d9-aa3e-dd5dbe20492a.png)
+
+##### 4º NÍVEL
+
+ - Formulário de Detalhamento
 
 ## Pesquisa Avançada - Monte sua consulta
 <a href="#top">(inicio)</a>
