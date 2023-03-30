@@ -12,14 +12,14 @@ output:
 # Visão geral da demanda
 <a href="#top">(inicio)</a>
 
-Inclusão de uma nova coluna denominada 'Fonte de Recurso - Portaria STN nº 710' em todas as consultas do Portal de Transparência que possuem a informação Fonte de Recurso. A alteração será implementada nas consultas básicas, formulários de detalhamentos e pesquisas avançadas.
+Inclusão de uma nova coluna denominada 'Fonte de Recurso - Portaria STN nº 710' em todas as consultas do Portal de Transparência - PDT que possuem a informação Fonte de Recurso. A alteração será implementada nas consultas básicas, formulários de detalhamento e pesquisas avançadas.
 
 # Motivação / contexto da demanda
 <a href="#top">(inicio)</a>
 
-Foi solicitado pela SEPLAG a inclusão de uma nova coluna no Portal de Transparência que representasse a descrição/código das novas fontes de recursos para atender o disposto na Portaria STN nº 710/2021 do Governo Federal.
+Foi solicitado, pela SEPLAG, a inclusão de uma nova coluna no Portal da Transparência que apresentasse a descrição/código das novas fontes de recursos para atender o disposto na Portaria STN nº 710/2021 do Governo Federal.
 
-Abaixo segue as 12 consultas impactadas pela alteração:
+Abaixo seguem as 12 consultas impactadas pela alteração:
 - Receita
 - Despesa
 - Restos a pagar
@@ -37,7 +37,7 @@ Abaixo segue as 12 consultas impactadas pela alteração:
 # Especificação
 <a href="#top">(inicio)</a>
 
-Cabe destacar que os dados deverão sem implementados apenas nas informações disponibilizadas a partir de 2023. As alterações deverão ser aplicadas nas consultas básicas, formulários de detalhamentos e pesquisas avançadas.
+Cabe destacar que os dados deverão sem implementados apenas nas informações disponibilizadas a partir de 2023. As alterações deverão ser aplicadas nas consultas básicas, formulários de detalhamento e pesquisas avançadas.
 
 ## 1. Acordo Judicial de Reparação da Vale
 <a href="#top">(inicio)</a>
