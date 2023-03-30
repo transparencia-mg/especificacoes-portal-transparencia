@@ -425,6 +425,18 @@ ___________
 ##### 1º NÍVEL
   - [Favorecido]() -> ao clicar o usuário será direcionado para o 4º nível
   - CPF / CNPJ
+  - Valor Empenhado
+  - Valor Liquidado
+  - Valor Pago
+  - Valor Pago de Restos a Pagar<br>
+
+![image](https://user-images.githubusercontent.com/53793354/228915058-9da50a39-f7e5-41a2-8471-72ea369b32ca.png)
+
+
+
+##### 2º NÍVEL
+ - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
+  - Data de registro do Empenho
   - Código do Órgão -> Apenas quando o usuário clicar em *'Exibir/Ocultar Código'*)
   - Órgão
   - Valor Empenhado
@@ -432,18 +444,7 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-![image](https://user-images.githubusercontent.com/53793354/225976413-4d043f68-5d31-4c6e-81e4-40295b8f5a4f.png)
-
-
-##### 2º NÍVEL
-  - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
-  - Data de registro do Empenho
-  - Valor Empenhado
-  - Valor Liquidado
-  - Valor Pago
-  - Valor Pago de Restos a Pagar<br>
-
-![](static/empenho_favorecido.png)
+![image](https://user-images.githubusercontent.com/53793354/228915644-9b4db1ef-4db0-4d27-9540-254f95e12e22.png)
 
 ##### 3º NÍVEL
 
