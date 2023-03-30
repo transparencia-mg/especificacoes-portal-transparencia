@@ -64,19 +64,19 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 |------------|---|
 |Ação | Conjunto de operações das quais resulta a entrega de um produto que contribui para alcançar o objetivo de um programa                                                    
 | Categoria Econômica | Classificação da despesa quanto ao impacto econômico que ela gera, podendo ser corrente (funcionamento dos órgãos, pagamentos dos servidores, etc) ou de capital (obras, equipamentos, etc).|
-| CNPJ/CPF Favorito| Número de identificação: Pessoa Física (CPF) e Pessoa Jurídica (CNPJ)|
+| CNPJ/CPF | Número de identificação: Pessoa Física (CPF) e Pessoa Jurídica (CNPJ)|
 | Código da função | Número identificador da função de acordo com a classificação funcional da despesa |
 | Código do programa | Número identificador do programa na classificação programática|
 | Código da subfunção | Número identificador da subfunção de acordo com a classificação funcional da despesa |
-| Código da Ação| Número identificador da ação (projeto atividade)na classificação programática|
+| Código da Ação| Número identificador da ação (projeto atividade na classificação programática|
 | Código Órgão | Código da Unidade Orçamentária que executa uma despesa.|
 | Código Unidade Executora | Código da Unidade Executora responsável pela execução da despesa |
-| Data de Criação do processo| Data de criação do processo de compra no SIAD-MG (Sistema Integrado de Administração de Materiais e Serviços) |
+| Data de Criação do processo| Data de criação do processo de compra no SIAD-MG |
 | Data de Registro do Pagamento | Data de registro do documento de pagamento no SIAFI-MG, sendo a data do efetivo pagamento é dependente da transmissão bancária.
-| Data Publicação Contrato| Data de publicação do contrato no IOF-MG (Imprensa Oficial do Estado de Minas Gerais)|
-| Data Publicação Convênio/Parceria| Data de publicação do convênio no SIGCON- Saída (Sistema de Gestão de Convênios e Parcerias)|
+| Data Publicação Contrato| Data de publicação do contrato no IOF-MG |
+| Data Publicação Convênio/Parceria| Data de publicação do convênio ou parceria|
 | Data de Registro do Empenho | Data de registro do documento de empenho no SIAFI-MG |
-| Data Vigência Atualizada do Contrato | Dados de vigência atualiza do contrato considerando os termos aditivos de prazo |
+| Data Vigência Atualizada do Contrato | Data de vigência atualiza do contrato considerando os termos aditivos de prazo |
 | Elemento de Despesa | Identifica os objetos de gasto, tais como vencimentos, externas, material de consumo, subvenções sociais, obras e instalações e outros que a administração|
 | Empenho                              | Número de identificação do documento de empenho no SIAFI-MG |
 | Favorecido | Nome de quem recebeu o recurso público estadual pela prestação de serviço ou entrega do produto. Ex: prefeituras, servidores, empresas, entidades do terceiro setor, etc.|
@@ -89,24 +89,24 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 | Modalidade de Aplicação | Indica se os recursos são aplicados diretamente por órgãos ou entidades no âmbito da mesma esfera de Governo ou por outro ente da Federação.|
 | Número Contrato/Convênio/Parceria    | Número do contrato, convênio ou parceria registrado no SIAFI-MG |
 | Número do Processo de Compra | Número do Processo de compra no SIAD-MG
-| Número de identificação do documento de pagamento no SIAFI-MG | Identifica o número do documento de pagamento |
+| Número documento de pagamento | Identifica o número do documento de pagamento no SIAFI-MG|
 | Objeto Contrato | Descrição dos bens ou serviços que serão fornecidos pelo contratado|
 | Objeto Processo| Descrição do Objeto do processo de compra |
-| Órgão | Descrição da Unidade Orçamentária responsável pela execução da despesa |
-| Procedimento de Contratação | Indica a modalidade de licitação, como dispensa de licitação, pregão, tomada de preços e etc) |
+| Órgão | Descrição da Unidade Orçamentária responsável pela execução da despesa|
+|Procedimento de Contratação | Indica a modalidade de licitação, como concorrência, dispensa de licitação, pregão, tomada de preços e etc |
 | Programa | Instrumento de organização de ação governamental que integra o planejamento visando a concretização dos objetos pretendidos.|
 | Situação do Contrato | Situação do Contrato no SIAD-MG |
 | Situação do Convênio/Parceria| Número de identificação do Contrato ou do Convênio/Parceria de origem de recursos no SIAFI-MG |
-| Situação Ordem de Pagamento | Situação da Ordem de Pagamento conforme consta no SIAFI-MG) |
+| Situação Ordem de Pagamento | Situação da Ordem de Pagamento conforme consta no SIAFI-MG |
 | Situação Processo| Situação do Processo de Compra no SIAD-MG |
 | Subfunção| Identifica a natureza básica das ações que se aglutinam em torno das funções |
 | Tipo Empenho | Descrição do tipo de esforço: global, estimado, ordinário, extraorçamentário.|
 | Título do Convênio/Parceria | Descrição do Convênio/Parceria de saída de recursos.|
 | Unidade Executora | Descrição da Unidade Executora responsável pela execução da despesa|
-| Valor Empenado | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |
+| Valor Empenhado | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |
 | Valor Liquidado | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue |
-| Valor Pago | Valor referente aos pagamentos, no exercício, por meio de movimentações bancárias, escriturais e apropriação contabilizada da despesa. O pagamento efetivo pode estar pendente de transmissão bancária. |
-| Valor Pago em Restos a Pagar | Valor pago no período seleciona, mas referente ao esforço realizado em exercícios anteriores. O pagamento efetivo pode estar pendente de transmissão bancária. |
+| Valor Pago |Valor referente aos pagamentos efetuados, no exercício, através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão ou compensação bancária |
+| Valor Pago em Restos a Pagar | Valor pago no período selecionado, mas referente a empenho realizado em exercícios anteriores. O efetivo pagamento pode estar pendente de transmissão ou compensação bancária.|
 
 
 ## Filtros da Barra Vertical
