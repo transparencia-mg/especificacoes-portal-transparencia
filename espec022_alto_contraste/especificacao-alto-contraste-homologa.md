@@ -33,15 +33,9 @@ Diante disso, para possibilitar a igualdade de oportunidades para que diferentes
 
 Incluir uma linha na parte superior do cabeçalho, na qual estarão contidos os botões referentes às fontes (aumentar,diminuir e manter o tamanho padrão) e alto contraste (conforme exemplificado no arquivo anexo - Nova Página).
 
-### Localizações dos Botões - OK REALIZADO, COM RESSALVA - VER INTERVENÇÃO 1
+### Localizações dos Botões - OK REALIZADO
 
 #### INTERVENÇÃO 1:
-
-Aumentar o tamanho dos botões de acessibilidade e destacar os botões com uma faixa, conforme print abaixo:
-
-
-![image](https://user-images.githubusercontent.com/52920939/229855025-377dcbe8-b577-404d-9692-5278cb0f444b.png)
-
 
 ![image](https://user-images.githubusercontent.com/52920939/229833386-efbfae3b-cc92-4664-8c2e-1861da8ad451.png)
 
