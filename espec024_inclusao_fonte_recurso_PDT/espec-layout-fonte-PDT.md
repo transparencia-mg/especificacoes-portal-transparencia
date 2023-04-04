@@ -37,7 +37,8 @@ Abaixo seguem as 12 consultas impactadas pela alteração:
 # Especificação
 <a href="#top">(inicio)</a>
 
-Cabe destacar que os dados deverão sem implementados apenas nas informações disponibilizadas a partir de 2023. As alterações deverão ser aplicadas nas consultas básicas, formulários de detalhamento e pesquisas avançadas.
+Cabe destacar que os dados deverão sem implementados apenas nas informações disponibilizadas a partir de 2023. As alterações deverão ser aplicadas nas consultas básicas, formulários de detalhamento e pesquisas avançadas. Ou seja, a nova coluna será exibida no PDT a depender do ano selecionado pelo usuário.
+
 
 ## 1. Acordo Judicial de Reparação da Vale
 <a href="#top">(inicio)</a>
