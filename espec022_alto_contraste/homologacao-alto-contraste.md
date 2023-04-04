@@ -39,7 +39,10 @@ Incluir uma linha na parte superior do cabeçalho, na qual estarão contidos os 
 
 #### Intervenção 1: 
 
-Como sugestão, recomenda-se aumentar o tamanho dos botões de acessibilidade
+Aumentar o tamanho dos botões de acessibilidade e destacar os botões com uma faixa, conforme print abaixo:
+
+![image](https://user-images.githubusercontent.com/52920939/229855025-377dcbe8-b577-404d-9692-5278cb0f444b.png)
+
 
 
 
