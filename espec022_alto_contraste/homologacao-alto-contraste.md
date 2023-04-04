@@ -33,7 +33,7 @@ Diante disso, para possibilitar a igualdade de oportunidades para que diferentes
 
 Incluir uma linha na parte superior do cabeçalho, na qual estarão contidos os botões referentes às fontes (aumentar,diminuir e manter o tamanho padrão) e alto contraste (conforme exemplificado no arquivo anexo - Nova Página).
 
-### Localizações dos Botões - OK REALIZADO
+### Localizações dos Botões - OK REALIZADO, COM RESSALVA - VER INTERVENÇÃO 1
 
 ![image](https://user-images.githubusercontent.com/52920939/229833386-efbfae3b-cc92-4664-8c2e-1861da8ad451.png)
 
@@ -43,9 +43,11 @@ Como sugestão, recomenda-se aumentar o tamanho dos botões de acessibilidade
 
 
 
-### Botão 1: Alto Contraste - COM RESSALVA
+### Botão 1: Alto Contraste - COM RESSALVA - VER INTERVENÇÃO 2
 
 Botão caracterizado geralmente por imagem (meia-lua, dentre outros) que identifique a alternância em "Alto Contraste" e que ao ser acionado aplica os recursos de aumento de contraste.
+
+- Observação: A funcionalidade de "Alto Constraste" ao ser acionada, por estar presente no cabeçalho fixado, permanecerá ativa em qualquer navegação no Portal da Transparência, até que o usuário clique no botão de "Alto Contraste" novamente e desative-a.
 
 - Ao passar o mouse sobre o local, deve aparecer o tool tip com a informação "Aplicar Contraste"
 
@@ -56,7 +58,6 @@ Botão caracterizado geralmente por imagem (meia-lua, dentre outros) que identif
 
 ![image](https://user-images.githubusercontent.com/52920939/229833933-08a7a794-6db3-427d-839f-d8035ef40298.png)
 
-- Observação: A funcionalidade de "Alto Constraste" ao ser acionada, por estar presente no cabeçalho fixado, permanecerá ativa em qualquer navegação no Portal da Transparência, até que o usuário clique no botão de "Alto Contraste" novamente e desative-a.
 
 #### Intervenção 2:
 
