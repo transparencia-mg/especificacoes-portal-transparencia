@@ -41,8 +41,6 @@ As novas informações deverão ser exibidas logo abaixo do formulário "Altera�
 
 ![image](https://user-images.githubusercontent.com/53793354/230952965-b0c27d6a-294a-461e-bc22-ed362060698f.png)
 
-*** DÚVIDA: O VALOR DA COLUNA TOTAL PAGO VAI APARECER EM QUAL MOMENTO? A PARTIR DO EMPENHO. SE FOR, PODIA DEIXAR O NOME DA COLUNA SÓ: VALOR
-
 
 ##### Consulta BO - Filtro:
 
