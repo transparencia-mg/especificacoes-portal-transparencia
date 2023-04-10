@@ -28,13 +28,18 @@ Essa demanda visa incluir no formulário de detalhamento da Consulta Convênio/P
 
 Deverá ser acrescido no formulário de detalhamento da Consulta as informações da "Execução da Despesa do Convênio/Parceria". As novas informações deverão ser exibidas logo abaixo do formulário "Alterações do Convênio", conforme exemplo:
 
+![image](https://user-images.githubusercontent.com/53793354/230954817-7d16c263-c55d-46fc-ba24-762f7a4efb42.png)
 
 
 #### Formulário: Execução da Despesa do Convênio/Parceria
 
-
 1. As informações deverão ser exibidas desde do ano de 2017.
 2. O 'Valor Total Pago' será representado pelo o valor pago no exercício + os valores pagos em Restos a Pagar.
+
+
+![image](https://user-images.githubusercontent.com/53793354/230952965-b0c27d6a-294a-461e-bc22-ed362060698f.png)
+
+
 
 ##### Consulta BO - Filtro:
 
@@ -55,8 +60,3 @@ Deverá ser acrescido no formulário de detalhamento da Consulta as informaçõe
 |Total || |Esse campo será representado pela soma dos valores pagos no exercício mais a soma dos valores pagos em Restos a pagar (Processados e Não Processados) 
 
 
-
-
-
-
-https://www.transparencia.mg.gov.br/convenios/convenios-de-saida/convenios-orgao-detalhesconv/14/2020/01-01-2020/31-12-2020/563/4926/57601
