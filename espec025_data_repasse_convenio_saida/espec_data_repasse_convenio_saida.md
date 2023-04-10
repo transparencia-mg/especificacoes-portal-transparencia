@@ -14,7 +14,7 @@ output:
 # Visão geral da Demanda
 <a href="#top">(inicio)</a>
 
-Essa demanda visa incluir no formulário de detalhamento da Consulta Convênio/Parceria de Recursos de Saída um formulário denominado "Nota de Empenho/Pagamento" que apresente todos os empenhos, liquidação e pagamento, com as respectivas datas, referente ao convênio.
+Essa demanda visa incluir no formulário de detalhamento da Consulta Convênio/Parceria de Recursos de Saída outras informações denominadas **Execução da Despesa do Convênio/Parceira** que apresente todos os empenhos, liquidação e pagamento, com as respectivas datas, referente ao convênio.
 
 # Motivação / contexto da demanda
 <a href="#top">(inicio)</a>
@@ -26,19 +26,22 @@ Essa demanda visa incluir no formulário de detalhamento da Consulta Convênio/P
 ## Formulário de Detalhamento
 <a href="#top">(inicio)</a>
 
-Deverá ser acrescido no formulário de detalhamento da Consulta as informações da "Execução da Despesa do Convênio/Parceria". As novas informações deverão ser exibidas logo abaixo do formulário "Alterações do Convênio", conforme exemplo:
+Deverá ser acrescido no formulário de detalhamento da Consulta as seguintes informações: **Execução da Despesa do Convênio/Parceria**. 
+
+As novas informações deverão ser exibidas logo abaixo do formulário "Alterações do Convênio", conforme exemplo:
 
 ![image](https://user-images.githubusercontent.com/53793354/230954817-7d16c263-c55d-46fc-ba24-762f7a4efb42.png)
 
 
 #### Formulário: Execução da Despesa do Convênio/Parceria
 
-1. As informações deverão ser exibidas desde do ano de 2017.
-2. O 'Valor Total Pago' será representado pelo o valor pago no exercício + os valores pagos em Restos a Pagar.
+1. As informações deverão ser exibidas a partir do ano de 2017.
+2. O 'Valor Total Pago' será representado por: Valor Pago no Exercício + Valores Pagos em Restos a Pagar.
 
 
 ![image](https://user-images.githubusercontent.com/53793354/230952965-b0c27d6a-294a-461e-bc22-ed362060698f.png)
 
+*** DÚVIDA: O VALOR DA COLUNA TOTAL PAGO VAI APARECER EM QUAL MOMENTO? A PARTIR DO EMPENHO. SE FOR, PODIA DEIXAR O NOME DA COLUNA SÓ: VALOR
 
 
 ##### Consulta BO - Filtro:
