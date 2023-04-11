@@ -47,7 +47,7 @@ As novas informações deverão ser exibidas logo abaixo do formulário "Altera�
 
 | Armazém BO- SIAFI |Dimensão SIAFI| Filtro |
 |-------------------|--------------|--------|
-| ContratoConvênio Saída <br> | **- Exercício**<br> Execução Orçamentária da Despesa >> Despesa Realizada >> Dado do Empenho - Despesa<br><br>**- Restos a Pagar**<br>Execução de Restos a Pagar >> Restos a Pagar >> Dados de Restos a Pagar| Usar o número SIAFI para buscar os dados da execução da despesa |  
+| Contrato Convênio Saída <br> | **- Exercício**<br> Execução Orçamentária da Despesa >> Despesa Realizada >> Dado do Empenho - Despesa<br><br>**- Restos a Pagar**<br>Execução de Restos a Pagar >> Restos a Pagar >> Dados de Restos a Pagar| Usar o número SIAFI para buscar os dados da execução da despesa |  
 
 ##### Consulta BO - Campos:
 
