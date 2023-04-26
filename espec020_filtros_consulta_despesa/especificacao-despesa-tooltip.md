@@ -44,7 +44,7 @@ As informações dessa consulta de despesa incluem apenas as informações do Es
 |----------|--------------|
 |Órgão| Consulte os valores da execução da despesa por órgão (unidade orçamentária)|
 |Favorecido| Consulte a execução financeira pesquisando por nome ou CPF/CNPJ do favorecido.
-|Programa| Consulte a execução peor tipo de Programa, conforme previsto na LOA.
+|Programa| Consulte a execução por tipo de Programa, conforme previsto na LOA.
 |Função| Consulte a execução por área de atuação do governo. Exemplo: saúde, educação, transporte e segurança pública.
 |Pesquisar  |Exibir os dados pesquisados      |
 
@@ -114,28 +114,29 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 
 |Filtro|Tooltip
 |-|-                                  
+| Órgão | Órgão responsável pela execução da despesa  
+| Unidade Executora | Unidade Executora responsável pela execução da despesa 
+| Função |Área de atuação do setor público, tais como saúde, educação, administração, transportes e etc. 
+| Subfunção  |Identifica a natureza básica das ações que se aglutinam em torno das funções.
+| Programa | Instrumento de organização de ação governamental que integra o planejamento visando a concretização dos objetos pretendidos.  
 | Ação (Projeto Atividade)  |Descrição do instrumento de programação para alcançar o objetivo de um programa.         
 | Categoria Econômica da Despesa   |Classificação da despesa quanto ao impacto econômico que ela gera, podendo ser corrente (funcionamento dos órgãos, pagamentos dos servidores, etc) ou de capital (obras, equipamentos, etc).
-| CNPJ/ CPF Favorecido | Número de identificação: Pessoa Física (CPF) e Pessoa Jurídica (CNPJ)
-| Elemento de Despesa| Identifica os objetos de gasto, tais como vencimentos, diárias, material de consumo, subvenções sociais, obras e instalações e outros que a administração pública utiliza para a consecução de seus fins.   
-| Empenho| Número de identificação do documento de empenho no SIAFI-MG
-| Favorecido | Identificação da pessoa física ou jurídica que recebeu recursos públicos estaduais pela prestação de serviço ou pela entrega do produto. Ex: prefeituras, servidores, empresas, entidades do terceiro setor, etc.
+| Grupo de Despesa |Classificação da despesa que agrega elementos de despesa quanto ao objeto do gasto (pessoal, juros, amortização da dívida, investimentos, etc.)  
+| Modalidade de Aplicação  | Indica se os recursos são aplicados diretamente por órgãos ou entidades no âmbito da mesma esfera de Governo ou por outro ente da Federação
+| Elemento de Despesa| Identifica os objetos de gasto, tais como vencimentos, diárias, material de consumo, subvenções sociais, obras e instalações e outros que a administração pública utiliza para a consecução de seus fins.
+| Item de Despesa  | Desdobramento do elemento de despesa (material gráfico, medicamentos, remédios, etc) 
 | Fonte de Recurso |Identifica a origem e a destinação dos recursos legalmente vinculados a órgão, fundo ou despesa e combina a origem do dinheiro às despesas orçamentárias. Esta vinculação visa demonstrar o montante de dinheiro que já está comprometido com o atendimento de determinadas intenções, e aquele que pode ser livremente alocado.
 | Fonte de Recurso -  Portaria STN nº 210 | Identifica a origem e a destinação dos recursos legalmente vinculados a órgão, fundo ou despesa conforme determina a Portaria nº 710/2021 da Secretaria de Tesouro Nacional
-| Função |Área de atuação do setor público, tais como saúde, educação, administração, transportes e etc. 
-| Grupo de Despesa |Classificação da despesa que agrega elementos de despesa quanto ao objeto do gasto (pessoal, juros, amortização da dívida, investimentos, etc.)  
 | Indicador de Procedência e Uso (IPU)|Identifica a origem e a utilização dos recursos. Ex.: se os recursos são para livre utilização, se foram transferidos de outra unidade orçamentária, se são para adesão a convênios, etc.   
-| Item de Despesa  | Desdobramento do elemento de despesa (material gráfico, medicamentos, remédios, etc) 
-| Modalidade de Aplicação  | Indica se os recursos são aplicados diretamente por órgãos ou entidades no âmbito da mesma esfera de Governo ou por outro ente da Federação
 | Número Contrato/Convênio/Parceria| Número do contrato, convênio ou parceria registrado no SIAFI-MG
-| Número do documento do pagamento | Número de identificação do documento de pagamento no SIAFI-MG
 | Número do Processo de Compra       |Número do Processo de compra no SIAD-MG
-| Órgão | Órgão responsável pela execução da despesa  
 | Procedimento de Contratação         |Indica a modalidade de licitação, como concorrência, dispensa de licitação, pregão, tomada de preços e etc
-| Programa | Instrumento de organização de ação governamental que integra o planejamento visando a concretização dos objetos pretendidos.   
-| Subfunção  |Identifica a natureza básica das ações que se aglutinam em torno das funções
-| Unidade Executora | Unidade Executora responsável pela execução da despesa   
+| CNPJ/ CPF Favorecido | Número de identificação: Pessoa Física (CPF) e Pessoa Jurídica (CNPJ)
+| Favorecido | Identificação da pessoa física ou jurídica que recebeu recursos públicos estaduais pela prestação de serviço ou pela entrega do produto. Ex: prefeituras, servidores, empresas, entidades do terceiro setor, etc.
+| Empenho| Número de identificação do documento de empenho no SIAFI-MG
+|Número do documento do pagamento| Número de identificação do documento de pagamento no SIAFI-MG
 
+  
 ## Tooltip tabela de resultados Monte sua pesquisa
 
 Os tooltips da tabela de resultado deverão ser os mesmos já utilizados nas tabelas das consultas pré-formatadas.
