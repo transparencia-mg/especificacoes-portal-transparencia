@@ -332,9 +332,7 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-````
-ESSA IMAGEM NÃO ESTÁ APARECENDO>
-``````
+![image](https://user-images.githubusercontent.com/53793354/234644755-f9b5a04d-9eb9-42eb-84fd-e931777ba3d8.png)
 
 ##### 4º NÍVEL
   - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
@@ -396,9 +394,7 @@ ___________
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-````
-ESSA IMAGEM NÃO ESTÁ APARECENDO>
-``````
+![image](https://user-images.githubusercontent.com/53793354/234645101-99df10fb-bd8a-44a3-acbd-23ccd5da215b.png)
 
 ##### 4º NÍVEL
   - [Empenho]() -> ao clicar o usuário será direcionado para o formulário de detalhamento
@@ -477,11 +473,7 @@ A pesquisa será composta pelos seguintes componentes:
     *	Ocultada => ao clicar no botão **[Ocultar Filtros]**;
     * Exibida => ao clicar no botão **[Mostrar Filtros]**
     * **OBSERVAÇÃO**: Ao ocultar a barra de navegação vertical dos demais conteúdos (tabela de resultados, campos aplicados e etc) serão reajustados na página.
-    
-````
-EU NÃO ENTENDI ESSA LINHA, EU ATÉ TENTEI REFAZER, MAS FIQUEI COM MEDO DE TROCAR O SENTIDO.>
-``````
-
+ 
 * Ao clicar no símbolo '(⋮) 'será exibida uma outra barra de filtros onde o usuário poderá selecionar outros parâmetros da pesquisa.
 * A barra deslizante só será exibida se o usuário clicar em algum filtro  da barra de navegação vertical.
 * A barra deslizante será **ocultada** ao clicar em outro filtro.
@@ -539,9 +531,6 @@ Ao selecionar o parâmetro '1521- Controladoria-Geral do Estado' no filtro *Órg
 
 * Os valores **TOTAL GERAL** e o **SUBTOTAL** serão exibidos na tabela de resultados de acordo com o comportamento do usuário. Conforme descrito na pesquisa básica.
 * A **barra de pesquisa** da tabela de resultado deverá retornar os dados da tabela que estão exibidos.
- ````
-EU NÃO ENTENDI ESSA LINHA, EU ATÉ TENTEI REFAZER, MAS FIQUEI COM MEDO DE TROCAR O SENTIDO.>
-`````` 
 A medida que o usuário for digitando os dados a busca será acionada. O atributo *placeholder*: deve ser aplicado na barra de pesquisa.
 
 * O usuário poderá adicionar ou remover colunas - [*hide/show columns*](https://ux.stackexchange.com/a/110079) na tabela de resultados. Ao clicar em **Adicionar/Remover colunas** será exibido uma barra lateral a direta com todas as colunas que poderão ser adicionadas ou removidas.
