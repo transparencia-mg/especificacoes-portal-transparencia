@@ -57,9 +57,48 @@ A consulta será anual, ou seja, o usuário irá visualizar a execução da Dív
 | Valor Liquidado | Valor Despesa Liquidada  |SIAFI - Execução Orçamentária da Despesa >> Despesa Realizada  |
 | Valor Pago | Valor Pago Financeiro  |SIAFI - Execução Orçamentária da Despesa >> Despesa Realizada |
 | Valor Pago em Restos a Pagar | Valor Pago processado + Valor pago não processado  |SIAFI - Execução de Restos a pagar >> Restos a pagar |Essa coluna é representada pela soma das  Valor Pago processado + Valor pago não processado
+|Descrição Histórico do Empenho|||Essa informação é retirada de uma planilha separada da SEF
+|Data de Registro | Reforço | |
+| Nº do Documento |  | |
+| Valor|  | |
+|Data de Registro | Anulação | |
+| Nº do Documento |  | |
+| Valor|  | |
+|Data de Registro | RP | |
+| Tipo de Inscrição |  | |
+| Valor Inscrito|  | |
+|Data de Registro | Liquidação | |
+| Nº do Documento |  | |
+| Valor|  | |
+|Data de Registro | liquidação RP | |
+| Nº do Documento |  | |
+| Valor Liquidado RP 
+|Data de Registro do Pagamento | Pagamento | |
+| Nº do Documento |  | |
+|  Situação da Ordem de Pagamento|  | |
+|Data de Registro do Pagamento| Pagamento RP | |
+| Nº do Documento |  | |
+|  Situação da Ordem de Pagamento|  | |
+| Valor Pago em RP|Valor Pago processado + Valor pago não processado  |SIAFI - Execução de Restos a pagar >> Restos a pagar |Essa coluna é representada pela soma das  Valor Pago processado + Valor pago não processado
+|Número do Processo de Compra|||
+|Data de Cadastramento do Processo|||
+|Procedimento de Contratação|||
+|Situação do Processo|||
+|Objeto do Processo|||
+|Número do Contrato|||
+|Situação do Contrato|||
+|Vigência Atualizada|||
+|Objeto do Contrato|||
+|Número do Convênio/ Parceria SIAFI|||
+|Data de publicação|||
+|Situação do Convênio / Parceria|||
+|Vigência Atualizada|||
+|Título do Convênio / Parceria|||
 
 
-Parei na Descrição do empenho
+
+
+
 
 
 
