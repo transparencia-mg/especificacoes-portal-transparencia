@@ -12,16 +12,16 @@ output:
 # Visão geral da demanda
 <a href="#top">(inicio)</a>
 
-Reestruturação da consulta de Despesa para incluir numa mesma consulta todas as informações de um mesmo empenho. A consulta conterá dados de toda a execução financeira do empenho, incluindo dados de restos a pagar, dados dos processos de compras, contratos e convênios vinculados.
+Reestruturação da consulta de Despesa para incluir numa mesma consulta todas as informações de um mesmo empenho. A consulta conterá dados de toda execução financeira do empenho, incluindo dados de restos a pagar, processos de compras, contratos e convênios vinculados.
 
 # Motivação / contexto da demanda
 <a href="#top">(inicio)</a>
 
-A alteração faz-se necessária para atender a demandas dos usuários de realizar a pesquisa de várias informações dentro de uma única consulta.
+A alteração faz-se necessária para atender à demandas dos usuários em correlacionar as informacões dentro de uma única consulta.
 
-Atualmente, no Portal da Transparência para ter acesso a informações de execução financeira, incluindo restos a pagar, compras e contratos, o usuário precisa realizar a consulta em três locais diferentes (consulta de Despesa, consulta de Restos a Pagar, Consulta de Compras e Contratos, além da consulta de Convênios, quando for aplicável), sendo que nem sempre os dados são de fácil compreensão do usuário.
+Atualmente, no Portal da Transparência, para ter acesso a informações de execução financeira, incluindo restos a pagar, compras e contratos, o usuário precisa realizar a consulta em três locais diferentes (consulta de Despesa, consulta de Restos a Pagar, Consulta de Compras e Contratos, além da consulta de Convênios, quando aplicável), sendo que nem sempre os dados são de fácil compreensão por parte do usuário.
 
-Para essa reestruturação, o objetivo será trazer todas as informações para uma mesma única consulta, além de tornar a consulta mais intuitiva, com possibilidade do usuário montar a sua consulta, incluir ou retirar colunas, além de reduzir a quantidade de cliques para chegar a informação desejada.
+Para essa reestruturação, o objetivo será trazer todas as informações para uma mesma consulta, além de tornar a consulta mais intuitiva, com possibilidade do usuário estruturar a sua consulta, incluir ou retirar colunas, além de reduzir a quantidade de cliques para chegar a informação desejada.
 
 
 # Especificação
