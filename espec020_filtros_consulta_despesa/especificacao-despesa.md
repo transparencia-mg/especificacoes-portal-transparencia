@@ -35,6 +35,7 @@ Esse documento tem como objetivo apresentar as alterações que deverão ser imp
      * Twitter
      * Facebook
      * WhatsApp
+     * Instagram
      * Copiar url
 
 2. Todas as páginas deverão exibir cabeçalho da tabela para que o usuário identifique qual o caminho percorrido. Além do caminho percorrido pelo usuário o PDT deverá apresentar a data de atualização dos dados e o período selecionado.
@@ -64,7 +65,7 @@ Esse documento tem como objetivo apresentar as alterações que deverão ser imp
    * Colunas movíveis e classificáveis, conforme ocorre atualmente;
    * Paginação e seleção da quantidade de linhas a serem exibidas, conforme ocorre atualmente;
    * O texto deve ser ajustável nas colunas, ou seja, caso seja necessário pode haver quebra de linha;
-   * A tabela apresentará campos clicáveis (com link) que irá direcionar o usuário para o próximo nível da consulta.
+   * A tabela apresentará campos clicáveis (com link) que irão direcionar o usuário para o próximo nível da consulta.
    * Os campos clicáveis serão destacados conforme o layout já adotado pelo PdT - [Consulta Acordo Judicial de Reparação da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.listarExecucoes&amp;ano=&amp;dataInicio=01/01/2021&amp;dataFim=31/12/2022&amp;consulta=2&amp;filtro=).
    * Todos os termos das tabelas terão tooltip que serão exibidos quando o usuário passar o mouse sobre o ícone de "?"
 
@@ -74,7 +75,7 @@ Esse documento tem como objetivo apresentar as alterações que deverão ser imp
     * [Especificação Tooltip](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/especificacao-despesa-tooltip.md)
    * [Especificação Dados](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/especificacao-despesa.md)
 
-8. Todas as funcionalidades não exemplificadas segueram o mesmo padrão já adotado na consulta Acordo Judicial da Vale do Portal de Transparência.
+8. Todas as funcionalidades não exemplificadas seguirão o mesmo padrão já adotado na consulta Acordo Judicial da Vale do Portal de Transparência.
 
 ## Página Inicial - Pesquisa Básica
 <a href="#top">(inicio)</a>
@@ -85,7 +86,7 @@ Inclusão de um campo que irá trazer uma breve explicação do conteúdo da con
 
 ### Atributos do campo<br>
 
-1. O PdT deverá permitir que por meio da área administrativa do Portal a equipe da DTA inclua ou altere os dados do texto desse campo, incluindo os tooltips.
+1. O PdT deverá permitir que por meio da área administrativa do Portal a equipe da DTA inclua ou altere os dados de texto desse campo, incluindo os tooltips.
 2. O usuário poderá exibir mais detalhes do texto ao clicar em **Mais** ou ocultar ao clicar **Menos**;
 3. A funcionalidade deverá permitir a visualização de tooltip ao posicionar o mouse sobre uma palavra ou termo;
 4. Ao clicar sobre a palavra ou termo o PdT deverá abrir um pop-up em forma de glossário. [eg. pop-up](https://www.usaspending.gov/)
@@ -141,7 +142,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 6. A barra de pesquisa do campo filtro deverá possuir atributo [placeholder](https://www.w3schools.com/tags/att_input_placeholder.asp) para facilitar ou indicar como o campo deverá sem preenchido e a informação deverá ser retornada a medida que o usuário for digitando.<br> (Texto: *Digite o nome, parte do nome ou CPF/CNPJ*)
 
-7. As demais funcionalidades serão as mesmas já adotadas na consulta 'Acordo Judicial de Reparação da Vale'
+7. As demais funcionalidades serão as mesmas já adotadas na consulta 'Acordo Judicial de Reparação da Vale' (MELHOR TRAZER DA ESPECIFICAÇÃO DA CONSULTA DA VALE AQUI E REPETIR AS FUNCIONALIDADES QUE QUEREMOS QUE SEJAM IMPLEMENTADAS PFV)
 
 
 ## 3. Leiaute - Tabelas de Resultados
@@ -261,7 +262,7 @@ ___________
     * O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'.
     
 ````
-Olhar com Flavinha <O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'. A exportação em planilha (CSV) deverá ser em formato de tabela. Cada campo em uma coluna.>
+<O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'. A exportação em planilha (CSV) deverá ser estruturada em formato de tabela. Cada campo em uma coluna.>
 ``````
 
 ##### Campos do formulário de detalhamento
@@ -464,7 +465,7 @@ A pesquisa será composta pelos seguintes componentes:
  Atributos da barra de navegação vertical:
 
 * Todos os filtros deverão apresentar uma breve descrição.
-* Todos os campos da barra vertical poderão ser consultados por descrição ou código, assim como ocorre na [Consulta Avançada do PdT -Acordo Judicial da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.consultaLivre) em que é possível digitar o nome ou a descrição nos filtros.
+* Todos os campos da barra vertical poderão ser consultados por descrição ou código, assim como ocorre na [Consulta Avançada do PdT -Acordo Judicial da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.consultaLivre) na qual é possível digitar o nome ou a descrição nos filtros.
 * A lista de filtros será localizada a esquerda da tela. Caso a quantidade de filtros ultrapasse o limite da tela deverá ser utilizada a barra de rolagem.
 [Consulta Avançada do PdT -Acordo Judicial da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.consultaLivre)
 * O usuário poderá realizar a busca de qualquer filtro na **barra de pesquisa**. A barra de pesquisa deverá possuir atributo [placeholder](https://www.w3schools.com/tags/att_input_placeholder.asp) para facilitar ou indicar como o campo deverá ser preenchido.
@@ -483,8 +484,8 @@ A pesquisa será composta pelos seguintes componentes:
 * O usuário poderá combinar vários parâmetros para o mesmo filtro (selecionar mais de um item) ou selecionar a opção ***[Exibir Todos]*** ou ainda clicar no símbolo (⋮)
 * Ao selecionar ***[Exibir Todos]***, abrirá uma tela modal exibindo todos os parâmetros daquele filtro com as opções *Selecionar tudo, Limpar Seleção, Inverter seleção*. O usuário poderá remover os parâmetros não desejados ao assinalar com tique a opção.  
 * Os botões **Atualizar, Pesquisar e Limpar tudo** devem ser estilisticamente diferenciados (eg. [*Differentiate button types*](https://medium.com/nextux/design-better-buttons-6b64eb7f13bc#aj%20la%20lb))
-* Ao selecionar o período específico a barra deslizante de cada filtro irá exibir como parâmetro apenas as classificações orçamentárias vigentes no ano da pesquisa. A exceção será para a consulta de Restos a Pagar, onde os parâmetros da barra deslizante irá refletir apenas as classificações orçamentárias inscritas em restos a pagar, e não a classificação orçamentária vigente no ano.
-* A medida que o usuário selecionar um parâmetro de qualquer filtro, automaticamente apenas as opções que possuem relacionamento com o parâmetro selecionado será exibida nos demais filtros.
+* Ao selecionar o período específico a barra deslizante de cada filtro irá exibir como parâmetro apenas as classificações orçamentárias vigentes no ano da pesquisa. A exceção será para a consulta de Restos a Pagar, onde os parâmetros da barra deslizante irão refletir apenas as classificações orçamentárias inscritas em restos a pagar, e não a classificação orçamentária vigente no ano.
+* A medida que o usuário selecionar um parâmetro de qualquer filtro, automaticamente apenas as opções que possuem relacionamento com o parâmetro selecionado serão exibida nos demais filtros.
   * **Exemplo**:   
 Ao selecionar o parâmetro '1521- Controladoria-Geral do Estado' no filtro *Órgão* e em seguida clicar no filtro *Programa* apenas os programas que tiveram execução na Controladoria-Geral do Estado naquele ano serão exibidos.
 * Todos os parâmetros selecionados serão exibidos no campo **Filtros Aplicados**.
@@ -499,7 +500,7 @@ Ao selecionar o parâmetro '1521- Controladoria-Geral do Estado' no filtro *Órg
 
 * O usuário poderá **ocultar/exibir** o conteúdo do campo filtros aplicados a partir do comandos:
   * **[^]**: Exibir o conteúdo do campo;
-  * **[v]**: Ocultar o conteúdo do campo. Ao ocultar os dados do campo os demais conteúdos da tela serão ajustados na página.
+  * **[v]**: Ocultar o conteúdo do campo. Ao ocultar os dados do campo, os demais conteúdos da tela serão ajustados na página.
 
 
 * Como padrão o filtro **Período** será exibido no campo filtros aplicados. O campo será no formato dd/mm/aaaa composto por início e fim (eg. 01/04/2021 a 30/12/2021). Como padrão o campo "Início/Fim" irá exibir exercício vigente até o último dia de atualização dos dados. No campo da data o usuário poderá selecionar ou digitar a data na caixa. Exemplo: Portal de Transparêcia ES;
@@ -515,8 +516,8 @@ Ao selecionar o parâmetro '1521- Controladoria-Geral do Estado' no filtro *Órg
 * Os parâmetros selecionados na barra deslizante deverão ser exibidos na ordem que o usuário escolheu.
 * Todos os parâmetros serão representados no campo filtros aplicados da seguinte forma:
   * **Filtro** (*nome do filtro*): **Parâmentro** (*nome do parâmetro*)-(**[X]()**)(*excluir*);
-* À medida que o usuário for incluindo parâmetros na pesquisa a tabela de resultados será deslocada para baixo quando ultrapassar o limite da tela (eg. [Portal de Transparência Federal](http://www.portaltransparencia.gov.br/despesas/programa-e-acao?ordenarPor=programa&direcao=asc)).
-* Caso o usuário selecione uma grande quantidade de filtros será acrescentado a opção *Ver mais* abaixo da lista de filtros.
+* À medida que o usuário for incluindo parâmetros na pesquisa, a tabela de resultados será deslocada para baixo quando ultrapassar o limite da tela (eg. [Portal de Transparência Federal](http://www.portaltransparencia.gov.br/despesas/programa-e-acao?ordenarPor=programa&direcao=asc)).
+* Caso o usuário selecione uma grande quantidade de filtros será acrescida a opção *Ver mais* abaixo da lista de filtros.
 
 -> Todas as funcionalidade listadas acima estão disponíveis na consulta do Portal - Acordo Judicial da Vale
 
@@ -524,7 +525,7 @@ Ao selecionar o parâmetro '1521- Controladoria-Geral do Estado' no filtro *Órg
 <a href="#top">(inicio)</a>
 
 * A tabela de resultado levará em consideração os parâmetros do campo filtros aplicados.
-* A tabela apresentará colunas padrões que serão exibidas independentemente de o usuário selecionar/aplicar algum filtro.
+* A tabela apresentará colunas padrão que serão exibidas independentemente de o usuário selecionar/aplicar algum filtro.
   **Ver [Especificação Dados](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/especificacao-despesa.md)**
 
 * A data de atualização dos dados, opção de compartilhamento e download serão exibidos acima da tabela de resultados.
@@ -533,7 +534,7 @@ Ao selecionar o parâmetro '1521- Controladoria-Geral do Estado' no filtro *Órg
 * A **barra de pesquisa** da tabela de resultado deverá retornar os dados da tabela que estão exibidos.
 A medida que o usuário for digitando os dados a busca será acionada. O atributo *placeholder*: deve ser aplicado na barra de pesquisa.
 
-* O usuário poderá adicionar ou remover colunas - [*hide/show columns*](https://ux.stackexchange.com/a/110079) na tabela de resultados. Ao clicar em **Adicionar/Remover colunas** será exibido uma barra lateral a direta com todas as colunas que poderão ser adicionadas ou removidas.
+* O usuário poderá adicionar ou remover colunas - [*hide/show columns*](https://ux.stackexchange.com/a/110079) na tabela de resultados. Ao clicar em **Adicionar/Remover colunas** será exibida uma barra lateral a direta com todas as colunas que poderão ser adicionadas ou removidas.
 * Ao exibir ou ocultar alguma coluna a tabela de resultados será atualizada automaticamente (eg.[Column Toggle Table](https://ux.stackexchange.com/questions/110077/best-practices-to-allow-user-to-hide-show-columns-in-a-data-table/110079#110079)).
 
 * O ícone **Adicionar/Remover Colunas** além dos filtros pré-determinados pela DTA terá uma barra de pesquisa onde o usuário poderá digitar o filtro desejado.
@@ -545,7 +546,7 @@ A medida que o usuário for digitando os dados a busca será acionada. O atribut
 * Os campos clicáveis serão destacados conforme o layout já adotado  pelo PdT e terão a imagem de uma lupa. Para exibir mais informações o usuário deverá clicar na lupa da coluna "detalhar":
   * O 1º nível terá como opção o botão Detalhar o qual direcionará o usuário para o segundo nível, conforme os filtros selecionados, e, em seguida, poderá ser direcionado para o próximo nível e assim por diante. No caso especifico da Consulta de Despesa o último nível da consulta será sempre o formulário de detalhamento que será acessado após o usuário clicar em algum empenho.
   * **OBS** Caso o usuário solicite a exibição da coluna empenho já no 1º nível e este for um valor único, o usuário será direcionado diretamente para o formulário de detalhamento relacionado ao empenho.
-  * A única tabela que deverá ser exibida no estilo modal será o formulário de detalhamento. A navegação pelos níveis serão exibidas normalmente, conforme ocorre na pesquisa básica.
+  * A única tabela que deverá ser exibida no estilo modal será o formulário de detalhamento. A navegação pelos níveis será exibida normalmente, conforme ocorre na pesquisa básica.
 
 * Todos os filtros selecionados serão exibidos na tabela de resultado.
 
