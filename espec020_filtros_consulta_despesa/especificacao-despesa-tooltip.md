@@ -30,7 +30,7 @@ A execução da despesa é realizada seguindo os três estágios presentes na [L
 
 Para acessar os dados da despesa pública, o Portal da Transparência traz informações sobre a execução financeira e orçamentária da despesa pública do Estado de Minas Gerais através dos dados extraídos do [`SIAFI/MG`]((a "Sistema Integrado de Administração Financeira de Minas Gerais"). Os dados estão disponíveis desde o ano de 2002 e são atualizados diariamente no formato D+1.
 
-As informações dessa consulta de despesa incluem apenas as informações do Estado de Minas Gerais (Poder Executivo, Legislativo e Judiciário). As informações das despesas públicas dos municípios mineiros devem ser obtidas diretamente no portal de transparência do município desejado, conforme determina a [Lei Complementar nº 131](http://www.planalto.gov.br/ccivil_03/leis/lcp/lcp131.htm).
+As informações dessa consulta de despesa incluem apenas as informações do Estado de Minas Gerais (Poder Executivo, Legislativo e Judiciário). As informações das despesas públicas dos municípios mineiros devem ser obtidas diretamente no portal da transparência do município desejado, conforme determina a [Lei Complementar nº 131](http://www.planalto.gov.br/ccivil_03/leis/lcp/lcp131.htm).
 
 ### Termos destacados dentro do texto Introdutório
 <a href="#top">(inicio)</a>
@@ -77,12 +77,12 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 | Data Publicação Convênio/Parceria| Data de publicação do convênio ou parceria|
 | Data de Registro do Empenho | Data de registro do documento de empenho no SIAFI-MG |
 | Data Vigência Atualizada do Contrato | Data de vigência atualizada do contrato considerando os termos aditivos de prazo |
-| Elemento de Despesa | Identifica os objetos de gasto, tais como vencimentos, diárias, material de consumo, subvenções sociais, obras e instalações e outros que a administração pública utiliza para a consecução de seus fins.   |
+| Elemento de Despesa | Identifica os objetos de gasto, tais como: vencimentos, diárias, material de consumo, subvenções sociais, obras e instalações e outros que a administração pública utiliza para a consecução de seus fins.   |
 | Empenho                              | Número de identificação do documento de empenho no SIAFI-MG |
 | Favorecido | Identificação da pessoa física ou jurídica que recebeu recursos públicos estaduais pela prestação de serviço ou pela entrega do produto. Ex: prefeituras, servidores, empresas, entidades do terceiro setor, etc.|
 | Fonte de Recurso| Identifica a origem e a destinação dos recursos legalmente vinculados a órgão, fundo ou despesa e combina a origem do dinheiro às despesas orçamentárias. Esta vinculação visa demonstrar o montante de dinheiro que já está comprometido com o atendimento de determinadas intenções, e aquele que pode ser livremente alocado. |
 | Fonte de Recurso - Portaria STN nº 710 | Identifica a origem e a destinação dos recursos legalmente vinculados a órgão, fundo ou despesa conforme determina a Portaria nº 710/2021 da Secretaria de Tesouro Nacional
-| Função | Área de atuação do setor público, tais como saúde, educação, administração, transportes e etc. |
+| Função | Área de atuação do setor público, tais como: saúde, educação, administração, transportes e etc. |
 | Grupo de Despesa| Classificação da despesa que agrega elementos de despesa quanto ao objeto do gasto (pessoal, juros, amortização da dívida, investimentos, etc.).|
 | Indicador de Procedência e Uso (IPU) | Identifica a origem e a utilização dos recursos. Ex.: Recursos para livre utilização, Recursos transferidos de outra unidade orçamentária, Recursos de convênios, etc.|
 | Item de Despesa| Desdobramento do elemento de despesa (material gráfico, medicamentos, remédios, etc). |
@@ -93,7 +93,7 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 | Objeto Contrato | Descrição dos bens forencidos ou serviços prestados ao Estado de Minas Gerais|
 | Objeto Processo| Descrição do objeto do processo de compra |
 | Órgão | Descrição da Unidade Orçamentária responsável pela execução da despesa|
-| Procedimento de Contratação | Indica a modalidade de licitação, como concorrência, dispensa de licitação, pregão, tomada de preços e etc |
+| Procedimento de Contratação | Indica a modalidade de licitação, como: concorrência, dispensa de licitação, pregão, tomada de preços e etc |
 | Programa | Instrumento de organização de ação governamental que integra o planejamento visando a concretização dos objetos pretendidos.|
 | Situação do Contrato | Situação do Contrato no SIAD-MG |
 | Situação do Convênio/Parceria| Número de identificação do Contrato ou do Convênio/Parceria de origem de recursos no SIAFI-MG |
@@ -116,21 +116,21 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 |-|-                                  
 | Órgão | Órgão responsável pela execução da despesa  
 | Unidade Executora | Unidade Executora responsável pela execução da despesa 
-| Função |Área de atuação do setor público, tais como saúde, educação, administração, transportes e etc. 
+| Função |Área de atuação do setor público, tais como: saúde, educação, administração, transportes e etc. 
 | Subfunção  |Identifica a natureza básica das ações que se aglutinam em torno das funções.
 | Programa | Instrumento de organização de ação governamental que integra o planejamento visando a concretização dos objetos pretendidos.  
 | Ação (Projeto Atividade)  |Descrição do instrumento de programação para alcançar o objetivo de um programa.         
 | Categoria Econômica da Despesa   |Classificação da despesa quanto ao impacto econômico que ela gera, podendo ser corrente (funcionamento dos órgãos, pagamentos dos servidores, etc) ou de capital (obras, equipamentos, etc).
 | Grupo de Despesa |Classificação da despesa que agrega elementos de despesa quanto ao objeto do gasto (pessoal, juros, amortização da dívida, investimentos, etc.)  
 | Modalidade de Aplicação  | Indica se os recursos são aplicados diretamente por órgãos ou entidades no âmbito da mesma esfera de Governo ou por outro ente da Federação
-| Elemento de Despesa| Identifica os objetos de gasto, tais como vencimentos, diárias, material de consumo, subvenções sociais, obras e instalações e outros que a administração pública utiliza para a consecução de seus fins.
+| Elemento de Despesa| Identifica os objetos de gasto, tais como: vencimentos, diárias, material de consumo, subvenções sociais, obras e instalações e outros que a administração pública utiliza para a consecução de seus fins.
 | Item de Despesa  | Desdobramento do elemento de despesa (material gráfico, medicamentos, remédios, etc) 
 | Fonte de Recurso |Identifica a origem e a destinação dos recursos legalmente vinculados a órgão, fundo ou despesa e combina a origem do dinheiro às despesas orçamentárias. Esta vinculação visa demonstrar o montante de dinheiro que já está comprometido com o atendimento de determinadas intenções, e aquele que pode ser livremente alocado.
-| Fonte de Recurso -  Portaria STN nº 210 | Identifica a origem e a destinação dos recursos legalmente vinculados a órgão, fundo ou despesa conforme determina a Portaria nº 710/2021 da Secretaria de Tesouro Nacional
+| Fonte de Recurso -  Portaria STN nº 710 | Identifica a origem e a destinação dos recursos legalmente vinculados a órgão, fundo ou despesa conforme determina a Portaria nº 710/2021 da Secretaria de Tesouro Nacional
 | Indicador de Procedência e Uso (IPU)|Identifica a origem e a utilização dos recursos. Ex.: se os recursos são para livre utilização, se foram transferidos de outra unidade orçamentária, se são para adesão a convênios, etc.   
 | Número Contrato/Convênio/Parceria| Número do contrato, convênio ou parceria registrado no SIAFI-MG
 | Número do Processo de Compra       |Número do Processo de compra no SIAD-MG
-| Procedimento de Contratação         |Indica a modalidade de licitação, como concorrência, dispensa de licitação, pregão, tomada de preços e etc
+| Procedimento de Contratação         |Indica a modalidade de licitação, como: concorrência, dispensa de licitação, pregão, tomada de preços e etc.
 | CNPJ/ CPF Favorecido | Número de identificação: Pessoa Física (CPF) e Pessoa Jurídica (CNPJ)
 | Favorecido | Identificação da pessoa física ou jurídica que recebeu recursos públicos estaduais pela prestação de serviço ou pela entrega do produto. Ex: prefeituras, servidores, empresas, entidades do terceiro setor, etc.
 | Empenho| Número de identificação do documento de empenho no SIAFI-MG
