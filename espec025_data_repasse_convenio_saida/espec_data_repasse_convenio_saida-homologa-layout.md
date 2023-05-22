@@ -27,6 +27,10 @@ As novas informações deverão ser exibidas logo abaixo do formulário "Altera�
 
 ![image](https://user-images.githubusercontent.com/53793354/230954817-7d16c263-c55d-46fc-ba24-762f7a4efb42.png)
 
+Documento verificado dia 22/05/2023
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/8e199721-699b-417e-9260-95be9939256a)
+
+
 
 #### Formulário: Execução da Despesa do Convênio/Parceria
 
