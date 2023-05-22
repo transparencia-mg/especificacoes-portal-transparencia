@@ -26,7 +26,7 @@ Essa demanda visa incluir no formulário de detalhamento da Consulta Convênio/P
 ## Formulário de Detalhamento
 <a href="#top">(inicio)</a>
 
-Deverá ser acrescido no formulário de detalhamento da Consulta as seguintes informações: **Execução da Despesa do Convênio/Parceria**. 
+Deverá ser acrescido no formulário de detalhamento da Consulta as seguintes informações: **Execução da Despesa do Convênio/Parceria**.
 
 As novas informações deverão ser exibidas logo abaixo do formulário "Alterações do Convênio", conforme exemplo:
 
@@ -35,7 +35,7 @@ As novas informações deverão ser exibidas logo abaixo do formulário "Altera�
 
 #### Formulário: Execução da Despesa do Convênio/Parceria
 
-1. As informações deverão ser exibidas a partir do ano de 2017.
+1. As informações deverão ser exibidas a partir do ano de 2007.
 2. O 'Valor Total Pago' será representado por: Valor Pago no Exercício + Valores Pagos em Restos a Pagar.
 3. Os dados só devem ser exibidos quando houver informação de pagamento, ou seja, caso haja registro do empenho e liquidação e não houver pagamento, a informação não deve ser exibida.
 
@@ -59,6 +59,4 @@ As novas informações deverão ser exibidas logo abaixo do formulário "Altera�
 |Data de Registro do Pagamento| Data de Registro|**- Exercício**<br> Execução Orçamentária da Despesa >> Despesa Realizada >> Dados da Ordem de Pagamento - Despesa<br><br>**- Restos a Pagar**<br>Execução de Restos a Pagar >> Restos a Pagar >> Dados da Ordem de Pagamento -  Restos a Pagar |
 |Número do Documento de Pagamento |**- Exercício** Número Docto Pagamento<br><br>**- Restos a Pagar**<br> Número Ordem de Pagamento|**- Exercício**<br> Execução Orçamentária da Despesa >> Despesa Realizada >> Dados da Ordem de Pagamento - Despesa<br><br>**- Restos a Pagar**<br>Execução de Restos a Pagar >> Restos a Pagar >> Dados da Ordem de Pagamento -  Restos a Pagar |  |
 |Valor Pago |**- Exercício**<br>Valor Pago Financeiro<br><br>**- Restos a Pagar**<br>Valor Pago Processado + Valor Pago Não Processado| **- Exercício**<br> Execução Orçamentária da Despesa >> Despesa Realizada<br><br>**- Restos a Pagar**<br>Execução de Restos a Pagar >> Restos a Pagar| Cada pagamento deverá ser lançado em uma única linha
-|Total || |Esse campo será representado pela soma dos valores pagos no exercício mais a soma dos valores pagos em Restos a pagar (Processados e Não Processados) 
-
-
+|Total || |Esse campo será representado pela soma dos valores pagos no exercício mais a soma dos valores pagos em Restos a pagar (Processados e Não Processados)
