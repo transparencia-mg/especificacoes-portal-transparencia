@@ -28,7 +28,8 @@ As novas informações deverão ser exibidas logo abaixo do formulário "Altera�
 ![image](https://user-images.githubusercontent.com/53793354/230954817-7d16c263-c55d-46fc-ba24-762f7a4efb42.png)
 
 Documento verificado dia 22/05/2023
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/8e199721-699b-417e-9260-95be9939256a)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/f252482c-fd8c-4f15-87d5-b50baa3e10e0)
+
 
 
 
@@ -40,3 +41,6 @@ Documento verificado dia 22/05/2023
 
 
 ![image](https://user-images.githubusercontent.com/53793354/230952965-b0c27d6a-294a-461e-bc22-ed362060698f.png)
+
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/b381d54b-c592-4f52-9c94-fa1bec74b6a0)
+
