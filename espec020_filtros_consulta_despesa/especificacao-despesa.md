@@ -117,6 +117,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 1. O campo período será no formato **dd/mm/aaaa** composto por início e fim (eg. 01/04/2021 a 30/12/2021). Como padrão, o campo "Início/Fim" irá exibir o exercício vigente até o último dia de atualização dos dados.
 2. No campo da data o usuário poderá selecionar ou digitar a data na caixa.<br> Exemplo: [Portal de Transparêcia ES](https://transparencia.es.gov.br/Despesa);
+3. Caso o usuário digite uma data que ultrapasse o exercício financeiro o PdT deverá exibir uma mensagem orientando que a data esteja dentro do período do exercício financeiro.
 
 
 ![](static/formato-data.gif)
