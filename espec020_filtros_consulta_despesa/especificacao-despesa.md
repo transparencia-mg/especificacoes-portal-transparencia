@@ -206,10 +206,10 @@ Exemplo: Consulta de Despesa
 Essa consulta será composta por 5 níveis:
 _______
   1º nível - [Órgão]()<br>
-  2º nível - Órgão > [Elemento]()<br>
-  3º nível - Órgão > Elemento > [Favorecido]()<br>
-  4º nível - Órgão > Elemento > Favorecido > [Empenho]()<br>
-  5º nível - Órgão > Elemento > Favorecido > Empenho > [Formulário de Detalhamento]()<br>
+  2º nível - Órgão > [Elemento de despesa]()<br>
+  3º nível - Órgão > Elemento de despesa > [Favorecido]()<br>
+  4º nível - Órgão > Elemento de despesa > Favorecido > [Empenho]()<br>
+  5º nível - Órgão > Elemento de despesa > Favorecido > Empenho > [Formulário de Detalhamento]()<br>
 ___________
 
 ##### 1º NÍVEL
@@ -224,13 +224,14 @@ ___________
 
 
 ##### 2º NÍVEL
-  - [Elemento]() -> ao clicar o usuário será direcionado para o 3º nível
+  - [Elemento de despesa]() -> ao clicar o usuário será direcionado para o 3º nível
   - Valor Empenhado
   - Valor Liquidado
   - Valor Pago
   - Valor Pago de Restos a Pagar<br>
 
-![image](https://user-images.githubusercontent.com/53793354/200359119-2bc8ec40-da77-40d5-b455-fbc7092aaf0c.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/76428a3d-d4cf-4c0f-889a-c01edf606c0a)
+
 
 
 ##### 3º NÍVEL
@@ -262,15 +263,16 @@ ___________
     * As tabelas que compõem o formulário de detalhamento serão exibidas em formato de guias.
     * O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'.
     
-````
-<O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'. A exportação em planilha (CSV) deverá ser estruturada em formato de tabela. Cada campo em uma coluna.>
-``````
+
+**OBS:**O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'. A exportação em planilha (CSV) deverá ser estruturada em formato de tabela. Cada campo em uma coluna.
+
 
 ##### Campos do formulário de detalhamento
 
 * Classificação Orçamentária
 
-![image](https://user-images.githubusercontent.com/53793354/224129066-b9bbedc8-340c-4085-a14f-7c7f444d9b0c.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/0fcdcbf0-4f99-43ee-b357-346aaedc028d)
+
 
 
 * Empenho
