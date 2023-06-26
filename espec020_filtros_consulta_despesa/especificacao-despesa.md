@@ -271,7 +271,7 @@ ___________
 
 * Classificação Orçamentária
 
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/0fcdcbf0-4f99-43ee-b357-346aaedc028d)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/49cd8d38-6fa0-42aa-b77c-4842ab982ae4)
 
 
 
