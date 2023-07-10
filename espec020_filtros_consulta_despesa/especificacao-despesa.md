@@ -42,7 +42,7 @@ Esse documento tem como objetivo apresentar as alterações que deverão ser imp
 
      * Período:
      * Dados atualizados em:
-     
+
 
 ![](static/cabecalho_tabela.png)
 
@@ -135,7 +135,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 
 5. O comportamento do campo *'Filtro'* será conforme o tipo de consulta selecionada e como padrão será exibido a opção 'Todos':<br>
      - **Órgão, Função, Programa**:<br> Ao selecionar uma das opções o PDT irá permitir que o usuário selecione um item no campo filtro. Esse campo poderá ser selecionado através da barra de rolagem ou por digitação.
-     
+
   ![](static/filtros.png)
       - **Favorecido**:<br> Ao selecionar esse tipo de consulta o usuário poderá escolher se a busca será realizada pelo nome do Favorecido ou pelo CPF/CNPJ. Nesse caso, deverá ser exibida uma barra em que o usuário irá digitar os dados.
 
@@ -262,35 +262,47 @@ ___________
   Ao clicar no número do empenho o usuário será direcionado para o formulário de detalhamento, que será composto pelos seguintes atributos:
     * As tabelas que compõem o formulário de detalhamento serão exibidas em formato de guias.
     * O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'.
-    
+
 
 **OBS:**O usuário poderá fazer o Download das informações do formulário de detalhamento ao clicar no botão 'Download'. A exportação em planilha (CSV) deverá ser estruturada em formato de tabela. Cada campo em uma coluna.
 
 
 ##### Campos do formulário de detalhamento
 
-* Classificação Orçamentária
+###### Classificação Orçamentária
 
 ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/49cd8d38-6fa0-42aa-b77c-4842ab982ae4)
 
 
-
-* Empenho
+###### Empenho
 
 ![](static/formulario_empenho.png)
 
+- O formulário de detalhamento deverá exibir a inscrição, liquidação e pagamento dos valores em restos a pagar referente ao todos os exercícios. Exemplo:
+  * Ano de registro do Empenho: 2020
+  * Inscrição em Restos a Pagar: 2021
+  * Reinscrito em Restos e Pagar: 2022
 
-* Liquidação
+
+###### Liquidação
 
  ![image](https://user-images.githubusercontent.com/52920939/220975288-35fbd2c2-85bf-4976-bd6e-d3ea955d1ada.png)
 
-* Pagamento
+###### Pagamento
 
  ![image](https://user-images.githubusercontent.com/52920939/220975331-2532a423-f6b6-4bd1-8ecb-39dab9428796.png)
 
-* Outras Informações
+###### Outras Informações
 
   ![image](https://user-images.githubusercontent.com/52920939/220975555-95c2866f-2523-4f99-a3de-1a907992d56d.png)
+
+**Comportamento da Consulta:**
+
+- Ao clicar no campo 'Número do Processo de Compra' o usuário será direcionado o [formulário de detalhamento da consulta Compras e Contratos](https://www.transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos/comprasecontratos-detalhe-proccompra/2022/20220101/20221231/369556).
+
+- Ao clicar no campo 'Número do Contrato' o usuário o usuário será direcionado o [formulário de detalhamento da consulta Contratos](https://www.transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos/comprasecontratos-filtros/5/2022/01-01-2022/31-12-2022/564/75328).
+
+- Ao clicar no campo 'Número do Convênio / Parceria SIAFI' o usuário será direcionado o formulário de detalhamento da consulta [Consulta Convênios / Parceria de Saída de Recursos](https://www.transparencia.mg.gov.br/convenios/convenios-de-saida/convenios-conslivre-detalhesconv/2021/01-01-2021/31-12-2021/61691)
 
 ### CONSULTA POR FUNÇÃO
 <a href="#top">(inicio)</a>
@@ -468,7 +480,7 @@ A pesquisa será composta pelos seguintes componentes:
  Atributos da barra de navegação vertical:
 
 * Todos os filtros deverão apresentar uma breve descrição.
-* Todos os campos da barra vertical poderão ser consultados por descrição ou código, assim como ocorre na [Consulta Avançada do PdT -Acordo Judicial da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.consultaLivre) na qual é possível digitar o nome ou a descrição nos filtros.
+* Todos os campos da barra vertical poderão ser consultados por descrição ou código, assim como ocorre na [Consulta Avançada do PdT -Acordo Judicial da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.consultaLivre) na qual é possível digitar o nome ou código nos filtros.
 * A lista de filtros será localizada a esquerda da tela. Caso a quantidade de filtros ultrapasse o limite da tela deverá ser utilizada a barra de rolagem.
 [Consulta Avançada do PdT -Acordo Judicial da Vale](https://www.transparencia.mg.gov.br/eventos-extraordinarios/acordo-judicial-reparacao-vale?task=estado_recursosvale.consultaLivre)
 * O usuário poderá realizar a busca de qualquer filtro na **barra de pesquisa**. A barra de pesquisa deverá possuir atributo [placeholder](https://www.w3schools.com/tags/att_input_placeholder.asp) para facilitar ou indicar como o campo deverá ser preenchido.
@@ -477,7 +489,7 @@ A pesquisa será composta pelos seguintes componentes:
     *	Ocultada => ao clicar no botão **[Ocultar Filtros]**;
     * Exibida => ao clicar no botão **[Mostrar Filtros]**
     * **OBSERVAÇÃO**: Ao ocultar a barra de navegação vertical dos demais conteúdos (tabela de resultados, campos aplicados e etc) serão reajustados na página.
- 
+
 * Ao clicar no símbolo '(⋮) 'será exibida uma outra barra de filtros onde o usuário poderá selecionar outros parâmetros da pesquisa.
 * A barra deslizante só será exibida se o usuário clicar em algum filtro  da barra de navegação vertical.
 * A barra deslizante será **ocultada** ao clicar em outro filtro.
@@ -547,9 +559,14 @@ A medida que o usuário for digitando os dados a busca será acionada. O atribut
 * Ao inserir qualquer coluna essas serão incluídas antes das colunas de valores. E caso seja incluída alguma coluna de valor o portal deverá manter a ordem da execução orçamentária (Valor empenhado, valor liquidado, valor pago, valor pago em restos a pagar).
 
 * Os campos clicáveis serão destacados conforme o layout já adotado  pelo PdT e terão a imagem de uma lupa. Para exibir mais informações o usuário deverá clicar na lupa da coluna "detalhar":
-  * O 1º nível terá como opção o botão Detalhar o qual direcionará o usuário para o segundo nível, conforme os filtros selecionados, e, em seguida, poderá ser direcionado para o próximo nível e assim por diante. No caso especifico da Consulta de Despesa o último nível da consulta será sempre o formulário de detalhamento que será acessado após o usuário clicar em algum empenho.
+  * O 1º nível terá como opção o botão Detalhar o qual direcionará o usuário para o segundo nível, conforme os filtros selecionados, e, em seguida, poderá ser direcionado para o próximo nível e assim por diante.
+  * No caso especifico da Consulta de Despesa o último nível da consulta será sempre o formulário de detalhamento que será acessado após o usuário clicar em algum empenho.
+
   * **OBS** Caso o usuário solicite a exibição da coluna empenho já no 1º nível e este for um valor único, o usuário será direcionado diretamente para o formulário de detalhamento relacionado ao empenho.
-  * A única tabela que deverá ser exibida no estilo modal será o formulário de detalhamento. A navegação pelos níveis será exibida normalmente, conforme ocorre na pesquisa básica.
+  * **Exceção:** Quando o usuário utilizar o filtro ***"Número da Ordem de Pagamento"*** na barra de filtro vertical as colunas abaixo deverão ser exibidas em formato desabilitado, sem a exibição de dados: Valor empenhado e Valor liquidado.
+  * Caso o filtro ***"Número da Ordem de Pagamento"*** seja retirado da barra de filtros aplicados a formatação e exibição dos valores dessas colunas seguirá o padrão.
+
+* A única tabela que deverá ser exibida no estilo modal será o formulário de detalhamento. A navegação pelos níveis será exibida normalmente, conforme ocorre na pesquisa básica.
 
 * Todos os filtros selecionados serão exibidos na tabela de resultado.
 
@@ -560,3 +577,7 @@ A medida que o usuário for digitando os dados a busca será acionada. O atribut
 #### Download dos dados:
   * Como regra geral deverá seguir o padrão da pesquisa básica.
   * Opção exportar Planilha (CSV): exibir código e descrição em colunas distintas, independente de o usuário selecionar a opção código na tabela de resultado. O período selecionado deverá ser exibido na primeira coluna da planilha;
+
+
+#### Observação
+- Os dados/tabelas da pesquisa avançada serão os mesmos que constam nas tabelas da pesquisa básica, porém será necessário verificar a granularidade para os devidos cruzamentos. Ver [Especificação de Dados](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec020_filtros_consulta_despesa/especificacao-despesa-dados.md)
