@@ -103,6 +103,7 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 | Tipo Empenho | Descrição do tipo de empenho: global, estimado, ordinário, extraorçamentário.|
 | Título do Convênio/Parceria | Descrição do Convênio/Parceria de saída de recursos.|
 | Unidade Executora | Descrição da Unidade Executora responsável pela execução da despesa|
+| Unidade Programação de Gasto (UPG)|Descrição da unidade de programação do Gasto|
 | Valor Empenhado | Valor do orçamento reservado para cumprir o compromisso assumido com o fornecedor ou credor |
 | Valor Liquidado | Valor que o fornecedor ou credor tem direito a receber referente ao produto ou serviço devidamente entregue |
 | Valor Pago |Valor referente aos pagamentos efetuados, no exercício, através de movimentações bancárias, escriturais e apropriação contábil da despesa. O efetivo pagamento pode estar pendente de transmissão ou compensação bancária |
@@ -128,6 +129,7 @@ Monte aqui uma nova consulta com informações detalhadas por meio de várias co
 | Fonte de Recurso |Identifica a origem e a destinação dos recursos legalmente vinculados a órgão, fundo ou despesa e combina a origem do dinheiro às despesas orçamentárias. Esta vinculação visa demonstrar o montante de dinheiro que já está comprometido com o atendimento de determinadas intenções, e aquele que pode ser livremente alocado.
 | Fonte de Recurso -  Portaria STN nº 710 | Identifica a origem e a destinação dos recursos legalmente vinculados a órgão, fundo ou despesa conforme determina a Portaria nº 710/2021 da Secretaria de Tesouro Nacional
 | Indicador de Procedência e Uso (IPU)|Identifica a origem e a utilização dos recursos. Ex.: se os recursos são para livre utilização, se foram transferidos de outra unidade orçamentária, se são para adesão a convênios, etc.   
+|Unidade Programação de Gasto (UPG)|Identifica a unidade de programação do Gasto|
 | Número Contrato/Convênio/Parceria| Número do contrato, convênio ou parceria registrado no SIAFI-MG
 | Número do Processo de Compra       |Número do Processo de compra no SIAD-MG
 | Procedimento de Contratação         |Indica a modalidade de licitação, como: concorrência, dispensa de licitação, pregão, tomada de preços e etc.
