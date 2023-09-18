@@ -13,7 +13,7 @@ Abaixo elencamos as principais melhorias sugeridas pelos usuários, divididas em
 
 #### 1. BARRA DE ACESSIBILIDADE
 
-- [ ] CONCLUÍDO
+- [X] CONCLUÍDO
 
     - RELATO: Falta da barra de acessibilidade
     - SOLUÇÃO: 
