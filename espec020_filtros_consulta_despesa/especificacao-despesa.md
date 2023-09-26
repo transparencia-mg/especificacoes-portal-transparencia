@@ -73,7 +73,7 @@ Esse documento tem como objetivo apresentar as alterações que deverão ser imp
 
 7. A descrição dos tooltips e os campos de cada tabela estão disponíveis em:
     * [Especificação Tooltip](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/especificacao-despesa-tooltip.md)
-   * [Especificação Dados](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/espec020_filtros_consulta_despesa/espec020_filtros_consulta_despesa/especificacao-despesa.md)
+   * [Especificação Dados](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec020_filtros_consulta_despesa/especificacao-despesa-dados.md)
 
 8. Todas as funcionalidades não exemplificadas seguirão o mesmo padrão já adotado na consulta Acordo Judicial da Vale do Portal de Transparência.
 
