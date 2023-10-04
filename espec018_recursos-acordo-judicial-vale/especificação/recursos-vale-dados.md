@@ -326,7 +326,7 @@ Essa consulta será plurianual, ou seja, o usuário irá visualizar os valores a
 | Armazém BO- SIAFI       | Filtro
 |--------------------------|-----------------
 |Fonte de Recurso| 95
-Classificação Receita - Formatado| 2990.00.1.1.02.000<br>1990.99.1.1.10.000
+Classificação Receita - Formatado| 2990.00.1.1.02.000<br>
 
 
 #### Campos da Tabela
