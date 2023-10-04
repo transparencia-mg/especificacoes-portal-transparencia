@@ -326,6 +326,11 @@ Essa consulta será plurianual, ou seja, o usuário irá visualizar os valores a
 |Fonte de Recurso| 95
 Classificação Receita - Formatado| 2990.00.1.1.02.000<br>1990.99.1.1.10.000
 
+- No issue 52 consta a retirada do código da receita 1990.99.1.1.10.000
+https://github.com/transparencia-mg/especificacoes-portal-transparencia/issues/52
+
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/52920939/6978f1ca-d8fd-4b8a-87de-d25b6ad04c15)
+
 
 #### Campos da Tabela
 
