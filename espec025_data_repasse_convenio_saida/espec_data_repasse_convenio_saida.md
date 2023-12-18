@@ -1,5 +1,5 @@
 ---
-title: "Data de Repasse - Consulta Convênio/Parceria de recursos de Saída"
+title: "Data de Repasse - Consulta Convênio-Parceria de recursos de Saída"
 Mantis:
 contrato_manutencao: INF 4504
 output:
