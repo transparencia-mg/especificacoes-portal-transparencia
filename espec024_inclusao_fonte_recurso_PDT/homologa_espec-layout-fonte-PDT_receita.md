@@ -15,7 +15,7 @@ Cabe destacar que os dados deverão sem implementados apenas nas informações d
 
 CONFERE
 ----
-  
+
  ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/19295e8f-2015-4d3a-a8f3-9c7d411966ca)
 
 </div>
@@ -40,7 +40,7 @@ CONFERE
 
 ***Indicam a classificação das fontes ou destinações de recursos utilizados pelos Estados, Distrito Federal e Municípios, conforme previsto na Portaria STN nº 710/2021***
 
-<div class="alert alert-warning">
+<div class="alert alert-danger">
 
 Corrigir texto do tooltip conforme abaixo:
 ----
@@ -52,7 +52,7 @@ Corrigir texto do tooltip conforme abaixo:
 
 ***Indicam o código das fontes ou destinações de recursos utilizados pelos Estados, Distrito Federal e Municípios, conforme previsto na Portaria STN nº 710/2021***
 
-<div class="alert alert-warning">
+<div class="alert alert-danger">
 
 Corrigir texto do tooltip conforme abaixo:
 ----
@@ -60,3 +60,32 @@ Corrigir texto do tooltip conforme abaixo:
 
 </div>
 
+-----------------------------------------------
+# Homologação  Valores
+
+#### 20240123_pesquisa básica(janeiro_fevereiro)
+
+Homologação dos meses de janeiro e fevereiro conforme disponibilizado no ambiente de homologação do PDA.
+
+Quando o processo de homologação for concluído por completo e a carga for automatizada será realizado a conferência dos demais meses por amostragem.
+
+https://age7-novo.homologacao.prodemge.gov.br/receitas/estado-receita/receita-consulta-v2/2023/01/02/0/0/242/209/3/570/1124/1703
+
+
+<div class="alert alert-danger">
+
+**Mesmo realizando a seleção no Portal apenas dos meses de janeiro e fevereiro todas as algumas associações correspondente a esse período não foram representadas corretamente.**
+
+</div>
+
+#### 20240123_pesquisa avançada(janeiro_fevereiro)
+
+<div class="alert alert-danger">
+
+**Alguns itens estão pendentes de associação mesmo tendo selecionado apenas os meses de janeiro e fevereiro.**
+
+**Destaca-se que  classificação é a mesma**
+
+</div>
+
+https://age7-novo.homologacao.prodemge.gov.br/receitas/estado-receita/receita-resultado-pesquisa-avancada-v2/2023/01/01/-/11881/-/-/-/-/-/-/-/-/-/2013/0/1/1/1/1/1/1/1/1/1/1/1/1
