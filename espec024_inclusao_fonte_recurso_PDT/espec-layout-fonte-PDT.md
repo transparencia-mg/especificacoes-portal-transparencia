@@ -39,6 +39,9 @@ Abaixo seguem as 12 consultas impactadas pela alteração:
 
 Cabe destacar que os dados deverão sem implementados apenas nas informações disponibilizadas a partir de 2023. As alterações deverão ser aplicadas nas consultas básicas, formulários de detalhamento e pesquisas avançadas. Ou seja, a nova coluna será exibida no PDT a depender do ano selecionado pelo usuário.
 
+Os dados devem ser aplicados apenas a partir de 2023, ou seja, isso reflete na questão de layout também. A coluna fonte de recurso, tanto na pesquisa básica, formulário de detalhamento e pesquisa avançada só devem ser exibidos com dados a partir de 2023.
+
+Caso a informação (coluna) apareça em registros anteriores o usuário pode entender que não existe a informação e que o Portal apresenta um erro.
 
 ## 1. Acordo Judicial de Reparação da Vale
 <a href="#top">(inicio)</a>
@@ -47,11 +50,13 @@ Cabe destacar que os dados deverão sem implementados apenas nas informações d
 
 ##### FILTRO : Por Receita
 
-![image](https://user-images.githubusercontent.com/53793354/228531669-a563c655-67f1-46ec-a34a-ee086c95523d.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/48bbb4b1-1d58-432c-b337-7e9b23cf6210)
+
 
 ### Formulário de Detalhamento
 
-![image](https://user-images.githubusercontent.com/53793354/228533056-d84cea10-668f-4e47-88f6-3ba0cdc04e85.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/1c2c90e6-6aff-4adc-898e-0d1e8d90dff6)
+
 
 
 ### Pesquisa Avançada
@@ -61,7 +66,8 @@ Cabe destacar que os dados deverão sem implementados apenas nas informações d
 * Deverá ser exibido código e descrição conforme padrão adotado no PDT.
 
 
-![image](https://user-images.githubusercontent.com/53793354/228532348-21f2d57f-fa8b-4eee-8aa0-642011e92a99.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/e0aaaa68-4631-4b7e-9d1f-aa06c316f15e)
+
 
 ##### Tabela de Resultados
 
@@ -69,38 +75,43 @@ Cabe destacar que os dados deverão sem implementados apenas nas informações d
 
   Por exemplo, caso o usuário marque a opção adicionar "Fonte de Recurso" automaticamente a outra opção "Fonte de Recurso - Portaria STN 710" será selecionada.
 
-![image](https://user-images.githubusercontent.com/53793354/228558868-f4e7bb64-f9a9-48c1-8d24-4eda219d7156.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/d9b6b976-2154-4169-be50-aee91a2ff592)
 
 
-![image](https://user-images.githubusercontent.com/53793354/228532231-14fa5421-6779-4172-89c7-84d73219e363.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/308c315a-d53c-4162-a869-2c8339c98a7e)
+
 
 ## 2. Despesa
 
-### Pesquisa básica
+### Pesquisa básica - Favorecido
 
-![image](https://user-images.githubusercontent.com/53793354/228532796-9dc2850b-ed0d-494a-b282-67b4b680ca33.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/9ba8bf49-b943-464d-86c9-57a6aa295666)
+
 
 ### Formulário de Detalhamento
 
 * Favor se atentar para a alteração da ordem dos campos.
 
-![image](https://user-images.githubusercontent.com/53793354/228533216-4f2603c8-7a85-45cd-bd53-c01796abd065.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/d3077033-a413-4002-9745-14f28b461222)
+
 
 ### Pesquisa Avançada
-![image](https://user-images.githubusercontent.com/53793354/228533321-67582029-b38c-4ea9-8a64-eb8092ed8888.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/3cf44322-49b9-4da5-b23e-6d56d3b3a2c3)
+
 
 
 ## 3. Restos a Pagar
 
 ### Pesquisa básica
-![image](https://user-images.githubusercontent.com/53793354/228533582-ee9cd4b4-a3cb-49f8-83e4-f4c823b4c65b.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/5c89c82f-175b-4a23-b679-03c0bb51a07c)
 
 
 ### Formulário de Detalhamento
 
 * Favor se atentar para a alteração da ordem dos campos.
 
-![image](https://user-images.githubusercontent.com/53793354/228533512-58ae1c36-a3db-4914-8912-480144b29d86.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/ebdae4ea-cee5-41b0-9f7d-e4a132564e77)
+
 
 ### Pesquisa Avançada
 ![image](https://user-images.githubusercontent.com/53793354/228533321-67582029-b38c-4ea9-8a64-eb8092ed8888.png)
@@ -108,87 +119,89 @@ Cabe destacar que os dados deverão sem implementados apenas nas informações d
 ## 4. Receita
 
 ### Pesquisa básica
-![image](https://user-images.githubusercontent.com/53793354/228533791-e6718110-401e-42c7-987c-3de02249033c.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/60c3549b-f894-4f35-82c9-83157b4d1857)
+
 
 ### Pesquisa Avançada
 
-![image](https://user-images.githubusercontent.com/53793354/228533717-c75b402b-9d13-47dc-ae63-3daa8107d06b.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/db59493c-8b7e-4342-8a41-989c4b15f481)
 
 
 ## 5. Proposta Orçamentária
 
 ### Pesquisa básica
-![image](https://user-images.githubusercontent.com/53793354/228566125-dabbf162-318a-4916-bd0a-f45d797b329c.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/bddeced6-08c0-4742-a29f-e2ae527474d5)
 
 
 ### Pesquisa Avançada
-![image](https://user-images.githubusercontent.com/53793354/228534110-6fb9e567-29cc-4398-ab12-7f6bff87a28c.png)
-
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/d4722a8f-235d-48df-bbea-c9f6f305935d)
 
 
 ## 6. Emenda Orçamentária
 
 ### Pesquisa básica
 
-![image](https://user-images.githubusercontent.com/53793354/228566244-ee5e39b2-a384-4c32-aeaa-0e46899893e4.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/c1efb674-c61c-4b55-9ef9-b3fed8c910f6)
+
 
 
 ## 7. Alteração Orçamentária
 
 ### Pesquisa básica
 
-![image](https://user-images.githubusercontent.com/53793354/228566350-b1747cde-a9ce-46a4-98cf-bd1eb22d8c7c.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/e943f751-5b07-44e8-b1d6-1de2abd63cb8)
 
 
 ### Formulário de Detalhamento
 * Favor se atentar para a alteração da ordem dos campos.
 
-![image](https://user-images.githubusercontent.com/53793354/228534886-f1584c29-f366-4648-9703-b05daf846e6d.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/d84912e8-66cc-4889-8419-ff10f88da361)
+
 
 ### Pesquisa Avançada
-![image](https://user-images.githubusercontent.com/53793354/228534484-873ca691-fc41-4483-b48e-0ad09b9ee484.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/21d890c4-1e3a-47cd-974c-524f4927e249)
 
 
 ## 8. Crédito Orçamentário
 
 ### Pesquisa básica
 
-![image](https://user-images.githubusercontent.com/53793354/228566449-7df6dd5e-b40a-4ed5-9410-5258a9fa176f.png)
-
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/5ec1f819-dd68-47e9-9a26-db4c9efbfbfd)
 
 
 ### Pesquisa Avançada
-![image](https://user-images.githubusercontent.com/53793354/228535066-d76c99c6-da02-4bb1-a388-0e1e7e094c59.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/8e20c547-b2ee-446b-892e-4983f44e10ce)
+
 
 ## 9. Diárias
 
 ### Formulário de Detalhamento
 * Favor se atentar para a alteração da ordem dos campos.
 
-![image](https://user-images.githubusercontent.com/53793354/228535354-02a48d14-abef-45f8-a6af-1aa17fd38f76.png)
-
-### Pesquisa Avançada
-![image](https://user-images.githubusercontent.com/53793354/228535458-9272de51-4a93-4886-ab94-52013f9a460f.png)
+  ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/b5e1e1a2-adcc-4841-ae3a-d84fbc7d03c0)
 
 
 ## 10. Viagens
 
 ### Formulário de Detalhamento
-![image](https://user-images.githubusercontent.com/53793354/228535536-9a39f046-6c80-48a4-9193-52de65e1cb1c.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/6bece99a-963c-48d3-b077-76447fd52823)
 
 
 ## 11. Programação e Execução do PPAG por Programa
 
 ### Programação Orçamentária e Financeira do Programa
-![image](https://user-images.githubusercontent.com/53793354/228548823-d6c2459b-8fda-4fdb-9a43-c1b174016ebb.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/bda4778f-ca78-45e2-91b8-a6a590cce475)
+
 
 ### Execução Orçamentária e Financeira do Programa
 
-![image](https://user-images.githubusercontent.com/53793354/228545971-088c1ee3-3983-4a80-8ac0-1e55efd97a25.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/183403f7-9cc2-4129-8bf6-edb677eb1d95)
+
 
 
 ### Dados Gerais da Ação
-![image](https://user-images.githubusercontent.com/53793354/228550183-6acf8c0c-e7e0-4d0c-90da-c89deefbd835.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/3147168c-9114-4e7c-b8d9-89d141871c02)
+
 
 
 ## 12. Compras e Contratos
@@ -197,7 +210,8 @@ Cabe destacar que os dados deverão sem implementados apenas nas informações d
 
 * Favor se atentar para a alteração da ordem dos campos.
 
-![image](https://user-images.githubusercontent.com/53793354/228559021-5660dab6-98b1-4a0e-aebd-46dae96b6914.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/526e3bfe-4006-4501-a64d-8a983a17f75c)
+
 
 # Tooltip
 
@@ -207,11 +221,11 @@ Nas colunas acrescentadas, deverá aparecer o tooltip ao passar o mouse sobre o 
 
 ### Tooltip 1: Coluna Fonte de Financiamento - Portaria STN nº 710: 
 
-***Indica a classificação das fontes ou destinações de recursos utilizada pelos Estados, Distrito Federal e Municípios, conforme previsto na Portaria STN nº 710***
+***Indicam a classificação das fontes ou destinações de recursos utilizados pelos Estados, Distrito Federal e Municípios, conforme previsto na Portaria STN nº 710/2021***
 
 ### Tooltip 2: Código da Fonte de Financiamento - Portaria STN nº 710: 
 
-***Indica o código das fontes ou destinações de recursos utilizado pelos Estados, Distrito Federal e Municípios, conforme previsto na Portaria STN nº 710***
+***Indicam o código das fontes ou destinações de recursos utilizados pelos Estados, Distrito Federal e Municípios, conforme previsto na Portaria STN nº 710/2021***
 
 
 
