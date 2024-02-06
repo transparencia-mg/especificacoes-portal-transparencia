@@ -114,17 +114,19 @@ Caso a informação (coluna) apareça em registros anteriores o usuário pode en
 
 
 ### Pesquisa Avançada
-![image](https://user-images.githubusercontent.com/53793354/228533321-67582029-b38c-4ea9-8a64-eb8092ed8888.png)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/ed2e2205-91d0-4f8f-8e9b-21bb6329699c)
+
 
 ## 4. Receita
 
 ### Pesquisa básica
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/60c3549b-f894-4f35-82c9-83157b4d1857)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/60a3445b-22cc-4658-9a51-b07392e764b1)
+
 
 
 ### Pesquisa Avançada
 
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/db59493c-8b7e-4342-8a41-989c4b15f481)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/1f11f889-8880-4e98-b232-9b269f49630d)
 
 
 ## 5. Proposta Orçamentária
@@ -155,22 +157,26 @@ Caso a informação (coluna) apareça em registros anteriores o usuário pode en
 ### Formulário de Detalhamento
 * Favor se atentar para a alteração da ordem dos campos.
 
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/d84912e8-66cc-4889-8419-ff10f88da361)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/bc46898d-2d8c-4243-b028-4344c2633ec7)
+
 
 
 ### Pesquisa Avançada
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/21d890c4-1e3a-47cd-974c-524f4927e249)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/da4e7245-64f1-4aa7-bda4-8970b5d09be7)
+
 
 
 ## 8. Crédito Orçamentário
 
 ### Pesquisa básica
 
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/5ec1f819-dd68-47e9-9a26-db4c9efbfbfd)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/cc18c49b-b96e-4256-b5d5-b8cc9c68ac08)
+
 
 
 ### Pesquisa Avançada
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/8e20c547-b2ee-446b-892e-4983f44e10ce)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/89b53eda-671d-4f6d-a42d-d988bc67e78a)
+
 
 
 ## 9. Diárias
@@ -178,29 +184,34 @@ Caso a informação (coluna) apareça em registros anteriores o usuário pode en
 ### Formulário de Detalhamento
 * Favor se atentar para a alteração da ordem dos campos.
 
-  ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/b5e1e1a2-adcc-4841-ae3a-d84fbc7d03c0)
+  ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/a45f2aa1-4d54-4d72-88ac-37022840c316)
+
 
 
 ## 10. Viagens
 
 ### Formulário de Detalhamento
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/6bece99a-963c-48d3-b077-76447fd52823)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/c575019f-1861-41c4-959f-47cb13e772be)
+
 
 
 ## 11. Programação e Execução do PPAG por Programa
 
 ### Programação Orçamentária e Financeira do Programa
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/bda4778f-ca78-45e2-91b8-a6a590cce475)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/6d37ca8d-b839-443c-b6d9-7c57b222fc9d)
+
 
 
 ### Execução Orçamentária e Financeira do Programa
 
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/183403f7-9cc2-4129-8bf6-edb677eb1d95)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/f5b15cac-40b9-48c3-aaa4-3551540285c5)
+
 
 
 
 ### Dados Gerais da Ação
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/3147168c-9114-4e7c-b8d9-89d141871c02)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/ac741339-8065-465f-9a86-d3dc9ad94c58)
+
 
 
 
@@ -210,7 +221,8 @@ Caso a informação (coluna) apareça em registros anteriores o usuário pode en
 
 * Favor se atentar para a alteração da ordem dos campos.
 
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/526e3bfe-4006-4501-a64d-8a983a17f75c)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/728d249a-a8fe-4940-85ed-8b1d86e850e3)
+
 
 
 # Tooltip
