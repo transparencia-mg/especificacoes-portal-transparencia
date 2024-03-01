@@ -9,6 +9,28 @@ output:
   pdf_document:
     toc: yes
 ---
+# Alteração da Espefificação conforme reunião do dia 29/02/2024
+> 
+> Conforme acordado em reunião de alinhamento realizada em 29/02/24 entre a SEPLAG, a CGE e a PRODEMGE, encaminho-lhes para registro e formalização os seguintes pontos:
+> 1. Remoção da Informação da Fonte de Recurso STN: A informação da Fonte de Recurso STN será removida das seguintes consultas:
+>
+> Diárias
+> Viagens
+> PPAG
+> Compras e Contratos
+> 
+> 2. Atualização diária com carga completa: As seguintes consultas serão atualizadas diariamente com a carga completa, incluindo dados desde janeiro de 2023:
+> Despesa
+> Restos a Pagar
+> Receita
+> Proposta Orçamentária
+> Emendas Orçamentárias
+> Alteração Orçamentária
+> Crédito Orçamentário
+> 
+> 3. Atualização incremental da consulta do Acordo Judicial da Vale: A consulta do Acordo Judicial da Vale será atualizada diariamente com carga incremental.
+> Conforme informado pela SEPLAG a Fonte de Recurso 95 sempre será a 899.
+
 # Visão geral da demanda
 <a href="#top">(inicio)</a>
 
@@ -28,11 +50,6 @@ Abaixo seguem as 12 consultas impactadas pela alteração:
 - Emenda Orçamentária
 - Alteração Orçamentária
 - Crédito Orçamentário
-- Diárias
-- Viagens
-- Programação e Execução do PPAG por Programa
-- Compras e Contratos
-
 
 # Especificação
 <a href="#top">(inicio)</a>
@@ -42,6 +59,13 @@ Cabe destacar que os dados deverão sem implementados apenas nas informações d
 Os dados devem ser aplicados apenas a partir de 2023, ou seja, isso reflete na questão de layout também. A coluna fonte de recurso, tanto na pesquisa básica, formulário de detalhamento e pesquisa avançada só devem ser exibidos com dados a partir de 2023.
 
 Caso a informação (coluna) apareça em registros anteriores o usuário pode entender que não existe a informação e que o Portal apresenta um erro.
+
+## Atualização da Consulta
+
+ A atualização deverá ser diária com carga completa em todas as consultas com exceção da consulta Acordo Judicial da Vale
+ 
+ - Carga completa - atualização diária incluindo dados desde janeiro de 2023: Todas as consultas
+ - Carga incremental - atualização diária - Acordo Judicial da Vale
 
 ## 1. Acordo Judicial de Reparação da Vale
 <a href="#top">(inicio)</a>
@@ -56,29 +80,6 @@ Caso a informação (coluna) apareça em registros anteriores o usuário pode en
 ### Formulário de Detalhamento
 
 ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/1c2c90e6-6aff-4adc-898e-0d1e8d90dff6)
-
-
-
-### Pesquisa Avançada
-
-##### Barra de Navegação Vertical
-
-* Deverá ser exibido código e descrição conforme padrão adotado no PDT.
-
-
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/e0aaaa68-4631-4b7e-9d1f-aa06c316f15e)
-
-
-##### Tabela de Resultados
-
-* Quando o usuário selecionar qualquer um dos tipos de fontes de recursos, o PDT deverá exibir as duas colunas na tabela de resultados.
-
-  Por exemplo, caso o usuário marque a opção adicionar "Fonte de Recurso" automaticamente a outra opção "Fonte de Recurso - Portaria STN 710" será selecionada.
-
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/d9b6b976-2154-4169-be50-aee91a2ff592)
-
-
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/308c315a-d53c-4162-a869-2c8339c98a7e)
 
 
 ## 2. Despesa
@@ -145,8 +146,6 @@ Caso a informação (coluna) apareça em registros anteriores o usuário pode en
 
 ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/c1efb674-c61c-4b55-9ef9-b3fed8c910f6)
 
-
-
 ## 7. Alteração Orçamentária
 
 ### Pesquisa básica
@@ -164,8 +163,6 @@ Caso a informação (coluna) apareça em registros anteriores o usuário pode en
 ### Pesquisa Avançada
 ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/da4e7245-64f1-4aa7-bda4-8970b5d09be7)
 
-
-
 ## 8. Crédito Orçamentário
 
 ### Pesquisa básica
@@ -173,56 +170,8 @@ Caso a informação (coluna) apareça em registros anteriores o usuário pode en
 ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/cc18c49b-b96e-4256-b5d5-b8cc9c68ac08)
 
 
-
 ### Pesquisa Avançada
 ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/89b53eda-671d-4f6d-a42d-d988bc67e78a)
-
-
-
-## 9. Diárias
-
-### Formulário de Detalhamento
-* Favor se atentar para a alteração da ordem dos campos.
-
-  ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/a45f2aa1-4d54-4d72-88ac-37022840c316)
-
-
-
-## 10. Viagens
-
-### Formulário de Detalhamento
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/c575019f-1861-41c4-959f-47cb13e772be)
-
-
-
-## 11. Programação e Execução do PPAG por Programa
-
-### Programação Orçamentária e Financeira do Programa
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/6d37ca8d-b839-443c-b6d9-7c57b222fc9d)
-
-
-
-### Execução Orçamentária e Financeira do Programa
-
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/f5b15cac-40b9-48c3-aaa4-3551540285c5)
-
-
-
-
-### Dados Gerais da Ação
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/ac741339-8065-465f-9a86-d3dc9ad94c58)
-
-
-
-
-## 12. Compras e Contratos
-
-### Nota de Empenho - Formulário de detalhamento do Processo Compra
-
-* Favor se atentar para a alteração da ordem dos campos.
-
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/728d249a-a8fe-4940-85ed-8b1d86e850e3)
-
 
 
 # Tooltip
