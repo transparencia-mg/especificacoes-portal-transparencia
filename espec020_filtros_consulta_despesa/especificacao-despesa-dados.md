@@ -28,8 +28,8 @@ A consulta será anual, ou seja, o usuário irá visualizar a execução da Dív
 | Código da Função| Função - Código |SIAFI - Execução Orçamentária da Despesa >> Despesa Realizada >> GMIFP - Despesa|
 | Fonte de Recurso| Fonte de Recurso - Descrição | SIAFI - Execução Orçamentária da Despesa >> Despesa Realizada >> GMIFP - Despesa
 | Código Fonte de Recurso| Fonte de Recurso - Código |Execução Orçamentária da Despesa >> Despesa Realizada >> GMIFP - Despesa
-| Fonte de Recurso - Portaria STN nº 710| Descrição| Matriz de Correspondência (fonte_stn)- Portal de Dados Abertos
-| Código Fonte de Recurso - Portaria STN nº710|Fonte_STN_COD| Matriz de Correspondência - Portal de Dados Abertos
+| Fonte de Recurso - Portaria STN nº 710/2021| Descrição| Matriz de Correspondência (fonte_stn)- Portal de Dados Abertos
+| Código Fonte de Recurso - Portaria STN nº710/2021|Fonte_STN_COD| Matriz de Correspondência - Portal de Dados Abertos
 | Grupo de Despesa| Grupo de Despesa - Descrição| SIAFI -Execução Orçamentária da Despesa >> Despesa Realizada >> Natureza da Despesa Realizada
 | Código Grupo de Despesa| Grupo de Despesa - Código| SIAFI -Execução Orçamentária da Despesa >> Despesa Realizada >> Natureza da Despesa Realizada
 | Item de despesa| Item de Despesa - Descrição  |SIAFI -Execução Orçamentária da Despesa >> Despesa Realizada >> Natureza da Despesa Realizada|
@@ -113,7 +113,6 @@ Unidade de Programação de Gastos (UPG)|sim | sim||
 |Elemento de Despesa|sim | sim||
 |Item de Despesa|sim | sim||
 |Fonte de Recurso|sim | sim||
-|Fonte de Recurso - Portaria STN nº 710|sim | sim||
 |Indicador de Procedência e Uso (IPU)|sim | sim||
 |Empenho|sim |sim|
 |Número do Processo de Compra|sim | sim||
@@ -187,5 +186,4 @@ Os campos referente aos códigos serão exibidos quando o usuário acionar o bot
 |Código Elemento de Despesa
 |Código Item de Despesa
 |Código Fonte de Recurso
-|Fonte de Recurso - Portaria STN nº 710
 |Código Indicador de Procedência e Uso (IPU)
