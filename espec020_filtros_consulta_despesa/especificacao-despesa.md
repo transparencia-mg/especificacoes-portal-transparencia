@@ -141,7 +141,7 @@ A barra de navegação superior será composta pelos seguintes campos:
 
   ![](static/filtro-favorecido.png)
 
-6. A barra de pesquisa do campo filtro deverá possuir atributo [placeholder](https://www.w3schools.com/tags/att_input_placeholder.asp) para facilitar ou indicar como o campo deverá sem preenchido e a informação deverá ser retornada a medida que o usuário for digitando.<br> (Texto: *Digite o nome, parte do nome ou CPF/CNPJ*)
+6. A barra de pesquisa do campo filtro deverá possuir atributo [placeholder](https://www.w3schools.com/tags/att_input_placeholder.asp) para facilitar ou indicar como o campo deverá sem preenchido. Destaca-se que o campo favorecido nome e CNPJ serão obrigatórios para o usuário seguir na busca, conforme ocorre na consulta da Vale. Porém nos demais filtros (órgão, programa, função) a informação deverá ser retornada a medida que o usuário for digitando.<br> (Texto: *Digite o nome, parte do nome ou CPF/CNPJ*)
 
 7. As demais funcionalidades serão as mesmas já adotadas na consulta 'Acordo Judicial de Reparação da Vale' (MELHOR TRAZER DA ESPECIFICAÇÃO DA CONSULTA DA VALE AQUI E REPETIR AS FUNCIONALIDADES QUE QUEREMOS QUE SEJAM IMPLEMENTADAS PFV)
 
