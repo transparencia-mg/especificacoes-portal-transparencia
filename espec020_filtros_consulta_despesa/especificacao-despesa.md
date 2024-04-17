@@ -158,8 +158,9 @@ A barra de navegação superior será composta pelos seguintes campos:
 
   * **TOTAL GERAL:** quando o usuário não aplicar nenhum filtro na tabela ou quando todos os dados forem exibidos em uma única página, ou seja, sem paginação;
   * **SUBTOTAL:** quando o usuário aplicar qualquer filtro na tabela através da barra de pesquisa ou quando houver paginação na tabela de resultado, ou seja, houver mais de uma página de resultado.
-
-7. Todos os parâmetros apresentados acima, podem ser verificados na consulta do Portal *'Acordo Judicial da Vale'*.
+    
+7. Os campos clicáveis serão destacados conforme o layout já adotado pelo PdT e terão a imagem de uma lupa. Para exibir mais informações o usuário deverá clicar na lupa da coluna "detalhar":
+8. Todos os parâmetros apresentados acima, podem ser verificados na consulta do Portal *'Acordo Judicial da Vale'*.
 
 ![tabela-resultados-pesquisa-basica](https://user-images.githubusercontent.com/53793354/222518746-af453a54-590d-4454-8722-53f6230c770b.gif)
 
@@ -180,9 +181,10 @@ Exemplo: Consulta de Despesa
 
   * O documento gerado em PDF deverá exibir:
       * logo do Portal de Transparência no início da página;
-      * *URL*, paginação e a data no fim da página;
+      * *URL*, paginação e a data no fim da página (data em que a consulta foi realizada);
       * O arquivo gerado irá exibir os mesmos dados apresentados na tela considerando todos os filtros aplicados, inclusive TOTAL GERAL ou SUBTOTAL conforme o comportamento do usuário.
       * ao selecionar essa opção o arquivo PDF deverá ser aberto em outra aba do navegador
+      * Período da consulta
 
   - **Download Planilha (CSV):**
 
@@ -298,11 +300,11 @@ ___________
 
 **Comportamento da Consulta:**
 
-- Ao clicar no campo 'Número do Processo de Compra' o usuário será direcionado o [formulário de detalhamento da consulta Compras e Contratos](https://www.transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos/comprasecontratos-detalhe-proccompra/2022/20220101/20221231/369556).
+- Ao clicar no campo 'Número do Processo de Compra' o usuário será direcionado o [formulário de detalhamento da consulta Compras e Contratos](https://www.transparencia.mg.gov.br/licitacoes-e-contratos/compras-e-contratos/comprasecontratos-procedimento/99/2024/01-01-2024/17-04-2024/1831084/5/0/0/17/3/175/305/6976/3050203/92592/1872/409049/2301762000001-2024).
 
-- Ao clicar no campo 'Número do Contrato' o usuário o usuário será direcionado o [formulário de detalhamento da consulta Contratos](https://www.transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos/comprasecontratos-filtros/5/2022/01-01-2022/31-12-2022/564/75328).
+- Ao clicar no campo 'Número do Contrato' o usuário o usuário será direcionado o [formulário de detalhamento da consulta Contratos](https://www.transparencia.mg.gov.br/licitacoes-e-contratos/compras-e-contratos/comprasecontratos-filtros/5/2024/01-01-2024/17-04-2024/90/85413).
 
-- Ao clicar no campo 'Número do Convênio / Parceria SIAFI' o usuário será direcionado o formulário de detalhamento da consulta [Consulta Convênios / Parceria de Saída de Recursos](https://www.transparencia.mg.gov.br/convenios/convenios-de-saida/convenios-conslivre-detalhesconv/2021/01-01-2021/31-12-2021/61691)
+- Ao clicar no campo 'Número do Convênio / Parceria SIAFI' o usuário será direcionado o formulário de detalhamento da consulta [Consulta Convênios / Parceria de Saída de Recursos](https://www.transparencia.mg.gov.br/convenios/convenios-de-saida-de-recursos/convenios-de-saida/convenios-orgao-detalhesconv/2/2024/01-01-2024/31-12-2024/20/4674/74024)
 
 ### CONSULTA POR FUNÇÃO
 <a href="#top">(inicio)</a>
