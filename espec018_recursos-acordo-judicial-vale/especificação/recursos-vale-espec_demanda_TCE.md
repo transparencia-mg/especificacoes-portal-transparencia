@@ -39,7 +39,7 @@ Conforme consta no Processo SEI nº 1630.01.0000258/2024-25, Ofício SEPLAG/RAM 
 
 Este documento é fundamentado pelas seguintes alterações:
 
-- Inclusão das colunas: Valor Cancelado em Restos a Pagar e Valor Empenhado/Cancelado no exercício
+- Inclusão das colunas: Valor Cancelado em Restos a Pagar e Valor Empenhado/Cancelado no Exercício
 - Alteração da nomenclatura de Projeto para Iniciativa.
 - Ajustes no layout e no formulário de detalhamento em decorrência das alterações mencionadas acima
 
@@ -70,7 +70,7 @@ Outras informações sobre o Acordo Judicial de Reparação podem ser consultada
 
 ## Alteração de termos de "projeto" para "Iniciativas"
 
-Em toda consulta (pesquisa básica, tabela de resultados, tooltip, pesquisa avançada, glossário e etc) deverá ser alterado a nomenclatura do termo 'projeto' para 'Iniciativa'
+Em toda consulta (pesquisa básica, tabela de resultados, tooltip, pesquisa avançada, glossário e etc) deverá ser alterado a nomenclatura do termo 'Projeto' para 'Iniciativa'
 
 ## Inclusão do campo "Dados Atualizados em:" no formulário de detalhamento
 
@@ -94,9 +94,9 @@ Como a nomenclatura da tabela origem será alterada será necessário se atentar
     * Valor Despesa Empenhada            
     * Valor Despesa Liquidada         
     * Valor Pago
-    * Valor Cancelado em restos a pagar
-    * Valor Liquidado em restos a pagar
-    * Valor Empenhado/Cancelado no exercício
+    * Valor Liquidado em Restos a Pagar
+    * Valor Cancelado em Restos a Pagar
+    * Valor Empenhado/Cancelado no Exercício
     * Valor Pago em Restos a Pagar
     * Valor Total Pago     
 
@@ -104,15 +104,15 @@ Como a nomenclatura da tabela origem será alterada será necessário se atentar
 
   * 2º NÍVEL
     * [Empenho]() -> ao clicar o usuário será direcionado para o 3º nível - Formulário de Detalhamento
-    * Data de Registro do Empenho
     * Ano
+    * Data de Registro do Empenho
     * CNPJ/CPF Favorecido
     * Valor Despesa Empenhada            
     * Valor Despesa Liquidada         
     * Valor Pago
-    * Valor Cancelado em restos a pagar
-    * Valor Liquidado em restos a pagar
-    * Valor Empenhado/Cancelado no exercício
+    * Valor Liquidado em Restos a Pagar
+    * Valor Cancelado em Restos a Pagar
+    * Valor Empenhado/Cancelado no Exercício
     * Valor Pago em Restos a Pagar
     * Valor Total Pago  
 
@@ -157,9 +157,9 @@ As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remov
   * Valor Despesa Empenhada            
   * Valor Despesa Liquidada         
   * Valor Pago
-  * Valor Cancelado em restos a pagar
-  * Valor Liquidado em restos a pagar
-  * Valor Empenhado/Cancelado no exercício
+  * Valor Liquidado em Restos a Pagar
+  * Valor Cancelado em Restos a Ppagar
+  * Valor Empenhado/Cancelado no Exercício
   * Valor Pago em Restos a Pagar
   * Valor Total Pago
 
@@ -171,20 +171,20 @@ As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remov
   * Data de Registro do Empenho
   * Unidade orçamentária
   * Unidade Executora
-  * Favorecido
   * CNPJ/CPF Favorecido
+  * Favorecido
   * Valor Despesa Empenhada            
   * Valor Despesa Liquidada         
   * Valor Pago
-  * Valor Cancelado em restos a pagar
-  * Valor Liquidado em restos a pagar
-  * VValor Empenhado/Cancelado no exercício
+  * Valor Liquidado em Restos a Pagar
+  * Valor Cancelado em Restos a Pagar
+  * Valor Empenhado/Cancelado no Exercício
   * Valor Pago em Restos a Pagar
   * Valor Total Pago  
 ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/4fd70501-a075-4f62-881a-c11e8d198959)
 
 
-* Ao inserir qualquer coluna da  tabela ***Adicionar/Remover Colunas***  essas serão incluídas antes das colunas de valores. E caso seja incluída alguma coluna de valor o portal deverá manter a ordem da execução orçamentária (Valor empenhado, valor liquidado, valor pago, Valor Cancelado em restos a pagar, valor liquidado em RP, Valor Empenhado Efetivo, Valor Pago em RP, Valor Total Pago).
+* Ao inserir qualquer coluna da  tabela ***Adicionar/Remover Colunas***  essas serão incluídas antes das colunas de valores. E caso seja incluída alguma coluna de valor o portal deverá manter a ordem da execução orçamentária (Valor Empenhado, Valor Liquidado, Valor Pago, Valor Liquidado em RP, Valor Cancelado em Restos a Pagar, Valor Empenhado/Cancelado no Exercício, Valor Pago em RP, Valor Total Pago).
 
 ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/86b6219c-21df-4a52-bc7c-8624642ba8f4)
 
@@ -192,7 +192,7 @@ As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remov
 # Especificação - Dados da Consulta
 <a href="#top">(inicio)</a>
 
-### Por Iniciativa
+## Por Iniciativa
 <a href="#top">(inicio)</a>
 
 Como a nomenclatura da tabela origem será alterada será necessário se atentar para a mudança do mapa de carga para a correta extração do Portal de Dados Abertos.
