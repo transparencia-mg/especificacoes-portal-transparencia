@@ -68,11 +68,16 @@ Alteração do texto da Página Inicial para:
 
 Outras informações sobre o Acordo Judicial de Reparação podem ser consultadas na página do [Comitê Pró-Brumadinho](https://www.mg.gov.br/pro-brumadinho).
 
-## Alteração de termos de "Projeto" para "Iniciativas"
+## Alteração de termos de "projeto" para "Iniciativas"
 
-Em toda consulta (pesquisa básica, tabela de resultados, tooltip, pesquisa avançada, glossário e etc) deverá ser alterado a nomenclatura do termo 'Projeto' para 'Iniciativa'
+Em toda consulta (pesquisa básica, tabela de resultados, tooltip, pesquisa avançada, glossário e etc) deverá ser alterado a nomenclatura do termo 'projeto' para 'Iniciativa'
 
 ## Campos Pesquisa básica - Navegação por filtros
+
+####  Por Iniciativa (Por  projeto)
+<a href="#top">(inicio)</a>
+
+Como a nomenclatura da tabela origem será alterada será necessário se atentar para a mudança do mapa de carga para a correta extração do Portal de Dados Abertos.
 
 #### Consulta por Execução
 
@@ -143,7 +148,7 @@ As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remov
 
   * [Detalhar]() => ao clicar na lupa o usuário será direcionado para o 2º nível da tabela da pesquisa avançada
   * Ano
-  * Código da Iniciativa
+  * Código Iniciativa
   * Valor Despesa Empenhada            
   * Valor Despesa Liquidada         
   * Valor Pago
@@ -178,3 +183,82 @@ As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remov
 
 ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/314b38d9-a618-49ab-8472-402f2e69947f)
 
+# Especificação - Dados da Consulta
+<a href="#top">(inicio)</a>
+
+### Por Iniciativa
+<a href="#top">(inicio)</a>
+
+Como a nomenclatura da tabela origem será alterada será necessário se atentar para a mudança do mapa de carga para a correta extração do Portal de Dados Abertos.
+
+Os dados dessa consulta serão extraídos do Portal de Dados Abertos
+
+#### Filtros da Consulta
+Essa consulta será plurianual, ou seja, o usuário irá visualizar todas as iniciativas e valores independente do ano.
+
+
+|    Fonte de Dados    | URL
+|--------------------------|-----------------
+|Portal de Dados Abertos|    https://dados.mg.gov.br/dataset/acordo-judicial-reparacacao-vale-Iniciativas
+
+
+
+#### Campos da Tabela
+
+| Portal de Dados Abertos | PdT | Tooltip - PdT | Exibição da Coluna
+|------------|-----|--------------------|---|
+| Código Iniciativa| Código Iniciativa          | Código da Iniciativa no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |default
+| Iniciativa     |Iniciativa               | Descrição da Iniciativa conforme consta no Acordo de Reparação e de execução do Governo do Estado                 |default
+| Anexo         | Anexo      |          Anexo ao qual a Iniciativa se refere conforme o Acordo de Reparação      |default
+| Valor da Iniciativa         | Valor da Iniciativa       |          Valor total destinado a Iniciativa        |default
+
+
+## Por Execução
+<a href="#top">(inicio)</a>
+
+Os dados dessa consulta serão extraídos do Universo BO SIAFI
+-  Armazém BO / Pastas públicas - SIAFI > SUPORTE- SIAFI > XXXXXXXXXXXXXXXXXX
+
+#### Filtros da Consulta
+
+Essa consulta será anual, ou seja, o usuário irá visualizar a execução (Despesa e restos a Pagar) do Iniciativa conforme o período selecionado.
+
+|Dados| Armazém BO- SIAFI       |Dimensão SIAFI| Filtro  |
+|--|--------------------------|----------|-------
+| Despesa| Contrato Convênio Entrada |SIAFI - Execução Orçamentária da Despesa > Despesa Realizada| Usar como filtro todos os 'Código Iniciativa' listados na consulta Por Iniciativa |     
+| Restos a Pagar| Contrato Convênio Entrada  | SIAFI - Execução de Restos a Pagar > Restos a Pagar | Usar como filtro todos os 'Código Iniciativa' listados na consulta Por Iniciativa
+| | Ano de Exercício  | SIAFI - Período Contábil |
+
+
+#### Campos da Tabela
+
+##### Tabela - Novas Colunas
+
+|Dados| Campo armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Tooltip - PdT           | Fórmula Portal
+|--|------|---|---------------|------------|---|
+|Portal de Dados Abertos| Código Iniciativa | Portal de Dados Abertos |Código Iniciativa            | Código da Iniciativa no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |
+|Fórmula Portal| -Valor Cancelado Processado<br> -Valor Cancelado Não Processado<br> -Valor Reestabelecido Processado<br> -Valor Reestabelecido não Processado<br>        |SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Cancelado em restos a pagar    |         | = (Valor Cancelado processado + Valor Cancelado Não Processado) - (Valor Reestabelecido processado + Valor Reestabelecido  Não Processado)           
+|Fórmula Portal| -Valor Despesa Empenhada<br> -Valor Cancelado Processado<br> -Valor Cancelado Não Processado<br> -Valor Restabelecido Processado<br> -Valor Restabelecido não Processado<br>        | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada <br>-SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Empenhado Efetivo    |                       |= Valor Despesa Empenhada - Valor Cancelado em restos a pagar (nova coluna do PDT)
+
+
+##### Formulário de Detalhamento
+
+- Armazém BO / Pastas públicas - SIAFI > SUPORTE- SIAFI > CGE > Consulta Vale Recursos Vale> > Formulário de Detalhamento
+
+O formulário de detalhamento deverá exibir a inscrição, liquidação e pagamento dos valores em restos a pagar referente ao todos os exercícios.
+Exemplo:
+- Ano de registro do Empenho: 2020
+- Inscrição em Restos a Pagar: 2021
+- Cancelamento em Restos a  Pagar:2021
+- Reinscrito em Restos e Pagar: 2022
+
+_______
+
+**2- Formulário Empenho**
+
+|Dados|  Campo Armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Observações
+|--|-----------------------------|---|-------------------------|----|
+|Inscrição em Restos a Pagar| Data Registro Doc Empenho  | SIAFI - Execução de Restos a Pagar > Restos a Pagar > Dados do Empenho - Restos a Pagar |Data de Registro| Data de registro que o empenho foi inscrito em Restos a Pagar
+|Fórmula Portal| -Valor Despesa Empenhada<br> -Valor Cancelado Processado<br> -Valor Cancelado Não Processado<br> -Valor Restabelecido Processado<br> -Valor Restabelecido não Processado<br>        | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada <br>-SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Empenhado Efetivo    | = Valor Despesa Empenhada - Valor Cancelado em restos a pagar (nova coluna do PDT)                      
+|Inscrição em Restos a Pagar|   |  | Descrição| Campo SIAFI não disponível para visualização da DTA. Trazer o campo já utilizado no formulário de detalhamento da consulta de Restos a pagar
+|Inscrição em Restos a Pagar|- Valor Inscrito Processado<br> - Valor Cancelado Processado<br> -Valor Restabelecido Processado<br> - Valor Inscrito Não Processado<br> -Valor Cancelado Não Processado<br> - Valor Restabelecido Não Processado<br>   |  SIAFI - Execução de Restos a Pagar > Restos a Pagar| Valor| Cada linha deverá apresentar o valor corresponde ao tipo de inscrição, cancelamento ou reestabelecimento em restos a pagar.
