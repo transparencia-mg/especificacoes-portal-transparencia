@@ -225,7 +225,7 @@ Essa consulta será plurianual, ou seja, o usuário irá visualizar todas as ini
 <a href="#top">(inicio)</a>
 
 Os dados dessa consulta serão extraídos do Universo BO SIAFI
--  Armazém BO / Pastas públicas - SIAFI > SUPORTE- SIAFI > CGE > Campos BO das consultas do Portal da Transparência > Campos BO - Portal da Transparência > Eventos Extraordinários > Acordo Judicial Vale > Execução - PROPOSTA TCE
+
 
 #### Filtros da Consulta
 
