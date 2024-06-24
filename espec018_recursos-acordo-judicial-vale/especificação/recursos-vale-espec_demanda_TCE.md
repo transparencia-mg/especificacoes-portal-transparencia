@@ -89,7 +89,8 @@ Em toda consulta (pesquisa básica, tabela de resultados, tooltip, pesquisa avan
     * Valor Pago em Restos a Pagar
     * Valor Total Pago     
 
-COLOCAR IMAGEM
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/aee80a11-4a1f-4366-a4e1-9cfe26b17dab)
+
 
   * 2º NÍVEL
     * [Empenho]() -> ao clicar o usuário será direcionado para o 3º nível - Formulário de Detalhamento
@@ -105,15 +106,29 @@ COLOCAR IMAGEM
     * Valor Pago em Restos a Pagar
     * Valor Total Pago  
 
-COLOCAR IMAGEM
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/a82d85bf-20a4-49cb-8266-730b076f2e18)
+
 
   * 3º NÍVEL - Formulário de Detalhamento
 
 Ao clicar no campo clicável da tabela de resultados o usuário será direcionado para o formulário de detalhamento, que será composto pelos seguintes atributos:
 
+**EMPENHO**
 
-* Empenho
-COLOCAR IMAGEM
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/e1d6469e-456d-4ae3-950e-0f4e850baeca)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/27f9a5e0-0b86-4c6f-a477-c3613fe1e321)
+
+**LIQUIDAÇÃO**
+
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/f91a34b9-1ba5-4715-8732-f36696fc825e)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/af2463cf-abf7-483a-80d3-8446e314d8be)
+
+**PAGAMENTO**
+
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/93bac370-e0dc-4572-b119-ca2513e5ce39)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/e4c8634d-e7cc-4b7e-9c17-bf27d4c56381)
+
+
 
 
 ## Monte sua consulta
@@ -138,6 +153,8 @@ As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remov
   * Valor Pago em Restos a Pagar
   * Valor Total Pago
 
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/dee83926-0677-4a10-97c1-c8bbfb300e9d)
+
 
 * Colunas padrões 2º NÍVEL:
   * [Empenho]() -> ao clicar o usuário será direcionado para o 3º nível - Formulário de Detalhamento
@@ -154,8 +171,10 @@ As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remov
   * Valor Empenhado Efetivo
   * Valor Pago em Restos a Pagar
   * Valor Total Pago  
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/4fd70501-a075-4f62-881a-c11e8d198959)
 
 
 * Ao inserir qualquer coluna da  tabela ***Adicionar/Remover Colunas***  essas serão incluídas antes das colunas de valores. E caso seja incluída alguma coluna de valor o portal deverá manter a ordem da execução orçamentária (Valor empenhado, valor liquidado, valor pago, Valor Cancelado em restos a pagar, valor liquidado em RP, Valor Empenhado Efetivo, Valor Pago em RP, Valor Total Pago).
 
-COLOCAR IMAGEM
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/314b38d9-a618-49ab-8472-402f2e69947f)
+
