@@ -153,7 +153,6 @@ As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remov
 
   * [Detalhar]() => ao clicar na lupa o usuário será direcionado para o 2º nível da tabela da pesquisa avançada
   * Ano
-  * Código Iniciativa
   * Valor Despesa Empenhada            
   * Valor Despesa Liquidada         
   * Valor Pago
@@ -163,8 +162,7 @@ As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remov
   * Valor Pago em Restos a Pagar
   * Valor Total Pago
 
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/dee83926-0677-4a10-97c1-c8bbfb300e9d)
-
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/52920939/30e93a57-0b5b-4700-ab1b-26a5f4bc483d)
 
 * Colunas padrões 2º NÍVEL:
   * [Empenho]() -> ao clicar o usuário será direcionado para o 3º nível - Formulário de Detalhamento
@@ -227,7 +225,7 @@ Os dados dessa consulta serão extraídos do Universo BO SIAFI
 
 #### Filtros da Consulta
 
-Essa consulta será anual, ou seja, o usuário irá visualizar a execução (Despesa e restos a Pagar) do Iniciativa conforme o período selecionado.
+Essa consulta será anual, ou seja, o usuário irá visualizar a execução (Despesa e restos a Pagar) da Iniciativa conforme o período selecionado.
 
 |Dados| Armazém BO- SIAFI       |Dimensão SIAFI| Filtro  |
 |--|--------------------------|----------|-------
