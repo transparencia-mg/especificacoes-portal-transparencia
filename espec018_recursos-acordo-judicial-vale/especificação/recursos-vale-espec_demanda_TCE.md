@@ -121,7 +121,8 @@ Ao clicar no campo clicável da tabela de resultados o usuário será direcionad
 **EMPENHO**
 
 ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/e1d6469e-456d-4ae3-950e-0f4e850baeca)
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/27f9a5e0-0b86-4c6f-a477-c3613fe1e321)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/e397377c-ccfc-4478-b69f-80fc1096ae20)
+
 
 **LIQUIDAÇÃO**
 
