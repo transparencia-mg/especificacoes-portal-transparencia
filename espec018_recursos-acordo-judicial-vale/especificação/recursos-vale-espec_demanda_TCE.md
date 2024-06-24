@@ -39,9 +39,9 @@ Conforme consta no Processo SEI nº 1630.01.0000258/2024-25, Ofício SEPLAG/RAM 
 
 Este documento é fundamentado pelas seguintes alterações:
 
-- Inclusão das colunas: Valor Cancelado em Restos a Pagar e Valor Empenhado Efetivo.
+- Inclusão das colunas: Valor Cancelado em Restos a Pagar e Valor Empenhado/Cancelado no exercício
 - Alteração da nomenclatura de Projeto para Iniciativa.
--Ajustes no layout e no formulário de detalhamento em decorrência das alterações mencionadas acima
+- Ajustes no layout e no formulário de detalhamento em decorrência das alterações mencionadas acima
 
 ## Página Inicial - Texto explicativo
 <a href="#top">(inicio)</a>
@@ -72,6 +72,12 @@ Outras informações sobre o Acordo Judicial de Reparação podem ser consultada
 
 Em toda consulta (pesquisa básica, tabela de resultados, tooltip, pesquisa avançada, glossário e etc) deverá ser alterado a nomenclatura do termo 'projeto' para 'Iniciativa'
 
+## Inclusão do campo "Dados Atualizados em:" no formulário de detalhamento
+
+Incluir na parte superior do formulário de detalhamento o campo "Dados atualizados em:"
+
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/bc8c0d83-ed8f-4ab6-a33f-6918b8879a52)
+
 ## Campos Pesquisa básica - Navegação por filtros
 
 ####  Por Iniciativa (Por  projeto)
@@ -90,12 +96,11 @@ Como a nomenclatura da tabela origem será alterada será necessário se atentar
     * Valor Pago
     * Valor Cancelado em restos a pagar
     * Valor Liquidado em restos a pagar
-    * Valor Empenhado Efetivo
+    * Valor Empenhado/Cancelado no exercício
     * Valor Pago em Restos a Pagar
     * Valor Total Pago     
 
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/aee80a11-4a1f-4366-a4e1-9cfe26b17dab)
-
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/54c32e31-971d-4813-a010-ad677a95b8c4)
 
   * 2º NÍVEL
     * [Empenho]() -> ao clicar o usuário será direcionado para o 3º nível - Formulário de Detalhamento
@@ -107,12 +112,11 @@ Como a nomenclatura da tabela origem será alterada será necessário se atentar
     * Valor Pago
     * Valor Cancelado em restos a pagar
     * Valor Liquidado em restos a pagar
-    * Valor Empenhado Efetivo
+    * Valor Empenhado/Cancelado no exercício
     * Valor Pago em Restos a Pagar
     * Valor Total Pago  
 
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/a82d85bf-20a4-49cb-8266-730b076f2e18)
-
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/4f84c30a-75eb-4248-b582-49e1fbb3aaa0)
 
   * 3º NÍVEL - Formulário de Detalhamento
 
@@ -120,7 +124,7 @@ Ao clicar no campo clicável da tabela de resultados o usuário será direcionad
 
 **EMPENHO**
 
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/e1d6469e-456d-4ae3-950e-0f4e850baeca)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/3caaa656-5122-481a-adba-a9be338e5c96)
 ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/e397377c-ccfc-4478-b69f-80fc1096ae20)
 
 
@@ -155,7 +159,7 @@ As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remov
   * Valor Pago
   * Valor Cancelado em restos a pagar
   * Valor Liquidado em restos a pagar
-  * Valor Empenhado Efetivo
+  * Valor Empenhado/Cancelado no exercício
   * Valor Pago em Restos a Pagar
   * Valor Total Pago
 
@@ -174,7 +178,7 @@ As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remov
   * Valor Pago
   * Valor Cancelado em restos a pagar
   * Valor Liquidado em restos a pagar
-  * Valor Empenhado Efetivo
+  * VValor Empenhado/Cancelado no exercício
   * Valor Pago em Restos a Pagar
   * Valor Total Pago  
 ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/4fd70501-a075-4f62-881a-c11e8d198959)
@@ -182,7 +186,8 @@ As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remov
 
 * Ao inserir qualquer coluna da  tabela ***Adicionar/Remover Colunas***  essas serão incluídas antes das colunas de valores. E caso seja incluída alguma coluna de valor o portal deverá manter a ordem da execução orçamentária (Valor empenhado, valor liquidado, valor pago, Valor Cancelado em restos a pagar, valor liquidado em RP, Valor Empenhado Efetivo, Valor Pago em RP, Valor Total Pago).
 
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/314b38d9-a618-49ab-8472-402f2e69947f)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/86b6219c-21df-4a52-bc7c-8624642ba8f4)
+
 
 # Especificação - Dados da Consulta
 <a href="#top">(inicio)</a>
@@ -239,7 +244,7 @@ Essa consulta será anual, ou seja, o usuário irá visualizar a execução (Des
 |--|------|---|---------------|------------|---|
 |Portal de Dados Abertos| Código Iniciativa | Portal de Dados Abertos |Código Iniciativa            | Código da Iniciativa no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |
 |Fórmula Portal| -Valor Cancelado Processado<br> -Valor Cancelado Não Processado<br> -Valor Reestabelecido Processado<br> -Valor Reestabelecido não Processado<br>        |SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Cancelado em restos a pagar    |         | = (Valor Cancelado processado + Valor Cancelado Não Processado) - (Valor Reestabelecido processado + Valor Reestabelecido  Não Processado)           
-|Fórmula Portal| -Valor Despesa Empenhada<br> -Valor Cancelado Processado<br> -Valor Cancelado Não Processado<br> -Valor Restabelecido Processado<br> -Valor Restabelecido não Processado<br>        | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada <br>-SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Empenhado Efetivo    |                       |= Valor Despesa Empenhada - Valor Cancelado em restos a pagar (nova coluna do PDT)
+|Fórmula Portal| -Valor Despesa Empenhada<br> -Valor Cancelado Processado<br> -Valor Cancelado Não Processado<br> -Valor Restabelecido Processado<br> -Valor Restabelecido não Processado<br>        | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada <br>-SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Empenhado/cancelado no exercício    |                       |= Valor Despesa Empenhada - Valor Cancelado em restos a pagar (nova coluna do PDT)
 
 
 ##### Formulário de Detalhamento
