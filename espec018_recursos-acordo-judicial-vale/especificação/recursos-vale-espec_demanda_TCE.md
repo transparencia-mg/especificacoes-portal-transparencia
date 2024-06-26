@@ -31,7 +31,7 @@ Conforme consta no Processo SEI nº 1630.01.0000258/2024-25, Ofício SEPLAG/RAM 
 
 *Observa-se que o Portal da Transparência, na área específica de acompanhamento de “Eventos Extraordinários” -> “Acordo Judicial de Reparação da Vale", apresenta a execução (liquidação e pagamento) das despesas inscritas em Restos a Pagar. Porém, nessa seção do Portal da Transparência, não constam os valores de cancelamentos e restabelecimentos em Restos a Pagar e, com isso, o campo “Valor Empenhado” não considera tais efeitos (cancelamento e restabelecimento).*
 
-*Nesse contexto, solicita–se que sejam realizados, no Portal da Transparência, na área específica do Acordo Judicial de Reparação da Vale, os ajustes e as parametrizações necessárias para que sejam explicitados os cancelamentos e restabelecimentos em Restos a Pagar, acrescido do campo, denominado, por exemplo, “Valor Empenhado Efetivo”, que considere os efeitos de cancelamento e restabelecimento em restos a pagar, de forma a garantir a correta representação do valor de fato executado orçamentariamente de cada projeto, considerado como referência para tal, o valor empenhado efetivo.*
+*Nesse contexto, solicita–se que sejam realizados, no Portal da Transparência, na área específica do Acordo Judicial de Reparação da Vale, os ajustes e as parametrizações necessárias para que sejam explicitados os cancelamentos e restabelecimentos em Restos a Pagar, acrescidos do campo, denominado, por exemplo, “Valor Empenhado Efetivo”, que considere os efeitos de cancelamento e restabelecimento em restos a pagar, de forma a garantir a correta representação do valor de fato executado orçamentariamente de cada projeto, considerado como referência para tal, o valor empenhado efetivo.*
 
 
 # Especificação
@@ -48,13 +48,13 @@ Este documento é fundamentado pelas seguintes alterações:
 
 Alteração do texto da Página Inicial para:
 
-> Essa consulta tem por objetivo divulgar informações sobre os valores repassados ao Estado de Minas Gerais por meio do Acordo Judicial de Reparação firmado entre o Governo de Minas, o Ministério Público do Estado de Minas Gerais (MPMG), o Ministério Público Federal (MPF) e a Defensoria Pública de Minas Gerais (DPMG) com a Vale S.A., sob mediação do Tribunal de Justiça do Estado de Minas Gerais (TJMG).
+> Esta consulta tem por objetivo divulgar informações sobre os valores repassados ao Estado de Minas Gerais, por meio do Acordo Judicial de Reparação firmado entre o Governo de Minas Gerais, o Ministério Público do Estado de Minas Gerais (MPMG), o Ministério Público Federal (MPF) e a Defensoria Pública de Minas Gerais (DPMG) com a Vale S.A., sob mediação do Tribunal de Justiça do Estado de Minas Gerais (TJMG).
 >
-> O Acordo foi assinado em 04 de fevereiro de 2021 e garantiu que a empresa Vale S.A. fosse responsabilizada pelos danos causados às regiões atingidas e à sociedade mineira pelo rompimento das barragens B-I, B-IV e B-IVA na Mina Córrego do Feijão, em Brumadinho, ocorrido em 25 de janeiro de 2019.
+> O Acordo, assinado em 04 de fevereiro de 2021, visou a responsabilização da empresa Vale S.A., por danos causados às regiões atingidas e à sociedade mineira, pelo rompimento das barragens B-I, B-IV e B-IVA na Mina Córrego do Feijão, em Brumadinho, ocorrido em 25 de janeiro de 2019.
 >
-> O Acordo Judicial visa reparar os danos decorrentes do rompimento das barragens da Vale S.A. em Brumadinho e conta com um valor inicial total de R$ 37.689.767.329,00 (trinta e sete bilhões, seiscentos e oitenta e nove milhões, setecentos e sessenta e sete mil, trezentos e vinte e nove reais).
+> Com o objetivo de reparar os danos decorrentes do rompimento das barragens da Vale S.A., em Brumadinho, o Acordo Judicial previa um valor inicial total de R$ 37.689.767.329,00 (trinta e sete bilhões, seiscentos e oitenta e nove milhões, setecentos e sessenta e sete mil, trezentos e vinte e nove reais).
 >
-> É importante esclarecer que os valores constantes no Acordo Judicial de Reparação não serão, em sua integralidade, disponibilizados ao Governo de Minas. Dos R$ 37,68 bilhões nominais, apenas R$ 11,3 bilhões e suas atualizações monetárias efetivamente entrarão para os cofres do Estado. É esse o montante objeto da presente consulta as quais detalhamos em seguida.
+> É importante esclarecer que os valores constantes no Acordo Judicial de Reparação não serão, em sua integralidade, disponibilizados ao Governo de Minas. Dos R$ 37,68 bilhões nominais, R$ 11,3 bilhões e suas atualizações monetárias efetivamente entrarão para os cofres do Estado. É esse o montante, objeto da presente consulta, a qual detalharemos em seguida.
 >
 > As consultas criadas para dar transparência aos repasses e aos gastos realizados no Acordo Judicial de Reparação contemplam quatro diferentes escopos:
 >
