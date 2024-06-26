@@ -54,7 +54,7 @@ Alteração do texto da Página Inicial para:
 >
 > O Acordo Judicial visa reparar os danos decorrentes do rompimento das barragens da Vale S.A. em Brumadinho e conta com um valor inicial total de R$ 37.689.767.329,00 (trinta e sete bilhões, seiscentos e oitenta e nove milhões, setecentos e sessenta e sete mil, trezentos e vinte e nove reais).
 >
-> É importante esclarecer que os valores constantes no Acordo Judicial de Reparação não serão, em sua integralidade, disponibilizados ao Governo de Minas. Dos R$ 37,68 bilhões, apenas R$ 11,06 bilhões efetivamente entrarão para os cofres do Estado. É esse o montante objeto da presente consulta as quais detalhamos em seguida.
+> É importante esclarecer que os valores constantes no Acordo Judicial de Reparação não serão, em sua integralidade, disponibilizados ao Governo de Minas. Dos R$ 37,68 bilhões nominais, apenas R$ 11,3 bilhões e suas atualizações monetárias efetivamente entrarão para os cofres do Estado. É esse o montante objeto da presente consulta as quais detalhamos em seguida.
 >
 > As consultas criadas para dar transparência aos repasses e aos gastos realizados no Acordo Judicial de Reparação contemplam quatro diferentes escopos:
 >
@@ -74,7 +74,9 @@ Em toda consulta (pesquisa básica, tabela de resultados, tooltip, pesquisa avan
 
 ## Inclusão do campo "Dados Atualizados em:" no formulário de detalhamento
 
-Incluir na parte superior do formulário de detalhamento o campo "Dados atualizados em:"
+Incluir na parte superior do formulário de detalhamento o campo "Dados atualizados em: dd/mm/aaaa"
+
+dd/mm/aaaa: Formato de data compreendendo: 02 algarismos para dia e mês e 04 para o ano.
 
 ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/bc8c0d83-ed8f-4ab6-a33f-6918b8879a52)
 
@@ -83,7 +85,8 @@ Incluir na parte superior do formulário de detalhamento o campo "Dados atualiza
 ####  Por Iniciativa (Por  projeto)
 <a href="#top">(inicio)</a>
 
-Como a nomenclatura da tabela origem será alterada será necessário se atentar para a mudança do mapa de carga para a correta extração do Portal de Dados Abertos.
+Substituir a antiga nomenclatura "Por Projeto" por "Por Iniciativa"
+Como a nomenclatura da tabela origem será alterada será necessário atentar para a mudança do mapa de carga para a correta extração do Portal de Dados Abertos.
 
 #### Consulta por Execução
 <a href="#top">(inicio)</a>
@@ -125,8 +128,8 @@ Como a nomenclatura da tabela origem será alterada será necessário se atentar
 Ao clicar no campo clicável da tabela de resultados o usuário será direcionado para o formulário de detalhamento, que será composto pelos seguintes atributos:
 
 - Se atentar para a alteração/nome da coluna 'Valor Empenhado Efetivo:
-  - Calculo da Coluna:
-    = Valor Despesa Empenhada **-**[ (Valor Cancelado Processado **+** Valor Cancelado Não Processado) **-** (Valor Reestabelecido Processado **+** Valor Reestabelecido Não Processado)]
+  - Cálculo da Coluna:
+    = Valor Despesa Empenhada **-**[ (Valor Cancelado Processado **+** Valor Cancelado Não Processado) **-** (Valor Restabelecido Processado **+** Valor Restabelecido Não Processado)]
 
 **EMPENHO**
 
@@ -153,7 +156,7 @@ Ao clicar no campo clicável da tabela de resultados o usuário será direcionad
 <a href="#top">(inicio)</a>
 
 As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remover Colunas*** podendo o usuário desativá-las.
-* Colunas padrões 1º NÍVEL:
+* Colunas padrão 1º NÍVEL:
 
   * [Detalhar]() => ao clicar na lupa o usuário será direcionado para o 2º nível da tabela da pesquisa avançada
   * Ano
@@ -168,7 +171,7 @@ As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remov
 
 ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/52920939/30e93a57-0b5b-4700-ab1b-26a5f4bc483d)
 
-* Colunas padrões 2º NÍVEL:
+* Colunas padrão 2º NÍVEL:
   * [Empenho]() -> ao clicar o usuário será direcionado para o 3º nível - Formulário de Detalhamento
   * Data de Registro do Empenho
   * Unidade orçamentária
@@ -186,7 +189,7 @@ As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remov
 ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/4fd70501-a075-4f62-881a-c11e8d198959)
 
 
-* Ao inserir qualquer coluna da  tabela ***Adicionar/Remover Colunas***  essas serão incluídas antes das colunas de valores. E caso seja incluída alguma coluna de valor o portal deverá manter a ordem da execução orçamentária (Valor Empenhado, Valor Liquidado, Valor Pago, Valor Liquidado em RP, Valor Cancelado em Restos a Pagar, Valor Empenhado/Cancelado no Exercício, Valor Pago em RP, Valor Total Pago).
+* Ao inserir qualquer coluna na  tabela ***Adicionar/Remover Colunas***  essas serão incluídas antes das colunas de valores. E caso seja incluída alguma coluna de valor, o portal deverá manter a ordem da execução orçamentária (Valor Empenhado, Valor Liquidado, Valor Pago, Valor Liquidado em RP, Valor Cancelado em Restos a Pagar, Valor Empenhado/Cancelado no Exercício, Valor Pago em RP, Valor Total Pago).
 
 ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/86b6219c-21df-4a52-bc7c-8624642ba8f4)
 
@@ -199,17 +202,17 @@ As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remov
 
 Como a nomenclatura da tabela origem será alterada será necessário se atentar para a mudança do mapa de carga para a correta extração do Portal de Dados Abertos.
 
-*Para não comprometer a atualização dos dados no ambiente de produção, será disponibilizado no ambiente de homologaão do Portal de Dados Abertos a cópia dos dados com os ajustes de nomenclatura das colunas.*
+*Para não comprometer a atualização dos dados no ambiente de produção, será disponibilizado no ambiente de homologação do Portal de Dados Abertos a cópia dos dados com os ajustes de nomenclatura das colunas.*
 
 #### Filtros da Consulta
-Essa consulta será plurianual, ou seja, o usuário irá visualizar todas as iniciativas e valores independente do ano.
+Essa consulta será plurianual, ou seja, o usuário irá visualizar todas as iniciativas e valores independentemente do ano.
 
 
 |    Fonte de Dados    | URL
 |--------------------------|-----------------
 |Portal de Dados Abertos|    https://dados.mg.gov.br/dataset/acordo-judicial-reparacacao-vale-Iniciativas
 
-*Para não comprometer a atualização dos dados no ambiente de produção, será disponibilizado no ambiente de homologaão do Portal de Dados Abertos a cópia dos dados com os ajustes de nomenclatura das colunas.*
+*Para não comprometer a atualização dos dados no ambiente de produção, será disponibilizado no ambiente de homologação do Portal de Dados Abertos a cópia dos dados com os ajustes de nomenclatura das colunas.*
 
 #### Campos da Tabela
 
@@ -248,13 +251,16 @@ Essa consulta será anual, ou seja, o usuário irá visualizar a execução (Des
 |Dados| Campo armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Tooltip - PdT           | Fórmula Portal
 |--|------|---|---------------|------------|---|
 |Portal de Dados Abertos| Código Iniciativa | Portal de Dados Abertos |Código Iniciativa            | Código da Iniciativa no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |
-|Fórmula Portal| -Valor Cancelado Processado<br> -Valor Cancelado Não Processado<br> -Valor Reestabelecido Processado<br> -Valor Reestabelecido não Processado<br>        |SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Cancelado em restos a pagar    |         | = (Valor Cancelado processado + Valor Cancelado Não Processado) - (Valor Reestabelecido processado + Valor Reestabelecido  Não Processado)           
+|Fórmula Portal| -Valor Cancelado Processado<br> -Valor Cancelado Não Processado<br> -Valor Restabelecido Processado<br> -Valor Restabelecido não Processado<br>        |SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Cancelado em restos a pagar    |         | = (Valor Cancelado processado + Valor Cancelado Não Processado) - (Valor Restabelecido processado + Valor Restabelecido  Não Processado)           
 |Fórmula Portal| -Valor Despesa Empenhada<br> -Valor Cancelado Processado<br> -Valor Cancelado Não Processado<br> -Valor Restabelecido Processado<br> -Valor Restabelecido não Processado<br>        | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada <br>-SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Empenhado/cancelado no exercício    |                       |= Valor Empenhado - Valor Cancelado em restos a pagar (nova coluna do PDT)
 
+##### Texto Tooltips
+•"Valor Empenhado/Cancelado no Exercício": Trata-se do montante adicionado e/ou cancelado no valor de um empenho em determinado exercício. Os valores negativos se referem a Restos a Pagar cancelados em determinado exercício. Assim, o ano indicado na coluna correspondente é relativo ao exercício no qual a movimentação ocorreu.
+•"Valor Empenhado Efetivo": Trata-se do saldo resultante do valor total empenhado e reforçado, subtraído de cancelamentos no exercício; subtraídos os cancelamentos e adicionados os restabelecimentos de Restos a Pagar.
 
 ##### Formulário de Detalhamento
 
-O formulário de detalhamento deverá exibir a inscrição, liquidação e pagamento dos valores em restos a pagar referente ao todos os exercícios.
+O formulário de detalhamento deverá exibir a inscrição, liquidação e pagamento dos valores em restos a pagar referentes a todos os exercícios.
 Exemplo:
 - Ano de registro do Empenho: 2020
 - Inscrição em Restos a Pagar: 2021
