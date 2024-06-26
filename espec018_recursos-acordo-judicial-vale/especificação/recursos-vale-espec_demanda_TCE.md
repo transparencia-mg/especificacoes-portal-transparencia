@@ -13,9 +13,9 @@ output:
 # Visão geral da demanda
 <a href="#top">(inicio)</a>
 
-Esta demanda tem como objetivo modificar a estrutura da consulta 'Acordo Judicial da Vale' no módulo de Execução, de modo a disponibilizar aos usuários informações sobre a execução dos restos a pagar. Especificamente, visa detalhar os cancelamentos dos restos a pagar e o valor efetivo do empenho após os cancelamentos, reforços e anulações.
+Esta demanda tem como objetivo modificar a estrutura da consulta 'Acordo Judicial da Vale' no módulo de Execução, de modo a disponibilizar aos usuários informações sobre a execução dos restos a pagar. Especificamente, visa detalhar os cancelamentos dos restos a pagar e o valor efetivo dos empenhos após os cancelamentos, reforços e anulações.
 
-Em tempo também será alterado a nomenclatura de alguns termos da consulta conforme determina a [Deliberação nº 19 -Atualizações de nomes e valores de iniciativas ](https://www.mg.gov.br/system/files/media/documento_detalhado/2024-06/Delibera%C3%A7%C3%A3o%20CS%2019.2024.pdf).
+Em tempo também será alterada nomenclatura de alguns termos da consulta conforme determina a [Deliberação nº 19 -Atualizações de nomes e valores de iniciativas ](https://www.mg.gov.br/system/files/media/documento_detalhado/2024-06/Delibera%C3%A7%C3%A3o%20CS%2019.2024.pdf).
 
 
 # Motivação / contexto da demanda
@@ -25,13 +25,13 @@ Conforme consta no Processo SEI nº 1630.01.0000258/2024-25, Ofício SEPLAG/RAM 
 
 ''*O Tribunal de Contas do Estado de Minas Gerais - TCE/MG, no âmbito da Representação TCE n. 1135458, encaminhou a diversos órgãos e entidades demandas de informações sobre execução dos projetos do Acordo Judicial Vale/Brumadinho implementados pelo Poder Executivo Estadual.*''
 
-*A partir da referida Representação e em diálogo com as equipes do TCE/MG, inclusive com Plano de Ação definido entre as parte (86881253), observou-se a necessidade de aprimoramento das informações divulgadas sobre a execução dos recursos, o que envolve melhorias a serem realizadas no Portal da Transparência de forma a convergir as informações divulgadas pelo site do Comitê Pró-Brumadinho e o tratamento efetivamente dado aos valores dos projetos, conforme itens citados a seguir.*
+*A partir da referida Representação e em diálogo com as equipes do TCE/MG, inclusive com Plano de Ação definido entre as partes (86881253), observou-se a necessidade de aprimoramento das informações divulgadas sobre a execução dos recursos, o que envolve melhorias a serem realizadas no Portal da Transparência de forma a convergir as informações divulgadas pelo site do Comitê Pró-Brumadinho e o tratamento efetivamente dado aos valores dos projetos, conforme itens citados a seguir.*
 
-*1. Divulgação do cancelamento e reestabelecimento de restos a pagar e seus efeitos no “Valor empenhado efetivo”*
+*1. Divulgação do cancelamento e restabelecimento de restos a pagar e seus efeitos no “Valor empenhado efetivo”*
 
-*Observa-se que o Portal da Transparência, na área específica de acompanhamento de “Eventos Extraordinários” -> “Acordo Judicial de Reparação da Vale", apresenta a execução (liquidação e pagamento) de despesas inscritas em Restos a Pagar. Porém, nessa seção do Portal da Transparência, não constam os valores de cancelamento e reestabelecimentos de Restos a Pagar e, com isso, o campo “Valor Empenhado” não considera os efeitos de cancelamento e reestabelecimento de restos a pagar.*
+*Observa-se que o Portal da Transparência, na área específica de acompanhamento de “Eventos Extraordinários” -> “Acordo Judicial de Reparação da Vale", apresenta a execução (liquidação e pagamento) das despesas inscritas em Restos a Pagar. Porém, nessa seção do Portal da Transparência, não constam os valores de cancelamentos e restabelecimentos de Restos a Pagar e, com isso, o campo “Valor Empenhado” não considera tais efeitos (cancelamento e restabelecimento).*
 
-*Nesse contexto, solicita–se que sejam realizados, no Portal da Transparência, na área específica do Acordo Judicial de Reparação da Vale, os ajustes e as parametrizações necessárias para que sejam explicitados os cancelamentos e reestabelecimentos de Restos a Pagar e acrescido campo, denominado, por exemplo, “Valor Empenhado Efetivo”, que considere os efeitos de cancelamento e reestabelecimento de restos a pagar, de forma a garantir a correta representação do valor de fato executado orçamentariamente de cada projeto, considerado como referência para tal o valor empenhado efetivo.*
+*Nesse contexto, solicita–se que sejam realizados, no Portal da Transparência, na área específica do Acordo Judicial de Reparação da Vale, os ajustes e as parametrizações necessárias para que sejam explicitados os cancelamentos e restabelecimentos de Restos a Pagar, acrescido do campo, denominado, por exemplo, “Valor Empenhado Efetivo”, que considere os efeitos de cancelamento e restabelecimento de restos a pagar, de forma a garantir a correta representação do valor de fato executado orçamentariamente de cada projeto, considerado como referência para tal, o valor empenhado efetivo.*
 
 
 # Especificação
