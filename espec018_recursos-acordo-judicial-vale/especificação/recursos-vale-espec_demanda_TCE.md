@@ -13,7 +13,7 @@ output:
 # Visão geral da demanda
 <a href="#top">(inicio)</a>
 
-Esta demanda tem como objetivo modificar a estrutura da consulta 'Acordo Judicial da Vale' no módulo de Execução, de modo a disponibilizar aos usuários informações sobre a execução dos restos a pagar. Especificamente, visa detalhar os cancelamentos dos restos a pagar e o valor efetivo dos empenhos após os cancelamentos, reforços e anulações.
+Esta demanda tem como objetivo modificar a estrutura da consulta 'Acordo Judicial da Vale' no módulo de Execução, de modo a disponibilizar aos usuários informações sobre a execução dos restos a pagar. Especificamente, visa detalhar os cancelamentos em restos a pagar e o valor efetivo dos empenhos após os cancelamentos, reforços e anulações.
 
 Em tempo também será alterada nomenclatura de alguns termos da consulta conforme determina a [Deliberação nº 19 -Atualizações de nomes e valores de iniciativas ](https://www.mg.gov.br/system/files/media/documento_detalhado/2024-06/Delibera%C3%A7%C3%A3o%20CS%2019.2024.pdf).
 
@@ -29,9 +29,9 @@ Conforme consta no Processo SEI nº 1630.01.0000258/2024-25, Ofício SEPLAG/RAM 
 
 *1. Divulgação do cancelamento e restabelecimento de restos a pagar e seus efeitos no “Valor empenhado efetivo”*
 
-*Observa-se que o Portal da Transparência, na área específica de acompanhamento de “Eventos Extraordinários” -> “Acordo Judicial de Reparação da Vale", apresenta a execução (liquidação e pagamento) das despesas inscritas em Restos a Pagar. Porém, nessa seção do Portal da Transparência, não constam os valores de cancelamentos e restabelecimentos de Restos a Pagar e, com isso, o campo “Valor Empenhado” não considera tais efeitos (cancelamento e restabelecimento).*
+*Observa-se que o Portal da Transparência, na área específica de acompanhamento de “Eventos Extraordinários” -> “Acordo Judicial de Reparação da Vale", apresenta a execução (liquidação e pagamento) das despesas inscritas em Restos a Pagar. Porém, nessa seção do Portal da Transparência, não constam os valores de cancelamentos e restabelecimentos em Restos a Pagar e, com isso, o campo “Valor Empenhado” não considera tais efeitos (cancelamento e restabelecimento).*
 
-*Nesse contexto, solicita–se que sejam realizados, no Portal da Transparência, na área específica do Acordo Judicial de Reparação da Vale, os ajustes e as parametrizações necessárias para que sejam explicitados os cancelamentos e restabelecimentos de Restos a Pagar, acrescido do campo, denominado, por exemplo, “Valor Empenhado Efetivo”, que considere os efeitos de cancelamento e restabelecimento de restos a pagar, de forma a garantir a correta representação do valor de fato executado orçamentariamente de cada projeto, considerado como referência para tal, o valor empenhado efetivo.*
+*Nesse contexto, solicita–se que sejam realizados, no Portal da Transparência, na área específica do Acordo Judicial de Reparação da Vale, os ajustes e as parametrizações necessárias para que sejam explicitados os cancelamentos e restabelecimentos em Restos a Pagar, acrescido do campo, denominado, por exemplo, “Valor Empenhado Efetivo”, que considere os efeitos de cancelamento e restabelecimento em restos a pagar, de forma a garantir a correta representação do valor de fato executado orçamentariamente de cada projeto, considerado como referência para tal, o valor empenhado efetivo.*
 
 
 # Especificação
@@ -40,7 +40,7 @@ Conforme consta no Processo SEI nº 1630.01.0000258/2024-25, Ofício SEPLAG/RAM 
 Este documento é fundamentado pelas seguintes alterações:
 
 - Inclusão das colunas: Valor Cancelado em Restos a Pagar e Valor Empenhado/Cancelado no Exercício
-- Alteração da nomenclatura de Projeto para Iniciativa.
+- Alteração da nomenclatura: Aonde estiver descrito Projeto substituir por Iniciativa
 - Ajustes no layout e no formulário de detalhamento em decorrência das alterações mencionadas acima
 
 ## Página Inicial - Texto explicativo
@@ -48,7 +48,7 @@ Este documento é fundamentado pelas seguintes alterações:
 
 Alteração do texto da Página Inicial para:
 
-> Essa consulta tem por objetivo divulgar informações sobre os valores repassados ao Estado de Minas Gerais por meio do Acordo Judicial de Reparação firmado entre o Governo de Minas, o Ministério Público de Minas Gerais (MPMG), o Ministério Público Federal (MPF) e a Defensoria Pública de Minas Gerais (DPMG) com a Vale S.A., sob mediação do Tribunal de Justiça de Minas Gerais (TJMG).
+> Essa consulta tem por objetivo divulgar informações sobre os valores repassados ao Estado de Minas Gerais por meio do Acordo Judicial de Reparação firmado entre o Governo de Minas, o Ministério Público do Estado de Minas Gerais (MPMG), o Ministério Público Federal (MPF) e a Defensoria Pública de Minas Gerais (DPMG) com a Vale S.A., sob mediação do Tribunal de Justiça do Estado de Minas Gerais (TJMG).
 >
 > O Acordo foi assinado em 04 de fevereiro de 2021 e garantiu que a empresa Vale S.A. fosse responsabilizada pelos danos causados às regiões atingidas e à sociedade mineira pelo rompimento das barragens B-I, B-IV e B-IVA na Mina Córrego do Feijão, em Brumadinho, ocorrido em 25 de janeiro de 2019.
 >
@@ -62,15 +62,15 @@ Alteração do texto da Página Inicial para:
 >
 > **2. Consulta por Execução:** é a consulta que permite a visualização dos gastos de cada iniciativa, contemplando nomes dos favorecidos e valores pagos.
 >
->**3.Consulta por Município:** compreende o repasse de R$1.498.250.000,00 (um bilhão quatrocentos e noventa e oito milhões duzentos e cinquenta mil reais) para o fortalecimento dos serviços públicos e as melhorias de infraestrutura e de mobilidade nos municípios. As quantias foram determinadas proporcionalmente à população total, conforme dados de 2019 do IBGE .
+>**3.Consulta por Município:** compreende o repasse de R$1.498.250.000,00 (um bilhão quatrocentos e noventa e oito milhões duzentos e cinquenta mil reais) para o fortalecimento dos serviços públicos e as melhorias de infraestrutura e de mobilidade nos municípios. As quantias foram determinadas proporcionalmente à população total, conforme dados de 2019 do IBGE.
 >
->**4. Consulta por Receita:** é a visualização dos valores arrecadados em conta específica do Estado, bem como os seus respectivos valores de atualização monetária. Importante esclarecer que nessa consulta estão contemplados as correções e atualizações monetárias da Fonte de Recurso 95 que compreende recursos recebidos por danos advindos de desastres socioambientais, não apenas relativos a esse Acordo Judicial.
+>**4. Consulta por Receita:** é a visualização dos valores arrecadados em conta específica do Estado, bem como os seus respectivos valores de atualização monetária. Importante esclarecer que nessa consulta estão contempladas as correções e atualizações monetárias da Fonte de Recurso 95 que compreende recursos recebidos por danos advindos de desastres socioambientais, não apenas relativos a esse Acordo Judicial.
 
 Outras informações sobre o Acordo Judicial de Reparação podem ser consultadas na página do [Comitê Pró-Brumadinho](https://www.mg.gov.br/pro-brumadinho).
 
 ## Alteração de termos de "projeto" para "Iniciativas"
 
-Em toda consulta (pesquisa básica, tabela de resultados, tooltip, pesquisa avançada, glossário e etc) deverá ser alterado a nomenclatura do termo 'Projeto' para 'Iniciativa'
+Em toda consulta (pesquisa básica, tabela de resultados, tooltip, pesquisa avançada, glossário e etc) deverá ser alterada a nomenclatura do termo 'Projeto' para 'Iniciativa'
 
 ## Inclusão do campo "Dados Atualizados em:" no formulário de detalhamento
 
