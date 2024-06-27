@@ -203,6 +203,7 @@ As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remov
 Como a nomenclatura da tabela origem será alterada será necessário se atentar para a mudança do mapa de carga para a correta extração do Portal de Dados Abertos.
 
 *Para não comprometer a atualização dos dados no ambiente de produção, será disponibilizado no ambiente de homologação do Portal de Dados Abertos a cópia dos dados com os ajustes de nomenclatura das colunas.*
+https://homologa.cge.mg.gov.br/dataset/acordo-judicial-reparacacao-vale-iniciativas
 
 #### Filtros da Consulta
 Essa consulta será plurianual, ou seja, o usuário irá visualizar todas as iniciativas e valores independentemente do ano.
@@ -213,6 +214,7 @@ Essa consulta será plurianual, ou seja, o usuário irá visualizar todas as ini
 |Portal de Dados Abertos|    https://dados.mg.gov.br/dataset/acordo-judicial-reparacacao-vale-Iniciativas
 
 *Para não comprometer a atualização dos dados no ambiente de produção, será disponibilizado no ambiente de homologação do Portal de Dados Abertos a cópia dos dados com os ajustes de nomenclatura das colunas.*
+https://homologa.cge.mg.gov.br/dataset/acordo-judicial-reparacacao-vale-iniciativas
 
 #### Campos da Tabela
 
