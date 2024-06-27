@@ -1,7 +1,7 @@
 ---
-contrato_manutencao:
+contrato_manutencao: INF 4504
 proposta_comercial:
-mantis:
+mantis:184010
 pull_request: '[]()'
 titulo: Transparência dos recursos da Vale - Execução de Restos a Pagar
 output:
