@@ -133,7 +133,8 @@ Ao clicar no campo clicável da tabela de resultados o usuário será direcionad
 
 **EMPENHO**
 
-![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/3caaa656-5122-481a-adba-a9be338e5c96)
+![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/2abe46bc-e6b7-4bd3-8309-a8b9c7832cfc)
+
 ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/e397377c-ccfc-4478-b69f-80fc1096ae20)
 
 
