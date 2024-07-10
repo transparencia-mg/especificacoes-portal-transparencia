@@ -91,8 +91,8 @@ Como a nomenclatura da tabela origem será alterada será necessário se atentar
     * [Código Iniciativa]() -> ao clicar o usuário será direcionado para o 2º nível
     * Código Órgão -> -> apenas quando o usuário clicar em 'Exibir Código e Descrição'           
     * Órgão               
-    * Valor Despesa Empenhada            
-    * Valor Despesa Liquidada         
+    * Valor Empenhado            
+    * Valor Liquidado         
     * Valor Pago
     * Valor Liquidado em Restos a Pagar
     * Valor Cancelado em Restos a Pagar
@@ -107,8 +107,9 @@ Como a nomenclatura da tabela origem será alterada será necessário se atentar
     * Ano
     * Data de Registro do Empenho
     * CNPJ/CPF Favorecido
-    * Valor Despesa Empenhada            
-    * Valor Despesa Liquidada         
+    * Favorecido
+    * Valor Empenhado            
+    * Valor Liquidado         
     * Valor Pago
     * Valor Liquidado em Restos a Pagar
     * Valor Cancelado em Restos a Pagar
@@ -120,7 +121,12 @@ Como a nomenclatura da tabela origem será alterada será necessário se atentar
 
   * 3º NÍVEL - Formulário de Detalhamento
 
-Ao clicar no campo clicável da tabela de resultados o usuário será direcionado para o formulário de detalhamento, que será composto pelos seguintes atributos:
+Ao clicar no campo clicável da tabela de resultados o usuário será direcionado para o formulário de detalhamento.
+
+Se atentar para alteração do nome das colunas destacadas e a fórmula de cálculo:
+- Valor Empenhado Efetivo:
+
+ = Valor Empenhado **-** [(Valor Cancelado processado **+** Valor Cancelado Não Processado) **-** (Valor Reestabelecido Processado **+**Valor Reestabelecido Não Processado)]
 
 **EMPENHO**
 
@@ -139,8 +145,6 @@ Ao clicar no campo clicável da tabela de resultados o usuário será direcionad
 ![image](https://github.com/transparencia-mg/especificacoes-portal-transparencia/assets/53793354/e4c8634d-e7cc-4b7e-9c17-bf27d4c56381)
 
 
-
-
 ## Monte sua consulta
 <a href="#top">(inicio)</a>
 
@@ -153,11 +157,11 @@ As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remov
 
   * [Detalhar]() => ao clicar na lupa o usuário será direcionado para o 2º nível da tabela da pesquisa avançada
   * Ano
-  * Valor Despesa Empenhada            
-  * Valor Despesa Liquidada         
+  * Valor Empenhado            
+  * Valor Liquidado         
   * Valor Pago
   * Valor Liquidado em Restos a Pagar
-  * Valor Cancelado em Restos a Ppagar
+  * Valor Cancelado em Restos a Pagar
   * Valor Empenhado/Cancelado no Exercício
   * Valor Pago em Restos a Pagar
   * Valor Total Pago
@@ -171,8 +175,8 @@ As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remov
   * Unidade Executora
   * CNPJ/CPF Favorecido
   * Favorecido
-  * Valor Despesa Empenhada            
-  * Valor Despesa Liquidada         
+  * Valor Empenhado            
+  * Valor Liquidado         
   * Valor Pago
   * Valor Liquidado em Restos a Pagar
   * Valor Cancelado em Restos a Pagar
@@ -195,7 +199,7 @@ As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remov
 
 Como a nomenclatura da tabela origem será alterada será necessário se atentar para a mudança do mapa de carga para a correta extração do Portal de Dados Abertos.
 
-Os dados dessa consulta serão extraídos do Portal de Dados Abertos
+*Para não comprometer a atualização dos dados será realizado uma cópia da planilha para o ambiente de homologação do Portal de Dado Abertos com os ajutes na nomenclatura das colunas.*
 
 #### Filtros da Consulta
 Essa consulta será plurianual, ou seja, o usuário irá visualizar todas as iniciativas e valores independente do ano.
@@ -205,7 +209,7 @@ Essa consulta será plurianual, ou seja, o usuário irá visualizar todas as ini
 |--------------------------|-----------------
 |Portal de Dados Abertos|    https://dados.mg.gov.br/dataset/acordo-judicial-reparacacao-vale-Iniciativas
 
-
+*Para não comprometer a atualização dos dados será realizado uma cópia da planilha para o ambiente de homologação do Portal de Dado Abertos com os ajutes na nomenclatura das colunas.*
 
 #### Campos da Tabela
 
@@ -245,7 +249,7 @@ Essa consulta será anual, ou seja, o usuário irá visualizar a execução (Des
 |--|------|---|---------------|------------|---|
 |Portal de Dados Abertos| Código Iniciativa | Portal de Dados Abertos |Código Iniciativa            | Código da Iniciativa no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |
 |Fórmula Portal| -Valor Cancelado Processado<br> -Valor Cancelado Não Processado<br> -Valor Reestabelecido Processado<br> -Valor Reestabelecido não Processado<br>        |SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Cancelado em restos a pagar    |         | = (Valor Cancelado processado + Valor Cancelado Não Processado) - (Valor Reestabelecido processado + Valor Reestabelecido  Não Processado)           
-|Fórmula Portal| -Valor Despesa Empenhada<br> -Valor Cancelado Processado<br> -Valor Cancelado Não Processado<br> -Valor Restabelecido Processado<br> -Valor Restabelecido não Processado<br>        | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada <br>-SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Empenhado/cancelado no exercício    |                       |= Valor Despesa Empenhada - Valor Cancelado em restos a pagar (nova coluna do PDT)
+|Fórmula Portal| -Valor Empenhado<br> -Valor Cancelado Processado<br> -Valor Cancelado Não Processado<br> -Valor Restabelecido Processado<br> -Valor Restabelecido não Processado<br>        | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada <br>-SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Empenhado/cancelado no exercício    |                       |= Valor Empenhado - Valor Cancelado em restos a pagar (nova coluna do PDT)
 
 
 ##### Formulário de Detalhamento
@@ -266,6 +270,6 @@ _______
 |Dados|  Campo Armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Observações
 |--|-----------------------------|---|-------------------------|----|
 |Inscrição em Restos a Pagar| Data Registro Doc Empenho  | SIAFI - Execução de Restos a Pagar > Restos a Pagar > Dados do Empenho - Restos a Pagar |Data de Registro| Data de registro que o empenho foi inscrito em Restos a Pagar
-|Fórmula Portal| -Valor Despesa Empenhada<br> -Valor Cancelado Processado<br> -Valor Cancelado Não Processado<br> -Valor Restabelecido Processado<br> -Valor Restabelecido não Processado<br>        | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada <br>-SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Empenhado Efetivo    | = Valor Despesa Empenhada - Valor Cancelado em restos a pagar (nova coluna do PDT)                      
+|Fórmula Portal| -Valor Empenhado<br> -Valor Cancelado Processado<br> -Valor Cancelado Não Processado<br> -Valor Restabelecido Processado<br> -Valor Restabelecido não Processado<br>        | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada <br>-SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Empenhado Efetivo    | = Valor Empenhado **-** [(Valor Cancelado processado **+** Valor Cancelado Não Processado) **-** (Valor Reestabelecido Processado **+**Valor Reestabelecido Não Processado)]                  
 |Inscrição em Restos a Pagar|   |  | Descrição| Campo SIAFI não disponível para visualização da DTA. Trazer o campo já utilizado no formulário de detalhamento da consulta de Restos a pagar
 |Inscrição em Restos a Pagar|- Valor Inscrito Processado<br> - Valor Cancelado Processado<br> -Valor Restabelecido Processado<br> - Valor Inscrito Não Processado<br> -Valor Cancelado Não Processado<br> - Valor Restabelecido Não Processado<br>   |  SIAFI - Execução de Restos a Pagar > Restos a Pagar| Valor| Cada linha deverá apresentar o valor corresponde ao tipo de inscrição, cancelamento ou reestabelecimento em restos a pagar.
