@@ -101,8 +101,9 @@ A consulta será anual, ou seja, o usuário irá visualizar a execução da Dív
 |----|--|-----|
 |Período<br> ***(Data)***|sim| ***NÃO*** |
 |Período<br> ***(Apenas o ano)***|***NÃO***| sim |
-|Unidade Executora|sim | sim||
-Unidade de Programação de Gastos (UPG)|sim | sim||
+|Unidade Executora|sim | sim|
+|òrgão|sim | sim||
+|Unidade de Programação de Gastos (UPG)|sim | sim||
 |Função|sim | sim||
 |Subfunção|sim | sim||
 |Programa|sim | sim||
