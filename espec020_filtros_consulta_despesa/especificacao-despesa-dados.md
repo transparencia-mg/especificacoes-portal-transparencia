@@ -102,7 +102,7 @@ A consulta será anual, ou seja, o usuário irá visualizar a execução da Dív
 |Período<br> ***(Data)***|sim| ***NÃO*** |
 |Período<br> ***(Apenas o ano)***|***NÃO***| sim |
 |Unidade Executora|sim | sim|
-|òrgão|sim | sim||
+|Órgão|sim | sim||
 |Unidade de Programação de Gastos (UPG)|sim | sim||
 |Função|sim | sim||
 |Subfunção|sim | sim||
@@ -115,7 +115,7 @@ A consulta será anual, ou seja, o usuário irá visualizar a execução da Dív
 |Item de Despesa|sim | sim||
 |Fonte de Recurso|sim | sim||
 |Indicador de Procedência e Uso (IPU)|sim | sim||
-|Empenho|sim |sim|
+|Empenho <br>**Esse campo só será ativado se o usuário selecionar um Órgão**|sim |sim|
 |Número do Processo de Compra|sim | sim||
 |Procedimento de Contratação|sim |sim|
 |Objeto Processo|sim |sim|
@@ -124,7 +124,7 @@ A consulta será anual, ou seja, o usuário irá visualizar a execução da Dív
 |Título do Convênio / Parceria|sim |sim|
 |CNPJ/ CPF Favorecido<br>***Usar o atributo placeholder : Texto: 'apenas números'***|sim |sim|
 |Favorecido<br>***Usar o atributo placeholder : Texto: 'informe pelo menos 3 caracteres'***|sim |sim|
-|Número documento Pagamento|sim | sim||
+|Número documento Pagamento <br>**Esse campo só será ativado se o usuário selecionar um Órgão**|sim | sim||
 |Data Registro do Empenho |***NÃO*** | sim|
 |Data de Registro do Pagamento|***NÃO*** | sim||
 |Tipo Empenho|***NÃO*** | sim||
@@ -147,6 +147,7 @@ A consulta será anual, ou seja, o usuário irá visualizar a execução da Dív
 ***1º nível:***
 
 - Detalhar
+- Órgão
 - Valor Empenhado
 - valor Liquidado
 - Valo Pago
