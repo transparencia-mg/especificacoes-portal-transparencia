@@ -23,9 +23,10 @@ output:
 
 A Despesa pública é a aplicação do dinheiro arrecadado pelo Estado por meio de impostos, taxas, transferências ou outras fontes para custear os serviços de ordem pública ou para investir no desenvolvimento econômico do estado. É o compromisso de gastos dos recursos públicos, autorizados pelo Poder competente, com a finalidade de atender a uma necessidade da coletividade prevista no orçamento.
 
-A execução da despesa é realizada seguindo os três estágios presentes na [Lei Federal nº 4.320/64](http://www.planalto.gov.br/Ccivil_03/leis/L4320.htm):
-     - **Empenho:** etapa em que o governo reserva o dinheiro que será pago quando o bem for entregue ou o serviço concluído;
-     - **Liquidação:** etapa em que se verifica se o governo recebeu aquilo que comprou. Ou seja, quando se confere que o bem foi entregue corretamente ou que a etapa da obra foi concluída como acordado; e,
+A execução da despesa é realizada seguindo os três estágios presentes na [Lei Federal nº 4.320/64](http://www.planalto.gov.br/Ccivil_03/leis/L4320.htm):<br>
+<br>
+     - **Empenho:** etapa em que o governo reserva o dinheiro que será pago quando o bem for entregue ou o serviço concluído;<br>
+     - **Liquidação:** etapa em que se verifica se o governo recebeu aquilo que comprou. Ou seja, quando se confere que o bem foi entregue corretamente ou que a etapa da obra foi concluída como acordado; e,<br>
      - **Pagamento:** caso esteja tudo certo com as fases anteriores, o governo está autorizado a fazer o pagamento, repassando o valor ao fornecedor ou prestador de serviço.
 
 Para acessar os dados da despesa pública, o Portal da Transparência traz informações sobre a execução financeira e orçamentária da despesa pública do Estado de Minas Gerais através dos dados extraídos do [`SIAFI/MG`]((a "Sistema Integrado de Administração Financeira de Minas Gerais"). Os dados estão disponíveis desde o ano de 2002 e são atualizados diariamente no formato D+1.
