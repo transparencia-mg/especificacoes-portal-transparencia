@@ -208,12 +208,10 @@ As colunas definidas como padrão ficarão marcadas na tabela ***Adicionar/Remov
 
 Como a nomenclatura da tabela origem será alterada será necessário se atentar para a mudança do mapa de carga para a correta extração do Portal de Dados Abertos.
 
-<<<<<<< HEAD
-*Para não comprometer a atualização dos dados será realizado uma cópia da planilha para o ambiente de homologação do Portal de Dado Abertos com os ajutes na nomenclatura das colunas.*
-=======
+
 *Para não comprometer a atualização dos dados no ambiente de produção, será disponibilizado no ambiente de homologação do Portal de Dados Abertos a cópia dos dados com os ajustes de nomenclatura das colunas.*
 https://homologa.cge.mg.gov.br/dataset/acordo-judicial-reparacacao-vale-iniciativas
->>>>>>> 7230333f2c0dda0a20a2b7eae25549dfbf095f05
+
 
 #### Filtros da Consulta
 Essa consulta será plurianual, ou seja, o usuário irá visualizar todas as iniciativas e valores independentemente do ano.
@@ -223,12 +221,10 @@ Essa consulta será plurianual, ou seja, o usuário irá visualizar todas as ini
 |--------------------------|-----------------
 |Portal de Dados Abertos|    https://dados.mg.gov.br/dataset/acordo-judicial-reparacacao-vale-Iniciativas
 
-<<<<<<< HEAD
-*Para não comprometer a atualização dos dados será realizado uma cópia da planilha para o ambiente de homologação do Portal de Dado Abertos com os ajutes na nomenclatura das colunas.*
-=======
+
 *Para não comprometer a atualização dos dados no ambiente de produção, será disponibilizado no ambiente de homologação do Portal de Dados Abertos a cópia dos dados com os ajustes de nomenclatura das colunas.*
 https://homologa.cge.mg.gov.br/dataset/acordo-judicial-reparacacao-vale-iniciativas
->>>>>>> 7230333f2c0dda0a20a2b7eae25549dfbf095f05
+
 
 #### Campos da Tabela
 
@@ -267,13 +263,9 @@ Essa consulta será anual, ou seja, o usuário irá visualizar a execução (Des
 |Dados| Campo armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Tooltip - PdT           | Fórmula Portal
 |--|------|---|---------------|------------|---|
 |Portal de Dados Abertos| Código Iniciativa | Portal de Dados Abertos |Código Iniciativa            | Código da Iniciativa no armazém SIAFI (Sistema Integrado de Administração Financeira de Minas Gerais ) |
-<<<<<<< HEAD
-|Fórmula Portal| -Valor Cancelado Processado<br> -Valor Cancelado Não Processado<br> -Valor Reestabelecido Processado<br> -Valor Reestabelecido não Processado<br>        |SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Cancelado em restos a pagar    |         | = (Valor Cancelado processado + Valor Cancelado Não Processado) - (Valor Reestabelecido processado + Valor Reestabelecido  Não Processado)           
-|Fórmula Portal| -Valor Empenhado<br> -Valor Cancelado Processado<br> -Valor Cancelado Não Processado<br> -Valor Restabelecido Processado<br> -Valor Restabelecido não Processado<br>        | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada <br>-SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Empenhado/cancelado no exercício    |                       |= Valor Empenhado - Valor Cancelado em restos a pagar (nova coluna do PDT)
-=======
 |Fórmula Portal| -Valor Cancelado Processado<br> -Valor Cancelado Não Processado<br> -Valor Restabelecido Processado<br> -Valor Restabelecido não Processado<br>    |SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Cancelado em restos a pagar    |Referem-se aos valores cancelados, tanto processados quanto não processados, que foram inscritos em Restos a Pagar, incluindo também os restabelecimentos | = (Valor Cancelado processado + Valor Cancelado Não Processado) - (Valor Restabelecido processado + Valor Restabelecido  Não Processado)           
 |Fórmula Portal| -Valor Despesa Empenhada<br> -Valor Cancelado Processado<br> -Valor Cancelado Não Processado<br> -Valor Restabelecido Processado<br> -Valor Restabelecido não Processado<br>        | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada <br>-SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Empenhado/cancelado no exercício    |  Trata-se do montante adicionado e/ou cancelado no valor de um empenho em determinado exercício. Os valores negativos se referem a Restos a Pagar cancelados em determinado exercício. Assim, o ano indicado na coluna correspondente é relativo ao exercício no qual a movimentação ocorreu.                     |= Valor Empenhado - Valor Cancelado em restos a pagar (nova coluna do PDT)
->>>>>>> 7230333f2c0dda0a20a2b7eae25549dfbf095f05
+
 
 ##### Texto Tooltips
 •"Valor Empenhado/Cancelado no Exercício": Trata-se do montante adicionado e/ou cancelado no valor de um empenho em determinado exercício. Os valores negativos se referem a Restos a Pagar cancelados em determinado exercício. Assim, o ano indicado na coluna correspondente é relativo ao exercício no qual a movimentação ocorreu.
@@ -296,10 +288,6 @@ _______
 |Dados|  Campo Armazém BO- SIAFI     | Dimensão SIAFI| Campo PdT | Observações
 |--|-----------------------------|---|-------------------------|----|
 |Inscrição em Restos a Pagar| Data Registro Doc Empenho  | SIAFI - Execução de Restos a Pagar > Restos a Pagar > Dados do Empenho - Restos a Pagar |Data de Registro| Data de registro que o empenho foi inscrito em Restos a Pagar
-<<<<<<< HEAD
-|Fórmula Portal| -Valor Empenhado<br> -Valor Cancelado Processado<br> -Valor Cancelado Não Processado<br> -Valor Restabelecido Processado<br> -Valor Restabelecido não Processado<br>        | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada <br>-SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Empenhado Efetivo    | = Valor Empenhado **-** [(Valor Cancelado processado **+** Valor Cancelado Não Processado) **-** (Valor Reestabelecido Processado **+**Valor Reestabelecido Não Processado)]                  
-=======
 |Fórmula Portal| -Valor Despesa Empenhada<br> -Valor Cancelado Processado<br> -Valor Cancelado Não Processado<br> -Valor Restabelecido Processado<br> -Valor Restabelecido não Processado<br>        | SIAFI - Execução Orçamentária da Despesa > Despesa Realizada <br>-SIAFI - Execução de Restos a Pagar > Restos a Pagar |Valor Empenhado Efetivo    | = Valor Empenhado - Valor Cancelado em restos a pagar (nova coluna do PDT)                      
->>>>>>> 7230333f2c0dda0a20a2b7eae25549dfbf095f05
 |Inscrição em Restos a Pagar|   |  | Descrição| Campo SIAFI não disponível para visualização da DTA. Trazer o campo já utilizado no formulário de detalhamento da consulta de Restos a pagar
 |Inscrição em Restos a Pagar|- Valor Inscrito Processado<br> - Valor Cancelado Processado<br> -Valor Restabelecido Processado<br> - Valor Inscrito Não Processado<br> -Valor Cancelado Não Processado<br> - Valor Restabelecido Não Processado<br>   |  SIAFI - Execução de Restos a Pagar > Restos a Pagar| Valor| Cada linha deverá apresentar o valor corresponde ao tipo de inscrição, cancelamento ou reestabelecimento em restos a pagar.
